@@ -65,6 +65,60 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-02-20_garuda-linux-kde-dragonized-edition/" rel="bookmark">
+			Garuda Linux KDE Dragonized Edition
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://ameblo.jp/yuki9902/image-12657959777-14899410129.html"><img src="https://stat.ameba.jp/user_images/20210220/22/yuki9902/7d/22/p/o1366076814899410129.png?caw=800" alt="Garuda Linux DolphinファイルマネージャーとKonsoleターミナル"></a></p>
+<p><a href="https://garudalinux.org/downloads.html">Garuda Linux KDE Dragonized Edition</a>をノートPCにインストールしました。</p>
+<p>最低要件ギリギリですが、特に重さも感じない程度に動作します。</p>
+<p>USBメモリからライブ起動すると日本語でインストール出来ますが、システムのインストール後にランゲージパッケージを手動でインストールしないと文字化けしてインストールも碌に出来ません。</p>
+<p>なので、まずは英語でインストールします。</p>
+<p>インストールは他のLinuxディストリビューションとあまり変わらないので、すんなりといけると思います。</p>
+<p>インストール後にSystem SettingsからLanguage PackagesとKeyboard Settingsから日本語を設定します。</p>
+<p>パッケージのインストールが終了したら再起動します。</p>
+<p>GUIのデザインに関わる文字列はほとんど英語のままですが、システムメッセージなどは日本語化されます。</p>
+<p>画面の小さいノートPCでは、使いやすくはないですが、Windowsの野暮ったさやmacの無機質さと両方のデザインの不自由さに辟易したら、試してみると良いかもしれません。</p>
+<p>以下、Gemini3 Flashによる2026/01/24現在の検証</p>
+<hr>
+<h3 id="1-検証現在のgaruda-linuxの立ち位置">1. 検証：現在のGaruda Linuxの立ち位置</h3>
+<p>Garuda Linuxは、Arch Linuxをベースにした「ゲーミングと美観」に特化したディストリビューションです。</p>
+<ul>
+<li>
+<p><strong>最大の特徴:</strong> * <strong>パフォーマンス最適化:</strong> <code>zen-kernel</code>を標準採用し、CPUやI/Oのスケジューリングがデスクトップ/ゲーム用途に最適化されています。</p>
+<ul>
+<li><strong>GUIツールの充実:</strong> <code>Garuda Assistant</code>や<code>Garuda Gamer</code>など、Arch系でありながらコマンドを使わずに設定できるツールが豊富です。</li>
+<li><strong>Btrfs + Snapper:</strong> アップデートでシステムが壊れても、起動時のブートメニューから簡単に「壊れる前の状態」に戻せるバックアップ機能が標準装備されています。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-日本人への推奨度検証結果">2. 日本人への推奨度：検証結果</h3>
+<p>結論から述べると、<strong>「中級者以上のゲーマー」には強く勧められますが、「初心者」には依然としてハードルが高い</strong>と言えます。</p>
+<h4 id="ポジティブな側面勧められる理由">【ポジティブな側面：勧められる理由】</h4>
+<ol>
+<li><strong>日本語設定の簡略化:</strong> 以前はArch系特有の難しさがありましたが、最近のバージョン（Mokkaエディションなど）では、GUI上の「仮想キーボード」設定から<code>Fcitx5</code>を数クリックで選択するだけで日本語入力が整うようになっています。</li>
+<li><strong>最新ハードウェア（Radeon等）との相性:</strong> ブログ記事にあったようなRX 6750 XTなどの比較的新しいGPUを使う場合、最新のドライバがすぐに降ってくるArchベースのGarudaは、性能を最大限引き出すのに適しています。</li>
+<li><strong>ゲーミング環境の自動構築:</strong> <code>Garuda Gamer</code>ツールにより、Steam, Wine, Proton, 各種エミュレータ、Discordなどを一括インストールでき、設定の手間がWindowsに近くなっています。</li>
+</ol>
+<h4 id="ネガティブな側面推奨しにくい理由">【ネガティブな側面：推奨しにくい理由】</h4>
+<ol>
+<li><strong>Wayland環境下の日本語入力問題:</strong> 現在の主流であるKDE Plasma 6やHyprland環境（Wayland）では、ChromeやVSCodeなどのアプリで日本語入力を行うために、依然としてフラグ設定（<code>chrome:flags</code>等）や環境変数の追記が必要なケースがあります。</li>
+<li><strong>リソース消費の激しさ:</strong> 「美観」を重視しているため、アニメーションや透明化エフェクトでメモリを多く消費します。低スペックPCの日本人ユーザーには向きません。</li>
+<li><strong>ローカライズの不完全さ:</strong> 設定ツールの一部が英語のままであったり、日本語フォントのレンダリングを自分で調整（RictyやNoto Sans等への変更）しないと「中華フォント」っぽさが残る場合があります。</li>
+</ol>
+<hr>
+<h3 id="3-追加できる考察garuda-linuxをさらに楽しむために">3. 追加できる考察：Garuda Linuxをさらに楽しむために</h3>
+<p>記事に付け加えるべき「日本人向け」の考察ポイントを提案します。</p>
+<h4 id="-タイムマシンとしての安心感">① 「タイムマシン」としての安心感</h4>
+<p>Linux初心者や日本人がArch系を避ける最大の理由は「アップデートで起動しなくなる不安」です。しかし、Garudaの<strong>Btrfs + Snapper自動スナップショット</strong>は、OS版の「システムの復元」として極めて優秀です。「設定をいじりすぎて日本語入力が壊れた」といった際も、再起動して1分で元に戻せる点は、もっと評価されるべき強みです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-02-18_%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%AB%E5%87%BA%E3%82%8B/" rel="bookmark">
 			引きこもり、ラーメンを食べに出る
 			</a>
@@ -239,28 +293,6 @@
 <p>とりあえず、高性能コア -5、他のコア -30、コア電圧 マイナスオフセット、0.05V。</p>
 <p>水冷で全コアOCした方が良いかも。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-02-08_%E4%BD%8E%E6%B0%97%E5%9C%A7/" rel="bookmark">
-			低気圧
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>今日は暖かい日でしたが、低気圧のせいで頭が痛い状態でした。</p>
-<p>痛み止めを飲んで、あとはぼーっとしてたかな。</p>
-<p>昨日の晩に、イベリコ豚のもも肉をバターとオリーブオイルと大蒜のスライスでコートレットにしました。</p>
-<p>揚げ焼きにした後に、赤ワインと砂糖と醤油をいれてソースにしました。</p>
-<p>弱火でゆっくりと火を通し、固くなる前に取り出して、とても柔らかく仕上がりました。</p>
-<p>最近、岡山県のブランド豚、ピーチポークが買えないので、イベリコ豚にしました。</p>
-<p>どちらも豚特有の臭みがなく甘みを感じますが、ピーチポークは白く、イベリコ豚は赤いです。</p>
-<p>豚コレラと鳥インフルエンザが治まらないと食肉が減っていきます。</p>
-<p>今夜はもう休みましょう。</p>
-<p>明日は良い日になるように願って。</p>
-	</div>
 </article>
 </main>
 
@@ -282,6 +314,7 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
@@ -291,7 +324,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
 		</ul>
 	</div>
 </div>
@@ -1666,7 +1698,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (2)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

@@ -6,8 +6,15 @@
     <description>Recent content in 2026-03 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 01 Mar 2026 08:53:16 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 19:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/archives/2026-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RADEON Software Adrenaline 26.2.2</title>
+      <link>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</link>
+      <pubDate>Tue, 03 Mar 2026 19:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</guid>
+      <description>&lt;h3 id=&#34;amd-software-adrenalin-edition-2622-release-notes&#34;&gt;&lt;a href=&#34;https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-2.html&#34;&gt;AMD Software: Adrenalin Edition 26.2.2 Release Notes&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;AMD Software: Adrenaline Edition 26.2.2 が公開されています。&lt;/p&gt;&#xA;&lt;p&gt;前回より、約600MBスリムになっています。アップデートインストールしたので、AI Bundleの何かが少なくなっているのかはわかりません。&lt;/p&gt;&#xA;&lt;p&gt;そして前回のAMD Software Adrenalin Edition 26.2.1では、ROCm7.2がインストールされました。&lt;/p&gt;&#xA;&lt;p&gt;AMDの手順で、PyTorchインストール中にROCm7.1.1のインストールコマンドでエラーになるので、エラーメッセージを見ると7.2のバージョンをインストールして、と出ていたいので、ROCm7.2がAdrenaline 26.2.1と一緒にインストールされているのがわかりました。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>yuki9902::blog</title>
       <link>http://localhost:1313/posts/2026-03-01_yuki9902__blog/</link>
