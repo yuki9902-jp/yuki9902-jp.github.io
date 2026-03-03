@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2008-12 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2008-12/</link>
+    <link>http://localhost:1313/archives/2008-12/</link>
     <description>Recent content in 2008-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 24 Dec 2008 22:04:33 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2008-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2008-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K10D復活</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-24-k10d%E5%BE%A9%E6%B4%BB/</link>
+      <link>http://localhost:1313/posts/2008-12-24-k10d%E5%BE%A9%E6%B4%BB/</link>
       <pubDate>Wed, 24 Dec 2008 22:04:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-24-k10d%E5%BE%A9%E6%B4%BB/</guid>
+      <guid>http://localhost:1313/posts/2008-12-24-k10d%E5%BE%A9%E6%B4%BB/</guid>
       <description>&lt;p&gt;年内に修理が上がってくるとは思わなかったのですが、今日、家に帰ると修理からK10Dが帰ってきてました。&lt;/p&gt;&#xA;&lt;p&gt;MF、AFもピントが直ってました。&lt;/p&gt;&#xA;&lt;p&gt;実写してもちゃんと直ってます。&lt;/p&gt;&#xA;&lt;p&gt;これでK20Dと併せてメインカメラが２台体制となります。&lt;/p&gt;&#xA;&lt;p&gt;今度撮り比べします。&lt;/p&gt;&#xA;&lt;p&gt;K20Dは低輝度で若干青色にブロック状のノイズが乗るので、特徴をしっかりとつかまないといけないな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>諸々</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-24-%E8%AB%B8%E3%80%85/</link>
+      <link>http://localhost:1313/posts/2008-12-24-%E8%AB%B8%E3%80%85/</link>
       <pubDate>Wed, 24 Dec 2008 08:18:11 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-24-%E8%AB%B8%E3%80%85/</guid>
+      <guid>http://localhost:1313/posts/2008-12-24-%E8%AB%B8%E3%80%85/</guid>
       <description>&lt;p&gt;USBの1TB外付けHDDを買いました。&lt;/p&gt;&#xA;&lt;p&gt;K&amp;rsquo;sデンキで14,800円だったので一応「買い」かと思って。&lt;/p&gt;&#xA;&lt;p&gt;さて、若干使い道に困っていますが、LAN HDDの中にある400GBのファイルたちを1TB HDDにコピーして、PC本体にくっつけようと思っています。&lt;/p&gt;&#xA;&lt;p&gt;LAN HDDは確かに共有するにはいいのですが、1GbpsのLANでもTCP/IPのオーバーヘッドによる遅延が気になるし、すぐに使いたいファイルの検索とかには向かないです。&lt;/p&gt;&#xA;&lt;p&gt;なので、PC本体にあるあまり使わないファイルと共有したいメディアファイルをLAN HDDに移転です。&lt;/p&gt;&#xA;&lt;p&gt;丸二日ぐらいの時間が必要になるかな。&lt;/p&gt;&#xA;&lt;p&gt;あと、押し入れの整理をしてたら、完全に使わなくなったマザーボードが数枚出てきました。&lt;/p&gt;&#xA;&lt;p&gt;ソケット７とスロット１、ソケット347?です。&lt;/p&gt;&#xA;&lt;p&gt;CPUもあったような気がします。&lt;/p&gt;&#xA;&lt;p&gt;メモリはないですが。&lt;/p&gt;&#xA;&lt;p&gt;HDDとかCD-ROMドライブとか、売ってもがらくたなので、棄てようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;それは別として、整理するために入れ物を購入して、外にあふれていた小物を押し込みました。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとは片付いたような気がします。&lt;/p&gt;&#xA;&lt;p&gt;カラーボックスが壊れていたので、買い換えないといけないですな。&lt;/p&gt;&#xA;&lt;p&gt;本棚として使っているモノなので、少し収納力のある丈夫なモノにしようかな。&lt;/p&gt;&#xA;&lt;p&gt;普段使ってない部屋があるので、ウォークインクロゼットみたいにして衣類をそちらに全部まとめて、自室を広げようかな。&lt;/p&gt;&#xA;&lt;p&gt;普段使ってない部屋には昔のでっかいオーディオを置いているので、それを倉庫に移動しないと。&lt;/p&gt;&#xA;&lt;p&gt;「TRIO」のレコードプレーヤー＋アンプ＋スピーカーです。&lt;/p&gt;&#xA;&lt;p&gt;調度品のようなデザインとでかさです。&lt;/p&gt;&#xA;&lt;p&gt;３５～６年前に中古で２０万、当時の初任給が２～３万らしいですから、今の金銭価値にすると１００万ほど、新品だと１５０～１６０万ほどのモノらしいです。&lt;/p&gt;&#xA;&lt;p&gt;はぁ～、昔はうちにも金があったんだね。&lt;/p&gt;&#xA;&lt;p&gt;棄てるわけにはいかないので、倉庫に入れておきます。&lt;/p&gt;&#xA;&lt;p&gt;真空管の換えが手に入らないので修理はほぼ不可能です。&lt;/p&gt;&#xA;&lt;p&gt;あと３０年もしたらそれなりにおもしろいことになるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TOSHIBA SD-XDE1</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-16-toshiba-sd-xde1/</link>
+      <link>http://localhost:1313/posts/2008-12-16-toshiba-sd-xde1/</link>
       <pubDate>Tue, 16 Dec 2008 17:07:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-16-toshiba-sd-xde1/</guid>
+      <guid>http://localhost:1313/posts/2008-12-16-toshiba-sd-xde1/</guid>
       <description>&lt;p&gt;今更ながらDVDプレーヤーを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;単なるDVDプレーヤーです。&lt;/p&gt;&#xA;&lt;p&gt;パイオニアはSACDとか再生できますが、東芝のSD-SDE1はDVDとCDのみです。&lt;/p&gt;&#xA;&lt;p&gt;XDEという画像補間技術でSD画質をフルHDでもなんとか見られるようにしようという技術です。&lt;/p&gt;&#xA;&lt;p&gt;フルHD（1080P）で再生するためには、HDMI接続が必須ですが、4:3の映像が、かならず16:9に引き延ばされてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;本体の設定ではどうしようもないです。&lt;/p&gt;&#xA;&lt;p&gt;デジタル放送などをDVD-R/Wとかに16:9録画したモノや、DVD-Videoでも16:9収録（スクイーズ）したものは、きちんと16:9で再生されます。&lt;/p&gt;&#xA;&lt;p&gt;画質ですが、かなりいけてます。&lt;/p&gt;&#xA;&lt;p&gt;所詮SDのアップコンバートですが、デジタル放送のアップコンバート番組、1440スクイーズ放送、高圧縮放送よりもキレイに見えます。&lt;/p&gt;&#xA;&lt;p&gt;あくまで主観です。&lt;/p&gt;&#xA;&lt;p&gt;PS3と比べるとPS3のノーマルモードよりは若干キレイに見えます。&lt;/p&gt;&#xA;&lt;p&gt;ただしPS3の２倍モードのほうが、キレイです。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり通常使うのに4:3映像が引き延ばされるのは明らかにNG。&lt;/p&gt;&#xA;&lt;p&gt;でもテレビ側で16:9を4:3に圧縮できるなら、最上の画質が得られます。&lt;/p&gt;&#xA;&lt;p&gt;価格が１５０００円前後であることから、DVD再生ソフトを買うのと大差ないので、買っても痛手ではないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;でも4:3がいけてないのでお得感は全くないです。&lt;/p&gt;&#xA;&lt;p&gt;むしろ買わなきゃよかったと思うこと請け合いです。&lt;/p&gt;&#xA;&lt;p&gt;あと、電源OFF時にスイッチ回路から発振して、高い音で「キーン」と鳴ります。&lt;/p&gt;&#xA;&lt;p&gt;コンセントを抜けば音はしませんけど。。。&lt;/p&gt;&#xA;&lt;p&gt;静かな部屋だとすごく気になります。&lt;/p&gt;&#xA;&lt;p&gt;たぶん抵抗を入れて接地してやれば音はしなくなると思いますが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>神経使いすぎ</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-10-%E7%A5%9E%E7%B5%8C%E4%BD%BF%E3%81%84%E3%81%99%E3%81%8E/</link>
+      <link>http://localhost:1313/posts/2008-12-10-%E7%A5%9E%E7%B5%8C%E4%BD%BF%E3%81%84%E3%81%99%E3%81%8E/</link>
       <pubDate>Wed, 10 Dec 2008 22:43:31 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-10-%E7%A5%9E%E7%B5%8C%E4%BD%BF%E3%81%84%E3%81%99%E3%81%8E/</guid>
+      <guid>http://localhost:1313/posts/2008-12-10-%E7%A5%9E%E7%B5%8C%E4%BD%BF%E3%81%84%E3%81%99%E3%81%8E/</guid>
       <description>&lt;p&gt;神経使いすぎで、頭が痛い。&lt;/p&gt;&#xA;&lt;p&gt;目も使いすぎ。&lt;/p&gt;&#xA;&lt;p&gt;長期に休みが必要なようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vista x64 でデジタルTV</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-09-vista-x64-%E3%81%A7%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABtv/</link>
+      <link>http://localhost:1313/posts/2008-12-09-vista-x64-%E3%81%A7%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABtv/</link>
       <pubDate>Tue, 09 Dec 2008 00:33:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-09-vista-x64-%E3%81%A7%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABtv/</guid>
+      <guid>http://localhost:1313/posts/2008-12-09-vista-x64-%E3%81%A7%E3%83%87%E3%82%B8%E3%82%BF%E3%83%ABtv/</guid>
       <description>&lt;p&gt;ついに Windows Vista x64 対応の3波デジタルチューナーカードが発売される。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.pixela.co.jp/products/tv_capture/pix_dt090_pe0/index.jpg&#34;&gt;http://www.pixela.co.jp/products/tv_capture/pix_dt090_pe0/index.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;これでBD-Rを一緒に購入すれば、ようやくレコーダーと同じ環境が得られる。&lt;/p&gt;&#xA;&lt;p&gt;クアッドコアの持ち腐れにならずに済む。&lt;/p&gt;&#xA;&lt;p&gt;HDDの増設とで、ライブラリを構築できる。&lt;/p&gt;&#xA;&lt;p&gt;ああ、でも、面白いコンテンツがない。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K20D</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-12-07-pentax-k20d/</link>
+      <link>http://localhost:1313/posts/2008-12-07-pentax-k20d/</link>
       <pubDate>Sun, 07 Dec 2008 19:45:28 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-12-07-pentax-k20d/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1497m.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1497m.jpg&#34; alt=&#34;_IGP1497m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;K10Dのピントに嫌気がさして、K20Dを購入した。&lt;/p&gt;&#xA;&lt;p&gt;上の写真は、K10Dで撮影したもの。&lt;/p&gt;&#xA;&lt;p&gt;ピントは予想位置に置きピン。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2008-12-07-pentax-k20d/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/img/_IGP1497m.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/_IGP1497m.jpg&#34; alt=&#34;_IGP1497m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;K10Dのピントに嫌気がさして、K20Dを購入した。&lt;/p&gt;&#xA;&lt;p&gt;上の写真は、K10Dで撮影したもの。&lt;/p&gt;&#xA;&lt;p&gt;ピントは予想位置に置きピン。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,262 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019-02 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2019-02/</link>
+    <link>http://localhost:1313/archives/2019-02/</link>
     <description>Recent content in 2019-02 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 28 Feb 2019 22:52:18 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2019-02/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2019-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今月は</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-28_%E4%BB%8A%E6%9C%88%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2019-02-28_%E4%BB%8A%E6%9C%88%E3%81%AF/</link>
       <pubDate>Thu, 28 Feb 2019 22:52:18 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-28_%E4%BB%8A%E6%9C%88%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2019-02-28_%E4%BB%8A%E6%9C%88%E3%81%AF/</guid>
       <description>&lt;p&gt;痛みで家に籠もっていったらもう２月も終わりです。&lt;/p&gt;&#xA;&lt;p&gt;今日もまだお腹に違和感がありますが、動けなくはないです。&lt;/p&gt;&#xA;&lt;p&gt;もう梅も河津桜も綺麗に咲いているようです。&lt;/p&gt;&#xA;&lt;p&gt;どこかに出かけてみようかな。&lt;/p&gt;&#xA;&lt;p&gt;３月は良い月になるといいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>29日がないのか</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-27_29%E6%97%A5%E3%81%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-27_29%E6%97%A5%E3%81%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B/</link>
       <pubDate>Wed, 27 Feb 2019 00:13:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-27_29%E6%97%A5%E3%81%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-27_29%E6%97%A5%E3%81%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B/</guid>
       <description>&lt;p&gt;2月9日は痛みの真っ最中で何も覚えていません。&lt;/p&gt;&#xA;&lt;p&gt;今月は29日がないのですね。&lt;/p&gt;&#xA;&lt;p&gt;つまり肉の日がないのです。&lt;/p&gt;&#xA;&lt;p&gt;赤身の牛肉をステーキにして食べたい。&lt;/p&gt;&#xA;&lt;p&gt;なんかそんな感じです。&lt;/p&gt;&#xA;&lt;p&gt;今夜は、サーモンの紙包み焼きを作りました。&lt;/p&gt;&#xA;&lt;p&gt;玉葱のスライスを敷いて、サーモンの切り身を乗せ、エノキダケをのせ、味噌マヨネーズ辛子ソースをたっぷりのせて、包み込んでフライパンに蓋をして弱火でじっくり焼いていきます。&lt;/p&gt;&#xA;&lt;p&gt;玉葱が少々焦げても大丈夫。&lt;/p&gt;&#xA;&lt;p&gt;ま、そんな晩ご飯でした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>M.2 NVMe SSDの移設</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-26_m.2-nvme-ssd%E3%81%AE%E7%A7%BB%E8%A8%AD/</link>
+      <link>http://localhost:1313/posts/2019-02-26_m.2-nvme-ssd%E3%81%AE%E7%A7%BB%E8%A8%AD/</link>
       <pubDate>Tue, 26 Feb 2019 18:04:29 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-26_m.2-nvme-ssd%E3%81%AE%E7%A7%BB%E8%A8%AD/</guid>
+      <guid>http://localhost:1313/posts/2019-02-26_m.2-nvme-ssd%E3%81%AE%E7%A7%BB%E8%A8%AD/</guid>
       <description>&lt;p&gt;マザーボードに搭載されているM.2スロットがPCIe3.0 x16スロットの直下にあるので、発熱量の高いNVMe SSDを使っていると、グラフィックカードが高負荷になるとかなりの熱を排出するので、SSDも高温になります。&lt;/p&gt;&#xA;&lt;p&gt;仕方ないので、グラフィックカードを下のPCIe3.0 x8スロットに挿していました。&lt;/p&gt;&#xA;&lt;p&gt;GTX 1060 6GBだったので、PCIe3.0 x8でも帯域幅は十分ではありますが…。&lt;/p&gt;&#xA;&lt;p&gt;で、M.2 NVMe SSDを一番下のPCIe3.0 x4スロットに移設することにしました。&lt;/p&gt;&#xA;&lt;p&gt;使用したM.2 to PCIe3.0 x4カードは、ainexのAIF-08でヒートシンクの大きさから、冷却性能には定評のあるものです。&lt;/p&gt;&#xA;&lt;p&gt;M.2 NVMe SSDはWD BLACK 512GBの第一世代です。&lt;/p&gt;&#xA;&lt;p&gt;このSSDはサムソンのSSDほどではないですが、高負荷時には結構な発熱をします。&lt;/p&gt;&#xA;&lt;p&gt;で、移設したので高負荷時の温度を比較します。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12442965590-14362872323.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190226/17/yuki9902/fc/3e/j/o0554022514362872323.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;左が移設前、右が移設後。&lt;/p&gt;&#xA;&lt;p&gt;そしてアクセス速度の比較です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12442965590-14362872367.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190226/17/yuki9902/93/85/j/o0804037014362872367.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;アクセス速度が下がったように見えますが、バックグラウンド処理の影響もあるので、誤差の範囲というか測る度にバラツキが出るので、速度はほぼ同じくらいだと思います。&lt;/p&gt;&#xA;&lt;p&gt;劇的に温度が下がったので、部品寿命も伸びるでしょうし、高負荷時で高熱状態で性能が低下するサーマルスロットリングが発生することもないです。&lt;/p&gt;&#xA;&lt;p&gt;この変換ボードだと、HDDアクセスランプに連動しなくなるのが欠点ですが、SSDのアクセス中にリセットを押しても物理的な破損をすることはないので特に問題とはならないですが。&lt;/p&gt;&#xA;&lt;p&gt;追記&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12442965590-14362893780.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190226/18/yuki9902/13/3c/j/o0804037014362893780.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;一番下のPCIe x4スロットは2.0準拠でした。&lt;/p&gt;&#xA;&lt;p&gt;SSDがバスの上限値に当たっていて速度が出ていないのが判ったので、一つ上のPCIe 3.0 x8スロットに挿し直して、スピードを測り直しました。&lt;/p&gt;&#xA;&lt;p&gt;オンボードのM.2とPCIe3.0 x8に挿した変換ボードでは同じ性能が出ています。&lt;/p&gt;&#xA;&lt;p&gt;PCIe2.0と3.0が入り交じっているとは気がつかなかった。&lt;/p&gt;&#xA;&lt;p&gt;あ、マニュアルには注意書きしてあった(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>左半身が</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-25_%E5%B7%A6%E5%8D%8A%E8%BA%AB%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2019-02-25_%E5%B7%A6%E5%8D%8A%E8%BA%AB%E3%81%8C/</link>
       <pubDate>Mon, 25 Feb 2019 18:16:19 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-25_%E5%B7%A6%E5%8D%8A%E8%BA%AB%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2019-02-25_%E5%B7%A6%E5%8D%8A%E8%BA%AB%E3%81%8C/</guid>
       <description>&lt;p&gt;度重なる親父の食事の我が儘の文句に、ぷっつん切れて怒ったら、左半身が上手く動かなくなり、目眩がおこりました。&lt;/p&gt;&#xA;&lt;p&gt;今日は結石の痛みもあって、イライラもたまり、精神的にまいっていたので余計にストレスがかかったようです。&lt;/p&gt;&#xA;&lt;p&gt;もう10年以上も、脳内物質の働きが上手くいかない状態なので、なるべく心を平穏に保ちたいのですが、世の中自分一人で生きているわけじゃ無く、ままならない物ですね。&lt;/p&gt;&#xA;&lt;p&gt;せめて人の神経を逆なでしないようにしてくれればいいんですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-25_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2019-02-25_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Mon, 25 Feb 2019 12:20:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-25_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2019-02-25_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;左脇腹が痛いです。&lt;/p&gt;&#xA;&lt;p&gt;鈍い痛みですが、気が散って物事が手に付きません。&lt;/p&gt;&#xA;&lt;p&gt;はあ…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お腹が張る</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-25_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-25_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</link>
       <pubDate>Mon, 25 Feb 2019 03:12:31 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-25_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-25_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</guid>
       <description>&lt;p&gt;まだ石が落ちないなぁ。&lt;/p&gt;&#xA;&lt;p&gt;お腹が張る感じがあるというか、ガスが溜まりがち(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;今日も、あなたには良いことがありますように。&lt;/p&gt;&#xA;&lt;p&gt;私は、とりあえず調子が良くなるように待つだけだわ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>地域限定</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-24_%E5%9C%B0%E5%9F%9F%E9%99%90%E5%AE%9A/</link>
+      <link>http://localhost:1313/posts/2019-02-24_%E5%9C%B0%E5%9F%9F%E9%99%90%E5%AE%9A/</link>
       <pubDate>Sun, 24 Feb 2019 18:13:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-24_%E5%9C%B0%E5%9F%9F%E9%99%90%E5%AE%9A/</guid>
+      <guid>http://localhost:1313/posts/2019-02-24_%E5%9C%B0%E5%9F%9F%E9%99%90%E5%AE%9A/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12442491895-14361703712.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190224/18/yuki9902/fd/d3/j/o1080081014361703712.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;鳥取の白バラコーヒーと岡山限定のりんごパンです。&lt;/p&gt;&#xA;&lt;p&gt;地域限定ですが田舎でも良いものがあります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>tonight</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-24_tonight/</link>
+      <link>http://localhost:1313/posts/2019-02-24_tonight/</link>
       <pubDate>Sun, 24 Feb 2019 02:32:11 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-24_tonight/</guid>
+      <guid>http://localhost:1313/posts/2019-02-24_tonight/</guid>
       <description>&lt;p&gt;今夜はちょっと暖かいというか寒くはないですね。&lt;/p&gt;&#xA;&lt;p&gt;例年の2月は底冷えするもんですが、春が早く来ているようです。&lt;/p&gt;&#xA;&lt;p&gt;今年は写真を撮りにいけるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痛みの野郎が戻ってきた</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-22_%E7%97%9B%E3%81%BF%E3%81%AE%E9%87%8E%E9%83%8E%E3%81%8C%E6%88%BB%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2019-02-22_%E7%97%9B%E3%81%BF%E3%81%AE%E9%87%8E%E9%83%8E%E3%81%8C%E6%88%BB%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
       <pubDate>Fri, 22 Feb 2019 00:38:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-22_%E7%97%9B%E3%81%BF%E3%81%AE%E9%87%8E%E9%83%8E%E3%81%8C%E6%88%BB%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2019-02-22_%E7%97%9B%E3%81%BF%E3%81%AE%E9%87%8E%E9%83%8E%E3%81%8C%E6%88%BB%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
       <description>&lt;p&gt;今日は寒かったせいか、昼過ぎから左脇腹が痛みました。&lt;/p&gt;&#xA;&lt;p&gt;まだ石が落ちてないので痛いのは当然でしょうけど。&lt;/p&gt;&#xA;&lt;p&gt;3日ほど楽だったので、もう大丈夫かなぁと思ったけどまだだね。&lt;/p&gt;&#xA;&lt;p&gt;今はじんわりと痛みがありますが、動けない程じゃありません。&lt;/p&gt;&#xA;&lt;p&gt;早く落ちてくれれば良いのに。&lt;/p&gt;</description>
     </item>
     <item>
       <title>さて</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-20_%E3%81%95%E3%81%A6/</link>
+      <link>http://localhost:1313/posts/2019-02-20_%E3%81%95%E3%81%A6/</link>
       <pubDate>Wed, 20 Feb 2019 18:18:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-20_%E3%81%95%E3%81%A6/</guid>
+      <guid>http://localhost:1313/posts/2019-02-20_%E3%81%95%E3%81%A6/</guid>
       <description>&lt;p&gt;親父が近所の人から、獲れたての大量の生わかめを貰ってきた。&lt;/p&gt;&#xA;&lt;p&gt;レジ袋に1杯。&lt;/p&gt;&#xA;&lt;p&gt;それって一般家庭で食べる量の1年分ちょっとぐらいだから…。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、何度も水洗いした後、熱湯で茹でて殺菌消毒を二回して、さらに水で洗い流して綺麗にした。&lt;/p&gt;&#xA;&lt;p&gt;直ぐにサラダで食べる分をタッパにとって、残りは塩もみして小分けにして冷凍。&lt;/p&gt;&#xA;&lt;p&gt;本当は塩もみしてから干して乾燥させるのがいいんだけど。&lt;/p&gt;&#xA;&lt;p&gt;今日はレタス、かいわれ、人参、わかめ、刺身の切り落としなどでサラダを山盛り食べて、鰺フライを食べて、お腹いっぱいです。&lt;/p&gt;&#xA;&lt;p&gt;明日は、ワカメと豆腐の味噌汁かな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ピリリとした刺激でおはよう。</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-20_%E3%83%94%E3%83%AA%E3%83%AA%E3%81%A8%E3%81%97%E3%81%9F%E5%88%BA%E6%BF%80%E3%81%A7%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2019-02-20_%E3%83%94%E3%83%AA%E3%83%AA%E3%81%A8%E3%81%97%E3%81%9F%E5%88%BA%E6%BF%80%E3%81%A7%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Wed, 20 Feb 2019 09:33:25 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-20_%E3%83%94%E3%83%AA%E3%83%AA%E3%81%A8%E3%81%97%E3%81%9F%E5%88%BA%E6%BF%80%E3%81%A7%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2019-02-20_%E3%83%94%E3%83%AA%E3%83%AA%E3%81%A8%E3%81%97%E3%81%9F%E5%88%BA%E6%BF%80%E3%81%A7%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;大阪で流行りのスパイシーカレーにのかって、カップヌードルもスパイシーカレーを発売してます。&lt;/p&gt;&#xA;&lt;p&gt;これまでのカレーヌードルには足りなかったカレーらしいスパイシーさです。&lt;/p&gt;&#xA;&lt;p&gt;辛いけど良いです。&lt;/p&gt;&#xA;&lt;p&gt;でもちょっと甘味が多いです。&lt;/p&gt;&#xA;&lt;p&gt;甘味がもう少し少ないともっと美味しいと思います。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12441464364-14359289182.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190220/09/yuki9902/a4/4f/j/o1080081014359289182.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>痛みが無くなりました</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-20_%E7%97%9B%E3%81%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2019-02-20_%E7%97%9B%E3%81%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 20 Feb 2019 04:46:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-20_%E7%97%9B%E3%81%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2019-02-20_%E7%97%9B%E3%81%BF%E3%81%8C%E7%84%A1%E3%81%8F%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;まだ石は落ちきってないようですが、痛みは殆ど感じ無いです。&lt;/p&gt;&#xA;&lt;p&gt;時々、患部近くの筋肉が痙攣しますが。&lt;/p&gt;&#xA;&lt;p&gt;三週間ぶりに歩くと足腰が弱ってますね。&lt;/p&gt;&#xA;&lt;p&gt;心療内科の帰りにショッピングモール寄りましたが、ほぼベンチで休んでました。&lt;/p&gt;&#xA;&lt;p&gt;歩いているとお腹が痙攣するのもありますけれど。&lt;/p&gt;&#xA;&lt;p&gt;で、ちょっと調子を取り戻したら夜更かししすぎて、もうすぐ朝です。&lt;/p&gt;&#xA;&lt;p&gt;これから寝ます。&lt;/p&gt;&#xA;&lt;p&gt;お仕事に行く方は、まとまった雨になるようなので、雨具の準備、滑り止め対策をちゃんとしてお出かけください。&lt;/p&gt;&#xA;&lt;p&gt;家の中では両親の間に嵐が吹き荒れておりますが、最近は考えることも感じることも半ば放棄してますので、それほどストレスは溜まりません。&lt;/p&gt;&#xA;&lt;p&gt;自分のこと自体も突き放し気味なのが駄目なんですけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>苦しみから</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-18_%E8%8B%A6%E3%81%97%E3%81%BF%E3%81%8B%E3%82%89/</link>
+      <link>http://localhost:1313/posts/2019-02-18_%E8%8B%A6%E3%81%97%E3%81%BF%E3%81%8B%E3%82%89/</link>
       <pubDate>Mon, 18 Feb 2019 18:05:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-18_%E8%8B%A6%E3%81%97%E3%81%BF%E3%81%8B%E3%82%89/</guid>
+      <guid>http://localhost:1313/posts/2019-02-18_%E8%8B%A6%E3%81%97%E3%81%BF%E3%81%8B%E3%82%89/</guid>
       <description>&lt;p&gt;今朝は、お腹が強烈に痛むこともなく普通に目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;若干、押しつけられるような鈍い痛みがありますが、痛み止めが無くても耐えられる状態です。&lt;/p&gt;&#xA;&lt;p&gt;まだ完全に石が落ちきっているわけでは無いですが、日常生活は問題ないぐらいになりました。&lt;/p&gt;&#xA;&lt;p&gt;なので、今日からまた食事の準備をし始めました。&lt;/p&gt;&#xA;&lt;p&gt;明日は、心療内科に行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;雨が降るようですが、またお腹が痛み出す前に行ってこようと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痛い日が続きます</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-17_%E7%97%9B%E3%81%84%E6%97%A5%E3%81%8C%E7%B6%9A%E3%81%8D%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-02-17_%E7%97%9B%E3%81%84%E6%97%A5%E3%81%8C%E7%B6%9A%E3%81%8D%E3%81%BE%E3%81%99/</link>
       <pubDate>Sun, 17 Feb 2019 22:58:30 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-17_%E7%97%9B%E3%81%84%E6%97%A5%E3%81%8C%E7%B6%9A%E3%81%8D%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-02-17_%E7%97%9B%E3%81%84%E6%97%A5%E3%81%8C%E7%B6%9A%E3%81%8D%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;痛み止めを飲んでいても時々痛みます。&lt;/p&gt;&#xA;&lt;p&gt;飲んでないと動けないです。&lt;/p&gt;&#xA;&lt;p&gt;食料品を買いに出る予定もキャンセルです。&lt;/p&gt;&#xA;&lt;p&gt;ここ3日ほど痛みがキツいです。&lt;/p&gt;&#xA;&lt;p&gt;少しずつ痛いところが下にずれてきているので徐々に石が落ちているのだろうと思いますが。&lt;/p&gt;&#xA;&lt;p&gt;そろそろお布団を干したい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-15_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+      <link>http://localhost:1313/posts/2019-02-15_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
       <pubDate>Fri, 15 Feb 2019 21:44:15 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-15_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+      <guid>http://localhost:1313/posts/2019-02-15_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
       <description>&lt;p&gt;今日も朝から激しい痛み。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んで、水分を摂って横になって過ごすだけの一日でした。&lt;/p&gt;&#xA;&lt;p&gt;6時間で痛み止めの効果が切れるので、切れてから飲んで効き始めるまでの30分ほどがなかなかしんどいです。&lt;/p&gt;&#xA;&lt;p&gt;前回より0.5ミリほど小さいのですが、痛みは前回よりキツいです。&lt;/p&gt;&#xA;&lt;p&gt;期間も長い。&lt;/p&gt;&#xA;&lt;p&gt;すでに痛み出してから三週間ですからね。&lt;/p&gt;&#xA;&lt;p&gt;ロキソニンがなかったら耐えられないよ…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ふ、ははは、ふははははは</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-14_%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2019-02-14_%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF/</link>
       <pubDate>Thu, 14 Feb 2019 23:47:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-14_%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2019-02-14_%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%B5%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF%E3%81%AF/</guid>
       <description>&lt;p&gt;今日も朝からお腹痛いです。&lt;/p&gt;&#xA;&lt;p&gt;痛み止め飲んでおとなしく寝てました。&lt;/p&gt;&#xA;&lt;p&gt;昼下がり、魔が差してPCのメモリーをオーバークロックしようとして失敗。&lt;/p&gt;&#xA;&lt;p&gt;起動時にWindows10のシステムが壊れて修復不能になり、システムバックアップから書き戻しました。&lt;/p&gt;&#xA;&lt;p&gt;ハードウェアが壊れなくて良かった(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;今夜も寒いっす。&lt;/p&gt;&#xA;&lt;p&gt;そろそろお腹が痛くなりそうな予感。&lt;/p&gt;</description>
     </item>
     <item>
       <title>過激なやつ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-13_%E9%81%8E%E6%BF%80%E3%81%AA%E3%82%84%E3%81%A4/</link>
+      <link>http://localhost:1313/posts/2019-02-13_%E9%81%8E%E6%BF%80%E3%81%AA%E3%82%84%E3%81%A4/</link>
       <pubDate>Wed, 13 Feb 2019 22:03:53 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-13_%E9%81%8E%E6%BF%80%E3%81%AA%E3%82%84%E3%81%A4/</guid>
+      <guid>http://localhost:1313/posts/2019-02-13_%E9%81%8E%E6%BF%80%E3%81%AA%E3%82%84%E3%81%A4/</guid>
       <description>&lt;p&gt;今日の痛みは朝から過激です。&lt;/p&gt;&#xA;&lt;p&gt;今も痛み止めが効いていますが、お腹をぐぐっと押し込むような感じで痛いです。&lt;/p&gt;&#xA;&lt;p&gt;尿管結石の石はまだ上の方。&lt;/p&gt;&#xA;&lt;p&gt;痛みが無くなるまで先は長いです。&lt;/p&gt;&#xA;&lt;p&gt;この分だと日曜日に予定していた映画はキャンセルだな…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ぅぐ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-13_%E3%81%85%E3%81%90/</link>
+      <link>http://localhost:1313/posts/2019-02-13_%E3%81%85%E3%81%90/</link>
       <pubDate>Wed, 13 Feb 2019 08:27:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-13_%E3%81%85%E3%81%90/</guid>
+      <guid>http://localhost:1313/posts/2019-02-13_%E3%81%85%E3%81%90/</guid>
       <description>&lt;p&gt;今朝は、強い痛みと共に目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んで少しの間効いてたのですか、また直ぐに痛み出しました。&lt;/p&gt;&#xA;&lt;p&gt;息が詰まるくらいに痛いです。&lt;/p&gt;&#xA;&lt;p&gt;寒さが響くのかな…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>空腹なのか、痛みなのか</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-13_%E7%A9%BA%E8%85%B9%E3%81%AA%E3%81%AE%E3%81%8B%E7%97%9B%E3%81%BF%E3%81%AA%E3%81%AE%E3%81%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-13_%E7%A9%BA%E8%85%B9%E3%81%AA%E3%81%AE%E3%81%8B%E7%97%9B%E3%81%BF%E3%81%AA%E3%81%AE%E3%81%8B/</link>
       <pubDate>Wed, 13 Feb 2019 01:22:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-13_%E7%A9%BA%E8%85%B9%E3%81%AA%E3%81%AE%E3%81%8B%E7%97%9B%E3%81%BF%E3%81%AA%E3%81%AE%E3%81%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-13_%E7%A9%BA%E8%85%B9%E3%81%AA%E3%81%AE%E3%81%8B%E7%97%9B%E3%81%BF%E3%81%AA%E3%81%AE%E3%81%8B/</guid>
       <description>&lt;p&gt;普段、空腹になると胃の周囲がしくしくと痛みます。&lt;/p&gt;&#xA;&lt;p&gt;今回の尿管結石は、左脇腹の痛みと共に前述と似た胃の痛みをもたらします。&lt;/p&gt;&#xA;&lt;p&gt;なので、空腹で胃が痛いのか、尿管結石で痛いのか判らずに、胃が痛くなると当初は何かしら食べ物を食べてました。&lt;/p&gt;&#xA;&lt;p&gt;まあそれで胃の痛みは治まるのでいいのですが、カロリーの過剰摂取になるわけです。&lt;/p&gt;&#xA;&lt;p&gt;つまり太るのです。&lt;/p&gt;&#xA;&lt;p&gt;まあ直ぐに気付いて食べるのをやめたので体重は戻ってきました。&lt;/p&gt;&#xA;&lt;p&gt;コスパノンで膨満感があるのに、胃の痛みでお腹が減っているという錯覚は、なんとも落ち着かない物です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痛いと不機嫌になっていきます</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-12_%E7%97%9B%E3%81%84%E3%81%A8%E4%B8%8D%E6%A9%9F%E5%AB%8C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-02-12_%E7%97%9B%E3%81%84%E3%81%A8%E4%B8%8D%E6%A9%9F%E5%AB%8C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%99/</link>
       <pubDate>Tue, 12 Feb 2019 19:06:14 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-12_%E7%97%9B%E3%81%84%E3%81%A8%E4%B8%8D%E6%A9%9F%E5%AB%8C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-02-12_%E7%97%9B%E3%81%84%E3%81%A8%E4%B8%8D%E6%A9%9F%E5%AB%8C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;コスパノンを飲んで、温かいところで寛いでいる分には、痛みは軽いです。&lt;/p&gt;&#xA;&lt;p&gt;動いていたり、寒いところにいると痛みがじわじわときて、時々、ぐっと腹パンのような痛みが来て、動きが止まります。&lt;/p&gt;&#xA;&lt;p&gt;そして痛みで段々不機嫌になっていきます。&lt;/p&gt;&#xA;&lt;p&gt;まだ尿管の上の方に石があるので、これが膀胱に落ちるまでは、二週間以上掛かりそうです。&lt;/p&gt;&#xA;&lt;p&gt;しばらくは痛みと闘います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>尿管結石でした</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-12_%E5%B0%BF%E7%AE%A1%E7%B5%90%E7%9F%B3%E3%81%A7%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2019-02-12_%E5%B0%BF%E7%AE%A1%E7%B5%90%E7%9F%B3%E3%81%A7%E3%81%97%E3%81%9F/</link>
       <pubDate>Tue, 12 Feb 2019 12:29:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-12_%E5%B0%BF%E7%AE%A1%E7%B5%90%E7%9F%B3%E3%81%A7%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2019-02-12_%E5%B0%BF%E7%AE%A1%E7%B5%90%E7%9F%B3%E3%81%A7%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;左の尿管に4.5ミリの石がありました。&lt;/p&gt;&#xA;&lt;p&gt;まだ落ち始めです。&lt;/p&gt;&#xA;&lt;p&gt;先は長い(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;尿管を弛める薬コスパノンで落ちるのを促す方針にしました。&lt;/p&gt;&#xA;&lt;p&gt;血尿とかでは無いので石が落ちれば問題ないようです。&lt;/p&gt;&#xA;&lt;p&gt;前の時より少し小さめなので、多分大丈夫でしょう。&lt;/p&gt;&#xA;&lt;p&gt;最初に尿管結石になったときは、痛みに耐えられず、吐いて悶絶して救急車で救急外来に行ったのですが、2回目、3回目ともなると痛みにも慣れたものです。&lt;/p&gt;&#xA;&lt;p&gt;ロキソニンがなければ救急外来に行くでしょうけど。&lt;/p&gt;&#xA;&lt;p&gt;さて水分補給と薬で落としていきますかね。&lt;/p&gt;&#xA;&lt;p&gt;腎臓のレントゲン写真を見ましたが、他には石は無いようです。&lt;/p&gt;&#xA;&lt;p&gt;今回の痛みを乗り切れば、しばらくは大丈夫かな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>病院に来ています</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-12_%E7%97%85%E9%99%A2%E3%81%AB%E6%9D%A5%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-02-12_%E7%97%85%E9%99%A2%E3%81%AB%E6%9D%A5%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Tue, 12 Feb 2019 09:53:13 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-12_%E7%97%85%E9%99%A2%E3%81%AB%E6%9D%A5%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-02-12_%E7%97%85%E9%99%A2%E3%81%AB%E6%9D%A5%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;朝、氷点下二度で所々凍結してました。&lt;/p&gt;&#xA;&lt;p&gt;恐る恐る運転して岡山市の病院にやってきました。&lt;/p&gt;&#xA;&lt;p&gt;検尿やX線撮影を終えて診察待ちです。&lt;/p&gt;&#xA;&lt;p&gt;時々、痛みがありますが、ロキソニンを飲んでるので耐えられない程じゃないです。&lt;/p&gt;&#xA;&lt;p&gt;早く石が落ちればいいのに。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜も寒いです</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-11_%E4%BB%8A%E5%A4%9C%E3%82%82%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-02-11_%E4%BB%8A%E5%A4%9C%E3%82%82%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Mon, 11 Feb 2019 22:54:03 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-11_%E4%BB%8A%E5%A4%9C%E3%82%82%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-02-11_%E4%BB%8A%E5%A4%9C%E3%82%82%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;昨日とさほど変わらず今夜も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;ヒーター全開ですが、室温が13度ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;折角煎れた煎茶もすでに冷たくなっています。&lt;/p&gt;&#xA;&lt;p&gt;尿管結石が原因だと思われる左脇腹の痛みは少しずつ弱まっていますが、炎症を起こしているようで微熱と体の怠さがあります。&lt;/p&gt;&#xA;&lt;p&gt;寒いと体に力が入ってあちこち痛みます。&lt;/p&gt;&#xA;&lt;p&gt;明日は、路面が凍みてなければ朝から病院へ行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;先週末からコードギアス復活のルルーシュを上映してますね。&lt;/p&gt;&#xA;&lt;p&gt;機動戦士ガンダムNT（ナラティブ）はまだやってたかな。&lt;/p&gt;&#xA;&lt;p&gt;見に行きたいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>月曜日が休みだとぅ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-09_%E6%9C%88%E6%9B%9C%E6%97%A5%E3%81%8C%E4%BC%91%E3%81%BF%E3%81%A0%E3%81%A8%E3%81%85/</link>
+      <link>http://localhost:1313/posts/2019-02-09_%E6%9C%88%E6%9B%9C%E6%97%A5%E3%81%8C%E4%BC%91%E3%81%BF%E3%81%A0%E3%81%A8%E3%81%85/</link>
       <pubDate>Sat, 09 Feb 2019 21:35:49 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-09_%E6%9C%88%E6%9B%9C%E6%97%A5%E3%81%8C%E4%BC%91%E3%81%BF%E3%81%A0%E3%81%A8%E3%81%85/</guid>
+      <guid>http://localhost:1313/posts/2019-02-09_%E6%9C%88%E6%9B%9C%E6%97%A5%E3%81%8C%E4%BC%91%E3%81%BF%E3%81%A0%E3%81%A8%E3%81%85/</guid>
       <description>&lt;p&gt;左脇腹の痛みが治まらないので、病院に行こうかと思ったら、月曜日が休みだと。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めのロキソニンのストックも微妙になってきたので、薬剤師がいる薬局に行かなければなりません。&lt;/p&gt;&#xA;&lt;p&gt;ドラッグストアも休日には薬剤師が休んでいることが殆ど。&lt;/p&gt;&#xA;&lt;p&gt;微妙だなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>目が覚めました</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-09_%E7%9B%AE%E3%81%8C%E8%A6%9A%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2019-02-09_%E7%9B%AE%E3%81%8C%E8%A6%9A%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sat, 09 Feb 2019 06:41:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-09_%E7%9B%AE%E3%81%8C%E8%A6%9A%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2019-02-09_%E7%9B%AE%E3%81%8C%E8%A6%9A%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;痛みと寒さで目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んで、朝ご飯に喜多方ラーメンのインスタントを食べて、薬を飲んで、ほっと一息。&lt;/p&gt;&#xA;&lt;p&gt;寒いし暗いので二度寝します。&lt;/p&gt;&#xA;&lt;p&gt;あふー&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-08_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2019-02-08_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Fri, 08 Feb 2019 21:32:31 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-08_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2019-02-08_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;今日は腹の痛みで一日寝て過ごしました。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んでも鈍い痛みに苛まれて動けないもの。&lt;/p&gt;&#xA;&lt;p&gt;折角食事を減らして1ヶ月で二キロ減った体重も非常に調子が悪かったときに、菓子パンやら食べ過ぎた所為で二キロ戻ってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;普通は体調悪いときは体重が減るもんですが、私は満腹感が無くなって、味が分からなくなって食べ過ぎるようで、だいたいこの時季に太っているようです。&lt;/p&gt;&#xA;&lt;p&gt;駄目ですね。&lt;/p&gt;&#xA;&lt;p&gt;3ヶ月で二五キロ落としたのは、もう一五年前の話ですか…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-07_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+      <link>http://localhost:1313/posts/2019-02-07_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
       <pubDate>Thu, 07 Feb 2019 01:07:59 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-07_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+      <guid>http://localhost:1313/posts/2019-02-07_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
       <description>&lt;p&gt;お腹が痛いのはまだ治まっておりません。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めが切れると動けなくなります。&lt;/p&gt;&#xA;&lt;p&gt;午前中はどんよりしてました。&lt;/p&gt;&#xA;&lt;p&gt;午後は晴れ間がでて、暖かかったです。&lt;/p&gt;&#xA;&lt;p&gt;今夜も痛くなる前に寝ようっと。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は海苔の日</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%B5%B7%E8%8B%94%E3%81%AE%E6%97%A5/</link>
+      <link>http://localhost:1313/posts/2019-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%B5%B7%E8%8B%94%E3%81%AE%E6%97%A5/</link>
       <pubDate>Wed, 06 Feb 2019 00:34:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%B5%B7%E8%8B%94%E3%81%AE%E6%97%A5/</guid>
-      <description>&lt;p&gt;味付き海苔と韓国海苔、どっちが好き？&lt;/p&gt;&#xA;&lt;p&gt;▼本日限定！ブログスタンプ&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/JDVqTTSahtEfIMYWsRhH&#34;&gt;&lt;img src=&#34;https://c.stat100.ameba.jp/blog/img/stamp/event/2017/stamp_0206.png&#34; alt=&#34;あなたもスタンプをGETしよう&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/JDVqTTSahtEfIMYWsRhH&#34;&gt;あなたもスタンプをGETしよう&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;韓国海苔は、大腸菌やその他諸々の細菌に重度に汚染されているため食べることは出来ないです。&lt;/p&gt;&#xA;&lt;p&gt;更に発がん性が確認されている過酸化水素を大量に使って養殖していることも判っているため、食べるとことは出来ません。&lt;/p&gt;&#xA;&lt;p&gt;チャイナ、ロシア、アメリカなどでも韓国の海産物から細菌や重金属が見つかったため、回収され、輸入は禁止されています。&lt;/p&gt;&#xA;&lt;p&gt;韓国海苔と呼ばれている胡麻油での味付けは、日本の山本海苔店が1869年に開発した物で、朝鮮併合時に製法が伝わったものです。&lt;/p&gt;&#xA;&lt;p&gt;さらに韓国での海苔養殖では、2012年まですべて日本産の品種が使われていました。&lt;/p&gt;&#xA;&lt;p&gt;ということで、韓国海苔は存在しません。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2019-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%B5%B7%E8%8B%94%E3%81%AE%E6%97%A5/</guid>
+      <description>&lt;p&gt;味付き海苔と韓国海苔、どっちが好き？&lt;/p&gt;&#xA;&lt;p&gt;▼本日限定！ブログスタンプ&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/JDVqTTSahtEfIMYWsRhH&#34;&gt;&lt;img src=&#34;https://c.stat100.ameba.jp/img/stamp/event/2017/stamp_0206.png&#34; alt=&#34;あなたもスタンプをGETしよう&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/JDVqTTSahtEfIMYWsRhH&#34;&gt;あなたもスタンプをGETしよう&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;韓国海苔は、大腸菌やその他諸々の細菌に重度に汚染されているため食べることは出来ないです。&lt;/p&gt;&#xA;&lt;p&gt;更に発がん性が確認されている過酸化水素を大量に使って養殖していることも判っているため、食べるとことは出来ません。&lt;/p&gt;&#xA;&lt;p&gt;チャイナ、ロシア、アメリカなどでも韓国の海産物から細菌や重金属が見つかったため、回収され、輸入は禁止されています。&lt;/p&gt;&#xA;&lt;p&gt;韓国海苔と呼ばれている胡麻油での味付けは、日本の山本海苔店が1869年に開発した物で、朝鮮併合時に製法が伝わったものです。&lt;/p&gt;&#xA;&lt;p&gt;さらに韓国での海苔養殖では、2012年まですべて日本産の品種が使われていました。&lt;/p&gt;&#xA;&lt;p&gt;ということで、韓国海苔は存在しません。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は暖かいです</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-05_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-02-05_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Tue, 05 Feb 2019 18:56:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-05_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-02-05_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;風邪によると思われる目眩と気持ち悪さからは脱しました。&lt;/p&gt;&#xA;&lt;p&gt;尿管結石と思われる痛みはまだあります。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めが切れると動けなくなるほど痛いです。&lt;/p&gt;&#xA;&lt;p&gt;あとは便秘気味です。&lt;/p&gt;&#xA;&lt;p&gt;コスパノンによる副作用だと思いますが、膨満感があって食事量が減っています。&lt;/p&gt;&#xA;&lt;p&gt;石が落ちればなんてことはなくなるんですが。&lt;/p&gt;&#xA;&lt;p&gt;今日は暖かいです。&lt;/p&gt;&#xA;&lt;p&gt;今の室温が一八度くらいです。&lt;/p&gt;&#xA;&lt;p&gt;調子が良くなったら、デイキャンプするんだ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>復調せず</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-04_%E5%BE%A9%E8%AA%BF%E3%81%9B%E3%81%9A/</link>
+      <link>http://localhost:1313/posts/2019-02-04_%E5%BE%A9%E8%AA%BF%E3%81%9B%E3%81%9A/</link>
       <pubDate>Mon, 04 Feb 2019 23:10:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-04_%E5%BE%A9%E8%AA%BF%E3%81%9B%E3%81%9A/</guid>
+      <guid>http://localhost:1313/posts/2019-02-04_%E5%BE%A9%E8%AA%BF%E3%81%9B%E3%81%9A/</guid>
       <description>&lt;p&gt;まだ体調が戻っていません。&lt;/p&gt;&#xA;&lt;p&gt;なんなんでしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;左脇腹の痛みと目眩が治まらないのが続いていて、どうしたもんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;皆さんは健康に生きてください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GTX1060でSLIを有効にする方法がある</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-04_gtx1060%E3%81%A7sli%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%82%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-04_gtx1060%E3%81%A7sli%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%82%E3%82%8B/</link>
       <pubDate>Mon, 04 Feb 2019 21:16:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-04_gtx1060%E3%81%A7sli%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%82%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-04_gtx1060%E3%81%A7sli%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%82%E3%82%8B/</guid>
       <description>&lt;p&gt;Linus Tech Tipsの「&lt;a href=&#34;https://youtu.be/O1nok2VlF1M&#34;&gt;Hacking Nvidia&amp;rsquo;s Drivers!&lt;/a&gt;」を見てたら、出力端子を持たないマイニング用のビデオカード「GTX 1060」をオンボードグラフィックを持つマザーボードでそのGPUを有効にする方法と、GTX 1060をSLIで動作させる方法を紹介してました。&lt;/p&gt;&#xA;&lt;p&gt;海外のSLIに関するforumで、TechPowerUp Forum「&lt;a href=&#34;https://www.techpowerup.com/forums/threads/sli-with-different-cards.158907/page-120#post-3983666&#34;&gt;SLI with different cards&lt;/a&gt;」と言うスレッドがあるのですが、そこに詳細が出てました。&lt;/p&gt;&#xA;&lt;p&gt;GTX 1060をSLIで使う場合は、WindowsのSystemフォルダにある「nvlddmkm.sys」をDifferent SLI Autoのフォルダーにコピーしてきて、16進数エディタでアドレス00000000002BB52Fを、75 05 0F BA 6B 24 0EからC7 43 24 00 00 00 00に書き換えるものです。&lt;/p&gt;&#xA;&lt;p&gt;ドライバーのバージョンは、417．35と417．71です。&lt;/p&gt;&#xA;&lt;p&gt;nvlddmkm.sysを書き換えた後は、セーフモードでWindows10をセーフモードで起動して、Different SLI Autoでディスプレイドライバーを入れ直して、再起動するようです。&lt;/p&gt;&#xA;&lt;p&gt;詳しくは、Linus Tech Tipsの動画かSLI with different cardsにあるリンクを参考にしてください。&lt;/p&gt;&#xA;&lt;p&gt;GTX 1060を二枚持っていないので試せてはいないですが、RTX 2060がリリースされたので、GTX 1060は値崩れしてくると思いますのでチャンスがあれば試してみたいです。&lt;/p&gt;&#xA;&lt;p&gt;Gemini3 Flashによる検証です。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;この内容について、技術的な検証、補完、および推奨されない理由（リスク）を解説します。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-技術検証なぜこれが可能なのかまたは不可能なのか&#34;&gt;1. 技術検証：なぜこれが可能なのか、または不可能なのか&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ハードウェアの制限：&lt;/strong&gt; GTX 1060には物理的な「SLI端子（ブリッジを接続するコネクタ）」が存在しません。通常、Pascal世代（GTX 10シリーズ）ではGTX 1070以上でなければSLIは物理的に構築できません。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ソフトウェアによるエミュレーション：&lt;/strong&gt; 記事で紹介されている「DifferentSLI Auto」という手法は、ドライバファイル（&lt;code&gt;nvlddmkm.sys&lt;/code&gt;）を書き換えることで、&lt;strong&gt;PCI Expressバス経由でデータを転送&lt;/strong&gt;させ、物理端子がないカード間でもSLI動作を擬似的に実現しようとするものです。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;再現性：&lt;/strong&gt; 2019年当時の特定のドライババージョン（417.xx）では動作報告がありましたが、現在のWindows 10/11や最新のドライバでは、セキュリティ機能（ドライバ署名の強制やカーネル保護）が厳格化されており、この手法をそのまま適用するのは極めて困難です。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-内容の補完現在の視点からの補足&#34;&gt;2. 内容の補完：現在の視点からの補足&lt;/h3&gt;&#xA;&lt;p&gt;この記事の内容を今の環境で理解・実行しようとする場合に欠けている視点は以下の通りです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ドライバ署名の強制解除が必要：&lt;/strong&gt; Windowsは通常、改造されたドライバ（署名が一致しないファイル）のロードを拒否します。実行には「テストモード」への移行や署名の強制無効化が必要ですが、これはシステムのセキュリティを著しく低下させます。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;マイニング用カード（P106-100等）の活用：&lt;/strong&gt; 記事内にある「出力端子がないGTX 1060」とは、マイニング専用のP106-100を指しています。これをゲーム用として使う手法は一時流行しましたが、現在は「IntelのiGPU経由で出力する」というDirectXの標準機能（ハイブリッドグラフィックス）を利用するのが一般的であり、SLI改造とは別の話になります。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SLI自体の衰退：&lt;/strong&gt; 現在、NVIDIA自身がSLI（プロファイル配布）を終了しており、最新のゲームはSLI構成を想定して最適化されていません。2枚に増やしてもパフォーマンスが向上しない、あるいは逆に下がるケースが多いのが現状です。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-検証なぜ推奨されないのかリスクとデメリット&#34;&gt;3. 検証：なぜ推奨されないのか（リスクとデメリット）&lt;/h3&gt;&#xA;&lt;p&gt;この手法を試すことは、以下の理由から&lt;strong&gt;全く推奨されません。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>お腹が張る</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-03_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-03_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</link>
       <pubDate>Sun, 03 Feb 2019 22:52:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-03_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-03_%E3%81%8A%E8%85%B9%E3%81%8C%E5%BC%B5%E3%82%8B/</guid>
       <description>&lt;p&gt;なかなか体調が回復しないです。&lt;/p&gt;&#xA;&lt;p&gt;痛いのと気持ち悪いのと怠いのが重なってしんどいっす。&lt;/p&gt;&#xA;&lt;p&gt;明日は良くなるかな。&lt;/p&gt;&#xA;&lt;p&gt;味覚もちゃんと働かなくて、食べ物の味がわかんないし。&lt;/p&gt;&#xA;&lt;p&gt;健康な体があればやりたいことが出来るんだけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今し方</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-02_%E4%BB%8A%E3%81%97%E6%96%B9/</link>
+      <link>http://localhost:1313/posts/2019-02-02_%E4%BB%8A%E3%81%97%E6%96%B9/</link>
       <pubDate>Sat, 02 Feb 2019 18:38:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-02_%E4%BB%8A%E3%81%97%E6%96%B9/</guid>
+      <guid>http://localhost:1313/posts/2019-02-02_%E4%BB%8A%E3%81%97%E6%96%B9/</guid>
       <description>&lt;p&gt;まだ気分の悪さと倦怠感と頭がフワフワとする感じが残ってますが、少し動けるぐらいにはなりました。&lt;/p&gt;&#xA;&lt;p&gt;腹が痛くて力がはいらなかったのが、射し込むような痛みが和らいだので3日ぶりのお通じがありました。&lt;/p&gt;&#xA;&lt;p&gt;体が脱水気味なので水分補給しないといけないようです。&lt;/p&gt;&#xA;&lt;p&gt;まだ動けるようになるにはちょっと掛かりそうです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-02_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2019-02-02_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Sat, 02 Feb 2019 08:04:49 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-02_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2019-02-02_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;朝は気持ちよく目覚めました。&lt;/p&gt;&#xA;&lt;p&gt;起き上がったら予想外の目眩で倒れそうになりました。&lt;/p&gt;&#xA;&lt;p&gt;壁を伝いながらトイレに行き、そして壁を伝いながら部屋に戻ってきました。&lt;/p&gt;&#xA;&lt;p&gt;室温五度。&lt;/p&gt;&#xA;&lt;p&gt;寒いです。&lt;/p&gt;&#xA;&lt;p&gt;頭がぐるぐるしますので、今日は横になって過ごします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お腹は痛いし、目が眩うし</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-01_%E3%81%8A%E8%85%B9%E3%81%AF%E7%97%9B%E3%81%84%E3%81%97%E7%9B%AE%E3%81%8C%E7%9C%A9%E3%81%86%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2019-02-01_%E3%81%8A%E8%85%B9%E3%81%AF%E7%97%9B%E3%81%84%E3%81%97%E7%9B%AE%E3%81%8C%E7%9C%A9%E3%81%86%E3%81%97/</link>
       <pubDate>Fri, 01 Feb 2019 19:58:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-01_%E3%81%8A%E8%85%B9%E3%81%AF%E7%97%9B%E3%81%84%E3%81%97%E7%9B%AE%E3%81%8C%E7%9C%A9%E3%81%86%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2019-02-01_%E3%81%8A%E8%85%B9%E3%81%AF%E7%97%9B%E3%81%84%E3%81%97%E7%9B%AE%E3%81%8C%E7%9C%A9%E3%81%86%E3%81%97/</guid>
       <description>&lt;p&gt;お腹が痛いのはどうも尿管結石のような感じです。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めはロキソニンです。&lt;/p&gt;&#xA;&lt;p&gt;それ以外の痛み止めは効きません。&lt;/p&gt;&#xA;&lt;p&gt;目が眩うのは風邪の所為でしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;いろんなことが出来ずに、痛いし、気持ち悪いし、しかめっ面で一日を過ごしています。&lt;/p&gt;&#xA;&lt;p&gt;パソコンの整理が終わったので、ばっち来い状態だったのですが、何も出来ませんね。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ昼に飲んだ痛み止めの効果が切れてきたみたいなので、飲み直します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いつの間にか</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-02-01_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</link>
+      <link>http://localhost:1313/posts/2019-02-01_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</link>
       <pubDate>Fri, 01 Feb 2019 01:32:40 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-02-01_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-02-01_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</guid>
       <description>&lt;p&gt;いつの間にか2月になってました。&lt;/p&gt;&#xA;&lt;p&gt;パソコンの周りの整理をしてたら、体調悪化してしんどくなった1月の終わり。&lt;/p&gt;&#xA;&lt;p&gt;便利！という文句に誘われて、出来るかなぁと思った技術が全て中途半端な物だったのは、正直ショックです。&lt;/p&gt;&#xA;&lt;p&gt;エンタープライズ向けの技術はコンシューマー向けには全然フィードバックされていないというか、昔よりPCで出来ることが減ってるんじゃないかと思うのでした。&lt;/p&gt;&#xA;&lt;p&gt;高速化、大容量化が進んだ所為で、ソフトウェアの技術が追いついてないよなぁ。&lt;/p&gt;&#xA;&lt;p&gt;特に日本のITの劣化が激しいな…。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-09 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2012-09/</link>
+    <link>http://localhost:1313/archives/2012-09/</link>
     <description>Recent content in 2012-09 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 30 Sep 2012 09:39:40 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2012-09/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2012-09/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>なんとかと選挙となんとか</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-30_%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E3%81%A8%E9%81%B8%E6%8C%99%E3%81%A8%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B/</link>
+      <link>http://localhost:1313/posts/2012-09-30_%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E3%81%A8%E9%81%B8%E6%8C%99%E3%81%A8%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B/</link>
       <pubDate>Sun, 30 Sep 2012 09:39:40 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-30_%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E3%81%A8%E9%81%B8%E6%8C%99%E3%81%A8%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B/</guid>
+      <guid>http://localhost:1313/posts/2012-09-30_%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E3%81%A8%E9%81%B8%E6%8C%99%E3%81%A8%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B/</guid>
       <description>&lt;p&gt;台風接近中ですが、今日は地元の首長選挙です。&lt;/p&gt;&#xA;&lt;p&gt;久しぶりにまともな新人がでてきました。&lt;/p&gt;&#xA;&lt;p&gt;現職は引退です。&lt;/p&gt;&#xA;&lt;p&gt;さて、今日は、起き抜けぐったりしておりました。&lt;br&gt;&#xA;風邪でもひいたのかと言うぐらい体がだるく、しんどかった。&lt;/p&gt;&#xA;&lt;p&gt;一時間ほどリクライニングチェアに体を預けて、ぼーっとしておりましたが、ようやく動けるようになったので、朝ご飯を食べた次第です。&lt;/p&gt;&#xA;&lt;p&gt;で、これから選挙に投票してこようかと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Foobar2000 WASAPI component Update</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-29-foobar2000-wasapi-component-update/</link>
+      <link>http://localhost:1313/posts/2012-09-29-foobar2000-wasapi-component-update/</link>
       <pubDate>Sat, 29 Sep 2012 23:16:56 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-29-foobar2000-wasapi-component-update/</guid>
+      <guid>http://localhost:1313/posts/2012-09-29-foobar2000-wasapi-component-update/</guid>
       <description>&lt;p&gt;Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。&lt;/p&gt;&#xA;&lt;p&gt;機能的には32bit 浮動小数点演算とWASAPIのモードをイベント駆動とプッシュの二つに対応したことでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;あと、サウンドカードドライバーのバグなどでFoobar2000がクラッシュするのを分離するため、サンドボックスを用意したことでしょうか。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;先の二つのモードですが、イベント駆動が良いようですが、USBデバイスでは対応していない物が多いそうです。&lt;/p&gt;&#xA;&lt;p&gt;その場合はPushにするようです。&lt;/p&gt;&#xA;&lt;p&gt;イベント駆動ができる場合は、イベント駆動に。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;音質はバッファーと割り込みタイミングの設定を間違えなければ、どちらも同じです。&lt;/p&gt;&#xA;&lt;p&gt;音が高域側にシフトするとか音飛びするようなら、バッファーが足りておらずデータ抜けを起こしている可能性があります。&lt;/p&gt;&#xA;&lt;p&gt;細かなデータ抜けは高域側にノイズとして出てくるため、高域に量感が出たように錯覚します。&lt;/p&gt;&#xA;&lt;p&gt;DTMで使う目的で発音タイミングがシビアになる必要がある場合以外なら、バッファーを多めにとる方が良いのではないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;レイテンシーとジッターエラーを混同している人が、レイテンシーを極力短くしようとしますが、音質上のメリットは何一つとしてありませんけどね。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows7 x64で音飛び</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-23-windows7-x64%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3/</link>
+      <link>http://localhost:1313/posts/2012-09-23-windows7-x64%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3/</link>
       <pubDate>Sun, 23 Sep 2012 10:24:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-23-windows7-x64%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3/</guid>
+      <guid>http://localhost:1313/posts/2012-09-23-windows7-x64%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3/</guid>
       <description>&lt;p&gt;先日PCのマザーボード、CPU、メモリを入れ替えました。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;元は&lt;/p&gt;&#xA;&lt;p&gt;CPU : AMD Phenom 64 x4 (4Core)&lt;/p&gt;&#xA;&lt;p&gt;M/B : ASUS M3A32 MVP Delux / WiFi AP&lt;/p&gt;&#xA;&lt;p&gt;Mem : DDR2-800MHz 2GBx4&lt;/p&gt;&#xA;&lt;p&gt;から&lt;/p&gt;&#xA;&lt;p&gt;CPU : AMD FX6100 (6Core)&lt;/p&gt;&#xA;&lt;p&gt;M/B : GIGA-BYTE GA-990FXA -UD3&lt;/p&gt;&#xA;&lt;p&gt;Mem : DDR3-1333MHz 4GBx2&lt;/p&gt;&#xA;&lt;p&gt;です。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。&lt;/p&gt;&#xA;&lt;p&gt;特に問題なく・・・、と思いきや。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。&lt;/p&gt;&#xA;&lt;p&gt;動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;で、サウンドカードですが、ONKYO SE-200PCI LTDです。&lt;/p&gt;&#xA;&lt;p&gt;設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。&lt;/p&gt;&#xA;&lt;p&gt;古いからと言って音質が悪いわけではないですが、機能はいまいちです。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;音飛びの問題は、PCIバスへの信号遅延だと想像してます。&lt;/p&gt;&#xA;&lt;p&gt;PCIバスはSB950のサウスブリッジに直でつながっています。&lt;/p&gt;&#xA;&lt;p&gt;M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。&lt;/p&gt;&#xA;&lt;p&gt;PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。&lt;/p&gt;&#xA;&lt;p&gt;しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。&lt;/p&gt;&#xA;&lt;p&gt;またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;なぜなら、PCIサウンドカードという市場がもはやないから。&lt;/p&gt;&#xA;&lt;p&gt;USBかオンボードかPCIeの3択で前者二つが大半だからです。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。&lt;/p&gt;&#xA;&lt;p&gt;1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。&lt;/p&gt;&#xA;&lt;p&gt;2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。&lt;/p&gt;&#xA;&lt;p&gt;後者はAMD Cool&amp;rsquo;n&amp;rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>会いに行かなくちゃ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-21_%E4%BC%9A%E3%81%84%E3%81%AB%E8%A1%8C%E3%81%8B%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83/</link>
+      <link>http://localhost:1313/posts/2012-09-21_%E4%BC%9A%E3%81%84%E3%81%AB%E8%A1%8C%E3%81%8B%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83/</link>
       <pubDate>Fri, 21 Sep 2012 10:06:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-21_%E4%BC%9A%E3%81%84%E3%81%AB%E8%A1%8C%E3%81%8B%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83/</guid>
+      <guid>http://localhost:1313/posts/2012-09-21_%E4%BC%9A%E3%81%84%E3%81%AB%E8%A1%8C%E3%81%8B%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83/</guid>
       <description>&lt;p&gt;おととい、きのうと激しく落ち込んでおりました。&lt;/p&gt;&#xA;&lt;p&gt;友人、家族には無理してでも会いに行かなくちゃ。&lt;/p&gt;&#xA;&lt;p&gt;神奈川、東京に行って、みんなに会わなきゃ。&lt;/p&gt;&#xA;&lt;p&gt;会えなくなると思うと、心臓がぎゅっとして、とっても痛いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>非常に申し訳ございません。</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-20_%E9%9D%9E%E5%B8%B8%E3%81%AB%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2012-09-20_%E9%9D%9E%E5%B8%B8%E3%81%AB%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93/</link>
       <pubDate>Thu, 20 Sep 2012 23:40:46 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-20_%E9%9D%9E%E5%B8%B8%E3%81%AB%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2012-09-20_%E9%9D%9E%E5%B8%B8%E3%81%AB%E7%94%B3%E3%81%97%E8%A8%B3%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93/</guid>
       <description>&lt;p&gt;大変失礼しました。&lt;/p&gt;&#xA;&lt;p&gt;記事を勘違いして、ご存命の方を亡き者にしていましました。&lt;/p&gt;&#xA;&lt;p&gt;でも、その方のご家族が逝ってしまわれたのには、非常に悲しいことです。&lt;/p&gt;&#xA;&lt;p&gt;元気を出してとはいえないのですが、それでもいろいろと気分が沈んでしまうのでしょうから、なんとか、気を紛らわせて、気持ちを少しずつ軽くしてください。&lt;/p&gt;&#xA;&lt;p&gt;ごめんなさい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MISOMOKUSOMO</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-18_misomokusomo/</link>
+      <link>http://localhost:1313/posts/2012-09-18_misomokusomo/</link>
       <pubDate>Tue, 18 Sep 2012 22:23:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-18_misomokusomo/</guid>
+      <guid>http://localhost:1313/posts/2012-09-18_misomokusomo/</guid>
       <description>&lt;p&gt;皆様お久しぶりでございます。&lt;/p&gt;&#xA;&lt;p&gt;ペタ返しもほとんどせずにすみません。&lt;/p&gt;&#xA;&lt;p&gt;何事も億劫になっておりました。&lt;/p&gt;&#xA;&lt;p&gt;先月末から鬱になりかけて、過食気味で、いろいろとしんどかったのですが。&lt;/p&gt;&#xA;&lt;p&gt;最新の抗うつ剤が効きすぎて、気持ち悪くなったりもしました。&lt;/p&gt;&#xA;&lt;p&gt;が、通常の業務に戻ったのでかなり楽になりました。&lt;/p&gt;&#xA;&lt;p&gt;でも一番ストレス解消になったのは、買い物ですかね。&lt;/p&gt;&#xA;&lt;p&gt;PCパーツを買って、自作PCの中身を入れ替えました。&lt;/p&gt;&#xA;&lt;p&gt;ああ、でもまだ職場に気になることが、&lt;/p&gt;&#xA;&lt;p&gt;医療法人ですから、システムに関したことは私以外、皆疎いのですが、それでもシステム開発のオーダーが出ております。&lt;/p&gt;&#xA;&lt;p&gt;単純な見積もりで３０人月オーバーなのですが、それはきっと理解してもらえないだろうなぁ。&lt;/p&gt;&#xA;&lt;p&gt;納期を決めずに先延ばししながら、開発期間を稼がないと・・・。&lt;/p&gt;&#xA;&lt;p&gt;それでも「遅れているから早くしろ」との無理解のオーダーが・・・。&lt;/p&gt;&#xA;&lt;p&gt;いや無理なんだが・・・。&lt;/p&gt;&#xA;&lt;p&gt;あと、医療法人なのに「co.jp」ドメインを申請してしまったのを、本契約できないだろうから、別のドメインに契約し直さないといけないんですが、それをどうやって切り出すか。&lt;/p&gt;&#xA;&lt;p&gt;リミットは二月・・・。&lt;/p&gt;&#xA;&lt;p&gt;ある程度、ITに明るい企業に行かないと苦労するね・・・。&lt;/p&gt;&#xA;&lt;p&gt;味噌もくそも一緒こたになってるから・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まだ二ヶ月にも満たないのに</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-09_%E3%81%BE%E3%81%A0%E4%BA%8C%E3%83%B6%E6%9C%88%E3%81%AB%E3%82%82%E6%BA%80%E3%81%9F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%AB/</link>
+      <link>http://localhost:1313/posts/2012-09-09_%E3%81%BE%E3%81%A0%E4%BA%8C%E3%83%B6%E6%9C%88%E3%81%AB%E3%82%82%E6%BA%80%E3%81%9F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%AB/</link>
       <pubDate>Sun, 09 Sep 2012 11:33:52 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-09_%E3%81%BE%E3%81%A0%E4%BA%8C%E3%83%B6%E6%9C%88%E3%81%AB%E3%82%82%E6%BA%80%E3%81%9F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%AB/</guid>
+      <guid>http://localhost:1313/posts/2012-09-09_%E3%81%BE%E3%81%A0%E4%BA%8C%E3%83%B6%E6%9C%88%E3%81%AB%E3%82%82%E6%BA%80%E3%81%9F%E3%81%AA%E3%81%84%E3%81%AE%E3%81%AB/</guid>
       <description>&lt;p&gt;昨日、新たに抗うつ剤が処方されてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;これまで飲んでいたものより、ちょっと強いです。&lt;/p&gt;&#xA;&lt;p&gt;言いしれぬ不安や妙な食欲・物欲が、減衰しました。&lt;/p&gt;&#xA;&lt;p&gt;昼から少し出かけてみようと思います。&lt;/p&gt;&#xA;&lt;p&gt;ペタができていなくてごめんなさい。&lt;br&gt;&#xA;平日は夜まで気力が持たないのです。&lt;/p&gt;&#xA;&lt;p&gt;薬に頼るけど、少しは楽になるかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>こんなはずじゃ…、でも救いが</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-04_%E3%81%93%E3%82%93%E3%81%AA%E3%81%AF%E3%81%9A%E3%81%98%E3%82%83%E3%81%A7%E3%82%82%E6%95%91%E3%81%84%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2012-09-04_%E3%81%93%E3%82%93%E3%81%AA%E3%81%AF%E3%81%9A%E3%81%98%E3%82%83%E3%81%A7%E3%82%82%E6%95%91%E3%81%84%E3%81%8C/</link>
       <pubDate>Tue, 04 Sep 2012 21:59:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-04_%E3%81%93%E3%82%93%E3%81%AA%E3%81%AF%E3%81%9A%E3%81%98%E3%82%83%E3%81%A7%E3%82%82%E6%95%91%E3%81%84%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2012-09-04_%E3%81%93%E3%82%93%E3%81%AA%E3%81%AF%E3%81%9A%E3%81%98%E3%82%83%E3%81%A7%E3%82%82%E6%95%91%E3%81%84%E3%81%8C/</guid>
       <description>&lt;p&gt;ペタする気力がなくてごめんなさい。&lt;/p&gt;&#xA;&lt;p&gt;いつもペタくれる人、ありがとうございます。&lt;/p&gt;&#xA;&lt;p&gt;それこそお忙しいでしょうに。&lt;/p&gt;&#xA;&lt;p&gt;そんなのが解ってても、元気がないのです。&lt;/p&gt;&#xA;&lt;p&gt;こんな法人だとは若干予想はしてたけど、それでも気力も体力もついていけません。&lt;/p&gt;&#xA;&lt;p&gt;個人的に、某役所から指名で、システムの仕事が舞い込んできました。&lt;br&gt;&#xA;中長期なら今の法人を退職して、役所の仕事を受けるつもりです。&lt;/p&gt;&#xA;&lt;p&gt;通常なら企業は競争入札しなくてはいけないのですが、わざわざ私個人を指名して仕事を手配するのですから、とてもありがたいことです。&lt;/p&gt;&#xA;&lt;p&gt;いろいろと就活しても落とされ続け、あげく医療法人に流れ着きましたが、実は隠れた優秀なエンジニアですよ、私は。&lt;/p&gt;&#xA;&lt;p&gt;でも、正社員じゃないって両親がうるさい。&lt;br&gt;&#xA;企業なんてのはいつ倒産するか解らないから、むしろ正社員であるメリットもないんですが。&lt;/p&gt;&#xA;&lt;p&gt;ちゃんと建設的な意見で相談できる身内がいればなぁ…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>厨房</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-09-03_%E5%8E%A8%E6%88%BF/</link>
+      <link>http://localhost:1313/posts/2012-09-03_%E5%8E%A8%E6%88%BF/</link>
       <pubDate>Mon, 03 Sep 2012 22:14:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-09-03_%E5%8E%A8%E6%88%BF/</guid>
+      <guid>http://localhost:1313/posts/2012-09-03_%E5%8E%A8%E6%88%BF/</guid>
       <description>&lt;p&gt;中坊じゃないよ。&lt;br&gt;&#xA;厨房だよ。&lt;/p&gt;&#xA;&lt;p&gt;今日は厨房の手伝いだった。&lt;br&gt;&#xA;盛りつけをやった。&lt;/p&gt;&#xA;&lt;p&gt;私の職種はシステムエンジニアですが、なにか。&lt;/p&gt;&#xA;&lt;p&gt;明日は四時半起き。&lt;/p&gt;&#xA;&lt;p&gt;もう寝なきゃ…。&lt;/p&gt;&#xA;&lt;p&gt;だれか癒しを。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2025-12 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2025-12/</link>
+    <link>http://localhost:1313/archives/2025-12/</link>
     <description>Recent content in 2025-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 11 Dec 2025 12:55:46 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2025-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2025-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RYZEN 9 9950X3D &amp; RADEON 9070XT ＆ DDR5 6000CL30</title>
-      <link>https://yuki9902-jp.github.io/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/</link>
+      <link>http://localhost:1313/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/</link>
       <pubDate>Thu, 11 Dec 2025 12:55:46 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/</guid>
+      <guid>http://localhost:1313/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/</guid>
       <description>&lt;p&gt;最終的に、以下の構成でPCを組んだら、新PCになりました。手元に資金が出来たときが急騰する直前で、思い切って購入し、今となっては非常に良かったです。しばらくは性能不足に陥ることの無いスペックで組み上げたので安心です。&lt;/p&gt;&#xA;&lt;p&gt;昨今のメモリとストレージの急騰と枯渇状態をみると、部品の故障には気をつけてオーバークロック（PBOを含む）を避け、メンテナンス時には電源をちゃんとOFFにして作業をするように心がけます。&lt;/p&gt;&#xA;&lt;h4 id=&#34;メインpc&#34;&gt;メインPC&lt;/h4&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・CPU&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;AMD RYZEN 9950X3D&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・M/B&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;ASUS ROG STRIX X870E-E Gaming WIFI&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・RAM&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;CORSAIR VENGENCE DDR5 6000MT CL30 64GB(32GBx2)&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・GPU&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;ASUS TUF-RX9070XTO16G-GAMING&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・PSU&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;CORSAIR RM1000x&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・CASE&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;CORSAIR FRAME 4000D&lt;/dd&gt;&#xA;&lt;dt&gt;&lt;strong&gt;・STORAGE&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;WD BLACK SN850X 2TB x2&lt;br&gt;&#xA;WD BLACK SN750 2TB&lt;br&gt;&#xA;WD BLUE SATA SSD 2TB x2&lt;br&gt;&#xA;WD BLUE SATA SSD 1TB x2&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12949717569-15739565139.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20260110/22/yuki9902/88/2c/j/o0966064015739565139.jpg?caw=800&#34; alt=&#34;Ryzen 9 9950X3D搭載PCの内部とRGBファン&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12949717569-15739565142.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20260110/22/yuki9902/ee/3f/j/o0966064015739565142.jpg?caw=800&#34; alt=&#34;Ryzen 9 9950X3D PCパーツ 青く光る&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12949717569-15739565143.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20260110/22/yuki9902/7e/67/j/o0966064015739565143.jpg?caw=800&#34; alt=&#34;ASUS TUF RX9070XT Gaming PCパーツ&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12949717569-15739565147.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20260110/22/yuki9902/40/d3/j/o0966064015739565147.jpg?caw=800&#34; alt=&#34;RX9070XT搭載PCとASUS TUF Gaming GPU&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

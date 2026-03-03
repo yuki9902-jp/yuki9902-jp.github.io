@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SITE on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/categories/site/</link>
+    <link>http://localhost:1313/categories/site/</link>
     <description>Recent content in SITE on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 20 Nov 2012 13:06:23 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/categories/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress Plug-in by Facebook</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
+      <link>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
       <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
+      <guid>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
       <description>&lt;p&gt;WordPressのPlug-inをFacebookが公式に提供しています。&lt;/p&gt;&#xA;&lt;p&gt;初期のバージョンには、Plug-in 側か、Facebook App API 側かわかりませんが、バグがあり動作しませんでした。&lt;/p&gt;&#xA;&lt;p&gt;で、先週に新しいPlug-inが公開されていたので、インストールしました。&lt;/p&gt;&#xA;&lt;p&gt;インストールは簡単ですが、利用できるまでの設定が面倒くさいです。&lt;/p&gt;&#xA;&lt;p&gt;まず、FacebookでDeveloper登録します。&lt;/p&gt;&#xA;&lt;p&gt;Facebook Appが利用できる状態にしておきます。&lt;/p&gt;&#xA;&lt;p&gt;大まかな設定については、Facebook Plug-inのヘルプを参照してください。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;大事なのは、Facebook Appの設定画面で、App DomainsにWordpressを実行しているドメイン名を登録することと、Open Graphの設定として登録することでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;それ以外でエラーが出る場合は、Plug-inの実行ディレクトリに適切な権限を設定しましょう。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;設定画面が所々日本語だったり、でも大事なところが英語だったりして、何を書いているのがよくわからなかったりしますが、トライアンドエラーでやるしかないのかな。&lt;/p&gt;&#xA;&lt;p&gt;単語や略語の羅列で意味がわからないのはつらいけどね。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-07 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2012-07/</link>
+    <link>http://localhost:1313/archives/2012-07/</link>
     <description>Recent content in 2012-07 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 30 Jul 2012 22:21:41 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2012-07/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2012-07/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>アメーバは相変わらずバグだらけだな。</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-30_%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%81%AF%E7%9B%B8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%9A%E3%83%90%E3%82%B0%E3%81%A0%E3%82%89%E3%81%91%E3%81%A0%E3%81%AA/</link>
+      <link>http://localhost:1313/posts/2012-07-30_%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%81%AF%E7%9B%B8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%9A%E3%83%90%E3%82%B0%E3%81%A0%E3%82%89%E3%81%91%E3%81%A0%E3%81%AA/</link>
       <pubDate>Mon, 30 Jul 2012 22:21:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-30_%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%81%AF%E7%9B%B8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%9A%E3%83%90%E3%82%B0%E3%81%A0%E3%82%89%E3%81%91%E3%81%A0%E3%81%AA/</guid>
+      <guid>http://localhost:1313/posts/2012-07-30_%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%81%AF%E7%9B%B8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%9A%E3%83%90%E3%82%B0%E3%81%A0%E3%82%89%E3%81%91%E3%81%A0%E3%81%AA/</guid>
       <description>&lt;p&gt;あいかわらずここのマイページは調子が悪いな。&lt;/p&gt;&#xA;&lt;p&gt;何か、こっそり改変したら失敗した口だな。&lt;/p&gt;&#xA;&lt;p&gt;いい加減、テストしてからReleaseしろよ。&lt;/p&gt;&#xA;&lt;p&gt;システム開発の「いろは」を教えてやろうか？&lt;/p&gt;</description>
     </item>
     <item>
       <title>第二種電気工事士の実技試験</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-29_%E7%AC%AC%E4%BA%8C%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E5%AE%9F%E6%8A%80%E8%A9%A6%E9%A8%93/</link>
+      <link>http://localhost:1313/posts/2012-07-29_%E7%AC%AC%E4%BA%8C%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E5%AE%9F%E6%8A%80%E8%A9%A6%E9%A8%93/</link>
       <pubDate>Sun, 29 Jul 2012 20:45:53 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-29_%E7%AC%AC%E4%BA%8C%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E5%AE%9F%E6%8A%80%E8%A9%A6%E9%A8%93/</guid>
+      <guid>http://localhost:1313/posts/2012-07-29_%E7%AC%AC%E4%BA%8C%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E5%AE%9F%E6%8A%80%E8%A9%A6%E9%A8%93/</guid>
       <description>&lt;p&gt;昨日、電工二種の実技試験を受けて参りました。&lt;/p&gt;&#xA;&lt;p&gt;半年ぐらい前に13問の候補問題が公開されておりましたので、すべての問題を3回通り練習いたしておりました。&lt;/p&gt;&#xA;&lt;p&gt;実際の試験では、昨年と同じ問題がでるという、これまでにない出題傾向でしたが、まあ試験内容は非常に簡単でしたので、さっくりと仕上げました。&lt;/p&gt;&#xA;&lt;p&gt;きれいにそろえて仕上げましたので、まわりの人たちに比べ、きれいな作品になりました。&lt;/p&gt;&#xA;&lt;p&gt;コンセントボックスに相当するところは、電源の配線の仕方が何通りかできるのですが、実際の現場に即して、コンセントに電源を配線してからスイッチに渡りをとりました。&lt;br&gt;&#xA;またそうすることによって、配線の確認も容易になります。&lt;/p&gt;&#xA;&lt;p&gt;さて、これで欠陥がなければ良いのですが。&lt;/p&gt;&#xA;&lt;p&gt;筆記とは違い、自己採点できませんので、九月の結果発表までは解りません。&lt;/p&gt;</description>
     </item>
     <item>
       <title>やりたい放題に</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-27_%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E6%94%BE%E9%A1%8C%E3%81%AB/</link>
+      <link>http://localhost:1313/posts/2012-07-27_%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E6%94%BE%E9%A1%8C%E3%81%AB/</link>
       <pubDate>Fri, 27 Jul 2012 21:32:53 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-27_%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E6%94%BE%E9%A1%8C%E3%81%AB/</guid>
+      <guid>http://localhost:1313/posts/2012-07-27_%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E6%94%BE%E9%A1%8C%E3%81%AB/</guid>
       <description>&lt;p&gt;皆様、ペタをありがとうございます。&lt;/p&gt;&#xA;&lt;p&gt;最近、久しぶりのサラリーマン生活で、疲れてペタする前に寝てしまっています。&lt;/p&gt;&#xA;&lt;p&gt;すみません。&lt;/p&gt;&#xA;&lt;p&gt;さて仕事では、IT系の管理は一手に引き受けることになったので、Facebookとか、公式ページを作ってみてやろうとか、現在のプロバイダーが非常に良くないので乗り換えてやろうとか、思っています。&lt;/p&gt;&#xA;&lt;p&gt;ろくに管理もできない地場のプロバイダーだし、ドメインのレジストラも海外で、これまたシステムがお粗末…。&lt;br&gt;&#xA;それが原因で、googleのサーバーが、会社のドメイン名を見つけることができないという情けない状態。&lt;br&gt;&#xA;プロバイダーは投げやりだし。&lt;br&gt;&#xA;それにWordPressなどのCMSもまともに対応してない様子。&lt;/p&gt;&#xA;&lt;p&gt;よし解約してやろう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いや、なんだろう、面倒くさい</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-25_%E3%81%84%E3%82%84%E3%81%AA%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-07-25_%E3%81%84%E3%82%84%E3%81%AA%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84/</link>
       <pubDate>Wed, 25 Jul 2012 21:57:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-25_%E3%81%84%E3%82%84%E3%81%AA%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-07-25_%E3%81%84%E3%82%84%E3%81%AA%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86%E9%9D%A2%E5%80%92%E3%81%8F%E3%81%95%E3%81%84/</guid>
       <description>&lt;p&gt;最近、家のトイレのリモコンの効きが悪く「流す」が使えなくなることがあります。&lt;/p&gt;&#xA;&lt;p&gt;地元の工務店で施工してもらったので、そこを通して故障かどうかを見てもらいましたが、「全く解らない」とメーカーに問い合わせになりました。&lt;/p&gt;&#xA;&lt;p&gt;私が施工を依頼したのではなく、父親からなので、まあ解決はあまり期待してないんですがね。&lt;/p&gt;&#xA;&lt;p&gt;実際、工務店はメーカーからの回答でマニュアルに注意書きがあるので、そうのような使い方じゃなかったの？とか言ってきたみたいです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、私は明らかに違うのが解っているので、父親に「それは絶対ちがう。ちゃんとメーカーに見てもらったほうがいい。ユーザーが泣き寝入りしちゃだめ」って言ったら、父親が逆ギレ…。&lt;/p&gt;&#xA;&lt;p&gt;おいおい相変わらず内弁慶だなぁ、地元の工務店の言うことを鵜呑みにしても、何も解決しないのに…。&lt;/p&gt;&#xA;&lt;p&gt;まあ、夏場になって、リモコンの動作がおかしくなっているので、赤外線の特定パターンに、暑さのための赤外線の乱反射が邪魔しているんだろうと思います。&lt;/p&gt;&#xA;&lt;p&gt;工務店は、赤外線方式を「電波方式で、受光部と発行部から電波を出して、部屋の真ん中で互いに見ているんだ。」と言い、もう完全に私はあきれているんですが…。&lt;/p&gt;&#xA;&lt;p&gt;赤外線も電波の一種だけど、部屋の真ん中で互いに見ているっていうのは、なんだ。&lt;/p&gt;&#xA;&lt;p&gt;ということで、逆ギレした父親も面倒だし、まったく解ってない工務店も面倒だし、放っておきます。&lt;/p&gt;&#xA;&lt;p&gt;リモコンが使えなくても、タンクの横のレバーを回せば流れるから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>落ちる前に</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-24_%E8%90%BD%E3%81%A1%E3%82%8B%E5%89%8D%E3%81%AB/</link>
+      <link>http://localhost:1313/posts/2012-07-24_%E8%90%BD%E3%81%A1%E3%82%8B%E5%89%8D%E3%81%AB/</link>
       <pubDate>Tue, 24 Jul 2012 23:52:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-24_%E8%90%BD%E3%81%A1%E3%82%8B%E5%89%8D%E3%81%AB/</guid>
+      <guid>http://localhost:1313/posts/2012-07-24_%E8%90%BD%E3%81%A1%E3%82%8B%E5%89%8D%E3%81%AB/</guid>
       <description>&lt;p&gt;ごめんなさい。&lt;/p&gt;&#xA;&lt;p&gt;眠いので落ちます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>指痛い</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-20_%E6%8C%87%E7%97%9B%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-07-20_%E6%8C%87%E7%97%9B%E3%81%84/</link>
       <pubDate>Fri, 20 Jul 2012 23:07:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-20_%E6%8C%87%E7%97%9B%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-07-20_%E6%8C%87%E7%97%9B%E3%81%84/</guid>
       <description>&lt;p&gt;右手の小指の爪との縁が炎症を起こしてて、痛いです。&lt;/p&gt;&#xA;&lt;p&gt;中学生の時からの持病みたいですが、右左問わず小指や薬指の爪の縁が炎症を起こします。&lt;/p&gt;&#xA;&lt;p&gt;これになるとしばらく痛くて、膿がたまって、皮膚が硬質化してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;膿がたまるまでは腫れていて痛いです。&lt;/p&gt;&#xA;&lt;p&gt;硬質化したら爪切りで切り取ります。&lt;/p&gt;&#xA;&lt;p&gt;早く、腫れが収まらないかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日から</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-17_%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89/</link>
+      <link>http://localhost:1313/posts/2012-07-17_%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89/</link>
       <pubDate>Tue, 17 Jul 2012 21:42:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-17_%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89/</guid>
+      <guid>http://localhost:1313/posts/2012-07-17_%E4%BB%8A%E6%97%A5%E3%81%8B%E3%82%89/</guid>
       <description>&lt;p&gt;今日からサラリーマンに復帰でございます。&lt;/p&gt;&#xA;&lt;p&gt;11年勤めた会社を逃げるように退社し、2年半もウロウロしておりました。&lt;/p&gt;&#xA;&lt;p&gt;医療法人で、IT関連の業務を一人で担当することになりました。&lt;/p&gt;&#xA;&lt;p&gt;この医療法人、もとあった医療法人が解散するにあたり、それらの経営を引き継いでできた、まだ2年の新しい法人です。&lt;/p&gt;&#xA;&lt;p&gt;設備や施設に詳しい方がいないので、私の仕事はそれらを整理するところからのスタートとなります。&lt;/p&gt;&#xA;&lt;p&gt;今日は初日でございましたが、IT関連よりは改装にあたっての清掃を行いました。&lt;/p&gt;&#xA;&lt;p&gt;汗だくでございました。&lt;/p&gt;&#xA;&lt;p&gt;ペットボトルのお茶が手放せないのです。&lt;/p&gt;&#xA;&lt;p&gt;明日もお茶をがぶ飲みです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CLIPするCD</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-10_clip%E3%81%99%E3%82%8Bcd/</link>
+      <link>http://localhost:1313/posts/2012-07-10_clip%E3%81%99%E3%82%8Bcd/</link>
       <pubDate>Tue, 10 Jul 2012 13:30:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-10_clip%E3%81%99%E3%82%8Bcd/</guid>
+      <guid>http://localhost:1313/posts/2012-07-10_clip%E3%81%99%E3%82%8Bcd/</guid>
       <description>&lt;p&gt;2000年以降に発売された国内のCDは、軒並みCLIPを起こします。&lt;/p&gt;&#xA;&lt;p&gt;GAINが0dbを上回っていて3dbに達しているモノがあります。&lt;/p&gt;&#xA;&lt;p&gt;0dbを超える信号は、大抵のDACで0dbで頭打ちになり、信号の山が壊れます。&lt;/p&gt;&#xA;&lt;p&gt;ギザギザした音やいわゆる割れた音になるのですが、大変聞き苦しい。&lt;/p&gt;&#xA;&lt;p&gt;CDからの信号を、-3dbから-6dbほど下げてDACに送ってやれば、普通に聞ける音になります。&lt;/p&gt;&#xA;&lt;p&gt;この頃、プロの環境が大幅に変わったのが影響しているのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;で、マスタリング工程が確立しきりないままに、CDに信号として記録可能なまで、GAINを上げるだけ上げたものが作られたんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;もしかしたらマスタリングまでにDSD環境が入っていたのかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;DSDは+6dbまで許容されたますから。&lt;/p&gt;&#xA;&lt;p&gt;まあ、実際はどうなのか解りませんが。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、B&amp;rsquo;zのCDで「Mixture」と「ELEVEN」が2000年にReleaseされたモノですが、どちらも3.4dbぐらいオーバーしていて、CLIPしてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;いったんKORG Audio GateでDSDIFFで取り込んだ後、FLACにしています。&lt;/p&gt;&#xA;&lt;p&gt;ほかのツールだと取り込み時にGAIN調整ができるモノがないのです。&lt;/p&gt;&#xA;&lt;p&gt;CD Audioを無損失のPCMにしたところで、CLIPしてしまうデータでは意味がありませんから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>希う</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-09_%E5%B8%8C%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2012-07-09_%E5%B8%8C%E3%81%86/</link>
       <pubDate>Mon, 09 Jul 2012 22:12:51 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-09_%E5%B8%8C%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2012-07-09_%E5%B8%8C%E3%81%86/</guid>
       <description>&lt;p&gt;ここのブログを通じて知り合った方やタレントの方で、健康を損なっておられる方が幾人かおられます。&lt;/p&gt;&#xA;&lt;p&gt;その方々のことがとても気になって仕方がないのです。&lt;/p&gt;&#xA;&lt;p&gt;病気を肩代わりできるものでもありませんし、直接応援したり、励ましたりもできる立場にはないのですが、それでも少しでも元気になっていただきたく思っております。&lt;/p&gt;&#xA;&lt;p&gt;さゆねこさん&lt;/p&gt;&#xA;&lt;p&gt;落合ひろひとさん&lt;/p&gt;&#xA;&lt;p&gt;後藤邑子さん&lt;/p&gt;&#xA;&lt;p&gt;みなさん、もろもろのことが治り元気になってください。&lt;br&gt;&#xA;そうお祈りいたしております。&lt;/p&gt;&#xA;&lt;p&gt;そして&lt;br&gt;&#xA;藤間姫奈さん&lt;/p&gt;&#xA;&lt;p&gt;悩み事が解決して、平穏に楽しくお過ごしになれるようお祈りいたしています。&lt;/p&gt;&#xA;&lt;p&gt;心配すると言うことは腐心するということらしく、自分自身の健康も害したり、良くない結果を導いてしまうかもしれないので、そういう方向性じゃなく、みなさんの幸福を願うことにしております。&lt;/p&gt;</description>
     </item>
     <item>
       <title>豪雨と雷と</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-07_%E8%B1%AA%E9%9B%A8%E3%81%A8%E9%9B%B7%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2012-07-07_%E8%B1%AA%E9%9B%A8%E3%81%A8%E9%9B%B7%E3%81%A8/</link>
       <pubDate>Sat, 07 Jul 2012 01:49:54 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-07_%E8%B1%AA%E9%9B%A8%E3%81%A8%E9%9B%B7%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2012-07-07_%E8%B1%AA%E9%9B%A8%E3%81%A8%E9%9B%B7%E3%81%A8/</guid>
       <description>&lt;p&gt;電気の龍が、黒雲の中を飛び交っております。&lt;/p&gt;&#xA;&lt;p&gt;高原の中に住んでいますので、あたりは龍の巣のようです。&lt;/p&gt;&#xA;&lt;p&gt;時たま、外全体が白く輝いて、グォン、バリバリと鳴ります。&lt;/p&gt;&#xA;&lt;p&gt;パソコンや電化製品が壊れるんじゃないかとヒヤヒヤしております。&lt;/p&gt;&#xA;&lt;p&gt;今は、なんと龍の巣が遠ざかっていっているのが解ります。&lt;/p&gt;&#xA;&lt;p&gt;滝のような雨のカーテンも遠ざかっていくのがわかります。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと安心しました。&lt;/p&gt;&#xA;&lt;p&gt;心臓がバクバクいっておりますが、果たして寝られるのでしょうか…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ヒッグスボソン</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-04_%E3%83%92%E3%83%83%E3%82%B0%E3%82%B9%E3%83%9C%E3%82%BD%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2012-07-04_%E3%83%92%E3%83%83%E3%82%B0%E3%82%B9%E3%83%9C%E3%82%BD%E3%83%B3/</link>
       <pubDate>Wed, 04 Jul 2012 19:39:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-04_%E3%83%92%E3%83%83%E3%82%B0%E3%82%B9%E3%83%9C%E3%82%BD%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2012-07-04_%E3%83%92%E3%83%83%E3%82%B0%E3%82%B9%E3%83%9C%E3%82%BD%E3%83%B3/</guid>
       <description>&lt;p&gt;CERNの発表で、ついにヒッグス粒子の存在が確定されましたね。&lt;/p&gt;&#xA;&lt;p&gt;研究チームは慎重な表現をしてましたが、ほぼ間違いないと思われます。&lt;/p&gt;&#xA;&lt;p&gt;ビッグバン後の相転移と質量発生が裏付けられたことになるはずです。&lt;/p&gt;&#xA;&lt;p&gt;ヒッグス粒子の知られていない性質を探るのがこれからの目的になるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;さらにはまだ知られていない現象の発見や、最終的な統一場理論の構築につながっていくモノと期待してます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>フレンチ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-07-02_%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81/</link>
+      <link>http://localhost:1313/posts/2012-07-02_%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81/</link>
       <pubDate>Mon, 02 Jul 2012 17:32:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-07-02_%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81/</guid>
+      <guid>http://localhost:1313/posts/2012-07-02_%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81/</guid>
       <description>&lt;p&gt;さっき、腹が減ったのでおやつを作った。&lt;/p&gt;&#xA;&lt;p&gt;自家製の食パンを2枚。&lt;/p&gt;&#xA;&lt;p&gt;全卵1個をボールに入れ、&lt;/p&gt;&#xA;&lt;p&gt;砂糖を大さじ1、&lt;/p&gt;&#xA;&lt;p&gt;牛乳を全卵の2倍、&lt;/p&gt;&#xA;&lt;p&gt;卵がきれいにほぐれるまで攪拌、&lt;/p&gt;&#xA;&lt;p&gt;シナモンを適量、&lt;/p&gt;&#xA;&lt;p&gt;食パンを6つに切りボールに入れ、&lt;/p&gt;&#xA;&lt;p&gt;卵液を全部吸い上げるまで浸し、&lt;/p&gt;&#xA;&lt;p&gt;フライパンを弱火にかけ、&lt;/p&gt;&#xA;&lt;p&gt;バターを10グラム、&lt;/p&gt;&#xA;&lt;p&gt;十分に熱くなったところで浸したパンをフライパンに並べ、&lt;/p&gt;&#xA;&lt;p&gt;焼き目がつくまで焦がさないように焼き、&lt;/p&gt;&#xA;&lt;p&gt;適度に返しながら焼き、&lt;/p&gt;&#xA;&lt;p&gt;完成したのはフレンチトースト。&lt;/p&gt;&#xA;&lt;p&gt;甘みが足りなかったのかなと思うモノの使った砂糖の量を考えるとちょっと怖い。&lt;/p&gt;</description>
     </item>
   </channel>

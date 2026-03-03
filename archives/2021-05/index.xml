@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2021-05 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2021-05/</link>
+    <link>http://localhost:1313/archives/2021-05/</link>
     <description>Recent content in 2021-05 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 28 May 2021 21:35:02 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2021-05/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2021-05/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CORSAIR iCUE H115i ELITE CAPELLIXとRYZEN 7 5800X</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-28_corsair-icue-h115i-elite-capellix%E3%81%A8ryzen-7-5800x/</link>
+      <link>http://localhost:1313/posts/2021-05-28_corsair-icue-h115i-elite-capellix%E3%81%A8ryzen-7-5800x/</link>
       <pubDate>Fri, 28 May 2021 21:35:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-28_corsair-icue-h115i-elite-capellix%E3%81%A8ryzen-7-5800x/</guid>
+      <guid>http://localhost:1313/posts/2021-05-28_corsair-icue-h115i-elite-capellix%E3%81%A8ryzen-7-5800x/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/iCUE-ELITE-CAPELLIX-Liquid-CPU-Cooler/p/CW-9060047-WW&#34;&gt;CORSAIR iCUE H115i ELITE CAPELLIX Liquid CPU Cooler&lt;/a&gt; が届いたので、田圃仕事が終わった後に組み付け作業をしました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/E7N13nmOHvFJPCvgyZMmf3&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;18,155〜27,638円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=P8FGeYUKGKu3dsfbMxdOj1&amp;amp;mimp=SKItsHy2PDjWMExPRIGO6P&amp;amp;session=75ab770a-c68c-43b7-a843-799347a95ce4&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=P8FGeYUKGKu3dsfbMxdOj1&amp;amp;mimp=SKItsHy2PDjWMExPRIGO6P&amp;amp;session=75ab770a-c68c-43b7-a843-799347a95ce4&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;　RYZEN 7 5800Xを使っていて、冬場は空冷のCOOLERMASTER MasterAir MA620Mでも冷やし切れていて4.75GHzでも安定動作していましたが、夏場になって4.7GHzに下げてもたまにシステムが落ちるぐらいの冷却不足に陥っていました。Precision Boost Overdrive 2でもたまに落ちます。「Auto」で使うには特に問題ないですがCPUの能力を引き出し安定して使うためには水冷システムにしなければいけません。&lt;/p&gt;&#xA;&lt;p&gt;　PCケースがCORSAIR CRYSTAL 680X、GPUがASUS ROG STRIX RADEON RX 5700XT 8GB OCの組み合わせだと、360ミリの簡易水冷のラジエターが搭載できないので、280ミリの簡易水冷を買いました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12677267647-14948845079.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210528/20/yuki9902/c5/92/j/o1664124814948845079.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　上面に搭載していた120ミリのファン2つを底面に設置し、上面にラジエターと140ミリファンを2つ搭載しました。ホースと前面のファンの隙間はありません。ラジエターの搭載位置は前にも後ろにもずらせません。&lt;/p&gt;&#xA;&lt;p&gt;　Commander PROを搭載しているので、簡易水冷に付属のiCUE Commander COREを設置する場所に迷いましたが、3.5インチドライブベイに付属の両面テープで取り付けました。&lt;/p&gt;&#xA;&lt;p&gt;　冷却に関しては、かなり余裕を持って冷やせます。Precision Boost Overdrive 2を使うように設定して、ベンチマークを走らせると、全コアの最大クロックが4950MHzまであがるようになりました。冬場の空冷でも4850MHzが限界でしたが、更に伸びました。他のプロセスを終了させずに簡易で計測してもベンチマークのスコアは1%の違いです。マニュアルOCで詳細なベンチマークをとる気概が今日はないですが、またいずれ計測します。&lt;/p&gt;&#xA;&lt;p&gt;　RYZEN 7 5800Xには水冷が必要と言われていましたが、実際にその通りです。今回は思い切って簡易水冷クーラーを導入しましたが、極大型空冷クーラーを導入するよりもメンテナンス性や光り物や見た目のすっきり感も良い結果になりました。価格も同じくらいなので導入しやすいと思います。&lt;/p&gt;&#xA;&lt;p&gt;　静音性はこれから詰めていきますが、初期設定でもポンプの動作音はかなり小さいです。蛙の鳴き声が大きいのでポンプの音はほぼ聞こえないです。&lt;/p&gt;&#xA;&lt;p&gt;　水冷システムは15年ぶりぐらいですが、今は液漏れやポンプの故障をほぼ気にすることなく使えるようになりました。昔のポンプは水槽用の循環ポンプだったから･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>バナナプラグの締め直し</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-24_%E3%83%90%E3%83%8A%E3%83%8A%E3%83%97%E3%83%A9%E3%82%B0%E3%81%AE%E7%B7%A0%E3%82%81%E7%9B%B4%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2021-05-24_%E3%83%90%E3%83%8A%E3%83%8A%E3%83%97%E3%83%A9%E3%82%B0%E3%81%AE%E7%B7%A0%E3%82%81%E7%9B%B4%E3%81%97/</link>
       <pubDate>Mon, 24 May 2021 23:17:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-24_%E3%83%90%E3%83%8A%E3%83%8A%E3%83%97%E3%83%A9%E3%82%B0%E3%81%AE%E7%B7%A0%E3%82%81%E7%9B%B4%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2021-05-24_%E3%83%90%E3%83%8A%E3%83%8A%E3%83%97%E3%83%A9%E3%82%B0%E3%81%AE%E7%B7%A0%E3%82%81%E7%9B%B4%E3%81%97/</guid>
       <description>&lt;p&gt;AVアンプに繋いでいるスピーカーケーブルの端末処理はソルダーレスのバナナプラグを使っていますが、締め込み式なので振動などで徐々に緩んできます。&lt;/p&gt;&#xA;&lt;p&gt;　7チャンネルスピーカーのバランス調整をしていたら、フロント左右の音量にかなりの差が出来ていたのでおかしいなぁと思い、すべてのバナナプラグのネジを締め直しました。&lt;/p&gt;&#xA;&lt;p&gt;　左右の音量差がほぼなくなり音の定位がはっきりとして、低音がかなり出るようになりました。&lt;/p&gt;&#xA;&lt;p&gt;　ベルデンのスピーカーケーブルで、プラス側には銅色、マイナス側には銀色（スズメッキ）になっています。プラス側は直に銅なので酸化していて接触抵抗が高くなっていました。&lt;/p&gt;&#xA;&lt;p&gt;　バナナプラグのネジの締め直しで、接触抵抗がかなり減ったように思います。&lt;/p&gt;&#xA;&lt;p&gt;　銅が剥き出しなのでケーブルをハンダで端末処理してからバナナプラグに接続した方が良いような気がします。&lt;/p&gt;&#xA;&lt;p&gt;　良い音が復活したので、二日間ほど音楽漬けです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD RYZEN 7 5800X、4.7GHzOCで落ちるようになった</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-24_amd-ryzen-7-5800x4.7ghzoc%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2021-05-24_amd-ryzen-7-5800x4.7ghzoc%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F/</link>
       <pubDate>Mon, 24 May 2021 08:39:26 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-24_amd-ryzen-7-5800x4.7ghzoc%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2021-05-24_amd-ryzen-7-5800x4.7ghzoc%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;冬場はAMD RYZEN 7 5800Xを4.75GHzまでOCして使っていました。全コアに負荷を100％かけてもCPUのパッケージ温度は88℃ぐらいまででした。しかし夏に近づいて気温が25℃ぐらいになってきて4.75GHzではシステムが落ちてリブートしてしまいます。公称最大オーバークロックの4.7GHzでもCPUのパッケージ温度が90℃近くまで行き、高負荷になる作業をするとシステムが落ちてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;　空冷のCooler Master MasterAir MA620Mでは冷やしきれないので、280ミリラジエターのオールインワン水冷CPUクーラー（簡易水冷CPUクーラー）CORSAIR iCUE H115i ELITE CAPELLIX を注文しました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/gn32qAKWEUZc3KghMAhet1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;18,155〜38,998円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=dsNaA19g7oF7Z1f6eNt9a2&amp;amp;mimp=5dovlx7m1CPJHvhPFvjac3&amp;amp;session=e28c7934-f1bb-4004-b09d-d69b1f56de3a&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=dsNaA19g7oF7Z1f6eNt9a2&amp;amp;mimp=5dovlx7m1CPJHvhPFvjac3&amp;amp;session=e28c7934-f1bb-4004-b09d-d69b1f56de3a&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;　360ミリラジエターと価格的にはほとんど変わらないので360ミリラジエターにしたかったんですが、PCケースCorsair Crystal 680Xには入るのですが、GPUと干渉してしまいます。ラジエターの厚さが27mm、ファンが25mmで合計52mmのスペースが必要ですが、GPUとラジエター取り付け部との隙間は47mmしかありません。互換表に従ってトップパネルに搭載できる280mmラジエターにしました。&lt;/p&gt;&#xA;&lt;p&gt;　風量は、120mmファン1基のCooler Master MasterAir MA620Mの57.3CFM(Max)・2.0mmH20(Max)から140mmファン2基搭載のCorsair iCUE H115i ELITE CPAELLIXの97CFM(Max)・3.0mmH20(Max)に大幅に上昇するし、空気と水の比熱は4倍ほど違うのでいきなり落ちるほどの温度には上がらないと思います。&lt;/p&gt;&#xA;&lt;p&gt;　とにかく最低限4.7GHzでCINEBENCH R20が完走出来る状態になればいいのですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ASUS ROG STRIX X570-F Gaming Audio Driver Update</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/</link>
+      <link>http://localhost:1313/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/</link>
       <pubDate>Sat, 22 May 2021 09:58:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/</guid>
+      <guid>http://localhost:1313/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download&#34;&gt;Realtek Audio Driver V6.0.9088.1 For Windows 10 64-bit.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ASUS ROG STRIX X570-F Gamingに搭載されているオーディオコーデックチップ「Realtek ALC1220」のドライバーが更新されたため、インストールを行いました。&lt;/p&gt;&#xA;&lt;p&gt;今回のアップデートにより、これまで動作が不安定だったSonic Studio 3、Sonic Radar 3、およびUWP版のRealtek Audio Console Appが改善されたようです。ALC1220世代以降は、Intel/AMD共にCPU内のサウンドプロセッサーと密接に連携して動作するため、マザーボードメーカーが最適化した専用ドライバーを使用することが不可欠です。&lt;/p&gt;&#xA;&lt;h4 id=&#34;ドライバー入手時の注意点&#34;&gt;ドライバー入手時の注意点&lt;/h4&gt;&#xA;&lt;p&gt;現在、ASUSのオーディオドライバーは「Armoury Crate」経由と「サポートページ」公開分の2種類が存在します。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Armoury Crate提供版：&lt;/strong&gt; 6.0.8899.1&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;公式サイトサポートページ提供版：&lt;/strong&gt; 6.0.9088.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;サポートページで公開されている最新版（6.0.9088.1）は非常に安定しています。逆に、これより古いバージョンを中途半端にインストールするとシステムが不安定になり、最悪の場合Windows 10のクリーンインストールを余儀なくされるケースが多いため、常に最新版の使用を強く推奨します。&lt;/p&gt;&#xA;&lt;h4 id=&#34;インストールされるコンポーネント&#34;&gt;インストールされるコンポーネント&lt;/h4&gt;&#xA;&lt;p&gt;本パッケージを導入することで、以下のソフトウェア群が一括でインストールされます。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WDMドライバー / ASIOドライバー&lt;/li&gt;&#xA;&lt;li&gt;A-Volute Nh3 Audio（バーチャルミキサー、Sonic Studio 3、Sonic Radar 3 / Nahimic Service）&lt;/li&gt;&#xA;&lt;li&gt;Realtek Audio Console App&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;音質維持のための設定バーチャルミキサーの無効化&#34;&gt;音質維持のための設定：バーチャルミキサーの無効化&lt;/h4&gt;&#xA;&lt;p&gt;インストール後、サウンド設定から「Sonic Studio Virtual Mixer」を&lt;strong&gt;無効化&lt;/strong&gt;することをおすすめします。 これが有効になっていると、WDM（WASAPI）経由の音声も強制的にバーチャルミキサーへループバックされてしまい、音質が著しく劣化する原因となります。&lt;/p&gt;&#xA;&lt;h4 id=&#34;充実したアナログデジタル出力の仕様&#34;&gt;充実したアナログ・デジタル出力の仕様&lt;/h4&gt;&#xA;&lt;p&gt;本ボードのオーディオ回路は非常に優秀です。背面端子は金メッキ仕様となっており、電源ユニットのアースを適切に取れば、公称値通りの高いS/N比と低いノイズフロアを実現できます。ピュアオーディオシステムに接続しても十分に通用するクオリティです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. S/PDIF（光デジタル）出力&lt;/strong&gt; アンプと接続し、WASAPI（排他モード）で再生すればビットパーフェクトな転送が可能です。光ファイバーによる電気的絶縁により物理的なノイズ混入も遮断されるため、PCオーディオとしては理想的な環境が構築できます。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;対応サンプリングレート：&lt;/strong&gt; 44.1 / 48 / 88.2 / 96 / 192 kHz&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ビット深度：&lt;/strong&gt; 16 / 24 bit&lt;/li&gt;&#xA;&lt;li&gt;※S/PDIFではASIOは使用不可&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. アナログ出力&lt;/strong&gt; フラットな特性を持っているため、再生ソフトやアンプ側での色付けがしやすいのが特徴です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ジリジリ、むわっ</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-19_%E3%82%B8%E3%83%AA%E3%82%B8%E3%83%AA%E3%82%80%E3%82%8F%E3%81%A3/</link>
+      <link>http://localhost:1313/posts/2021-05-19_%E3%82%B8%E3%83%AA%E3%82%B8%E3%83%AA%E3%82%80%E3%82%8F%E3%81%A3/</link>
       <pubDate>Wed, 19 May 2021 21:38:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-19_%E3%82%B8%E3%83%AA%E3%82%B8%E3%83%AA%E3%82%80%E3%82%8F%E3%81%A3/</guid>
+      <guid>http://localhost:1313/posts/2021-05-19_%E3%82%B8%E3%83%AA%E3%82%B8%E3%83%AA%E3%82%80%E3%82%8F%E3%81%A3/</guid>
       <description>&lt;p&gt;午前中に田植えが終了しました。雨が少しぱらつきました。そして昼前には雲が晴れ、ジリジリと焼けるような日差しになりました。&lt;/p&gt;&#xA;&lt;p&gt;　ビニールハウスはまさにサウナと同じぐらいの温度まで上がり、中に入ると火傷しそうな熱気でした。&lt;/p&gt;&#xA;&lt;p&gt;　空の様子は完全に夏。もう梅雨明けしたんじゃないかと思わせるような青空と白い雲で、それを認識した途端、夏バテしそうでした。&lt;/p&gt;&#xA;&lt;p&gt;　今年の梅雨も夏の暑さも予想できない感じになりそう。えっ、予想してるじゃんって(oﾟ▽ﾟ)o&lt;/p&gt;&#xA;&lt;p&gt;　暑さには気をつけて過ごしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>田植え、時々雨</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-18_%E7%94%B0%E6%A4%8D%E3%81%88%E6%99%82%E3%80%85%E9%9B%A8/</link>
+      <link>http://localhost:1313/posts/2021-05-18_%E7%94%B0%E6%A4%8D%E3%81%88%E6%99%82%E3%80%85%E9%9B%A8/</link>
       <pubDate>Tue, 18 May 2021 21:07:12 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-18_%E7%94%B0%E6%A4%8D%E3%81%88%E6%99%82%E3%80%85%E9%9B%A8/</guid>
+      <guid>http://localhost:1313/posts/2021-05-18_%E7%94%B0%E6%A4%8D%E3%81%88%E6%99%82%E3%80%85%E9%9B%A8/</guid>
       <description>&lt;p&gt;梅雨の間隙を縫って田植えをしています。今日までで四町を終了させました。残りは三反半くらいです。&lt;/p&gt;&#xA;&lt;p&gt;　一町は三千坪、9,917.35537m2、約1haです。十反は一町です。&lt;/p&gt;&#xA;&lt;p&gt;　午前八時から作業を始めて午後五時までで、田圃の形状にも因りますが一町三反ぐらいの田植えが出来ます。中山間地域で構造改善をされた田圃なので千枚田だった昔に比べると随分と楽になりましたが、歪な田圃が多々あります。&lt;/p&gt;&#xA;&lt;p&gt;　明日は晴れのようなので、残りの田植えは午前中に終わると思います。&lt;/p&gt;&#xA;&lt;p&gt;　ただし今日の疲れが抜けきっていればですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ビタミン補給</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-16_%E3%83%93%E3%82%BF%E3%83%9F%E3%83%B3%E8%A3%9C%E7%B5%A6/</link>
+      <link>http://localhost:1313/posts/2021-05-16_%E3%83%93%E3%82%BF%E3%83%9F%E3%83%B3%E8%A3%9C%E7%B5%A6/</link>
       <pubDate>Sun, 16 May 2021 21:45:03 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-16_%E3%83%93%E3%82%BF%E3%83%9F%E3%83%B3%E8%A3%9C%E7%B5%A6/</guid>
+      <guid>http://localhost:1313/posts/2021-05-16_%E3%83%93%E3%82%BF%E3%83%9F%E3%83%B3%E8%A3%9C%E7%B5%A6/</guid>
       <description>&lt;p&gt;余りにも体調が悪すぎたので、ビタミンB2とビタミンCの錠剤、ビタミンCのカプセルと栄養ドリンクを飲みました。徐々に体調の悪さが治まってきて怠くて痛い状態からは脱し、口内炎には消炎剤もぬって患部から痛みはほぼなくなりました。今は若干の怠さと頭痛と気分が滅入っている程度になりました。&lt;/p&gt;&#xA;&lt;p&gt;　かなりしんどい状態からは脱したので、しばらくは大丈夫かな･･･。&lt;/p&gt;&#xA;&lt;p&gt;　とりあえずは今日届いたダージリンファーストフラッシュを飲んで、ぼんやりと過ごします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダージリンファーストフラッシュが届きました</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-16_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2021-05-16_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 16 May 2021 07:53:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-16_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2021-05-16_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12674765206-14942572318.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210516/07/yuki9902/e2/36/j/o2067088614942572318.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　ルピシアで注文していたダージリンのファーストフラッシュが届きました。標準的なブレンドのダージリンファーストフラッシュはティーバッグ、花のような香りのブレンドのプレミアムフラワリー、柑橘類のような香りのブレンドのプレミアムフルティー、最高品質の葉の王道のブレンドのマグノリア、軽やかな香りとしっかりした味のティンダーリア、花のような香りですっきりした味のシンブーリフラワリー。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lupicia.com/shop/e/eDJF21/&#34;&gt;世界のお茶専門店ルピシア ダージリン ファーストフラッシュ 2021&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lupicia.com/shop/e/eDJF21/&#34;&gt;【LUPICIA】ダージリン ファーストフラッシュ 2021: | LUPICIA ONLINE STORE - 世界のお茶専門店 ルピシア 〜紅茶・緑茶・烏龍茶・ハーブ〜ダージリン ファーストフラッシュ 2021: &lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;www.lupicia.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　ダージリンファーストフラッシュをすべて楽しもうと思ったら財布にはなかなか厳しいですが、それでも自分に合ったお茶を楽しむのはやめられません。他社が販売するダージリンもかなり試しましたが、ルピシアのダージリンファーストフラッシュは自分には最高に合っています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>体調不良</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-15_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</link>
+      <link>http://localhost:1313/posts/2021-05-15_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</link>
       <pubDate>Sat, 15 May 2021 23:46:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-15_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</guid>
+      <guid>http://localhost:1313/posts/2021-05-15_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</guid>
       <description>&lt;p&gt;口内炎、爪囲炎が治まらないだけでなく、体全体に鈍い痛みがあり、内蔵の調子も悪いです。痛みとずんと重い不快感に引き摺られ、気分も良くはないです。&lt;/p&gt;&#xA;&lt;p&gt;　ここ数年は季節の変わり目毎に体調が悪化してたんですが、今年の春は体調が良かったので油断してました。&lt;/p&gt;&#xA;&lt;p&gt;　しばらく雨が続くので田植えはちょっと休みです。再開までには体調が回復すれば良いんですが。疲れるとその分、体調が悪化するのでなかなか･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>熱中症</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-14_%E7%86%B1%E4%B8%AD%E7%97%87/</link>
+      <link>http://localhost:1313/posts/2021-05-14_%E7%86%B1%E4%B8%AD%E7%97%87/</link>
       <pubDate>Fri, 14 May 2021 19:06:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-14_%E7%86%B1%E4%B8%AD%E7%97%87/</guid>
+      <guid>http://localhost:1313/posts/2021-05-14_%E7%86%B1%E4%B8%AD%E7%97%87/</guid>
       <description>&lt;p&gt;水田の上は、蒸し暑すぎて熱中症です。&lt;/p&gt;&#xA;&lt;p&gt;明日には梅雨入り宣言が出そうですが、その前に緊急事態宣言です(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;身体の調子も一昨日からおかしくて、口内炎が出来るし、爪囲炎も出来るし、免疫力が低下中です。&lt;/p&gt;&#xA;&lt;p&gt;あー頭痛い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雑感</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-14_%E9%9B%91%E6%84%9F/</link>
+      <link>http://localhost:1313/posts/2021-05-14_%E9%9B%91%E6%84%9F/</link>
       <pubDate>Fri, 14 May 2021 00:53:44 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-14_%E9%9B%91%E6%84%9F/</guid>
+      <guid>http://localhost:1313/posts/2021-05-14_%E9%9B%91%E6%84%9F/</guid>
       <description>&lt;p&gt;レベル4でまもなく医療崩壊するぐらいの感染者数で、岡山の医療はかなりヤバいです。田舎故に急性期病院が限られる上、そこが地域医療の中核であるため、SARS-CoV-2以外の救急医療にも支障が出ています。&lt;/p&gt;&#xA;&lt;p&gt;　春の人事異動での歓送迎会、水商売と性風俗がらみの他県からの流入、実質無制限の外国人の流入で、真面目に生活していた人達に大迷惑が掛かっています。&lt;/p&gt;&#xA;&lt;p&gt;　イギリスで確認された変異株の流れを含む岡山での新しい変異株が出てきました。人に移れば基本的に変異を起こすので、毎月2～3種類は新たな変異株が見つかります。ウィルスは基本的に変異すれば感染力は上がり毒性は弱くなっていきます。治療法は確立されているのでいずれにせよ致死率は高くはありません。&lt;/p&gt;&#xA;&lt;p&gt;7月末までには高齢者全員のワクチン接種が完了して、人口の25％は抗体を持つ状態になるはずなので、現状は医療崩壊をさせないように感染者のピークを下げることに重点を置くようです。ワクチンでの抗体獲得が99.8％という数字を今日見たので、少しの間自粛すればすぐに落ち着くでしょう。&lt;/p&gt;&#xA;&lt;p&gt;急性期病院で働いている知人も多いので彼らの負担にならないように、これまで通り引きこもりをします。&lt;/p&gt;&#xA;&lt;p&gt;今日は心療内科に行きました。天気の所為かマスメディアの毒情報の所為か、情緒不安定で頭が痛いですが、とりあえずは痛み止めで誤魔化します。それでも明日は田植えの続きです。雨が降る前になるべく多く植え付けできれば良いですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>田植え</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-12_%E7%94%B0%E6%A4%8D%E3%81%88/</link>
+      <link>http://localhost:1313/posts/2021-05-12_%E7%94%B0%E6%A4%8D%E3%81%88/</link>
       <pubDate>Wed, 12 May 2021 12:19:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-12_%E7%94%B0%E6%A4%8D%E3%81%88/</guid>
+      <guid>http://localhost:1313/posts/2021-05-12_%E7%94%B0%E6%A4%8D%E3%81%88/</guid>
       <description>&lt;p&gt;今朝は水捌けが良すぎる田圃だけ田植えをしました。&lt;/p&gt;&#xA;&lt;p&gt;6反ほどです。&lt;/p&gt;&#xA;&lt;p&gt;明日は通院。&lt;/p&gt;&#xA;&lt;p&gt;明後日から本格的に田植えをしますが、梅雨入りしそうです。&lt;/p&gt;&#xA;&lt;p&gt;田植機の肥料入れに水が入ると肥料と金属部分が化学反応を起こし、金属部分が腐食してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;雨があんまり強く降るようだと田植えが出来ません。&lt;/p&gt;&#xA;&lt;p&gt;まあ、屋根がないので晴れていない方が、涼しくて良いんですが。&lt;/p&gt;&#xA;&lt;p&gt;でも今日は寒いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も代掻き</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-09_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%A3%E6%8E%BB%E3%81%8D/</link>
+      <link>http://localhost:1313/posts/2021-05-09_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%A3%E6%8E%BB%E3%81%8D/</link>
       <pubDate>Sun, 09 May 2021 08:14:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-09_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%A3%E6%8E%BB%E3%81%8D/</guid>
+      <guid>http://localhost:1313/posts/2021-05-09_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%A3%E6%8E%BB%E3%81%8D/</guid>
       <description>&lt;p&gt;昨日も代掻き。&lt;/p&gt;&#xA;&lt;p&gt;今日も代掻き。&lt;/p&gt;&#xA;&lt;p&gt;トラクターの大きなエンジン音と振動、重たい操作系で乗っているだけでも疲れます。&lt;/p&gt;&#xA;&lt;p&gt;では、作業服に着替えて行ってきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も粗掻き</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-06_%E4%BB%8A%E6%97%A5%E3%82%82%E7%B2%97%E6%8E%BB%E3%81%8D/</link>
+      <link>http://localhost:1313/posts/2021-05-06_%E4%BB%8A%E6%97%A5%E3%82%82%E7%B2%97%E6%8E%BB%E3%81%8D/</link>
       <pubDate>Thu, 06 May 2021 21:45:47 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-06_%E4%BB%8A%E6%97%A5%E3%82%82%E7%B2%97%E6%8E%BB%E3%81%8D/</guid>
+      <guid>http://localhost:1313/posts/2021-05-06_%E4%BB%8A%E6%97%A5%E3%82%82%E7%B2%97%E6%8E%BB%E3%81%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12672931730-14937889063.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210506/21/yuki9902/5e/79/j/o1338100314937889063.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は晴れたので、水がたまりきった残りの田圃の粗掻きをしました。&lt;/p&gt;&#xA;&lt;p&gt;トラクターのローターをハローに交換したので、明日以降は代掻きをします。&lt;/p&gt;&#xA;&lt;p&gt;四町三反なので四日程度で終わる見込みです。&lt;/p&gt;&#xA;&lt;p&gt;明日は雨予報ですが、1時間毎の予報では降水確率が最大でも28％なので、多分降らないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;田植えは十五日頃から始める予定です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>代掻き</title>
-      <link>https://yuki9902-jp.github.io/posts/2021-05-01_%E4%BB%A3%E6%8E%BB%E3%81%8D/</link>
+      <link>http://localhost:1313/posts/2021-05-01_%E4%BB%A3%E6%8E%BB%E3%81%8D/</link>
       <pubDate>Sat, 01 May 2021 12:34:56 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2021-05-01_%E4%BB%A3%E6%8E%BB%E3%81%8D/</guid>
+      <guid>http://localhost:1313/posts/2021-05-01_%E4%BB%A3%E6%8E%BB%E3%81%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12671823242-14934818060.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210501/12/yuki9902/7f/40/j/o1080060814934818060.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は雨予報でしたが、風が強く雨雲はありません。&lt;/p&gt;&#xA;&lt;p&gt;今日もボチボチと代掻きをします。&lt;/p&gt;</description>
     </item>
   </channel>

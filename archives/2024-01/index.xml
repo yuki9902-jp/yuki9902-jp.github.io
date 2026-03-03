@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024-01 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2024-01/</link>
+    <link>http://localhost:1313/archives/2024-01/</link>
     <description>Recent content in 2024-01 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 01 Jan 2024 09:48:39 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2024-01/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2024-01/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome 2024</title>
-      <link>https://yuki9902-jp.github.io/posts/2024-01-01_welcome-2024/</link>
+      <link>http://localhost:1313/posts/2024-01-01_welcome-2024/</link>
       <pubDate>Mon, 01 Jan 2024 09:48:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2024-01-01_welcome-2024/</guid>
+      <guid>http://localhost:1313/posts/2024-01-01_welcome-2024/</guid>
       <description>&lt;p&gt;明けましておめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;本年も何卒宜しくお願い申し上げます。&lt;/p&gt;&#xA;&lt;p&gt;皆様にとって幸多き年であることをお祈りいたしております。&lt;/p&gt;</description>
     </item>
   </channel>

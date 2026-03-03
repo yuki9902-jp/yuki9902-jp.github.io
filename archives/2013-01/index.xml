@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2013-01 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2013-01/</link>
+    <link>http://localhost:1313/archives/2013-01/</link>
     <description>Recent content in 2013-01 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 26 Jan 2013 22:28:01 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2013-01/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2013-01/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>たびたび失礼しております。</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-01-26_%E3%81%9F%E3%81%B3%E3%81%9F%E3%81%B3%E5%A4%B1%E7%A4%BC%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2013-01-26_%E3%81%9F%E3%81%B3%E3%81%9F%E3%81%B3%E5%A4%B1%E7%A4%BC%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</link>
       <pubDate>Sat, 26 Jan 2013 22:28:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-01-26_%E3%81%9F%E3%81%B3%E3%81%9F%E3%81%B3%E5%A4%B1%E7%A4%BC%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2013-01-26_%E3%81%9F%E3%81%B3%E3%81%9F%E3%81%B3%E5%A4%B1%E7%A4%BC%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;なんかペタができなくてごめんなさい。&lt;/p&gt;&#xA;&lt;p&gt;去年末から今年に入っても、精神的に不安定な状態が続いていまして、こちらに書くのはなかなか憚れますので、失礼しています。&lt;/p&gt;&#xA;&lt;p&gt;常に優しい世界であるように、人々が優しくなれますように、祈り続けております。&lt;/p&gt;&#xA;&lt;p&gt;幸多き人生でありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>だいっきらいだ！</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-01-20_%E3%81%A0%E3%81%84%E3%81%A3%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0/</link>
+      <link>http://localhost:1313/posts/2013-01-20_%E3%81%A0%E3%81%84%E3%81%A3%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0/</link>
       <pubDate>Sun, 20 Jan 2013 22:54:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-01-20_%E3%81%A0%E3%81%84%E3%81%A3%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0/</guid>
+      <guid>http://localhost:1313/posts/2013-01-20_%E3%81%A0%E3%81%84%E3%81%A3%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0/</guid>
       <description>&lt;p&gt;先週、ますます人間嫌いになるトラブルがあった。&lt;/p&gt;&#xA;&lt;p&gt;私がそこにいたばかりに、たちの悪いジジイに捕まって怒鳴りあげられた。&lt;/p&gt;&#xA;&lt;p&gt;何もしていないのに、謝らなければならない不条理。&lt;/p&gt;&#xA;&lt;p&gt;逃げ場のない状況。&lt;/p&gt;&#xA;&lt;p&gt;もう嫌。&lt;/p&gt;&#xA;&lt;p&gt;関わりたくない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お久しぶりなのです。</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-01-17_%E3%81%8A%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2013-01-17_%E3%81%8A%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99/</link>
       <pubDate>Thu, 17 Jan 2013 13:32:15 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-01-17_%E3%81%8A%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2013-01-17_%E3%81%8A%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;最近、全然書いていませんでしたね。&lt;/p&gt;&#xA;&lt;p&gt;すみません。&lt;/p&gt;&#xA;&lt;p&gt;年明けから睡眠障害を抱えて、結構しんどかったですが、一昨日、昨日は薬のおかげで睡眠をよく取れるようになりましたが、今日は、寝る前にコーヒーを飲んだせいか、朝方に頻繁に目が覚め、朝から疲れています。&lt;/p&gt;&#xA;&lt;p&gt;人並みの生活は難しいですが、寿命までは生き抜いてみます。&lt;/p&gt;&#xA;&lt;p&gt;みんな何してんのかなぁ、元気なのかなぁ、と時々思い出します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まおゆう</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-01-06_%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2013-01-06_%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86/</link>
       <pubDate>Sun, 06 Jan 2013 20:39:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-01-06_%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2013-01-06_%E3%81%BE%E3%81%8A%E3%82%86%E3%81%86/</guid>
       <description>&lt;p&gt;「まおゆう」のアニメ始まりましたね。&lt;/p&gt;&#xA;&lt;p&gt;原作はあれな掲示板で合同で作られたものらしいっす。&lt;/p&gt;&#xA;&lt;p&gt;勇者に福山さん、魔王に小清水さん･･･。&lt;br&gt;&#xA;制作元はポニーキャニオン。&lt;/p&gt;&#xA;&lt;p&gt;ストーリー展開は、戦争を経済的側面から解説して、ちょっと回りくどいのも、&lt;/p&gt;&#xA;&lt;p&gt;まるで狼と香辛料･･･。&lt;br&gt;&#xA;ロレンスとホロの組み合わせで・・・。&lt;/p&gt;&#xA;&lt;p&gt;魔王と勇者のつかず離れずのプラトニックな恋愛模様も、まさしくそれです。&lt;/p&gt;&#xA;&lt;p&gt;アニメのエンディングテーマもそれっぽい。&lt;/p&gt;&#xA;&lt;p&gt;小清水さんと沢城さんが出てるだけで、私はうれしいんですが。&lt;/p&gt;&#xA;&lt;p&gt;明るいわけでもウキウキするわけでもないアニメですが、たぶん見続けるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>謹んで</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-01-01_%E8%AC%B9%E3%82%93%E3%81%A7/</link>
+      <link>http://localhost:1313/posts/2013-01-01_%E8%AC%B9%E3%82%93%E3%81%A7/</link>
       <pubDate>Tue, 01 Jan 2013 01:06:40 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-01-01_%E8%AC%B9%E3%82%93%E3%81%A7/</guid>
+      <guid>http://localhost:1313/posts/2013-01-01_%E8%AC%B9%E3%82%93%E3%81%A7/</guid>
       <description>&lt;p&gt;謹んで初春のお慶びを申し上げます。&lt;/p&gt;&#xA;&lt;p&gt;ここを通して交流いただいている皆様にとって、今年がすばらしい年となることを心よりお祈り申し上げます。&lt;/p&gt;</description>
     </item>
   </channel>

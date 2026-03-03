@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2013-12 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2013-12/</link>
+    <link>http://localhost:1313/archives/2013-12/</link>
     <description>Recent content in 2013-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 31 Dec 2013 19:50:36 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2013-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2013-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年越し</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-31_%E5%B9%B4%E8%B6%8A%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2013-12-31_%E5%B9%B4%E8%B6%8A%E3%81%97/</link>
       <pubDate>Tue, 31 Dec 2013 19:50:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-31_%E5%B9%B4%E8%B6%8A%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2013-12-31_%E5%B9%B4%E8%B6%8A%E3%81%97/</guid>
       <description>&lt;p&gt;無手無冠(むてむか)の栗焼酎『ダバダ火振(ひぶり)』のチビうんすけの栓を開け、ざるそばと一緒に楽しんでおります。&lt;/p&gt;&#xA;&lt;p&gt;皆さん、この一年どんな年でしたか。&lt;/p&gt;&#xA;&lt;p&gt;辛いこと、悲しいこと、悔しいこと、恨めしいことなど、負の心は今年に置いていきましょう。&lt;/p&gt;&#xA;&lt;p&gt;来年には楽しいこと、うれしいこと、幸せなことを持って行きましょう。&lt;/p&gt;&#xA;&lt;p&gt;あと数時間、事故や事件に巻き込まれぬようにいたしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>百度と書いて「ばいどぅ」と読む。</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-30_%E7%99%BE%E5%BA%A6%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%B0%E3%81%84%E3%81%A9%E3%81%85%E3%81%A8%E8%AA%AD%E3%82%80/</link>
+      <link>http://localhost:1313/posts/2013-12-30_%E7%99%BE%E5%BA%A6%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%B0%E3%81%84%E3%81%A9%E3%81%85%E3%81%A8%E8%AA%AD%E3%82%80/</link>
       <pubDate>Mon, 30 Dec 2013 21:15:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-30_%E7%99%BE%E5%BA%A6%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%B0%E3%81%84%E3%81%A9%E3%81%85%E3%81%A8%E8%AA%AD%E3%82%80/</guid>
+      <guid>http://localhost:1313/posts/2013-12-30_%E7%99%BE%E5%BA%A6%E3%81%A8%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%B0%E3%81%84%E3%81%A9%E3%81%85%E3%81%A8%E8%AA%AD%E3%82%80/</guid>
       <description>&lt;p&gt;もう結構昔ですが、チャイナ製検索エンジンとして登場した「百度」。&lt;/p&gt;&#xA;&lt;p&gt;当初から、全IPアドレスに対してポートスキャンや既知のセキュリティーホールアタックやパスワードアタックをしていたので、私が運営しているホームページでは、サーバーサイドでアクセスブロックを実施していました。&lt;/p&gt;&#xA;&lt;p&gt;今でもチャイナからのアクセスは拒否しています。&lt;/p&gt;&#xA;&lt;p&gt;最近では、ルーマニアのIPアドレス割り当てを使って、チャイナからのアタックが増えていました。&lt;/p&gt;&#xA;&lt;p&gt;当然、アクセスブロックです。&lt;/p&gt;&#xA;&lt;p&gt;百度のバイドゥIMEは、チャイナ製のフリーウエアなどにコマーシャルとして同梱しているように見せかけ、こっそりとインストールされます。&lt;/p&gt;&#xA;&lt;p&gt;特に業務で使うアプリケーションは、フリーウェアやシェアウェアを選ばないように注意しなければなりません。&lt;/p&gt;&#xA;&lt;p&gt;業務ツールを安易にインターネットに求めると、情報セキュリティーは簡単に決壊します。&lt;/p&gt;&#xA;&lt;p&gt;かつての仕事の関係上、お役所というところは情報リテラシーが低いというのは、認識していました。&lt;/p&gt;&#xA;&lt;p&gt;しかし、私が管理者を務めていたときにはフリーウェアやシェアウェアの使用を制限し、セキュリティーチェックを行い、問題のないものだけを使って良いとする、ホワイトリスト方式をとっていました。&lt;/p&gt;&#xA;&lt;p&gt;またファイアーウォールで、パケットの送信先、中身を監視し、問題のある端末を早期発見できるよう、日々チェックしていました。&lt;/p&gt;&#xA;&lt;p&gt;Windowsドメイン、アクティブディレクトリを駆使し、インストールソフトのチェックをするのも今なら簡単です。&lt;/p&gt;&#xA;&lt;p&gt;利用者の意識などの向上に努めるのもそうですが、セキュリティー対策には十分に金をかけて、水際で防がねばいけません。&lt;/p&gt;&#xA;&lt;p&gt;インターネットは、今や戦場です。&lt;/p&gt;&#xA;&lt;p&gt;これは大げさな話では無く、今実際に大国が兵器予算に匹敵する軍事費を投入して、情報戦を繰り広げています。&lt;/p&gt;&#xA;&lt;p&gt;まあ、多くの人が普段使っている「LINE」、「Facebook」、「google」も情報搾取・分析を行っています。&lt;/p&gt;&#xA;&lt;p&gt;ちなみにLINEは韓国製ですからね。&lt;/p&gt;&#xA;&lt;p&gt;日本製だと思っている人が居るようですが。&lt;/p&gt;&#xA;&lt;p&gt;韓国のサーバーに、みんなの友達の電話番号やアドレス、会話情報が蓄積されているので。&lt;/p&gt;&#xA;&lt;p&gt;LINEを使わないことをお勧めしますけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ノイズ</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-30_%E3%83%8E%E3%82%A4%E3%82%BA/</link>
+      <link>http://localhost:1313/posts/2013-12-30_%E3%83%8E%E3%82%A4%E3%82%BA/</link>
       <pubDate>Mon, 30 Dec 2013 15:30:19 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-30_%E3%83%8E%E3%82%A4%E3%82%BA/</guid>
+      <guid>http://localhost:1313/posts/2013-12-30_%E3%83%8E%E3%82%A4%E3%82%BA/</guid>
       <description>&lt;p&gt;現在、私の主なメディアプレーヤーは、Windows 8.1 Pro 64bitのタワーPCです。&lt;/p&gt;&#xA;&lt;p&gt;当然自作です。&lt;/p&gt;&#xA;&lt;p&gt;自作PCは、当然ですがEMI(漏れ電磁波)対策は自分で行わなければなりません。&lt;/p&gt;&#xA;&lt;p&gt;EMI対策を行うと、必然的に、アナログ音声信号に重畳する雑音も減ります。&lt;/p&gt;&#xA;&lt;p&gt;デジタル回路は、振幅を持つ直流回路です。&lt;/p&gt;&#xA;&lt;p&gt;グランド電位が空間電位と異なると、電気回路から、その電位差のエネルギーを持った電磁波を輻射してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;接地線でまずグランド電位と地球の電位をそろえます。&lt;/p&gt;&#xA;&lt;p&gt;このときに適切なインピーダンスを持っていないと、電気回路上で信号反射を起こし、信号波形が崩れたり、増幅されてしまったり、唸りや共振が起きます。&lt;/p&gt;&#xA;&lt;p&gt;これがアナログ音声信号に重畳して、雑音になることがとても多いのです。&lt;/p&gt;&#xA;&lt;p&gt;次にPCには、磁気回路が存在し、磁気回路を動かすための電気回路が存在します。&lt;/p&gt;&#xA;&lt;p&gt;ハードディスクや光磁気ディスクデバイスがそれにあたります。&lt;/p&gt;&#xA;&lt;p&gt;これらは定常的な動作だけで無く、スピンアップやヘッド駆動などで、不定期で大出力の電力を使います。&lt;/p&gt;&#xA;&lt;p&gt;大きな電気が流れるとき、逆起電力が働きます。&lt;/p&gt;&#xA;&lt;p&gt;これが電気回路に回り、ノイズになり、強力な電磁波を発生させたりします。&lt;/p&gt;&#xA;&lt;p&gt;そしてそういったモノがアナログ音声信号の回路に入り込み、雑音となります。&lt;/p&gt;&#xA;&lt;p&gt;大概はこの逆起電力を吸収するためのコンデンサーやダイオードが入っていますが、吸収しきれないモノがやはりあります。&lt;/p&gt;&#xA;&lt;p&gt;EMI対策の基本は電気回路上での吸収。&lt;/p&gt;&#xA;&lt;p&gt;次に静電遮蔽効果のために導体金属によるシールド。&lt;/p&gt;&#xA;&lt;p&gt;なのでPCケースは必ずスチールかアルミを使います。&lt;/p&gt;&#xA;&lt;p&gt;アクリルや樹脂材などでは、静電遮蔽効果が全くなく、PCの外へノイズをまき散らすだけで無く、外からのノイズも大量に拾ってしまいます。&lt;/p&gt;&#xA;&lt;p&gt;更に、PC内部の配線にも気をつけます。&lt;/p&gt;&#xA;&lt;p&gt;メーカーなどでは、オシロスコープを使いながら、ノイズが乗らないような位置に配線を行い、取り切れない場合は、配線をシールド材で覆ったり、フェライトコアを巻き付けたりします。&lt;/p&gt;&#xA;&lt;p&gt;一般ではオシロスコープはなかなか高価で、扱いも難しいので、アナログテレビの画像に現れるノイズを見ながらとか、アナログ音声に重畳する雑音を聞きながら、ノイズ対策を行っていくことになります。&lt;/p&gt;&#xA;&lt;p&gt;対策そのものは、配線の位置を変えたり、単価50円のフェライトコアで配線を挟んだり、配線にシールド材(アルミ箔)を巻いたり、PCに搭載しているドライブ類の位置を変えたり、接地線の位置を変えたり、そんな程度です。&lt;/p&gt;&#xA;&lt;p&gt;数日間、自作PCのノイズ対策をあれこれと耳を頼りに追い込んでいきました。&lt;/p&gt;&#xA;&lt;p&gt;アナログ回路に重畳する雑音、帰還電流によるPCケースからの発振などをかなりなくすことに成功しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ONKYO SE-300PCIE RCA Jack is dead...</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-22_onkyo-se-300pcie-rca-jack-is-dead/</link>
+      <link>http://localhost:1313/posts/2013-12-22_onkyo-se-300pcie-rca-jack-is-dead/</link>
       <pubDate>Sun, 22 Dec 2013 20:01:15 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-22_onkyo-se-300pcie-rca-jack-is-dead/</guid>
+      <guid>http://localhost:1313/posts/2013-12-22_onkyo-se-300pcie-rca-jack-is-dead/</guid>
       <description>&lt;p&gt;壊れちまった。&lt;/p&gt;&#xA;&lt;p&gt;サウンドカードが…。&lt;/p&gt;&#xA;&lt;p&gt;RCA端子が基板剥離してしまった。&lt;/p&gt;&#xA;&lt;p&gt;RCA端子自体が基板に固定されていたけど、端子のジャケット樹脂から固定爪が基板に差し込まれている。&lt;/p&gt;&#xA;&lt;p&gt;けれども固定爪に遊びが有り、実質基板に半田付けされている配線足だけで支えており、RCAラインケーブルに力を加えると基板のプリントがはがれてしまう。&lt;/p&gt;&#xA;&lt;p&gt;RCAケーブルのヨジレを直すために、ジャックをひねったら、「ピシッ」という音ともに基板が剥離した。&lt;/p&gt;&#xA;&lt;p&gt;多層基板なので自分では直せない…。&lt;/p&gt;&#xA;&lt;p&gt;色々なブログや掲示板で、同じ故障が報告されていたので、普段は慎重に取り扱っていたが、ついつい失念していた。&lt;/p&gt;&#xA;&lt;p&gt;まあ、マザーボードにオンボードのRealtek ALC889でAVアンプに、S/PDIFの光ケーブルで接続しているので、別段困らないのだけれども。&lt;/p&gt;&#xA;&lt;p&gt;EAXに対応のゲームも持ってないし。&lt;/p&gt;</description>
     </item>
     <item>
       <title>救済</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-14_%E6%95%91%E6%B8%88/</link>
+      <link>http://localhost:1313/posts/2013-12-14_%E6%95%91%E6%B8%88/</link>
       <pubDate>Sat, 14 Dec 2013 23:12:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-14_%E6%95%91%E6%B8%88/</guid>
+      <guid>http://localhost:1313/posts/2013-12-14_%E6%95%91%E6%B8%88/</guid>
       <description>&lt;p&gt;思わず人の優しさに触れて、心救われて、涙しました。&lt;/p&gt;&#xA;&lt;p&gt;色々と思うモノがあります。&lt;/p&gt;&#xA;&lt;p&gt;これからも悩み続けることでしょう。&lt;/p&gt;&#xA;&lt;p&gt;でも、今だけは忘れてしまいましょう。&lt;/p&gt;&#xA;&lt;p&gt;好きなブランデーをあおって、酔ってみます。&lt;/p&gt;&#xA;&lt;p&gt;みんな幸せで笑顔でいられますように。&lt;/p&gt;&#xA;&lt;p&gt;自分も幸せでいられるように。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11729345273-12780815721.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131214/23/yuki9902/41/29/j/t02200332_0720108712780815721.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>過去</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-14_%E9%81%8E%E5%8E%BB/</link>
+      <link>http://localhost:1313/posts/2013-12-14_%E9%81%8E%E5%8E%BB/</link>
       <pubDate>Sat, 14 Dec 2013 20:46:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-14_%E9%81%8E%E5%8E%BB/</guid>
+      <guid>http://localhost:1313/posts/2013-12-14_%E9%81%8E%E5%8E%BB/</guid>
       <description>&lt;p&gt;2006年の11月の終わりから、2007年の初夏までに激しい精神的負荷と過重労働で、今の脳の神経障害の元ができてしまったのですが。&lt;/p&gt;&#xA;&lt;p&gt;その頃の日記を非公開のブログで残しているんですが、今、読んでみて、痛々しいなぁ、よく耐えられたなぁ、今の僕だったら死んでしまうんじゃないだろうかと思うような内容でした。&lt;/p&gt;&#xA;&lt;p&gt;どんな思いも想いも時とともに消え去ってくれました。&lt;/p&gt;&#xA;&lt;p&gt;記憶力に障害が出てるのではないかと思いますけれど。&lt;/p&gt;&#xA;&lt;p&gt;その私の日記ブログは一時公開していました。&lt;/p&gt;&#xA;&lt;p&gt;その当時は２ちゃんねるに痛いブログとして、話題にされたこともあります。&lt;/p&gt;&#xA;&lt;p&gt;要望があればここに公開してもいいのですが、読んだ人は心を病むかもしれません…。&lt;/p&gt;&#xA;&lt;p&gt;そういったものを経てきたからこそ、人に優しくなれたようですけれど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>聴力。</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-11_%E8%81%B4%E5%8A%9B/</link>
+      <link>http://localhost:1313/posts/2013-12-11_%E8%81%B4%E5%8A%9B/</link>
       <pubDate>Wed, 11 Dec 2013 22:01:24 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-11_%E8%81%B4%E5%8A%9B/</guid>
+      <guid>http://localhost:1313/posts/2013-12-11_%E8%81%B4%E5%8A%9B/</guid>
       <description>&lt;p&gt;聴力。&lt;/p&gt;&#xA;&lt;p&gt;現在、39歳ですが、19kHzまでの音を聞き取ることができます。&lt;/p&gt;&#xA;&lt;p&gt;少し前までは20kHzまで聞き取れたのですが。&lt;/p&gt;&#xA;&lt;p&gt;加齢により聴力は衰えます。&lt;/p&gt;&#xA;&lt;p&gt;平均ではこの年齢では、16kHz程度まで落ちているらしいです。&lt;/p&gt;&#xA;&lt;p&gt;音域もそうですが、音圧についても小さい音が聞こえなくなります。&lt;/p&gt;&#xA;&lt;p&gt;歳をとって大枚はたいてオーディオシステムをそろえても、その頃には聞こえなくなっているんですよね。&lt;/p&gt;&#xA;&lt;p&gt;いつまで高域が聞き取れるかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オリオン座の三つ星と馬頭状星雲</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-09_%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E5%BA%A7%E3%81%AE%E4%B8%89%E3%81%A4%E6%98%9F%E3%81%A8%E9%A6%AC%E9%A0%AD%E7%8A%B6%E6%98%9F%E9%9B%B2/</link>
+      <link>http://localhost:1313/posts/2013-12-09_%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E5%BA%A7%E3%81%AE%E4%B8%89%E3%81%A4%E6%98%9F%E3%81%A8%E9%A6%AC%E9%A0%AD%E7%8A%B6%E6%98%9F%E9%9B%B2/</link>
       <pubDate>Mon, 09 Dec 2013 00:18:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-09_%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E5%BA%A7%E3%81%AE%E4%B8%89%E3%81%A4%E6%98%9F%E3%81%A8%E9%A6%AC%E9%A0%AD%E7%8A%B6%E6%98%9F%E9%9B%B2/</guid>
+      <guid>http://localhost:1313/posts/2013-12-09_%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E5%BA%A7%E3%81%AE%E4%B8%89%E3%81%A4%E6%98%9F%E3%81%A8%E9%A6%AC%E9%A0%AD%E7%8A%B6%E6%98%9F%E9%9B%B2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11724612970-12774879369.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131209/00/yuki9902/0e/9b/j/t02200331_0720108312774879369.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;最近のデジタルカメラはすごいね。&lt;/p&gt;&#xA;&lt;p&gt;手持ち撮影で部屋の窓から空に向けて撮影しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>とっとり花回廊 イルミネーション</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-12-01_%E3%81%A8%E3%81%A3%E3%81%A8%E3%82%8A%E8%8A%B1%E5%9B%9E%E5%BB%8A-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2013-12-01_%E3%81%A8%E3%81%A3%E3%81%A8%E3%82%8A%E8%8A%B1%E5%9B%9E%E5%BB%8A-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</link>
       <pubDate>Sun, 01 Dec 2013 23:47:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-12-01_%E3%81%A8%E3%81%A3%E3%81%A8%E3%82%8A%E8%8A%B1%E5%9B%9E%E5%BB%8A-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2013-12-01_%E3%81%A8%E3%81%A3%E3%81%A8%E3%82%8A%E8%8A%B1%E5%9B%9E%E5%BB%8A-%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767569173.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/7b/51/j/t02200146_0800053012767569173.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767569172.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/9d/a7/j/t02200146_0800053012767569172.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767569174.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/9e/2a/j/t02200146_0800053012767569174.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767569175.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/81/a3/j/t02200146_0800053012767569175.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767569176.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/b7/6e/j/t02200146_0800053012767569176.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767571009.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/89/87/j/t02200332_0720108712767571009.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767571010.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/40/84/j/t02200146_0800053012767571010.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767571011.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/e8/f4/j/t02200146_0800053012767571011.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767571012.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/a7/3a/j/t02200146_0800053012767571012.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11716003866-12767571013.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20131201/23/yuki9902/e7/73/j/t02200146_0800053012767571013.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-5IIs&lt;br&gt;&#xA;smc PENTAX DA* 55mmF1.4SDM&lt;br&gt;&#xA;smc PENTAX DA 12-24mmF4ED AL[IF]&lt;/p&gt;</description>
     </item>
   </channel>
