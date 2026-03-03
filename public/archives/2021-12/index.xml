@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2021-12 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2021-12/</link>
+    <link>https://yuki9902-jp.github.io/archives/2021-12/</link>
     <description>Recent content in 2021-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 31 Dec 2021 23:58:18 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2021-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2021-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今年の終わりに</title>
-      <link>http://localhost:1313/posts/2021-12-31_%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-31_%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB/</link>
       <pubDate>Fri, 31 Dec 2021 23:58:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-31_%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-31_%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB/</guid>
       <description>&lt;p&gt;今年は、Twitter、Instagram、Facebook、LINEを止めました。&lt;/p&gt;&#xA;&lt;p&gt;おかげでinternetから受ける人の負の感情で気持ち悪くなることが少なくなりました。&lt;/p&gt;&#xA;&lt;p&gt;マスメディアも大手SNSも嘘と罵詈雑言と誹謗中傷だらけで疲れました。&lt;/p&gt;&#xA;&lt;p&gt;手の届く範囲でも人間は啀み合うのですから、顔を見せないところからならどんな事でも平気なのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;来年は、穏やかな年になって欲しいです。&lt;/p&gt;&#xA;&lt;p&gt;今年よ、漸くさようならです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>しんしん</title>
-      <link>http://localhost:1313/posts/2021-12-31_%E3%81%97%E3%82%93%E3%81%97%E3%82%93/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-31_%E3%81%97%E3%82%93%E3%81%97%E3%82%93/</link>
       <pubDate>Fri, 31 Dec 2021 11:38:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-31_%E3%81%97%E3%82%93%E3%81%97%E3%82%93/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-31_%E3%81%97%E3%82%93%E3%81%97%E3%82%93/</guid>
       <description>&lt;p&gt;しんしんと雪が降っています。&lt;/p&gt;&#xA;&lt;p&gt;朝は積もっていましたが、少し朝日が当たって路面の雪は解けました。&lt;/p&gt;&#xA;&lt;p&gt;雪が降っていますが、地面に落ちると解けています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows11で落ちなくなったメインPC</title>
-      <link>http://localhost:1313/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</link>
       <pubDate>Wed, 29 Dec 2021 11:39:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</guid>
       <description>&lt;p&gt;RYZEN 7 5800XでPBO2で、コア毎のカーブで-5,-22を設定していると落ちまくっていた件ですが、一度UEFIの設定をDefaultに戻して再起動し、XMP2とPCI-E 4GBデコーディングの有効化、ResizeBARの有効化、Global C Stateの無効化をして起動すると落ちなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;ずっと落ちることがなくなったので、PBO2で-5,-17を設定して運用していますが、今のところ落ちていません。&lt;/p&gt;&#xA;&lt;p&gt;ここ1週間電源を入れっぱなしですが、落ちません。&lt;/p&gt;&#xA;&lt;p&gt;落ちる原因ですが、CPUの冷却具合によってコア電圧を下げて熱容量を確保してクロックアップするPBOが有効になっている場合、CPUの低負荷時に省電力モードC6に移行する際に閾値よりも電圧が下がりすぎていた場合にほぼエラーを出さずに落ちていたようです。&lt;/p&gt;&#xA;&lt;p&gt;通常のUEFIの実装ならGlobal C StateをDisableにするとC6モードに移行しなくなるので解決することが多いです。&lt;/p&gt;&#xA;&lt;p&gt;電圧を下げてクロックアップを狙うPBO2を無効にしても落ちなくなります。&lt;/p&gt;&#xA;&lt;p&gt;一応、Global C Stateだけ無効にして、PBO2は電圧を下げすぎないように設定している現状では、落ちることはないです。&lt;/p&gt;&#xA;&lt;p&gt;ZEN4コアからダイサイズが大きくなり、OCXも7nmに移行するので熱容量が確保しやすくなりオーバークロックしやすくなりそうです。&lt;/p&gt;&#xA;&lt;p&gt;ZEN4が登場してくるのを楽しみに待つばかりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>はがない</title>
-      <link>http://localhost:1313/posts/2021-12-27_%E3%81%AF%E3%81%8C%E3%81%AA%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-27_%E3%81%AF%E3%81%8C%E3%81%AA%E3%81%84/</link>
       <pubDate>Mon, 27 Dec 2021 21:40:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-27_%E3%81%AF%E3%81%8C%E3%81%AA%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-27_%E3%81%AF%E3%81%8C%E3%81%AA%E3%81%84/</guid>
       <description>&lt;p&gt;なけなしの歯が痛いので歯医者に行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;神経まで侵攻していたので、神経をとりました。&lt;/p&gt;&#xA;&lt;p&gt;歯の痛みとそれに伴う頭痛と体全体の調子が悪くてしばらくしんどい日が続いています。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んでも、頭の上に20キロぐらいの重りを置かれたような感覚でなかなか辛いですが、だいたい何もない日がないのでまあ辛抱します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>はっぴーめりくり</title>
-      <link>http://localhost:1313/posts/2021-12-25_%E3%81%AF%E3%81%A3%E3%81%B4%E3%83%BC%E3%82%81%E3%82%8A%E3%81%8F%E3%82%8A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-25_%E3%81%AF%E3%81%A3%E3%81%B4%E3%83%BC%E3%82%81%E3%82%8A%E3%81%8F%E3%82%8A/</link>
       <pubDate>Sat, 25 Dec 2021 00:53:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-25_%E3%81%AF%E3%81%A3%E3%81%B4%E3%83%BC%E3%82%81%E3%82%8A%E3%81%8F%E3%82%8A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-25_%E3%81%AF%E3%81%A3%E3%81%B4%E3%83%BC%E3%82%81%E3%82%8A%E3%81%8F%E3%82%8A/</guid>
       <description>&lt;p&gt;今宵は老若男女誰構わず良い夢を見ましょう。&lt;/p&gt;&#xA;&lt;p&gt;夢を見るのは只だから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TrueNASのHDD交換とマルチチャンネル接続</title>
-      <link>http://localhost:1313/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</link>
       <pubDate>Fri, 24 Dec 2021 00:31:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</guid>
       <description>&lt;p&gt;TrueNASで構築したファイルサーバーに搭載している2012年製のWesternDigital社のWD GREEN 3.0TBがセクターエラーを吐くようになり使えなくなったので、東芝の4.0TB HDD(CMR)を二台買って交換しました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12717279810-15050605545.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211223/23/yuki9902/9b/e8/j/o1829137215050605545.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;MN08ASA400E/JPという製品型式です。06シリーズから進化して音が静かになって発熱が少なくなったようです。SMR方式はもう懲り懲りなのでCMR方式と明記されているものを選びました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/ybzPigb8fKDeE9T1rEFl24&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;東芝 3.5&amp;quot; HDD 4TB(CMR) 国内正規代理店品 ３年保証 国内サポート・故障時の同時交換対応 MN08ADA400E /JP 7,200rpm SATA 24x7 RVセンサー搭載&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;11,596〜14,069円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=9pd80LMUqBG6LnGOK6G3q2&amp;amp;mimp=R4YxDlT7yajvhk9z7WJXvd&amp;amp;session=908a9c21-048b-4976-b9e4-dea71eb23096&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=9pd80LMUqBG6LnGOK6G3q2&amp;amp;mimp=R4YxDlT7yajvhk9z7WJXvd&amp;amp;session=908a9c21-048b-4976-b9e4-dea71eb23096&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;保存していたデータはメインPCにあるもののバックアップなので、壊れたHDDからはデータ移行はしません。メインPCから新しいHDDにバックアップを作ります。&lt;/p&gt;&#xA;&lt;p&gt;TrueNASのWebUIから、壊れたHDDで構成していたストレージプールを削除して、TrueNASのファイルサーバーをシャットダウンして、HDDを交換します。&lt;/p&gt;&#xA;&lt;p&gt;ケース正面からHDDをクイックイジェクトできる5.25インチベイに搭載していたので交換は簡単です。&lt;/p&gt;&#xA;&lt;p&gt;ファイルサーバーを起動して、同じ名前で新規にストレージプールを作成して、SAMBA共有などの設定をすればすぐに使えるようになりました。&lt;/p&gt;&#xA;&lt;p&gt;前から懸案にしていたmultichannel接続（複数NICによるロードバランサー）をSAMBA3.0以上だとサポートしていることが分かったので設定しました。&lt;/p&gt;&#xA;&lt;p&gt;面倒なのは、TrueNASでは複数のNICを使うとき同じサブネット内に1つのNICしか設定できないようにされていることです。&lt;/p&gt;&#xA;&lt;p&gt;従ってNICの数だけサブネットを作る必要があります。&lt;/p&gt;&#xA;&lt;p&gt;サブネットマスクを30bitにすれば4つのIPアドレスを消費して2つのノードと1つのブロードキャストアドレスを使うことが出来ます。&lt;/p&gt;&#xA;&lt;p&gt;インターネットに接続するNICにはこれまで通りのクラスCの24bitサブネットマスクのネットワークを設定して、メインPCもファイルサーバーもこれに接続しています。&lt;/p&gt;&#xA;&lt;p&gt;次にメインPCにNICを挿して30bitサブネットマスクのネットワークを固定で割り当てます。デフォルトゲートウェイやDNSの設定が空なので、Windows上では「識別されていないネットワーク」になってしまいネットワークが「パブリック」になります。&lt;/p&gt;&#xA;&lt;p&gt;グループポリシーから「ネットワークリストマネージジャーポリシー」の中の「識別されていないネットワーク」の「プライベート」「ユーザーは場所を変更できる」を選択します。&lt;/p&gt;&#xA;&lt;p&gt;次に、TrueNASのWebUIから「ネットワーク」の「インターフェイス」を開き、使っていなかった方のNICの設定をします。先に設定したメインPCと同じサブネットにして残りのIPアドレスを割り当てます。DNSもデフォルトゲートウェイも設定しません。&lt;/p&gt;&#xA;&lt;p&gt;これだけでは機能しないので、TrueNASのWebUIで、「サービス」の「SMB」の「Action」をクリックして、「ADVANCED OPTIONS」をクリックして詳細設定を開きます。「追加パラメーター」に「server multi channel support = yes」を記述して「保存」をクリックします。&lt;/p&gt;&#xA;&lt;p&gt;SMBサービスを再起動するとマルチチャンネル接続が機能し始めます。&lt;/p&gt;&#xA;&lt;p&gt;下図は今日交換した4TB 7200RPM HDDの二台をRAID1で構成したストレージプールへの書き込み試験です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12717279810-15050620829.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211224/00/yuki9902/b8/ef/p/o0482035215050620829.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;下図は3.0TB 7200RPM HDDの四台をRAIDZ2で構成したストレージプールへの速度試験です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12717279810-15050618454.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211224/00/yuki9902/a2/e5/p/o0482035215050618454.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;1GbpsのNICの2ポート同士なので230MB/sが上限値となります。&lt;/p&gt;&#xA;&lt;p&gt;TrueNASでメモリキャッシュが効いているので純粋なHDDの速度を計るのは難しいですが、SSDで慣れていても実用上あまり遅くは感じません。&lt;/p&gt;&#xA;&lt;p&gt;4TB、8TBのSSDがコンシューマー向けに登場してきていますが、価格が10倍も違うのでまだまだHDDは現役です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>5 dgrees</title>
-      <link>http://localhost:1313/posts/2021-12-19_5-dgrees/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-19_5-dgrees/</link>
       <pubDate>Sun, 19 Dec 2021 08:38:41 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-19_5-dgrees/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-19_5-dgrees/</guid>
       <description>&lt;p&gt;朝、部屋の温度計は5度でした。&lt;/p&gt;&#xA;&lt;p&gt;ヒーターを全開で動かしていますが、1時間たってもまだ14度です。&lt;/p&gt;&#xA;&lt;p&gt;今日は食料品、日用品の買い出しに行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;昨日は大きな事件があって多くの人が亡くなりました。&lt;/p&gt;&#xA;&lt;p&gt;それ以外にも自ら生涯を終わらせてしまった人も多く居るようです。&lt;/p&gt;&#xA;&lt;p&gt;そこに至る苦しさ、辛さ、痛みを代わってあげることは出来ませんが、旅立たれた魂にせめて救いがあらんことを祈っております。&lt;/p&gt;&#xA;&lt;p&gt;自分を守り、自分を助ける、それが出来ないと他人を守り助けることは出来ません。&lt;/p&gt;&#xA;&lt;p&gt;滅私奉公してはいけませんよ。&lt;/p&gt;&#xA;&lt;p&gt;自分の命、心を大切にしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダージリンファーストフラッシュ シンブーリ フラワリー 2021</title>
-      <link>http://localhost:1313/posts/2021-12-18_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%B7%E3%83%B3%E3%83%96%E3%83%BC%E3%83%AA-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%AA%E3%83%BC-2021/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-18_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%B7%E3%83%B3%E3%83%96%E3%83%BC%E3%83%AA-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%AA%E3%83%BC-2021/</link>
       <pubDate>Sat, 18 Dec 2021 22:05:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-18_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%B7%E3%83%B3%E3%83%96%E3%83%BC%E3%83%AA-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%AA%E3%83%BC-2021/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-18_%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%B7%E3%83%B3%E3%83%96%E3%83%BC%E3%83%AA-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%AA%E3%83%BC-2021/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12716387053-15048234821.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211218/21/yuki9902/7a/c5/j/o1752131415048234821.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;夏に買ったダージリン地方シンブーリ農園2021年春摘みで、SFTGFOP1というグレードです。&lt;/p&gt;&#xA;&lt;p&gt;SFTGFOP1というのは新芽の一番柔らかく綺麗なモノの中で一番品質の良いモノから最高品質だけを選んだという意味です。&lt;/p&gt;&#xA;&lt;p&gt;まだ開けていなかったので、これにしてみました。&lt;/p&gt;&#xA;&lt;p&gt;ダージリンの軽やかな渋みと花のような若々しい香りで気分を軽くします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>しんどい</title>
-      <link>http://localhost:1313/posts/2021-12-14_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-14_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84/</link>
       <pubDate>Tue, 14 Dec 2021 01:04:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-14_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-14_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84/</guid>
       <description>&lt;p&gt;家の中が険悪でしんどい。&lt;/p&gt;&#xA;&lt;p&gt;両親の夫婦間の45年のちりつもが弾けたのは6年前かな。&lt;/p&gt;&#xA;&lt;p&gt;私がまともに働ける状態だったら母を連れて別居や離婚も話が出来るんだけど。&lt;/p&gt;&#xA;&lt;p&gt;今は解決できない負のスパイラルに入ってしまって抜け出せないかな。&lt;/p&gt;&#xA;&lt;p&gt;罵り合う両親を見ると、心臓がきゅーっとなって寒気を感じて苦しくなるんですわ。&lt;/p&gt;&#xA;&lt;p&gt;処方量以上に抗鬱剤を飲んで少し落ち着いたけどしんどいね。&lt;/p&gt;&#xA;&lt;p&gt;介護が必要になってきた両親を放っておく訳にもいかず。&lt;/p&gt;&#xA;&lt;p&gt;まともに就職も出来ず。&lt;/p&gt;&#xA;&lt;p&gt;まあ、このままここで朽ちて逝くだけなのかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intel AC7206のWiFiカード、NEC VersaPROのBIOSではじかれる</title>
-      <link>http://localhost:1313/posts/2021-12-13_intel-ac7206%E3%81%AEwifi%E3%82%AB%E3%83%BC%E3%83%89nec-versapro%E3%81%AEbios%E3%81%A7%E3%81%AF%E3%81%98%E3%81%8B%E3%82%8C%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-13_intel-ac7206%E3%81%AEwifi%E3%82%AB%E3%83%BC%E3%83%89nec-versapro%E3%81%AEbios%E3%81%A7%E3%81%AF%E3%81%98%E3%81%8B%E3%82%8C%E3%82%8B/</link>
       <pubDate>Mon, 13 Dec 2021 17:59:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-13_intel-ac7206%E3%81%AEwifi%E3%82%AB%E3%83%BC%E3%83%89nec-versapro%E3%81%AEbios%E3%81%A7%E3%81%AF%E3%81%98%E3%81%8B%E3%82%8C%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-13_intel-ac7206%E3%81%AEwifi%E3%82%AB%E3%83%BC%E3%83%89nec-versapro%E3%81%AEbios%E3%81%A7%E3%81%AF%E3%81%98%E3%81%8B%E3%82%8C%E3%82%8B/</guid>
       <description>&lt;p&gt;IEE802.11 ac/g/nのIntel AC7206デュアルバンドWiFi&amp;amp;Bluetooth4.0アダプターカードをNECのVersaProのWiFiカードと置き換えようと買ったんですが、BIOSではじかれて起動できません。&lt;/p&gt;&#xA;&lt;p&gt;どうやら規制対象の某国製のPCに搭載されたWiFiカードはSIDが厳格に管理されていて、BIOSのリスト内に存在しないカードを搭載した場合は起動しないようにされているようです。&lt;/p&gt;&#xA;&lt;p&gt;NECの販売ですが、中身は某国のLenovo製なので、仕方ないと言えば仕方ないのかな。&lt;/p&gt;&#xA;&lt;p&gt;BIOSを改造すれば起動できるようになるそうですが・・・。&lt;/p&gt;&#xA;&lt;p&gt;IEE802.11acの速度は諦めるしかないか・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>帰りました</title>
-      <link>http://localhost:1313/posts/2021-12-12_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-12_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 12 Dec 2021 23:48:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-12_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-12_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;今晩は、友達が結婚するというのでちょっとした会食をしてきました。&lt;/p&gt;&#xA;&lt;p&gt;日曜日の夜だというのに今日は人が多かったです。&lt;/p&gt;&#xA;&lt;p&gt;いつもはもっと閑散としているんですけどね。&lt;/p&gt;&#xA;&lt;p&gt;ボーナスも出て浮かれ気味なのかな。&lt;/p&gt;&#xA;&lt;p&gt;ナンパしている人を何人か視界の隅に捉えていました。&lt;/p&gt;&#xA;&lt;p&gt;時代は変われど人は変わらないのですね。&lt;/p&gt;&#xA;&lt;p&gt;では明日。&lt;/p&gt;</description>
     </item>
     <item>
       <title>クリスマスソングと言えば何？ 「B&#39;z いつかのメリークリスマス」</title>
-      <link>http://localhost:1313/posts/2021-12-10_%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0%E4%BD%95-bz-%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-10_%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0%E4%BD%95-bz-%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
       <pubDate>Fri, 10 Dec 2021 00:38:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-10_%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0%E4%BD%95-bz-%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-10_%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0%E4%BD%95-bz-%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
       <description>&lt;p&gt;クリスマスソングと言えば何？&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://stat.amebame.com//pub/content/932/picture/frame/top/app_newgame/lp_christmas22.png&#34;&gt;&lt;img src=&#34;https://stat.amebame.com//pub/content/932/picture/frame/top/app_newgame/lp_christmas22.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rd.amca.jp/Mt6apLVMuqErPJeSFU58&#34;&gt;&lt;img src=&#34;https://stat.amebame.com//pub/content/932/picture/frame/top/app_newgame/btn_lp.png&#34; alt=&#34;キャンペーン詳細を見るボタン&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blogtag.ameba.jp/detail/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%BD%E3%83%B3%E3%82%B0%E3%81%A8%E8%A8%80%E3%81%88%E3%81%B0%E4%BD%95&#34;&gt;&lt;img src=&#34;https://stat.amebame.com/pub/content/5164757434/btn_post_watch.png&#34; alt=&#34;みんなの投稿を見るボタン&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714839152-15044086563.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211210/00/yuki9902/c8/64/j/o1805135415044086563.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714839152-15044086568.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211210/00/yuki9902/ba/bb/j/o2113158515044086568.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B&amp;rsquo;zのFRIENDSⅢ、25年ぶりのFRIENDSです。&lt;/p&gt;&#xA;&lt;p&gt;先日、ライブが行われました。&lt;/p&gt;&#xA;&lt;p&gt;ライブでFRIENDSをやったのは始めてらしいです。&lt;/p&gt;&#xA;&lt;p&gt;FRIENDSⅢのCD+DVD盤のDVDには「いつかのメリークリスマス～FRIENDSⅢ edit～」が収録されています。&lt;/p&gt;&#xA;&lt;p&gt;フルでMVを撮影するに当たって「いつかのメリークリスマス」の音も現在のB&amp;rsquo;zに合わせて録音し直したそうです。&lt;/p&gt;&#xA;&lt;p&gt;YoutubeのB&amp;rsquo;zチャンネルで詳しく語られています。&lt;/p&gt;&#xA;&lt;p&gt;自分の25年間でいろいろと経験してきました。&lt;/p&gt;&#xA;&lt;p&gt;人を愛することもなかった人生。&lt;/p&gt;&#xA;&lt;p&gt;凄く寂しいですが、残り少ない人生を思うと今更です。&lt;/p&gt;&#xA;&lt;p&gt;自分のそばにいてくれる人を大切にしてください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>70 days later</title>
-      <link>http://localhost:1313/posts/2021-12-06_70-days-later/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-06_70-days-later/</link>
       <pubDate>Mon, 06 Dec 2021 02:35:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-06_70-days-later/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-06_70-days-later/</guid>
       <description>&lt;p&gt;原神を始めてから70日。&lt;/p&gt;&#xA;&lt;p&gt;エウルアの復刻ガチャが来たので万札2枚を溶かしてゲットしました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225311.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/bc/00/p/o0256025615042225311.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;エウルア・ローレンス（CV：佐藤利奈）&lt;/p&gt;&#xA;&lt;p&gt;それからしばらくエウルアの育成をしていたんですが、段階的なレベルキャップを外すためのフィールド設置アイテムの蒲公英（たんぽぽ）の種を集めるのと、「無双の氷」からのドロップアイテムを集めるのに苦労しました。&lt;/p&gt;&#xA;&lt;p&gt;無双の氷を倒すために、煙緋（エンヒ）と香菱（シャンリン）が必要でしたが、どちらもそれほど育成していなかったので世界ランクを５に落として挑みました。&lt;/p&gt;&#xA;&lt;p&gt;当初は倒し方がわからずに体力ゲージを削っては、ギリギリで回復されるという状態を延々と繰り返していました。&lt;/p&gt;&#xA;&lt;p&gt;回復ターンになると、でかい金平糖みたいな氷を飛ばしてくるので、落ちた金平糖を無双の氷に目がけて重撃で弾き飛ばすというのを３回すれば、 無双の氷のバリアが割れて疲弊状態になるので、そこを元素共鳴をかけて削りきれば良かったようです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225318.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/9a/74/p/o0256025615042225318.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;煙緋（エンヒ）（CV:花守ゆみり）&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225316.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/94/9a/p/o0256025615042225316.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;香菱（シャンリン）（CV:小澤亜李）&lt;/p&gt;&#xA;&lt;p&gt;さて、現在のメインパーティーのメンバーは、ジン、エウルア、刻晴（コクセイ）、ノエルです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225312.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/a6/c7/p/o0256025615042225312.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ジン・グンヒルド（CV:斎藤千和）&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225311.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/bc/00/p/o0256025615042225311.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;エウルア・ローレンス（CV:佐藤利奈）&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225314.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/51/68/p/o0256025615042225314.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;刻晴（コクセイ）（CV:喜多村英梨）&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12714133420-15042225315.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211206/01/yuki9902/80/da/p/o0256025615042225315.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ノエル（CV:高尾奏音）&lt;/p&gt;&#xA;&lt;p&gt;いずれもレベル８０に到達して、ジンは８７、エウルアは８０（突破済み）、刻晴は８０、ノエルは８０です。&lt;/p&gt;&#xA;&lt;p&gt;現在は世界ランクを６に戻していて、刻晴とノエルが突破したらランクを上げるクエストを消化します。&lt;/p&gt;&#xA;&lt;p&gt;脆弱樹脂の制限がとりあえずうざい、時間が不必要にかかります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>[公式(非推奨)]Windows11に未対応なPCにインストールする方法</title>
-      <link>http://localhost:1313/posts/2021-12-06_%E5%85%AC%E5%BC%8F%E9%9D%9E%E6%8E%A8%E5%A5%A8windows11%E3%81%AB%E6%9C%AA%E5%AF%BE%E5%BF%9C%E3%81%AApc%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-06_%E5%85%AC%E5%BC%8F%E9%9D%9E%E6%8E%A8%E5%A5%A8windows11%E3%81%AB%E6%9C%AA%E5%AF%BE%E5%BF%9C%E3%81%AApc%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 06 Dec 2021 01:15:21 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2021-12-06_%E5%85%AC%E5%BC%8F%E9%9D%9E%E6%8E%A8%E5%A5%A8windows11%E3%81%AB%E6%9C%AA%E5%AF%BE%E5%BF%9C%E3%81%AApc%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-06_%E5%85%AC%E5%BC%8F%E9%9D%9E%E6%8E%A8%E5%A5%A8windows11%E3%81%AB%E6%9C%AA%E5%AF%BE%E5%BF%9C%E3%81%AApc%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;「&lt;a href=&#34;https://support.microsoft.com/ja-jp/windows/windows-11-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e&#34;&gt;Window11をインストールする方法&lt;/a&gt;」というマイクロソフトの公式サイトでWindows11に非対応なPCにインストールする方法が掲載されています。&lt;/p&gt;&#xA;&lt;p&gt;少なくともWindows10は動作しているものとして、レジストリの値を書き換えてTPM2などのCPUチェックを回避するようにしておいて、Windows11インストールアシスタントをダウンロードして実行するようです。&lt;/p&gt;&#xA;&lt;p&gt;ただし公式でも非推奨となっているので、WindowsUpdateを通じた修正パッチなどがインストールされないかもしれないので、自己責任でやりましょう。&lt;/p&gt;&#xA;&lt;p&gt;正直、Windows10の未完成だったGUIを捨て、OS Xに似せた急作りのGUIを乗っけたWindows11は更に出来ないことが多すぎてイライラします。&lt;/p&gt;&#xA;&lt;p&gt;エンスージアストでなければ来年秋の大型アップデートがあるまでは待った方が良いというか、待ちましょう。&lt;/p&gt;&#xA;&lt;p&gt;ゲームのベンチでWindows10を上回るカーネルとドライバーが出るのはまだまだ先です。&lt;/p&gt;</description>
     </item>
   </channel>

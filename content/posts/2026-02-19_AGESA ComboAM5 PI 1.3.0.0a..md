@@ -8,7 +8,7 @@ categories: ['COMPUTER']
 
 [ASUS ROG STRIX X870E-E Gaming WIFIの2101ベータバージョン](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/)が提供されました。
 
-[ROG STRIX X870E-E GAMING WIFI | ROG Strix | Gaming マザーボード｜ROG - Republic of Gamers｜ROG 日本The ROG Strix X870E-E Gaming WiFi elevates builds with 18 power stages, DDR5 slots and extensive PCIe 5.0 connectivity. It features five M.2 SSD slots with heat![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)rog.asus.com![](https://dlcdnwebimgs.asus.com/gain/C2A10896-76C0-4772-9A3A-69D7B0C00441)](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/)
+[ROG STRIX X870E-E GAMING WIFI | ROG Strix | Gaming マザーボード｜ROG - Republic of Gamers｜ROG 日本The ROG Strix X870E-E Gaming WiFi elevates builds with 18 power stages, DDR5 slots and extensive PCIe 5.0 connectivity. It features five M.2 SSD slots with heat![rog.asus.com](https://dlcdnwebimgs.asus.com/gain/C2A10896-76C0-4772-9A3A-69D7B0C00441)](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/)
 
 更新内容は AGESA updated to ComboAM5 PI 1.3.0.0a.です。  
   

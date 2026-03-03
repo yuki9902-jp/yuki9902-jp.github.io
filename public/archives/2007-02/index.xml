@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-02 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2007-02/</link>
+    <link>https://yuki9902-jp.github.io/archives/2007-02/</link>
     <description>Recent content in 2007-02 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 18 Feb 2007 00:56:50 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2007-02/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2007-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Vista Ultimate x64 (続)</title>
-      <link>http://localhost:1313/posts/2007-02-18-windows-vista-ultim/</link>
+      <link>https://yuki9902-jp.github.io/posts/2007-02-18-windows-vista-ultim/</link>
       <pubDate>Sun, 18 Feb 2007 00:56:50 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-02-18-windows-vista-ultim/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2007-02-18-windows-vista-ultim/</guid>
       <description>&lt;p&gt;すでにWindows Vista Ultimate x64 にしてから、１週間が経ちましたが、世間で言われるほどトラブルに遭遇してはいません。&lt;/p&gt;&#xA;&lt;p&gt;ソフトウェアも大部分を切り捨てたので、別段、諦めさえあれば、それで快適に使えるものです。&lt;/p&gt;&#xA;&lt;p&gt;サウンドカードは、ドライバーがメーカーからx64用がリリースされていないので、しばらく待たなければなりませんが、Microsoftから配布されるWDMドライバーで、とりあえずは動いています。&lt;/p&gt;&#xA;&lt;p&gt;カードは、ONKYO SE-90PCI (VIA Envy24MT を搭載、24bit/192kHz対応)なのですが、16bit/48Khzまでの設定しかできません。&lt;/p&gt;&#xA;&lt;p&gt;また、QSoundに対応しているようですが、それも享受できません。&lt;/p&gt;&#xA;&lt;p&gt;しばらく待ちの状態です。&lt;/p&gt;&#xA;&lt;p&gt;Windows XP Professional SP2では、Creative SoundBlaster Audigy2 NX (USB)を使っていたのですが、Windows Vista Ultimate x64 でインストールされるドライバーでは、激しく音割れします。&lt;/p&gt;&#xA;&lt;p&gt;元来ＰＣ筐体の中は電磁波の嵐が吹き荒れているので、サウンドカードは外付けにしたいのですが、とりあえず音を出すためにONKYO SE-90PCIを搭載しました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードにもサウンドチップが搭載されていますが、AC&#39;97なのでHDSoundには対応していないし、16bit/48kHzまでの設定までしかなかったので。&lt;/p&gt;&#xA;&lt;p&gt;あと、オーディオプレーヤー関係は今のところ全滅ですかね。&lt;/p&gt;&#xA;&lt;p&gt;まあ、HDD Walkmanを使っているので、Playstation3上で利用できるので、あまりこちらで困ることはないかな。&lt;/p&gt;&#xA;&lt;p&gt;でも、取り溜めていたATRAKファイルは一度捨てないとだめかな。&lt;/p&gt;&#xA;&lt;p&gt;あと、Adobe関係のソフトウェアはきちんと購入して正規のライセンスを取得しようかと。&lt;/p&gt;&#xA;&lt;p&gt;まあ、それが実現できる頃には、Adobe Creative Suite 3 もx64に対応していることでしょう。&lt;/p&gt;&#xA;&lt;p&gt;x64でも32bitのソフトウェアしかないのなら宝の持ち腐れだから。&lt;/p&gt;&#xA;&lt;p&gt;ああ、一番問題なのは、Microsoftのサイトかな。&lt;/p&gt;&#xA;&lt;p&gt;Vistaに付属のソフトウェアに関するページがなかったり、英語のままだったり、不備が多い。&lt;/p&gt;&#xA;&lt;p&gt;付属しているソフトウェアにはきちんと責任を持ちましょう。&lt;/p&gt;&#xA;&lt;p&gt;ユーザーはそれにもお金を払っているのだから。&lt;/p&gt;&#xA;&lt;p&gt;使えないままなら、お金を返すぐらいの覚悟が必要だよ。一応企業なんだから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Color Management</title>
-      <link>http://localhost:1313/posts/2007-02-12-color-management/</link>
+      <link>https://yuki9902-jp.github.io/posts/2007-02-12-color-management/</link>
       <pubDate>Mon, 12 Feb 2007 21:54:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-02-12-color-management/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2007-02-12-color-management/</guid>
       <description>&lt;p&gt;Windows Vista から、色管理が簡単になるとのことで、少し調べてみましたが、あまり情報が公開されておらず、概論的なことだけしかつかめません。&lt;/p&gt;&#xA;&lt;p&gt;色管理はコントロールパネルにあるのですが、どう設定すべきなのかヘルプもなくわかりません。&lt;/p&gt;&#xA;&lt;p&gt;手持ちの液晶ディスプレイには、ICCプロファイルがついているのでとりあえずインストールしておきました。&lt;/p&gt;&#xA;&lt;p&gt;ディスプレイの色温度設定は、sRGBにしています。&lt;/p&gt;&#xA;&lt;p&gt;一応、1677万色表示が可能なパネルではありますが、sRGBの範囲内の1677万色でしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;また、黒の再現性に乏しいので、厳密な色あわせには使えません。&lt;/p&gt;&#xA;&lt;p&gt;まあ、それほど厳密さを求めるほどのことに使ってないのでいいのですが。&lt;/p&gt;&#xA;&lt;p&gt;日本工業規格(JIS)での色調整は、5500Kの標準光下で行わなければならないそうですが、じゃあ、ディスプレイも5500Kにしなくてはいけないのかな。&lt;/p&gt;&#xA;&lt;p&gt;sRGBに設定したディスプレイは、7200Kよりも若干黄色っぽく、6500Kよりも若干青っぽいです。&lt;/p&gt;&#xA;&lt;p&gt;室内の蛍光灯は、TOSHIBA ネオスリムZ 3波長タイプ昼光色なので6700Kです。&lt;/p&gt;&#xA;&lt;p&gt;と、いうことは印刷物を確認するのは、6500K～6700Kのディスプレイ設定と環境光で確認する必要があります。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと前まで、その調整をしていたのですが、Vistaでは、どの程度調整したらいいのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;この辺、どっかで詳しく解説したサイトがないかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows Vista Ultimate x64</title>
-      <link>http://localhost:1313/posts/2007-02-12-windows-vista-ultim/</link>
+      <link>https://yuki9902-jp.github.io/posts/2007-02-12-windows-vista-ultim/</link>
       <pubDate>Mon, 12 Feb 2007 01:38:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-02-12-windows-vista-ultim/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2007-02-12-windows-vista-ultim/</guid>
       <description>&lt;p&gt;Windows Vista Ultimate x64をインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;今までの環境をずばっと切り捨てました。&lt;/p&gt;&#xA;&lt;p&gt;x64環境では、ハードウェアのドライバ周りがそろっていないので、いろいろと制限がありますが、そこは買い換えの理由にしてしまおうと思っています。&lt;/p&gt;&#xA;&lt;p&gt;アプリケーションもハードウェアにくっついてきたものが多く、そのほとんどを使っていません。&lt;/p&gt;&#xA;&lt;p&gt;動画編集やDVDエンコーダ、簡単写真加工ソフトなど、全く使っていません。&lt;/p&gt;&#xA;&lt;p&gt;使っているのはごく限られたソフトだけ。&lt;/p&gt;&#xA;&lt;p&gt;Photoshop7、秀丸、NextFTP、DreamWeaver、Microsoft Office 2003、一太郎2006、ATOK2006、Shuriken Pro 4、Sony SonicStage CP、Picasa2、B&amp;rsquo;s Recorder GOLD7ぐらいですかね。&lt;/p&gt;&#xA;&lt;p&gt;このうち、Vista x64に対応していないのが、SonicStage CP、B&amp;rsquo;s Recorder GOLD7ですか。&lt;/p&gt;&#xA;&lt;p&gt;まだ、NextFTPを試していません。&lt;/p&gt;&#xA;&lt;p&gt;まあ、おいおい対応したソフトが出てくるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;そろそろPhotoshopCS3が登場しそうなので、本腰入れて、Web開発環境を整えようかな。&lt;/p&gt;&#xA;&lt;p&gt;さて本題に戻って、Vista x64のインストールは簡単。&lt;/p&gt;&#xA;&lt;p&gt;特に今回は、RAIDを構成していないのであっさりインストールできました。&lt;/p&gt;&#xA;&lt;p&gt;難点は音源にCREATIVE SoundBlaster Audigy2 NXを使っていましたが、ドライバーがインストールされ、何となく音が出るのですが、完全に割れてしまっています。&lt;/p&gt;&#xA;&lt;p&gt;これまで、サブ機に搭載していたONKYO SE-90PCIを取り付けて、ドライバーを自動インストール。&lt;/p&gt;&#xA;&lt;p&gt;出力のbit/周波数に制限があるものの、音割れはありません。&lt;/p&gt;&#xA;&lt;p&gt;まあこれもしばらくすればドライバーが提供されるでしょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>次のタイヤ</title>
-      <link>http://localhost:1313/posts/2007-02-03-%E6%AC%A1%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A4/</link>
+      <link>https://yuki9902-jp.github.io/posts/2007-02-03-%E6%AC%A1%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A4/</link>
       <pubDate>Sat, 03 Feb 2007 22:58:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-02-03-%E6%AC%A1%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A4/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2007-02-03-%E6%AC%A1%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%A4/</guid>
       <description>&lt;p&gt;SUBARU IMPREZA WRX STI 純正のタイヤは、BRIDGESTONE POTENZA RE070です。&lt;/p&gt;&#xA;&lt;p&gt;ドライでのグリップ性能は、すさまじく、限界点は非常に高いところにあります。&lt;/p&gt;&#xA;&lt;p&gt;限界点を越えても、破綻することがなく、スムーズに流れます。&lt;/p&gt;&#xA;&lt;p&gt;ただ、ライフは短く、大体2万キロです。&lt;/p&gt;&#xA;&lt;p&gt;と、いうことで、私のIMPREZAも間もなく2万キロです。&lt;/p&gt;&#xA;&lt;p&gt;肩の減りは、早いですが、まだ少しいけそうです。&lt;/p&gt;&#xA;&lt;p&gt;でも、そろそろ新しいタイヤを買う準備をしなければなりません。&lt;/p&gt;&#xA;&lt;p&gt;この冬は、このまま暖かくなりそうなのでスタッドレスを買わずに済みそうです。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり次もPOTENZA RE070を買います。&lt;/p&gt;&#xA;&lt;p&gt;POTENZA RE050、POTENZA RE-01R、POTENZA RE-01と使用してきました。&lt;/p&gt;&#xA;&lt;p&gt;BRIDGESTONE ばかりなのは、比較的安く入手できるからです。&lt;/p&gt;&#xA;&lt;p&gt;私の中にフランス神話もイタリア神話もないので、別にBRIDGESTONEに違和感もなく、気に入って使っています。&lt;/p&gt;</description>
     </item>
   </channel>

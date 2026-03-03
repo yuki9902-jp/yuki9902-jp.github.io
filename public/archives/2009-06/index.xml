@@ -2,542 +2,542 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2009-06 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2009-06/</link>
+    <link>https://yuki9902-jp.github.io/archives/2009-06/</link>
     <description>Recent content in 2009-06 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 30 Jun 2009 22:27:45 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2009-06/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2009-06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ほかに移設するにしても</title>
-      <link>http://localhost:1313/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</link>
       <pubDate>Tue, 30 Jun 2009 22:27:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</guid>
       <description>&lt;p&gt;ほかに移設するにしても、まずはほかのツールを試してみることにした。&lt;/p&gt;&#xA;&lt;p&gt;WordPressとMovable Typeのハイブリッドで現在運用中。&lt;/p&gt;&#xA;&lt;p&gt;過去の記事のディレクトリ構成を引き継いだままの運用なので、URLを直に入力するとMovable Type で作った古いページが見られる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>チカッパもだめか。。。</title>
-      <link>http://localhost:1313/posts/2009-06-30-%E3%83%81%E3%82%AB%E3%83%83%E3%83%91%E3%82%82%E3%81%A0%E3%82%81%E3%81%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%83%81%E3%82%AB%E3%83%83%E3%83%91%E3%82%82%E3%81%A0%E3%82%81%E3%81%8B/</link>
       <pubDate>Tue, 30 Jun 2009 09:18:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-30-%E3%83%81%E3%82%AB%E3%83%83%E3%83%91%E3%82%82%E3%81%A0%E3%82%81%E3%81%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%83%81%E3%82%AB%E3%83%83%E3%83%91%E3%82%82%E3%81%A0%E3%82%81%E3%81%8B/</guid>
       <description>&lt;p&gt;CGIの処理落ち、正確にはMySQLの処理落ちで、CGIエラーや二重投稿が発生します。&lt;/p&gt;&#xA;&lt;p&gt;LoliPopでかなりいらいらしていたので、チカッパに乗り換えたのですが、結局同じ状況。&lt;/p&gt;&#xA;&lt;p&gt;共有SSLも使い勝手悪いし、CRONとかも使えないし、乗り換えたメリットがほとんどないのが実情。&lt;/p&gt;&#xA;&lt;p&gt;近いうちにもう一度サーバー移行します。&lt;/p&gt;&#xA;&lt;p&gt;同じ会社のドメイン管理を使っているので、それの設定を変更する必要がありますが。&lt;/p&gt;&#xA;&lt;p&gt;別に自分でMovable Typeをインストールできる必要はないのですが、画像アップに制限がなければ、今なら普通のブログサービスでもかまわない訳で。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと考えよう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Builed up Link List</title>
-      <link>http://localhost:1313/posts/2009-06-30-builed-up-link-list/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-30-builed-up-link-list/</link>
       <pubDate>Tue, 30 Jun 2009 08:57:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-30-builed-up-link-list/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/link.jpg&#34;&gt;リンクリスト&lt;/a&gt;を作成しました。&lt;/p&gt;&#xA;&lt;p&gt;ほかでやってるブログやら登録しているWebサービスへのリンクです。&lt;/p&gt;&#xA;&lt;p&gt;私のアカウントを見つけたらメールでも入れておいてください。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-30-builed-up-link-list/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/link.jpg&#34;&gt;リンクリスト&lt;/a&gt;を作成しました。&lt;/p&gt;&#xA;&lt;p&gt;ほかでやってるブログやら登録しているWebサービスへのリンクです。&lt;/p&gt;&#xA;&lt;p&gt;私のアカウントを見つけたらメールでも入れておいてください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ウェットでスリッパリーでおまけにスリック</title>
-      <link>http://localhost:1313/posts/2009-06-30_%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8A%E3%81%BE%E3%81%91%E3%81%AB%E3%82%B9%E3%83%AA%E3%83%83%E3%82%AF/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-30_%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8A%E3%81%BE%E3%81%91%E3%81%AB%E3%82%B9%E3%83%AA%E3%83%83%E3%82%AF/</link>
       <pubDate>Tue, 30 Jun 2009 08:44:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-30_%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8A%E3%81%BE%E3%81%91%E3%81%AB%E3%82%B9%E3%83%AA%E3%83%83%E3%82%AF/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-30_%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88%E3%81%A7%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%AA%E3%83%BC%E3%81%A7%E3%81%8A%E3%81%BE%E3%81%91%E3%81%AB%E3%82%B9%E3%83%AA%E3%83%83%E3%82%AF/</guid>
       <description>&lt;p&gt;マイカー（SUBARU IMPREZA WRX STI(GH-GDBF)）のフロントタイヤの溝がまったくなくなりスリックタイヤになってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;梅雨の大雨の中、道路にできた水溜りの上にフロントタイヤが乗るとグリップを失いスパッと外にフロントが逃げていきます。&lt;/p&gt;&#xA;&lt;p&gt;ギアを一段下げ、回転数を上げ、トラクションを確保し、細かなアクセルワークとカウンターステアリングでドリフトをしながら、帰宅してます。&lt;/p&gt;&#xA;&lt;p&gt;雨の中の追越も、スリックタイヤではちょっと無理が過ぎるので、この週末にでも新しいタイヤに交換します。&lt;/p&gt;&#xA;&lt;p&gt;次もBRIDGESTONE POTENZA RE050ですかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>メンテナンス</title>
-      <link>http://localhost:1313/posts/2009-06-30_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-30_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</link>
       <pubDate>Tue, 30 Jun 2009 01:15:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-30_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-30_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</guid>
       <description>&lt;p&gt;あいたたた。&lt;br&gt;&#xA;プロバイダーがメンテナンス中で、パソコンからネットが見られないや。&lt;br&gt;&#xA;ブログのコメントにお返事してた途中だったんだけど。&lt;br&gt;&#xA;残念。&lt;/p&gt;&#xA;&lt;p&gt;また明日ですね&lt;/p&gt;</description>
     </item>
     <item>
       <title>にゃ～、あつぅ～</title>
-      <link>http://localhost:1313/posts/2009-06-29-%E3%81%AB%E3%82%83%E3%81%82%E3%81%A4%E3%81%85/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-29-%E3%81%AB%E3%82%83%E3%81%82%E3%81%A4%E3%81%85/</link>
       <pubDate>Mon, 29 Jun 2009 20:18:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-29-%E3%81%AB%E3%82%83%E3%81%82%E3%81%A4%E3%81%85/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-29-%E3%81%AB%E3%82%83%E3%81%82%E3%81%A4%E3%81%85/</guid>
       <description>&lt;p&gt;湿気で服がべっとりです。&lt;/p&gt;&#xA;&lt;p&gt;社屋内の湿度が65%です。&lt;/p&gt;&#xA;&lt;p&gt;エアコンと換気扇が同時に動くお粗末なもので、梅雨の外の湿気を室内に取り入れちゃって不快指数がグングン上昇中。&lt;/p&gt;</description>
     </item>
     <item>
       <title>さっぱりしたい。</title>
-      <link>http://localhost:1313/posts/2009-06-29_%E3%81%95%E3%81%A3%E3%81%B1%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-29_%E3%81%95%E3%81%A3%E3%81%B1%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Mon, 29 Jun 2009 15:08:04 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-29_%E3%81%95%E3%81%A3%E3%81%B1%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-29_%E3%81%95%E3%81%A3%E3%81%B1%E3%82%8A%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;湿度65%、室温29度&lt;/p&gt;&#xA;&lt;p&gt;服が体に張り付いて不快です。&lt;/p&gt;&#xA;&lt;p&gt;こんな日に電車やバスなんかで外回りするのは辛いだろうな。&lt;/p&gt;&#xA;&lt;p&gt;昔、高校で吹奏楽やってたときの梅雨時期は最悪だった。&lt;/p&gt;&#xA;&lt;p&gt;私はチューバだったんで、木管ほどデリケートになる必要はなかったけど。&lt;/p&gt;&#xA;&lt;p&gt;湿気で楽器の表面や音楽室の床が結露したり、べとべとして不快だった。&lt;/p&gt;&#xA;&lt;p&gt;私の時代は公立高校にエアコンなんてないので、汗と空気の湿気でぐっしょり。&lt;/p&gt;&#xA;&lt;p&gt;一緒にパーカッションも掛け持ちしていたけど、こちらは音がまったく通らない。&lt;/p&gt;&#xA;&lt;p&gt;もう35歳、年齢かな、エアコンの冷風が体にこたえます。&lt;/p&gt;&#xA;&lt;p&gt;エアコンの風で、肌も乾燥して、梅雨だというのにハンドクリームや化粧水が欠かせません。&lt;/p&gt;&#xA;&lt;p&gt;そのくせ、おでこや鼻は皮脂でテカるけれど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>朝からぐっしょり</title>
-      <link>http://localhost:1313/posts/2009-06-29_%E6%9C%9D%E3%81%8B%E3%82%89%E3%81%90%E3%81%A3%E3%81%97%E3%82%87%E3%82%8A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-29_%E6%9C%9D%E3%81%8B%E3%82%89%E3%81%90%E3%81%A3%E3%81%97%E3%82%87%E3%82%8A/</link>
       <pubDate>Mon, 29 Jun 2009 10:51:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-29_%E6%9C%9D%E3%81%8B%E3%82%89%E3%81%90%E3%81%A3%E3%81%97%E3%82%87%E3%82%8A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-29_%E6%9C%9D%E3%81%8B%E3%82%89%E3%81%90%E3%81%A3%E3%81%97%E3%82%87%E3%82%8A/</guid>
       <description>&lt;p&gt;全熱換気つきエアコンって、この時期は、いらねーって思うよ。&lt;/p&gt;&#xA;&lt;p&gt;ドライにしても外気を取り込んでしまって、湿度が急上昇してしまうんだもの。&lt;/p&gt;&#xA;&lt;p&gt;湿度62%、室温29度。&lt;/p&gt;&#xA;&lt;p&gt;朝から空気中の湿気を吸って衣服がぐっしょり。&lt;/p&gt;&#xA;&lt;p&gt;うちの会社のエアコン（ダイキン製）だけかもしれないけど、換気扇とエアコンが同期してて、片方だけ運転することができないんですよ。&lt;/p&gt;&#xA;&lt;p&gt;地方都市の会社って意外にエコにうるさくて、結構、職場環境的には不自由します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>タイトル未定</title>
-      <link>http://localhost:1313/posts/2009-06-28-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A/</link>
       <pubDate>Sun, 28 Jun 2009 23:21:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-28-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2729p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2729p.jpg&#34; alt=&#34;_IGP2729p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2729p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2729p.jpg&#34; alt=&#34;_IGP2729p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>どうしても再現できない色</title>
-      <link>http://localhost:1313/posts/2009-06-28-%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E5%86%8D%E7%8F%BE%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E8%89%B2/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E5%86%8D%E7%8F%BE%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E8%89%B2/</link>
       <pubDate>Sun, 28 Jun 2009 21:47:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-28-%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E5%86%8D%E7%8F%BE%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E8%89%B2/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2733m.jpg&#34; alt=&#34;_IGP2733m.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;紫外域と赤外域を含んだこの花の色をデジタルカメラでは再現できません。&lt;/p&gt;&#xA;&lt;p&gt;で、実際はもっと濃い紫色でもっと赤っぽい色も混ざっています。&lt;/p&gt;&#xA;&lt;p&gt;今のところモニターもsRGB設定しかできないので、ぎりぎりの色域まで確認ができません。&lt;/p&gt;&#xA;&lt;p&gt;デジカメの液晶モニターも当然のごとく色が正しく表示されません。&lt;/p&gt;&#xA;&lt;p&gt;たとえAdobeRGBでもこの色は表現できないので意味ないですが。&lt;/p&gt;&#xA;&lt;p&gt;xvYccに早くPCもデジカメも対応してほしいのですが。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%82%82%E5%86%8D%E7%8F%BE%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E8%89%B2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2733m.jpg&#34; alt=&#34;_IGP2733m.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;紫外域と赤外域を含んだこの花の色をデジタルカメラでは再現できません。&lt;/p&gt;&#xA;&lt;p&gt;で、実際はもっと濃い紫色でもっと赤っぽい色も混ざっています。&lt;/p&gt;&#xA;&lt;p&gt;今のところモニターもsRGB設定しかできないので、ぎりぎりの色域まで確認ができません。&lt;/p&gt;&#xA;&lt;p&gt;デジカメの液晶モニターも当然のごとく色が正しく表示されません。&lt;/p&gt;&#xA;&lt;p&gt;たとえAdobeRGBでもこの色は表現できないので意味ないですが。&lt;/p&gt;&#xA;&lt;p&gt;xvYccに早くPCもデジカメも対応してほしいのですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>暑い～</title>
-      <link>http://localhost:1313/posts/2009-06-28_%E6%9A%91%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-28_%E6%9A%91%E3%81%84/</link>
       <pubDate>Sun, 28 Jun 2009 21:21:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-28_%E6%9A%91%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-28_%E6%9A%91%E3%81%84/</guid>
       <description>&lt;p&gt;エアコンもつけずに、自室にこもって漫画を読んでますが、暑い。&lt;/p&gt;&#xA;&lt;p&gt;今日はカメラのレンズを買おうかと思って、ビックカメラに出かけたんだけど、目的のカメラ売り場で店員が誰もいない。&lt;/p&gt;&#xA;&lt;p&gt;たまに来たかと思えば、ほかの高額な買い物しそうなお客だけ対応して、僕はほったらかしですか。。。&lt;/p&gt;&#xA;&lt;p&gt;横を通った店員さんに「あのー」と話しかけても、スルーされてしまった。&lt;/p&gt;&#xA;&lt;p&gt;あれか、貧乏人には用がないって事か。&lt;/p&gt;&#xA;&lt;p&gt;安くてもレンズを二本、十万円分ぐらい買おうと思ってたのに。&lt;/p&gt;&#xA;&lt;p&gt;気分悪くしたので、この店で買うのは取りやめ。&lt;/p&gt;&#xA;&lt;p&gt;もうAmazonで買うことにした。&lt;/p&gt;&#xA;&lt;p&gt;って、思ってAmazonで買い物。&lt;/p&gt;&#xA;&lt;p&gt;？、、、PSPを注文してるし。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>キャラクターソングを・・・</title>
-      <link>http://localhost:1313/posts/2009-06-28-%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%82%92/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%82%92/</link>
       <pubDate>Sun, 28 Jun 2009 01:13:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-28-%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%82%92/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2727m.jpg&#34; alt=&#34;_IGP2727m.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;この年齢(とし)でキャラソンを買いまくってしまった。&lt;/p&gt;&#xA;&lt;p&gt;意外でもないけど。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとでも気になると、とことん集めないと気が済まない。&lt;/p&gt;&#xA;&lt;p&gt;ちなみ、これは「ハヤテのごとく」の「桂ヒナギク」、声優は「伊藤静」。&lt;/p&gt;&#xA;&lt;p&gt;まあ、自分で働いて稼いだ金だからいいか・・・。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-28-%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%B0%E3%82%92/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2727m.jpg&#34; alt=&#34;_IGP2727m.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;この年齢(とし)でキャラソンを買いまくってしまった。&lt;/p&gt;&#xA;&lt;p&gt;意外でもないけど。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとでも気になると、とことん集めないと気が済まない。&lt;/p&gt;&#xA;&lt;p&gt;ちなみ、これは「ハヤテのごとく」の「桂ヒナギク」、声優は「伊藤静」。&lt;/p&gt;&#xA;&lt;p&gt;まあ、自分で働いて稼いだ金だからいいか・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K-7</title>
-      <link>http://localhost:1313/posts/2009-06-27-pentax-k-7/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-27-pentax-k-7/</link>
       <pubDate>Sat, 27 Jun 2009 21:15:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-27-pentax-k-7/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-27-pentax-k-7/</guid>
       <description>&lt;p&gt;今日発売されたPENTAX K-7。&lt;/p&gt;&#xA;&lt;p&gt;かなりちっちゃい。&lt;/p&gt;&#xA;&lt;p&gt;ビックカメラで、見てきたよ。&lt;/p&gt;&#xA;&lt;p&gt;でも、、、、かわいくないし、きれいな形でもない。&lt;/p&gt;&#xA;&lt;p&gt;無骨な感じが、PENTAXらしくない。&lt;/p&gt;&#xA;&lt;p&gt;キャノンぽい。&lt;/p&gt;&#xA;&lt;p&gt;持ちやすさとか、ファインダーの見やすさはいい。&lt;/p&gt;&#xA;&lt;p&gt;露出補正とISO設定ボタンがすごい押しにくい。&lt;/p&gt;&#xA;&lt;p&gt;AF切り替えも小さくて押しづらい。&lt;/p&gt;&#xA;&lt;p&gt;そのほかのボタンもなんか操作しづらい。。。&lt;/p&gt;&#xA;&lt;p&gt;端子類は樹脂の蓋ではなく、ラバーカバーになった。&lt;/p&gt;&#xA;&lt;p&gt;ちゃんと閉じないと防水効果がない。&lt;/p&gt;&#xA;&lt;p&gt;機能はまあイマドキのデジタル一眼レフとして問題ないレベル。&lt;/p&gt;&#xA;&lt;p&gt;小さくしすぎて肝心の使いやすさが失われている。&lt;/p&gt;&#xA;&lt;p&gt;うーん、実物見る前は買う気満々だったのに。。。&lt;/p&gt;&#xA;&lt;p&gt;K-7は見送ろうかな。&lt;/p&gt;&#xA;&lt;p&gt;K20Dがたたき売り状態になっているので、二台目を買おうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>早速見てきた</title>
-      <link>http://localhost:1313/posts/2009-06-27_%E6%97%A9%E9%80%9F%E8%A6%8B%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-27_%E6%97%A9%E9%80%9F%E8%A6%8B%E3%81%A6%E3%81%8D%E3%81%9F/</link>
       <pubDate>Sat, 27 Jun 2009 20:58:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-27_%E6%97%A9%E9%80%9F%E8%A6%8B%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-27_%E6%97%A9%E9%80%9F%E8%A6%8B%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
       <description>&lt;p&gt;今日発売されたPENTAX K-7。&lt;/p&gt;&#xA;&lt;p&gt;かなりちっちゃい。&lt;/p&gt;&#xA;&lt;p&gt;でも、、、、かわいくないし、きれいな形でもない。&lt;/p&gt;&#xA;&lt;p&gt;無骨な感じが、PENTAXらしくない。&lt;/p&gt;&#xA;&lt;p&gt;キャノンぽい。&lt;/p&gt;&#xA;&lt;p&gt;持ちやすさとか、ファインダーの見やすさはいい。&lt;/p&gt;&#xA;&lt;p&gt;露出補正とISO設定ボタンがすごい押しにくい。&lt;/p&gt;&#xA;&lt;p&gt;AF切り替えも小さくて押しづらい。&lt;/p&gt;&#xA;&lt;p&gt;そのほかのボタンもなんか操作しづらい。。。&lt;/p&gt;&#xA;&lt;p&gt;端子類は樹脂の蓋ではなく、ラバーカバーになった。&lt;/p&gt;&#xA;&lt;p&gt;ちゃんと閉じないと防水効果がない。&lt;/p&gt;&#xA;&lt;p&gt;機能はまあイマドキのデジタル一眼レフとして問題ないレベル。&lt;/p&gt;&#xA;&lt;p&gt;小さくしすぎて肝心の使いやすさが失われている。&lt;/p&gt;&#xA;&lt;p&gt;うーん、実物見る前は買う気満々だったのに。。。&lt;/p&gt;&#xA;&lt;p&gt;K-7は見送ろうかな。&lt;/p&gt;&#xA;&lt;p&gt;K20Dがたたき売り状態になっているので、二台目を買おうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>声</title>
-      <link>http://localhost:1313/posts/2009-06-27_%E5%A3%B0/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-27_%E5%A3%B0/</link>
       <pubDate>Sat, 27 Jun 2009 00:19:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-27_%E5%A3%B0/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-27_%E5%A3%B0/</guid>
       <description>&lt;p&gt;今、声優の伊藤静さんの声にはまってます。&lt;/p&gt;&#xA;&lt;p&gt;かなり有名で実力のある声優さんです。&lt;/p&gt;&#xA;&lt;p&gt;強烈な特徴があるわけではないのですが、すごくきれいで聞き心地の良い声をしてらっしゃいます。&lt;/p&gt;&#xA;&lt;p&gt;現在放映中の「ハヤテのごとく 2nd Season」では、桂ヒナギク役をされています。&lt;/p&gt;&#xA;&lt;p&gt;もっと有名なところでは、「ヤッターマン」の２号、アイちゃん役です。&lt;/p&gt;&#xA;&lt;p&gt;そのほか、たくさんの作品に出演されてますね。&lt;/p&gt;&#xA;&lt;p&gt;その「桂ヒナギク」役で発売されたキャラクターソングCDをかなりの勢いで買ってしまったんです。&lt;/p&gt;&#xA;&lt;p&gt;伊藤さんの声を聞いていると心地よくなってしまうんです。&lt;/p&gt;&#xA;&lt;p&gt;そのほか、好きな声はいっぱいあります。&lt;/p&gt;&#xA;&lt;p&gt;どの方もきれいな声。&lt;/p&gt;&#xA;&lt;p&gt;声には非常に敏感に反応してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;逆にどうしても苦手な声もあります。&lt;/p&gt;&#xA;&lt;p&gt;聞くといらいらするものや、気持ち悪くなるものなど。&lt;/p&gt;&#xA;&lt;p&gt;声優さんの業界についてはあまり知りません。&lt;/p&gt;&#xA;&lt;p&gt;中学以降テレビをほとんど見てなかったのに、三十過ぎてからアニメを見るようになって、そっからどっぷりはまりつつあります。&lt;/p&gt;&#xA;&lt;p&gt;声の仕事ってかなり難しいと思います。&lt;/p&gt;&#xA;&lt;p&gt;結構あこがれますね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Forever King of Pops</title>
-      <link>http://localhost:1313/posts/2009-06-27_forever-king-of-pops/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-27_forever-king-of-pops/</link>
       <pubDate>Sat, 27 Jun 2009 00:02:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-27_forever-king-of-pops/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-27_forever-king-of-pops/</guid>
       <description>&lt;p&gt;ぐす。&lt;/p&gt;&#xA;&lt;p&gt;こんなに悲しいとは思わなかった。&lt;/p&gt;&#xA;&lt;p&gt;結構好きだったんだな。&lt;/p&gt;&#xA;&lt;p&gt;アルバムも結構持ってたし、ふとしたときに頭の中で「Beat It」が回るんだよ。&lt;/p&gt;&#xA;&lt;p&gt;今年の復活ライブツアー楽しみだったのに。&lt;/p&gt;&#xA;&lt;p&gt;さようなら、Michael。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Forever King of POPS...</title>
-      <link>http://localhost:1313/posts/2009-06-26-forever-king-of-pop/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-26-forever-king-of-pop/</link>
       <pubDate>Fri, 26 Jun 2009 17:52:50 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-26-forever-king-of-pop/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-26-forever-king-of-pop/</guid>
       <description>&lt;p&gt;Michael Jackson の久々のCDを少し前に買った。&lt;/p&gt;&#xA;&lt;p&gt;昔からMichaelの音楽はすごいと思ってた。&lt;/p&gt;&#xA;&lt;p&gt;アルバムもシングルの特別版も持ってた。&lt;/p&gt;&#xA;&lt;p&gt;時々、頭の中でBeat It が流れる。&lt;/p&gt;&#xA;&lt;p&gt;今年は復活ライブで来日するかと思ってた。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ新曲かと思ってた。&lt;/p&gt;&#xA;&lt;p&gt;けど。。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>声に萌え？</title>
-      <link>http://localhost:1313/posts/2009-06-26-%E5%A3%B0%E3%81%AB%E8%90%8C%E3%81%88/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-26-%E5%A3%B0%E3%81%AB%E8%90%8C%E3%81%88/</link>
       <pubDate>Fri, 26 Jun 2009 00:07:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-26-%E5%A3%B0%E3%81%AB%E8%90%8C%E3%81%88/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-26-%E5%A3%B0%E3%81%AB%E8%90%8C%E3%81%88/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;桂ヒナギク Starring 伊藤静&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;いかん、はまり過ぎ。&lt;/p&gt;&#xA;&lt;p&gt;伊藤静さんの声にはまり過ぎ。&lt;/p&gt;&#xA;&lt;p&gt;「桂ヒナギク」でいっぱいCDを買ってしまった。。。。&lt;/p&gt;&#xA;&lt;p&gt;アニメをそのものを見ているより、声を聞いている方が好きかも知れない。&lt;/p&gt;&#xA;&lt;p&gt;その昔、「加藤いずみ」という歌手がいたのですが、その人のCDを耳元で聞かされたときは、背筋がゾクゾクしたモノです。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり声に対しては敏感に反応します。&lt;/p&gt;&#xA;&lt;p&gt;好きな声があると同時にどうしても苦手な声があります。&lt;/p&gt;&#xA;&lt;p&gt;気持ちが悪くなるとか、いらいらするとか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>mixiアカウントに対応</title>
-      <link>http://localhost:1313/posts/2009-06-25-mixi%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AB%E5%AF%BE%E5%BF%9C/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-25-mixi%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AB%E5%AF%BE%E5%BF%9C/</link>
       <pubDate>Thu, 25 Jun 2009 09:58:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-25-mixi%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AB%E5%AF%BE%E5%BF%9C/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-25-mixi%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AB%E5%AF%BE%E5%BF%9C/</guid>
       <description>&lt;p&gt;私とマイミクになっている人は、右のサイドバーに出ている「サインイン」をクリックしてmixiのアカウントを使ってサインインできます。&lt;/p&gt;&#xA;&lt;p&gt;サインインしたユーザーでコメントすることができます。&lt;/p&gt;&#xA;&lt;p&gt;その他のオープンIDに対応していますので、そのIDを使ってサインすることができます。&lt;/p&gt;&#xA;&lt;p&gt;それぞれ対応したアイコンをクリックして、各サービスのログイン画面で入力してください。&lt;/p&gt;&#xA;&lt;p&gt;私のサイトにアカウント情報を持たないので安全です。&lt;/p&gt;&#xA;&lt;p&gt;IPアドレスレベルでスパム対策をしているので然したる必要性はないですが、後学のため採用しています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>YALE STRIKE</title>
-      <link>http://localhost:1313/posts/2009-06-24-yale-strike/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-24-yale-strike/</link>
       <pubDate>Wed, 24 Jun 2009 23:24:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-24-yale-strike/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2720p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2720p.jpg&#34; alt=&#34;_IGP2720p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;現像処理で0.5減感&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-24-yale-strike/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2720p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2720p.jpg&#34; alt=&#34;_IGP2720p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;現像処理で0.5減感&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lili</title>
-      <link>http://localhost:1313/posts/2009-06-23-lili/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-23-lili/</link>
       <pubDate>Tue, 23 Jun 2009 22:49:05 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-23-lili/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-23-lili/</guid>
       <description>&lt;p&gt;PlayStation3の60GBを6万円近く出して買ったのは結構前です。&lt;/p&gt;&#xA;&lt;p&gt;SACDが再生でき、しかも高音質で。&lt;/p&gt;&#xA;&lt;p&gt;しかしFanがあまりにうるさくてメディアプレーヤーとしては使うことがまずないです。&lt;/p&gt;&#xA;&lt;p&gt;それこそ本当にゲームをやっています。&lt;/p&gt;&#xA;&lt;p&gt;特に息抜きでするのが鉄拳5DRです。&lt;/p&gt;&#xA;&lt;p&gt;選択するキャラはLILIです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、ゲームとは言え、男の性だからしょうがない。&lt;/p&gt;&#xA;&lt;p&gt;Liliの連続足技を繰り出していけば、空中に持ち上げたままKOさせられる。&lt;/p&gt;&#xA;&lt;p&gt;結構やり込んだもののゲーセンでは全く歯が立たない。&lt;/p&gt;&#xA;&lt;p&gt;コントローラーを換えるべきなのか。&lt;/p&gt;&#xA;&lt;p&gt;パッドで覚えた操作はゲームスティックにすぐには対応できないし。&lt;/p&gt;</description>
     </item>
     <item>
       <title>感化されて</title>
-      <link>http://localhost:1313/posts/2009-06-23-%E6%84%9F%E5%8C%96%E3%81%95%E3%82%8C%E3%81%A6/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-23-%E6%84%9F%E5%8C%96%E3%81%95%E3%82%8C%E3%81%A6/</link>
       <pubDate>Tue, 23 Jun 2009 21:49:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-23-%E6%84%9F%E5%8C%96%E3%81%95%E3%82%8C%E3%81%A6/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2700p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2700p.jpg&#34; alt=&#34;_IGP2700p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-23-%E6%84%9F%E5%8C%96%E3%81%95%E3%82%8C%E3%81%A6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2700p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2700p.jpg&#34; alt=&#34;_IGP2700p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nightmare</title>
-      <link>http://localhost:1313/posts/2009-06-23-nightmare/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-23-nightmare/</link>
       <pubDate>Tue, 23 Jun 2009 11:03:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-23-nightmare/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-23-nightmare/</guid>
       <description>&lt;p&gt;ひたすら逃げる。&lt;/p&gt;&#xA;&lt;p&gt;私はなぜか女になっている。&lt;/p&gt;&#xA;&lt;p&gt;白昼堂々ロングコートの暴漢に襲われ、正面から抱き疲れつつも、何とか腕を払い逃げ出す。&lt;/p&gt;&#xA;&lt;p&gt;尚も暴漢は追いかけてくる。&lt;/p&gt;&#xA;&lt;p&gt;途中で警察官に出くわし、助けを求めようとするも声が出ない。&lt;/p&gt;&#xA;&lt;p&gt;それでも暴漢は追いかけてくる。&lt;/p&gt;&#xA;&lt;p&gt;暴漢はなにやら叫んでいる。&lt;/p&gt;&#xA;&lt;p&gt;どうやら自分都合のことを言っている。&lt;/p&gt;&#xA;&lt;p&gt;暴漢の後を警察官が追いかけているが取り押さえられていない。&lt;/p&gt;&#xA;&lt;p&gt;私はひたすら逃げる。&lt;/p&gt;&#xA;&lt;p&gt;柵を飛び越え、長い路地裏を駆け抜けていく。&lt;/p&gt;&#xA;&lt;p&gt;古い木戸がある。&lt;/p&gt;&#xA;&lt;p&gt;鍵はかかっていない。&lt;/p&gt;&#xA;&lt;p&gt;木戸を開け、中に飛び込む。&lt;/p&gt;&#xA;&lt;p&gt;「ピピピ・・・」と目覚まし時計が鳴り響き、一気に現実に引き戻される。&lt;/p&gt;&#xA;&lt;p&gt;心臓が激しく鼓動している。&lt;/p&gt;&#xA;&lt;p&gt;本当に全力疾走したときのような心拍。&lt;/p&gt;&#xA;&lt;p&gt;恐ろしい思いをした。&lt;/p&gt;&#xA;&lt;p&gt;朝から激しく疲れた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Photogenic</title>
-      <link>http://localhost:1313/posts/2009-06-22-photogenic/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-photogenic/</link>
       <pubDate>Mon, 22 Jun 2009 23:02:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-photogenic/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/0001.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/0001.jpg&#34; alt=&#34;0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;古い作品ですが、Photoshopで強調してみました。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-photogenic/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/0001.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/0001.jpg&#34; alt=&#34;0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;古い作品ですが、Photoshopで強調してみました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おわった。</title>
-      <link>http://localhost:1313/posts/2009-06-22-%E3%81%8A%E3%82%8F%E3%81%A3%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-%E3%81%8A%E3%82%8F%E3%81%A3%E3%81%9F/</link>
       <pubDate>Mon, 22 Jun 2009 18:28:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-%E3%81%8A%E3%82%8F%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-%E3%81%8A%E3%82%8F%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;就業時間終了。&lt;/p&gt;&#xA;&lt;p&gt;あまりの眠さに耐えられず、座席でそのまま爆睡。&lt;/p&gt;&#xA;&lt;p&gt;すっかり眠気が覚めた。&lt;/p&gt;&#xA;&lt;p&gt;いい感じに大雨です。&lt;/p&gt;&#xA;&lt;p&gt;車のタイヤがスリック状態になりつつあるので気をつけないと、意図しないところでドリフトしなくちゃいけなくなる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>昼過ぎ</title>
-      <link>http://localhost:1313/posts/2009-06-22-%E6%98%BC%E9%81%8E%E3%81%8E/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-%E6%98%BC%E9%81%8E%E3%81%8E/</link>
       <pubDate>Mon, 22 Jun 2009 14:14:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-%E6%98%BC%E9%81%8E%E3%81%8E/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-%E6%98%BC%E9%81%8E%E3%81%8E/</guid>
       <description>&lt;p&gt;ケーブルインターネットが復旧したようだ。&lt;/p&gt;&#xA;&lt;p&gt;自宅のLAN HDDのWebサービスにアクセスできる。&lt;/p&gt;&#xA;&lt;p&gt;眠い、横になって眠りたい。&lt;/p&gt;&#xA;&lt;p&gt;今眠れたらどれだけ気持ち良いことか。&lt;/p&gt;&#xA;&lt;p&gt;いくらでも眠れる気がする。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lightning</title>
-      <link>http://localhost:1313/posts/2009-06-22-lightning/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-lightning/</link>
       <pubDate>Mon, 22 Jun 2009 10:15:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-lightning/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-lightning/</guid>
       <description>&lt;p&gt;ようやく梅雨前線が停滞し、梅雨らしくなってきた。&lt;/p&gt;&#xA;&lt;p&gt;日付が変わったころから雨と雷が続いていた。&lt;/p&gt;&#xA;&lt;p&gt;朝、しばらく雷がおとなしかったが、また外で響きはじめた。&lt;/p&gt;&#xA;&lt;p&gt;7時過ぎ、閃光が走り、甲高く「ピシャ」っと雷が鳴った。&lt;/p&gt;&#xA;&lt;p&gt;刹那、地上デジタル放送の電波が受信できなくなった。&lt;/p&gt;&#xA;&lt;p&gt;地上デジタル放送はケーブルテレビで視聴していた。&lt;/p&gt;&#xA;&lt;p&gt;BS/CSデジタルは受信している。&lt;/p&gt;&#xA;&lt;p&gt;ケーブルインターネットは不通になった。&lt;/p&gt;&#xA;&lt;p&gt;どうやら近くの電柱に落雷し、ケーブルテレビの設備がダウンしたようだ。&lt;/p&gt;&#xA;&lt;p&gt;地上デジタル放送は視聴できなくても困ることはほとんどないが、ネットにつながらないのは痛い。&lt;/p&gt;&#xA;&lt;p&gt;仕事から帰るころには復旧していればいいが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>スナックさつき</title>
-      <link>http://localhost:1313/posts/2009-06-22-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E3%81%95%E3%81%A4%E3%81%8D/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E3%81%95%E3%81%A4%E3%81%8D/</link>
       <pubDate>Mon, 22 Jun 2009 10:00:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E3%81%95%E3%81%A4%E3%81%8D/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E3%81%95%E3%81%A4%E3%81%8D/</guid>
       <description>&lt;p&gt;「ジャズ屋角笛亭見習い」さんがコメントに入れていた「おやぶぅ～ん」っていうので、思い出した。&lt;/p&gt;&#xA;&lt;p&gt;次郎長の格好で「あたいにまかしちょき」とさつきのママが石に足をかけていたような気がする。&lt;/p&gt;&#xA;&lt;p&gt;すごいCMだった。&lt;/p&gt;&#xA;&lt;p&gt;後思い出せないのが。。。&lt;/p&gt;&#xA;&lt;p&gt;あるPVが数ヶ月にわたって深夜に放送されていたんですが、そのPVのオープニングで、アフロのサングラスが「トニー・リロー（イトウ？）のキープオンダンシング」って始まって昔のディスコダンスをレッスンするカットがある。&lt;/p&gt;&#xA;&lt;p&gt;20秒ほどのシーンの後、PVの本編ではサビの部分に来ると「トニー」は画面の隅に角抜きでダンスを始める。&lt;/p&gt;&#xA;&lt;p&gt;これが妙に気になって、深夜番組の終わりに流れるけど、ほぼ毎日見てた。&lt;/p&gt;&#xA;&lt;p&gt;高知は不思議な文化圏だったな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>夜になって</title>
-      <link>http://localhost:1313/posts/2009-06-22-%E5%A4%9C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-22-%E5%A4%9C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6/</link>
       <pubDate>Mon, 22 Jun 2009 01:15:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-22-%E5%A4%9C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-22-%E5%A4%9C%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6/</guid>
       <description>&lt;p&gt;夜、日付が変わったころに、雷が遠くから響いてきた。&lt;/p&gt;&#xA;&lt;p&gt;徐々に雷が近づいてくる。&lt;/p&gt;&#xA;&lt;p&gt;雨が降る前、空気が湿気を大量に含んで重い。&lt;/p&gt;&#xA;&lt;p&gt;半刻、空が光り雷鳴の低い音が空気を大きく揺さぶり体に響く。&lt;/p&gt;&#xA;&lt;p&gt;ざーっと雨が降りはじめる。&lt;/p&gt;&#xA;&lt;p&gt;眠い。&lt;/p&gt;&#xA;&lt;p&gt;もう雷が遠くに聞こえる。&lt;/p&gt;&#xA;&lt;p&gt;少し涼しくなった。&lt;/p&gt;&#xA;&lt;p&gt;眠い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いいことなし</title>
-      <link>http://localhost:1313/posts/2009-06-21-%E3%81%84%E3%81%84%E3%81%93%E3%81%A8%E3%81%AA%E3%81%97/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-21-%E3%81%84%E3%81%84%E3%81%93%E3%81%A8%E3%81%AA%E3%81%97/</link>
       <pubDate>Sun, 21 Jun 2009 20:35:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-21-%E3%81%84%E3%81%84%E3%81%93%E3%81%A8%E3%81%AA%E3%81%97/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-21-%E3%81%84%E3%81%84%E3%81%93%E3%81%A8%E3%81%AA%E3%81%97/</guid>
       <description>&lt;p&gt;午後二時半、写真を撮りに出た。&lt;/p&gt;&#xA;&lt;p&gt;血洗の滝に行ってみたけど、秋以外はまったく絵にならない。&lt;/p&gt;&#xA;&lt;p&gt;空も雲が覆いすっきりしない。&lt;/p&gt;&#xA;&lt;p&gt;行きがけの途中、コーナーをインカットしてきた車と正面衝突しそうになり、フルブレーキを踏んだ。&lt;/p&gt;&#xA;&lt;p&gt;食べかけていたロールケーキを床にぶちまけてしまった。&lt;/p&gt;&#xA;&lt;p&gt;くそ、悪びれもせず過ぎ去っていった対向車に怒りを燃やしつつ、車を止めて床にまいたロールケーキを集めてビニール袋に入れた。&lt;/p&gt;&#xA;&lt;p&gt;今日はいいことなし。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flog Surround</title>
-      <link>http://localhost:1313/posts/2009-06-21-flog-surround/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-21-flog-surround/</link>
       <pubDate>Sun, 21 Jun 2009 00:55:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-21-flog-surround/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-21-flog-surround/</guid>
       <description>&lt;p&gt;雨脚が弱くなって、しとしと降る。&lt;/p&gt;&#xA;&lt;p&gt;カエルの合唱が四方から響いていたが、夜が更けてカエルも寝始めたのか少なくなってきた。&lt;/p&gt;&#xA;&lt;p&gt;ウシガエルはまだいない。&lt;/p&gt;&#xA;&lt;p&gt;雨の夜。&lt;/p&gt;&#xA;&lt;p&gt;ブランデーでのどを焼く。&lt;/p&gt;&#xA;&lt;p&gt;スムースジャズを聴きながら、酔いで文章をすすめて。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SONY SCD-X501</title>
-      <link>http://localhost:1313/posts/2009-06-20-sony-scd-x501/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-20-sony-scd-x501/</link>
       <pubDate>Sat, 20 Jun 2009 23:02:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-20-sony-scd-x501/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-20-sony-scd-x501/</guid>
       <description>&lt;p&gt;手頃な5.1chのSACDプレーヤーがないのかと思って探してたら、SONYのSCD-X501があった。&lt;/p&gt;&#xA;&lt;p&gt;買うかな。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>メモリ8GB</title>
-      <link>http://localhost:1313/posts/2009-06-20-%E3%83%A1%E3%83%A2%E3%83%AA8gb/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-20-%E3%83%A1%E3%83%A2%E3%83%AA8gb/</link>
       <pubDate>Sat, 20 Jun 2009 18:03:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-20-%E3%83%A1%E3%83%A2%E3%83%AA8gb/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2693m.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2693m.jpg&#34; alt=&#34;_IGP2693m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;64bitOSを使うメリットとして、トータルメモリ4GB以上が扱えることがあります。&lt;/p&gt;&#xA;&lt;p&gt;これまで4GBまでしか入れていなかったので、ちょっと高いですが、今まで入れていたのと同じメモリを追加しました。&lt;/p&gt;&#xA;&lt;p&gt;Corsair XMS2 (2GB*2)(TWIN2X4096-6400C5DHX G)&lt;/p&gt;&#xA;&lt;p&gt;冷却フィンがついて作りもしっかりしています。&lt;/p&gt;&#xA;&lt;p&gt;さて取り付け後ですが、ちゃんと8GBとして認識されています。&lt;/p&gt;&#xA;&lt;p&gt;で、効果は確認できず。。。&lt;/p&gt;&#xA;&lt;p&gt;重いアプリを起動するとか動画編集するとかしないと分からないかな。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-20-%E3%83%A1%E3%83%A2%E3%83%AA8gb/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2693m.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2693m.jpg&#34; alt=&#34;_IGP2693m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;64bitOSを使うメリットとして、トータルメモリ4GB以上が扱えることがあります。&lt;/p&gt;&#xA;&lt;p&gt;これまで4GBまでしか入れていなかったので、ちょっと高いですが、今まで入れていたのと同じメモリを追加しました。&lt;/p&gt;&#xA;&lt;p&gt;Corsair XMS2 (2GB*2)(TWIN2X4096-6400C5DHX G)&lt;/p&gt;&#xA;&lt;p&gt;冷却フィンがついて作りもしっかりしています。&lt;/p&gt;&#xA;&lt;p&gt;さて取り付け後ですが、ちゃんと8GBとして認識されています。&lt;/p&gt;&#xA;&lt;p&gt;で、効果は確認できず。。。&lt;/p&gt;&#xA;&lt;p&gt;重いアプリを起動するとか動画編集するとかしないと分からないかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>声</title>
-      <link>http://localhost:1313/posts/2009-06-20-%E5%A3%B0/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-20-%E5%A3%B0/</link>
       <pubDate>Sat, 20 Jun 2009 00:41:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-20-%E5%A3%B0/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-20-%E5%A3%B0/</guid>
       <description>&lt;p&gt;昔から&amp;quot;声萌え&amp;quot;があります。&lt;/p&gt;&#xA;&lt;p&gt;今一番、好きな声は声優の伊藤静さんの声です。&lt;/p&gt;&#xA;&lt;p&gt;現在放送中の番組では「ヤッターマン」の2号、「ハヤテのごとく」の桂ヒナギク、「SAKI ～咲～」の竹井久、ちょっと前なら「D-Grayman」のリナリー・リー、「君が主で執事が俺で」の久遠寺森羅など。&lt;/p&gt;&#xA;&lt;p&gt;いろいろな番組にちょいちょいでてます。&lt;/p&gt;&#xA;&lt;p&gt;「ハヤテのごとく」では、釘宮さんと併せてツンデレの女王の二大巨頭がそろっています。&lt;/p&gt;&#xA;&lt;p&gt;いや～、ほんと伊藤静さんの声を聞くと身もだえしてしまいそうです。&lt;/p&gt;&#xA;&lt;p&gt;アニメの演じているっていう部分は、声優って結構難しいんだと思います。&lt;/p&gt;&#xA;&lt;p&gt;普通にドラマの俳優や女優がアテレコしても、不自然で。&lt;/p&gt;&#xA;&lt;p&gt;俳優の顔は渋くても、声が浮いてしまう「ラオウ」などもね。&lt;/p&gt;&#xA;&lt;p&gt;ほかに好きな声っていうか声優さんは、ゆかなさん、能登麻美子さん、小清水亜美さんなど。&lt;/p&gt;&#xA;&lt;p&gt;マニアックな話題だったかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MT 4.261 update</title>
-      <link>http://localhost:1313/posts/2009-06-20-mt-4.261-update/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-20-mt-4.261-update/</link>
       <pubDate>Sat, 20 Jun 2009 00:39:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-20-mt-4.261-update/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-20-mt-4.261-update/</guid>
       <description>&lt;p&gt;セキュリティー対策のため、Movable Type 4.261にアップデートしました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MTのスタイル</title>
-      <link>http://localhost:1313/posts/2009-06-19-mt%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-19-mt%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</link>
       <pubDate>Fri, 19 Jun 2009 10:54:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-19-mt%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-19-mt%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/</guid>
       <description>&lt;p&gt;有名どころのテンプレートよりずいぶんと洗練されたデザインで利用させていただいています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://taeko.w-museum.com/wing/&#34;&gt;http://taeko.w-museum.com/wing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Movable Typeを利用していない人には関係ない話ですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>神経が疲れているみたい</title>
-      <link>http://localhost:1313/posts/2009-06-18-%E7%A5%9E%E7%B5%8C%E3%81%8C%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-18-%E7%A5%9E%E7%B5%8C%E3%81%8C%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%84/</link>
       <pubDate>Thu, 18 Jun 2009 21:30:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-18-%E7%A5%9E%E7%B5%8C%E3%81%8C%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-18-%E7%A5%9E%E7%B5%8C%E3%81%8C%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;しばらく調子がいいと思ってたら、急激に体の調子が悪くなってきた。&lt;/p&gt;&#xA;&lt;p&gt;どうも頭をフル稼働させる仕事は、神経に疲れがたまるようです。&lt;/p&gt;&#xA;&lt;p&gt;しかもエアコンを使う季節で、これも体の調子が悪い。&lt;/p&gt;&#xA;&lt;p&gt;この週末はよく休もう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>赤い糸 - 稲葉浩志</title>
-      <link>http://localhost:1313/posts/2009-06-18-%E8%B5%A4%E3%81%84%E7%B3%B8---%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-18-%E8%B5%A4%E3%81%84%E7%B3%B8---%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/</link>
       <pubDate>Thu, 18 Jun 2009 08:24:09 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-18-%E8%B5%A4%E3%81%84%E7%B3%B8---%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-18-%E8%B5%A4%E3%81%84%E7%B3%B8---%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/</guid>
       <description>&lt;p&gt;もう結構前になるんですが、アニメ「結界師」のエンディングテーマに採用された楽曲で、「赤い糸」というタイトルがあります。&lt;/p&gt;&#xA;&lt;p&gt;「赤い糸」はシングルでもアルバムでも未発売で、「結界師」のサントラにも入っていません。&lt;/p&gt;&#xA;&lt;p&gt;このアニメのオープニングテーマを含め全楽曲を、稲葉浩志がプロデュースしており、オープニングの作詞・作曲・コーラス、後半のエンディングの作曲も手がけています。&lt;/p&gt;&#xA;&lt;p&gt;どちらかというとB&amp;rsquo;zのファンというよりも稲葉浩志のファンなので、ぜひとも「赤い糸」をリリースしてほしいものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>NEXT TIME AROUND &#39;BEST OF MR. BIG&#39; - MR. BIG</title>
-      <link>http://localhost:1313/posts/2009-06-17-next-time-around-be/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-17-next-time-around-be/</link>
       <pubDate>Wed, 17 Jun 2009 08:36:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-17-next-time-around-be/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-17-next-time-around-be/</guid>
       <description>&lt;p&gt;背筋がぞくぞくするようなロック。&lt;/p&gt;&#xA;&lt;p&gt;MR. BIGを聴け。&lt;/p&gt;&#xA;&lt;p&gt;日本向けのエディション。&lt;/p&gt;&#xA;&lt;p&gt;デジタルリマスターをしての収録です。&lt;/p&gt;&#xA;&lt;p&gt;現代のCDにふさわしい音質です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>熱量とエアフロー</title>
-      <link>http://localhost:1313/posts/2009-06-17-%E7%86%B1%E9%87%8F%E3%81%A8%E3%82%A8%E3%82%A2%E3%83%95%E3%83%AD%E3%83%BC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-17-%E7%86%B1%E9%87%8F%E3%81%A8%E3%82%A8%E3%82%A2%E3%83%95%E3%83%AD%E3%83%BC/</link>
       <pubDate>Wed, 17 Jun 2009 00:37:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-17-%E7%86%B1%E9%87%8F%E3%81%A8%E3%82%A8%E3%82%A2%E3%83%95%E3%83%AD%E3%83%BC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-17-%E7%86%B1%E9%87%8F%E3%81%A8%E3%82%A8%E3%82%A2%E3%83%95%E3%83%AD%E3%83%BC/</guid>
       <description>&lt;p&gt;自作PCのケースは、総アルミとは言え、クアッドコアやデュアルコアが登場するより遙か昔の製品ですので、冷却能力は十分とは言えず、サイドパネルを外して、自作のアクリルパネルを取り付けて運用してました。&lt;/p&gt;&#xA;&lt;p&gt;しかし開口面積を確保すること、エアフローを確保することを優先して、フィルターを取り付けていないため、PC内部が埃だらけです。&lt;/p&gt;&#xA;&lt;p&gt;元々のサイドパネルにドリルで穴あけ加工でもして、ターボ車用の高効率エアフィルターを取り付けてみようかな。&lt;/p&gt;&#xA;&lt;p&gt;PCのファンでは吸圧が足りないか。。。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードの電源レギュレーターを冷却するためCPUを水冷式にはできないし。&lt;/p&gt;&#xA;&lt;p&gt;いろいろ考えるけど、いっそのこと星野金属の新しいケースを買うかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>街歩きで</title>
-      <link>http://localhost:1313/posts/2009-06-15-%E8%A1%97%E6%AD%A9%E3%81%8D%E3%81%A7/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-15-%E8%A1%97%E6%AD%A9%E3%81%8D%E3%81%A7/</link>
       <pubDate>Mon, 15 Jun 2009 23:14:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-15-%E8%A1%97%E6%AD%A9%E3%81%8D%E3%81%A7/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2096m.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2096m.jpg&#34; alt=&#34;_IGP2096m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Photoshop:トリミング&lt;/p&gt;&#xA;&lt;p&gt;現像処理:モノクロ / 0.5減感 / グリーンフィルタ&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-15-%E8%A1%97%E6%AD%A9%E3%81%8D%E3%81%A7/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2096m.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2096m.jpg&#34; alt=&#34;_IGP2096m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Photoshop:トリミング&lt;/p&gt;&#xA;&lt;p&gt;現像処理:モノクロ / 0.5減感 / グリーンフィルタ&lt;/p&gt;</description>
     </item>
     <item>
       <title>パンジー</title>
-      <link>http://localhost:1313/posts/2009-06-15-%E3%83%91%E3%83%B3%E3%82%B8%E3%83%BC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-15-%E3%83%91%E3%83%B3%E3%82%B8%E3%83%BC/</link>
       <pubDate>Mon, 15 Jun 2009 22:54:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-15-%E3%83%91%E3%83%B3%E3%82%B8%E3%83%BC/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2383p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2383p.jpg&#34; alt=&#34;_IGP2383p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-15-%E3%83%91%E3%83%B3%E3%82%B8%E3%83%BC/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2383p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2383p.jpg&#34; alt=&#34;_IGP2383p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>菖蒲</title>
-      <link>http://localhost:1313/posts/2009-06-14-%E8%8F%96%E8%92%B2/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-14-%E8%8F%96%E8%92%B2/</link>
       <pubDate>Sun, 14 Jun 2009 20:54:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-14-%E8%8F%96%E8%92%B2/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2686p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2686p.jpg&#34; alt=&#34;_IGP2686p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-14-%E8%8F%96%E8%92%B2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2686p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2686p.jpg&#34; alt=&#34;_IGP2686p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>薔薇</title>
-      <link>http://localhost:1313/posts/2009-06-14-%E8%96%94%E8%96%87/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-14-%E8%96%94%E8%96%87/</link>
       <pubDate>Sun, 14 Jun 2009 20:48:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-14-%E8%96%94%E8%96%87/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2666p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2666p.jpg&#34; alt=&#34;_IGP2666p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-14-%E8%96%94%E8%96%87/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2666p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2666p.jpg&#34; alt=&#34;_IGP2666p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>部屋の中</title>
-      <link>http://localhost:1313/posts/2009-06-14-%E9%83%A8%E5%B1%8B%E3%81%AE%E4%B8%AD/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-14-%E9%83%A8%E5%B1%8B%E3%81%AE%E4%B8%AD/</link>
       <pubDate>Sun, 14 Jun 2009 00:25:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-14-%E9%83%A8%E5%B1%8B%E3%81%AE%E4%B8%AD/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2650p.jpg&#34; alt=&#34;_IGP2650p.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;全然片付いていないけど。。。&lt;/p&gt;&#xA;&lt;p&gt;部屋の中。&lt;/p&gt;&#xA;&lt;p&gt;新しいモノから順に&lt;/p&gt;&#xA;&lt;p&gt;SONY WALKMAN NW-S738F&lt;/p&gt;&#xA;&lt;p&gt;Panasonic TH-37LZ85&lt;/p&gt;&#xA;&lt;p&gt;Panasonic DMR-BW850&lt;/p&gt;&#xA;&lt;p&gt;Self Buildup PC&lt;/p&gt;&#xA;&lt;p&gt;DENON AVC-4320&lt;/p&gt;&#xA;&lt;p&gt;Tannoy Mercury mXC-m&lt;/p&gt;&#xA;&lt;p&gt;B&amp;amp;W 705&lt;/p&gt;&#xA;&lt;p&gt;Marantz SA8260&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-14-%E9%83%A8%E5%B1%8B%E3%81%AE%E4%B8%AD/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2650p.jpg&#34; alt=&#34;_IGP2650p.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;全然片付いていないけど。。。&lt;/p&gt;&#xA;&lt;p&gt;部屋の中。&lt;/p&gt;&#xA;&lt;p&gt;新しいモノから順に&lt;/p&gt;&#xA;&lt;p&gt;SONY WALKMAN NW-S738F&lt;/p&gt;&#xA;&lt;p&gt;Panasonic TH-37LZ85&lt;/p&gt;&#xA;&lt;p&gt;Panasonic DMR-BW850&lt;/p&gt;&#xA;&lt;p&gt;Self Buildup PC&lt;/p&gt;&#xA;&lt;p&gt;DENON AVC-4320&lt;/p&gt;&#xA;&lt;p&gt;Tannoy Mercury mXC-m&lt;/p&gt;&#xA;&lt;p&gt;B&amp;amp;W 705&lt;/p&gt;&#xA;&lt;p&gt;Marantz SA8260&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bモード・ステレオ</title>
-      <link>http://localhost:1313/posts/2009-06-13-b%E3%83%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%86%E3%83%AC%E3%82%AA/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-13-b%E3%83%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%86%E3%83%AC%E3%82%AA/</link>
       <pubDate>Sat, 13 Jun 2009 21:24:38 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-13-b%E3%83%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%86%E3%83%AC%E3%82%AA/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-13-b%E3%83%A2%E3%83%BC%E3%83%89%E3%82%B9%E3%83%86%E3%83%AC%E3%82%AA/</guid>
       <description>&lt;p&gt;NHK HiVision の番組情報を見ていると、「Bモード・ステレオ」って出ているモノが結構あります。&lt;/p&gt;&#xA;&lt;p&gt;アナログBSで使われていた音声品質の規格で、AモードとBモードがありますが、BS/CS広域デジタルでの品質もBSアナログと同様であると技術仕様書にあります。&lt;/p&gt;&#xA;&lt;p&gt;つまり、Bモードス・テレオは「サンプリング周波数48kHz、サンプリングビット16bit」であるということです。&lt;/p&gt;&#xA;&lt;p&gt;またBS/CS広域デジタルでは、音声圧縮方式としてAAC(2ch/ビットレート192kbps～256kbps)が規定されています。&lt;/p&gt;&#xA;&lt;p&gt;仕様書の中では192kbps(2ch)以上のビットレートを確保すれば、ほぼ原音との区別がつかないとあります。&lt;/p&gt;&#xA;&lt;p&gt;で、Bモード・ステレオと出ていない通常の番組は、Aモードということになります。&lt;/p&gt;&#xA;&lt;p&gt;アナログBSでは、Aモードは「32kHz、16bit」となっていました。&lt;/p&gt;&#xA;&lt;p&gt;デジタルでも同じです。ただしビットレートはITU-Rで規定の144kbps(2ch)以上が規定されています。&lt;/p&gt;&#xA;&lt;p&gt;BS/CS広域デジタルでは、この二つのモードでしか運用されません。&lt;/p&gt;&#xA;&lt;p&gt;「モラル、ステレオ、マルチチャンネル」も規定されています。&lt;/p&gt;&#xA;&lt;p&gt;地上デジタルは、Bモード = モード1、Aモード = モード2、これ以外の限定的な品質 = モード3となっています。&lt;/p&gt;&#xA;&lt;p&gt;地上デジタルで通常使われているのはモード2、ただし表示される必要があるのは、モード3だけのようなので、視聴者はモード1なのかモード2なのかは分かりません。&lt;/p&gt;&#xA;&lt;p&gt;で、Bモード・ステレオというのが付いている番組はDAT並のサンプリングレートで、不可逆圧縮された音声だということです。&lt;/p&gt;&#xA;&lt;p&gt;普通の人にはAACはかなり高音質です&lt;/p&gt;&#xA;&lt;p&gt;でも私は、同じソースから作成されたAAC圧縮音声とL-PCM音声の違いが分かるので、ちょっと残念ではあります。&lt;/p&gt;&#xA;&lt;p&gt;デジタル放送は将来的に音声コーデックが見直される可能性があります。&lt;/p&gt;&#xA;&lt;p&gt;可逆圧縮が可能なコーデックも数多く登場してきているので、そのうち採用されるのではないでしょうか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>bing - Microsoft Search Engine</title>
-      <link>http://localhost:1313/posts/2009-06-12-bing---microsoft-se/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-12-bing---microsoft-se/</link>
       <pubDate>Fri, 12 Jun 2009 11:29:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-12-bing---microsoft-se/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-12-bing---microsoft-se/</guid>
       <description>&lt;p&gt;ようやく bing にこのサイトが掲載されました。&lt;/p&gt;&#xA;&lt;p&gt;クローラーが毎日検索していたことを考えると、サイトの存在性のチェック、更新頻度のチェック、外部リンクのチェックなどを行い、期間と基準を満たしたときに掲載されるのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;サイト登録をしてからちょうど1週間で掲載です。&lt;/p&gt;&#xA;&lt;p&gt;robots.txt&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User-agent: *&#xD;&#xA;&#xD;&#xA;SiteMap: http://your_site_URL/sitemap.xml&#xD;&#xA;&#xD;&#xA;Disallow:&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;sitemap.xml (UTF-8)&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;urlset&#xD;&#xA;&#xD;&#xA;      xmlns=&amp;#34;http://www.sitemaps.org/schemas/sitemap/0.9&amp;#34;&#xD;&#xA;&#xD;&#xA;      xmlns:xsi=&amp;#34;http://www.w3.org/2001/XMLSchema-instance&amp;#34;&#xD;&#xA;&#xD;&#xA;      xsi:schemaLocation=&amp;#34;http://www.sitemaps.org/schemas/sitemap/0.9&#xD;&#xA;&#xD;&#xA;            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&amp;#34;&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;!-- created with Free Online Sitemap Generator www.xml-sitemaps.com --&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;url&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;  &amp;amp;lt;loc&amp;amp;gt;http://your_site_URL/&amp;amp;lt;/loc&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;  &amp;amp;lt;priority&amp;amp;gt;1.00&amp;amp;lt;/priority&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;  &amp;amp;lt;lastmod&amp;amp;gt;2009-06-05T00:51:04+00:00&amp;amp;lt;/lastmod&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;  &amp;amp;lt;changefreq&amp;amp;gt;hourly&amp;amp;lt;/changefreq&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;/url&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;url&amp;amp;gt;&#xD;&#xA;&#xD;&#xA; :&#xD;&#xA;&#xD;&#xA; :&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;/url&amp;amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;amp;lt;/urlset&amp;amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;設置した robots.txt と sitemap.xml のサンプルです。&lt;/p&gt;&#xA;&lt;p&gt;登録した後は我慢して待つのみ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>色管理</title>
-      <link>http://localhost:1313/posts/2009-06-12-%E8%89%B2%E7%AE%A1%E7%90%86/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-12-%E8%89%B2%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 12 Jun 2009 10:01:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-12-%E8%89%B2%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-12-%E8%89%B2%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;今、非常に興味のあることは、x.v.Colorという動画色管理の規格とWindows VISTAの対応ですか。&lt;/p&gt;&#xA;&lt;p&gt;色に対してはかなり意識しているのですが、いかんせん知識不足と資金不足で対応し切れていないのが実情。&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;sRGB&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;もはや役に立たない。色管理されていないアプリはとりあえずこの色空間で表示される。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Adobe RGB&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;デジカメのおかげで現在の標準。一部対応しているディスプレイがあるものの、規格化されておらず非常に判りづらい。画像処理アプリ以外で対応はほとんどない。VISTAではICCプロファイルが埋め込まれているものは付属のPictureViewerなどで正しい色で表示される。（ほとんどのデジカメ画像はAdobe RGBのICCプロファイルが埋め込まれていないので正しく表示されない。）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;wsRGB&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VISTAから採用されたWCSと同じくして登場したsRGBを拡張した色空間。アプリもハードも対応したものがない。技術的な資料がほとんど存在しない。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Windows環境での主な色空間ですが、これらを意識せずとも正しく表示される環境が欲しいです。&lt;/p&gt;&#xA;&lt;p&gt;ちなみに私が撮影した写真はAdobeRGBですが、最近では公開時にsRGBに変換しています。&lt;/p&gt;&#xA;&lt;p&gt;一部AdobeRGBのままのものがあります。&lt;/p&gt;&#xA;&lt;p&gt;正しく表示させるためには、google Chrome か FireFox、Safari が必要です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>サイト移設から1ヶ月</title>
-      <link>http://localhost:1313/posts/2009-06-12-%E3%82%B5%E3%82%A4%E3%83%88%E7%A7%BB%E8%A8%AD%E3%81%8B%E3%82%891%E3%83%B6%E6%9C%88/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-12-%E3%82%B5%E3%82%A4%E3%83%88%E7%A7%BB%E8%A8%AD%E3%81%8B%E3%82%891%E3%83%B6%E6%9C%88/</link>
       <pubDate>Fri, 12 Jun 2009 08:52:04 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-12-%E3%82%B5%E3%82%A4%E3%83%88%E7%A7%BB%E8%A8%AD%E3%81%8B%E3%82%891%E3%83%B6%E6%9C%88/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-12-%E3%82%B5%E3%82%A4%E3%83%88%E7%A7%BB%E8%A8%AD%E3%81%8B%E3%82%891%E3%83%B6%E6%9C%88/</guid>
       <description>&lt;p&gt;ご来訪、誠にありがとうございます。&lt;/p&gt;&#xA;&lt;p&gt;この1ヶ月で306セッション、564ページビュー、228名の方が訪問。&lt;/p&gt;&#xA;&lt;p&gt;ということは1日で約7人の方がこのサイトを見にこられているということになりますか。&lt;/p&gt;&#xA;&lt;p&gt;エントリー数は65、どうでもいいネタばかりです。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ね、眠い</title>
-      <link>http://localhost:1313/posts/2009-06-12-%E3%81%AD%E7%9C%A0%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-12-%E3%81%AD%E7%9C%A0%E3%81%84/</link>
       <pubDate>Fri, 12 Jun 2009 01:32:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-12-%E3%81%AD%E7%9C%A0%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-12-%E3%81%AD%E7%9C%A0%E3%81%84/</guid>
       <description>&lt;p&gt;ついつい夜更かしを。&lt;/p&gt;&#xA;&lt;p&gt;闘牌伝説アカギを12:00からANIMAXで放映しているんですが、ついつい見てしまいます。&lt;/p&gt;&#xA;&lt;p&gt;それまでは録り貯めていた番組を見たり、ブログのネタを考えたり、写真を整理したり。&lt;/p&gt;&#xA;&lt;p&gt;もう一昨日になりますが、Photoshop上で、チャンネルミキサーでRGBからYCrCbの色変換してレタッチする方法を紹介している記事を見つけて、チャレンジしてみました。&lt;/p&gt;&#xA;&lt;p&gt;非常に微妙で自然な調整が可能でその有効性を十分に感じました。&lt;/p&gt;&#xA;&lt;p&gt;が、Photoshopのインターフェイスは、RGBとかCMYKとかLYbには対応していますが、YCrCbには対応していないため、直感的ではなく、探り探り調整していくことになり、結構難しいです。&lt;/p&gt;&#xA;&lt;p&gt;そもそもそれに行き着いたのは、x.v.Colorでのカラーマネジメント方法を調べていたからです。&lt;/p&gt;&#xA;&lt;p&gt;全く持って情報が少ないことだけ、よく分かりました。&lt;/p&gt;&#xA;&lt;p&gt;眠いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>最新のAVアンプやSACDプレーヤーの話</title>
-      <link>http://localhost:1313/posts/2009-06-11-%E6%9C%80%E6%96%B0%E3%81%AEav%E3%82%A2%E3%83%B3%E3%83%97%E3%82%84sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%AE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-11-%E6%9C%80%E6%96%B0%E3%81%AEav%E3%82%A2%E3%83%B3%E3%83%97%E3%82%84sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%AE/</link>
       <pubDate>Thu, 11 Jun 2009 13:59:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-11-%E6%9C%80%E6%96%B0%E3%81%AEav%E3%82%A2%E3%83%B3%E3%83%97%E3%82%84sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%AE/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-11-%E6%9C%80%E6%96%B0%E3%81%AEav%E3%82%A2%E3%83%B3%E3%83%97%E3%82%84sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%AE/</guid>
       <description>&lt;p&gt;はあ、DENONからまた新しいAVアンプが発売されますね。&lt;/p&gt;&#xA;&lt;p&gt;「&lt;a href=&#34;http://denon.jp/company/release/avc4310.jpg&#34;&gt;AVC-4310&lt;/a&gt;」。&lt;/p&gt;&#xA;&lt;p&gt;私が持っているのは「&lt;a href=&#34;http://denon.jp/products2/avc4320.jpg&#34;&gt;AVC-4320&lt;/a&gt;」で、一見 AVC-4310 は後継機のように思えます。&lt;/p&gt;&#xA;&lt;p&gt;AVC-4320 は、すでに3年半前のモデルですので製品ランクは同じ位置づけですが、中身はまたく別ものです。&lt;/p&gt;&#xA;&lt;p&gt;DENON Link 4th、ジッタレスデジタル伝送が大きな売りで、最新の音声デコーダー、&lt;a href=&#34;http://denon.jp/products2/avc3808a.jpg&#34;&gt;AVC-3808&lt;/a&gt;などの最新の映像回路、AVC-4320同様のネットワークオーディオ機能を搭載してきたようです。&lt;/p&gt;&#xA;&lt;p&gt;しかし価格はAVC-3808より1万円高いだけで、非常にお買い得な気がします。&lt;/p&gt;&#xA;&lt;p&gt;AVC-3808が発売された頃は、電気部品、金属資材の高騰で製造原価が跳ね上がりましたが、ここのところの資材の低価格化とあいまって、安く提供できるようになったのではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt;私の場合、BDレコーダーを買ったものの、BDコンテンツを持っていないので、Dolby TrueHDなどの音声デコードを使ったことがありません。&lt;/p&gt;&#xA;&lt;p&gt;DENON Link 4thやジッタレスHDMI伝送などの対応機器も持っていないため、AVC-4310に飛びつけませんね。&lt;/p&gt;&#xA;&lt;p&gt;私の持っているAVC-4320にはDENON Link 3rdが搭載されています。&lt;/p&gt;&#xA;&lt;p&gt;DENON Link3rdに対応したSACDプレーヤー「&lt;a href=&#34;http://denon.jp/products2/dcdsx.jpg&#34;&gt;DSD-SX&lt;/a&gt;」が気になるのの80万円を超える価格は手の出しようもありません。&lt;/p&gt;&#xA;&lt;p&gt;現在はマルチチャンネルSACDプレーヤー Marantz &lt;a href=&#34;http://www.marantz.jp/ce/products/past_products/audio/sa8260/index.jpg&#34;&gt;SA8260&lt;/a&gt;を使っています。&lt;/p&gt;&#xA;&lt;p&gt;この機種以降、MarantzからマルチチャンネルSACDプレーヤーは出ていません。&lt;/p&gt;&#xA;&lt;p&gt;世の中からマルチチャンネルSACDプレーヤーが消えつつあるのが非常に残念です。&lt;/p&gt;&#xA;&lt;p&gt;現在ではマルチチャンネル出力できるSACDプレーヤーはPioneer &lt;a href=&#34;http://pioneer.jp/dvdld/player/dv_800av/index.jpg&#34;&gt;DV-800AV&lt;/a&gt;ぐらいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;AVC-4320の7.1chのアナログ入力がかなりの高音質ですから、デジタル伝送に必要を感じるわけではないのですが、SA8260が2003年の製品だけに故障したときに代替できる機種がないというのが痛いですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>bing - Microsoft Search Engine</title>
-      <link>http://localhost:1313/posts/2009-06-11-bing---microsoft-se/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-11-bing---microsoft-se/</link>
       <pubDate>Thu, 11 Jun 2009 08:19:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-11-bing---microsoft-se/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-11-bing---microsoft-se/</guid>
       <description>&lt;p&gt;いまだにbing（日本語）にインデックスされていません。&lt;/p&gt;&#xA;&lt;p&gt;WebMaterToolにもクローリングされているとは、乗ってきていません。&lt;/p&gt;&#xA;&lt;p&gt;クローラーは.robots.txtを読んでいますが、sitemap.xmlを読んではいないようです。&lt;/p&gt;&#xA;&lt;p&gt;bingのヘルプにあるようにrobots.txtもsitemap.xmlも書いています。&lt;/p&gt;&#xA;&lt;p&gt;googlebotやyahooクローラーでは問題なく読めています。&lt;/p&gt;&#xA;&lt;p&gt;どんなバリデートツールを使っても問題ない状態なので、bingの基準にそぐわないか、DBの更新が遅いのか。&lt;/p&gt;&#xA;&lt;p&gt;意味のないリンクや隠しリンクも仕込んでないし技術要件はクリア、更新頻度も日次なので問題なし。&lt;/p&gt;&#xA;&lt;p&gt;いったい何が問題なのか。&lt;/p&gt;&#xA;&lt;p&gt;ただしbing（英語）には、ランクが低いですがこのサイトがインデックスされました。&lt;/p&gt;&#xA;&lt;p&gt;bingの各種サービスの展開の遅さからすると日本向け対応が遅れているような気がします。&lt;/p&gt;&#xA;&lt;p&gt;msn日本法人が主体ならしょうがないか。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>かなり普通の状態に近くなった</title>
-      <link>http://localhost:1313/posts/2009-06-09-%E3%81%8B%E3%81%AA%E3%82%8A%E6%99%AE%E9%80%9A%E3%81%AE%E7%8A%B6%E6%85%8B%E3%81%AB%E8%BF%91%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-09-%E3%81%8B%E3%81%AA%E3%82%8A%E6%99%AE%E9%80%9A%E3%81%AE%E7%8A%B6%E6%85%8B%E3%81%AB%E8%BF%91%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</link>
       <pubDate>Tue, 09 Jun 2009 23:54:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-09-%E3%81%8B%E3%81%AA%E3%82%8A%E6%99%AE%E9%80%9A%E3%81%AE%E7%8A%B6%E6%85%8B%E3%81%AB%E8%BF%91%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-09-%E3%81%8B%E3%81%AA%E3%82%8A%E6%99%AE%E9%80%9A%E3%81%AE%E7%8A%B6%E6%85%8B%E3%81%AB%E8%BF%91%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;4月は情緒不安定でしたし、5月のはじめには少し反動があって浮き沈みが大きかった。&lt;/p&gt;&#xA;&lt;p&gt;ここのところ仕事が暇になったおかげで、残業せずに済み、体も心も非常に軽いです。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり1日8時間以上働いたらダメです。&lt;/p&gt;&#xA;&lt;p&gt;家に帰って自分の好きなことをやっているといろいろと時間が足りないです。&lt;/p&gt;&#xA;&lt;p&gt;読みたい本、録画した番組、音楽、写真整理などたくさんあって時間が足りない。&lt;/p&gt;&#xA;&lt;p&gt;ここ半年で大きく人生観が変わったよなぁ。&lt;/p&gt;&#xA;&lt;p&gt;やりたいことをのんびりやって、そうして幸せを感じて元気でいきましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>bing - Search Engine</title>
-      <link>http://localhost:1313/posts/2009-06-09-bing---search-engin/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-09-bing---search-engin/</link>
       <pubDate>Tue, 09 Jun 2009 10:28:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-09-bing---search-engin/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-09-bing---search-engin/</guid>
       <description>&lt;p&gt;bingのサイト登録をして4日。&lt;/p&gt;&#xA;&lt;p&gt;まだbingの検索結果にこのサイトが表示されません。&lt;/p&gt;&#xA;&lt;p&gt;bingのWebMaster掲示板によると1週間から2週間待てと出ています。&lt;/p&gt;&#xA;&lt;p&gt;MSNbotがクローリングしているのはログから確認できているのですが、robots.txtとsitemap.xmlを読んで、ページをクローリングしていません。&lt;/p&gt;&#xA;&lt;p&gt;ルートのindex.htmlを読んでもないので、ページの中へクローリングできないのではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt;普通やらないとは思いますが、sitemap.xmlの中のurlにindex.htmlを付け加えました。&lt;/p&gt;&#xA;&lt;p&gt;これでどのように動きが変わるか観察してみようと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>World Rock Live - Celine Dion - NHK BSHi</title>
-      <link>http://localhost:1313/posts/2009-06-08-world-rock-live---c/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-08-world-rock-live---c/</link>
       <pubDate>Mon, 08 Jun 2009 23:22:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-08-world-rock-live---c/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-08-world-rock-live---c/</guid>
       <description>&lt;p&gt;今週はNHK HiVisionで20周年特番で、連夜でコンサートを放映してます。&lt;/p&gt;&#xA;&lt;p&gt;昨日はCeline Dionでした。&lt;/p&gt;&#xA;&lt;p&gt;すごいですね。&lt;/p&gt;&#xA;&lt;p&gt;あまり曲を知らなかったのですが、コンサートを見たら彼女のすごさにびっくりしました。&lt;/p&gt;&#xA;&lt;p&gt;声量、音域、声色、肺活量ともすごい。&lt;/p&gt;&#xA;&lt;p&gt;これほどすごい人だとは知りませんでした。&lt;/p&gt;&#xA;&lt;p&gt;またあの年齢であの体型を維持しているのもすごい。&lt;/p&gt;&#xA;&lt;p&gt;またアルバムを買ってみよう。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cherie Dolce</title>
-      <link>http://localhost:1313/posts/2009-06-08-cherie-dolce/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-08-cherie-dolce/</link>
       <pubDate>Mon, 08 Jun 2009 10:22:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-08-cherie-dolce/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-08-cherie-dolce/</guid>
       <description>&lt;p&gt;サークルKサンクスの「&lt;a href=&#34;http://www.circleksunkus.jp/wakuwaku/cherie_dolce/index.jpg&#34;&gt;Cherie Dolce&lt;/a&gt;」、お弁当商品とかは男らしいものが多い中、このブランドにおけるデザートの展開はGoodだと思います。&lt;/p&gt;&#xA;&lt;p&gt;最近のお気に入りは「スイートポテト」。&lt;/p&gt;&#xA;&lt;p&gt;サークルKサンクスのHPには紹介がありません。&lt;/p&gt;&#xA;&lt;p&gt;販売地域が限定されているのかな。&lt;/p&gt;&#xA;&lt;p&gt;製造元は「ポテトシブヤ」。高知県の日高村本郷にある会社です。&lt;/p&gt;&#xA;&lt;p&gt;サツマイモ全般の製品、いもけんぴなどを製造しています。&lt;/p&gt;&#xA;&lt;p&gt;なぜこれがお気に入りか。&lt;/p&gt;&#xA;&lt;p&gt;サツマイモのデザートが根本的に好きだからってのもありますし、保存料とか入ってなくて自然な味だから。&lt;/p&gt;&#xA;&lt;p&gt;スイートポテトならどんぶり一杯食べられるかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project μ M-SPEC R906 2nd</title>
-      <link>http://localhost:1313/posts/2009-06-07-project-%CE%BC-m-spec-r9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-07-project-%CE%BC-m-spec-r9/</link>
       <pubDate>Sun, 07 Jun 2009 22:57:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-07-project-%CE%BC-m-spec-r9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-07-project-%CE%BC-m-spec-r9/</guid>
       <description>&lt;p&gt;リヤのブレーキパッド、よく効きます。&lt;/p&gt;&#xA;&lt;p&gt;ということは交換前は摩耗してほとんど効いてなかったってことか。&lt;/p&gt;&#xA;&lt;p&gt;ストリート仕様で高温耐性があるものではないですが、ここぞと言うときに安心してブレーキが踏める。&lt;/p&gt;&#xA;&lt;p&gt;フロントのパッドの交換時期もまもなくなので、同じメーカーを選んでみようと思う。&lt;/p&gt;&#xA;&lt;p&gt;ローターもだいぶすり減ったので交換時期かな。&lt;/p&gt;&#xA;&lt;p&gt;夏ボは、車につぎ込むことになるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stick Omelette Chocolate - Pasco [敷島製パン]</title>
-      <link>http://localhost:1313/posts/2009-06-07-stick-omelette-choc/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-07-stick-omelette-choc/</link>
       <pubDate>Sun, 07 Jun 2009 20:34:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-07-stick-omelette-choc/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-07-stick-omelette-choc/</guid>
       <description>&lt;p&gt;写真を撮っていなかった。&lt;/p&gt;&#xA;&lt;p&gt;Pascoブランドのお気に入りの商品は非常に多いです。&lt;/p&gt;&#xA;&lt;p&gt;なんていってもおいしいから。&lt;/p&gt;&#xA;&lt;p&gt;今日は、晩ご飯の後に　スティックオムレット チョコ を食べました。&lt;/p&gt;&#xA;&lt;p&gt;ちびちび食べるつもりがおいしくて止まらず、あっと言うまに食べてしまった。。。&lt;/p&gt;&#xA;&lt;p&gt;オムレットの生地にチョコを練り込んでいるのですが、それが良い香りをだしておいしい。&lt;/p&gt;&#xA;&lt;p&gt;これはきっと&lt;a href=&#34;http://www.pasconet.co.jp/system/bread/index.cgi?action=series_view&amp;amp;key=1183437713&#34;&gt;もちっとロール&lt;/a&gt;が好きなチャールズ・モンローさんも気に入るはず。&lt;/p&gt;&#xA;&lt;p&gt;PascoのHPには紹介がなかったので地域限定かもしれませんが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>薔薇</title>
-      <link>http://localhost:1313/posts/2009-06-06-%E8%96%94%E8%96%87/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-06-%E8%96%94%E8%96%87/</link>
       <pubDate>Sat, 06 Jun 2009 18:03:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-06-%E8%96%94%E8%96%87/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/IMGP0014_2ps.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/IMGP0014_2ps.jpg&#34; alt=&#34;IMGP0014_2ps.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-06-%E8%96%94%E8%96%87/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014_2ps.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014_2ps.jpg&#34; alt=&#34;IMGP0014_2ps.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>SUBARU IMPREZA WRX STI [GH-GDBF]</title>
-      <link>http://localhost:1313/posts/2009-06-06-subaru-impreza-wrx/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-06-subaru-impreza-wrx/</link>
       <pubDate>Sat, 06 Jun 2009 17:51:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-06-subaru-impreza-wrx/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2621m.jpg&#34; alt=&#34;_IGP2621m.jpg&#34;&gt;&#xA;私の車。&lt;/p&gt;&#xA;&lt;p&gt;埃まみれ、洗わなきゃ。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-06-subaru-impreza-wrx/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2621m.jpg&#34; alt=&#34;_IGP2621m.jpg&#34;&gt;&#xA;私の車。&lt;/p&gt;&#xA;&lt;p&gt;埃まみれ、洗わなきゃ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>名前のわからない花</title>
-      <link>http://localhost:1313/posts/2009-06-06-%E5%90%8D%E5%89%8D%E3%81%AE%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E8%8A%B1/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-06-%E5%90%8D%E5%89%8D%E3%81%AE%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E8%8A%B1/</link>
       <pubDate>Sat, 06 Jun 2009 17:49:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-06-%E5%90%8D%E5%89%8D%E3%81%AE%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E8%8A%B1/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2618p.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2618p.jpg&#34; alt=&#34;_IGP2618p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-06-%E5%90%8D%E5%89%8D%E3%81%AE%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E8%8A%B1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2618p.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2618p.jpg&#34; alt=&#34;_IGP2618p.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>時間を持て余して</title>
-      <link>http://localhost:1313/posts/2009-06-05-%E6%99%82%E9%96%93%E3%82%92%E6%8C%81%E3%81%A6%E4%BD%99%E3%81%97%E3%81%A6/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-05-%E6%99%82%E9%96%93%E3%82%92%E6%8C%81%E3%81%A6%E4%BD%99%E3%81%97%E3%81%A6/</link>
       <pubDate>Fri, 05 Jun 2009 23:46:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-05-%E6%99%82%E9%96%93%E3%82%92%E6%8C%81%E3%81%A6%E4%BD%99%E3%81%97%E3%81%A6/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-05-%E6%99%82%E9%96%93%E3%82%92%E6%8C%81%E3%81%A6%E4%BD%99%E3%81%97%E3%81%A6/</guid>
       <description>&lt;p&gt;時間を持て余して、薄汚れた世の中のNEWSを読んだら心が痛くなる。&lt;/p&gt;&#xA;&lt;p&gt;暴力だけでなく言葉も人を殺す。&lt;/p&gt;&#xA;&lt;p&gt;字面も内容も狂気を生む。&lt;/p&gt;&#xA;&lt;p&gt;人が人を殺す。&lt;/p&gt;&#xA;&lt;p&gt;人が心を痛めるのは人と掛かり合うから。&lt;/p&gt;&#xA;&lt;p&gt;優しい世界だけを見ているのは現実逃避かも知れない。&lt;/p&gt;&#xA;&lt;p&gt;でも優しい世界を作るための努力をしなくてはいけない。&lt;/p&gt;&#xA;&lt;p&gt;すべては難しい。&lt;/p&gt;&#xA;&lt;p&gt;まずは自分から、そして近くの人に。&lt;/p&gt;</description>
     </item>
     <item>
       <title>そういや自作PCを載せてなかった。</title>
-      <link>http://localhost:1313/posts/2009-06-05-%E3%81%9D%E3%81%86%E3%81%84%E3%82%84%E8%87%AA%E4%BD%9Cpc%E3%82%92%E8%BC%89%E3%81%9B%E3%81%A6%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-05-%E3%81%9D%E3%81%86%E3%81%84%E3%82%84%E8%87%AA%E4%BD%9Cpc%E3%82%92%E8%BC%89%E3%81%9B%E3%81%A6%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</link>
       <pubDate>Fri, 05 Jun 2009 13:16:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-05-%E3%81%9D%E3%81%86%E3%81%84%E3%82%84%E8%87%AA%E4%BD%9Cpc%E3%82%92%E8%BC%89%E3%81%9B%E3%81%A6%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-05-%E3%81%9D%E3%81%86%E3%81%84%E3%82%84%E8%87%AA%E4%BD%9Cpc%E3%82%92%E8%BC%89%E3%81%9B%E3%81%A6%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;自作PCの話。&lt;/p&gt;&#xA;&lt;p&gt;Windows VISTA Ultimate x64 を使いたいがために、動作が不安定だった環境を放棄したのが去年の11月ぐらいだったから、新しい自作PCにして半年ほどたったことになる。&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Device&lt;/th&gt;&#xA;          &lt;th&gt;Product Name&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU&lt;/td&gt;&#xA;          &lt;td&gt;AMD Phenom™ X4 9550&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Main Board&lt;/td&gt;&#xA;          &lt;td&gt;ASUS M3A32-MVP Deluxe/WiFi-AP&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;CORSAIR TWIN2X2048-6400C5DHX *2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Video Card&lt;/td&gt;&#xA;          &lt;td&gt;ASUS EN8600GT SILENT/HTDP/512M&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Sound Card&lt;/td&gt;&#xA;          &lt;td&gt;ONKYO SC-90PCI&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;HDD&lt;/td&gt;&#xA;          &lt;td&gt;Seagate(MAXTOR) STM3500418AS (500GB/SATA2) *2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Optical Drives&lt;/td&gt;&#xA;          &lt;td&gt;Matsuhita DVD-RAM/R / NEC DVD+-R/RW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Monitor&lt;/td&gt;&#xA;          &lt;td&gt;Panasonic TH-37LZ85 (1920*1080 FullHD)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Any More&lt;/td&gt;&#xA;          &lt;td&gt;I-O DATA USB HDD(1TB) / EPSON PX-G5100 / USB-Memory 4GB (for ReadyBoost)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;というようなスペック。&lt;/p&gt;&#xA;&lt;p&gt;今のところまったくトラブルもなく、前回の環境よりOSの再インストールもなく移行したので話題がなかったんですけど。&lt;/p&gt;&#xA;&lt;p&gt;そろそろBDドライブ(SATA)を買ってきて、BDレコーダーで録画したものを見られるようにしようかな。&lt;/p&gt;&#xA;&lt;p&gt;BDビデオは、DIGAやPS3で見られるので問題はないけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bing - The New Search Engine by Microsoft</title>
-      <link>http://localhost:1313/posts/2009-06-05-bing---the-new-sear/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-05-bing---the-new-sear/</link>
       <pubDate>Fri, 05 Jun 2009 09:55:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-05-bing---the-new-sear/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-05-bing---the-new-sear/</guid>
       <description>&lt;p&gt;マイクロソフトの新しい検索エンジン「Bing」の日本語版βが公開されています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.bing.com/&#34;&gt;http://www.bing.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;トップ画面の背景が毎日変わるのと検索結果の画面が整理されて見やすいのが今のところの売りです。&lt;/p&gt;&#xA;&lt;p&gt;本当の売りは、検索結果の最適化だそうですが、登録数が少ないこと、存在しているはずの必要な情報に行き着かないこと、などまだ最適化には程遠いのではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt;自分のサイトのURL登録をしても正しくクローラーに検出してもらえない状況です。&lt;/p&gt;&#xA;&lt;p&gt;入り口のページに書いてある情報量やリンク数が少ないこと、robots.txt、sitemap.xmlを細かく書いていないことが原因かもしれません。&lt;/p&gt;&#xA;&lt;p&gt;robots.txt、sitemap.xmlについては、正しく書きました。&lt;/p&gt;&#xA;&lt;p&gt;Bingのヘルプに書かれているとおりなら、これで正しく登録されるはずなんですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project μ M-SPEC R906</title>
-      <link>http://localhost:1313/posts/2009-06-04-project-%CE%BC-m-spec-r9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-04-project-%CE%BC-m-spec-r9/</link>
       <pubDate>Thu, 04 Jun 2009 22:20:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-04-project-%CE%BC-m-spec-r9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-04-project-%CE%BC-m-spec-r9/</guid>
       <description>&lt;p&gt;SUBARU IMPREZA WRX STI のリヤのブレーキパッドが、減ったので交換した。&lt;/p&gt;&#xA;&lt;p&gt;父親が何も聞かずに、&lt;a href=&#34;http://www.project-mu.co.jp/ja/index.jpg&#34;&gt;Project μ&lt;/a&gt; M-SPEC R906 を発注していた。&lt;/p&gt;&#xA;&lt;p&gt;たぶん、自動車部品卸の社員で同じくSTIに乗っている人に勧められたんだと思う。&lt;/p&gt;&#xA;&lt;p&gt;M-SPECはこの4月に新発売されたストリート向けのパッドです。&lt;/p&gt;&#xA;&lt;p&gt;制動性能は、HPでは純正パッドより優れているとでている。&lt;/p&gt;&#xA;&lt;p&gt;ダストも少なくなるような工夫がされている。&lt;/p&gt;&#xA;&lt;p&gt;何も相談されずに発注されたので、少しいじけてたけど、今日になって調べてみて、すこし期待している。&lt;/p&gt;&#xA;&lt;p&gt;ただ、リヤだけなのでわかりにくいとは思う。&lt;/p&gt;&#xA;&lt;p&gt;「ならし」が終わったらリヤ制動を試してみて、良好ならフロントも換えてみようと思う。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MONTHLY GALLERY</title>
-      <link>http://localhost:1313/posts/2009-06-04-monthly-gallery/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-04-monthly-gallery/</link>
       <pubDate>Thu, 04 Jun 2009 18:57:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-04-monthly-gallery/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-04-monthly-gallery/</guid>
       <description>&lt;p&gt;Movable Type の標準テンプレートでは、過去記事にアクセスしづらいので、ギャラリーだけメニューからリンクしました。&lt;/p&gt;&#xA;&lt;p&gt;右のメニューバーの「MONTHLY GALLERY」よりご覧ください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheeza</title>
-      <link>http://localhost:1313/posts/2009-06-04-cheeza/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-04-cheeza/</link>
       <pubDate>Thu, 04 Jun 2009 16:39:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-04-cheeza/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-04-cheeza/</guid>
       <description>&lt;p&gt;今日は、Cheeza [チーザ] カマンベールチーズ です。&lt;/p&gt;&#xA;&lt;p&gt;前のチェダーチーズとは違ってマイルドです。&lt;/p&gt;&#xA;&lt;p&gt;が、カロリーは同じ。&lt;/p&gt;&#xA;&lt;p&gt;しっかりとカマンベールチーズの味です。&lt;/p&gt;&#xA;&lt;p&gt;パッケージのイメージ写真にグラスビールが写っています。&lt;/p&gt;&#xA;&lt;p&gt;飲みたくなります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>I started learning &#39;XML DB&#39; &amp; &#39;One source, Multi use&#39;.</title>
-      <link>http://localhost:1313/posts/2009-06-04-i-started-learning/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-04-i-started-learning/</link>
       <pubDate>Thu, 04 Jun 2009 10:22:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-04-i-started-learning/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-04-i-started-learning/</guid>
       <description>&lt;p&gt;仕事の話。&lt;/p&gt;&#xA;&lt;p&gt;I started learning &amp;ldquo;XML DB&amp;rdquo; &amp;amp; &amp;ldquo;One source, Multi use&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;まさに過酷な勉強です。&lt;/p&gt;&#xA;&lt;p&gt;XML DBがはやり始めた頃に勉強しておけばよかったかな。&lt;/p&gt;&#xA;&lt;p&gt;基礎的な概念はわかるのですが、最適な技術、製品を見つけ出して、カスタマイズをしていくにはまったく技術も知識も足りない。&lt;/p&gt;&#xA;&lt;p&gt;でもRDBの二次元格納には面白みを感じてはいなかったのですが、NXDB(Native XML Data Base)の階層化されない多次元構造での格納は非常に興味があります。&lt;/p&gt;&#xA;&lt;p&gt;そんな数学的な話ではなく、現実ではXMLへのデータ変換、XMLから多種のメディアにそれぞれのメディアにあった変換出力を、いかにスムースに行うか、それが今の研究内容です。&lt;/p&gt;&#xA;&lt;p&gt;少なくとも3年前には確実なソリューションはなかったですが、それでもさまざまな企業が模索しながらも何かしらの形を作っていました。&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;One source, Multi use&amp;quot;は、XMLとXSLTで、Web向け、出版向けのコンテンツをStutic または Dynamic に出力していくのですが、問題はこの2分野から外れるものを如何につくるかということです。&lt;/p&gt;&#xA;&lt;p&gt;各ターゲットのファイルフォーマットをしらべ、それに適したレンダラーの開発とXSLTの開発が必要になります。&lt;/p&gt;&#xA;&lt;p&gt;レンダラーがすでに存在している場合は比較的簡単に開発できます。&lt;/p&gt;&#xA;&lt;p&gt;まあ、今はそれら全体、全部を把握する作業ですかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gokuri Grapefruit by SUNTORY</title>
-      <link>http://localhost:1313/posts/2009-06-03-gokuri-grapefruit-b/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-03-gokuri-grapefruit-b/</link>
       <pubDate>Wed, 03 Jun 2009 21:39:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-03-gokuri-grapefruit-b/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2603p.jpg&#34; alt=&#34;_IGP2603p.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;何が好きかって、この甘酸っぱさで、爽やかな味。&lt;/p&gt;&#xA;&lt;p&gt;果肉がいい感じ。&lt;/p&gt;&#xA;&lt;p&gt;見かけると何本か買い置きをします。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-03-gokuri-grapefruit-b/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2603p.jpg&#34; alt=&#34;_IGP2603p.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;何が好きかって、この甘酸っぱさで、爽やかな味。&lt;/p&gt;&#xA;&lt;p&gt;果肉がいい感じ。&lt;/p&gt;&#xA;&lt;p&gt;見かけると何本か買い置きをします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>6月カレンダー第2弾</title>
-      <link>http://localhost:1313/posts/2009-06-03-6%E6%9C%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E7%AC%AC2%E5%BC%BE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-03-6%E6%9C%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E7%AC%AC2%E5%BC%BE/</link>
       <pubDate>Wed, 03 Jun 2009 14:03:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-03-6%E6%9C%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E7%AC%AC2%E5%BC%BE/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/IMGP0014w.jpg&#34; alt=&#34;IMGP0014w.jpg&#34;&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/IMGP0014_1280_1024.lzh&#34;&gt;1280*1024&lt;/a&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/IMGP0014_1920_1080.lzh&#34;&gt;1920*1080&lt;/a&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/IMGP0014_1920_1200.lzh&#34;&gt;1920*1200&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;6月カレンダー第2弾。&lt;/p&gt;&#xA;&lt;p&gt;エレガントな大人のためのカレンダー壁紙です。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-03-6%E6%9C%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E7%AC%AC2%E5%BC%BE/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014w.jpg&#34; alt=&#34;IMGP0014w.jpg&#34;&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014_1280_1024.lzh&#34;&gt;1280*1024&lt;/a&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014_1920_1080.lzh&#34;&gt;1920*1080&lt;/a&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/IMGP0014_1920_1200.lzh&#34;&gt;1920*1200&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;6月カレンダー第2弾。&lt;/p&gt;&#xA;&lt;p&gt;エレガントな大人のためのカレンダー壁紙です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>携帯電話11年目</title>
-      <link>http://localhost:1313/posts/2009-06-02-%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B111%E5%B9%B4%E7%9B%AE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-02-%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B111%E5%B9%B4%E7%9B%AE/</link>
       <pubDate>Tue, 02 Jun 2009 23:48:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-02-%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B111%E5%B9%B4%E7%9B%AE/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-02-%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B111%E5%B9%B4%E7%9B%AE/</guid>
       <description>&lt;p&gt;中国セルラーの時代、平成11年5月30日に携帯電話を契約してから、au by KDDI にそのまま移行し、ずっと一つの会社で使い続けています。&lt;/p&gt;&#xA;&lt;p&gt;2年ごとに端末を換えています。&lt;/p&gt;&#xA;&lt;p&gt;三洋→東芝→東京通信工業（ソニー）→樫尾→松下&lt;/p&gt;&#xA;&lt;p&gt;三洋はタッチパネル部分が操作できなくなるという物理限界を迎えてお役目終了。&lt;/p&gt;&#xA;&lt;p&gt;東芝は電源が突然切れるという問題が発生してお役目終了。&lt;/p&gt;&#xA;&lt;p&gt;ソニーは塗装がはげはげで、さらにデザインに飽きてお役目終了。&lt;/p&gt;&#xA;&lt;p&gt;樫尾はもっとも使いやすくタフネス携帯としては最高だったけど、さすがにデザインが古くなったのでお役目終了。&lt;/p&gt;&#xA;&lt;p&gt;松下は現在使用中。でも表面は傷だらけ、塗装ははげはげ。それでもこれに勝るデザインの携帯が少ない。&lt;/p&gt;&#xA;&lt;p&gt;今月あたり最新にしようかと思ってます。京セラのK002のピンクゴールドかな。&lt;/p&gt;&#xA;&lt;p&gt;しかし料金体系がよく分からなくなったのと本体の価格が高い。。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ブレーキパッドの交換時期</title>
-      <link>http://localhost:1313/posts/2009-06-02-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E4%BA%A4%E6%8F%9B%E6%99%82%E6%9C%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-02-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E4%BA%A4%E6%8F%9B%E6%99%82%E6%9C%9F/</link>
       <pubDate>Tue, 02 Jun 2009 15:29:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-02-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E4%BA%A4%E6%8F%9B%E6%99%82%E6%9C%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-02-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E4%BA%A4%E6%8F%9B%E6%99%82%E6%9C%9F/</guid>
       <description>&lt;p&gt;チリチリ音がすると思いきや、雨の日にはギーと音がなります。&lt;/p&gt;&#xA;&lt;p&gt;ディーラーに持ち込んでみてもらうと、どうやらリアのブレーキパッドが摩滅しているからだそうです。&lt;/p&gt;&#xA;&lt;p&gt;インプレッサ純正ブレンボのパッドは片側、定価20,000円。&lt;/p&gt;&#xA;&lt;p&gt;普通の車の4倍くらいの値段です。&lt;/p&gt;&#xA;&lt;p&gt;STIのスポーツパッドのほうが安いのですが、まあ、純正で。&lt;/p&gt;&#xA;&lt;p&gt;半年ごとに大きなメンテナンスが発生するのがこの車の宿命か。&lt;/p&gt;&#xA;&lt;p&gt;夏のボーナスでタイヤ交換をしなくては。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cheeza</title>
-      <link>http://localhost:1313/posts/2009-06-02-cheeza/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-02-cheeza/</link>
       <pubDate>Tue, 02 Jun 2009 14:19:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-02-cheeza/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-02-cheeza/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.glico.co.jp/cheeza/top.htm&#34;&gt;グリコ Cheeza [チーザ]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;濃厚なチェダーチーズの味に止まらなくなるスナックです。&lt;/p&gt;&#xA;&lt;p&gt;小さな袋のスナックですが、カロリーは194kcalと大目なので食べすぎには注意。&lt;/p&gt;&#xA;&lt;p&gt;しかし手が止まりません。&lt;/p&gt;&#xA;&lt;p&gt;そうでなくてもチーズが好きなのでやばいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>6月1日</title>
-      <link>http://localhost:1313/posts/2009-06-02-6%E6%9C%881%E6%97%A5/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-02-6%E6%9C%881%E6%97%A5/</link>
       <pubDate>Tue, 02 Jun 2009 08:55:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-02-6%E6%9C%881%E6%97%A5/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-02-6%E6%9C%881%E6%97%A5/</guid>
       <description>&lt;p&gt;6月1日は、「写真の日」、「電波の日」。&lt;/p&gt;&#xA;&lt;p&gt;「写真の日」は、文献に記録されている日本で最初に成功した写真を撮影した日（島津斉彬を撮影したものが最初といわれている）として日本写真協会が定めた日らしいのですが、同協会が歴史調査を行ったところ、島津斉彬を撮影したのは「9月17日」が正しい日付とのこと。&lt;/p&gt;&#xA;&lt;p&gt;でも6月1日が写真の日で、それはそれでいいんじゃないかな。&lt;/p&gt;&#xA;&lt;p&gt;あと電波な日、、、もといい「電波の日」。&lt;/p&gt;&#xA;&lt;p&gt;WikiPediaに詳しく出ているので、まあそれで。&lt;/p&gt;&#xA;&lt;p&gt;電波法もずいぶんと改正されて、民間利用の制限もだいぶゆるくなりました。&lt;/p&gt;&#xA;&lt;p&gt;ひとつ気になっているのは、放送局の区域外再送信に関する問題。&lt;/p&gt;&#xA;&lt;p&gt;ケーブルテレビなどで、他県の放送が再送信されている場合があるのですが、デジタル化に伴い、著作権管理団体等から再送信にかかる放送権料の支払いを厳密に行うような要求が出たため、ケーブルテレビでの他県番組の再送信が難しくなっています。&lt;/p&gt;&#xA;&lt;p&gt;現在、アナログコンバートに関しては再送信が認められていますが、デジタル放送はまだ行われていないようです。&lt;/p&gt;&#xA;&lt;p&gt;良心的な視聴者、ユーザーに制限を強いる方法は好ましくないと思うのですが、著作権管理団体の既得権益を守るには、どうしても不便な方法をとらざるを得ないのようです。&lt;/p&gt;&#xA;&lt;p&gt;ビジネスのあり方も含めて根本的な見直しが必要な分野です。&lt;/p&gt;&#xA;&lt;p&gt;今後、視聴者からこれ以上お金を吸い上げたり、不便になったりしないようにしてほしいのですが。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>6月のカレンダー</title>
-      <link>http://localhost:1313/posts/2009-06-01-6%E6%9C%88%E3%81%AE%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-01-6%E6%9C%88%E3%81%AE%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</link>
       <pubDate>Mon, 01 Jun 2009 20:33:38 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-01-6%E6%9C%88%E3%81%AE%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP2588wall.jpg&#34; alt=&#34;_IGP2588wall.jpg&#34;&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2588w_1280_1024.lzh&#34;&gt;1280*1024&lt;/a&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2588w_1920_1080.lzh&#34;&gt;1920*1080&lt;/a&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP2588w_1920_1200.lzh&#34;&gt;1920*1200&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今月のカレンダーをどうぞ。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-01-6%E6%9C%88%E3%81%AE%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2588wall.jpg&#34; alt=&#34;_IGP2588wall.jpg&#34;&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2588w_1280_1024.lzh&#34;&gt;1280*1024&lt;/a&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2588w_1920_1080.lzh&#34;&gt;1920*1080&lt;/a&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP2588w_1920_1200.lzh&#34;&gt;1920*1200&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今月のカレンダーをどうぞ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>浮んでは消え</title>
-      <link>http://localhost:1313/posts/2009-06-01-%E6%B5%AE%E3%82%93%E3%81%A7%E3%81%AF%E6%B6%88%E3%81%88/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-06-01-%E6%B5%AE%E3%82%93%E3%81%A7%E3%81%AF%E6%B6%88%E3%81%88/</link>
       <pubDate>Mon, 01 Jun 2009 08:53:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-06-01-%E6%B5%AE%E3%82%93%E3%81%A7%E3%81%AF%E6%B6%88%E3%81%88/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-06-01-%E6%B5%AE%E3%82%93%E3%81%A7%E3%81%AF%E6%B6%88%E3%81%88/</guid>
       <description>&lt;p&gt;小説をぼちぼち書いているのですが、全体の骨格が決まらないのに、書き始めの文だけが色々と湧いてきます。&lt;/p&gt;&#xA;&lt;p&gt;超短編小説にでもしてみようかな。&lt;/p&gt;&#xA;&lt;p&gt;歯が浮くような甘ったるい話にチャレンジしてみようかな。&lt;/p&gt;&#xA;&lt;p&gt;まあ、公開はしませんけど。&lt;/p&gt;</description>
     </item>
   </channel>
