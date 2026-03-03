@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017-09 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2017-09/</link>
+    <description>Recent content in 2017-09 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 30 Sep 2017 00:03:42 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2017-09/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写真を保存するために</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-30_%E5%86%99%E7%9C%9F%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB/</link>
+      <pubDate>Sat, 30 Sep 2017 00:03:42 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-30_%E5%86%99%E7%9C%9F%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB/</guid>
+      <description>&lt;p&gt;５００GB近い写真データを安全に保管するために、3TBのHDDを二台用意してミラーリングをすることにしました。&lt;/p&gt;&#xA;&lt;p&gt;Windows 10 なので、ソフトウェア（OSの機能）によるミラーリングの設定をすることにしました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードが対応しているので、ハードウェアによるミラーリングも出来ますが、障害発生時の故障ドライブの確認や復旧が面倒くさいことや、ドライブを他のシステムに移植する場合に認識されないことなどがあるので、ソフトウェアによるミラーを選択しました。&lt;/p&gt;&#xA;&lt;p&gt;ミラーは複数のドライブに同じデータを書き込んで、冗長性を確保するものです。&lt;/p&gt;&#xA;&lt;p&gt;HDDの故障に対するデータの保全性が格段に高くなります。&lt;/p&gt;&#xA;&lt;p&gt;万が一、HDDが故障した場合は、故障したHDDを取り外し、新たなHDDに交換すれば、残っている健全なHDDからデータをコピーして、復旧します。&lt;/p&gt;&#xA;&lt;p&gt;BIOSでホットプラグに設定すれば、PCの電源を落とさなくても、HDDの交換作業が可能になります。&lt;/p&gt;&#xA;&lt;p&gt;サービスを止められないサーバーなどには有効です。&lt;/p&gt;&#xA;&lt;p&gt;今時のサーバーが簡単なミラーリングをしているわけではないですが(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;デジタルカメラになって、データの保全性が一番重要になっているし、クラウドでの保存が望ましいけれど、クラウドで５００GBの容量を購入するのはとても高いので、ローカルで大容量HDDのミラーリングの方がコストが低く現実的です。&lt;/p&gt;&#xA;&lt;p&gt;クラウドのデメリットは、サービス提供者にファイルの中身を監視される事でしょうか。&lt;/p&gt;&#xA;&lt;p&gt;秘匿性や機密性の高いものはクラウドだと非常に危険です。&lt;/p&gt;&#xA;&lt;p&gt;Blu-ray XLドライブを搭載しているので、100GBずつに分割して、金属皮膜のBDに保存すれば、理論的には100年以上保管できるはず。&lt;/p&gt;&#xA;&lt;p&gt;またBD-Rを買ってこよう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>再構築終了</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-29_%E5%86%8D%E6%A7%8B%E7%AF%89%E7%B5%82%E4%BA%86/</link>
+      <pubDate>Fri, 29 Sep 2017 18:48:28 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-29_%E5%86%8D%E6%A7%8B%E7%AF%89%E7%B5%82%E4%BA%86/</guid>
+      <description>&lt;p&gt;PCの再構築作業は終了しました。&lt;/p&gt;&#xA;&lt;p&gt;再構築ついでに、ゴミデータをきれいにしたので、結構快適になったかも。&lt;/p&gt;&#xA;&lt;p&gt;シンプルな構成にしておけば、再構成するのも簡単になるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;こうやって、徐々に開発ツールを削除してしまうんですが。&lt;/p&gt;&#xA;&lt;p&gt;プログラムの作り方とか忘れちゃったよ(￣∇￣)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>再構築中</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-29_%E5%86%8D%E6%A7%8B%E7%AF%89%E4%B8%AD/</link>
+      <pubDate>Fri, 29 Sep 2017 16:46:33 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-29_%E5%86%8D%E6%A7%8B%E7%AF%89%E4%B8%AD/</guid>
+      <description>&lt;p&gt;PCの再構築中ですが、何度もやり直しました。&lt;/p&gt;&#xA;&lt;p&gt;設定が気に入らないとか、バックアップツールがうまく動作しないとか、いろいろあって、もうそろそろ諦めかけています。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずは日ごろの作業に支障ないレベルにまでは再構築します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dragons Dogma Online Launcherが起動できない場合</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-29_dragons-dogma-online-launcher%E3%81%8C%E8%B5%B7%E5%8B%95%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</link>
+      <pubDate>Fri, 29 Sep 2017 02:53:08 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-29_dragons-dogma-online-launcher%E3%81%8C%E8%B5%B7%E5%8B%95%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12314919689-14037544810.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20170929/02/yuki9902/17/b8/j/o1282075214037544810.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dragons Dogma Online Launcherが起動できない場合（上記の画面が表示される前にエラーが表示されて、プログラムが終了する場合）、ほぼDirectX9.0cのインストールに失敗しています。&lt;/p&gt;&#xA;&lt;p&gt;この場合、DirectX9.0cを再度インストールすれば、大丈夫なはずです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>上手く設定できない</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-29_%E4%B8%8A%E6%89%8B%E3%81%8F%E8%A8%AD%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</link>
+      <pubDate>Fri, 29 Sep 2017 00:51:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-29_%E4%B8%8A%E6%89%8B%E3%81%8F%E8%A8%AD%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</guid>
+      <description>&lt;p&gt;PCのOSが大きく変更されていて、思うようにバックアップの設定ができずに5度目の再構築です。&lt;/p&gt;&#xA;&lt;p&gt;慣れてきた感じがあるので今度こそ上手く設定できるかな。&lt;/p&gt;&#xA;&lt;p&gt;取りあえず頑張ります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>昆布</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-28_%E6%98%86%E5%B8%83/</link>
+      <pubDate>Thu, 28 Sep 2017 20:04:49 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-28_%E6%98%86%E5%B8%83/</guid>
+      <description>&lt;p&gt;良い昆布を使って美味しい物を作りたいです。&lt;/p&gt;&#xA;&lt;p&gt;出汁の基本ですからね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>雨が上がりました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-27_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Wed, 27 Sep 2017 23:13:17 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-27_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;昼前から雨が降っていましたが、気がついたら止んでました。&lt;/p&gt;&#xA;&lt;p&gt;ゲームやPCの再構築にかかりっきりになっていて、あんまりブログを更新していませんね。&lt;/p&gt;&#xA;&lt;p&gt;気分が落ち着かないので、文章が考えづらいのです。&lt;/p&gt;&#xA;&lt;p&gt;さてお茶でも飲んで落ち着こうかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>パソコン再構成（涙）</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-27_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E5%86%8D%E6%A7%8B%E6%88%90%E6%B6%99/</link>
+      <pubDate>Wed, 27 Sep 2017 18:46:10 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-27_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E5%86%8D%E6%A7%8B%E6%88%90%E6%B6%99/</guid>
+      <description>&lt;p&gt;パソコンの初期設定を変えようと、再構成したのですが、設定を変えることが出来ないことが分かり、またぼちぼちとソフトのインストールをしています。&lt;/p&gt;&#xA;&lt;p&gt;バックアップの方法もやり直すつもりだったので、思い切ってやっております。&lt;/p&gt;&#xA;&lt;p&gt;通常状態になるまでには2日ぐらい掛かります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最終回は次のチャレンジに繋がっている</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-26_%E6%9C%80%E7%B5%82%E5%9B%9E%E3%81%AF%E6%AC%A1%E3%81%AE%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%AB%E7%B9%8B%E3%81%8C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</link>
+      <pubDate>Tue, 26 Sep 2017 23:52:57 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-26_%E6%9C%80%E7%B5%82%E5%9B%9E%E3%81%AF%E6%AC%A1%E3%81%AE%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%AB%E7%B9%8B%E3%81%8C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</guid>
+      <description>&lt;p&gt;華山みおさんのラジオが終わってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;次のチャレンジを楽しみにしています。&lt;/p&gt;&#xA;&lt;p&gt;たくさんの経験を積み重ねて、新しい自分を作っていく。&lt;/p&gt;&#xA;&lt;p&gt;昨日よりも今日、今日よりも明日、少しでも必ず何か変化していっている。&lt;/p&gt;&#xA;&lt;p&gt;だから次の時には、また成長した華山みおさんを知ることが出来ます。&lt;/p&gt;&#xA;&lt;p&gt;さあこれからも応援し見届けましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最終回</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-26_%E6%9C%80%E7%B5%82%E5%9B%9E/</link>
+      <pubDate>Tue, 26 Sep 2017 22:15:47 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-26_%E6%9C%80%E7%B5%82%E5%9B%9E/</guid>
+      <description>&lt;p&gt;今日は、華山みおのラジオの最終回です。&lt;/p&gt;&#xA;&lt;p&gt;忘れないように聞きます。&lt;/p&gt;&#xA;&lt;p&gt;今日、米袋を専用の冷蔵庫に詰め込む際に、金属の角で頭を打ちました。&lt;/p&gt;&#xA;&lt;p&gt;未だにジンジンと痛みます。&lt;/p&gt;&#xA;&lt;p&gt;傷が出来たんだろうかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>再構築したPC</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-26_%E5%86%8D%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9Fpc/</link>
+      <pubDate>Tue, 26 Sep 2017 19:39:46 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-26_%E5%86%8D%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9Fpc/</guid>
+      <description>&lt;p&gt;ご機嫌斜めだった（システムファイルが壊れていた）パソコンを再構築したものの、設定を間違っていたことに先程気付きました。&lt;/p&gt;&#xA;&lt;p&gt;とは言っても、その設定で何かが使えなくなるとか、性能が落ちるとか、そういったことは何も無いので、気分的にムズムズするものの問題はないのです。&lt;/p&gt;&#xA;&lt;p&gt;また再構築するのは面倒くさいし、実用上何も問題はないので、忘れることにしましょう。&lt;/p&gt;&#xA;&lt;p&gt;詳しくは、Windows 10をDVD-Rから256GBのSSDにインストールしたら、GPT形式ではなくてMBR形式になってしまったと言うことです。&lt;/p&gt;&#xA;&lt;p&gt;さて、ゲームでもしよう。&lt;/p&gt;&#xA;&lt;p&gt;ドラゴンズドグマオンラインです。&lt;/p&gt;&#xA;&lt;p&gt;初代のドラゴンズドグマから5周年。&lt;/p&gt;&#xA;&lt;p&gt;初代のイメージソングはB&amp;rsquo;zのInto Free -Dragon- （蒼い弾丸の曲にオリジナルの英語歌詞をつけたもの）でした。&lt;/p&gt;&#xA;&lt;p&gt;シングルにもアルバムにも入っていないので、今度発売されるドラゴンズドグマのsoundtrackに入っているか気になります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>夜は寒いですね</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-26_%E5%A4%9C%E3%81%AF%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99%E3%81%AD/</link>
+      <pubDate>Tue, 26 Sep 2017 00:38:34 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-26_%E5%A4%9C%E3%81%AF%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99%E3%81%AD/</guid>
+      <description>&lt;p&gt;締め切って、PCの電源を入れて廃熱で温かくなっているはずなのに、室温が21度です。&lt;/p&gt;&#xA;&lt;p&gt;肌寒いです。&lt;/p&gt;&#xA;&lt;p&gt;今日の朝は米袋を運ぶ作業をする予定です。&lt;/p&gt;&#xA;&lt;p&gt;1袋30キロ、たぶん30袋ぐらい運びます。&lt;/p&gt;&#xA;&lt;p&gt;近年の我が家の農作業ではこれが一番の重労働です。&lt;/p&gt;&#xA;&lt;p&gt;この仕事の後は筋肉が結構太くなります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日はめっちゃ暑いですね</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-25_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99%E3%81%AD/</link>
+      <pubDate>Mon, 25 Sep 2017 14:23:25 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-25_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99%E3%81%AD/</guid>
+      <description>&lt;p&gt;街中で34℃とか外気温計が示しています。&lt;/p&gt;&#xA;&lt;p&gt;朝晩は寒くても昼間は真夏並です。&lt;/p&gt;&#xA;&lt;p&gt;まだ外出中です。&lt;/p&gt;&#xA;&lt;p&gt;コーヒーはシュウ酸が少ないんだって、飲んでも良いって。&lt;/p&gt;&#xA;&lt;p&gt;良かった。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>次は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-25_%E6%AC%A1%E3%81%AF/</link>
+      <pubDate>Mon, 25 Sep 2017 09:20:53 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-25_%E6%AC%A1%E3%81%AF/</guid>
+      <description>&lt;p&gt;心療内科に来ました。&lt;/p&gt;&#xA;&lt;p&gt;1時間半は待つ感じかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今朝は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-25_%E4%BB%8A%E6%9C%9D%E3%81%AF/</link>
+      <pubDate>Mon, 25 Sep 2017 07:33:20 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-25_%E4%BB%8A%E6%9C%9D%E3%81%AF/</guid>
+      <description>&lt;p&gt;泌尿器科のある病院と心療内科の診療所に行って来ます。&lt;/p&gt;&#xA;&lt;p&gt;只今、外来受付の列に並んでます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>稲刈り終了</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-24_%E7%A8%B2%E5%88%88%E3%82%8A%E7%B5%82%E4%BA%86/</link>
+      <pubDate>Sun, 24 Sep 2017 14:45:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-24_%E7%A8%B2%E5%88%88%E3%82%8A%E7%B5%82%E4%BA%86/</guid>
+      <description>&lt;p&gt;一仕事終えました。&lt;/p&gt;&#xA;&lt;p&gt;あとは籾すりが終わったあとの玄米を数十袋運ぶだけです。&lt;/p&gt;&#xA;&lt;p&gt;一袋30キロですが(￣∇￣)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おつかれちーん</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-23_%E3%81%8A%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%A1%E3%83%BC%E3%82%93/</link>
+      <pubDate>Sat, 23 Sep 2017 18:50:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-23_%E3%81%8A%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%A1%E3%83%BC%E3%82%93/</guid>
+      <description>&lt;p&gt;仕事を終え、おふろにはいって、ごはんを食べて、くつろぎ中。&lt;/p&gt;&#xA;&lt;p&gt;同じところばかり結構歩いたかも。&lt;/p&gt;&#xA;&lt;p&gt;明日で稲刈りは終わるはず。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は暑いです</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-23_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <pubDate>Sat, 23 Sep 2017 14:13:26 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-23_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <description>&lt;p&gt;曇っていて蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;今日は稲刈りです。&lt;/p&gt;&#xA;&lt;p&gt;作業は簡単なのですが、暑いのが辛い。&lt;/p&gt;&#xA;&lt;p&gt;痒くなるのが嫌でウィンドブレーカーを着てるので、余計に暑いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-22_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8/</link>
+      <pubDate>Fri, 22 Sep 2017 16:30:56 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-22_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8/</guid>
+      <description>&lt;p&gt;雨が降ったので稲刈りはお休みです。&lt;/p&gt;&#xA;&lt;p&gt;冷蔵庫の中が空っぽになっていたので、食料品の買い出しに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;帰ってきたら眠気に耐えきれず、ベッドに横になってすっかり寝入ってました。&lt;/p&gt;&#xA;&lt;p&gt;今日は、18℃。&lt;/p&gt;&#xA;&lt;p&gt;寒いですね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おやすみなさい</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-22_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</link>
+      <pubDate>Fri, 22 Sep 2017 02:11:57 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-22_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</guid>
+      <description>&lt;p&gt;今夜は良い夢を見よう。&lt;/p&gt;&#xA;&lt;p&gt;寂しくならないようなのが良いな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>祝!　30周年</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-21_%E7%A5%9D-30%E5%91%A8%E5%B9%B4/</link>
+      <pubDate>Thu, 21 Sep 2017 18:35:26 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-21_%E7%A5%9D-30%E5%91%A8%E5%B9%B4/</guid>
+      <description>&lt;p&gt;B&amp;rsquo;zのデビューから30周年。&lt;/p&gt;&#xA;&lt;p&gt;そして新アルバムのタイトル発表。&lt;/p&gt;&#xA;&lt;p&gt;シングルコンプリートBOXは無理でもアルバムはちゃんと買わなくちゃ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>帰りました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-21_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Thu, 21 Sep 2017 17:09:04 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-21_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;今日も稲刈りでした。&lt;/p&gt;&#xA;&lt;p&gt;秋晴れで比較的涼しかったです。&lt;/p&gt;&#xA;&lt;p&gt;パソコンはまだ元の環境に戻っていませんが、最低限の構成で動いています。&lt;/p&gt;&#xA;&lt;p&gt;これからアプリケーションをちょっとずつ入れていきます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>パソコンのトラブル発覚</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-21_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E7%99%BA%E8%A6%9A/</link>
+      <pubDate>Thu, 21 Sep 2017 00:49:16 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-21_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E7%99%BA%E8%A6%9A/</guid>
+      <description>&lt;p&gt;実用上は普通に使えるんですが、システムファイルの幾つかが破損しているのが分かりました。&lt;/p&gt;&#xA;&lt;p&gt;只今、修理作業中です。&lt;/p&gt;&#xA;&lt;p&gt;んー、クリーンインストールするのがベストかな…。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>帰りました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-20_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Wed, 20 Sep 2017 16:52:24 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-20_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;今日までに2ヘクタールが終わりました。&lt;/p&gt;&#xA;&lt;p&gt;あと2ヘクタールです。&lt;/p&gt;&#xA;&lt;p&gt;今日は一日曇りでした。&lt;/p&gt;&#xA;&lt;p&gt;雨が降りそうで降らない、そして蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;明日は晴れるそうです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>oおはようございます</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-20_o%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <pubDate>Wed, 20 Sep 2017 09:40:20 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-20_o%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;今日も稲刈りをします。&lt;/p&gt;&#xA;&lt;p&gt;今日は曇り。&lt;/p&gt;&#xA;&lt;p&gt;近景も霞んで居ます。&lt;/p&gt;&#xA;&lt;p&gt;でも雨は降らないそうです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今夜は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-19_%E4%BB%8A%E5%A4%9C%E3%81%AF/</link>
+      <pubDate>Tue, 19 Sep 2017 22:43:42 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-19_%E4%BB%8A%E5%A4%9C%E3%81%AF/</guid>
+      <description>&lt;p&gt;華山みおさんがパーソナリティーのFun*fan Tuesdayの日です。&lt;/p&gt;&#xA;&lt;p&gt;23時よりRainbowtown FMで生放送です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ustream.tv/channel/rainbowtownfm&#34;&gt;http://www.ustream.tv/channel/rainbowtownfm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は動画配信もされるらしいです。&lt;/p&gt;&#xA;&lt;p&gt;音声の配信は&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mms://hdv3.nkansai.tv/rainbowtown&#34;&gt;mms://hdv3.nkansai.tv/rainbowtown&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>熱い</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-19_%E7%86%B1%E3%81%84/</link>
+      <pubDate>Tue, 19 Sep 2017 18:54:04 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-19_%E7%86%B1%E3%81%84/</guid>
+      <description>&lt;p&gt;茄子の揚げ煮とピーマンの佃煮を作ってたら折角お風呂に入ったのに汗をかいてきました。&lt;/p&gt;&#xA;&lt;p&gt;暑いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>黄金色</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-19_%E9%BB%84%E9%87%91%E8%89%B2/</link>
+      <pubDate>Tue, 19 Sep 2017 17:23:36 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-19_%E9%BB%84%E9%87%91%E8%89%B2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12312160335-14030787212.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20170919/17/yuki9902/d9/a3/j/o0960072014030787212.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>稲刈り</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-19_%E7%A8%B2%E5%88%88%E3%82%8A/</link>
+      <pubDate>Tue, 19 Sep 2017 13:03:48 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-19_%E7%A8%B2%E5%88%88%E3%82%8A/</guid>
+      <description>&lt;p&gt;今日から稲刈りです。&lt;/p&gt;&#xA;&lt;p&gt;4ヘクタールあるので1週間ぐらいかかるかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ミルクティー</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-18_%E3%83%9F%E3%83%AB%E3%82%AF%E3%83%86%E3%82%A3%E3%83%BC/</link>
+      <pubDate>Mon, 18 Sep 2017 19:18:16 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-18_%E3%83%9F%E3%83%AB%E3%82%AF%E3%83%86%E3%82%A3%E3%83%BC/</guid>
+      <description>&lt;p&gt;しばらく水ばっかり飲んでましたが、今夜はミルクティーです。&lt;/p&gt;&#xA;&lt;p&gt;結石が出来やすい体質みたいで、珈琲も紅茶もミルクを入れないといけないようです。&lt;/p&gt;&#xA;&lt;p&gt;今日は、過ごし易すぎて、昼間は居眠りばかりでした。&lt;/p&gt;&#xA;&lt;p&gt;今は、ラジオへ投稿するネタを考え中です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>風雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-17_%E9%A2%A8%E9%9B%A8/</link>
+      <pubDate>Sun, 17 Sep 2017 23:56:06 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-17_%E9%A2%A8%E9%9B%A8/</guid>
+      <description>&lt;p&gt;風雨は突然に止みました。&lt;/p&gt;&#xA;&lt;p&gt;虫の音や蛙の声が聞こえます。&lt;/p&gt;&#xA;&lt;p&gt;田圃に水が溜まっているんだろうな。&lt;/p&gt;&#xA;&lt;p&gt;田圃が渇き次第、稲刈りを始める予定です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>大雨が降っております</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-17_%E5%A4%A7%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</link>
+      <pubDate>Sun, 17 Sep 2017 18:15:16 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-17_%E5%A4%A7%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;かなり台風が近づいてきました。&lt;/p&gt;&#xA;&lt;p&gt;大雨です。&lt;/p&gt;&#xA;&lt;p&gt;避難準備情報が出ております。&lt;/p&gt;&#xA;&lt;p&gt;この辺は時間雨量11ミリぐらいなのでまだ大丈夫です。&lt;/p&gt;&#xA;&lt;p&gt;台風は南寄りに進んでいるようです。&lt;/p&gt;&#xA;&lt;p&gt;岡山からは外れるようです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>警報発令</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-17_%E8%AD%A6%E5%A0%B1%E7%99%BA%E4%BB%A4/</link>
+      <pubDate>Sun, 17 Sep 2017 12:53:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-17_%E8%AD%A6%E5%A0%B1%E7%99%BA%E4%BB%A4/</guid>
+      <description>&lt;p&gt;大雨洪水暴風警報が出ました。&lt;/p&gt;&#xA;&lt;p&gt;雨が降ってきました。&lt;/p&gt;&#xA;&lt;p&gt;風は吹いてません。&lt;/p&gt;&#xA;&lt;p&gt;戸締まりをします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>手惑いました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-16_%E6%89%8B%E6%83%91%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sat, 16 Sep 2017 20:56:48 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-16_%E6%89%8B%E6%83%91%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;PCにメモリを8GB増設したのですが、マザーボード側がきちんと認識しない状態だったので、問題点切り分けのために2時間を費やしました。&lt;/p&gt;&#xA;&lt;p&gt;BIOSの初期化（CMOSリセット）をしてやるとようやく認識しました。&lt;/p&gt;&#xA;&lt;p&gt;そのあとは、AHCI接続のSSDやHDDの起動ドライブ設定をやり直して、ようやくPCが使える状態になりました。&lt;/p&gt;&#xA;&lt;p&gt;8GBから16GBにメモリが増えたのですが、使用感も実際の速度もまるで変わりません。&lt;/p&gt;&#xA;&lt;p&gt;長大な画像や動画の編集ソフトで作業するときには随分と違いを感じるはずです。&lt;/p&gt;&#xA;&lt;p&gt;起動画面を見ると2012年に更新されたBIOSなので、もう5年以上も使って居るPCですが、今でも速度不足は感じません。&lt;/p&gt;&#xA;&lt;p&gt;SSDを更に高速のものに換えればまだまだ現役でいけそうです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おかしな夢</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-16_%E3%81%8A%E3%81%8B%E3%81%97%E3%81%AA%E5%A4%A2/</link>
+      <pubDate>Sat, 16 Sep 2017 13:29:33 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-16_%E3%81%8A%E3%81%8B%E3%81%97%E3%81%AA%E5%A4%A2/</guid>
+      <description>&lt;p&gt;お菓子がたくさん出てくる夢を見て、妹達と食べ続ける夢を見ました。&lt;/p&gt;&#xA;&lt;p&gt;目が覚めたら、お昼に食べたラーメンの味が戻ってきました(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;クリームべったりなお菓子が食べたい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>換えました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-15_%E6%8F%9B%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Fri, 15 Sep 2017 19:04:12 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-15_%E6%8F%9B%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12311048370-14027943938.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20170915/19/yuki9902/eb/c4/j/o0966064014027943938.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;足が写り込んでいるのはご愛敬。&lt;/p&gt;&#xA;&lt;p&gt;グラフィックボードを換えました。&lt;/p&gt;&#xA;&lt;p&gt;22,000円のGeForce GTX 750から、18,000円のGeForce GTX 1050iへ。&lt;/p&gt;&#xA;&lt;p&gt;性能差は1.5倍ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;びっくりするぐらい急速に性能が良くなっていきます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ミサイル</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-15_%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB/</link>
+      <pubDate>Fri, 15 Sep 2017 07:02:55 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-15_%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB/</guid>
+      <description>&lt;p&gt;注意してください。&lt;/p&gt;&#xA;&lt;p&gt;ミサイルです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おやすみなさい</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-15_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</link>
+      <pubDate>Fri, 15 Sep 2017 00:56:02 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-15_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</guid>
+      <description>&lt;p&gt;眠いので寝ます。&lt;/p&gt;&#xA;&lt;p&gt;良い夢を。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>また天ぷら</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%81%BE%E3%81%9F%E5%A4%A9%E3%81%B7%E3%82%89/</link>
+      <pubDate>Thu, 14 Sep 2017 20:44:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%81%BE%E3%81%9F%E5%A4%A9%E3%81%B7%E3%82%89/</guid>
+      <description>&lt;p&gt;また天ぷらを作りたくなってきました。&lt;/p&gt;&#xA;&lt;p&gt;人参は芸術的です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ぼんやり</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%81%BC%E3%82%93%E3%82%84%E3%82%8A/</link>
+      <pubDate>Thu, 14 Sep 2017 18:09:11 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%81%BC%E3%82%93%E3%82%84%E3%82%8A/</guid>
+      <description>&lt;p&gt;お昼は素麺でした。&lt;/p&gt;&#xA;&lt;p&gt;寒いのに。&lt;/p&gt;&#xA;&lt;p&gt;夜は炊き込みごはん、サンマの蒲焼き風、野菜を諸々。&lt;/p&gt;&#xA;&lt;p&gt;昼間は、自作PCの動画を見てたら、いつの間にか寝てました。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとお腹が痛かったんですが、まだ石は残ってるのかな。&lt;/p&gt;&#xA;&lt;p&gt;料理以外はぼんやりしていた一日でした。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ゲーム</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%82%B2%E3%83%BC%E3%83%A0/</link>
+      <pubDate>Thu, 14 Sep 2017 00:54:51 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-14_%E3%82%B2%E3%83%BC%E3%83%A0/</guid>
+      <description>&lt;p&gt;PCオンラインゲーム「ドラゴンズドグマオンライン」をプレイしてました。&lt;/p&gt;&#xA;&lt;p&gt;5000円払って、武器、防具のアイテムと、60日間の課金ユーザーサービスを買いました。&lt;/p&gt;&#xA;&lt;p&gt;もうリリースされてから丸2年になります。&lt;/p&gt;&#xA;&lt;p&gt;存在を知ったのは、一昨年の12月。&lt;/p&gt;&#xA;&lt;p&gt;プレイし始めて1年半。&lt;/p&gt;&#xA;&lt;p&gt;レベル上げが途中から苦痛になってたので、リタイヤしていたんですが、課金ユーザーには、経過時間で得られるポイントと引き換えに経験値を取得できるサービスが出来たので、再チャレンジしてみようかと思い、ついつい課金してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;プレイ中ではなくても1時間おきに冒険ポイントが貯まっていくので、廃人でなくてもゲームが楽しめるのは良いかも。&lt;/p&gt;&#xA;&lt;p&gt;今は、パソコン内部を光らせるLEDテープなるものを調べながら、だらりとしています。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ寝ようかな。&lt;/p&gt;&#xA;&lt;p&gt;寝物語にソードアート・オンラインの新巻を読みます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>夕焼け</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-13_%E5%A4%95%E7%84%BC%E3%81%91/</link>
+      <pubDate>Wed, 13 Sep 2017 18:34:15 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-13_%E5%A4%95%E7%84%BC%E3%81%91/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12310464553-14026555111.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20170913/18/yuki9902/74/7a/j/o0966064014026555111.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;日が落ちて、逢魔が時。&lt;/p&gt;&#xA;&lt;p&gt;構図は上に屋根が入るので、これが限界･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>帰りました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-13_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Wed, 13 Sep 2017 16:51:26 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-13_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;残暑で暑いです。&lt;/p&gt;&#xA;&lt;p&gt;ラーメン屋とショッピングモールとスーパーに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;今日はお腹の調子が良いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>フラフラ</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-13_%E3%83%95%E3%83%A9%E3%83%95%E3%83%A9/</link>
+      <pubDate>Wed, 13 Sep 2017 12:34:48 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-13_%E3%83%95%E3%83%A9%E3%83%95%E3%83%A9/</guid>
+      <description>&lt;p&gt;お昼に豚骨ラーメンを食べに街に出てきてます。&lt;/p&gt;&#xA;&lt;p&gt;今は隣町のイオンモールに居ます。&lt;/p&gt;&#xA;&lt;p&gt;朝、足がつって目が覚めました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>つかれた</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-13_%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%9F/</link>
+      <pubDate>Wed, 13 Sep 2017 02:22:58 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-13_%E3%81%A4%E3%81%8B%E3%82%8C%E3%81%9F/</guid>
+      <description>&lt;p&gt;ドラゴンズドグマオンラインをプレイしていたら、集中しすぎて目が痛いです。&lt;/p&gt;&#xA;&lt;p&gt;もうあきまへん。&lt;/p&gt;&#xA;&lt;p&gt;寝ます。&lt;/p&gt;&#xA;&lt;p&gt;楽しい夢を見ましょう。&lt;/p&gt;&#xA;&lt;p&gt;夢ぐらいはね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今夜は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-12_%E4%BB%8A%E5%A4%9C%E3%81%AF/</link>
+      <pubDate>Tue, 12 Sep 2017 23:47:03 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-12_%E4%BB%8A%E5%A4%9C%E3%81%AF/</guid>
+      <description>&lt;p&gt;華山みおさんのラジオでお便りを読んで頂きました。&lt;/p&gt;&#xA;&lt;p&gt;長く続けている趣味やこれから挑戦しようと思うことについて、聞いた物でした。&lt;/p&gt;&#xA;&lt;p&gt;昨年は2ヶ月の間に5個とか、全塗装なども含めて頑張りすぎました。&lt;/p&gt;&#xA;&lt;p&gt;今年はやっと1つキットを買ったけれど作ってません。&lt;/p&gt;&#xA;&lt;p&gt;Fan*Fun Tuesday 来週は生放送だそうです。&lt;/p&gt;&#xA;&lt;p&gt;お便り募集中です。&lt;/p&gt;&#xA;&lt;p&gt;#みおベス&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は蒸し暑い</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</link>
+      <pubDate>Tue, 12 Sep 2017 18:31:41 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</guid>
+      <description>&lt;p&gt;朝から蒸し暑くて、そして痛くて目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;まだ落ちてないのか･･･。&lt;/p&gt;&#xA;&lt;p&gt;今日は、PCケースの部品を探すのに、押し入れの中を片っ端から出して、箱を開けて中を確認してっていう作業をしていました。&lt;/p&gt;&#xA;&lt;p&gt;で、見つからずに全部片付けたあと、一番手前にある某通販会社の箱を開けたら、PCケースのパーツが入ってました。&lt;/p&gt;&#xA;&lt;p&gt;取り出しやすいところに入れておこうとしておいたのが、仇になったようです。&lt;/p&gt;&#xA;&lt;p&gt;道具や部品はそれぞれに分けて引き出しや収納ケースに入れているんですが、当該の部品だけは別にしていました(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;部品を見つけた後は、PCケースの中の配線を整理して、接続しているUSBケーブルも整理して捌いてすっきりした気分。&lt;/p&gt;&#xA;&lt;p&gt;その後は久しぶりにドラゴンズドグマオンラインをプレイしてました。&lt;/p&gt;&#xA;&lt;p&gt;夕方にお腹がちょっと痛かったですが、夕飯を作っているうちに落ち着いたかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>妄想</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-11_%E5%A6%84%E6%83%B3/</link>
+      <pubDate>Mon, 11 Sep 2017 23:28:28 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-11_%E5%A6%84%E6%83%B3/</guid>
+      <description>&lt;p&gt;お腹の痛みも張りも今のところ治まっています。&lt;/p&gt;&#xA;&lt;p&gt;お腹を押しても痛くないので石が落ちてると良いなぁ。&lt;/p&gt;&#xA;&lt;p&gt;雨が降っていて今夜は少し湿っぽいです。&lt;/p&gt;&#xA;&lt;p&gt;自作パソコンに繋げている外付けHDDが4台になっているので、普段使わないデータですが、たまに必要がある程度なので、もう一台別にパソコンを組みたくなってきてます。&lt;/p&gt;&#xA;&lt;p&gt;最低限の機材を揃えるとなると3万5千円ぐらいはかかるので、まあ、当面は分けなくても良いかなぁとも思っております。&lt;/p&gt;&#xA;&lt;p&gt;自作PCにはまるポイントは、実際に作らなくても頭の中でパーツ構成や配線を想像できることでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>いてて</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-11_%E3%81%84%E3%81%A6%E3%81%A6/</link>
+      <pubDate>Mon, 11 Sep 2017 17:43:07 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-11_%E3%81%84%E3%81%A6%E3%81%A6/</guid>
+      <description>&lt;p&gt;まだ落ちてないです。&lt;/p&gt;&#xA;&lt;p&gt;お腹が張って痛いです。&lt;/p&gt;&#xA;&lt;p&gt;低気圧で頭も痛いです。&lt;/p&gt;&#xA;&lt;p&gt;でも耐えます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2時間前</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-11_2%E6%99%82%E9%96%93%E5%89%8D/</link>
+      <pubDate>Mon, 11 Sep 2017 07:10:43 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-11_2%E6%99%82%E9%96%93%E5%89%8D/</guid>
+      <description>&lt;p&gt;病院に2時間前に到着。&lt;/p&gt;&#xA;&lt;p&gt;正面のコンビニで朝食。&lt;/p&gt;&#xA;&lt;p&gt;トルティーヤ。&lt;/p&gt;&#xA;&lt;p&gt;初めて食べた。&lt;/p&gt;&#xA;&lt;p&gt;野菜がギッシリ、外のクレープ生地はモッチリ。&lt;/p&gt;&#xA;&lt;p&gt;病院が開くまで待ってよう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おやすみなさい</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-11_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</link>
+      <pubDate>Mon, 11 Sep 2017 00:07:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-11_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</guid>
+      <description>&lt;p&gt;明日は病院に行くので、そろそろ寝ます。&lt;/p&gt;&#xA;&lt;p&gt;遠くにある人達の様子が気になりますが、お先に失礼します。&lt;/p&gt;&#xA;&lt;p&gt;皆様に幸多きことを。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ようやく</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-10_%E3%82%88%E3%81%86%E3%82%84%E3%81%8F/</link>
+      <pubDate>Sun, 10 Sep 2017 21:13:27 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-10_%E3%82%88%E3%81%86%E3%82%84%E3%81%8F/</guid>
+      <description>&lt;p&gt;じんわり痛みがありましたが、ようやく治まったのでお風呂に入ってきました。&lt;/p&gt;&#xA;&lt;p&gt;明日は、泌尿器科へ行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;CTを撮るぐらいですが。&lt;/p&gt;&#xA;&lt;p&gt;早く落ちないかなぁ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Sun, 10 Sep 2017 16:32:15 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12309500088-14024296220.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20170910/16/yuki9902/4d/a5/j/o0966064014024296220.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;少々、お腹が痛かったので、椅子に座って唸ってました。&lt;/p&gt;&#xA;&lt;p&gt;自作PCの動画を見ていて、自分のPCの中を点検したくなって、痛みが和らいだので掃除しました。&lt;/p&gt;&#xA;&lt;p&gt;フィルターやファンについた埃を掃除機で吸い取り、一応完了。&lt;/p&gt;&#xA;&lt;p&gt;このPCケース、日本で一番売れたケースだそうです。&lt;/p&gt;&#xA;&lt;p&gt;とある物流システムを外国人が視察する番組で、コンベアーの上をこのケースの段ボール箱が、延々と流れていて、そんなに売れてんのと感心したことを思い出しました。&lt;/p&gt;&#xA;&lt;p&gt;まあ、興味がない人が見ても面白くない写真で済みません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日がもうすぐ</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-09_%E4%BB%8A%E6%97%A5%E3%81%8C%E3%82%82%E3%81%86%E3%81%99%E3%81%90/</link>
+      <pubDate>Sat, 09 Sep 2017 23:58:56 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-09_%E4%BB%8A%E6%97%A5%E3%81%8C%E3%82%82%E3%81%86%E3%81%99%E3%81%90/</guid>
+      <description>&lt;p&gt;もうすぐ明日ですね。&lt;/p&gt;&#xA;&lt;p&gt;まだお腹が痛い上に気持ち悪いので、じっと椅子に座ってこらえております。&lt;/p&gt;&#xA;&lt;p&gt;まだ頑張ります。&lt;/p&gt;&#xA;&lt;p&gt;今日が無事に終わりますように。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>のんびりし過ぎ</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-09_%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E3%81%97%E9%81%8E%E3%81%8E/</link>
+      <pubDate>Sat, 09 Sep 2017 18:21:58 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-09_%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E3%81%97%E9%81%8E%E3%81%8E/</guid>
+      <description>&lt;p&gt;寝てた(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;一日中眠くて。&lt;/p&gt;&#xA;&lt;p&gt;涼しいから。&lt;/p&gt;&#xA;&lt;p&gt;バナナ牛乳の飲み過ぎでお腹が緩いです。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯は鮭の塩焼きと言う名のノルウェーサーモンの塩焼き。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>痛みがぶり返して</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-09_%E7%97%9B%E3%81%BF%E3%81%8C%E3%81%B6%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A6/</link>
+      <pubDate>Sat, 09 Sep 2017 00:28:43 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-09_%E7%97%9B%E3%81%BF%E3%81%8C%E3%81%B6%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A6/</guid>
+      <description>&lt;p&gt;今も疼いているんですが、鎮痛剤でだいぶ治まってます。&lt;/p&gt;&#xA;&lt;p&gt;まだ石は落ちてないようです。&lt;/p&gt;&#xA;&lt;p&gt;水を飲むしかないので、水を飲みます。&lt;/p&gt;&#xA;&lt;p&gt;今夜は月が綺麗ですが、太陽の黒点バーストで宇宙線の飛来量が凄いことになっているそうです。&lt;/p&gt;&#xA;&lt;p&gt;両極に行けばオーロラが輝いていることでしょう。&lt;/p&gt;&#xA;&lt;p&gt;今年は、太陽の活動が弱まっていましたが、黒点同士がぶつかって11年ぶりの巨大フレアが発生したようです。&lt;/p&gt;&#xA;&lt;p&gt;太陽の活動が弱いから若干寒冷化してるんですけれど。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>大きな地震が</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-08_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%8C/</link>
+      <pubDate>Fri, 08 Sep 2017 22:27:02 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-08_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%8C/</guid>
+      <description>&lt;p&gt;秋田で地震が頻発しています。&lt;/p&gt;&#xA;&lt;p&gt;当該地域の方はご注意を。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>お腹が空いて</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%8A%E8%85%B9%E3%81%8C%E7%A9%BA%E3%81%84%E3%81%A6/</link>
+      <pubDate>Fri, 08 Sep 2017 19:25:34 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%8A%E8%85%B9%E3%81%8C%E7%A9%BA%E3%81%84%E3%81%A6/</guid>
+      <description>&lt;p&gt;膨満感がなくなったので、お腹が空いてついつい食べ過ぎました。&lt;/p&gt;&#xA;&lt;p&gt;今日は一口豚カツをつくりました。&lt;/p&gt;&#xA;&lt;p&gt;大根おろしに醤油でさっぱりした食べ口だったので食べ過ぎました。&lt;/p&gt;&#xA;&lt;p&gt;朝昼はフレンチトーストだけだったから良いか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>まだ</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%BE%E3%81%A0/</link>
+      <pubDate>Fri, 08 Sep 2017 09:18:53 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%BE%E3%81%A0/</guid>
+      <description>&lt;p&gt;朝起きたら痛みました。&lt;/p&gt;&#xA;&lt;p&gt;まだ石が落ちてないようですorz&lt;/p&gt;&#xA;&lt;p&gt;とりあえず薬を飲みます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>きっと大丈夫かな？</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%8D%E3%81%A3%E3%81%A8%E5%A4%A7%E4%B8%88%E5%A4%AB%E3%81%8B%E3%81%AA/</link>
+      <pubDate>Fri, 08 Sep 2017 01:12:58 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-08_%E3%81%8D%E3%81%A3%E3%81%A8%E5%A4%A7%E4%B8%88%E5%A4%AB%E3%81%8B%E3%81%AA/</guid>
+      <description>&lt;p&gt;なんとなく、お腹の違和感がなくなったような気がします。&lt;/p&gt;&#xA;&lt;p&gt;たぶん石が膀胱へ落ちたのかな。&lt;/p&gt;&#xA;&lt;p&gt;尿管の上の方にあったから、膀胱に落ちるまでに時間が掛かったんでしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;CTで調べたときに左側の腎臓にもう一個石が出来ているのが分かっているので、また来年ぐらいには痛むんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;他の家族や親戚で尿管結石や腎臓結石を患った人がいないので、出来やすい体質かどうかは分かりませんが。&lt;/p&gt;&#xA;&lt;p&gt;家族の中で飛び抜けて、珈琲、紅茶を飲むので、それが大きい要因でしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;長らくご心配をおかけしました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>天ぷら</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-07_%E5%A4%A9%E3%81%B7%E3%82%89/</link>
+      <pubDate>Thu, 07 Sep 2017 20:07:06 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-07_%E5%A4%A9%E3%81%B7%E3%82%89/</guid>
+      <description>&lt;p&gt;天ぷらは温度管理が重要です。&lt;/p&gt;&#xA;&lt;p&gt;たっぷりの油で調理しましょう。&lt;/p&gt;&#xA;&lt;p&gt;魚介の天ぷらを作らないのでチャレンジしてみたいな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8/</link>
+      <pubDate>Thu, 07 Sep 2017 15:40:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8/</guid>
+      <description>&lt;p&gt;昼下がりからちょっと痛みが出てきたので、鎮痛剤を飲んでおとなしくしてます。&lt;/p&gt;&#xA;&lt;p&gt;来週は世界の動きが急激に変わるかも。&lt;/p&gt;&#xA;&lt;p&gt;日本は平和ボケしすぎて暢気でいいですね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>朽ちていきたくない</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-07_%E6%9C%BD%E3%81%A1%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84/</link>
+      <pubDate>Thu, 07 Sep 2017 02:14:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-07_%E6%9C%BD%E3%81%A1%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84/</guid>
+      <description>&lt;p&gt;まだ石は落ちていないようです。&lt;/p&gt;&#xA;&lt;p&gt;今は痛みは殆どありません。&lt;/p&gt;&#xA;&lt;p&gt;姿勢を変えると痛みが出るので用心です。&lt;/p&gt;&#xA;&lt;p&gt;もうそろそろ社会活動しなきゃ、自分の精神もキツいです。&lt;/p&gt;&#xA;&lt;p&gt;家ではお荷物だと思われてるし、実際そうだし。&lt;/p&gt;&#xA;&lt;p&gt;独りで活きていけるものだと信じて疑わなかったけれど、他人が絡むと描いた青写真のようには生きられないよ。&lt;/p&gt;&#xA;&lt;p&gt;夢も目標も生きる目的もどうやって持つんだろうね。&lt;/p&gt;&#xA;&lt;p&gt;疑うこと、可能性の否定ばかりを教えられてきたから、自分の立てようとしている目標を自分で壊してるんですよ。&lt;/p&gt;&#xA;&lt;p&gt;どうやったらポジティブな気持ちになれるの。&lt;/p&gt;&#xA;&lt;p&gt;なれないのなら誰か強制的に僕に仕事を与えて･･･。&lt;/p&gt;&#xA;&lt;p&gt;クズだな、僕。&lt;/p&gt;&#xA;&lt;p&gt;やらないことの言い訳ばかりだし、なんでこんな駄目人間に落ちぶれたんだろう。&lt;/p&gt;&#xA;&lt;p&gt;起業する計画とか新商品の企画とか立てられる人間だったはずなのに、自信を全て失った所為だろうか。&lt;/p&gt;&#xA;&lt;p&gt;人生のつまづきって恐ろしい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>懐かしいCM</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-06_%E6%87%90%E3%81%8B%E3%81%97%E3%81%84cm/</link>
+      <pubDate>Wed, 06 Sep 2017 23:46:45 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-06_%E6%87%90%E3%81%8B%E3%81%97%E3%81%84cm/</guid>
+      <description>&lt;p&gt;オーディオ機器を鳴らしている動画を幾つか見ていたら、石川さゆりさんの「ウィスキーが、お好きでしょう」を鳴らしている人がいて、気になって、調べてウィスキーのCMを見たり、聴いたりしてました。&lt;/p&gt;&#xA;&lt;p&gt;何人かカバーしている人がいますが、オリジナルの石川さゆりさんの綺麗に通る高音には及びませんね。&lt;/p&gt;&#xA;&lt;p&gt;この曲が石川さゆりさんの曲だというのは今日知ったんですが･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>膨満感</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-06_%E8%86%A8%E6%BA%80%E6%84%9F/</link>
+      <pubDate>Wed, 06 Sep 2017 19:10:11 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-06_%E8%86%A8%E6%BA%80%E6%84%9F/</guid>
+      <description>&lt;p&gt;尿管結石は天気、気圧に関係して発作が出るんじゃないかと専門医が調べているそうですが、昨日は雨が降ってて痛かった。&lt;/p&gt;&#xA;&lt;p&gt;今日は比較的楽です。&lt;/p&gt;&#xA;&lt;p&gt;それでも膨満感や腫れた感じはあって、不意にえも言われぬ痛みに襲われますが、なんとか一日終わりそうです。&lt;/p&gt;&#xA;&lt;p&gt;今夜は少し暑いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おやすみなさい</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-06_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</link>
+      <pubDate>Wed, 06 Sep 2017 00:47:03 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-06_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</guid>
+      <description>&lt;p&gt;痛みで吐き気を催しているのか、痛み止めで気持ち悪くなっているのか分かりませんが、痛みが弱まっているうちに寝ようと思います。&lt;/p&gt;&#xA;&lt;p&gt;水も大量に飲んでるので膨満感でこれも気持ち悪いのかな。&lt;/p&gt;&#xA;&lt;p&gt;早く、石が落ちてくれないかな。&lt;/p&gt;&#xA;&lt;p&gt;では、おやすみなさい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>聞き逃した</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-05_%E8%81%9E%E3%81%8D%E9%80%83%E3%81%97%E3%81%9F/</link>
+      <pubDate>Tue, 05 Sep 2017 23:46:46 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-05_%E8%81%9E%E3%81%8D%E9%80%83%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;じわじわとくる痛みに耐えてたりしてたら、ラジオを聞き逃しました。&lt;/p&gt;&#xA;&lt;p&gt;みおさんのツィッターによるとあと3回の放送で終了だそうです。&lt;/p&gt;&#xA;&lt;p&gt;哀しい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-05_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Tue, 05 Sep 2017 19:29:12 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-05_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;痛み止めが効きづらいです。&lt;/p&gt;&#xA;&lt;p&gt;痛いです。&lt;/p&gt;&#xA;&lt;p&gt;はあ、下手に動けないです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ベッドに潜ります</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-05_%E3%83%99%E3%83%83%E3%83%89%E3%81%AB%E6%BD%9C%E3%82%8A%E3%81%BE%E3%81%99/</link>
+      <pubDate>Tue, 05 Sep 2017 00:37:53 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-05_%E3%83%99%E3%83%83%E3%83%89%E3%81%AB%E6%BD%9C%E3%82%8A%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;岡山では深夜アニメがないので、ベッドに潜って小説を読みます。&lt;/p&gt;&#xA;&lt;p&gt;皆様、良い夢をご覧くださいませ。&lt;/p&gt;&#xA;&lt;p&gt;平和な毎日でありますように。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>リラックスミュージック集</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-04_%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E9%9B%86/</link>
+      <pubDate>Mon, 04 Sep 2017 20:53:36 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-04_%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E9%9B%86/</guid>
+      <description>&lt;p&gt;動画サイトで、リラックスミュージックの動画をたくさん視聴しています。&lt;/p&gt;&#xA;&lt;p&gt;こういった類いの動画は人気があるのですね。&lt;/p&gt;&#xA;&lt;p&gt;投稿している人も多いし、動画もたくさん有りますし、それぞれ視聴回数が数十万回や数百万回となっています。&lt;/p&gt;&#xA;&lt;p&gt;聴いていると、眠くなります。&lt;/p&gt;&#xA;&lt;p&gt;居眠りするにはちょうど良いです(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;洋楽のヒットチャートとかもあるので、流行っている曲も分かって良いです。&lt;/p&gt;&#xA;&lt;p&gt;音だけでなくて、動画や静止画もついていますので、リラックス効果は大きいです。&lt;/p&gt;&#xA;&lt;p&gt;中でも、ボサノバとジャズを聴く機会が多いです。&lt;/p&gt;&#xA;&lt;p&gt;もともと其方の音楽も好きで、CDも結構買ったので、懐かしい曲もあれば、アレンジの面白い曲もあります。&lt;/p&gt;&#xA;&lt;p&gt;音楽を聴いてたらオーディオ機器に対する熱もまた高まってきました。&lt;/p&gt;&#xA;&lt;p&gt;金食い虫の趣味なので控えますけれど。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>帰ってまいりました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-04_%E5%B8%B0%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%84%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Mon, 04 Sep 2017 15:03:05 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-04_%E5%B8%B0%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%84%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;CTを撮ると右の尿管に見事に石がありました。&lt;/p&gt;&#xA;&lt;p&gt;昨年10月のCTと比較すると、左右の腎臓に結石があり、左の尿管に石が落ちてきていたのが、昨年。&lt;/p&gt;&#xA;&lt;p&gt;今年は、左の腎臓に石があり、右の腎臓にはなく、右の尿管に石がありました。&lt;/p&gt;&#xA;&lt;p&gt;4ミリ少々なので、薬で尿管を拡張して、膀胱に落ちるのを待ちます。&lt;/p&gt;&#xA;&lt;p&gt;しばらくは水をがぶ飲みです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>痛み止めが効いているのかな</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_%E7%97%9B%E3%81%BF%E6%AD%A2%E3%82%81%E3%81%8C%E5%8A%B9%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%E3%81%AA/</link>
+      <pubDate>Sun, 03 Sep 2017 23:49:35 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_%E7%97%9B%E3%81%BF%E6%AD%A2%E3%82%81%E3%81%8C%E5%8A%B9%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%E3%81%AA/</guid>
+      <description>&lt;p&gt;時々、うずうずするような鈍い痛みがありますが、今は落ち着いています。&lt;/p&gt;&#xA;&lt;p&gt;ただ、やっぱり体力は消耗しているのかな。&lt;/p&gt;&#xA;&lt;p&gt;かなり疲れています。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯も食べてないし。&lt;/p&gt;&#xA;&lt;p&gt;アニメもないし、寝る準備を始めようかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sony XPERIA Z Ultra (C6833)のバッテリ交換</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_sony-xperia-z-ultra-c6833%E3%81%AE%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E4%BA%A4%E6%8F%9B/</link>
+      <pubDate>Sun, 03 Sep 2017 20:32:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_sony-xperia-z-ultra-c6833%E3%81%AE%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E4%BA%A4%E6%8F%9B/</guid>
+      <description>&lt;p&gt;友人から貰って使っていたSony XPERIA Z Ultra (C6833)が今年度の初め頃にバッテリーの寿命が来て、膨らんだバッテリーに押し出され背面のパネルが剥がれるという状態になっていました。&lt;/p&gt;&#xA;&lt;p&gt;海外モデルの為、無改造ではLTEの対応バンドが狭いために不便を感じていたので、VAIO Phone Aに乗り換えました。&lt;/p&gt;&#xA;&lt;p&gt;背面パネルが剥がれたままのXPERIA Z Ultraを放置していましたが、この度、思い切って純正のバッテリーを通信販売で購入して、交換修理しました。&lt;/p&gt;&#xA;&lt;p&gt;背面パネルは、両面テープでとまっているだけなので、通常はドライヤーで少し熱してやれば、簡単に剥がれます。&lt;/p&gt;&#xA;&lt;p&gt;バッテリーは4カ所のネジ、コネクター部分に繋がるフィルム回路が樹脂パネルで覆われているので1カ所のネジを外して、あとバッテリーと液晶パネルが両面テープで止まっているので、ゆっくりと剥がします。&lt;/p&gt;&#xA;&lt;p&gt;コネクターは嵌めにくいですが、丁寧に作業します。&lt;/p&gt;&#xA;&lt;p&gt;バッテリーがはまったら、背面パネルと本体フレームを両面テープで留めます。&lt;/p&gt;&#xA;&lt;p&gt;両面テープは隙間なく貼ってください。&lt;/p&gt;&#xA;&lt;p&gt;防水機能が無くなります。&lt;/p&gt;&#xA;&lt;p&gt;特にヘッドフォンジャックの周りは丁寧にしないと、ここから水が浸入します。&lt;/p&gt;&#xA;&lt;p&gt;バッテリーを交換したら、充電できることを確認します。&lt;/p&gt;&#xA;&lt;p&gt;そして、電源オンでandroidが起動するのを確認して完了。&lt;/p&gt;&#xA;&lt;p&gt;さて修理したスマホをどう活用しよう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>強敵です</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_%E5%BC%B7%E6%95%B5%E3%81%A7%E3%81%99/</link>
+      <pubDate>Sun, 03 Sep 2017 18:37:52 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_%E5%BC%B7%E6%95%B5%E3%81%A7%E3%81%99/</guid>
+      <description>&lt;p&gt;尿管結石だと思いますが、なかなか痛みは強烈です。&lt;/p&gt;&#xA;&lt;p&gt;痛風より軽いですけれども。&lt;/p&gt;&#xA;&lt;p&gt;お腹の中からの痛みは手で患部を押さえようもなく、痛みに耐えるのみです。&lt;/p&gt;&#xA;&lt;p&gt;ロキソニンがドラッグストアで買える時代で助かります･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>痛いです</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_%E7%97%9B%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <pubDate>Sun, 03 Sep 2017 13:30:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_%E7%97%9B%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <description>&lt;p&gt;吐きそうなほど痛いです。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めでおさえていますが、キツいです。&lt;/p&gt;&#xA;&lt;p&gt;買い物に来てますが、車の中で横になってます。&lt;/p&gt;&#xA;&lt;p&gt;尿管結石の応急処置って水を飲むしかないんですね…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>出掛けてきます</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_%E5%87%BA%E6%8E%9B%E3%81%91%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</link>
+      <pubDate>Sun, 03 Sep 2017 09:01:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_%E5%87%BA%E6%8E%9B%E3%81%91%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;ちょっとおなかに不安がありますが出掛けてきます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>長い一日だった。</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-03_%E9%95%B7%E3%81%84%E4%B8%80%E6%97%A5%E3%81%A0%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Sun, 03 Sep 2017 00:31:56 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-03_%E9%95%B7%E3%81%84%E4%B8%80%E6%97%A5%E3%81%A0%E3%81%A3%E3%81%9F/</guid>
+      <description>&lt;p&gt;もう今日ですね。&lt;/p&gt;&#xA;&lt;p&gt;買い出しに行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;昨晩は一睡も出来なかったので、今夜はちゃんと寝ます。&lt;/p&gt;&#xA;&lt;p&gt;睡眠薬がないと全く眠れないのです(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;皆平穏無事でありますように。&lt;/p&gt;&#xA;&lt;p&gt;七転八倒するような痛みはもう嫌よ。&lt;/p&gt;&#xA;&lt;p&gt;ではおやすみなさい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SAPPARI</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_sappari/</link>
+      <pubDate>Sat, 02 Sep 2017 21:22:27 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_sappari/</guid>
+      <description>&lt;p&gt;お風呂でさっぱりしてきました。&lt;/p&gt;&#xA;&lt;p&gt;今夜も更に涼しいですね。&lt;/p&gt;&#xA;&lt;p&gt;寒いと言った方が正しいかな。&lt;/p&gt;&#xA;&lt;p&gt;今日は水分をしっかりとりました。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり脱水気味だったんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;お腹の中も少し綺麗になりました。&lt;/p&gt;&#xA;&lt;p&gt;でも水分で1キロ以上重くなっております。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>煮物揚げ物</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_%E7%85%AE%E7%89%A9%E6%8F%9A%E3%81%92%E7%89%A9/</link>
+      <pubDate>Sat, 02 Sep 2017 18:21:05 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_%E7%85%AE%E7%89%A9%E6%8F%9A%E3%81%92%E7%89%A9/</guid>
+      <description>&lt;p&gt;牛蒡、人参、蒟蒻、インゲン、蓮根、里芋、筍を煮物にしました。&lt;/p&gt;&#xA;&lt;p&gt;下茹でをして灰汁を抜き、出汁、酒、砂糖、醤油で煮ました。&lt;/p&gt;&#xA;&lt;p&gt;他に、茄子の揚げ浸しを作りました。&lt;/p&gt;&#xA;&lt;p&gt;結構時間が掛かりました。&lt;/p&gt;&#xA;&lt;p&gt;明日は、食料品の買い出しに行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;冷蔵庫の中が空っぽだし、味噌と酒と本だしも尽きました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ようやく</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%82%88%E3%81%86%E3%82%84%E3%81%8F/</link>
+      <pubDate>Sat, 02 Sep 2017 10:22:40 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%82%88%E3%81%86%E3%82%84%E3%81%8F/</guid>
+      <description>&lt;p&gt;ようやく痛みが治まって落ち着きました。&lt;/p&gt;&#xA;&lt;p&gt;水を沢山飲んだからでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;ふう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>どうも</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%81%A9%E3%81%86%E3%82%82/</link>
+      <pubDate>Sat, 02 Sep 2017 08:35:17 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%81%A9%E3%81%86%E3%82%82/</guid>
+      <description>&lt;p&gt;尿管結石の痛みのようです。&lt;/p&gt;&#xA;&lt;p&gt;紅茶、緑茶、珈琲をかぱかぱ飲んでたらやっぱりなりますよね。&lt;/p&gt;&#xA;&lt;p&gt;激しく痛み出したので、鎮痛剤を飲んで痛みを和らげています。&lt;/p&gt;&#xA;&lt;p&gt;寒いのに脂汗が出てきました。&lt;/p&gt;&#xA;&lt;p&gt;病院に行っても痛み止めと、尿管を少し拡張させる薬を貰うだけなので、とりあえず、水を飲んで排泄するしかありません。&lt;/p&gt;&#xA;&lt;p&gt;今日は水を沢山飲みます(￣∇￣)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>まったく</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%8F/</link>
+      <pubDate>Sat, 02 Sep 2017 06:26:49 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%8F/</guid>
+      <description>&lt;p&gt;ベッドに横になっていても全く眠れないので、音楽を聴いています。&lt;/p&gt;&#xA;&lt;p&gt;お腹が少し痛いのです。&lt;/p&gt;&#xA;&lt;p&gt;冷えた所為でしょうか。&lt;/p&gt;&#xA;&lt;p&gt;昨晩とは違う場所が痛みます。&lt;/p&gt;&#xA;&lt;p&gt;はあ、眠いのに眠れず、はっきりと痛いわけでも無く･･･。&lt;/p&gt;&#xA;&lt;p&gt;眠れないんですけれど、また横になります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>小銭</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-02_%E5%B0%8F%E9%8A%AD/</link>
+      <pubDate>Sat, 02 Sep 2017 02:21:19 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-02_%E5%B0%8F%E9%8A%AD/</guid>
+      <description>&lt;p&gt;au携帯電話サービスのポイントを整理したら、1500円分のプリペイドカードのチャージが出来ました。&lt;/p&gt;&#xA;&lt;p&gt;au WALLETなんですが、殆どのコンビニで使えるので、また買い物しよう。&lt;/p&gt;&#xA;&lt;p&gt;スマホと携帯電話（ガラケー）の2台持ちですが、スマホはデータ専用で毎月の支払いは0円、携帯電話は通話と電子メール専用で毎月の支払いは2000円強。&lt;/p&gt;&#xA;&lt;p&gt;携帯電話の調子が悪いので、スマホのSIMを通話付きプランに変更しようか悩んでいるところです。&lt;/p&gt;&#xA;&lt;p&gt;スマホのSIMはDoCoMoの回線にのみ対応しているので、au携帯電話をMNPで解約して、MVNOの安いキャリアにしようと考えています。&lt;/p&gt;&#xA;&lt;p&gt;MNPでauに手続きをするのに3000円、MVNOのキャリアに払う手続き料は0～3000円。&lt;/p&gt;&#xA;&lt;p&gt;Amazon.co.jpのタイムセールで、OCN（NTTコミュニケーションズ）の通話パック申し込みセットが100円ほどだったので、注文しました。&lt;/p&gt;&#xA;&lt;p&gt;さて、本当にスマホに一本化した場合は、毎月1600円または1800円。&lt;/p&gt;&#xA;&lt;p&gt;今より、だいたい400円ほど安くなります。&lt;/p&gt;&#xA;&lt;p&gt;メリットは、料金が下がること、携帯性が良くなること。&lt;/p&gt;&#xA;&lt;p&gt;デメリットは、通話料金が上がること（1000円分の通話料無料がなくなる）、スマホのバッテリーの保ち時間が短いこと、auのポイントサービス、au WALLETが使えなくなること、契約後半年間は解約違約金が8000円かかること。&lt;/p&gt;&#xA;&lt;p&gt;ここで、auのスマホに機種変更しないのは、料金シミュレーションをするとどう足掻いても毎月7000円以上かかるからです。&lt;/p&gt;&#xA;&lt;p&gt;スマホへの一本化をしなくても、au携帯電話のバッテリーの予備を2個確保しているので、本体さえ壊れなければ、あと4年は持ちこたえられそうです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、もうしばらく悩んでみます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>寝てました</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-01_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Fri, 01 Sep 2017 21:28:08 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-01_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;頭痛に耐えられず寝てました。&lt;/p&gt;&#xA;&lt;p&gt;今は鎮痛剤が効いているようです。&lt;/p&gt;&#xA;&lt;p&gt;喉が渇いたので紅茶を飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;季節の変わり目で体がおかしくなっているのでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;腕が筋肉痛でバキバキです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>痛たたた</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-01_%E7%97%9B%E3%81%9F%E3%81%9F%E3%81%9F/</link>
+      <pubDate>Fri, 01 Sep 2017 19:11:35 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-01_%E7%97%9B%E3%81%9F%E3%81%9F%E3%81%9F/</guid>
+      <description>&lt;p&gt;強烈な頭痛と胃痙攣で唸ってました。&lt;/p&gt;&#xA;&lt;p&gt;救急車を呼ぶほどには胃痙攣も治まってきました。&lt;/p&gt;&#xA;&lt;p&gt;頭痛はまだ続いています。&lt;/p&gt;&#xA;&lt;p&gt;鎮痛剤を今飲みました。&lt;/p&gt;&#xA;&lt;p&gt;まだしばらく我慢します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>草刈り</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-01_%E8%8D%89%E5%88%88%E3%82%8A/</link>
+      <pubDate>Fri, 01 Sep 2017 16:45:40 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-01_%E8%8D%89%E5%88%88%E3%82%8A/</guid>
+      <description>&lt;p&gt;お昼からも涼しかったので、草刈りも捗りました。&lt;/p&gt;&#xA;&lt;p&gt;法面だと凄い大変ですが、なるい畦を刈るのは楽ちんです。&lt;/p&gt;&#xA;&lt;p&gt;お風呂で排気ガスと切りくずや土を洗い流して、さっぱりしてきました。&lt;/p&gt;&#xA;&lt;p&gt;さて、晩ご飯の準備をしましょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>おやすみなさい</title>
+      <link>https://yuki9902-jp.github.io/posts/2017-09-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</link>
+      <pubDate>Fri, 01 Sep 2017 02:22:18 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2017-09-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF%E3%81%AA%E3%81%95%E3%81%84/</guid>
+      <description>&lt;p&gt;すっかり夜は冷えるようになってきました。&lt;/p&gt;&#xA;&lt;p&gt;おやすみなさい。&lt;/p&gt;&#xA;&lt;p&gt;皆が健康で幸せでありますように。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025-01 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2025-01/</link>
+    <description>Recent content in 2025-01 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 28 Jan 2025 12:17:46 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2025-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corsair iCUE LINK TITAN 240 RX RGB</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-01-28_corsair-icue-link-titan-240-rx-rgb/</link>
+      <pubDate>Tue, 28 Jan 2025 12:17:46 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-01-28_corsair-icue-link-titan-240-rx-rgb/</guid>
+      <description>&lt;p&gt;水冷ヘッドを壊してしまった。&lt;/p&gt;&#xA;&lt;p&gt;Corsair &lt;a href=&#34;https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060069-ww/icue-h115i-elite-capellix-xt-liquid-cpu-cooler&#34;&gt;iCUE H115i ELITE CAPELLIX XT&lt;/a&gt;（280mmAIOクーラー黒）と&lt;a href=&#34;https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060056-ww/icue-elite-cpu-cooler-lcd-display-upgrade-kit-cw-9060056-ww&#34;&gt;iCUE ELITECPU クーラー LCDディスプレイアップグレードキット&lt;/a&gt;をセットにして使用していましたが、クーラーのヘッド部分が熱くなってくるとLCDの下半分の表示が乱れてしまう問題があり、イライラしてました。&lt;/p&gt;&#xA;&lt;p&gt;先日、また表示が乱れたので、何度か再起動したりしても直らず、イライラしたので電源が入ったままLCDキットを本体から抜いて差し直したら、クーラーのヘッド部分のファームウェアが壊れてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;iCUE制御ソフトウェアからヘッド部分が認識できなくなり、ポンプの制御が出来なくなり一定速度でしか回転しなくなり、LCDの表示が出来なくなり、LEDも消灯してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;さすがにCPUの冷却するための物で壊れたままは不味いので、パソコン工房の通販で新しくCorsair &lt;a href=&#34;https://www.corsair.com/jp/ja/p/cpu-coolers/CW-9061016-WW/icue-link-titan-240-rx-rgb-aio-liquid-cpu-cooler-cw-9061016-ww&#34;&gt;iCUE LINK TITAN 240 RX RGB AIO 水冷式CPUクーラー&lt;/a&gt;黒を買いました。&lt;/p&gt;&#xA;&lt;p&gt;[CORSAIR iCUE LINK TITAN 240 RX RGB 水冷式 CPU クーラー – RX120 RGB ファン搭載 – Intel® LGA 1851/1700, AMD® AM5/AM4 対応 – iCUE LINK システムハブ同梱 ホワイト CW-9061020-WW&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;20,845〜35,581円&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/31KEHKVUyZL._SL500_.jpg&#34; alt=&#34;&#34;&gt;](&lt;a href=&#34;https://d.odsyms15.com/click?aid=dvWke0f92JFancR5HV8Om7&amp;amp;mimp=zJpC9C67hcDO8rEgx6IAvg&amp;amp;session=82f34427-108d-4839-86b4-c7d944627a05&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=dvWke0f92JFancR5HV8Om7&amp;amp;mimp=zJpC9C67hcDO8rEgx6IAvg&amp;amp;session=82f34427-108d-4839-86b4-c7d944627a05&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;CorsairのiCUE LINKという新しい接続方式になりファンやクーラーヘッダへの接続が少ないケーブルで済むのでケース内がすっきりします。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12884168194-15537984959.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20250128/12/yuki9902/fd/22/j/o2014151115537984959.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ただ、PCI-Eの8pin(6+2pin)電源ケーブルが1本必要になるので、安物の電源ユニットでは採用が難しいです。&lt;/p&gt;&#xA;&lt;p&gt;冷却能力は280mmから240mmにグレードダウンしましたが、先のAIOは経年で冷却液が少なくなっていたこと、クーラーとファンの制御の見直しもありよく冷えています。&lt;/p&gt;&#xA;&lt;p&gt;CPUは、AMD RYZEN 9 5900XTで、これをPBOでカーブオプティマイズしてやると190W近くまで消費してCinebench R23で30000ぐらいの値になりました。&lt;/p&gt;&#xA;&lt;p&gt;ノーマルで使うより10％前後高速になっています。&lt;/p&gt;&#xA;&lt;p&gt;急な出費になってしまいましたが、性能的には概ね満足な物でした。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Happy New Year!!</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-01-01_a-happy-new-year/</link>
+      <pubDate>Wed, 01 Jan 2025 00:05:15 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-01-01_a-happy-new-year/</guid>
+      <description>&lt;p&gt;Welcome 2025&lt;/p&gt;&#xA;&lt;p&gt;May happiness come to all.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

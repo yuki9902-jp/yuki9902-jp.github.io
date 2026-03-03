@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025-03 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2025-03/</link>
+    <description>Recent content in 2025-03 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 31 Mar 2025 20:58:31 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2025-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WD BLACK SN850X 2TBを購入</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-03-31_wd-black-sn850x-2tb%E3%82%92%E8%B3%BC%E5%85%A5/</link>
+      <pubDate>Mon, 31 Mar 2025 20:58:31 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-03-31_wd-black-sn850x-2tb%E3%82%92%E8%B3%BC%E5%85%A5/</guid>
+      <description>&lt;p&gt;メインPCのゲーム用NVMe SSD 2TBをSN750からSN850Xに入れ替えました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://m.media-amazon.com/images/I/31iqQ7bnRWL._SL500_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Western Digital ウエスタンデジタル WD BLACK M.2 SSD 内蔵 2TB NVMe PCIe Gen4 x4 (読取り最大 7300MB/s 書込み最大 6600MB/s) ゲーミング PC WDS200T2X0E-EC SN850X 【国内正規取扱代理店】&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）](&lt;a href=&#34;https://d.odsyms15.com/click?aid=L5hfBNUAFW0TbrjMbILLo6&amp;amp;mimp=dgU2e7EF0LALd3nFsIVqxk&amp;amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=L5hfBNUAFW0TbrjMbILLo6&amp;amp;mimp=dgU2e7EF0LALd3nFsIVqxk&amp;amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://m.media-amazon.com/images/I/31HzjcYMhDL._SL500_.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Western Digital ウエスタンデジタル 内蔵SSD 2TB WD Black SN750 ゲーム向け M.2-2280 NVMe WDS200T3X0C-EC 【国内正規代理店品】&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）](&lt;a href=&#34;https://d.odsyms15.com/click?aid=YDVaPL4q0krFDQs0srdy73&amp;amp;mimp=Jc1Cugigl4OUg2pPQsErPP&amp;amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=YDVaPL4q0krFDQs0srdy73&amp;amp;mimp=Jc1Cugigl4OUg2pPQsErPP&amp;amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;SN750を買ったのが5年前。&lt;/p&gt;&#xA;&lt;p&gt;当時の価格で51,800円、いろいろなポイントや割引を使って33,000円で買っています。&lt;/p&gt;&#xA;&lt;p&gt;ゲーム用に使っていたので劣化度は0%ですが、「原神」のスタッタリング（かくつき）が気になっていたので改善できるかどうか、期待半分で入替です。&lt;/p&gt;&#xA;&lt;p&gt;今回のSN850XはNVMe Gen.4x4でシーケンシャル性能でSN750の2倍です。&lt;/p&gt;&#xA;&lt;p&gt;価格は、現在、20,000円。&lt;/p&gt;&#xA;&lt;p&gt;非常にお得感が高いです。&lt;/p&gt;&#xA;&lt;p&gt;WDで提供されているAcronis True Image for WDを使って、ゲーム用のDドライブをクローンしました。&lt;/p&gt;&#xA;&lt;p&gt;ついでにCPU直結のM.2スロットに刺さっていたシステム用のCドライブのSN850X  1TBをチップセット経由のM.2スロットに移動させ、クローンしたSN850X 2TBをCPU直結M.2に取り付けました。&lt;/p&gt;&#xA;&lt;p&gt;CPU直結のM.2スロットだと、SN850Xの公称値通りの性能が出ます。&lt;/p&gt;&#xA;&lt;p&gt;チップセット経由だと1割近く性能が落ちます。&lt;/p&gt;&#xA;&lt;p&gt;さて、問題は「原神」のスタッタリングですが、多分改善されています。&lt;/p&gt;&#xA;&lt;p&gt;ワープ時のロード時間も短いですし、ロード中のもたつき、ワープ直後のカクつきがなくなっています。&lt;/p&gt;&#xA;&lt;p&gt;カクつきが改善されたのは、チップセット経由でなくなったことで、他のデバイスの割り込みが発生しないことが大きな要因だと思います。&lt;/p&gt;&#xA;&lt;p&gt;システム用のSSDは2023年に導入しましたが、すでに劣化率1%です。&lt;/p&gt;&#xA;&lt;p&gt;SSDでの運用は、ゲーム用、システム用、データ用はそれぞれ別のドライブにしておくのがベターだと思います。&lt;/p&gt;&#xA;&lt;p&gt;ついでにアプリの作業やテンポラリに使うドライブも別にした方がいいです。&lt;/p&gt;&#xA;&lt;p&gt;細かいデータを頻繁に書き込みや削除すると劣化が早いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>モーニングティー</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-03-30_%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%86%E3%82%A3%E3%83%BC/</link>
+      <pubDate>Sun, 30 Mar 2025 08:56:24 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-03-30_%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%86%E3%82%A3%E3%83%BC/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12891871671-15560281115.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20250330/08/yuki9902/66/b4/j/o0966064015560281115.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ルピシアの2021年ダージリンファーストフラッシュ マグノリアです。&lt;/p&gt;&#xA;&lt;p&gt;今朝はめちゃくちゃ寒いです。&lt;/p&gt;&#xA;&lt;p&gt;せっかく煎れたお茶もあっという間に冷めてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;さて今日はどんな一日をお過ごしになるのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;皆様、良い一日でありますように。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>モーニングティー</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-03-27_%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%86%E3%82%A3%E3%83%BC/</link>
+      <pubDate>Thu, 27 Mar 2025 06:54:10 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-03-27_%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%86%E3%82%A3%E3%83%BC/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12891494362-15559124218.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20250327/06/yuki9902/6e/bd/j/o1979148415559124218.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;買ったもののため込んでしまっている紅茶を消費中。&lt;/p&gt;&#xA;&lt;p&gt;ルピシアの2021ダージリンファーストフラッシュ・プレミアムフルーティー。&lt;/p&gt;&#xA;&lt;p&gt;紅茶の中では、ダージリンファーストフラッシュが一番好き。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は寒さが身に沁みる</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-03-15_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%AF%92%E3%81%95%E3%81%8C%E8%BA%AB%E3%81%AB%E6%B2%81%E3%81%BF%E3%82%8B/</link>
+      <pubDate>Sat, 15 Mar 2025 19:43:42 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-03-15_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%AF%92%E3%81%95%E3%81%8C%E8%BA%AB%E3%81%AB%E6%B2%81%E3%81%BF%E3%82%8B/</guid>
+      <description>&lt;p&gt;今日は気温が上がらず、雨も降っていて寒い日でした。&lt;/p&gt;&#xA;&lt;p&gt;神経が春のモードに変わっていたのがあって、今日の寒さは身に沁みてしんどかったです。&lt;/p&gt;&#xA;&lt;p&gt;ご飯を作るためだけに起きて、一日中寝てました。&lt;/p&gt;&#xA;&lt;p&gt;明日は晴れたら良いんですが、今日みたいなのはしんどいです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日も雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-03-04_%E4%BB%8A%E6%97%A5%E3%82%82%E9%9B%A8/</link>
+      <pubDate>Tue, 04 Mar 2025 08:39:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-03-04_%E4%BB%8A%E6%97%A5%E3%82%82%E9%9B%A8/</guid>
+      <description>&lt;p&gt;雨が続いて、体調不良に陥ってて、ついでに精神的にも憂鬱になっているので、朝からパンチの効いた物でおなかを満たして、少し気分をあげようと思ってUFOを食べた。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12888605299-15550743503.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20250304/08/yuki9902/79/bb/j/o1868140115550743503.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;そのままだとソースがマイルドになってしまっているので、黒胡椒をたっぷりかけてみた。&lt;/p&gt;&#xA;&lt;p&gt;胡椒の香りと刺激で、少しだけ気分が上がった気がしたが、やっぱり天気に引き摺られて憂鬱に戻ってしまった。&lt;/p&gt;&#xA;&lt;p&gt;今日は寒いし、余計に辛い。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

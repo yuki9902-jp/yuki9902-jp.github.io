@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024-12 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2024-12/</link>
+    <description>Recent content in 2024-12 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 31 Dec 2024 23:12:43 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2024-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>サヨナラ2024</title>
+      <link>https://yuki9902-jp.github.io/posts/2024-12-31_%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A92024/</link>
+      <pubDate>Tue, 31 Dec 2024 23:12:43 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2024-12-31_%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A92024/</guid>
+      <description>&lt;p&gt;今年も残すところあと僅かです。&lt;/p&gt;&#xA;&lt;p&gt;今年は、尿管結石の診断ミスで腎臓が一つダメになっていたことがわかり、珈琲、紅茶、緑茶、サツマイモを制限せざるを得なくなり、食事にはストレスを抱えています。&lt;/p&gt;&#xA;&lt;p&gt;後は体調不良というより神経いや精神の不調が多い年でした。&lt;/p&gt;&#xA;&lt;p&gt;徐々に朽ちていく身体となんとか折り合いをつけていくしかないですね。&lt;/p&gt;&#xA;&lt;p&gt;他人の都合で命を奪われる状況にないだけ幸せだと思い、鬱々としながらも生きていきます。&lt;/p&gt;&#xA;&lt;p&gt;今年の嫌なことは、今年に置いていけたら良いのにな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AMD Software Adrenalin Edition 24.12.1</title>
+      <link>https://yuki9902-jp.github.io/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/</link>
+      <pubDate>Wed, 11 Dec 2024 20:24:10 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html&#34;&gt;AMD RADEON RX6750XT&lt;/a&gt; のドライバーをアップデートしました。&lt;/p&gt;&#xA;&lt;p&gt;WSL 2(Windows Subsystem for Linux)でAI開発のAMD ROCmをサポートしたようです。ONNXやTensorFlowなどが動くようです。&lt;/p&gt;&#xA;&lt;p&gt;あとはHYPR-Tuneのサポート拡大、Vulkanのサポート拡大、不具合の修正です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

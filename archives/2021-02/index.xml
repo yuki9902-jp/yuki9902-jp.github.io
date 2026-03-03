@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021-02 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2021-02/</link>
+    <description>Recent content in 2021-02 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 25 Feb 2021 13:14:02 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2021-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ティンダーリア</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-25_%E3%83%86%E3%82%A3%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AA%E3%82%A2/</link>
+      <pubDate>Thu, 25 Feb 2021 13:14:02 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-25_%E3%83%86%E3%82%A3%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AA%E3%82%A2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12658872989-14901753878.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210225/13/yuki9902/e4/c4/j/o1080081014901753878.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨年のダージリン ティンダーリアを煎れ温かいお茶を頂きます。&lt;/p&gt;&#xA;&lt;p&gt;今日は寒いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>やっぱり使いにくかった</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-23_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E4%BD%BF%E3%81%84%E3%81%AB%E3%81%8F%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Tue, 23 Feb 2021 19:50:13 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-23_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E4%BD%BF%E3%81%84%E3%81%AB%E3%81%8F%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+      <description>&lt;p&gt;Garuda Linuxを使おうといろいろ触りましたが、やっぱり使いにくいですね。&lt;/p&gt;&#xA;&lt;p&gt;画面がカラフルで、意識が散乱するので作業に集中できないです。&lt;/p&gt;&#xA;&lt;p&gt;インストールしたノートPCがTFT液晶で解像度がHDより一回り大きいだけでなのもあって、全体的に見づらい。&lt;/p&gt;&#xA;&lt;p&gt;今、Linux Mint Cinnamon 20.1に戻している最中です。&lt;/p&gt;&#xA;&lt;p&gt;Mintの方が利用者が多い分、情報が多いので、トラブルシューティングも比較的楽だし、日本語環境にするのが面倒くさくないので、簡単で良いかな。&lt;/p&gt;&#xA;&lt;p&gt;Windowsアプリを動かすための「Wine」があるので、問題になりそうなのはRGB LEDの制御だけなので、近いうちにメインPCもLinux Mint Cinnamonに移行しようかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Garuda Linux KDE Dragonized Edition</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-20_garuda-linux-kde-dragonized-edition/</link>
+      <pubDate>Sat, 20 Feb 2021 23:05:58 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-20_garuda-linux-kde-dragonized-edition/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12657959777-14899410129.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210220/22/yuki9902/7d/22/p/o1366076814899410129.png?caw=800&#34; alt=&#34;Garuda Linux DolphinファイルマネージャーとKonsoleターミナル&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://garudalinux.org/downloads.html&#34;&gt;Garuda Linux KDE Dragonized Edition&lt;/a&gt;をノートPCにインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;最低要件ギリギリですが、特に重さも感じない程度に動作します。&lt;/p&gt;&#xA;&lt;p&gt;USBメモリからライブ起動すると日本語でインストール出来ますが、システムのインストール後にランゲージパッケージを手動でインストールしないと文字化けしてインストールも碌に出来ません。&lt;/p&gt;&#xA;&lt;p&gt;なので、まずは英語でインストールします。&lt;/p&gt;&#xA;&lt;p&gt;インストールは他のLinuxディストリビューションとあまり変わらないので、すんなりといけると思います。&lt;/p&gt;&#xA;&lt;p&gt;インストール後にSystem SettingsからLanguage PackagesとKeyboard Settingsから日本語を設定します。&lt;/p&gt;&#xA;&lt;p&gt;パッケージのインストールが終了したら再起動します。&lt;/p&gt;&#xA;&lt;p&gt;GUIのデザインに関わる文字列はほとんど英語のままですが、システムメッセージなどは日本語化されます。&lt;/p&gt;&#xA;&lt;p&gt;画面の小さいノートPCでは、使いやすくはないですが、Windowsの野暮ったさやmacの無機質さと両方のデザインの不自由さに辟易したら、試してみると良いかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;以下、Gemini3 Flashによる2026/01/24現在の検証&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1-検証現在のgaruda-linuxの立ち位置&#34;&gt;1. 検証：現在のGaruda Linuxの立ち位置&lt;/h3&gt;&#xA;&lt;p&gt;Garuda Linuxは、Arch Linuxをベースにした「ゲーミングと美観」に特化したディストリビューションです。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;最大の特徴:&lt;/strong&gt; * &lt;strong&gt;パフォーマンス最適化:&lt;/strong&gt; &lt;code&gt;zen-kernel&lt;/code&gt;を標準採用し、CPUやI/Oのスケジューリングがデスクトップ/ゲーム用途に最適化されています。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GUIツールの充実:&lt;/strong&gt; &lt;code&gt;Garuda Assistant&lt;/code&gt;や&lt;code&gt;Garuda Gamer&lt;/code&gt;など、Arch系でありながらコマンドを使わずに設定できるツールが豊富です。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Btrfs + Snapper:&lt;/strong&gt; アップデートでシステムが壊れても、起動時のブートメニューから簡単に「壊れる前の状態」に戻せるバックアップ機能が標準装備されています。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-日本人への推奨度検証結果&#34;&gt;2. 日本人への推奨度：検証結果&lt;/h3&gt;&#xA;&lt;p&gt;結論から述べると、&lt;strong&gt;「中級者以上のゲーマー」には強く勧められますが、「初心者」には依然としてハードルが高い&lt;/strong&gt;と言えます。&lt;/p&gt;&#xA;&lt;h4 id=&#34;ポジティブな側面勧められる理由&#34;&gt;【ポジティブな側面：勧められる理由】&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;日本語設定の簡略化:&lt;/strong&gt; 以前はArch系特有の難しさがありましたが、最近のバージョン（Mokkaエディションなど）では、GUI上の「仮想キーボード」設定から&lt;code&gt;Fcitx5&lt;/code&gt;を数クリックで選択するだけで日本語入力が整うようになっています。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;最新ハードウェア（Radeon等）との相性:&lt;/strong&gt; ブログ記事にあったようなRX 6750 XTなどの比較的新しいGPUを使う場合、最新のドライバがすぐに降ってくるArchベースのGarudaは、性能を最大限引き出すのに適しています。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ゲーミング環境の自動構築:&lt;/strong&gt; &lt;code&gt;Garuda Gamer&lt;/code&gt;ツールにより、Steam, Wine, Proton, 各種エミュレータ、Discordなどを一括インストールでき、設定の手間がWindowsに近くなっています。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;ネガティブな側面推奨しにくい理由&#34;&gt;【ネガティブな側面：推奨しにくい理由】&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wayland環境下の日本語入力問題:&lt;/strong&gt; 現在の主流であるKDE Plasma 6やHyprland環境（Wayland）では、ChromeやVSCodeなどのアプリで日本語入力を行うために、依然としてフラグ設定（&lt;code&gt;chrome:flags&lt;/code&gt;等）や環境変数の追記が必要なケースがあります。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;リソース消費の激しさ:&lt;/strong&gt; 「美観」を重視しているため、アニメーションや透明化エフェクトでメモリを多く消費します。低スペックPCの日本人ユーザーには向きません。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ローカライズの不完全さ:&lt;/strong&gt; 設定ツールの一部が英語のままであったり、日本語フォントのレンダリングを自分で調整（RictyやNoto Sans等への変更）しないと「中華フォント」っぽさが残る場合があります。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;3-追加できる考察garuda-linuxをさらに楽しむために&#34;&gt;3. 追加できる考察：Garuda Linuxをさらに楽しむために&lt;/h3&gt;&#xA;&lt;p&gt;記事に付け加えるべき「日本人向け」の考察ポイントを提案します。&lt;/p&gt;&#xA;&lt;h4 id=&#34;-タイムマシンとしての安心感&#34;&gt;① 「タイムマシン」としての安心感&lt;/h4&gt;&#xA;&lt;p&gt;Linux初心者や日本人がArch系を避ける最大の理由は「アップデートで起動しなくなる不安」です。しかし、Garudaの&lt;strong&gt;Btrfs + Snapper自動スナップショット&lt;/strong&gt;は、OS版の「システムの復元」として極めて優秀です。「設定をいじりすぎて日本語入力が壊れた」といった際も、再起動して1分で元に戻せる点は、もっと評価されるべき強みです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>引きこもり、ラーメンを食べに出る</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-18_%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%AB%E5%87%BA%E3%82%8B/</link>
+      <pubDate>Thu, 18 Feb 2021 21:43:02 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-18_%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%92%E9%A3%9F%E3%81%B9%E3%81%AB%E5%87%BA%E3%82%8B/</guid>
+      <description>&lt;p&gt;久しぶりに豚骨ラーメンを食べに出かけてきました。&lt;/p&gt;&#xA;&lt;p&gt;しっかりと腰のある極細麺、軽すぎずしつこくない程度の豚骨スープ、焦がしニンニク油、ゆず胡椒、すべてのバランスが絶妙な豚骨ラーメン。&lt;/p&gt;&#xA;&lt;p&gt;家では簡単に作れないので、食べに行くのです。&lt;/p&gt;&#xA;&lt;p&gt;帰ってくる途中で雪がうっすら積もってました。&lt;/p&gt;&#xA;&lt;p&gt;外気温は1度。&lt;/p&gt;&#xA;&lt;p&gt;ノーマルタイヤですが少々なら大丈夫です。&lt;/p&gt;&#xA;&lt;p&gt;夜は底冷えしています。&lt;/p&gt;&#xA;&lt;p&gt;ヒーターをつけていても室温が10度に届きません。&lt;/p&gt;&#xA;&lt;p&gt;寒い夜、善い人たちに温かな光が差しますように。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>料理な一日</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-17_%E6%96%99%E7%90%86%E3%81%AA%E4%B8%80%E6%97%A5/</link>
+      <pubDate>Wed, 17 Feb 2021 01:20:38 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-17_%E6%96%99%E7%90%86%E3%81%AA%E4%B8%80%E6%97%A5/</guid>
+      <description>&lt;p&gt;昼ご飯を食べた後から、晩ご飯の仕込みを始めた。&lt;/p&gt;&#xA;&lt;p&gt;鰤大根にするために大根のあく抜きに時間が掛かる。&lt;/p&gt;&#xA;&lt;p&gt;大量の有機肥料で作られた大根なので、そのまま煮ただけでは非常に苦い。&lt;/p&gt;&#xA;&lt;p&gt;水から煮始めて、沸騰して10分ほどしたらお湯を捨て、また水から煮ることを3回繰り返して、ようやくあくが抜ける。&lt;/p&gt;&#xA;&lt;p&gt;その後は、ぬるま湯で洗った鰤を酒と水と昆布だし入れ中火で煮る。&lt;/p&gt;&#xA;&lt;p&gt;浮いてくるあくを取りながら沸騰し始めたら、弱火に落とし、あく抜きをした大根を入れ、醤油、砂糖で味をつけ、そのまま煮ていく。&lt;/p&gt;&#xA;&lt;p&gt;大根に竹串がすっと入るぐらいに柔らかくなったら、火を止めて味をしみこませる。&lt;/p&gt;&#xA;&lt;p&gt;強火で煮過ぎると鰤が固くなり臭くなるので、火加減は注意。&lt;/p&gt;&#xA;&lt;p&gt;後は卵とキクラゲの中華風炒め物、豆腐と青梗菜の中華スープ、高野豆腐の煮浸しを作った。&lt;/p&gt;&#xA;&lt;p&gt;豆腐も青梗菜も下茹でしておくのが大事。&lt;/p&gt;&#xA;&lt;p&gt;豆腐の下茹では中華料理に限らず、和食でも大豆臭さや出汁の濁りを消したい時には有効。&lt;/p&gt;&#xA;&lt;p&gt;下茹では強火で煮立たせると豆腐にすが入るので沸騰のするかしないかのところで火加減するのが重要。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>嵐</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-15_%E5%B5%90/</link>
+      <pubDate>Mon, 15 Feb 2021 20:06:02 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-15_%E5%B5%90/</guid>
+      <description>&lt;p&gt;強い低気圧に伴って、強風が吹いています。&lt;/p&gt;&#xA;&lt;p&gt;びょうびょうと風の音が激しいです。&lt;/p&gt;&#xA;&lt;p&gt;昼間は半袖でも良いぐらいに暖かい日でしたが、たまにパラパラと雨が降りました。&lt;/p&gt;&#xA;&lt;p&gt;風が強くなってきてから急に寒くなってきました。&lt;/p&gt;&#xA;&lt;p&gt;明日の朝は氷点下6度ぐらいまで下がるかもしれません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>鰺フライ</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-14_%E9%B0%BA%E3%83%95%E3%83%A9%E3%82%A4/</link>
+      <pubDate>Sun, 14 Feb 2021 23:25:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-14_%E9%B0%BA%E3%83%95%E3%83%A9%E3%82%A4/</guid>
+      <description>&lt;p&gt;今日は大きな鰺を買ってきたので、鰺フライを作りました。&lt;/p&gt;&#xA;&lt;p&gt;鰺の頭を落としゼイゴをとって鱗を剥がし、三枚に下ろして皮をむいて小骨を取る。&lt;/p&gt;&#xA;&lt;p&gt;慣れるとはらわたを抜かずに下ろせます。&lt;/p&gt;&#xA;&lt;p&gt;骨の周りに残った身は指でそぎ落として団子として1つにして揚げました。&lt;/p&gt;&#xA;&lt;p&gt;良い鰺をフライにすると旨さが違います。&lt;/p&gt;&#xA;&lt;p&gt;惣菜や既製品の分厚い衣が油を吸って胃もたれをするような物と明らかに違います。&lt;/p&gt;&#xA;&lt;p&gt;鰺は塩焼きにするよりフライが美味しいです。&lt;/p&gt;&#xA;&lt;p&gt;ウスターソース、醤油、マヨネーズ、タルタルソース、どれが好きですか。&lt;/p&gt;&#xA;&lt;p&gt;私はレモンを絞ってウスターソースをかけて食べるのが良いです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>福島で震度6強の地震です。</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-13_%E7%A6%8F%E5%B3%B6%E3%81%A7%E9%9C%87%E5%BA%A66%E5%BC%B7%E3%81%AE%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</link>
+      <pubDate>Sat, 13 Feb 2021 23:14:13 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-13_%E7%A6%8F%E5%B3%B6%E3%81%A7%E9%9C%87%E5%BA%A66%E5%BC%B7%E3%81%AE%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</guid>
+      <description>&lt;p&gt;かなり大きな地震です。&lt;/p&gt;&#xA;&lt;p&gt;広範囲で揺れを観測しているようです。&lt;/p&gt;&#xA;&lt;p&gt;火の元を確認して、すぐに沿岸部から離れ、高台に避難してください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 10 Pro 64bitの再インストール</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-11_windows-10-pro-64bit%E3%81%AE%E5%86%8D%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
+      <pubDate>Thu, 11 Feb 2021 18:47:26 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-11_windows-10-pro-64bit%E3%81%AE%E5%86%8D%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
+      <description>&lt;p&gt;ログイン時に変なサウンドが鳴るので、クリーンな環境を作るため、Windows 10 Pro 64bitをディスクを初期化してからインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;今のところ、Adobe Photoshop、Foobar2000、Firefox、Thunderbird、Telegram、7zとあとはドライバーを入れた段階です。&lt;/p&gt;&#xA;&lt;p&gt;あとはBlackmagic DaVinci ResolveとOBSとSteamとゲームを入れるぐらいですか。&lt;/p&gt;&#xA;&lt;p&gt;データはたくさんありますが、アプリは少ないです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>オーストラリア東海域で巨大地震発生</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-11_%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2%E6%9D%B1%E6%B5%B7%E5%9F%9F%E3%81%A7%E5%B7%A8%E5%A4%A7%E5%9C%B0%E9%9C%87%E7%99%BA%E7%94%9F/</link>
+      <pubDate>Thu, 11 Feb 2021 00:12:54 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-11_%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2%E6%9D%B1%E6%B5%B7%E5%9F%9F%E3%81%A7%E5%B7%A8%E5%A4%A7%E5%9C%B0%E9%9C%87%E7%99%BA%E7%94%9F/</guid>
+      <description>&lt;p&gt;南太平洋のオーストラリア東海域でM7.9の巨大地震が発生した模様。&lt;/p&gt;&#xA;&lt;p&gt;津波の可能性がありますが、現在解析中とのことで、太平洋側は警戒をしましょう。&lt;/p&gt;&#xA;&lt;p&gt;気象庁から発表される情報に注意しておいてください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>心療内科医に行ってきました</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-09_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E5%8C%BB%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Tue, 09 Feb 2021 23:34:48 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-09_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E5%8C%BB%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;今日は毎月の通院で薬をもらいに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;目に見えて不正が行われているものを追いかけて、ディープステートを調べたら、直接的な闇である独裁者やテロリスト、快楽主義者、共産主義者を操っている更にヤバい闇にいる者達が、私たちの生活をまさに脅かしていることを知って、精神が不安定です。&lt;/p&gt;&#xA;&lt;p&gt;この世に正義があっても、力があっても正義は意味をなさない段階まで来てしまっているのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;今年は人工的な人類絶滅に転ぶか、正義と希望を取り戻し新たな発展に至るかの最後の分岐点にいるように感じます。&lt;/p&gt;&#xA;&lt;p&gt;考え過ぎなら、それで構わないのです。&lt;/p&gt;&#xA;&lt;p&gt;誰かが不幸にならないのなら。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 3405</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-09_asus-rog-strix-x570-f-gaming-bios-3405/</link>
+      <pubDate>Tue, 09 Feb 2021 21:05:42 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-09_asus-rog-strix-x570-f-gaming-bios-3405/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download&#34;&gt;ASUS ROG STRIX X570-F Gaming のBIOS 3405&lt;/a&gt; が公開されました。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update AMD AM4 AGESA V2 PI 1.2.0.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update AMD RAID UEFI driver&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Improve system stability&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;PBO2のカーブの仕様が変更になったようです。&lt;/p&gt;&#xA;&lt;p&gt;PBO2でチューニングしても、Cinebench R20のスコアが3402 Betaより5％ほど下がります。&lt;/p&gt;&#xA;&lt;p&gt;FF14漆黒のヴィランズのスコアは1％ほど下がります。&lt;/p&gt;&#xA;&lt;p&gt;SoC電圧の設定できる幅が狭くなっていて、電圧を下げて高クロックを狙うと突然落ちます。&lt;/p&gt;&#xA;&lt;p&gt;PBO2をAutoで使っても速くはないので、設定が難しいです。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、高性能コア -5、他のコア -30、コア電圧 マイナスオフセット、0.05V。&lt;/p&gt;&#xA;&lt;p&gt;水冷で全コアOCした方が良いかも。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>低気圧</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-08_%E4%BD%8E%E6%B0%97%E5%9C%A7/</link>
+      <pubDate>Mon, 08 Feb 2021 00:17:07 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-08_%E4%BD%8E%E6%B0%97%E5%9C%A7/</guid>
+      <description>&lt;p&gt;今日は暖かい日でしたが、低気圧のせいで頭が痛い状態でした。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めを飲んで、あとはぼーっとしてたかな。&lt;/p&gt;&#xA;&lt;p&gt;昨日の晩に、イベリコ豚のもも肉をバターとオリーブオイルと大蒜のスライスでコートレットにしました。&lt;/p&gt;&#xA;&lt;p&gt;揚げ焼きにした後に、赤ワインと砂糖と醤油をいれてソースにしました。&lt;/p&gt;&#xA;&lt;p&gt;弱火でゆっくりと火を通し、固くなる前に取り出して、とても柔らかく仕上がりました。&lt;/p&gt;&#xA;&lt;p&gt;最近、岡山県のブランド豚、ピーチポークが買えないので、イベリコ豚にしました。&lt;/p&gt;&#xA;&lt;p&gt;どちらも豚特有の臭みがなく甘みを感じますが、ピーチポークは白く、イベリコ豚は赤いです。&lt;/p&gt;&#xA;&lt;p&gt;豚コレラと鳥インフルエンザが治まらないと食肉が減っていきます。&lt;/p&gt;&#xA;&lt;p&gt;今夜はもう休みましょう。&lt;/p&gt;&#xA;&lt;p&gt;明日は良い日になるように願って。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Sat, 06 Feb 2021 23:06:56 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-06_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;今日は、Linux MintのPCからDHCPで割り当てたPCの名前解決（DNS）をさせる方法を調査してました。&lt;/p&gt;&#xA;&lt;p&gt;無線ブロードバンドルーターでは、DHCPの割り当ては出来るんですが、DNSの変更が出来ません。&lt;/p&gt;&#xA;&lt;p&gt;解決する方法として、1つめは、DHCPとDNSサーバーを立てて、ルーターのDHCPサーバー機能を無効にする方法です。&lt;/p&gt;&#xA;&lt;p&gt;2つめは、LAN内で名前解決しないといけないPCはすべて固定IPにして、すべてのPCのhostsファイルを設定する方法です。&lt;/p&gt;&#xA;&lt;p&gt;3つめは、Directoryサーバーを立てて、その中で使うDNSサーバーを使う方法です。&lt;/p&gt;&#xA;&lt;p&gt;4つめは、古いWINSサーバーを立てる方法です。&lt;/p&gt;&#xA;&lt;p&gt;サーバーを立てる際に使うマシンはRaspberry Pi 4bです。&lt;/p&gt;&#xA;&lt;p&gt;前に3つめに挑戦しましたが、DNSサーバーでIPの逆引きがどうやっても出来ずに挫折しました。&lt;/p&gt;&#xA;&lt;p&gt;今日は1つめの方法を行いましたが、DHCPサーバーが機能せず、面倒になって諦めました。&lt;/p&gt;&#xA;&lt;p&gt;名前解決もWindows10側からLinux Mintに対しては名前でアクセス出来るので今のところ不都合はないです。&lt;/p&gt;&#xA;&lt;p&gt;最近は、日本語の技術系サイトが凄く減りました。&lt;/p&gt;&#xA;&lt;p&gt;初級の初の字程度のブロガーサイトが技術系サイトを名乗っているので、日本の技術者は減ったんだなぁと実感する今日この頃です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AMD RYZEN 7 5800X 電圧調整</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-04_amd-ryzen-7-5800x-%E9%9B%BB%E5%9C%A7%E8%AA%BF%E6%95%B4/</link>
+      <pubDate>Thu, 04 Feb 2021 19:56:47 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-04_amd-ryzen-7-5800x-%E9%9B%BB%E5%9C%A7%E8%AA%BF%E6%95%B4/</guid>
+      <description>&lt;p&gt;UEFI(BIOS)でCPUのコアに掛かる電圧を調整しました。&lt;/p&gt;&#xA;&lt;p&gt;初期値は1.10000Vです。&lt;/p&gt;&#xA;&lt;p&gt;負荷が掛かったときに「-」方向にオフセットするようにして、下げ幅を0.10000Vにしました。&lt;/p&gt;&#xA;&lt;p&gt;で、そのときのCPU-Zのベンチマークスコアです。&lt;/p&gt;&#xA;&lt;p&gt;MP:6905&lt;/p&gt;&#xA;&lt;p&gt;SP:691&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12654625542-14891449092.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210204/19/yuki9902/6c/10/p/o1230212814891449092.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;シングルコアのグラフだと比較データの一番上。&lt;/p&gt;&#xA;&lt;p&gt;マルチコアで16コアでも比較データの1番上。&lt;/p&gt;&#xA;&lt;p&gt;マルチコアの20コアと比較するとIntel Core i9 10900Fに並びそうです。&lt;/p&gt;&#xA;&lt;p&gt;PBO2は高負荷時にコア全体の電圧が下がるように設定するのが、肝心です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming Chipsetドライバー更新</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-03_asus-rog-strix-x570-f-gaming-chipset%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Wed, 03 Feb 2021 23:59:18 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-03_asus-rog-strix-x570-f-gaming-chipset%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E6%9B%B4%E6%96%B0/</guid>
+      <description>&lt;p&gt;ASUS ROG STRIX X570-F Gaming のチップセットドライバーが2/1付けで更新されていました。&lt;/p&gt;&#xA;&lt;p&gt;ドライバーの構造が変わったので、古いドライバーを一旦アンインストールしてから、新しいドライバーを適用するように書かれています。&lt;/p&gt;&#xA;&lt;p&gt;ドライバーを適用後、CINEBENCH R20でベンチマークを取りました。&lt;/p&gt;&#xA;&lt;p&gt;MPだけですが、6138cb、平均4.650GHz、消費電力159W、83度となり、PBO2での最速のスコアになりました。&lt;/p&gt;&#xA;&lt;p&gt;全コア4.750GHzでの6282cbには少し届かないですが、全コア4.725GHzでの6197cbと引けを取らないところまで速くなっていて、ドライバー側でも電力供給の改善が行われたようです。&lt;/p&gt;&#xA;&lt;p&gt;それ以外の変更点はよく分かりません。&lt;/p&gt;&#xA;&lt;p&gt;今回のチップセットドライバーはまだAMDでは配布されていません。&lt;/p&gt;&#xA;&lt;p&gt;それからRAIDドライバーとRAID管理アプリも更新されていたので適用しました。&lt;/p&gt;&#xA;&lt;p&gt;こちらは何が変わったかは分かりません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ファイルサーバーの整理</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-03_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%95%B4%E7%90%86/</link>
+      <pubDate>Wed, 03 Feb 2021 01:14:46 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-03_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%95%B4%E7%90%86/</guid>
+      <description>&lt;p&gt;Linux Mint 20.1 CinnamonをインストールしたミドルタワーPCをファイルサーバーとして使っています。&lt;/p&gt;&#xA;&lt;p&gt;Sambaをインストールして、3TBのHDDを6台、8TBのHDDを1台をsmb.confに追加しました。&lt;/p&gt;&#xA;&lt;p&gt;空のHDDにすでにファイルが書き込まれているHDDから移し替えながら、ファイルシステムをxfsに換えていっています。&lt;/p&gt;&#xA;&lt;p&gt;あと残り1台のファイルシステムを書き換えればNTFSから脱却できます。&lt;/p&gt;&#xA;&lt;p&gt;ファイルシステムの変更は、「設定」メニューからGUIの「ディスク」を起動しておこなっています。&lt;/p&gt;&#xA;&lt;p&gt;それから、1GbpsのEthernetのRJ45端子が2つあるので、それらをGUIの「高度なネットワーク設定」からボンディング(Bonding)させて、送受信とも負荷分散するモードに設定して、2GbpsのEthernetとして使うようにしました。&lt;/p&gt;&#xA;&lt;p&gt;この設定はLayer2スイッチでも何も設定せずに動作させることが出来るし、耐障害性と速度の両方を向上させられるので、複数のEthernetポートがあるなら活用した方が良いでしょう。&lt;/p&gt;&#xA;&lt;p&gt;で、今はメインで使っているキューブPCからもデータのバックアップをファイルサーバー上に作成中です。&lt;/p&gt;&#xA;&lt;p&gt;Linux Mintに接続したNTFSのHDD群に同時に大量にアクセスするとカーネルパニックを引き起こすようで、何度かデータ移行中にシステムがハングアップしました。&lt;/p&gt;&#xA;&lt;p&gt;理研のサイトを参考にしていたら、300TBを超えるような強大なデータ量をxfsに書き込むときにもそのようなことがあるらしいですが、並列で6つの同時アクセスぐらいなら平気のようです。&lt;/p&gt;&#xA;&lt;p&gt;それからxfsはメモリーを大量に使うと説明されていましたが、常時、全システムで16GBの20%ほどしか使っていないので問題はないです。&lt;/p&gt;&#xA;&lt;p&gt;2GbpsでHDDを7台使ったぐらいでは、Ryzen 7 1700とメモリー16GBでは余裕です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>マイニング停止</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-02-01_%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%81%9C%E6%AD%A2/</link>
+      <pubDate>Mon, 01 Feb 2021 01:04:37 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-02-01_%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%81%9C%E6%AD%A2/</guid>
+      <description>&lt;p&gt;マイニングしているとシステムが非常に不安定になり、ディスプレイドライバーがクラッシュすることがあり、マイニングを停止しました。&lt;/p&gt;&#xA;&lt;p&gt;GPUの温度は54度ぐらいですが、グラフィックメモリの温度が90度を超えて100度に近いので、それがエラーを引き起こしているんではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt;ゲームや3Dモデリングやビデオエンコードに使う場合には、グラフィックメモリが連続した高温状態にはならないので気にしてませんでしたが、マイニングに使うにはグラフィックボード全体を液体冷却しないと廃熱が間に合わないようです。&lt;/p&gt;&#xA;&lt;p&gt;それなりに高いグラフィックボードなので壊したくはないので、マイニングは終了です。&lt;/p&gt;&#xA;&lt;p&gt;1日半ほど動かして0.00017131BTC（600円相当）のビットコインがたまっています。&lt;/p&gt;&#xA;&lt;p&gt;しかし換金できる最低金額を超えていないし、たとえ1万円分あったとしても送金手数料と換金手数料でほとんど残らず4000円ほどになり、さらに電気代を引くと赤字です。&lt;/p&gt;&#xA;&lt;p&gt;ビットコインの高騰で、マイニングに参入する人が増えた所為で、PCパーツがまた品薄になっていて、そろそろ高騰を始めると思います。&lt;/p&gt;&#xA;&lt;p&gt;自作PCを楽しむ人やゲーマーには辛い状況になりそうです。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

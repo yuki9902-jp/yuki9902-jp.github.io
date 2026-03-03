@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011-09 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/archives/2011-09/</link>
+    <description>Recent content in 2011-09 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 30 Sep 2011 08:41:53 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/archives/2011-09/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-30_%E9%9B%A8/</link>
+      <pubDate>Fri, 30 Sep 2011 08:41:53 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-30_%E9%9B%A8/</guid>
+      <description>&lt;p&gt;今日は心療内科に通う日。&lt;br&gt;&#xA;雨が朝から降り出しました。&lt;/p&gt;&#xA;&lt;p&gt;雨は嫌いじゃないけど、湿気は苦手です。&lt;/p&gt;&#xA;&lt;p&gt;本でも買って過ごそうかな。&lt;br&gt;&#xA;代わり映えしないなぁ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>雨</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-20_%E9%9B%A8/</link>
+      <pubDate>Tue, 20 Sep 2011 00:04:03 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-20_%E9%9B%A8/</guid>
+      <description>&lt;p&gt;台風の接近に伴い大雨です。&lt;/p&gt;&#xA;&lt;p&gt;地盤が緩んでいるところが多いので注意が必要です。&lt;/p&gt;&#xA;&lt;p&gt;夜中に川の水位を見に行ったりすると危険なので絶対にしちゃ駄目ですよ。&lt;/p&gt;&#xA;&lt;p&gt;避難できる人は早めに。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>稲刈り</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-15_%E7%A8%B2%E5%88%88%E3%82%8A/</link>
+      <pubDate>Thu, 15 Sep 2011 23:33:30 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-15_%E7%A8%B2%E5%88%88%E3%82%8A/</guid>
+      <description>&lt;p&gt;稲刈りが終わったので、今年の農作業はもう終わったって感じです。&lt;/p&gt;&#xA;&lt;p&gt;なんだか虚脱感っていうのかな、これがなんとかならないかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ゴミの大量生産</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-14_%E3%82%B4%E3%83%9F%E3%81%AE%E5%A4%A7%E9%87%8F%E7%94%9F%E7%94%A3/</link>
+      <pubDate>Wed, 14 Sep 2011 22:05:47 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-14_%E3%82%B4%E3%83%9F%E3%81%AE%E5%A4%A7%E9%87%8F%E7%94%9F%E7%94%A3/</guid>
+      <description>&lt;p&gt;アメーバって不具合が多いなぁ。&lt;/p&gt;&#xA;&lt;p&gt;メンテナンス時にデータベースの書き戻しに失敗したあげく、差分情報を滅失したとか、まあ、システムエンジニアの立場から言わせてもらうと、あり得ない失敗ですね。&lt;/p&gt;&#xA;&lt;p&gt;RDB（リレーショナルDB）はきっとPostgleSQLかな。&lt;/p&gt;&#xA;&lt;p&gt;簡易DBだから基幹業務や高負荷には耐えられないDBなんですよね。&lt;/p&gt;&#xA;&lt;p&gt;Webでサービスするなら、やっぱりOracleやMS SQLじゃないとね。&lt;/p&gt;&#xA;&lt;p&gt;あと開発言語はPHPかPerlなんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;オブジェクト言語ではないので、少しでも変更が加わると、あらゆる箇所を手直ししないといけない上に、その影響範囲がつかみづらいでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;こういったα版を投入し続けるサービスですから、まともな設計書もないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;あってもプログラマー依存のコーディング規約ぐらいかな。&lt;/p&gt;&#xA;&lt;p&gt;新参のWebサービス会社のコーディング規約を見たことありますが、システム開発の専門から言うと、子供の落書き程度。&lt;/p&gt;&#xA;&lt;p&gt;何の役にもたちゃしない。&lt;/p&gt;&#xA;&lt;p&gt;正確な仕事よりも、納期の早い仕事が重視されるWebサービス分野は、これからもますます酷くなっていくでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;スマートフォンの普及に伴い、数の少ないアプリ開発者の奪い合いとか、あまりに酷すぎるんですよね。&lt;/p&gt;&#xA;&lt;p&gt;ゴミのようなアプリが多すぎて、正直げんなりです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、もう淘汰の時代でしょうから、酷いモノは駆逐されるでしょうが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>911には</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-10_911%E3%81%AB%E3%81%AF/</link>
+      <pubDate>Sat, 10 Sep 2011 22:52:44 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-10_911%E3%81%AB%E3%81%AF/</guid>
+      <description>&lt;p&gt;気がついたら9月10日ですね。&lt;/p&gt;&#xA;&lt;p&gt;明日はニューヨーク911から10年、東北大震災から半年。&lt;/p&gt;&#xA;&lt;p&gt;大きな節目です。&lt;/p&gt;&#xA;&lt;p&gt;今年だけでも大きな自然災害がいくつもあり、日本中、世界中で多くの人が身罷られました。&lt;/p&gt;&#xA;&lt;p&gt;それに革命や戦争、テロ、紛争でも多くの命が失われています。&lt;/p&gt;&#xA;&lt;p&gt;理念、価値観が違えば、同じ言葉を持っていても、同じ民族であっても、ココロが通じ合うことが困難です。&lt;/p&gt;&#xA;&lt;p&gt;でもあきらめず、人を愛することをあきらめずにいたい。&lt;/p&gt;&#xA;&lt;p&gt;それで裏切られ傷つけられたとしても。&lt;/p&gt;&#xA;&lt;p&gt;今、搾取している手をとめ、欲に任せてむしゃぶりついている自分をとめ、隣人を殴り殺している手をとめ、顔を上げ少しだけ周りの人たちを見てください。&lt;/p&gt;&#xA;&lt;p&gt;そして手をさしのべ、愛を施してください。&lt;/p&gt;&#xA;&lt;p&gt;できるならお布施のココロで。&lt;/p&gt;&#xA;&lt;p&gt;人を憎むのをやめ、わずかな隣人でもいいので人を愛してください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>28日ごとの</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-02_28%E6%97%A5%E3%81%94%E3%81%A8%E3%81%AE/</link>
+      <pubDate>Fri, 02 Sep 2011 08:29:49 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-02_28%E6%97%A5%E3%81%94%E3%81%A8%E3%81%AE/</guid>
+      <description>&lt;p&gt;今日は28日ごとの心療内科に通う日です。&lt;/p&gt;&#xA;&lt;p&gt;新学期が始まって病院近くのコンビニには高校生がいっぱいいます。&lt;/p&gt;&#xA;&lt;p&gt;若い人達をみるだけでも元気が出てきます。&lt;/p&gt;&#xA;&lt;p&gt;台風直撃になりそうですが、こもらずにいきますよ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>すっかり油断してましたが</title>
+      <link>https://yuki9902-jp.github.io/posts/2011-09-01_%E3%81%99%E3%81%A3%E3%81%8B%E3%82%8A%E6%B2%B9%E6%96%AD%E3%81%97%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C/</link>
+      <pubDate>Thu, 01 Sep 2011 01:14:48 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2011-09-01_%E3%81%99%E3%81%A3%E3%81%8B%E3%82%8A%E6%B2%B9%E6%96%AD%E3%81%97%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F%E3%81%8C/</guid>
+      <description>&lt;p&gt;もう9月ですね。&lt;/p&gt;&#xA;&lt;p&gt;今年も4ヶ月足らず。&lt;/p&gt;&#xA;&lt;p&gt;やりたいことがあっても、それに夢が持てなくて苦しいですが、なんとか生きていかなければいけません。&lt;/p&gt;&#xA;&lt;p&gt;なにもかにもがめんどくさい。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
