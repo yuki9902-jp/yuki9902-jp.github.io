@@ -2,248 +2,248 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019-07 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2019-07/</link>
+    <link>http://localhost:1313/archives/2019-07/</link>
     <description>Recent content in 2019-07 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 31 Jul 2019 21:49:19 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2019-07/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2019-07/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今日はアカン</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-31_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%A2%E3%82%AB%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2019-07-31_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%A2%E3%82%AB%E3%83%B3/</link>
       <pubDate>Wed, 31 Jul 2019 21:49:19 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-31_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%A2%E3%82%AB%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2019-07-31_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%82%A2%E3%82%AB%E3%83%B3/</guid>
       <description>&lt;p&gt;今日も朝からイノシシ除けの電柵設置でした。&lt;/p&gt;&#xA;&lt;p&gt;太陽が山際から顔を出すと熱いです。&lt;/p&gt;&#xA;&lt;p&gt;今日は熱中症の症状で、目眩がします。&lt;/p&gt;&#xA;&lt;p&gt;頭痛なら耐えれば良いのですが、目眩はいけません。&lt;/p&gt;&#xA;&lt;p&gt;立ってられないし、視界がグルグル回って気持ち悪いです。&lt;/p&gt;&#xA;&lt;p&gt;上空にチベット高気圧が蓋をして、夜も気温が高いですね。&lt;/p&gt;&#xA;&lt;p&gt;あー、ラーメン食べに行きたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お熱うございます</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-30_%E3%81%8A%E7%86%B1%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-07-30_%E3%81%8A%E7%86%B1%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Tue, 30 Jul 2019 14:57:10 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-30_%E3%81%8A%E7%86%B1%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-07-30_%E3%81%8A%E7%86%B1%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;今朝は、イノシシが田圃の畦を崩したのを発見し、イノシシ除けの電気柵を設置しておりました。&lt;/p&gt;&#xA;&lt;p&gt;朝の涼しい時間帯であったとは言え、陽射しを浴びると滅茶苦茶熱いです。&lt;/p&gt;&#xA;&lt;p&gt;お茶をのみのみ作業をしておりましたが、最後の方には熱中症気味になっており、ふらふらで頭痛がしてました。&lt;/p&gt;&#xA;&lt;p&gt;作業を終えて、キャストオフして、扇風機の風でクールダウン。&lt;/p&gt;&#xA;&lt;p&gt;そのあと冷水でシャワーを浴びて、アイスクリームを食べて、ちょっと落ち着きました。&lt;/p&gt;&#xA;&lt;p&gt;昼ご飯を食べた後に、スポーツドリンクを飲んで、自室でエアコンを点けて昼寝をして、ただ今起きました。&lt;/p&gt;&#xA;&lt;p&gt;少し楽になりました。&lt;/p&gt;&#xA;&lt;p&gt;今は薄めた珈琲をアイスで飲んでおります。&lt;/p&gt;&#xA;&lt;p&gt;ふう。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CPUの温度が高いと思ったら</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-29_cpu%E3%81%AE%E6%B8%A9%E5%BA%A6%E3%81%8C%E9%AB%98%E3%81%84%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89/</link>
+      <link>http://localhost:1313/posts/2019-07-29_cpu%E3%81%AE%E6%B8%A9%E5%BA%A6%E3%81%8C%E9%AB%98%E3%81%84%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89/</link>
       <pubDate>Mon, 29 Jul 2019 19:56:58 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-29_cpu%E3%81%AE%E6%B8%A9%E5%BA%A6%E3%81%8C%E9%AB%98%E3%81%84%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89/</guid>
+      <guid>http://localhost:1313/posts/2019-07-29_cpu%E3%81%AE%E6%B8%A9%E5%BA%A6%E3%81%8C%E9%AB%98%E3%81%84%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E3%82%89/</guid>
       <description>&lt;p&gt;パソコンのCPUの温度が高いと思ったら、室温が31度を超えてました。&lt;/p&gt;&#xA;&lt;p&gt;日が沈む前より暑くなってます。&lt;/p&gt;&#xA;&lt;p&gt;どうやら東から湿気の多い熱い空気が流れ込んでいるようです。&lt;/p&gt;&#xA;&lt;p&gt;歳をとってエアコンの風で節々が痛くなるようになったので、暑くても扇風機に頼ってます。&lt;/p&gt;&#xA;&lt;p&gt;扇風機も風が当たりすぎると痛くなりますけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>蒸し暑かった</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-28_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2019-07-28_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F/</link>
       <pubDate>Sun, 28 Jul 2019 21:59:48 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-28_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2019-07-28_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;今日は蒸し暑さにまいりました。&lt;/p&gt;&#xA;&lt;p&gt;買い物に出かけたんですが、朝は26度で曇り空でした。&lt;/p&gt;&#xA;&lt;p&gt;湿度が非常に高く、お昼頃に雨が降り始めました。&lt;/p&gt;&#xA;&lt;p&gt;水たまりが出来るくらいには雨が降ったんですが、直ぐに止みました。&lt;/p&gt;&#xA;&lt;p&gt;そのあと薄曇りになり、太陽の熱で蒸し風呂状態になりました。&lt;/p&gt;&#xA;&lt;p&gt;太陽は熱いし、空気も熱い。&lt;/p&gt;&#xA;&lt;p&gt;山の上の家に帰っても暑いままです。&lt;/p&gt;&#xA;&lt;p&gt;北京ビキニでも暑さに耐えきれず、上半身裸になってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;ポリエステルやアクリルの繊維は駄目ですね。&lt;/p&gt;&#xA;&lt;p&gt;接触冷感だろうと、急乾燥素材だろうと、体の湿気を全く吸収しないので暑くて不快でした。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり100％コットンじゃなきゃ駄目です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>こんちは</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-27_%E3%81%93%E3%82%93%E3%81%A1%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2019-07-27_%E3%81%93%E3%82%93%E3%81%A1%E3%81%AF/</link>
       <pubDate>Sat, 27 Jul 2019 12:17:30 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-27_%E3%81%93%E3%82%93%E3%81%A1%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2019-07-27_%E3%81%93%E3%82%93%E3%81%A1%E3%81%AF/</guid>
       <description>&lt;p&gt;暑いです。&lt;/p&gt;&#xA;&lt;p&gt;暑いです。&lt;/p&gt;&#xA;&lt;p&gt;暑いです。&lt;/p&gt;&#xA;&lt;p&gt;昼は片栗粉をまぶした茄子の揚げ物をめんつゆに浸して冷やしたものと素麺を作りました。&lt;/p&gt;&#xA;&lt;p&gt;お腹の調子がずっと良くないですが、暑いので仕方ない。&lt;/p&gt;&#xA;&lt;p&gt;さてこんな暑い午後は何をしましょうか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ドスン</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-26_%E3%83%89%E3%82%B9%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2019-07-26_%E3%83%89%E3%82%B9%E3%83%B3/</link>
       <pubDate>Fri, 26 Jul 2019 22:55:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-26_%E3%83%89%E3%82%B9%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2019-07-26_%E3%83%89%E3%82%B9%E3%83%B3/</guid>
       <description>&lt;p&gt;今朝4時頃、部屋のごみ箱をガサガサと漁るような音が聞こえたので、目が覚めて、起きようとして寝返り打ったら、ベッドから落ちました。&lt;/p&gt;&#xA;&lt;p&gt;40センチほどなのでなんともないですが、で、起きたら音が止んでそれ以降は音がしなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;たぶんネズミだと思いますけど。&lt;/p&gt;&#xA;&lt;p&gt;二度寝して日が昇って起きて、部屋の掃除をしました。&lt;/p&gt;&#xA;&lt;p&gt;パソコンの内部の埃も、扇風機にこびりついた埃も。&lt;/p&gt;&#xA;&lt;p&gt;日が沈んでからもしばらく暑かったですが、今は涼しくなってきました。&lt;/p&gt;&#xA;&lt;p&gt;それでも湿気が多い気がします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>バダンタン ムーンライト</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-26_%E3%83%90%E3%83%80%E3%83%B3%E3%82%BF%E3%83%B3-%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88/</link>
+      <link>http://localhost:1313/posts/2019-07-26_%E3%83%90%E3%83%80%E3%83%B3%E3%82%BF%E3%83%B3-%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88/</link>
       <pubDate>Fri, 26 Jul 2019 18:14:10 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-26_%E3%83%90%E3%83%80%E3%83%B3%E3%82%BF%E3%83%B3-%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88/</guid>
+      <guid>http://localhost:1313/posts/2019-07-26_%E3%83%90%E3%83%80%E3%83%B3%E3%82%BF%E3%83%B3-%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12498083340-14513194486.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190726/18/yuki9902/de/2c/j/o1080081014513194486.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;朝に仕込んだ水出し紅茶を飲みます。&lt;/p&gt;&#xA;&lt;p&gt;生の玉ねぎのスライスを食べて味も匂いも分かりません(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;暑いです！&lt;/p&gt;&#xA;&lt;p&gt;湿度が高くて汗がじっとり。&lt;/p&gt;&#xA;&lt;p&gt;昼に豚カツを作ったら肉が薄すぎて揚げすぎました。&lt;/p&gt;&#xA;&lt;p&gt;大失敗です。&lt;/p&gt;&#xA;&lt;p&gt;最近、料理を失敗してばっかだな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ラムレーズンのジェラート</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%83%A9%E3%83%A0%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%AE%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88/</link>
+      <link>http://localhost:1313/posts/2019-07-25_%E3%83%A9%E3%83%A0%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%AE%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88/</link>
       <pubDate>Thu, 25 Jul 2019 23:17:54 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%83%A9%E3%83%A0%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%AE%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88/</guid>
+      <guid>http://localhost:1313/posts/2019-07-25_%E3%83%A9%E3%83%A0%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%AE%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88/</guid>
       <description>&lt;p&gt;我が家から南に12キロほど行ったところに、「安富牧場」という乳牛の畜産をやっているところがあります。&lt;/p&gt;&#xA;&lt;p&gt;そこで作っているジェラート、ソフトクリーム、牛乳が美味しくて人気があります。&lt;/p&gt;&#xA;&lt;p&gt;ずっと昔から存在は知っていたのですが、先月まで行ったことがなかったので、行ってみました。&lt;/p&gt;&#xA;&lt;p&gt;初めての時は、シングルのカップのジェラートで、ミルクを食べました。&lt;/p&gt;&#xA;&lt;p&gt;乳脂肪がしっかりとして美味しかったです。&lt;/p&gt;&#xA;&lt;p&gt;今日もまた行きました。&lt;/p&gt;&#xA;&lt;p&gt;今日はシングルのカップのジェラートで、ラムレーズンを食べました。&lt;/p&gt;&#xA;&lt;p&gt;ラム酒に漬けたレーズンがかなり甘いですが、美味しかったです。&lt;/p&gt;&#xA;&lt;p&gt;市販のラクトアイスと違って、乳脂肪がしっかりと感じられるので、美味しいですし、お腹も壊しにくいかな。&lt;/p&gt;&#xA;&lt;p&gt;シングルは350円でカップに山盛りに入っています。&lt;/p&gt;&#xA;&lt;p&gt;ダブルは450円で二つの味が楽しめて、更に山盛りに入っています。&lt;/p&gt;&#xA;&lt;p&gt;油断していると溶けてこぼれます。&lt;/p&gt;&#xA;&lt;p&gt;イオンモール岡山の5階でも売っているし、ネットで通信販売でも手に入るので、乳脂肪分が多くても大丈夫な人は試してみたらどう？&lt;/p&gt;</description>
     </item>
     <item>
       <title>バーネスベグ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%83%90%E3%83%BC%E3%83%8D%E3%82%B9%E3%83%99%E3%82%B0/</link>
+      <link>http://localhost:1313/posts/2019-07-25_%E3%83%90%E3%83%BC%E3%83%8D%E3%82%B9%E3%83%99%E3%82%B0/</link>
       <pubDate>Thu, 25 Jul 2019 19:29:25 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%83%90%E3%83%BC%E3%83%8D%E3%82%B9%E3%83%99%E3%82%B0/</guid>
+      <guid>http://localhost:1313/posts/2019-07-25_%E3%83%90%E3%83%BC%E3%83%8D%E3%82%B9%E3%83%99%E3%82%B0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12497772475-14512407634.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190725/19/yuki9902/48/cc/j/o1080081014512407634.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;2019年春摘みのダージリンです。&lt;/p&gt;&#xA;&lt;p&gt;お腹ゆるゆるです。&lt;/p&gt;&#xA;&lt;p&gt;でも暑いので飲みます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2019-07-25_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Thu, 25 Jul 2019 06:11:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-25_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2019-07-25_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;夜間の気温が25度を超えたので夜中に何度か目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;僅かな違いでも神経が感じ取ってしまいます。&lt;/p&gt;&#xA;&lt;p&gt;昼間は蒸し暑くて、なぜか睡くなるし。&lt;/p&gt;&#xA;&lt;p&gt;蒸し暑いときに扇風機で体表面の熱をとると睡くなるようです。&lt;/p&gt;&#xA;&lt;p&gt;寝てる間に脱水症状になります。&lt;/p&gt;&#xA;&lt;p&gt;さてそろそろ病院に行って来ます。&lt;/p&gt;&#xA;&lt;p&gt;皆さん、体調を崩しませんように、そして事件に巻き込まれませんように。&lt;/p&gt;&#xA;&lt;p&gt;危険からは逃げましょう！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ゆるゆる</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-24_%E3%82%86%E3%82%8B%E3%82%86%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-07-24_%E3%82%86%E3%82%8B%E3%82%86%E3%82%8B/</link>
       <pubDate>Wed, 24 Jul 2019 23:51:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-24_%E3%82%86%E3%82%8B%E3%82%86%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-07-24_%E3%82%86%E3%82%8B%E3%82%86%E3%82%8B/</guid>
       <description>&lt;p&gt;今日は、昨日からの氷水の飲み過ぎでお腹ゆるゆるでした。&lt;/p&gt;&#xA;&lt;p&gt;でも暑いから飲まないと熱中症になるので、氷水を飲んでました。&lt;/p&gt;&#xA;&lt;p&gt;明日は心療内科に行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;明日も暑そうです。&lt;/p&gt;&#xA;&lt;p&gt;水分補給をしっかりして調子が悪いと感じたら、涼しいところで休憩しましょう。&lt;/p&gt;&#xA;&lt;p&gt;無理は駄目よ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ice water</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-24_ice-water/</link>
+      <link>http://localhost:1313/posts/2019-07-24_ice-water/</link>
       <pubDate>Wed, 24 Jul 2019 01:06:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-24_ice-water/</guid>
+      <guid>http://localhost:1313/posts/2019-07-24_ice-water/</guid>
       <description>&lt;p&gt;氷水のとりすぎでお腹が冷えて壊しました。&lt;/p&gt;&#xA;&lt;p&gt;夜になってちょっと肌寒いです。&lt;/p&gt;&#xA;&lt;p&gt;皆さん、良い夢を見てください。&lt;/p&gt;&#xA;&lt;p&gt;悲しいことも辛いことも忘れて、今夜はゆっくり眠りましょう。&lt;/p&gt;&#xA;&lt;p&gt;あなたが明日、笑顔いられますように。&lt;/p&gt;&#xA;&lt;p&gt;おやすみなさい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まだ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-23_%E3%81%BE%E3%81%A0/</link>
+      <link>http://localhost:1313/posts/2019-07-23_%E3%81%BE%E3%81%A0/</link>
       <pubDate>Tue, 23 Jul 2019 23:13:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-23_%E3%81%BE%E3%81%A0/</guid>
+      <guid>http://localhost:1313/posts/2019-07-23_%E3%81%BE%E3%81%A0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12497209820-14510992520.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190723/23/yuki9902/81/38/j/o1080081014510992520.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;128個のLEDを付け終わって、Arduino UNOで制御しているのですが、シフトレジスタへのデータ送出が上手く出来ていません。&lt;/p&gt;&#xA;&lt;p&gt;だいたいの原因は分かっているのですが、プログラムを書くのがなんとなく面倒です。&lt;/p&gt;&#xA;&lt;p&gt;明日、頑張ります(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>128個の祈り</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-22_128%E5%80%8B%E3%81%AE%E7%A5%88%E3%82%8A/</link>
+      <link>http://localhost:1313/posts/2019-07-22_128%E5%80%8B%E3%81%AE%E7%A5%88%E3%82%8A/</link>
       <pubDate>Mon, 22 Jul 2019 23:19:47 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-22_128%E5%80%8B%E3%81%AE%E7%A5%88%E3%82%8A/</guid>
+      <guid>http://localhost:1313/posts/2019-07-22_128%E5%80%8B%E3%81%AE%E7%A5%88%E3%82%8A/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12496896109-14510083961.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190722/23/yuki9902/a4/51/j/o1080081014510083961.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;128個のLEDをヤスリ掛けして半田付けしました。&lt;/p&gt;&#xA;&lt;p&gt;10日かかったのかな。&lt;/p&gt;&#xA;&lt;p&gt;長かった。&lt;/p&gt;&#xA;&lt;p&gt;毎日毎日、酷いことが起こってるけど、それでも戦後すぐぐらいよりも半分以下に減ってる。&lt;/p&gt;&#xA;&lt;p&gt;動物の死因の2％は同族同士。&lt;/p&gt;&#xA;&lt;p&gt;人間もその例外ではないらしい。&lt;/p&gt;&#xA;&lt;p&gt;1998年から自殺者が急増して、他殺は一気に減少して1.5％を下回っていたけれど･･･。&lt;/p&gt;&#xA;&lt;p&gt;減っているからこそ、凶悪なのが目立つのかも。&lt;/p&gt;&#xA;&lt;p&gt;理不尽なことに巻き込まれる人が居ないように祈るばかり。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日のこと</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%93%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2019-07-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%93%E3%81%A8/</link>
       <pubDate>Sun, 21 Jul 2019 19:44:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%93%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2019-07-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%93%E3%81%A8/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12496511894-14508963139.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190721/19/yuki9902/4b/86/j/o1080081014508963139.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12496511894-14508963191.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190721/19/yuki9902/f4/08/j/o1080081014508963191.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12496511894-14508963216.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190721/19/yuki9902/af/db/j/o1080081014508963216.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12496511894-14508963254.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190721/19/yuki9902/d1/24/j/o1080081014508963254.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日はともがらと昼飯喰って、茶しばいて、活動写真を見てきた。&lt;/p&gt;&#xA;&lt;p&gt;雨がポツポツと降ったり、やんだり、湿気でむわーっと暑い一日だった。&lt;/p&gt;&#xA;&lt;p&gt;映画の途中でトイレに行きたくて困った。&lt;/p&gt;&#xA;&lt;p&gt;今日は午後だけで4杯もコーヒー飲んだから(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>96個目の思うこと</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-19_96%E5%80%8B%E7%9B%AE%E3%81%AE%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2019-07-19_96%E5%80%8B%E7%9B%AE%E3%81%AE%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8/</link>
       <pubDate>Fri, 19 Jul 2019 01:03:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-19_96%E5%80%8B%E7%9B%AE%E3%81%AE%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2019-07-19_96%E5%80%8B%E7%9B%AE%E3%81%AE%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12495518114-14506259543.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190719/01/yuki9902/ac/dc/j/o1080081014506259543.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LEDを96個つけました。&lt;/p&gt;&#xA;&lt;p&gt;あと32個です。&lt;/p&gt;&#xA;&lt;p&gt;8個つけるのにヤスリ掛け込みで1時間かかります。&lt;/p&gt;&#xA;&lt;p&gt;1日に8個か16個か、それぐらいで疲れます。&lt;/p&gt;&#xA;&lt;p&gt;と言うか面倒くさくなってしまいます。&lt;/p&gt;&#xA;&lt;p&gt;なので少しずつ作業してます。&lt;/p&gt;&#xA;&lt;p&gt;128個付け終わったら、プログラムを完成させなきゃ。&lt;/p&gt;&#xA;&lt;p&gt;今日はもう寝ます。&lt;/p&gt;&#xA;&lt;p&gt;毎日、悲惨な事ばかり。&lt;/p&gt;&#xA;&lt;p&gt;その原因は人間の心。&lt;/p&gt;&#xA;&lt;p&gt;現代人は老若男女、みな我が強すぎる。&lt;/p&gt;&#xA;&lt;p&gt;我が欲を満たし富と名声さえあればそれが絶対なような風潮、ノイジーマイノリティーが叫ぶ自分勝手な正義。&lt;/p&gt;&#xA;&lt;p&gt;他人（ひと）を幸せにすることを考えようぜ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>豪雨です</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-18_%E8%B1%AA%E9%9B%A8%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-07-18_%E8%B1%AA%E9%9B%A8%E3%81%A7%E3%81%99/</link>
       <pubDate>Thu, 18 Jul 2019 17:41:27 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-18_%E8%B1%AA%E9%9B%A8%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-07-18_%E8%B1%AA%E9%9B%A8%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;京アニの放火殺人事件でどよーんとしているところで、大雨です。&lt;/p&gt;&#xA;&lt;p&gt;豪雨になってます。&lt;/p&gt;&#xA;&lt;p&gt;しばらく降りそうです。&lt;/p&gt;&#xA;&lt;p&gt;時間雨量50ミリを超えそうです。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとヤバいかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>月が昇る</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-16_%E6%9C%88%E3%81%8C%E6%98%87%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-07-16_%E6%9C%88%E3%81%8C%E6%98%87%E3%82%8B/</link>
       <pubDate>Tue, 16 Jul 2019 19:56:03 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-16_%E6%9C%88%E3%81%8C%E6%98%87%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-07-16_%E6%9C%88%E3%81%8C%E6%98%87%E3%82%8B/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12494768259-14504249318.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190716/19/yuki9902/5b/a4/j/o0966064014504249318.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;黄色の月が昇ってきました。&lt;/p&gt;&#xA;&lt;p&gt;すぐ北の山では雷が鳴っています。&lt;/p&gt;&#xA;&lt;p&gt;天気の急変に気をつけましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>脳が震える</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-15_%E8%84%B3%E3%81%8C%E9%9C%87%E3%81%88%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2019-07-15_%E8%84%B3%E3%81%8C%E9%9C%87%E3%81%88%E3%82%8B/</link>
       <pubDate>Mon, 15 Jul 2019 22:09:12 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-15_%E8%84%B3%E3%81%8C%E9%9C%87%E3%81%88%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2019-07-15_%E8%84%B3%E3%81%8C%E9%9C%87%E3%81%88%E3%82%8B/</guid>
       <description>&lt;p&gt;震えたら脳震盪なのでそういうわけではないですが、草刈りをして体温が上がって頭痛がしてました。&lt;/p&gt;&#xA;&lt;p&gt;夜になって外が涼しくなって、体温が下がり痛みもとれてきました。&lt;/p&gt;&#xA;&lt;p&gt;熱中症には気をつけましょう。&lt;/p&gt;&#xA;&lt;p&gt;怠さや気持ち悪さ、頭痛などを感じたら、体を直ぐに冷やしましょう。&lt;/p&gt;&#xA;&lt;p&gt;そうそう、漸くLEDを64個半田付けしました。&lt;/p&gt;&#xA;&lt;p&gt;残り64個もゆっくりですが取り付けていきます。&lt;/p&gt;&#xA;&lt;p&gt;チマチマした作業は苦手ですが、やらないと出来ないのなら頑張ります。&lt;/p&gt;&#xA;&lt;p&gt;ガンプラほど難しくはないから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>アイスコーヒー</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-14_%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/</link>
+      <link>http://localhost:1313/posts/2019-07-14_%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/</link>
       <pubDate>Sun, 14 Jul 2019 21:17:21 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-14_%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/</guid>
+      <guid>http://localhost:1313/posts/2019-07-14_%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12494029622-14502217956.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190714/21/yuki9902/97/65/j/o1080081014502217956.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;市販品のブラックコーヒーを飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;香料、保存料なしの原材料コーヒーのみの商品です。&lt;/p&gt;&#xA;&lt;p&gt;こんな時間に飲んじゃいけないですが、すっきりしたいときはブラックコーヒーです。&lt;/p&gt;&#xA;&lt;p&gt;今日は曇り時々雨。&lt;/p&gt;&#xA;&lt;p&gt;明日はあなたの笑顔はお日様でしょうか？&lt;/p&gt;</description>
     </item>
     <item>
       <title>並べ直し</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-12_%E4%B8%A6%E3%81%B9%E7%9B%B4%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2019-07-12_%E4%B8%A6%E3%81%B9%E7%9B%B4%E3%81%97/</link>
       <pubDate>Fri, 12 Jul 2019 23:58:50 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-12_%E4%B8%A6%E3%81%B9%E7%9B%B4%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2019-07-12_%E4%B8%A6%E3%81%B9%E7%9B%B4%E3%81%97/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12493276821-14500166795.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190713/00/yuki9902/c0/9f/j/o1080081014500166795.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LEDの大きさが微妙に大きく、ピッタリくっつけて並べられないので、ヤスリで削って並べ直してます。&lt;/p&gt;&#xA;&lt;p&gt;128個並べるつもりなので頑張って削ります。&lt;/p&gt;&#xA;&lt;p&gt;同じ作業と言うのが苦手なので、苦行みたいです(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cold brewed Coffee</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-12_cold-brewed-coffee/</link>
+      <link>http://localhost:1313/posts/2019-07-12_cold-brewed-coffee/</link>
       <pubDate>Fri, 12 Jul 2019 18:32:47 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-12_cold-brewed-coffee/</guid>
+      <guid>http://localhost:1313/posts/2019-07-12_cold-brewed-coffee/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12493178011-14499901050.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190712/18/yuki9902/c7/1d/j/o0810108014499901050.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;簡単な水出しコーヒーです。&lt;/p&gt;&#xA;&lt;p&gt;AfternoonTeaでパンダ柄の保温カップを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;高いですが断熱性が高く昼に入れた氷がまだ溶けていませんでした。&lt;/p&gt;&#xA;&lt;p&gt;地味に技術があがってますね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>眠い</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-12_%E7%9C%A0%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2019-07-12_%E7%9C%A0%E3%81%84/</link>
       <pubDate>Fri, 12 Jul 2019 01:04:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-12_%E7%9C%A0%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2019-07-12_%E7%9C%A0%E3%81%84/</guid>
       <description>&lt;p&gt;夜風が寒いです。&lt;/p&gt;&#xA;&lt;p&gt;まあここら辺では普通か。&lt;/p&gt;&#xA;&lt;p&gt;一年のうちに夜にエアコンを使うのは一週間もないので。&lt;/p&gt;&#xA;&lt;p&gt;体を冷やしすぎないようにしましょう。&lt;/p&gt;&#xA;&lt;p&gt;体が冷えると色々な病気になりやすいです。&lt;/p&gt;&#xA;&lt;p&gt;ああ、眠。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨上がり</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-11_%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A/</link>
+      <link>http://localhost:1313/posts/2019-07-11_%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A/</link>
       <pubDate>Thu, 11 Jul 2019 13:22:12 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-11_%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A/</guid>
+      <guid>http://localhost:1313/posts/2019-07-11_%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12492732151-14498670512.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190711/13/yuki9902/d7/8b/j/o1080081014498670512.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;雨が止み、太陽が照っています。&lt;/p&gt;&#xA;&lt;p&gt;瀬戸内の風は湿気を含んでますが、気持ちいい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>レモネード</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-11_%E3%83%AC%E3%83%A2%E3%83%8D%E3%83%BC%E3%83%89/</link>
+      <link>http://localhost:1313/posts/2019-07-11_%E3%83%AC%E3%83%A2%E3%83%8D%E3%83%BC%E3%83%89/</link>
       <pubDate>Thu, 11 Jul 2019 10:58:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-11_%E3%83%AC%E3%83%A2%E3%83%8D%E3%83%BC%E3%83%89/</guid>
+      <guid>http://localhost:1313/posts/2019-07-11_%E3%83%AC%E3%83%A2%E3%83%8D%E3%83%BC%E3%83%89/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12492693273-14498575604.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190711/11/yuki9902/05/1e/j/o1080081014498575604.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;所用があって街中にいます。&lt;/p&gt;&#xA;&lt;p&gt;暇です。&lt;/p&gt;&#xA;&lt;p&gt;ショッピングモールで贈り物と自分用のカップを買って、レモネードを飲みながら時間つぶし。&lt;/p&gt;&#xA;&lt;p&gt;ふー。&lt;/p&gt;</description>
     </item>
     <item>
       <title>悩んだ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-09_%E6%82%A9%E3%82%93%E3%81%A0/</link>
+      <link>http://localhost:1313/posts/2019-07-09_%E6%82%A9%E3%82%93%E3%81%A0/</link>
       <pubDate>Tue, 09 Jul 2019 23:29:24 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-09_%E6%82%A9%E3%82%93%E3%81%A0/</guid>
+      <guid>http://localhost:1313/posts/2019-07-09_%E6%82%A9%E3%82%93%E3%81%A0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12492248857-14497368224.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190709/23/yuki9902/ea/64/j/o1080081014497368224.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;できるだけスッキリとさせ、簡単に配線できるように部品の配置に悩みました。&lt;/p&gt;&#xA;&lt;p&gt;これでマトリクスLEDを制御します。&lt;/p&gt;&#xA;&lt;p&gt;マトリクスLEDにはピンコードで直接接続します。&lt;/p&gt;&#xA;&lt;p&gt;マトリクスLEDを簡易ディスプレイとして、タイマーや時計などとして組み込めるはずです。&lt;/p&gt;&#xA;&lt;p&gt;一度ブレッドボードで動作確認をした回路ですが、これがちゃんと動くか検証しなくては。&lt;/p&gt;&#xA;&lt;p&gt;それからもっとプログラムを改良しないと。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ヒマ</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-08_%E3%83%92%E3%83%9E/</link>
+      <link>http://localhost:1313/posts/2019-07-08_%E3%83%92%E3%83%9E/</link>
       <pubDate>Mon, 08 Jul 2019 13:58:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-08_%E3%83%92%E3%83%9E/</guid>
+      <guid>http://localhost:1313/posts/2019-07-08_%E3%83%92%E3%83%9E/</guid>
       <description>&lt;p&gt;岡山市民病院でずっと待ってます。&lt;/p&gt;&#xA;&lt;p&gt;ヒマです。&lt;/p&gt;&#xA;&lt;p&gt;そして、ここのところ目眩が続いています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>シフトレジスタを使う</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-07_%E3%82%B7%E3%83%95%E3%83%88%E3%83%AC%E3%82%B8%E3%82%B9%E3%82%BF%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2019-07-07_%E3%82%B7%E3%83%95%E3%83%88%E3%83%AC%E3%82%B8%E3%82%B9%E3%82%BF%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Sun, 07 Jul 2019 23:34:38 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-07_%E3%82%B7%E3%83%95%E3%83%88%E3%83%AC%E3%82%B8%E3%82%B9%E3%82%BF%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2019-07-07_%E3%82%B7%E3%83%95%E3%83%88%E3%83%AC%E3%82%B8%E3%82%B9%E3%82%BF%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12491506074-14495229847.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190707/23/yuki9902/45/eb/j/o1080081014495229847.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;マイコンボードのArduino UNOからシフトレジスタを使って、8*8 Matrix LEDを制御してみました。&lt;/p&gt;&#xA;&lt;p&gt;シフトレジスタに送る2バイトのデータを処理するのが難しくて、プログラムに1日かかりました。&lt;/p&gt;&#xA;&lt;p&gt;16個のスイッチをどの順番でオンオフするかをきちんと決めるだけですが、2進数や16進数や10進数が入り乱れ、ビットスライドや逆数をとったりなど混乱します。&lt;/p&gt;&#xA;&lt;p&gt;今日は朝に猪に崩された田圃の畦と溝を直したり猪除けの電柵を設置したり、熱中症気味で頭痛いです。&lt;/p&gt;&#xA;&lt;p&gt;疲れた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>暑いです</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-06_%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2019-07-06_%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Sat, 06 Jul 2019 12:15:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-06_%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2019-07-06_%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;今日は薄い雲があるもののしっかりとした陽射しが降り注いでいます。&lt;/p&gt;&#xA;&lt;p&gt;暑いです。&lt;/p&gt;&#xA;&lt;p&gt;今日は失敗した基板からハンダを吸い取って、部品をサルベージします。&lt;/p&gt;&#xA;&lt;p&gt;基板はパターンが剥離してしまうことが多いので難しいです。&lt;/p&gt;&#xA;&lt;p&gt;ハンダの吸い取り作業も熱いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>大賀蓮（備中高松城跡）</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-05_%E5%A4%A7%E8%B3%80%E8%93%AE%E5%82%99%E4%B8%AD%E9%AB%98%E6%9D%BE%E5%9F%8E%E8%B7%A1/</link>
+      <link>http://localhost:1313/posts/2019-07-05_%E5%A4%A7%E8%B3%80%E8%93%AE%E5%82%99%E4%B8%AD%E9%AB%98%E6%9D%BE%E5%9F%8E%E8%B7%A1/</link>
       <pubDate>Fri, 05 Jul 2019 08:58:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-05_%E5%A4%A7%E8%B3%80%E8%93%AE%E5%82%99%E4%B8%AD%E9%AB%98%E6%9D%BE%E5%9F%8E%E8%B7%A1/</guid>
+      <guid>http://localhost:1313/posts/2019-07-05_%E5%A4%A7%E8%B3%80%E8%93%AE%E5%82%99%E4%B8%AD%E9%AB%98%E6%9D%BE%E5%9F%8E%E8%B7%A1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12490347940-14492097022.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190705/09/yuki9902/20/e5/j/o1080081014492097022.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;おはようございます。&lt;/p&gt;&#xA;&lt;p&gt;朝のセカセカした雰囲気にせめてもの癒やしを。&lt;/p&gt;&#xA;&lt;p&gt;泥のような世界の中でもあなたの心は綺麗に咲き誇れ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>作成中</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-03_%E4%BD%9C%E6%88%90%E4%B8%AD/</link>
+      <link>http://localhost:1313/posts/2019-07-03_%E4%BD%9C%E6%88%90%E4%B8%AD/</link>
       <pubDate>Wed, 03 Jul 2019 21:38:10 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-03_%E4%BD%9C%E6%88%90%E4%B8%AD/</guid>
+      <guid>http://localhost:1313/posts/2019-07-03_%E4%BD%9C%E6%88%90%E4%B8%AD/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12489832644-14490673303.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190703/21/yuki9902/0d/6f/j/o1080081014490673303.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LEDの数が足りないので８*８の64個のドットディスプレイを作成中です。&lt;/p&gt;&#xA;&lt;p&gt;後で64個追加できるように配置していますが、本当に増やせるだろうか。&lt;/p&gt;&#xA;&lt;p&gt;半田も半田吸い取り線も半田メッキ線も残りわずかなので、先ほど発注しました。&lt;/p&gt;&#xA;&lt;p&gt;電子部品は必要になってもすぐには手に入らないので作成欲が下がっちゃう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>七夕のお願いごとは何？</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-03_%E4%B8%83%E5%A4%95%E3%81%AE%E3%81%8A%E9%A1%98%E3%81%84%E3%81%94%E3%81%A8%E3%81%AF%E4%BD%95/</link>
+      <link>http://localhost:1313/posts/2019-07-03_%E4%B8%83%E5%A4%95%E3%81%AE%E3%81%8A%E9%A1%98%E3%81%84%E3%81%94%E3%81%A8%E3%81%AF%E4%BD%95/</link>
       <pubDate>Wed, 03 Jul 2019 12:33:32 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-03_%E4%B8%83%E5%A4%95%E3%81%AE%E3%81%8A%E9%A1%98%E3%81%84%E3%81%94%E3%81%A8%E3%81%AF%E4%BD%95/</guid>
+      <guid>http://localhost:1313/posts/2019-07-03_%E4%B8%83%E5%A4%95%E3%81%AE%E3%81%8A%E9%A1%98%E3%81%84%E3%81%94%E3%81%A8%E3%81%AF%E4%BD%95/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/089.png&#34; alt=&#34;星&#34;&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/090.png&#34; alt=&#34;流れ星&#34;&gt;七夕のお願いごとは何？&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/002.png&#34; alt=&#34;ニコニコ&#34;&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/088.png&#34; alt=&#34;キラキラ&#34;&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://content.ameba.jp/campaigns/tanabata2019/&#34;&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/img/stamp/cpn/tanabata2019/editor_stamp.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;#七夕2019をつけてブログを書くと！？&lt;br&gt;&#xA;あなたのブログに何かが起こる！&lt;br&gt;&#xA;&lt;a href=&#34;http://content.ameba.jp/campaigns/tanabata2019/&#34;&gt;詳細を見る&lt;/a&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/122.png&#34; alt=&#34;右矢印&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;願い事&lt;/p&gt;&#xA;&lt;p&gt;たくさんあるけど、大事な人達が健康になってくれれば良いな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SN74HC595N</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-02_sn74hc595n/</link>
+      <link>http://localhost:1313/posts/2019-07-02_sn74hc595n/</link>
       <pubDate>Tue, 02 Jul 2019 21:47:31 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-02_sn74hc595n/</guid>
+      <guid>http://localhost:1313/posts/2019-07-02_sn74hc595n/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12489418071-14489709866.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190702/21/yuki9902/af/ce/j/o1080081014489709866.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;シフトレジスタが届きました。&lt;/p&gt;&#xA;&lt;p&gt;まだ回路を作成中です。&lt;/p&gt;&#xA;&lt;p&gt;Raspberry piで動かすプログラムもまだ作ってません。&lt;/p&gt;&#xA;&lt;p&gt;気分がのったらボチボチと作ります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>剥離</title>
-      <link>https://yuki9902-jp.github.io/posts/2019-07-02_%E5%89%A5%E9%9B%A2/</link>
+      <link>http://localhost:1313/posts/2019-07-02_%E5%89%A5%E9%9B%A2/</link>
       <pubDate>Tue, 02 Jul 2019 02:03:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2019-07-02_%E5%89%A5%E9%9B%A2/</guid>
+      <guid>http://localhost:1313/posts/2019-07-02_%E5%89%A5%E9%9B%A2/</guid>
       <description>&lt;p&gt;64個のLEDを8行8列に並べて半田付けしてたんですが、幾つか失敗しました。&lt;/p&gt;&#xA;&lt;p&gt;1度半田付けをし終わったら幾つか歪んで付いていたので、半田ごてで再加熱してたら、基板剥離してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;ガラスエポキシ基板だと剥がれやすいんですかね。&lt;/p&gt;&#xA;&lt;p&gt;半田ごても温度設定が出来るものじゃないし、先端もだいぶ短くなってますし。&lt;/p&gt;&#xA;&lt;p&gt;半田ごての良いやつを買って、また練習しなくては。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-12 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2007-12/</link>
+    <link>http://localhost:1313/archives/2007-12/</link>
     <description>Recent content in 2007-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 25 Dec 2007 14:33:02 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2007-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2007-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小銭を稼ごう</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-25-%E5%B0%8F%E9%8A%AD%E3%82%92%E7%A8%BC%E3%81%94%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2007-12-25-%E5%B0%8F%E9%8A%AD%E3%82%92%E7%A8%BC%E3%81%94%E3%81%86/</link>
       <pubDate>Tue, 25 Dec 2007 14:33:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-25-%E5%B0%8F%E9%8A%AD%E3%82%92%E7%A8%BC%E3%81%94%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2007-12-25-%E5%B0%8F%E9%8A%AD%E3%82%92%E7%A8%BC%E3%81%94%E3%81%86/</guid>
       <description>&lt;p&gt;残業しろって業務命令だって。&lt;/p&gt;&#xA;&lt;p&gt;一応、時間外労働手当を出すってことらしいけど、仕事がないのに残業してどうすんの？&lt;/p&gt;&#xA;&lt;p&gt;すでに大火事になっているプロジェクトなのに余計な時間使って大丈夫？&lt;/p&gt;&#xA;&lt;p&gt;いまさら、焼け石に水かな。&lt;/p&gt;&#xA;&lt;p&gt;僕一人の作業時間なんて微々たるモノか。&lt;/p&gt;&#xA;&lt;p&gt;仕事ないけど、お金くれるなら居ようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>棒茄子</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-25-%E6%A3%92%E8%8C%84%E5%AD%90/</link>
+      <link>http://localhost:1313/posts/2007-12-25-%E6%A3%92%E8%8C%84%E5%AD%90/</link>
       <pubDate>Tue, 25 Dec 2007 14:07:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-25-%E6%A3%92%E8%8C%84%E5%AD%90/</guid>
+      <guid>http://localhost:1313/posts/2007-12-25-%E6%A3%92%E8%8C%84%E5%AD%90/</guid>
       <description>&lt;p&gt;あちゃー、ボーナス下がっちゃったよ。&lt;/p&gt;&#xA;&lt;p&gt;給与からの積み立てのはずなんだけどな。&lt;/p&gt;&#xA;&lt;p&gt;しょうがないか、今年は会社の人のせいで鬱病になって仕事もできなかったし、体調も崩して動けなくなって半月も休んじゃったしね。&lt;/p&gt;&#xA;&lt;p&gt;来年の夏には、元の額に回復させたいな。&lt;/p&gt;&#xA;&lt;p&gt;15万円も違うのは大きいよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>うぇ。</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-25-%E3%81%86%E3%81%87/</link>
+      <link>http://localhost:1313/posts/2007-12-25-%E3%81%86%E3%81%87/</link>
       <pubDate>Tue, 25 Dec 2007 13:29:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-25-%E3%81%86%E3%81%87/</guid>
+      <guid>http://localhost:1313/posts/2007-12-25-%E3%81%86%E3%81%87/</guid>
       <description>&lt;p&gt;やべぇっよ、間接がいてぇよ。&lt;/p&gt;&#xA;&lt;p&gt;インフルエンザかよ。&lt;/p&gt;&#xA;&lt;p&gt;気持ち悪ぃ。&lt;/p&gt;&#xA;&lt;p&gt;吐きそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>I want to use MT4 styles.</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-25-i-want-to-use-mt4-s/</link>
+      <link>http://localhost:1313/posts/2007-12-25-i-want-to-use-mt4-s/</link>
       <pubDate>Tue, 25 Dec 2007 11:06:59 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-25-i-want-to-use-mt4-s/</guid>
+      <guid>http://localhost:1313/posts/2007-12-25-i-want-to-use-mt4-s/</guid>
       <description>&lt;p&gt;とりあえず、MT4のサイトから手に入るスタイルを使ってみた。&lt;/p&gt;&#xA;&lt;p&gt;いや、http://drblog.jp/style4/からスタイルを借用してきた。&lt;/p&gt;&#xA;&lt;p&gt;文字の大きさや、サイドメニューの表示がどんな感じになるか試してみましょう。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとヘッダの画像が大きいけど、それなりに良い感じなようです。&lt;/p&gt;&#xA;&lt;p&gt;画像は差し替えようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>風邪</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-25-%E9%A2%A8%E9%82%AA/</link>
+      <link>http://localhost:1313/posts/2007-12-25-%E9%A2%A8%E9%82%AA/</link>
       <pubDate>Tue, 25 Dec 2007 08:25:26 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-25-%E9%A2%A8%E9%82%AA/</guid>
+      <guid>http://localhost:1313/posts/2007-12-25-%E9%A2%A8%E9%82%AA/</guid>
       <description>&lt;p&gt;うう、朝、起きた直後は眠いだけで大丈夫と思ったけど、仕事場に出てくるころには、気持ち悪くなった。&lt;/p&gt;&#xA;&lt;p&gt;今は、地に足がつかない状態というか、気持ち悪い。&lt;/p&gt;&#xA;&lt;p&gt;明日は休むか。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>テンプレートに苦戦</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-21-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E8%8B%A6%E6%88%A6/</link>
+      <link>http://localhost:1313/posts/2007-12-21-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E8%8B%A6%E6%88%A6/</link>
       <pubDate>Fri, 21 Dec 2007 01:36:53 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-21-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E8%8B%A6%E6%88%A6/</guid>
+      <guid>http://localhost:1313/posts/2007-12-21-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E8%8B%A6%E6%88%A6/</guid>
       <description>&lt;p&gt;MT4.01にアップグレードしました。&lt;/p&gt;&#xA;&lt;p&gt;非常に使いやすいインターフェイスでGoodです。&lt;/p&gt;&#xA;&lt;p&gt;WYSIWYGで画像などを表示させて編集することができるので非常に便利になりました。&lt;/p&gt;&#xA;&lt;p&gt;これまではどのように表示されるかは、頭の中で想像しながらタグを編集する必要がありました。&lt;/p&gt;&#xA;&lt;p&gt;これから投稿頻度を上げられるといいのですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>血洗の滝</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-20-%E8%A1%80%E6%B4%97%E3%81%AE%E6%BB%9D/</link>
+      <link>http://localhost:1313/posts/2007-12-20-%E8%A1%80%E6%B4%97%E3%81%AE%E6%BB%9D/</link>
       <pubDate>Thu, 20 Dec 2007 00:11:56 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-20-%E8%A1%80%E6%B4%97%E3%81%AE%E6%BB%9D/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP0349.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP0349-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;「血洗の滝」&lt;/p&gt;&#xA;&lt;p&gt;data:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K10D / smcPENTAX FAzoom 20-35mmF4AL&lt;/p&gt;&#xA;&lt;p&gt;F4 / 1/30s / -1.3EV / ISO100 / 20mm(換算値30mm)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2007-12-20-%E8%A1%80%E6%B4%97%E3%81%AE%E6%BB%9D/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP0349.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP0349-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;「血洗の滝」&lt;/p&gt;&#xA;&lt;p&gt;data:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K10D / smcPENTAX FAzoom 20-35mmF4AL&lt;/p&gt;&#xA;&lt;p&gt;F4 / 1/30s / -1.3EV / ISO100 / 20mm(換算値30mm)&lt;/p&gt;</description>
     </item>
     <item>
       <title>夜空を見上げてみよう</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-19-%E5%A4%9C%E7%A9%BA%E3%82%92%E8%A6%8B%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2007-12-19-%E5%A4%9C%E7%A9%BA%E3%82%92%E8%A6%8B%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</link>
       <pubDate>Wed, 19 Dec 2007 23:42:54 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-19-%E5%A4%9C%E7%A9%BA%E3%82%92%E8%A6%8B%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2007-12-19-%E5%A4%9C%E7%A9%BA%E3%82%92%E8%A6%8B%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;夜空を見上げて、流星を見ることなど、最近してますか？&lt;/p&gt;&#xA;&lt;p&gt;こぐま座流星群がちょうど時期らしいですが。&lt;/p&gt;&#xA;&lt;p&gt;一昔前は、熱いコーヒーをポットに入れて、かなりの山奥に出かけ星を観測したものでした。&lt;/p&gt;&#xA;&lt;p&gt;友達の天体望遠鏡をのぞかせてもらったり、赤道儀を借りて星を撮影したりしたものでした。&lt;/p&gt;&#xA;&lt;p&gt;ごくまれに流星の末端爆発（大きな氷が大気の摩擦で爆発）を見ることができたり、あのときはすごかった。&lt;/p&gt;&#xA;&lt;p&gt;空に流星痕を残しながら、１２０度の角度ぐらい流れて、空全体をぱっと明るくして爆発しました。&lt;/p&gt;&#xA;&lt;p&gt;先輩のカメラで一部をとらえることができ、学会で発表されるなど、貴重な体験でした。&lt;/p&gt;&#xA;&lt;p&gt;それも今では昔のこと。&lt;/p&gt;&#xA;&lt;p&gt;この冬は休みが多いのでちょっと星でも眺めてみようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ACTION - B&#39;z</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-12-05-action---bz/</link>
+      <link>http://localhost:1313/posts/2007-12-05-action---bz/</link>
       <pubDate>Wed, 05 Dec 2007 16:02:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-12-05-action---bz/</guid>
+      <guid>http://localhost:1313/posts/2007-12-05-action---bz/</guid>
       <description>&lt;p&gt;結成20周年を迎えたB&amp;rsquo;zが、New Album [ACTION]をリリースしました。&lt;/p&gt;&#xA;&lt;p&gt;毎度毎度、B&amp;rsquo;zらしいけど新しいサウンドをぶつけてくる。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり良いね。&lt;/p&gt;&#xA;&lt;p&gt;公式Webサイト&lt;a href=&#34;http://bz-vermillion.com/&#34;&gt;B&amp;rsquo;z Official Web Site&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;余裕があったらLIVE-GYMにも行きたい。&lt;/p&gt;</description>
     </item>
   </channel>

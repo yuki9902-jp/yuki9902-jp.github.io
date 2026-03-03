@@ -2,465 +2,465 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017-10 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2017-10/</link>
+    <link>http://localhost:1313/archives/2017-10/</link>
     <description>Recent content in 2017-10 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 31 Oct 2017 20:15:22 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2017-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2017-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WD RED 3TBの故障</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-31_wd-red-3tb%E3%81%AE%E6%95%85%E9%9A%9C/</link>
+      <link>http://localhost:1313/posts/2017-10-31_wd-red-3tb%E3%81%AE%E6%95%85%E9%9A%9C/</link>
       <pubDate>Tue, 31 Oct 2017 20:15:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-31_wd-red-3tb%E3%81%AE%E6%95%85%E9%9A%9C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-31_wd-red-3tb%E3%81%AE%E6%95%85%E9%9A%9C/</guid>
       <description>&lt;p&gt;ハードディスクはある日突然に故障します。&lt;/p&gt;&#xA;&lt;p&gt;故障確率はあるものの、それが何時発生するかは確率でしか分かりません。&lt;/p&gt;&#xA;&lt;p&gt;5年保証を謳うWesternDigitalのNAS用HDDのWD RED 3TBが突然に読み書きできなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;正確に言うと、1MB/s以下で辛うじて読み書きできます。&lt;/p&gt;&#xA;&lt;p&gt;PCに接続しても認識されるまで3分以上を要し、または認識されない場合もあります。&lt;/p&gt;&#xA;&lt;p&gt;HDDの蓋はトルクスネジで締めてあるので、ドライバーを買ってきて分解してみましたが、中身のプラッタは無傷で綺麗なモノです。&lt;/p&gt;&#xA;&lt;p&gt;まさに鏡のように反射します。&lt;/p&gt;&#xA;&lt;p&gt;中身を見ただけで、結局原因は分からないので、このWD RED 3TBはもう使えません。&lt;/p&gt;&#xA;&lt;p&gt;このHDDを購入したお店は店を畳んでしまったので、保証も受けられません。&lt;/p&gt;&#xA;&lt;p&gt;データは何も入っていないので問題はありませんが。&lt;/p&gt;&#xA;&lt;p&gt;しかしHDDはよく壊れます。&lt;/p&gt;&#xA;&lt;p&gt;20数年の間に7本以上壊れたはずです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、そういう媒体なので諦めて、必ずバックアップを作成しなきゃね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛すじ煮込み</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-30_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</link>
+      <link>http://localhost:1313/posts/2017-10-30_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</link>
       <pubDate>Mon, 30 Oct 2017 16:46:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-30_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-30_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12324129582-14059456170.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171030/16/yuki9902/d8/3c/j/o0720096014059456170.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;残り少なくなりました。&lt;/p&gt;&#xA;&lt;p&gt;お酒のお供に如何でしょうか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>明後日は</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-30_%E6%98%8E%E5%BE%8C%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2017-10-30_%E6%98%8E%E5%BE%8C%E6%97%A5%E3%81%AF/</link>
       <pubDate>Mon, 30 Oct 2017 01:34:53 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-30_%E6%98%8E%E5%BE%8C%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-30_%E6%98%8E%E5%BE%8C%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;紅茶の日です。&lt;/p&gt;&#xA;&lt;p&gt;紅茶を販売しているブランドからは、それぞれグッズやお買い得品が出るようです。&lt;/p&gt;&#xA;&lt;p&gt;ダージリンのオータムナルでも買いに行くかな。&lt;/p&gt;&#xA;&lt;p&gt;美味しい紅茶を飲んで、秋の景色を楽しみたいモノです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>昼寝</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-29_%E6%98%BC%E5%AF%9D/</link>
+      <link>http://localhost:1313/posts/2017-10-29_%E6%98%BC%E5%AF%9D/</link>
       <pubDate>Sun, 29 Oct 2017 18:17:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-29_%E6%98%BC%E5%AF%9D/</guid>
+      <guid>http://localhost:1313/posts/2017-10-29_%E6%98%BC%E5%AF%9D/</guid>
       <description>&lt;p&gt;午前中に食料品を買いに出て、お昼ごはんも済ませて帰ってきました。&lt;/p&gt;&#xA;&lt;p&gt;その時点で1時半。&lt;/p&gt;&#xA;&lt;p&gt;そこからチェアに座ったまま4時半まで寝てました。&lt;/p&gt;&#xA;&lt;p&gt;途中起きようとしましたが、眠くて眠くて睡魔に負けてました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯を食べて、少し眠気が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;体が冬眠モードに入っているのかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>眠くて</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-28_%E7%9C%A0%E3%81%8F%E3%81%A6/</link>
+      <link>http://localhost:1313/posts/2017-10-28_%E7%9C%A0%E3%81%8F%E3%81%A6/</link>
       <pubDate>Sat, 28 Oct 2017 18:41:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-28_%E7%9C%A0%E3%81%8F%E3%81%A6/</guid>
+      <guid>http://localhost:1313/posts/2017-10-28_%E7%9C%A0%E3%81%8F%E3%81%A6/</guid>
       <description>&lt;p&gt;ごはんの時間以外は惰眠をむさぼってまして、いつの間にやら夜です。&lt;/p&gt;&#xA;&lt;p&gt;朝飯前に牛すじの煮込みを煮汁から引き上げて、別に味付け直しをしました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯の鶏ミンチと豆腐のハンバーグを作りました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯を食べ終わって、さてこれから何しましょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛すじ煮込み</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-28_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</link>
+      <link>http://localhost:1313/posts/2017-10-28_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</link>
       <pubDate>Sat, 28 Oct 2017 01:01:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-28_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-28_%E7%89%9B%E3%81%99%E3%81%98%E7%85%AE%E8%BE%BC%E3%81%BF/</guid>
       <description>&lt;p&gt;牛すじ煮込み（砂糖醤油）を作りました。&lt;/p&gt;&#xA;&lt;p&gt;一旦沸騰させ保温鍋でじっくり火を通します。&lt;/p&gt;&#xA;&lt;p&gt;夕方に仕込みました。&lt;/p&gt;&#xA;&lt;p&gt;先程、味見につまみ食いをして美味しかったです。&lt;/p&gt;&#xA;&lt;p&gt;牛肉の独特の臭みが残ってますが、それが旨味みたいなもんですから、どうするかなぁ。&lt;/p&gt;&#xA;&lt;p&gt;煮汁から引き上げて味付けし直すかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>分岐ケーブル自作</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-27_%E5%88%86%E5%B2%90%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E8%87%AA%E4%BD%9C/</link>
+      <link>http://localhost:1313/posts/2017-10-27_%E5%88%86%E5%B2%90%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E8%87%AA%E4%BD%9C/</link>
       <pubDate>Fri, 27 Oct 2017 19:07:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-27_%E5%88%86%E5%B2%90%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E8%87%AA%E4%BD%9C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-27_%E5%88%86%E5%B2%90%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E8%87%AA%E4%BD%9C/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12323350699-14057442964.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171027/19/yuki9902/54/34/j/o0720096014057442964.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;5pin QIコネクターの四分岐ケーブルを自作しました。&lt;/p&gt;&#xA;&lt;p&gt;ノーマル状態と違ってしっかりと繋がってます。&lt;/p&gt;&#xA;&lt;p&gt;市販のRGB-LEDリボンを接続できるように四分岐にしました。&lt;/p&gt;&#xA;&lt;p&gt;パソコンを派手にするだけのLEDリボンに数千円は高いので買う気にはなれませんが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>肉増し香り麺</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-27_%E8%82%89%E5%A2%97%E3%81%97%E9%A6%99%E3%82%8A%E9%BA%BA/</link>
+      <link>http://localhost:1313/posts/2017-10-27_%E8%82%89%E5%A2%97%E3%81%97%E9%A6%99%E3%82%8A%E9%BA%BA/</link>
       <pubDate>Fri, 27 Oct 2017 11:19:16 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-27_%E8%82%89%E5%A2%97%E3%81%97%E9%A6%99%E3%82%8A%E9%BA%BA/</guid>
+      <guid>http://localhost:1313/posts/2017-10-27_%E8%82%89%E5%A2%97%E3%81%97%E9%A6%99%E3%82%8A%E9%BA%BA/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12323243255-14057182057.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171027/11/yuki9902/76/bd/j/o0960072014057182057.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>日が昇る</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-27_%E6%97%A5%E3%81%8C%E6%98%87%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2017-10-27_%E6%97%A5%E3%81%8C%E6%98%87%E3%82%8B/</link>
       <pubDate>Fri, 27 Oct 2017 10:47:50 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-27_%E6%97%A5%E3%81%8C%E6%98%87%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2017-10-27_%E6%97%A5%E3%81%8C%E6%98%87%E3%82%8B/</guid>
       <description>&lt;p&gt;太陽の光をあびると暑いです。&lt;/p&gt;&#xA;&lt;p&gt;朝は寒いのでタートルネックのセーターを着てると熱い。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ昼ご飯を食べて帰ろうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>電気工作</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-27_%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BD%9C/</link>
+      <link>http://localhost:1313/posts/2017-10-27_%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BD%9C/</link>
       <pubDate>Fri, 27 Oct 2017 01:09:52 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-27_%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BD%9C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-27_%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BD%9C/</guid>
       <description>&lt;p&gt;パソコンのLED付きファンを接続するのに、QIコネクターを用いたのですが、3分岐ケーブルのLED-RGB端子のピンが細くて、スコスコと抜けてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;こうなったら分岐ケーブルを自作しようと思います。&lt;/p&gt;&#xA;&lt;p&gt;パソコンに着いている端子はQIコネクターなので、分岐ケーブルをQIコネクターで作れば良いのです。&lt;/p&gt;&#xA;&lt;p&gt;今日起きたら、熱収縮チューブとリボンケーブルを買ってこよう。&lt;/p&gt;&#xA;&lt;p&gt;自作パソコンの醍醐味は、こう微妙に規格が合わずに部品を自分で用意しなくちゃいけないところでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;メモリーも4スロットあって、うち2スロットに挿しているのですが、これ以上増設するためには、今挿している2スロットのメモリーを取り外して、別製品の4枚セットのメモリーを買わなければならないようです。&lt;/p&gt;&#xA;&lt;p&gt;この財布を直撃する無駄と面倒臭いところが、自作パソコンの醍醐味かな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>心療内科</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-26_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</link>
+      <link>http://localhost:1313/posts/2017-10-26_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</link>
       <pubDate>Thu, 26 Oct 2017 07:29:16 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-26_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</guid>
+      <guid>http://localhost:1313/posts/2017-10-26_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</guid>
       <description>&lt;p&gt;毎月通っている心療内科に行って来ます。&lt;/p&gt;&#xA;&lt;p&gt;朝は寒いですが、陽射しが気持ちいいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>蜂蜜柚子</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-25_%E8%9C%82%E8%9C%9C%E6%9F%9A%E5%AD%90/</link>
+      <link>http://localhost:1313/posts/2017-10-25_%E8%9C%82%E8%9C%9C%E6%9F%9A%E5%AD%90/</link>
       <pubDate>Wed, 25 Oct 2017 21:23:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-25_%E8%9C%82%E8%9C%9C%E6%9F%9A%E5%AD%90/</guid>
+      <guid>http://localhost:1313/posts/2017-10-25_%E8%9C%82%E8%9C%9C%E6%9F%9A%E5%AD%90/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12322809764-14056226004.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171025/21/yuki9902/ba/e5/j/o0720096014056226004.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;お風呂から上がって、蜂蜜柚子を作って喉を潤します&lt;/p&gt;&#xA;&lt;p&gt;お風呂の前にうたた寝をして体が冷えてガチガチです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おやすみ</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-25_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</link>
+      <link>http://localhost:1313/posts/2017-10-25_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</link>
       <pubDate>Wed, 25 Oct 2017 02:14:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-25_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-25_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</guid>
       <description>&lt;p&gt;B&amp;rsquo;zの声明／Still Aliveを聴いてから寝ます。&lt;/p&gt;&#xA;&lt;p&gt;自分に合う波長というか、サウンドとか、その時々で変わるけれど、ガツンとくるモノを入力してやると、気分もリセットできるというか、不要なことを忘れることが出来るかな。&lt;/p&gt;&#xA;&lt;p&gt;明日は何が出来るか、よく解らないけれど、楽しいと良いな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>冷蔵庫がやってきた</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-24_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-24_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
       <pubDate>Tue, 24 Oct 2017 18:10:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-24_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-24_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
       <description>&lt;p&gt;午後に冷蔵庫が配達されてきました。&lt;/p&gt;&#xA;&lt;p&gt;古い冷蔵庫の撤去もサクサクとこなしますね。&lt;/p&gt;&#xA;&lt;p&gt;昔、家電量販店でバイトしてたときは僕もやってました。&lt;/p&gt;&#xA;&lt;p&gt;家庭用の超大型冷蔵庫を大きなマンションに運び入れるのが大変だったことを覚えております。&lt;/p&gt;&#xA;&lt;p&gt;母親が冷蔵庫をパントリーみたいに使うので、要らないものを整理するとあたらし冷蔵庫にはあまり入れる物がないんですけれどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>めっちゃ寒</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-24_%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E5%AF%92/</link>
+      <link>http://localhost:1313/posts/2017-10-24_%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E5%AF%92/</link>
       <pubDate>Tue, 24 Oct 2017 01:03:28 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-24_%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E5%AF%92/</guid>
+      <guid>http://localhost:1313/posts/2017-10-24_%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E5%AF%92/</guid>
       <description>&lt;p&gt;室温15.5度です。&lt;/p&gt;&#xA;&lt;p&gt;寒いです。&lt;/p&gt;&#xA;&lt;p&gt;もう10月も下旬ですね。&lt;/p&gt;&#xA;&lt;p&gt;早ければ来月早々には雪が降るかも。&lt;/p&gt;&#xA;&lt;p&gt;あんまり寒いと東南アジア製の電子機器が動かなくなります。&lt;/p&gt;&#xA;&lt;p&gt;半導体って氷点下になると急激に抵抗値が増えて、不導体に変わったりするんですよ。&lt;/p&gt;&#xA;&lt;p&gt;で極低温になると今度は抵抗値がほぼ0になって超伝導体に変わったりします。&lt;/p&gt;&#xA;&lt;p&gt;デジタルカメラを南極に持っていくと壊れます(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>青森で津軽弁を喋る</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-23_%E9%9D%92%E6%A3%AE%E3%81%A7%E6%B4%A5%E8%BB%BD%E5%BC%81%E3%82%92%E5%96%8B%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2017-10-23_%E9%9D%92%E6%A3%AE%E3%81%A7%E6%B4%A5%E8%BB%BD%E5%BC%81%E3%82%92%E5%96%8B%E3%82%8B/</link>
       <pubDate>Mon, 23 Oct 2017 20:24:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-23_%E9%9D%92%E6%A3%AE%E3%81%A7%E6%B4%A5%E8%BB%BD%E5%BC%81%E3%82%92%E5%96%8B%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2017-10-23_%E9%9D%92%E6%A3%AE%E3%81%A7%E6%B4%A5%E8%BB%BD%E5%BC%81%E3%82%92%E5%96%8B%E3%82%8B/</guid>
       <description>&lt;p&gt;津軽弁を愛するハムザ少年を見ております。&lt;/p&gt;</description>
     </item>
     <item>
       <title>冷蔵庫が壊れました</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-23_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-23_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Mon, 23 Oct 2017 16:09:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-23_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-23_%E5%86%B7%E8%94%B5%E5%BA%AB%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;冷蔵庫が壊れましたので、急遽、新しいものを家電量販店に買いに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;昨年のモデルが展示処分品で出ていたので、半額近い価格で買いました。&lt;/p&gt;&#xA;&lt;p&gt;明日には配達、設置、廃棄品の回収をして貰えるようです。&lt;/p&gt;&#xA;&lt;p&gt;今年は、冷凍庫、冷蔵庫とよく壊れます。&lt;/p&gt;&#xA;&lt;p&gt;で、日本での生産品を買いました。&lt;/p&gt;&#xA;&lt;p&gt;海外製造のものはやはり壊れるのが早いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>朝ご飯</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-23_%E6%9C%9D%E3%81%94%E9%A3%AF/</link>
+      <link>http://localhost:1313/posts/2017-10-23_%E6%9C%9D%E3%81%94%E9%A3%AF/</link>
       <pubDate>Mon, 23 Oct 2017 06:59:12 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-23_%E6%9C%9D%E3%81%94%E9%A3%AF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-23_%E6%9C%9D%E3%81%94%E9%A3%AF/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12322015789-14054466308.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171023/07/yuki9902/1f/63/j/o0720096014054466308.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;好物のチリトマトです。&lt;/p&gt;&#xA;&lt;p&gt;ぴりっと辛くていい感じです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>100円均一のかご</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-22_100%E5%86%86%E5%9D%87%E4%B8%80%E3%81%AE%E3%81%8B%E3%81%94/</link>
+      <link>http://localhost:1313/posts/2017-10-22_100%E5%86%86%E5%9D%87%E4%B8%80%E3%81%AE%E3%81%8B%E3%81%94/</link>
       <pubDate>Sun, 22 Oct 2017 15:29:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-22_100%E5%86%86%E5%9D%87%E4%B8%80%E3%81%AE%E3%81%8B%E3%81%94/</guid>
+      <guid>http://localhost:1313/posts/2017-10-22_100%E5%86%86%E5%9D%87%E4%B8%80%E3%81%AE%E3%81%8B%E3%81%94/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321823216-14054001876.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171022/15/yuki9902/25/04/j/o0720096014054001876.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;レンズを仕切って並べるのに丁度良いサイズでした。&lt;/p&gt;&#xA;&lt;p&gt;収まりが良くてちょっと驚き。&lt;/p&gt;</description>
     </item>
     <item>
       <title>暇すぎて</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-22_%E6%9A%87%E3%81%99%E3%81%8E%E3%81%A6/</link>
+      <link>http://localhost:1313/posts/2017-10-22_%E6%9A%87%E3%81%99%E3%81%8E%E3%81%A6/</link>
       <pubDate>Sun, 22 Oct 2017 15:19:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-22_%E6%9A%87%E3%81%99%E3%81%8E%E3%81%A6/</guid>
+      <guid>http://localhost:1313/posts/2017-10-22_%E6%9A%87%E3%81%99%E3%81%8E%E3%81%A6/</guid>
       <description>&lt;p&gt;眠いし、動画に飽きてきて、昼寝をしてました。&lt;/p&gt;&#xA;&lt;p&gt;あかんやん、太るかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ちょっと</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2017-10-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8/</link>
       <pubDate>Sat, 21 Oct 2017 21:16:21 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321611286-14053519240.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171021/21/yuki9902/60/b5/j/o0720096014053519240.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;たまにはホロ酔い。&lt;/p&gt;&#xA;&lt;p&gt;皆さんはどんな夜をお過ごしでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;私はネットで動画を見てます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オレンジ</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-21_%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8/</link>
+      <link>http://localhost:1313/posts/2017-10-21_%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8/</link>
       <pubDate>Sat, 21 Oct 2017 18:12:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-21_%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-21_%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321562851-14053402727.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171021/18/yuki9902/2c/ea/j/o0720096014053402727.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;使用しているCPUのイメージカラーがオレンジなので、今日はオレンジです。&lt;/p&gt;&#xA;&lt;p&gt;今日は雨の中、牛乳を買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;ついでに100均一でカゴを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;整理します。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321562851-14053402747.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171021/18/yuki9902/83/ab/j/o0960072014053402747.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>髪の毛が</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-20_%E9%AB%AA%E3%81%AE%E6%AF%9B%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2017-10-20_%E9%AB%AA%E3%81%AE%E6%AF%9B%E3%81%8C/</link>
       <pubDate>Fri, 20 Oct 2017 23:18:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-20_%E9%AB%AA%E3%81%AE%E6%AF%9B%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-20_%E9%AB%AA%E3%81%AE%E6%AF%9B%E3%81%8C/</guid>
       <description>&lt;p&gt;髪が伸びてきて、頭がもっさりとしております。&lt;/p&gt;&#xA;&lt;p&gt;歳と共に髪のコシが無くなって、てっぺんはペタっとなるのですが、側頭部がもっさりします。&lt;/p&gt;&#xA;&lt;p&gt;本格的に冬になる前にそろそろ散髪に行かなければ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>期日前投票</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-20_%E6%9C%9F%E6%97%A5%E5%89%8D%E6%8A%95%E7%A5%A8/</link>
+      <link>http://localhost:1313/posts/2017-10-20_%E6%9C%9F%E6%97%A5%E5%89%8D%E6%8A%95%E7%A5%A8/</link>
       <pubDate>Fri, 20 Oct 2017 11:00:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-20_%E6%9C%9F%E6%97%A5%E5%89%8D%E6%8A%95%E7%A5%A8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-20_%E6%9C%9F%E6%97%A5%E5%89%8D%E6%8A%95%E7%A5%A8/</guid>
       <description>&lt;p&gt;衆院選の当日は台風が来そうなので期日前投票をしました。&lt;/p&gt;&#xA;&lt;p&gt;外国の脅威に敢然と立ち向かい、尚且つ国内を安定させ発展できる所を選んだつもりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LED連動</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-19_led%E9%80%A3%E5%8B%95/</link>
+      <link>http://localhost:1313/posts/2017-10-19_led%E9%80%A3%E5%8B%95/</link>
       <pubDate>Thu, 19 Oct 2017 22:17:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-19_led%E9%80%A3%E5%8B%95/</guid>
+      <guid>http://localhost:1313/posts/2017-10-19_led%E9%80%A3%E5%8B%95/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321046055-14052266763.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171019/22/yuki9902/e4/ad/j/o0966064014052266763.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12321046055-14052266779.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171019/22/yuki9902/b2/11/j/o0966064014052266779.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;全てのファンのLEDが連動するようになりました。&lt;/p&gt;&#xA;&lt;p&gt;なったのは良いけれど、表現力（点灯パンターン）が減りました。&lt;/p&gt;&#xA;&lt;p&gt;そしてコネクターを変更しましたが、受け側のピンが予想外に細くてスカスカです。&lt;/p&gt;&#xA;&lt;p&gt;抜け落ちないようにテープで留めました(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;赤、緑、青をそれぞれ256段階で明るさを変えられるので、色数は公称1670万色。&lt;/p&gt;&#xA;&lt;p&gt;でも赤色の発光が弱いので、赤系統の発色数はかなり少ないです。&lt;/p&gt;&#xA;&lt;p&gt;当初の目的の冷却はちゃんと果たせているのでよしとしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>工作中</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-19_%E5%B7%A5%E4%BD%9C%E4%B8%AD/</link>
+      <link>http://localhost:1313/posts/2017-10-19_%E5%B7%A5%E4%BD%9C%E4%B8%AD/</link>
       <pubDate>Thu, 19 Oct 2017 18:44:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-19_%E5%B7%A5%E4%BD%9C%E4%B8%AD/</guid>
+      <guid>http://localhost:1313/posts/2017-10-19_%E5%B7%A5%E4%BD%9C%E4%B8%AD/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12320983353-14052133123.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171019/18/yuki9902/8f/ea/j/o0720096014052133123.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ファンのコネクターを改造中です。&lt;/p&gt;&#xA;&lt;p&gt;部品代がファンより高かった(￣▽￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>何かしらやったこと</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-19_%E4%BD%95%E3%81%8B%E3%81%97%E3%82%89%E3%82%84%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2017-10-19_%E4%BD%95%E3%81%8B%E3%81%97%E3%82%89%E3%82%84%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</link>
       <pubDate>Thu, 19 Oct 2017 01:07:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-19_%E4%BD%95%E3%81%8B%E3%81%97%E3%82%89%E3%82%84%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-19_%E4%BD%95%E3%81%8B%E3%81%97%E3%82%89%E3%82%84%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8/</guid>
       <description>&lt;p&gt;今日は、&lt;/p&gt;&#xA;&lt;p&gt;1．草刈りをしたこと&lt;/p&gt;&#xA;&lt;p&gt;2．パソコンのOSのアップデートが公開されたので実施したこと&lt;/p&gt;&#xA;&lt;p&gt;3．OSのアップデートに連動してスマホのアプリをインストールしたこと&lt;/p&gt;&#xA;&lt;p&gt;4．LED付きファンが届いたので設置したこと&lt;/p&gt;&#xA;&lt;p&gt;5．安全靴の左を間違って右を二つ買ってしまっていたので販売店に交換しに行ったこと&lt;/p&gt;&#xA;&lt;p&gt;6．昼ご飯に天津飯を作ったこと&lt;/p&gt;&#xA;&lt;p&gt;今日はいっぱい物事をしたなぁ。&lt;/p&gt;&#xA;&lt;p&gt;草刈りは途中で草刈り機を持つ腕が疲れて、草刈り機を持ち上げられなくなってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;寝て起きたらきっと筋肉痛だろうなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>光り物を追加</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9%E3%82%92%E8%BF%BD%E5%8A%A0/</link>
+      <link>http://localhost:1313/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9%E3%82%92%E8%BF%BD%E5%8A%A0/</link>
       <pubDate>Wed, 18 Oct 2017 20:12:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9%E3%82%92%E8%BF%BD%E5%8A%A0/</guid>
+      <guid>http://localhost:1313/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9%E3%82%92%E8%BF%BD%E5%8A%A0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12320709427-14051522791.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171018/20/yuki9902/1e/3b/j/o0960072014051522791.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;冷却のために光るファンを取り付けました。&lt;/p&gt;&#xA;&lt;p&gt;実物はもっと落ち着いた光量です。&lt;/p&gt;&#xA;&lt;p&gt;明日、部品が届いたら改造します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>光り物</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9/</link>
+      <link>http://localhost:1313/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9/</link>
       <pubDate>Wed, 18 Oct 2017 00:24:27 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9/</guid>
+      <guid>http://localhost:1313/posts/2017-10-18_%E5%85%89%E3%82%8A%E7%89%A9/</guid>
       <description>&lt;p&gt;パソコンのパーツで、一番派手なものと言えば、LED付きのファンです。&lt;/p&gt;&#xA;&lt;p&gt;パソコンを新しくしたものの、電力の消費が激しく発熱も大きいので、廃熱のためのファンを注文しました。&lt;/p&gt;&#xA;&lt;p&gt;そしてそのファンをパソコンの基盤に接続する為に別途コネクターが必要になったので、それも注文しました。&lt;/p&gt;&#xA;&lt;p&gt;その工作を計画する為の調査と計画に今日を費やしました。&lt;/p&gt;&#xA;&lt;p&gt;頭で考えて、ネット通販のボタンをポチっただけですが。&lt;/p&gt;&#xA;&lt;p&gt;徐々にパソコンが妖しく光るようになっていきます。&lt;/p&gt;&#xA;&lt;p&gt;まあ、パソコンをいじるぐらいの楽しみしか今は無いですけれど。&lt;/p&gt;&#xA;&lt;p&gt;曼珠沙華もコスモスも撮り逃しちゃったから・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>しんどいのよ</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-17_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%AE%E3%82%88/</link>
+      <link>http://localhost:1313/posts/2017-10-17_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%AE%E3%82%88/</link>
       <pubDate>Tue, 17 Oct 2017 02:06:27 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-17_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%AE%E3%82%88/</guid>
+      <guid>http://localhost:1313/posts/2017-10-17_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%AE%E3%82%88/</guid>
       <description>&lt;p&gt;父親が母親に対して言う言葉の下劣さに、この親から生まれてきたことをとても信じられない。&lt;/p&gt;&#xA;&lt;p&gt;言葉だけでなく態度も酷いし、仕打ちも酷い。&lt;/p&gt;&#xA;&lt;p&gt;母親の苦労を思うと泣けてくる。&lt;/p&gt;&#xA;&lt;p&gt;ここ数年、特に言動が酷くなってきていて、母親を追い出そうとしたり、早く死んで欲しいようなことを言う。&lt;/p&gt;&#xA;&lt;p&gt;僕の前では言わないのに、僕のいないところでは母親に向かってネチネチと嫌みや残酷な言葉を浴びせている。&lt;/p&gt;&#xA;&lt;p&gt;正直言うと、ここ数年の鬱は、この両親の関係の悪さを受けて、精神的にまいっているからなんだけど。&lt;/p&gt;&#xA;&lt;p&gt;働ける体なら、母と一緒に家を出て行くんだが・・・。&lt;/p&gt;&#xA;&lt;p&gt;話は変わって。&lt;/p&gt;&#xA;&lt;p&gt;米農家としても、父親から収支を全く教えて貰えないため、給料としても貰えず、僕の使えるお金は、毎月の小遣い1万円と治療費、通信費のみの生活をずっと続けている。&lt;/p&gt;&#xA;&lt;p&gt;正直、金銭的なストレスも厳しい。&lt;/p&gt;&#xA;&lt;p&gt;今月は1年に1回きりの自分の友達に対して売った新米の代金で3万円程貰えたので、持っているカメラのレンズと中古のPCを友達にちょっと高めに買って貰って、5年ぶりにPCを買い換えることが出来た。&lt;/p&gt;&#xA;&lt;p&gt;今回のPCの買い換えは13万円ぐらい掛かったけれど、これでしばらくは我慢できるかな。&lt;/p&gt;&#xA;&lt;p&gt;稲刈りをした後のご褒美が、自分で運転しての京都観光では疲れるだけで何の喜びにもならない。&lt;/p&gt;&#xA;&lt;p&gt;だからせめて、この出費は無理したけれど自分への本当にご褒美なんだ。&lt;/p&gt;&#xA;&lt;p&gt;1週間に2，3日寝込むけど、どこか雇って貰えないだろうか。&lt;/p&gt;&#xA;&lt;p&gt;街には仕事があるんだろうなぁ。&lt;/p&gt;&#xA;&lt;p&gt;泣けてくる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>パソコンの熱</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-16_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E7%86%B1/</link>
+      <link>http://localhost:1313/posts/2017-10-16_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E7%86%B1/</link>
       <pubDate>Mon, 16 Oct 2017 20:46:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-16_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E7%86%B1/</guid>
+      <guid>http://localhost:1313/posts/2017-10-16_%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AE%E7%86%B1/</guid>
       <description>&lt;p&gt;パソコンにはパワーを発揮すると熱を放出する部品がたくさんあります。&lt;/p&gt;&#xA;&lt;p&gt;CPU、メモリ、チップセット、GPU、GPUのメモリ、SSD、HDDなどなど。&lt;/p&gt;&#xA;&lt;p&gt;僕のPCの場合、特に要注意なのがGPUとその下に隠れているSSDです。&lt;/p&gt;&#xA;&lt;p&gt;熱対策をあまりとっていなかったので、FF14ブラッドストームのベンチマークを走らせると、GPUの温度が70度超え、SSDが60度ぐらいまで熱くなっていました。&lt;/p&gt;&#xA;&lt;p&gt;PCケースの側面吸気口の蓋を外し、12センチのファンをとりつけたところ、GPUは58度、SSDは48度で安定して、GPUの負荷が減ると一気にGPUは38度まで下がります。&lt;/p&gt;&#xA;&lt;p&gt;その後は30度までゆっくり下がっていきます。&lt;/p&gt;&#xA;&lt;p&gt;依然として問題はSSDの廃熱です。&lt;/p&gt;&#xA;&lt;p&gt;放熱板に付けた温度センサーは38度で、SSDのコントローラーから得られる情報は47度。&lt;/p&gt;&#xA;&lt;p&gt;GPUが安かったからロープロファイルでGPUにとりつけられているヒートシンクが背の高いものを使っているので、完全にSSDへの気流を妨げています。&lt;/p&gt;&#xA;&lt;p&gt;14センチのファンを4機買ってとりつけようと思います。&lt;/p&gt;&#xA;&lt;p&gt;出来るならRGB制御のLEDが光るタイプのものを買おうかな。&lt;/p&gt;&#xA;&lt;p&gt;側面に2機を吸気方向で、上面に2機を排気方向でとりつければ、かなり改善されるはずです。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずは来月までは、今の予備のファンで補います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>イオンモールなう</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-16_%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E3%81%AA%E3%81%86/</link>
+      <link>http://localhost:1313/posts/2017-10-16_%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E3%81%AA%E3%81%86/</link>
       <pubDate>Mon, 16 Oct 2017 13:56:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-16_%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E3%81%AA%E3%81%86/</guid>
+      <guid>http://localhost:1313/posts/2017-10-16_%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E3%81%AA%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12320023431-14049980801.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171016/13/yuki9902/0b/3e/j/o0720096014049980801.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は不注意が多いので気をつけよう。&lt;/p&gt;&#xA;&lt;p&gt;用を足して出てみたら女子トイレだった罠。&lt;/p&gt;&#xA;&lt;p&gt;犯罪者にならなくてよかった･･･&lt;/p&gt;</description>
     </item>
     <item>
       <title>寝てました</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-15_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-15_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 15 Oct 2017 18:04:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-15_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-15_%E5%AF%9D%E3%81%A6%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;夕御飯まで寝てました。&lt;/p&gt;&#xA;&lt;p&gt;眠くて眠くて。&lt;/p&gt;&#xA;&lt;p&gt;今はすっかり目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;さて何をしようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>買い出し</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-15_%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2017-10-15_%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97/</link>
       <pubDate>Sun, 15 Oct 2017 10:00:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-15_%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2017-10-15_%E8%B2%B7%E3%81%84%E5%87%BA%E3%81%97/</guid>
       <description>&lt;p&gt;これから食料品の買い出しに行って来ます。&lt;/p&gt;&#xA;&lt;p&gt;今日はまた寒くなりましたね。&lt;/p&gt;&#xA;&lt;p&gt;17℃です。&lt;/p&gt;&#xA;&lt;p&gt;朝、起き抜けに足が攣りました。&lt;/p&gt;&#xA;&lt;p&gt;水分不足ですね。&lt;/p&gt;&#xA;&lt;p&gt;気をつけなきゃ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>青色</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-14_%E9%9D%92%E8%89%B2/</link>
+      <link>http://localhost:1313/posts/2017-10-14_%E9%9D%92%E8%89%B2/</link>
       <pubDate>Sat, 14 Oct 2017 22:33:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-14_%E9%9D%92%E8%89%B2/</guid>
+      <guid>http://localhost:1313/posts/2017-10-14_%E9%9D%92%E8%89%B2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12319572946-14048866945.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171014/22/yuki9902/48/b0/j/o0966064014048866945.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;普段は全方位の蓋を閉めるので、PCの中身なんて見えないんですが、青色に光るようにしました。&lt;/p&gt;&#xA;&lt;p&gt;青→青緑→緑→黄→橙→赤→紫→青&lt;/p&gt;&#xA;&lt;p&gt;というようにカラーサークルを一巡するような光り方も出来ます。&lt;/p&gt;&#xA;&lt;p&gt;でも結局、青色が好きなので、青色に固定です。&lt;/p&gt;&#xA;&lt;p&gt;青色が蛍のような明滅を繰り返す光り方にしました。&lt;/p&gt;&#xA;&lt;p&gt;部屋の中の色々なものが青、黒、シルバー、木目の4柄に集約されるので、まあ統一感があって良いかな。&lt;/p&gt;&#xA;&lt;p&gt;車も青色だし。&lt;/p&gt;&#xA;&lt;p&gt;(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>長い間</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-14_%E9%95%B7%E3%81%84%E9%96%93/</link>
+      <link>http://localhost:1313/posts/2017-10-14_%E9%95%B7%E3%81%84%E9%96%93/</link>
       <pubDate>Sat, 14 Oct 2017 16:28:49 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-14_%E9%95%B7%E3%81%84%E9%96%93/</guid>
+      <guid>http://localhost:1313/posts/2017-10-14_%E9%95%B7%E3%81%84%E9%96%93/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12319481625-14048619274.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171014/16/yuki9902/b6/91/j/o0720096014048619274.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;7年の長い間ご苦労様。&lt;/p&gt;</description>
     </item>
     <item>
       <title>乗り換え</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-13_%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88/</link>
+      <link>http://localhost:1313/posts/2017-10-13_%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88/</link>
       <pubDate>Fri, 13 Oct 2017 23:03:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-13_%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88/</guid>
+      <guid>http://localhost:1313/posts/2017-10-13_%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88/</guid>
       <description>&lt;p&gt;フィーチャーフォン（ガラケー）からMNP（マイナンバーポータビリティー）を使って、MVNOの比較的安い大手通信サービス会社のSIMカードに乗り換えました。&lt;/p&gt;&#xA;&lt;p&gt;スマホは今年の春にVAIO Phone AというAndroidのものを購入していたものを使います。&lt;/p&gt;&#xA;&lt;p&gt;これまでスマホは0 SIMと呼ばれる基本料金0円、500MBまで0円のSIMを使ってデータ通信専用にしていました。&lt;/p&gt;&#xA;&lt;p&gt;フィーチャーフォン（通話用）とスマホ（データ通信用）の二台を持って歩くのも煩わしくなり、フィーチャーフォンも7年以上が経過しており、たまにハングアップやリブートするようになっていたので、機械としての限界を感じていました。&lt;/p&gt;&#xA;&lt;p&gt;で、自分でMVNOのSIMにMNPで乗り換え作業をするのは迷うことが多くて困ります。&lt;/p&gt;&#xA;&lt;p&gt;でもちゃんと乗り換えが完了したので、まあ良い勉強になりました。&lt;/p&gt;&#xA;&lt;p&gt;あとは主要な友達にメールアドレスが変更になったことをSNSで伝え、電話帳をチマチマ登録して完了です。&lt;/p&gt;&#xA;&lt;p&gt;もう数年も連絡しなくなった知人の番号は登録しないことにしました。&lt;/p&gt;&#xA;&lt;p&gt;って、いうか今時はSNSで連絡を取り合うので電話もメールも殆ど要らないんですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-12_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2017-10-12_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Thu, 12 Oct 2017 18:09:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-12_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-12_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;押し入れの中を片付けつつ、半分ぼんやりと過ごしてました。&lt;/p&gt;&#xA;&lt;p&gt;雨が降って、寒気が入り込んで、ようやく過ごしやすくなってきました。&lt;/p&gt;&#xA;&lt;p&gt;折角新しくしたパソコンの活用方法を考えながら、だらだらと過ごします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>目眩と頭痛が</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-11_%E7%9B%AE%E7%9C%A9%E3%81%A8%E9%A0%AD%E7%97%9B%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2017-10-11_%E7%9B%AE%E7%9C%A9%E3%81%A8%E9%A0%AD%E7%97%9B%E3%81%8C/</link>
       <pubDate>Wed, 11 Oct 2017 23:17:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-11_%E7%9B%AE%E7%9C%A9%E3%81%A8%E9%A0%AD%E7%97%9B%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-11_%E7%9B%AE%E7%9C%A9%E3%81%A8%E9%A0%AD%E7%97%9B%E3%81%8C/</guid>
       <description>&lt;p&gt;目眩と頭痛が出てきて、ちょっと辛いです。&lt;/p&gt;&#xA;&lt;p&gt;薬を飲んで様子を見よう。&lt;/p&gt;&#xA;&lt;p&gt;珈琲を飲んだ所為かな・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>うとうと</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-11_%E3%81%86%E3%81%A8%E3%81%86%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2017-10-11_%E3%81%86%E3%81%A8%E3%81%86%E3%81%A8/</link>
       <pubDate>Wed, 11 Oct 2017 19:37:28 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-11_%E3%81%86%E3%81%A8%E3%81%86%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-11_%E3%81%86%E3%81%A8%E3%81%86%E3%81%A8/</guid>
       <description>&lt;p&gt;疲れがとれきってないので、椅子でうとうとしてました。&lt;/p&gt;&#xA;&lt;p&gt;B&amp;rsquo;zのIN THE LIFEを聞きながらぼんやりしてます。&lt;/p&gt;&#xA;&lt;p&gt;ゲームをするほどの元気もないのでまあしょうがないっす。&lt;/p&gt;&#xA;&lt;p&gt;メタルラックの最下段を下につけすぎて掃除が出来なかったのを、解消しました。&lt;/p&gt;&#xA;&lt;p&gt;上に37インチのモニターを置いていたのでなかなか動かす気になれなかったのです。&lt;/p&gt;&#xA;&lt;p&gt;コンセントタップのスイッチがオレンジに光っています。&lt;/p&gt;&#xA;&lt;p&gt;部屋の電気を落とすと、ネットワーク機器やコンセントタップがチラチラと瞬いています。&lt;/p&gt;&#xA;&lt;p&gt;パソコンの中まで光るようになったので、電飾をしてみたくなってきました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>せっせと</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-11_%E3%81%9B%E3%81%A3%E3%81%9B%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2017-10-11_%E3%81%9B%E3%81%A3%E3%81%9B%E3%81%A8/</link>
       <pubDate>Wed, 11 Oct 2017 15:34:31 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-11_%E3%81%9B%E3%81%A3%E3%81%9B%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2017-10-11_%E3%81%9B%E3%81%A3%E3%81%9B%E3%81%A8/</guid>
       <description>&lt;p&gt;昨日に比べて随分とマシになった体調で、今朝はパソコン、オーディオ周りの片付けをしてました。&lt;/p&gt;&#xA;&lt;p&gt;モニターを置いているメタルラックの高さが他のラックとずれていたため、モニターとスピーカーを外して、メタルラックを一度分解して、諸々の電源ケーブルなどを整理して、モニターとスピーカーを元に戻しました。&lt;/p&gt;&#xA;&lt;p&gt;ケーブル類が見えないように、そして見えるところは綺麗に並べたいのが癖ですが、どうしても長さが足りずにバラバラになってしまいます。&lt;/p&gt;&#xA;&lt;p&gt;ネットワークエンジニアだった頃はLANケーブルを毎日のように整理してメンテナンスしやすいように調整してました。&lt;/p&gt;&#xA;&lt;p&gt;でも、廃熱や電磁ノイズの事を考慮すると、束ねたり丸めたりしてはいけないんですけれどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MNPを実行</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-10_mnp%E3%82%92%E5%AE%9F%E8%A1%8C/</link>
+      <link>http://localhost:1313/posts/2017-10-10_mnp%E3%82%92%E5%AE%9F%E8%A1%8C/</link>
       <pubDate>Tue, 10 Oct 2017 22:20:16 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-10_mnp%E3%82%92%E5%AE%9F%E8%A1%8C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-10_mnp%E3%82%92%E5%AE%9F%E8%A1%8C/</guid>
       <description>&lt;p&gt;auのフィーチャーフォンからMVNOのOCNモバイルONEに乗り換える作業を行いました。&lt;/p&gt;&#xA;&lt;p&gt;Sony EricssonのURBANO　BARONEのEZ Webからauの契約変更ページに入っていくとかなり下の方にMNPの手続きがありました。&lt;/p&gt;&#xA;&lt;p&gt;色々と注意事項を長々と書いてあり、チェックボタンがたくさん有りますがそれにチェックを入れて、MNP作業が完了したら、MNP予約番号を確認します。&lt;/p&gt;&#xA;&lt;p&gt;ちなみに手数料が3000円が必ず発生します。&lt;/p&gt;&#xA;&lt;p&gt;契約内容によっては1万円以上の違約料を取られます。&lt;/p&gt;&#xA;&lt;p&gt;次は、OCNの手続きをします。&lt;/p&gt;&#xA;&lt;p&gt;アクティベートコードとMNP予約番号と身分証明書類を用意して、申し込みます。&lt;/p&gt;&#xA;&lt;p&gt;PCからも出来ますが、スマホからやった方が身分証明書類の写し（写真）を撮影するのが簡単なので、スマホでやりましょう。&lt;/p&gt;&#xA;&lt;p&gt;身分証明書類の現住所の有効性を示すため、二つ以上の書類が必要になる場合があります。&lt;/p&gt;&#xA;&lt;p&gt;免許証なら裏表、保険証なら住民票の写しなど。&lt;/p&gt;&#xA;&lt;p&gt;申し込み手続きが終わったら、登録完了されて、SIMカードが送られてくるのを待つだけです。&lt;/p&gt;&#xA;&lt;p&gt;身元がはっきりしている人は簡単に審査に通るはずなので、直ぐにくるはず(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;さて通話基本料が400円ほど安くなります。&lt;/p&gt;&#xA;&lt;p&gt;通話料は30秒20円だったかな。&lt;/p&gt;&#xA;&lt;p&gt;結構高いですが、1ヶ月に1分も会話しないので良いかな。&lt;/p&gt;&#xA;&lt;p&gt;徐々に毎月のランニングコストを削っていますが、今月は大きな買い物を久しぶりにしたので、帳消しかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>疲れが</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-10_%E7%96%B2%E3%82%8C%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2017-10-10_%E7%96%B2%E3%82%8C%E3%81%8C/</link>
       <pubDate>Tue, 10 Oct 2017 16:22:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-10_%E7%96%B2%E3%82%8C%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-10_%E7%96%B2%E3%82%8C%E3%81%8C/</guid>
       <description>&lt;p&gt;疲れが溜まっているようです。&lt;/p&gt;&#xA;&lt;p&gt;今日は一日中ぐったりです。&lt;/p&gt;&#xA;&lt;p&gt;今もまだ重いです。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯の準備をしなくちゃ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>少し</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-10_%E5%B0%91%E3%81%97/</link>
+      <link>http://localhost:1313/posts/2017-10-10_%E5%B0%91%E3%81%97/</link>
       <pubDate>Tue, 10 Oct 2017 02:01:25 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-10_%E5%B0%91%E3%81%97/</guid>
+      <guid>http://localhost:1313/posts/2017-10-10_%E5%B0%91%E3%81%97/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12318219738-14045511742.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171010/02/yuki9902/63/41/j/o0720096014045511742.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;少し呑んで酔おうかな。&lt;/p&gt;&#xA;&lt;p&gt;落ち着いたのでゆっくりブログが書けるようにしようかな。&lt;/p&gt;&#xA;&lt;p&gt;最近、あまり話が出来ていなかったから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>眠い</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-09_%E7%9C%A0%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2017-10-09_%E7%9C%A0%E3%81%84/</link>
       <pubDate>Mon, 09 Oct 2017 20:49:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-09_%E7%9C%A0%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2017-10-09_%E7%9C%A0%E3%81%84/</guid>
       <description>&lt;p&gt;先ほど帰ってきてお風呂に入りました。&lt;/p&gt;&#xA;&lt;p&gt;夕食を食べてる途中で疲れが出てました。&lt;/p&gt;&#xA;&lt;p&gt;今朝４時過ぎに眠って６時半に目が覚めて、二度寝するものの１時間で目が覚めてしまい、そうこうしているうちに街まで出かける時間になったので行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;いろいろ面白い一日でしたが、疲れました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>こんにちは</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-09_%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2017-10-09_%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF/</link>
       <pubDate>Mon, 09 Oct 2017 12:15:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-09_%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2017-10-09_%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF/</guid>
       <description>&lt;p&gt;今日は、友人にPCを渡しに街まで出てきました。&lt;/p&gt;&#xA;&lt;p&gt;目的は果たしました。&lt;/p&gt;&#xA;&lt;p&gt;その後、パスタの超大盛りの店で、小盛りのパスタを食べました。&lt;/p&gt;&#xA;&lt;p&gt;おいしかった。&lt;/p&gt;&#xA;&lt;p&gt;午後から吹奏楽の演奏を聞いて、夜はまた友人と合流します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>作業完了</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-08_%E4%BD%9C%E6%A5%AD%E5%AE%8C%E4%BA%86/</link>
+      <link>http://localhost:1313/posts/2017-10-08_%E4%BD%9C%E6%A5%AD%E5%AE%8C%E4%BA%86/</link>
       <pubDate>Sun, 08 Oct 2017 18:35:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-08_%E4%BD%9C%E6%A5%AD%E5%AE%8C%E4%BA%86/</guid>
+      <guid>http://localhost:1313/posts/2017-10-08_%E4%BD%9C%E6%A5%AD%E5%AE%8C%E4%BA%86/</guid>
       <description>&lt;p&gt;パソコンの主要部品を５年ぶりに新しいものにしました。&lt;/p&gt;&#xA;&lt;p&gt;古い環境は、ケースを買ってきて一台のパソコンとして組み上げ、友人に売却しました。&lt;/p&gt;&#xA;&lt;p&gt;昼頃にOS（Windows10Pro）のライセンスが届いたので、認証を行い、その後、諸々のソフトウェアをインストールしていました。&lt;/p&gt;&#xA;&lt;p&gt;途中で２時間ほど居眠りしてましたが。&lt;/p&gt;&#xA;&lt;p&gt;先ほど、ソフトウェアのインストール作業が終了して、通常状態になりました。&lt;/p&gt;&#xA;&lt;p&gt;さすがに５年前のパソコンとは処理能力が違います。&lt;/p&gt;&#xA;&lt;p&gt;超ヘビー級の写真編集ソフトが難なく動きます。&lt;/p&gt;&#xA;&lt;p&gt;５年前のパソコンでもかなりの高スペックだったのに件のソフトウェアだけは処理が重すぎてイライラがたまっていました。&lt;/p&gt;&#xA;&lt;p&gt;ゲーム専用機を遙かにしのぐスペックで、ゲームもぐりぐり動きます。&lt;/p&gt;&#xA;&lt;p&gt;昔はサーバーマシンを組んだり、インストールしたりするのも仕事でやってました。&lt;/p&gt;&#xA;&lt;p&gt;３人日（３日かかる仕事量）ぐらいですが、データの引っ越しやバックアップ作業を含めれば、いつもそんな感じですね。&lt;/p&gt;&#xA;&lt;p&gt;さて、意外に疲れているので、のんびりします。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12317789218-14044358031.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171008/18/yuki9902/c0/67/j/o0966064014044358031.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>蒸し暑い</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-07_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2017-10-07_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</link>
       <pubDate>Sat, 07 Oct 2017 20:14:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-07_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2017-10-07_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</guid>
       <description>&lt;p&gt;今日は5時半に目が覚めて、ずっとPCのセットアップ作業をしてました。&lt;/p&gt;&#xA;&lt;p&gt;昼は少しだけ日射しがありましたが、ずっと曇っていて蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;夕方に主要部品が届いて、ハードウェアは揃いました。&lt;/p&gt;&#xA;&lt;p&gt;あとはライセンスだけ。&lt;/p&gt;&#xA;&lt;p&gt;食後にコーヒーを淹れてのんびりとソフトウェアの更新作業をしています。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとPCの上げ下げで筋肉痛です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>肝心な物が</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-07_%E8%82%9D%E5%BF%83%E3%81%AA%E7%89%A9%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2017-10-07_%E8%82%9D%E5%BF%83%E3%81%AA%E7%89%A9%E3%81%8C/</link>
       <pubDate>Sat, 07 Oct 2017 13:20:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-07_%E8%82%9D%E5%BF%83%E3%81%AA%E7%89%A9%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2017-10-07_%E8%82%9D%E5%BF%83%E3%81%AA%E7%89%A9%E3%81%8C/</guid>
       <description>&lt;p&gt;PCを新しく組んだもののOS(Windows10)のライセンスが載せ換えられず、新しくOSを買うことになりました。&lt;/p&gt;&#xA;&lt;p&gt;結構高いです。&lt;/p&gt;&#xA;&lt;p&gt;でも無かったらPCがただの箱になってしまうので仕方ありません。&lt;/p&gt;&#xA;&lt;p&gt;ライセンスは明日にでも届くかな…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>光ってます</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-06_%E5%85%89%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2017-10-06_%E5%85%89%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%99/</link>
       <pubDate>Fri, 06 Oct 2017 19:24:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-06_%E5%85%89%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2017-10-06_%E5%85%89%E3%81%A3%E3%81%A6%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12317235878-14043047458.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171006/19/yuki9902/81/c4/j/o0960072014043047458.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;最近のパソコンは派手に光ります。&lt;/p&gt;&#xA;&lt;p&gt;写真だと滲んでますが、強烈な赤色です。&lt;/p&gt;&#xA;&lt;p&gt;1670万色に調整できます。&lt;/p&gt;&#xA;&lt;p&gt;取りあえず新パソコンがちゃんと起動しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>RYZENが届きました</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-06_ryzen%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-06_ryzen%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 06 Oct 2017 16:27:13 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-06_ryzen%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-06_ryzen%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12317192420-14042939486.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171006/16/yuki9902/d2/cb/j/o0720096014042939486.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;組み上げ作業中です。&lt;/p&gt;&#xA;&lt;p&gt;二台組むのは作業量が多くて汗かいてきました。&lt;/p&gt;&#xA;&lt;p&gt;友人に渡す方は完成。&lt;/p&gt;&#xA;&lt;p&gt;これから自分用を組みます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>1時間前</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-06_1%E6%99%82%E9%96%93%E5%89%8D/</link>
+      <link>http://localhost:1313/posts/2017-10-06_1%E6%99%82%E9%96%93%E5%89%8D/</link>
       <pubDate>Fri, 06 Oct 2017 08:11:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-06_1%E6%99%82%E9%96%93%E5%89%8D/</guid>
+      <guid>http://localhost:1313/posts/2017-10-06_1%E6%99%82%E9%96%93%E5%89%8D/</guid>
       <description>&lt;p&gt;集合時間の1時間前に到着。&lt;/p&gt;&#xA;&lt;p&gt;カフェで朝食を頂きます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨が降っております</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-05_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2017-10-05_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</link>
       <pubDate>Thu, 05 Oct 2017 23:18:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-05_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2017-10-05_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;冷え込むことはないですが、と言いつつもちょっと寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;明日の午前中も雨です。&lt;/p&gt;&#xA;&lt;p&gt;午前中は、友達にレンズを渡してきます。&lt;/p&gt;&#xA;&lt;p&gt;その後はPCパーツショップに行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;もう一人の友人に現在のPCを譲ることになったので、ケースと電源が必要になりました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project New PC Build Up</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-05_project-new-pc-build-up/</link>
+      <link>http://localhost:1313/posts/2017-10-05_project-new-pc-build-up/</link>
       <pubDate>Thu, 05 Oct 2017 19:43:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-05_project-new-pc-build-up/</guid>
+      <guid>http://localhost:1313/posts/2017-10-05_project-new-pc-build-up/</guid>
       <description>&lt;p&gt;レンズ1本と現在使っているPCを友達に売って、新しいPCを組みます。&lt;/p&gt;&#xA;&lt;p&gt;既にマザーボードとメモリが届いています。&lt;/p&gt;&#xA;&lt;p&gt;CPUとSSDが届けば組み立て開始です。&lt;/p&gt;&#xA;&lt;p&gt;5年ぶりの更新なので大部分の部品を入れ替えます。&lt;/p&gt;&#xA;&lt;p&gt;使い回すのはグラフィックボードとBDとHDDとケースと電源ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;最近のPCパーツはLEDで色々な色で光ります。&lt;/p&gt;&#xA;&lt;p&gt;結構眩しいらしいです。&lt;/p&gt;&#xA;&lt;p&gt;メモリの放熱板が赤色なのでテーマはカラーは赤で行こうと思います。&lt;/p&gt;&#xA;&lt;p&gt;黒いパーツの中に赤い光。&lt;/p&gt;&#xA;&lt;p&gt;かっこいいはず(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;とりあえずはこの5年間で変わっていった組み立てスキルを動画等で学習したので、思うように組み上げられるはず。&lt;/p&gt;&#xA;&lt;p&gt;明日か明後日には残りのパーツが届くので、それまでマニュアルとにらめっこです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Morning Coffee</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-05_morning-coffee/</link>
+      <link>http://localhost:1313/posts/2017-10-05_morning-coffee/</link>
       <pubDate>Thu, 05 Oct 2017 06:13:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-05_morning-coffee/</guid>
+      <guid>http://localhost:1313/posts/2017-10-05_morning-coffee/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12316757411-14041959878.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171005/06/yuki9902/37/66/j/o0966064014041959878.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨日、美味しくない珈琲を飲んで、がっかりしてしまったので、久しぶりに自分で珈琲、キリマンジャロを挽いて淹れました。&lt;/p&gt;&#xA;&lt;p&gt;自分で淹れるとやっぱり珈琲は美味しい。&lt;/p&gt;&#xA;&lt;p&gt;尿管結石と珈琲は関係ないと主治医に言われたので安心して飲みます。&lt;/p&gt;&#xA;&lt;p&gt;普段の水分摂取量1リットルと少ないのが原因みたいです。&lt;/p&gt;&#xA;&lt;p&gt;2リットルは水分を摂りなさいと言われました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、珈琲が美味しかったので今朝は気持ちいいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>そろそろ</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-05_%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</link>
+      <link>http://localhost:1313/posts/2017-10-05_%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</link>
       <pubDate>Thu, 05 Oct 2017 00:43:16 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-05_%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</guid>
+      <guid>http://localhost:1313/posts/2017-10-05_%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D/</guid>
       <description>&lt;p&gt;かなり眠いですけれど、ゲームのボーナス期間が終了する前にガチャを回さないと・・・。&lt;/p&gt;&#xA;&lt;p&gt;それが終わったら寝ます。&lt;/p&gt;&#xA;&lt;p&gt;皆さんは、良い夢をご覧ください。&lt;/p&gt;&#xA;&lt;p&gt;夢ぐらいは幸せに。&lt;/p&gt;</description>
     </item>
     <item>
       <title>京都に行ってきました</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-04_%E4%BA%AC%E9%83%BD%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-04_%E4%BA%AC%E9%83%BD%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 04 Oct 2017 20:47:51 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-04_%E4%BA%AC%E9%83%BD%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-04_%E4%BA%AC%E9%83%BD%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;朝、4時に目が覚め、5時半に出発しました。&lt;/p&gt;&#xA;&lt;p&gt;山陽自動車道と京滋バイパスを通って、石清水八幡宮に到着したのが9時前。&lt;/p&gt;&#xA;&lt;p&gt;石清水八幡宮は、私の住むところの氏神様である吉川八幡宮の本社にあたるそうです。&lt;/p&gt;&#xA;&lt;p&gt;お参りをして、お守りを買いました。&lt;/p&gt;&#xA;&lt;p&gt;その後は、平等院鳳凰堂に行きました。&lt;/p&gt;&#xA;&lt;p&gt;石清水八幡宮から車で10分ほどだったかな、まあ直ぐに着きました。&lt;/p&gt;&#xA;&lt;p&gt;最近塗り直したので、朱色が綺麗に映えてました。&lt;/p&gt;&#xA;&lt;p&gt;昔、社員旅行で行ったことがあるんですが、その時はすすけた黒色だったので、とても新鮮でした。&lt;/p&gt;&#xA;&lt;p&gt;実際に見るとこじんまりとしてるんですが、綺麗な朱色の建物は二回りほど大きく見えました。&lt;/p&gt;&#xA;&lt;p&gt;その後は、月桂冠の大蔵資料館に行き、大吟醸とプラム酒を買いました。&lt;/p&gt;&#xA;&lt;p&gt;入館料で、小さな日本酒のカップ酒を貰えます。&lt;/p&gt;&#xA;&lt;p&gt;この後は、ガソリンを入れて、近くの海産物を販売している店が経営している回転寿司屋に行き、ついつい食べ過ぎました。&lt;/p&gt;&#xA;&lt;p&gt;で、その後は、帰路につきました。&lt;/p&gt;&#xA;&lt;p&gt;サービスエリアで自宅用のお土産を買って帰りました。&lt;/p&gt;&#xA;&lt;p&gt;帰りの高速道路では、あちこちで工事のため速度車線規制がかかっていました。&lt;/p&gt;&#xA;&lt;p&gt;まあそれでもスムーズに帰り着き、帰りがけにスーパーに寄って晩ご飯のお総菜を買って、家に着いたのは4時半頃でした。&lt;/p&gt;&#xA;&lt;p&gt;今、まだお風呂に入っていませんが、眠いです(^Д^)&lt;/p&gt;&#xA;&lt;p&gt;写真は、この前と前々の記事に載せました。&lt;/p&gt;&#xA;&lt;p&gt;まだちょっとだけしか紅葉はしていないので、建物がメインの写真ばかりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>平等院鳳凰堂</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2%E9%B3%B3%E5%87%B0%E5%A0%82/</link>
+      <link>http://localhost:1313/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2%E9%B3%B3%E5%87%B0%E5%A0%82/</link>
       <pubDate>Wed, 04 Oct 2017 18:19:46 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2%E9%B3%B3%E5%87%B0%E5%A0%82/</guid>
+      <guid>http://localhost:1313/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2%E9%B3%B3%E5%87%B0%E5%A0%82/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12316609432-14041609354.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171004/18/yuki9902/80/32/j/o0966064014041609354.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12316609432-14041610986.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171004/18/yuki9902/19/3f/j/o0966064014041610986.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;宇治川沿いにある平等院鳳凰堂&lt;/p&gt;&#xA;&lt;p&gt;10円硬貨の絵柄として有名&lt;/p&gt;</description>
     </item>
     <item>
       <title>平等院</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2/</link>
+      <link>http://localhost:1313/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2/</link>
       <pubDate>Wed, 04 Oct 2017 10:24:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2/</guid>
+      <guid>http://localhost:1313/posts/2017-10-04_%E5%B9%B3%E7%AD%89%E9%99%A2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12316490542-14041347349.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20171004/10/yuki9902/c3/1a/j/o0960072014041347349.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>石清水八幡宮</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-04_%E7%9F%B3%E6%B8%85%E6%B0%B4%E5%85%AB%E5%B9%A1%E5%AE%AE/</link>
+      <link>http://localhost:1313/posts/2017-10-04_%E7%9F%B3%E6%B8%85%E6%B0%B4%E5%85%AB%E5%B9%A1%E5%AE%AE/</link>
       <pubDate>Wed, 04 Oct 2017 09:03:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-04_%E7%9F%B3%E6%B8%85%E6%B0%B4%E5%85%AB%E5%B9%A1%E5%AE%AE/</guid>
+      <guid>http://localhost:1313/posts/2017-10-04_%E7%9F%B3%E6%B8%85%E6%B0%B4%E5%85%AB%E5%B9%A1%E5%AE%AE/</guid>
       <description>&lt;p&gt;只今石清水八幡宮に到着&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜は早めに</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-03_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%97%A9%E3%82%81%E3%81%AB/</link>
+      <link>http://localhost:1313/posts/2017-10-03_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%97%A9%E3%82%81%E3%81%AB/</link>
       <pubDate>Tue, 03 Oct 2017 21:37:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-03_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%97%A9%E3%82%81%E3%81%AB/</guid>
+      <guid>http://localhost:1313/posts/2017-10-03_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%97%A9%E3%82%81%E3%81%AB/</guid>
       <description>&lt;p&gt;早めに寝ます。&lt;/p&gt;&#xA;&lt;p&gt;明日、両親と京都の平等院鳳凰堂と石清水八幡宮に行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;観光シーズンより早いですが、混むのが苦手なので。&lt;/p&gt;</description>
     </item>
     <item>
       <title>再燃</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-03_%E5%86%8D%E7%87%83/</link>
+      <link>http://localhost:1313/posts/2017-10-03_%E5%86%8D%E7%87%83/</link>
       <pubDate>Tue, 03 Oct 2017 00:59:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-03_%E5%86%8D%E7%87%83/</guid>
+      <guid>http://localhost:1313/posts/2017-10-03_%E5%86%8D%E7%87%83/</guid>
       <description>&lt;p&gt;自作PC熱が再燃してきてます。&lt;/p&gt;&#xA;&lt;p&gt;今使っているPCは5年前に組んだもの。&lt;/p&gt;&#xA;&lt;p&gt;CPU、マザーボード、メモリ、SSDは5年前のミドルクラス。&lt;/p&gt;&#xA;&lt;p&gt;HDDはトータルで16TBもある。&lt;/p&gt;&#xA;&lt;p&gt;最も負荷が高いのは、ゲーム「ドラゴンズドグマオンライン」をプレイすること。&lt;/p&gt;&#xA;&lt;p&gt;それでも特に不満なくプレイできるので、新しいPCが必要かと言われれば、そうではないと答えるしかない。&lt;/p&gt;&#xA;&lt;p&gt;でも、自作PC熱は、新しいPCを組みたいとメラメラと燃えています。&lt;/p&gt;&#xA;&lt;p&gt;今考えている自作PCの計画では、CPU、マザーボード、メモリは流用が効かないので、これらは完全に新しいものに置き換えることとSSDをNVMeのPCIeのM.2規格のSSDにすることです。&lt;/p&gt;&#xA;&lt;p&gt;最低限の交換で7万5千円程度あれば何とかいけそう。&lt;/p&gt;&#xA;&lt;p&gt;お米を売ったお金が入ってきているはずなので、（父親は儲けの額を教えてくれないけど）融通して貰おうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-02_%E4%BB%8A%E6%97%A5/</link>
+      <link>http://localhost:1313/posts/2017-10-02_%E4%BB%8A%E6%97%A5/</link>
       <pubDate>Mon, 02 Oct 2017 18:57:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-02_%E4%BB%8A%E6%97%A5/</guid>
+      <guid>http://localhost:1313/posts/2017-10-02_%E4%BB%8A%E6%97%A5/</guid>
       <description>&lt;p&gt;アメリカで大きな事件があったようですね。&lt;/p&gt;&#xA;&lt;p&gt;詳しくは知りませんが、痛ましいことです。&lt;/p&gt;&#xA;&lt;p&gt;違いを許容すること、貧しさを人の所為にしないこと、難しいですが、やっぱり真面目にコツコツとやっていきましょうよ。&lt;/p&gt;&#xA;&lt;p&gt;酷い社会でも自分も社会の一部なのですから。&lt;/p&gt;&#xA;&lt;p&gt;諦めろとは言いません、罪のない人を巻き込まないでください。&lt;/p&gt;&#xA;&lt;p&gt;潔癖ではいけません。&lt;/p&gt;&#xA;&lt;p&gt;清濁併せ呑む度量を持とう。&lt;/p&gt;&#xA;&lt;p&gt;優しくなろうよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SAOの3期</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-01_sao%E3%81%AE3%E6%9C%9F/</link>
+      <link>http://localhost:1313/posts/2017-10-01_sao%E3%81%AE3%E6%9C%9F/</link>
       <pubDate>Sun, 01 Oct 2017 23:51:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-01_sao%E3%81%AE3%E6%9C%9F/</guid>
+      <guid>http://localhost:1313/posts/2017-10-01_sao%E3%81%AE3%E6%9C%9F/</guid>
       <description>&lt;p&gt;SAOのTVアニメ3期、アリシゼーション編が正式にアナウンスされました。&lt;/p&gt;&#xA;&lt;p&gt;楽しみですが、描けない部分も多いんだろうなとも思っています。&lt;/p&gt;&#xA;&lt;p&gt;単行本10冊分のストーリーを何話で制作するんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;アリス役はダクネスの中の人。&lt;/p&gt;&#xA;&lt;p&gt;ダクネスがちらついて・・・。&lt;/p&gt;&#xA;&lt;p&gt;アリシゼーション編のキャラクタはPS4のゲームなどで既に登場しているので、聞いたことはあるんですが、やっぱりダクネスが・・・。&lt;/p&gt;&#xA;&lt;p&gt;オーディナル・スケールのディスクも発売されたばかりなので、SAOはまだまだ熱いのかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>作業の合間に</title>
-      <link>https://yuki9902-jp.github.io/posts/2017-10-01_%E4%BD%9C%E6%A5%AD%E3%81%AE%E5%90%88%E9%96%93%E3%81%AB/</link>
+      <link>http://localhost:1313/posts/2017-10-01_%E4%BD%9C%E6%A5%AD%E3%81%AE%E5%90%88%E9%96%93%E3%81%AB/</link>
       <pubDate>Sun, 01 Oct 2017 00:13:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2017-10-01_%E4%BD%9C%E6%A5%AD%E3%81%AE%E5%90%88%E9%96%93%E3%81%AB/</guid>
+      <guid>http://localhost:1313/posts/2017-10-01_%E4%BD%9C%E6%A5%AD%E3%81%AE%E5%90%88%E9%96%93%E3%81%AB/</guid>
       <description>&lt;p&gt;昼間はRAID1のフォーマットが終了したHDDに写真データを移し替え、待ち時間はドラゴンズドグマオンラインをそのPCでプレイしてました。&lt;/p&gt;&#xA;&lt;p&gt;ゲームのインストール領域ではないので、特に問題なくプレイできました。&lt;/p&gt;&#xA;&lt;p&gt;高速なNVMeのSSDが良いなぁとか見てましたが、今のマザーボードでは起動ドライブに出来ないので買っても意味ないし、最新のAMD 990FXマザーがこの夏に発売されたので、今のCPUをそのまま載せ替えるか、とか考えたり、意味のないことをグルグル考えてました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードとSSDを新しくするなら、CPUもメモリも新しくした方が絶対良いし、結局、新しくPCを組んだ方が良いと物欲を抑えております。&lt;/p&gt;&#xA;&lt;p&gt;初めて買ったDOS/V機のFMVからCPUを流用して自作パソコンの道にはまってから22年ですか。&lt;/p&gt;&#xA;&lt;p&gt;やまねこさんに色々教えて貰いながら、学生時代はいろいろとやったなぁ。&lt;/p&gt;</description>
     </item>
   </channel>

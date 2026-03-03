@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2022-03 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2022-03/</link>
+    <link>http://localhost:1313/archives/2022-03/</link>
     <description>Recent content in 2022-03 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 22 Mar 2022 01:00:57 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2022-03/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2022-03/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>170 Days later</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-22_170-days-later/</link>
+      <link>http://localhost:1313/posts/2022-03-22_170-days-later/</link>
       <pubDate>Tue, 22 Mar 2022 01:00:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-22_170-days-later/</guid>
+      <guid>http://localhost:1313/posts/2022-03-22_170-days-later/</guid>
       <description>&lt;p&gt;原神を再開して170日を過ぎました。&lt;/p&gt;&#xA;&lt;p&gt;バージョン2.5の後半のピックアップガチャは雷電将軍と珊瑚宮心海です。&lt;/p&gt;&#xA;&lt;p&gt;再開したときのピックアップガチャが珊瑚宮心海で、無課金でゲットしていたので、今回は雷電将軍を2凸までしました。諭吉5枚と引き換えに・・・。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12733187832-15091178502.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220322/00/yuki9902/b1/61/p/o0256025615091178502.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;雷電将軍（影）（CV沢城みゆき）&lt;/p&gt;&#xA;&lt;p&gt;雷元素のサブアタッカー兼バッファーです。通常攻撃力は少し低いですが、元素爆発してからは敵の防御力60%を無視してダメージを与えるので結構強いです。&lt;/p&gt;&#xA;&lt;p&gt;レベル90になって、モチーフ武器の「草薙の稲光」と聖遺物「絶縁」4セットで元素チャージ効率を高めにしておいて、八重神子の元素スキル、ジン、エウルアと合わせて元素爆発を放つと大概ダメージ表記が出ずに敵が蒸発してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;ただ炎元素には弱いので、ジンの元素爆発が多めに回るようにしておいた方が良いです。&lt;/p&gt;&#xA;&lt;p&gt;現在のパーティー編成&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12733187832-15091185117.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220322/00/yuki9902/dc/1c/p/o0256025615091185117.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ジン=グンヒルド&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12733187832-15091185213.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220322/00/yuki9902/f7/66/p/o0256025615091185213.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;エウルア=ローレンス&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12733187832-15091178502.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220322/00/yuki9902/b1/61/p/o0256025615091178502.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;雷電影&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12733187832-15091184319.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220322/00/yuki9902/4d/9b/p/o0256025615091184319.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;八重神子&lt;/p&gt;&#xA;&lt;p&gt;成人女性の炎元素キャラが出てくるのを待っているんですが、まだ先の話でしょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>世界最大の兵器見本市と兵器の実験場はどこの国</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-21_%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AE%E5%85%B5%E5%99%A8%E8%A6%8B%E6%9C%AC%E5%B8%82%E3%81%A8%E5%85%B5%E5%99%A8%E3%81%AE%E5%AE%9F%E9%A8%93%E5%A0%B4%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE%E5%9B%BD/</link>
+      <link>http://localhost:1313/posts/2022-03-21_%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AE%E5%85%B5%E5%99%A8%E8%A6%8B%E6%9C%AC%E5%B8%82%E3%81%A8%E5%85%B5%E5%99%A8%E3%81%AE%E5%AE%9F%E9%A8%93%E5%A0%B4%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE%E5%9B%BD/</link>
       <pubDate>Mon, 21 Mar 2022 21:06:58 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-21_%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AE%E5%85%B5%E5%99%A8%E8%A6%8B%E6%9C%AC%E5%B8%82%E3%81%A8%E5%85%B5%E5%99%A8%E3%81%AE%E5%AE%9F%E9%A8%93%E5%A0%B4%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE%E5%9B%BD/</guid>
+      <guid>http://localhost:1313/posts/2022-03-21_%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AE%E5%85%B5%E5%99%A8%E8%A6%8B%E6%9C%AC%E5%B8%82%E3%81%A8%E5%85%B5%E5%99%A8%E3%81%AE%E5%AE%9F%E9%A8%93%E5%A0%B4%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AE%E5%9B%BD/</guid>
       <description>&lt;p&gt;この見出しですべてを語っているわけですが、今年の初夏にその国で兵器ショーが開かれるそうです。&lt;/p&gt;&#xA;&lt;p&gt;U国東部で2014年からの8年間ずっと戦争をして兵器の威力を確かめてきて、兵器のアップデートが効果的に行われてきたことを証明したとHPでアピールしています。&lt;/p&gt;&#xA;&lt;p&gt;その被害については欧州人権委員会でU国東部でR系住民に対するジェノサイドが行われていたと報告されています。&lt;/p&gt;&#xA;&lt;p&gt;米国大統領Bの息子HがU国オルガリヒの幹部ですし、いま米国内で再び問題視されていますが、我が国の主要メディアは一切報じませんね。&lt;/p&gt;&#xA;&lt;p&gt;あらゆる兵器産業のメーカーがU国でデモンストレーションを行い、最新の小型携帯対戦車ミサイルの威力をまざまざと見せつけられています。&lt;/p&gt;&#xA;&lt;p&gt;にわか兵器マニアがR軍の悲惨な状況とU国に提供された兵器の解説を行っていますが、それすら兵器メーカーの思惑通りです。&lt;/p&gt;&#xA;&lt;p&gt;誰がこの度の戦争で大もうけをしているかを考えれば、とてもじゃないですが、U国を支援しようという考えは起きません。&lt;/p&gt;</description>
     </item>
     <item>
       <title>家がミシミシ鳴っている</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-19_%E5%AE%B6%E3%81%8C%E3%83%9F%E3%82%B7%E3%83%9F%E3%82%B7%E9%B3%B4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</link>
+      <link>http://localhost:1313/posts/2022-03-19_%E5%AE%B6%E3%81%8C%E3%83%9F%E3%82%B7%E3%83%9F%E3%82%B7%E9%B3%B4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</link>
       <pubDate>Sat, 19 Mar 2022 17:19:29 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-19_%E5%AE%B6%E3%81%8C%E3%83%9F%E3%82%B7%E3%83%9F%E3%82%B7%E9%B3%B4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</guid>
+      <guid>http://localhost:1313/posts/2022-03-19_%E5%AE%B6%E3%81%8C%E3%83%9F%E3%82%B7%E3%83%9F%E3%82%B7%E9%B3%B4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B/</guid>
       <description>&lt;p&gt;暴風雨で家がミシミシと鳴っています。&lt;/p&gt;&#xA;&lt;p&gt;雷も鳴り、雨が外壁にバシバシと当たります。&lt;/p&gt;&#xA;&lt;p&gt;大きく乱れた風が家を下から揺らします。&lt;/p&gt;&#xA;&lt;p&gt;揺れが結構あって地震並に怖いんですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD RADEON SOFTWARE ADRENALINEをアップデートしたら吹っ飛んだ</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-19_amd-radeon-software-adrenaline%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%97%E3%81%9F%E3%82%89%E5%90%B9%E3%81%A3%E9%A3%9B%E3%82%93%E3%81%A0/</link>
+      <link>http://localhost:1313/posts/2022-03-19_amd-radeon-software-adrenaline%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%97%E3%81%9F%E3%82%89%E5%90%B9%E3%81%A3%E9%A3%9B%E3%82%93%E3%81%A0/</link>
       <pubDate>Sat, 19 Mar 2022 03:06:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-19_amd-radeon-software-adrenaline%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%97%E3%81%9F%E3%82%89%E5%90%B9%E3%81%A3%E9%A3%9B%E3%82%93%E3%81%A0/</guid>
+      <guid>http://localhost:1313/posts/2022-03-19_amd-radeon-software-adrenaline%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%97%E3%81%9F%E3%82%89%E5%90%B9%E3%81%A3%E9%A3%9B%E3%82%93%E3%81%A0/</guid>
       <description>&lt;p&gt;グラボの3/17に公開された最新のMicrosoft認証ドライバーをインストールしたら、重要なDLLが壊れたらしくWindowsが起動するもののシェルが立ち上がってこない状態になり、シャットダウンすら出来なくなった。&lt;/p&gt;&#xA;&lt;p&gt;強制再起動でセーフモードで入ってドライバー更新前にロールバックするも起動せず、修復も途中で止まって出来なくなってしまった。&lt;/p&gt;&#xA;&lt;p&gt;諦めてWindows11Proを再インストールしました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず通常の使い方が出来る程度にはシステムを再構築したので、あとは必要時にアプリをインストールすれば良いかな。&lt;/p&gt;&#xA;&lt;p&gt;データやゲームをインストールしたSSDはシステムとは別にしているので、ドライブレターを合わせればほぼ問題なく復旧完了です。&lt;/p&gt;&#xA;&lt;p&gt;RADEONのドライバーADRENALINEは、気をつけてインストールしないと頻繁に酷い目に遭う。&lt;/p&gt;&#xA;&lt;p&gt;今回は非常に有用な機能が追加された、ミドルクラス以下のグラボでも対応するゲームなら解像度を擬似的に上げて快適に遊べるようになった。&lt;/p&gt;&#xA;&lt;p&gt;Windows11は、セキュリティーがらみの扱いも複雑になりすぎてて、ユーザーが簡単に復旧させられなくなっています。&lt;/p&gt;&#xA;&lt;p&gt;500MBを超えるドライバーを細かく分析して問題を特定するのはほぼ無理だな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>大きな地震です。</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-16_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:1313/posts/2022-03-16_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</link>
       <pubDate>Wed, 16 Mar 2022 23:40:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-16_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:1313/posts/2022-03-16_%E5%A4%A7%E3%81%8D%E3%81%AA%E5%9C%B0%E9%9C%87%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;東北で震度6強の地震です。&lt;/p&gt;&#xA;&lt;p&gt;被害がないように願います。&lt;/p&gt;&#xA;&lt;p&gt;気をつけてください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD チップセットドライバー 4.03.03.431</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</link>
+      <link>http://localhost:1313/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</link>
       <pubDate>Wed, 16 Mar 2022 02:05:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</guid>
+      <guid>http://localhost:1313/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</guid>
       <description>&lt;p&gt;AMDの&lt;a href=&#34;https://www.amd.com/ja/support/chipsets/amd-socket-am4/x570&#34;&gt;X570チップセットドライバー&lt;/a&gt;が更新されていたので、ダウンロードしてインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;更新内容はリリースノートを見れば分かりますが、CPUのパフォーマンスと電力の改善の為に電力制御設定を更新、PCIデバイスドライバーの安定性の改善、PT GPIO2ドライバーの追加、AMD PSPドライバーの追加、AMD SFHドライバーの問題修正、AMD MicroPEPドライバーのACPI連携の問題修正。&lt;/p&gt;&#xA;&lt;p&gt;先日、マザーボードのBIOS（UEFI）を更新したので、チップセットドライバーも更新すれば良いと思います。&lt;/p&gt;&#xA;&lt;p&gt;CINEBENCH R23のマルチコアのスコアが極僅かに良くなりました。&lt;/p&gt;&#xA;&lt;p&gt;普段は60FPSが上限のゲームをしているので、CPUを100％で使うことはないですけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>BARNESBEG ダージリン2021年春摘み</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-12_barnesbeg-%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B32021%E5%B9%B4%E6%98%A5%E6%91%98%E3%81%BF/</link>
+      <link>http://localhost:1313/posts/2022-03-12_barnesbeg-%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B32021%E5%B9%B4%E6%98%A5%E6%91%98%E3%81%BF/</link>
       <pubDate>Sat, 12 Mar 2022 13:29:49 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-12_barnesbeg-%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B32021%E5%B9%B4%E6%98%A5%E6%91%98%E3%81%BF/</guid>
+      <guid>http://localhost:1313/posts/2022-03-12_barnesbeg-%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B32021%E5%B9%B4%E6%98%A5%E6%91%98%E3%81%BF/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12731484083-15086625545.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20220312/13/yuki9902/bb/a0/j/o1569117715086625545.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は暖かいです。&lt;/p&gt;&#xA;&lt;p&gt;窓を開けて風に吹かれていても寒くは感じません。&lt;/p&gt;&#xA;&lt;p&gt;ダージリンのバーネスベグ2021年ファーストフラッシュ(FTGFOP1)を煎れて飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;ダージリンファーストフラッシュの若々しい香りと軽やかな渋みが気分を軽くします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ASUS ROG STRIX X570-F Gaming BIOS 4204</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</link>
+      <link>http://localhost:1313/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</link>
       <pubDate>Wed, 09 Mar 2022 23:48:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</guid>
+      <guid>http://localhost:1313/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</guid>
       <description>&lt;p&gt;ASUS ROG STRIX X570-F Gamingの新しいBIOSが3/8付けで公開されました。&lt;/p&gt;&#xA;&lt;p&gt;修正内容は前回の4203ベータと同じです。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の設定をコア毎の電圧制御カーブを-5,-20として、クロックの上昇を350に設定しました。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の設定は二カ所の項目から出来ますが、同意画面の出ない方の設定で350を設定しました。同意画面が出る方では200までしか設定できません。&lt;/p&gt;&#xA;&lt;p&gt;200を設定するとシングルコアでも4.9GHzまでしか上がらないので、350を設定して5.05GHzが出るようになりました。&lt;/p&gt;&#xA;&lt;p&gt;CPU-ZのベンチマークはWindows11にして以来で最高値になりましたが、OCCTのベンチマークやCinebench R23はスコアが奮いません。&lt;/p&gt;&#xA;&lt;p&gt;ゲームはFF14で確認しましたが、Windows10との明確な差はありません。&lt;/p&gt;&#xA;&lt;p&gt;CPU系のベンチマークのアルゴリズムとWindows11のOSのバックグラウンドのプロセスが噛み合っていない印象を受けます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>サンパツ</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-08_%E3%82%B5%E3%83%B3%E3%83%91%E3%83%84/</link>
+      <link>http://localhost:1313/posts/2022-03-08_%E3%82%B5%E3%83%B3%E3%83%91%E3%83%84/</link>
       <pubDate>Tue, 08 Mar 2022 22:28:13 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-08_%E3%82%B5%E3%83%B3%E3%83%91%E3%83%84/</guid>
+      <guid>http://localhost:1313/posts/2022-03-08_%E3%82%B5%E3%83%B3%E3%83%91%E3%83%84/</guid>
       <description>&lt;p&gt;今日は散髪に行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;冬の間伸び放題だった髪の毛は櫛を通してもくせっ毛で絡まって痛かったです。&lt;/p&gt;&#xA;&lt;p&gt;襟ぐりを刈り上げて寒いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>桃の節句</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-03_%E6%A1%83%E3%81%AE%E7%AF%80%E5%8F%A5/</link>
+      <link>http://localhost:1313/posts/2022-03-03_%E6%A1%83%E3%81%AE%E7%AF%80%E5%8F%A5/</link>
       <pubDate>Thu, 03 Mar 2022 21:48:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-03_%E6%A1%83%E3%81%AE%E7%AF%80%E5%8F%A5/</guid>
+      <guid>http://localhost:1313/posts/2022-03-03_%E6%A1%83%E3%81%AE%E7%AF%80%E5%8F%A5/</guid>
       <description>&lt;p&gt;今日はさゆねこさんの誕生日ですね。&lt;/p&gt;&#xA;&lt;p&gt;ずっと頑張って生きておられるのを遠くから応援することしか出来ませんが。&lt;/p&gt;&#xA;&lt;p&gt;お誕生日おめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;混沌はますます世の中を悪い方向へと押し進めています。&lt;/p&gt;&#xA;&lt;p&gt;それでも日本人としての誇りを失わないように生きていきます。&lt;/p&gt;&#xA;&lt;p&gt;今日は女の子の成長を願い、祝う日です。&lt;/p&gt;&#xA;&lt;p&gt;ジェンダーレスの押しつけは、人が生物と当たり前として保有している性を壊し、家族を壊し、文化や伝統を壊し、国を壊す行為です。&lt;/p&gt;&#xA;&lt;p&gt;もっと大らかに人の違い、性の違い、文化の違い、言葉の違い、価値観の違い、国の違いを受け入れて、それぞれを尊重して仲良く生きていくことの方が素晴らしいと思いませんか。&lt;/p&gt;&#xA;&lt;p&gt;なので、桃の節句をちゃんと家族で祝いましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日のRYZEN 7 5800XのPBO2設定</title>
-      <link>https://yuki9902-jp.github.io/posts/2022-03-02_%E4%BB%8A%E6%97%A5%E3%81%AEryzen-7-5800x%E3%81%AEpbo2%E8%A8%AD%E5%AE%9A/</link>
+      <link>http://localhost:1313/posts/2022-03-02_%E4%BB%8A%E6%97%A5%E3%81%AEryzen-7-5800x%E3%81%AEpbo2%E8%A8%AD%E5%AE%9A/</link>
       <pubDate>Wed, 02 Mar 2022 10:48:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2022-03-02_%E4%BB%8A%E6%97%A5%E3%81%AEryzen-7-5800x%E3%81%AEpbo2%E8%A8%AD%E5%AE%9A/</guid>
+      <guid>http://localhost:1313/posts/2022-03-02_%E4%BB%8A%E6%97%A5%E3%81%AEryzen-7-5800x%E3%81%AEpbo2%E8%A8%AD%E5%AE%9A/</guid>
       <description>&lt;p&gt;PBO2の電圧カーブはマニュアルで、優秀なコア－5，それ以外のコア－20、スケールはマニュアルでX10、電力制御はMotherboard、PBOfmaxはEnable、DIGI+は130%とすべてextreme、温度リミットはAuto&lt;/p&gt;&#xA;&lt;p&gt;CPU: RYZEN 7 5800X&lt;/p&gt;&#xA;&lt;p&gt;M/B: ASUS ROG STRIX X570-F Gaming&lt;/p&gt;&#xA;&lt;p&gt;Mem: CORSAIR VENGENCE PRO RGB 3600 CL18 8GBx4(32GB)&lt;/p&gt;&#xA;&lt;p&gt;Cooler: CORSAIR AIO 280mm iCUE H115i ELITE CAPELLIX&lt;/p&gt;&#xA;&lt;p&gt;OS: Windows 11 PRO&lt;/p&gt;&#xA;&lt;p&gt;今のところ、OCCT負荷テストをパス、CinebenchR23を完走して、安定して動作しています。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/8Gmsayf92M9R9RDnkaDYa1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;16,473〜38,632円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=EBZeX2gioLyyGxg4T5SU24&amp;amp;mimp=I01q71eOBVRIei7rBqXEB4&amp;amp;session=a5fd7f5f-adc9-4f38-b8d3-d90dd4a76ded&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=EBZeX2gioLyyGxg4T5SU24&amp;amp;mimp=I01q71eOBVRIei7rBqXEB4&amp;amp;session=a5fd7f5f-adc9-4f38-b8d3-d90dd4a76ded&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/bo9pCt82Gm9DRihVDeyBN1&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;CORSAIR DDR4-3600MHz デスクトップPC用 メモリ VENGEANCE RGB PRO シリーズ 16GB [8GB×2枚] CMW16GX4M2D3600C18&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;11,550〜25,202円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=1NUhNyamkVXZlJZJMxksn6&amp;amp;mimp=KOgNocgd2k2ynz6RsBtqEC&amp;amp;session=a5fd7f5f-adc9-4f38-b8d3-d90dd4a76ded&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=1NUhNyamkVXZlJZJMxksn6&amp;amp;mimp=KOgNocgd2k2ynz6RsBtqEC&amp;amp;session=a5fd7f5f-adc9-4f38-b8d3-d90dd4a76ded&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/ZPX1QQH96cUF3kW85AXVW2&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;AMD Ryzen 7 5800X without cooler 3.8GHz 8コア / 16スレッド 36MB 105W【国内正規代理店品】 100-100000063WOF&lt;/p&gt;</description>
     </item>
   </channel>

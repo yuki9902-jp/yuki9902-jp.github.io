@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-01 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2012-01/</link>
+    <link>http://localhost:1313/archives/2012-01/</link>
     <description>Recent content in 2012-01 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 31 Jan 2012 12:57:47 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2012-01/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2012-01/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>カレーうどん</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-31_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2012-01-31_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93/</link>
       <pubDate>Tue, 31 Jan 2012 12:57:47 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-31_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2012-01-31_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%86%E3%81%A9%E3%82%93/</guid>
       <description>&lt;p&gt;最近よくうどんを昼食に食べるんですが、まあ、そこのうどん屋は旨いんです。&lt;/p&gt;&#xA;&lt;p&gt;でも、寒い日にはもっと温まりたいので、カレーうどんを食べるんです。&lt;/p&gt;&#xA;&lt;p&gt;刻みネギを好みでかけるともっと旨くなるんです。&lt;/p&gt;&#xA;&lt;p&gt;『くうかい』っていううどん屋です。&lt;br&gt;&#xA;他に沢山のうどんメニューがあるので、いろいろ食べて見るといいのです。&lt;/p&gt;&#xA;&lt;p&gt;私は10年以上通ってます。&lt;/p&gt;&#xA;&lt;p&gt;一度、さゆねこさんをお連れしましたが、重要な電話で長い時間お待たせしてしまったのが心残りです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>VAストリッパー</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-30_va%E3%82%B9%E3%83%88%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC/</link>
+      <link>http://localhost:1313/posts/2012-01-30_va%E3%82%B9%E3%83%88%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC/</link>
       <pubDate>Mon, 30 Jan 2012 09:06:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-30_va%E3%82%B9%E3%83%88%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC/</guid>
+      <guid>http://localhost:1313/posts/2012-01-30_va%E3%82%B9%E3%83%88%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11150109701-11763844061.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120130/09/yuki9902/61/93/j/t02200293_0240032011763844061.jpg?caw=800&#34; alt=&#34;高原の風-120130_0855~01.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ベッセルのVAストリッパーです。&lt;/p&gt;&#xA;&lt;p&gt;2アクションで簡単でキレイに剥けます。&lt;/p&gt;&#xA;&lt;p&gt;VVFとEM-EEFの1.6, 2.0に対応してます。&lt;/p&gt;&#xA;&lt;p&gt;外皮だけでなく、芯線の被覆も簡単に剥けます。&lt;/p&gt;&#xA;&lt;p&gt;大概のストリッパーは芯線に傷が入りますが、これは大丈夫でした。&lt;/p&gt;&#xA;&lt;p&gt;電工試験のときだけじゃなく、普通に工事でも役立ちそうです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ノイズサプレッサー</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-29_%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%B5%E3%83%97%E3%83%AC%E3%83%83%E3%82%B5%E3%83%BC/</link>
+      <link>http://localhost:1313/posts/2012-01-29_%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%B5%E3%83%97%E3%83%AC%E3%83%83%E3%82%B5%E3%83%BC/</link>
       <pubDate>Sun, 29 Jan 2012 21:04:32 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-29_%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%B5%E3%83%97%E3%83%AC%E3%83%83%E3%82%B5%E3%83%BC/</guid>
+      <guid>http://localhost:1313/posts/2012-01-29_%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%B5%E3%83%97%E3%83%AC%E3%83%83%E3%82%B5%E3%83%BC/</guid>
       <description>&lt;p&gt;車に搭載したWalkmanで音楽を聴くのに、アクセサリ電源を分岐しているんだけど、スパークプラグからのノイズが酷い。&lt;/p&gt;&#xA;&lt;p&gt;ビビビビって鳴っているんだけど、エンジンの回転に応じて、早くなったり遅くなったり…。&lt;/p&gt;&#xA;&lt;p&gt;もう何年も我慢してきた。&lt;/p&gt;&#xA;&lt;p&gt;で、自分でラインノイズフィルターを作ろうとしたけど、部品代やらで７０００円ぐらいになりそう。&lt;/p&gt;&#xA;&lt;p&gt;しかも岡山じゃ部品が手に入らない…。&lt;/p&gt;&#xA;&lt;p&gt;いろいろ調べてたら、ようやく安い製品を見つけた。&lt;/p&gt;&#xA;&lt;p&gt;BOSS AUDIO SYSTEMSの自動車用ノイズサプレッサー B-15N (Automotive Noise Suppressor)&lt;/p&gt;&#xA;&lt;p&gt;Amazonで、800円台で購入した。&lt;/p&gt;&#xA;&lt;p&gt;単なるカレントノイズフィルターだけど、効果は絶大だね。&lt;/p&gt;&#xA;&lt;p&gt;取り付けは、ギボシ加工をして差し込むだけにした。&lt;/p&gt;&#xA;&lt;p&gt;もともといろいろ配線して予備線入れてたから。&lt;/p&gt;&#xA;&lt;p&gt;インプレッサのエアコンパネルの裏にスペースが空いていて助かった。&lt;/p&gt;</description>
     </item>
     <item>
       <title>低温</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-25_%E4%BD%8E%E6%B8%A9/</link>
+      <link>http://localhost:1313/posts/2012-01-25_%E4%BD%8E%E6%B8%A9/</link>
       <pubDate>Wed, 25 Jan 2012 08:53:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-25_%E4%BD%8E%E6%B8%A9/</guid>
+      <guid>http://localhost:1313/posts/2012-01-25_%E4%BD%8E%E6%B8%A9/</guid>
       <description>&lt;p&gt;今日も寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;家の周りは氷点下5度でした。&lt;/p&gt;&#xA;&lt;p&gt;岡山市内に出ると0度くらいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;気温差5度です。&lt;/p&gt;&#xA;&lt;p&gt;友達がアメリカの内陸部に住んでいますが、氷点下20度の次の日がいきなり20度になったりするらしく、40度の気温差なんて大変だと思うのです。&lt;/p&gt;&#xA;&lt;p&gt;私の住んでいるところで体験した最低気温は氷点下13度だったかな。&lt;/p&gt;&#xA;&lt;p&gt;地中の水道管も凍る温度です。&lt;/p&gt;&#xA;&lt;p&gt;当時は低温対策をとっているところは少なくて、数日間、水が出なくて困ったことがあったようです。&lt;/p&gt;&#xA;&lt;p&gt;まあ事故には十分気をつけましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ブラック＆ブラック</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-20_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/</link>
+      <link>http://localhost:1313/posts/2012-01-20_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/</link>
       <pubDate>Fri, 20 Jan 2012 23:42:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-20_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/</guid>
+      <guid>http://localhost:1313/posts/2012-01-20_%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/</guid>
       <description>&lt;p&gt;今日、ハローワークの求人情報検索で、変なのを見つけた。&lt;/p&gt;&#xA;&lt;p&gt;「月収４２万、Webデザイン、自社システム保守、休憩時間１２０分、９時３０分～１７時３０分、交代制有り、募集人数５名、就業場所人数５名、うちパート４名、女性２名、企業全体４５名」&lt;/p&gt;&#xA;&lt;p&gt;これはWebデザイナーとしては、岡山ではあり得ない相場。&lt;/p&gt;&#xA;&lt;p&gt;月収４２万を出すためには、一人頭、月額最低１２０万円の売り上げがないといけない。&lt;/p&gt;&#xA;&lt;p&gt;５名を雇うためには年商５０００万円のアップの見込みがあると言うこと。&lt;/p&gt;&#xA;&lt;p&gt;岡山にWebデザインの市場はそんなにない。&lt;/p&gt;&#xA;&lt;p&gt;怪しいのでネットで情報収集したら、本社がある場所はアパートの１室。&lt;/p&gt;&#xA;&lt;p&gt;Webデザインをするはずの会社が、Webサイトを出していない。&lt;/p&gt;&#xA;&lt;p&gt;さらに調べると、「モデル・キャンペーンスタッフ募集」という求人を出していた形跡がある。&lt;/p&gt;&#xA;&lt;p&gt;それも、現場への完全送迎、セキュリティーマンション完備、２２時以降の出勤有り、とでている。&lt;/p&gt;&#xA;&lt;p&gt;これは風俗嬢の送迎としか考えられない。&lt;/p&gt;&#xA;&lt;p&gt;ということは、先のハローワーク求人の「交代制有り」というのは、風俗嬢の送迎運転手のことなんだと分かる。&lt;/p&gt;&#xA;&lt;p&gt;で、ここの求人に応募した人が２ｃｈに書いていたが、「若い女しかいらない」と断られたそうだ。&lt;/p&gt;&#xA;&lt;p&gt;あれこれ考えるに、暴力団に関係する会社で、幹部スタッフ募集の上、風俗店のWebサイトや関連雑誌の編集をするスタッフを募集しているようだ。&lt;/p&gt;&#xA;&lt;p&gt;システム保守はきっと、スパムメールシステムだろうな。&lt;/p&gt;&#xA;&lt;p&gt;スパムメールを送るソフトやサーバーを提供している会社が岡山にあるし、ろくなもんじゃない。&lt;/p&gt;&#xA;&lt;p&gt;それもハローワークに結構求人をだしている。&lt;/p&gt;&#xA;&lt;p&gt;ばれないと思っているんだろうか。&lt;/p&gt;&#xA;&lt;p&gt;まあ気づかないで応募する人がいるのも、なんだかなぁ…。&lt;/p&gt;&#xA;&lt;p&gt;そろそろブラック企業を取り除く対策と、それをのけた実質求人倍率を示して欲しい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第2種電気工事士の技能試験候補問題の公表</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-19_%E7%AC%AC2%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E6%8A%80%E8%83%BD%E8%A9%A6%E9%A8%93%E5%80%99%E8%A3%9C%E5%95%8F%E9%A1%8C%E3%81%AE%E5%85%AC%E8%A1%A8/</link>
+      <link>http://localhost:1313/posts/2012-01-19_%E7%AC%AC2%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E6%8A%80%E8%83%BD%E8%A9%A6%E9%A8%93%E5%80%99%E8%A3%9C%E5%95%8F%E9%A1%8C%E3%81%AE%E5%85%AC%E8%A1%A8/</link>
       <pubDate>Thu, 19 Jan 2012 12:56:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-19_%E7%AC%AC2%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E6%8A%80%E8%83%BD%E8%A9%A6%E9%A8%93%E5%80%99%E8%A3%9C%E5%95%8F%E9%A1%8C%E3%81%AE%E5%85%AC%E8%A1%A8/</guid>
+      <guid>http://localhost:1313/posts/2012-01-19_%E7%AC%AC2%E7%A8%AE%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BA%8B%E5%A3%AB%E3%81%AE%E6%8A%80%E8%83%BD%E8%A9%A6%E9%A8%93%E5%80%99%E8%A3%9C%E5%95%8F%E9%A1%8C%E3%81%AE%E5%85%AC%E8%A1%A8/</guid>
       <description>&lt;p&gt;16日付けで第2種電気工事士の技能試験候補問題が公表されました。&lt;/p&gt;&#xA;&lt;p&gt;今日から練習しようと思います。&lt;/p&gt;&#xA;&lt;p&gt;工具を新しくはしていないので、素人がやるには難しいとされている電工ナイフでの被覆剥きを練習しましょうかね。&lt;/p&gt;&#xA;&lt;p&gt;卓上作業なので電工ナイフで問題ないですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おいしい紅茶が飲みたい</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-18_%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B4%85%E8%8C%B6%E3%81%8C%E9%A3%B2%E3%81%BF%E3%81%9F%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-01-18_%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B4%85%E8%8C%B6%E3%81%8C%E9%A3%B2%E3%81%BF%E3%81%9F%E3%81%84/</link>
       <pubDate>Wed, 18 Jan 2012 10:27:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-18_%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B4%85%E8%8C%B6%E3%81%8C%E9%A3%B2%E3%81%BF%E3%81%9F%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-01-18_%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B4%85%E8%8C%B6%E3%81%8C%E9%A3%B2%E3%81%BF%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;訓練所のカリキュラムは、1月はMicrosoft Word、Excel、PowerPointの使い方です。&lt;/p&gt;&#xA;&lt;p&gt;たまに「そんな機能もあったなぁ」と思うことがありますが、習わなければならないことがないのです。&lt;/p&gt;&#xA;&lt;p&gt;就職情報を検索したり、応募書類を作成したり、一応認められている内職をしています。&lt;/p&gt;&#xA;&lt;p&gt;まあそれも常にではないので、「&lt;a href=&#34;http://www.amazon.co.jp/gp/product/4048862405/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=yuki9902assoc-22&amp;amp;linkCode=as2&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4048862405&#34;&gt;新約 とある魔術の禁書目録(インデックス)〈3〉 (電撃文庫)&lt;/a&gt;&lt;img src=&#34;https://www.assoc-amazon.jp/e/ir?t=yuki9902assoc-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4048862405&#34; alt=&#34;&#34;&gt;」を読んでいます。&lt;/p&gt;&#xA;&lt;p&gt;結構読み応えがある文字量です。&lt;/p&gt;&#xA;&lt;p&gt;時間を有効に使う方法は十分ですが、この教室、窓に遮光のブラインドが下りているので外が見られずに気分が滅入ります。&lt;/p&gt;&#xA;&lt;p&gt;教室内での飲食禁止だし。&lt;/p&gt;&#xA;&lt;p&gt;おいしい紅茶が飲みたいんですがね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ひなたぼっこのまもなく</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93%E3%81%AE%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F/</link>
+      <link>http://localhost:1313/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93%E3%81%AE%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F/</link>
       <pubDate>Tue, 17 Jan 2012 13:58:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93%E3%81%AE%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F/</guid>
+      <guid>http://localhost:1313/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93%E3%81%AE%E3%81%BE%E3%82%82%E3%81%AA%E3%81%8F/</guid>
       <description>&lt;p&gt;曇りました。&lt;/p&gt;&#xA;&lt;p&gt;寒いです。&lt;/p&gt;&#xA;&lt;p&gt;気分が沈みます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ひなたぼっこ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93/</link>
+      <link>http://localhost:1313/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93/</link>
       <pubDate>Tue, 17 Jan 2012 12:44:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93/</guid>
+      <guid>http://localhost:1313/posts/2012-01-17_%E3%81%B2%E3%81%AA%E3%81%9F%E3%81%BC%E3%81%A3%E3%81%93/</guid>
       <description>&lt;p&gt;今日は、お日様からの熱が気持ちいいです。&lt;/p&gt;&#xA;&lt;p&gt;動物が日光浴をする気持ちが良く分かります。&lt;/p&gt;&#xA;&lt;p&gt;人工灯ばかりだと調子悪くなります。&lt;/p&gt;&#xA;&lt;p&gt;元気がない人は、日向ぼっこして少しお昼寝をしてみましょう。&lt;/p&gt;&#xA;&lt;p&gt;午後から元気になるかもしれませんね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>寒い。</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-16_%E5%AF%92%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-01-16_%E5%AF%92%E3%81%84/</link>
       <pubDate>Mon, 16 Jan 2012 11:22:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-16_%E5%AF%92%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-01-16_%E5%AF%92%E3%81%84/</guid>
       <description>&lt;p&gt;今日は寒いです。&lt;/p&gt;&#xA;&lt;p&gt;気温はそれほど低くはないようですが、直射日光が届かないと外にいるとさむい。&lt;/p&gt;&#xA;&lt;p&gt;ダウンジャケットがほしいですわ。&lt;/p&gt;&#xA;&lt;p&gt;おなかすいて、気持ち悪いし。&lt;/p&gt;</description>
     </item>
     <item>
       <title>始動</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-10_%E5%A7%8B%E5%8B%95/</link>
+      <link>http://localhost:1313/posts/2012-01-10_%E5%A7%8B%E5%8B%95/</link>
       <pubDate>Tue, 10 Jan 2012 09:08:26 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-10_%E5%A7%8B%E5%8B%95/</guid>
+      <guid>http://localhost:1313/posts/2012-01-10_%E5%A7%8B%E5%8B%95/</guid>
       <description>&lt;p&gt;さて今日から私は活動開始です。&lt;/p&gt;&#xA;&lt;p&gt;まだ訓練所通いなので、勉強することと、就職活動ですね。&lt;/p&gt;&#xA;&lt;p&gt;あと依頼されたホームページ作成をしていかなければ。&lt;/p&gt;&#xA;&lt;p&gt;デザインの方向性が固まらないですが･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>偽物語</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-08_%E5%81%BD%E7%89%A9%E8%AA%9E/</link>
+      <link>http://localhost:1313/posts/2012-01-08_%E5%81%BD%E7%89%A9%E8%AA%9E/</link>
       <pubDate>Sun, 08 Jan 2012 13:11:49 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-08_%E5%81%BD%E7%89%A9%E8%AA%9E/</guid>
+      <guid>http://localhost:1313/posts/2012-01-08_%E5%81%BD%E7%89%A9%E8%AA%9E/</guid>
       <description>&lt;p&gt;「偽物語」が始まりましたね。&lt;/p&gt;&#xA;&lt;p&gt;声優さん大変だろうと思う台詞量ですね。&lt;/p&gt;&#xA;&lt;p&gt;物語シリーズを通しての雰囲気というか、新房さんの作る雰囲気はそのままです。&lt;/p&gt;&#xA;&lt;p&gt;原作を読んでますが、読んでいた方がおもしろいかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;前作の「化物語」からのリアル世界での時系列が大切なので。&lt;/p&gt;&#xA;&lt;p&gt;今年のアニメは力が入っているなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>謹賀新年</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-01-01_%E8%AC%B9%E8%B3%80%E6%96%B0%E5%B9%B4/</link>
+      <link>http://localhost:1313/posts/2012-01-01_%E8%AC%B9%E8%B3%80%E6%96%B0%E5%B9%B4/</link>
       <pubDate>Sun, 01 Jan 2012 22:18:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-01-01_%E8%AC%B9%E8%B3%80%E6%96%B0%E5%B9%B4/</guid>
+      <guid>http://localhost:1313/posts/2012-01-01_%E8%AC%B9%E8%B3%80%E6%96%B0%E5%B9%B4/</guid>
       <description>&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;本年もよろしくお願いいたします。&lt;/p&gt;&#xA;&lt;p&gt;皆さんに少しでも多くの幸せが訪れ、いつも笑顔でいられるように祈るとともに、そういった力になれるように励んでいこうと思います。&lt;/p&gt;&#xA;&lt;p&gt;きれい事であっても信念を掲げて、行動を貫き通せば、それはいずれ現実として手に入るものだと思います。&lt;/p&gt;&#xA;&lt;p&gt;人が人に優しくなれる世界になることを切に願っています。&lt;/p&gt;</description>
     </item>
   </channel>

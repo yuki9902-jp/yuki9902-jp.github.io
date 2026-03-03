@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-09 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2007-09/</link>
+    <link>http://localhost:1313/archives/2007-09/</link>
     <description>Recent content in 2007-09 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 19 Sep 2007 08:02:08 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2007-09/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2007-09/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>コリン・マクレー氏急遽</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-09-19-%E3%82%B3%E3%83%AA%E3%83%B3%E3%83%9E%E3%82%AF%E3%83%AC%E3%83%BC%E6%B0%8F%E6%80%A5%E9%81%BD/</link>
+      <link>http://localhost:1313/posts/2007-09-19-%E3%82%B3%E3%83%AA%E3%83%B3%E3%83%9E%E3%82%AF%E3%83%AC%E3%83%BC%E6%B0%8F%E6%80%A5%E9%81%BD/</link>
       <pubDate>Wed, 19 Sep 2007 08:02:08 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-09-19-%E3%82%B3%E3%83%AA%E3%83%B3%E3%83%9E%E3%82%AF%E3%83%AC%E3%83%BC%E6%B0%8F%E6%80%A5%E9%81%BD/</guid>
+      <guid>http://localhost:1313/posts/2007-09-19-%E3%82%B3%E3%83%AA%E3%83%B3%E3%83%9E%E3%82%AF%E3%83%AC%E3%83%BC%E6%B0%8F%E6%80%A5%E9%81%BD/</guid>
       <description>&lt;p&gt;またしても競技外での訃報です。&lt;/p&gt;&#xA;&lt;p&gt;コリン・マクレー氏がヘリコプターの操縦中の事故で亡くなったそうです。&lt;/p&gt;&#xA;&lt;p&gt;コリン・マクレーのラリー競技中の姿は、それまでのドライバーと違って、アグレッシブで無謀さがあり、しょっちゅうマシンを大破させて、とてもインパクトがありました。&lt;/p&gt;&#xA;&lt;p&gt;現在は、コリン・マクレーも昨年のWRCにスポットで参戦、若手ドライバーの育成などで、活躍中でした。&lt;/p&gt;&#xA;&lt;p&gt;残念なことです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PlayStation3とHDMIとSACD</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-09-12-playstation3%E3%81%A8hdmi%E3%81%A8s/</link>
+      <link>http://localhost:1313/posts/2007-09-12-playstation3%E3%81%A8hdmi%E3%81%A8s/</link>
       <pubDate>Wed, 12 Sep 2007 00:40:43 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-09-12-playstation3%E3%81%A8hdmi%E3%81%A8s/</guid>
+      <guid>http://localhost:1313/posts/2007-09-12-playstation3%E3%81%A8hdmi%E3%81%A8s/</guid>
       <description>&lt;p&gt;PlayStation3のシステムプログラムが1.91にアップデートした。&lt;/p&gt;&#xA;&lt;p&gt;すでにHDMIからLinerPCMでのSACDのマルチチャンネル出力が可能になっていたが、それに加えCDの88.2kHz、176.4kHzでの再生が可能になった。&lt;/p&gt;&#xA;&lt;p&gt;PlayStation3のCPUであるCellは、SACDのDSD信号を１パスで24bit/176.4kHzPCMに変換できる能力があって、信号劣化なしに変換している。&lt;/p&gt;&#xA;&lt;p&gt;さすが、CPU１個でスーパーコンピューターを凌ぐ能力を持つといわれることだけはある。&lt;/p&gt;&#xA;&lt;p&gt;さらにノイズフィルター（ビットマップ）を搭載したことで、量子化ノイズを押さえ、本来記録されている音を再生することが可能になっている。&lt;/p&gt;&#xA;&lt;p&gt;PlayStation3はHDMI1.3aを搭載しており、7.1ch/24bit/192kHzPCMの出力が可能だ。&lt;/p&gt;&#xA;&lt;p&gt;これだけの信号を再生できるAVアンプは、数少ない。&lt;/p&gt;&#xA;&lt;p&gt;私の所有するDENON AVC-4320では、HDMI1.1を搭載しており、7.1ch/24bit/96kHzまで、もしくは2ch/24bit/192kHzに対応しているので、PlayStation3のSACD再生能力は何とか試せる。&lt;/p&gt;&#xA;&lt;p&gt;まずは、SACD（Multi/Stereo）（ハイブリッド）の「長岡京室内アンサンブル」を再生してみた。&lt;/p&gt;&#xA;&lt;p&gt;デジタルフィルターは、タイプ１を使っている。（「切」、「タイプ１」、「タイプ２」がある。）&lt;/p&gt;&#xA;&lt;p&gt;ちなみにスピーカーは、&lt;/p&gt;&#xA;&lt;p&gt;フロント（B&amp;amp;W705）&lt;/p&gt;&#xA;&lt;p&gt;センター（Tannoy Mercury mXC）&lt;/p&gt;&#xA;&lt;p&gt;リア（B&amp;amp;W705）&lt;/p&gt;&#xA;&lt;p&gt;サラウンドバック（Tannoy mx1）&lt;/p&gt;&#xA;&lt;p&gt;サブウーファー（Sony SRS-PC300Dのウーファー部）&lt;/p&gt;&#xA;&lt;p&gt;相変わらずサブウーファーがしょぼいです。&lt;/p&gt;&#xA;&lt;p&gt;SACD（Stereo）、2ch/24biｔ/176.4kHzで再生。&lt;/p&gt;&#xA;&lt;p&gt;ああ、すごいの一言。ソースSACDが新鮮に感じられる。&lt;/p&gt;&#xA;&lt;p&gt;また自分のシステムにこれほどの再生能力があったのかと驚きもした。&lt;/p&gt;&#xA;&lt;p&gt;SACD（Multi）、5.1ch/24bit/88.2kHzで再生。&lt;/p&gt;&#xA;&lt;p&gt;これも、自然な広がりと音の自然さに、耳障りがよく楽にソースを楽しむことができる。&lt;/p&gt;&#xA;&lt;p&gt;マルチチャンネルSACDプレーヤーとして、Marantz SA8260を使っているが、これよりも高域がクリアな感じを受ける。&lt;/p&gt;&#xA;&lt;p&gt;CD、2ch/24bit/176.4kHzで再生。&lt;/p&gt;&#xA;&lt;p&gt;CDって、こんなにも音が入っていたのかと驚いた。&lt;/p&gt;&#xA;&lt;p&gt;特にハイビットサンプリングやDSDサンプリングのマスターからCDプレスしたものは、すごい量感があり、自然で疲れない音になっている。&lt;/p&gt;&#xA;&lt;p&gt;次に、SACD（Stereo）（ハイブリッド）のEnsemble Planeta 「Largo」を聴いた。&lt;/p&gt;&#xA;&lt;p&gt;SACD（Stereo）、2ch/24bit/176.4kHzで再生。&lt;/p&gt;&#xA;&lt;p&gt;あまりの心地よさに眠ってしまった。どの音量でも聴きやすく疲れない。やっぱり自然という言葉が出てくる。&lt;/p&gt;&#xA;&lt;p&gt;さらに、SACD（Multi/Stereo）（ハイブリッド）のAkiko「mood indigo」を聴いた。&lt;/p&gt;&#xA;&lt;p&gt;SACD（Multi）、5.1ch/24bit/88.2kHzで再生。&lt;/p&gt;&#xA;&lt;p&gt;夜中になったので相当ボリュームを絞ったが、聴きやすい。&lt;/p&gt;&#xA;&lt;p&gt;ジャズでもスイングなので、それほどきつい音は少ないが、全音域と音圧で聴きやすい。&lt;/p&gt;&#xA;&lt;p&gt;さて、SACDの再生環境としての比較は、PlayStation3とSA8260になってしまうが、微細な音の再現、音の自然さ、中高音域の抜け、S/N感は、PlayStation3が非常によい。&lt;/p&gt;&#xA;&lt;p&gt;しかし、冷却ファンによる風切音は頂けない。ラックに入れて少しでも音が聞こえないようにするしかない。&lt;/p&gt;&#xA;&lt;p&gt;また、AVC-4320のAVアンプとして、ピュアオーディオとしての能力の高さもわかった。&lt;/p&gt;&#xA;&lt;p&gt;以前使用していたMarantz PS7400よりも、スピード、静粛性、抜けのよさ、低音の量感、各チャンネルの音のつながり方など、さすがに新しい世代のアンプだけのことがあり、ずっと良い。&lt;/p&gt;&#xA;&lt;p&gt;AVC-4320にはDENON LINK3rdが搭載されているので、DENON製のマルチディスクプレーヤーをつないでDSDダイレクト入力で再生してみたいものだ。&lt;/p&gt;</description>
     </item>
   </channel>

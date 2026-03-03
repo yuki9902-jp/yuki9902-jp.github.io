@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2023-10 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2023-10/</link>
+    <link>http://localhost:1313/archives/2023-10/</link>
     <description>Recent content in 2023-10 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 29 Oct 2023 11:30:34 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2023-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2023-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生きることが難しい</title>
-      <link>https://yuki9902-jp.github.io/posts/2023-10-29_%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E9%9B%A3%E3%81%97%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2023-10-29_%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E9%9B%A3%E3%81%97%E3%81%84/</link>
       <pubDate>Sun, 29 Oct 2023 11:30:34 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2023-10-29_%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E9%9B%A3%E3%81%97%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2023-10-29_%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E9%9B%A3%E3%81%97%E3%81%84/</guid>
       <description>&lt;p&gt;ノリトレンから、別の抗鬱剤に変更して、喉の渇きがなくなったの良いのですが、鼻水が出て痰が絡んで咳が出るようになりました。&lt;/p&gt;&#xA;&lt;p&gt;薬を完全に切り替えた時季と秋の花粉の時季が重なっているので、アレルギーかもしれませんが。&lt;/p&gt;&#xA;&lt;p&gt;15年ぐらい服用していた薬を切り替えたんですから、体調にも影響がでてもしょうがないかな。&lt;/p&gt;&#xA;&lt;p&gt;それよりも、今年は体調が悪い日が多いので、外出も非常に少ないです。&lt;/p&gt;&#xA;&lt;p&gt;酷い倦怠感とめまいと頭痛で寝ていることが多いです。&lt;/p&gt;&#xA;&lt;p&gt;普通に生活することすら困難なので、将来どうやって生きていこうかと結構不安です。&lt;/p&gt;&#xA;&lt;p&gt;病名があるわけでもなし、身体障害者でもないので、収入がないのは厳しいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LANスイッチングハブの故障</title>
-      <link>https://yuki9902-jp.github.io/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</link>
+      <link>http://localhost:1313/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</link>
       <pubDate>Tue, 03 Oct 2023 22:07:57 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</guid>
+      <guid>http://localhost:1313/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</guid>
       <description>&lt;p&gt;昼にスイカゲームをしていたら、突如オフラインになって、ONUやルーターやらスイッチングハブやPCを再起動しても直らず。&lt;/p&gt;&#xA;&lt;p&gt;ONUのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;スイッチングハブのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターの管理画面にアクセスしようとするも繋がらず、PC側のLANポート2つともからも繋がらない。&lt;/p&gt;&#xA;&lt;p&gt;PCから直接ルーターにLANケーブルを繋ぐと管理画面もインターネットもアクセスできた。&lt;/p&gt;&#xA;&lt;p&gt;ということでスイッチングハブが故障しました。&lt;/p&gt;&#xA;&lt;p&gt;で、急遽、街中に1Gbps 8ポートのスチングハブを買いに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;前は、コレガでしたが、今度はBUFFALOです。&lt;/p&gt;&#xA;&lt;p&gt;TPLINKがかなり安いですが、メーカーが信用できないのでBUFFALOにしました。&lt;/p&gt;&#xA;&lt;p&gt;2.5Gbpsも10Gbpsも店にはなかったので、動画編集する人以外には需要はないんでしょうね。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-06 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2007-06/</link>
+    <link>http://localhost:1313/archives/2007-06/</link>
     <description>Recent content in 2007-06 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 29 Jun 2007 20:59:43 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2007-06/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2007-06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PENTAX K10D</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-06-29-pentax-k10d/</link>
+      <link>http://localhost:1313/posts/2007-06-29-pentax-k10d/</link>
       <pubDate>Fri, 29 Jun 2007 20:59:43 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-06-29-pentax-k10d/</guid>
+      <guid>http://localhost:1313/posts/2007-06-29-pentax-k10d/</guid>
       <description>&lt;p&gt;夏のボーナスが出たので、PENTAX K10D を買った。&lt;/p&gt;&#xA;&lt;p&gt;これまで使っていた PENTAX *istDs は身売りすることになった。&lt;/p&gt;&#xA;&lt;p&gt;まだセットアップしただけで、撮影していないので何ともいえない。&lt;/p&gt;&#xA;&lt;p&gt;Z-1QDから慣れ親しんだハイパープログラムとハイパーマニュアルがあることがいい。&lt;/p&gt;&#xA;&lt;p&gt;撮影に迷わなくてすむ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ONKYO SE-90PCI</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-06-26-onkyo-se-90pci/</link>
+      <link>http://localhost:1313/posts/2007-06-26-onkyo-se-90pci/</link>
       <pubDate>Tue, 26 Jun 2007 15:54:29 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-06-26-onkyo-se-90pci/</guid>
+      <guid>http://localhost:1313/posts/2007-06-26-onkyo-se-90pci/</guid>
       <description>&lt;p&gt;ONKYO SE-90PCIのチップは、VIAのEnvy24 MTが採用されています。&lt;/p&gt;&#xA;&lt;p&gt;このドライバーは、ONKYOは&lt;a href=&#34;http://www.viaarena.com/default.aspx?PageID=420&amp;amp;OSID=37&amp;amp;CatID=2930&amp;amp;SubCatID=107&#34;&gt;チップメーカーのものをそのまま&lt;/a&gt;使っています。&lt;/p&gt;&#xA;&lt;p&gt;長らくWindows VISTA x64では、Microsoftから提供されるドライバーを使っていました。&lt;/p&gt;&#xA;&lt;p&gt;途中、5月の始め頃に一度そのドライバーがアップデートされました。&lt;/p&gt;&#xA;&lt;p&gt;そしてようやくチップメーカーからドライバーのリリースが行われました。&lt;/p&gt;&#xA;&lt;p&gt;これで、Windows VISTA x64でも24bit-192kHz出力が可能になります。&lt;/p&gt;&#xA;&lt;p&gt;また、SPDIFからDVDなどのDTSやDolbyDigitalのパススルー出力も可能になります。&lt;/p&gt;&#xA;&lt;p&gt;早速、192kHzの出力をしようとしましたが、192kHz入力ができるデジタルアンプはありません。&lt;/p&gt;&#xA;&lt;p&gt;96kHzは可能なので、96kHzに設定しました。&lt;/p&gt;&#xA;&lt;p&gt;これに設定するとSPDIFのパススルー出力はできません。&lt;/p&gt;&#xA;&lt;p&gt;192kHzはPIN端子のアナログ出力を使えば、かなりの高音質で出力できます。&lt;/p&gt;&#xA;&lt;p&gt;でも、&lt;/p&gt;&#xA;&lt;p&gt;１．24bit96kHzファイル→96kHz→光デジタル→デジタルアンプ&lt;/p&gt;&#xA;&lt;p&gt;２．24bit96kHzファイル→192kHzDAC→VLSC回路→アナログPIN→デジタルアンプ&lt;/p&gt;&#xA;&lt;p&gt;上記二つのどちらが良いかは、よくわかりません。&lt;/p&gt;&#xA;&lt;p&gt;１．ではアンプに電気的に分離した光デジタル端子で入力できます。&lt;/p&gt;&#xA;&lt;p&gt;それでも電源は、同じ所からとっているので、本当に分離しているわけではないですが。&lt;/p&gt;&#xA;&lt;p&gt;２．では計測値S/N比110dbとなっていますが、PCの電磁波ノイズの影響をPIN端子やアナログケーブルで受けてしまっていないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;ただし、PCノイズはMhzやGHz帯で22kHz以下の聴感域に入ってくるノイズではないので大丈夫だとは思っているのですが。&lt;/p&gt;&#xA;&lt;p&gt;SE-90PCIの特徴はアナログ回路ですから、それを使わないとメリットが薄いかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;でも、デジタルアンプもシーラスロジックのDACとマランツの定評あるアナログ回路ですから、アンプ側でのD/A変換でも高音質です。&lt;/p&gt;&#xA;&lt;p&gt;まあ、本当に高音質で聞く必要があるときは、すべての電気機器の電源を抜き、SACDプレーヤーからアナログ出力させアンプでダイレクト入力しアナログ回路だけで鳴らします。&lt;/p&gt;&#xA;&lt;p&gt;シーラスロジックのDACとSONYの1bitDAC、どちらが高音質でしょうか。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>tea time</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-06-17-tea-time/</link>
+      <link>http://localhost:1313/posts/2007-06-17-tea-time/</link>
       <pubDate>Sun, 17 Jun 2007 17:42:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-06-17-tea-time/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IMGP0499.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IMGP0499-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;少し落ち着いてきたこともあって、紅茶を飲むことを再び始めました。&lt;/p&gt;&#xA;&lt;p&gt;まだ元気があった頃は２，３ヶ月に一度、新しいお茶を手に入れて飲んでました。&lt;/p&gt;&#xA;&lt;p&gt;いくつかフレーバーティーを試してみましたが、やっぱりちょっと苦手。&lt;/p&gt;&#xA;&lt;p&gt;銘柄もいくつか試しました。&lt;/p&gt;&#xA;&lt;p&gt;行き着いたところは、ダージリン産。&lt;/p&gt;&#xA;&lt;p&gt;販売元はLUPICIAです。&lt;/p&gt;&#xA;&lt;p&gt;日東やLiptonもOKです。&lt;/p&gt;&#xA;&lt;p&gt;今はLUPICIAのDARJEELING THE FIRST FLUSHです。&lt;/p&gt;&#xA;&lt;p&gt;土日のゆったりしたい時間に、大きめのカップに紅茶を煎れます。&lt;/p&gt;&#xA;&lt;p&gt;今日は、レモンジュースを少し入れて、少し切れのよい風味にして楽しみました。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2007-06-17-tea-time/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IMGP0499.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IMGP0499-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;少し落ち着いてきたこともあって、紅茶を飲むことを再び始めました。&lt;/p&gt;&#xA;&lt;p&gt;まだ元気があった頃は２，３ヶ月に一度、新しいお茶を手に入れて飲んでました。&lt;/p&gt;&#xA;&lt;p&gt;いくつかフレーバーティーを試してみましたが、やっぱりちょっと苦手。&lt;/p&gt;&#xA;&lt;p&gt;銘柄もいくつか試しました。&lt;/p&gt;&#xA;&lt;p&gt;行き着いたところは、ダージリン産。&lt;/p&gt;&#xA;&lt;p&gt;販売元はLUPICIAです。&lt;/p&gt;&#xA;&lt;p&gt;日東やLiptonもOKです。&lt;/p&gt;&#xA;&lt;p&gt;今はLUPICIAのDARJEELING THE FIRST FLUSHです。&lt;/p&gt;&#xA;&lt;p&gt;土日のゆったりしたい時間に、大きめのカップに紅茶を煎れます。&lt;/p&gt;&#xA;&lt;p&gt;今日は、レモンジュースを少し入れて、少し切れのよい風味にして楽しみました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Safari 3 パブリック Beta</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-06-14-safari-3-%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-beta/</link>
+      <link>http://localhost:1313/posts/2007-06-14-safari-3-%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-beta/</link>
       <pubDate>Thu, 14 Jun 2007 15:51:21 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-06-14-safari-3-%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-beta/</guid>
+      <guid>http://localhost:1313/posts/2007-06-14-safari-3-%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF-beta/</guid>
       <description>&lt;p&gt;Appleの日本語ページでも紹介されていた Safari 3 パブリック Beta 。&lt;/p&gt;&#xA;&lt;p&gt;Safari は、シェアは決して高くはないですが、Webサイト作成では、それなりにデザインの考慮が必要になります。&lt;/p&gt;&#xA;&lt;p&gt;自宅では、Windows Vista Ultimate x64 と Windows XP Professional SP2 の環境で、Internet Explorer 7、FireFox 2.0.4、Opera 9 は、確認作業ができますが、MacOSXは持っていないのでその環境でのテストは、できないでいました。&lt;/p&gt;&#xA;&lt;p&gt;でも、Windows PC 版が公開されたことにより、それなりにシェアが拡大しそうです。&lt;/p&gt;&#xA;&lt;p&gt;現時点の &lt;a href=&#34;http://www.apple.com/jp/safari/&#34;&gt;http://www.apple.com/jp/safari/&lt;/a&gt;で公開されているベータ版はセキュリティーホールやバグ、日本語が表示できないなどの問題があり、テストに使えるものではありませんが、アプライド版が出たあかつきには、FireFoxのシェアを喰ってしまいそうです。&lt;/p&gt;&#xA;&lt;p&gt;現時点でInternet Explorer で妥協している人（他のブラウザを知らない人）が、Safari に乗り換えることはあまり期待できないですが、Anti Internet Explorer の人はすでにFireFoxを使っているでしょうから、そちらからSafariへの乗り換えが起こりそうな気がします。&lt;/p&gt;&#xA;&lt;p&gt;業務でMacOSXでSafariを使うことがありますが、FireFoxより何が良いかと聞かれても、現時点では、速度面の優位性しか持ち合わせていないような気がします。&lt;/p&gt;&#xA;&lt;p&gt;あのUIのデザインがベストだと言われても？？しかでないです。&lt;/p&gt;&#xA;&lt;p&gt;Windowsよりはぼったりした感じがないですが、今となっては何となく陰気な感じがします。&lt;/p&gt;&#xA;&lt;p&gt;あまり独自のUIを付けて欲しくないというのが正直なところです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>やっぱり写真を撮っていたい</title>
-      <link>https://yuki9902-jp.github.io/posts/2007-06-14-%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%86%99%E7%9C%9F%E3%82%92%E6%92%AE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2007-06-14-%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%86%99%E7%9C%9F%E3%82%92%E6%92%AE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84/</link>
       <pubDate>Thu, 14 Jun 2007 12:04:36 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2007-06-14-%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%86%99%E7%9C%9F%E3%82%92%E6%92%AE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2007-06-14-%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%86%99%E7%9C%9F%E3%82%92%E6%92%AE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84/</guid>
       <description>&lt;p&gt;心が健康なときは、雨の日ってアンニュイってな感じで、好きだったんだけど、今はやっぱりダメみたい。&lt;/p&gt;&#xA;&lt;p&gt;今はちょっとでも心労が貯まると体全体がずどーんと重くなり、偏頭痛がおこります。&lt;/p&gt;&#xA;&lt;p&gt;うーん、くすりのおかげで、ダークな方向へあんまり考え込むことはなくなったけど、それでも治るまでは相当時間が必要なのですね。&lt;/p&gt;&#xA;&lt;p&gt;病気の話は置いといて、最近、デジタルカメラをおき、ゼラチンシルバー（銀塩）に回帰しています。&lt;/p&gt;&#xA;&lt;p&gt;なんて言うんでしょうか、写真に対する心持ち、被写体に対する構え方が変わってきます。&lt;/p&gt;&#xA;&lt;p&gt;撮ったっていう手応えが良いんです。&lt;/p&gt;&#xA;&lt;p&gt;撮影したものが、確実に手元に残るじゃないですか。&lt;/p&gt;&#xA;&lt;p&gt;フィルムにはでるクオリティーが、JPEGには出せない。&lt;/p&gt;&#xA;&lt;p&gt;RAW形式にすればCCDの受光特性ぎりぎりまでのデータが残せますが、フィルムの感光特性を越えているのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;デジタルカメラを否定するものではないのですが、まだ完成域ではないような気がします。&lt;/p&gt;&#xA;&lt;p&gt;今の2/3サイズCCDでは、フィルムの時に養ったレンズワーキングが使えず、さらにファインダーが小さくて見難いのが、撮影への集中を妨げます。&lt;/p&gt;&#xA;&lt;p&gt;PENTAXがフルサイズCCDを搭載することはまずないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;そうなると今のシステムを2/3サイズに合わせていくか、他社に替えるかを検討しなければならないのです。&lt;/p&gt;&#xA;&lt;p&gt;2/3サイズでは特に近眼で眼鏡をかけている身からすれば、ファインダーがのぞきにくいことこの上ないのです。&lt;/p&gt;&#xA;&lt;p&gt;倍率を高くすること、視野率を高くすることは、必須でなければならないと思うのですが。&lt;/p&gt;&#xA;&lt;p&gt;作品作りに集中できる機材の登場までは、まだまだ時間が必要です。&lt;/p&gt;&#xA;&lt;p&gt;PENTAXのLXとZ-1の完成度が非常に高かったこと、それを越える機種が発売されることがこれまでなかったこと、そう思うと次に予想されるK1で最強の機種を望みたい。&lt;/p&gt;</description>
     </item>
   </channel>

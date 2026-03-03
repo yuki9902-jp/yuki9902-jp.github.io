@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-06 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2012-06/</link>
+    <link>http://localhost:1313/archives/2012-06/</link>
     <description>Recent content in 2012-06 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 29 Jun 2012 22:46:18 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2012-06/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2012-06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>普門寺の紫陽花 2012 (岡山県真庭市)</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-29_%E6%99%AE%E9%96%80%E5%AF%BA%E3%81%AE%E7%B4%AB%E9%99%BD%E8%8A%B1-2012-%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%9C%9F%E5%BA%AD%E5%B8%82/</link>
+      <link>http://localhost:1313/posts/2012-06-29_%E6%99%AE%E9%96%80%E5%AF%BA%E3%81%AE%E7%B4%AB%E9%99%BD%E8%8A%B1-2012-%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%9C%9F%E5%BA%AD%E5%B8%82/</link>
       <pubDate>Fri, 29 Jun 2012 22:46:18 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-29_%E6%99%AE%E9%96%80%E5%AF%BA%E3%81%AE%E7%B4%AB%E9%99%BD%E8%8A%B1-2012-%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%9C%9F%E5%BA%AD%E5%B8%82/</guid>
+      <guid>http://localhost:1313/posts/2012-06-29_%E6%99%AE%E9%96%80%E5%AF%BA%E3%81%AE%E7%B4%AB%E9%99%BD%E8%8A%B1-2012-%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%9C%9F%E5%BA%AD%E5%B8%82/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11290156040-12053769974.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120629/22/yuki9902/d4/98/j/t02200146_0800053212053769974.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11290156040-12053769975.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120629/22/yuki9902/68/46/j/t02200146_0800053212053769975.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11290156040-12053769976.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120629/22/yuki9902/c3/d5/j/t02200146_0800053212053769976.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11290156040-12053769977.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120629/22/yuki9902/06/1b/j/t02200146_0800053212053769977.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;br&gt;&#xA;PENTAX K-7 / K-7 Limited Silver&lt;br&gt;&#xA;smcPENTAX DA* 50-135mmF2.8ED[IF]&lt;br&gt;&#xA;smcPENTAX FA* 85mmF1.4[IF]&lt;/p&gt;</description>
     </item>
     <item>
       <title>3TBは</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-28_3tb%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2012-06-28_3tb%E3%81%AF/</link>
       <pubDate>Thu, 28 Jun 2012 23:44:02 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-28_3tb%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2012-06-28_3tb%E3%81%AF/</guid>
       <description>&lt;p&gt;3TBのHDDを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;先日、1TBの起動用HDDをクラッシュさせたので、いろいろと容量不足というか、バックアップ用のHDDもなくなったので。&lt;/p&gt;&#xA;&lt;p&gt;でも、単純に3TBのHDDは使えません。&lt;br&gt;&#xA;Windows 7 64bit でデータ用HDDとして使うので全く問題はなかったのですが。&lt;/p&gt;&#xA;&lt;p&gt;VISTAより前のOSでは、3TBを1つのパーティションとして使うことはできません。&lt;br&gt;&#xA;また単純にOSから操作するだけでは、2TBを超える領域を認識することもできません。&lt;br&gt;&#xA;いろいろなメーカーから2TBを超える領域を使えるようにするツールが提供されているので、それを使えば、3TBのHDDも複数のパーティションで利用することができるようになります。&lt;/p&gt;&#xA;&lt;p&gt;まあ、起動用となるとマザーボード側の対応が必要となるんで、マザーボードを買い換えなければ&lt;br&gt;&#xA;ならなくなりますが。&lt;/p&gt;&#xA;&lt;p&gt;今回、買ったのがWestern Digital の Caviar Green です。&lt;br&gt;&#xA;速度はあまり期待できませんが、低発熱、低消費電力、低騒音で使いやすいHDDです。&lt;/p&gt;&#xA;&lt;p&gt;代替で使ってたMaxtorの500GBの古いHDDとか、PCケース内で50度を超えるし、外付けケースに入れると60度を超えて、触ると火傷します。今はデータ移行中につき、裸族に突き刺して使ってます。&lt;br&gt;&#xA;今後はデータバックアップ用にする予定です。&lt;/p&gt;&#xA;&lt;p&gt;3TBを入れたおかげで、もろもろの容量不足が解消されましたが、クリティカルなファイル以外のバックアップを作るのは、もう無理ですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>悲観</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-27_%E6%82%B2%E8%A6%B3/</link>
+      <link>http://localhost:1313/posts/2012-06-27_%E6%82%B2%E8%A6%B3/</link>
       <pubDate>Wed, 27 Jun 2012 19:35:13 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-27_%E6%82%B2%E8%A6%B3/</guid>
+      <guid>http://localhost:1313/posts/2012-06-27_%E6%82%B2%E8%A6%B3/</guid>
       <description>&lt;p&gt;別に反体制とか、左翼とかそんなんじゃないんですが、現在の日本の政治があまりにも稚拙で愚かで醜悪であることに、憤ってしまっています。&lt;/p&gt;&#xA;&lt;p&gt;私事に至っては、働きたくても仕事がないし、せっかく見つけた求人も、11年のシステムエンジニアの経歴を持ってしても、書類選考に落ちまくり、あげくコネを使って応募したアルバイトすら不採用にされてしまう始末。&lt;/p&gt;&#xA;&lt;p&gt;日本の人口のほとんどが年収200万円以下。&lt;br&gt;&#xA;平均的な国民が経済に与える影響はほんの少し、経済のウェイトを占めるのは、大手企業と一部の富裕層。&lt;br&gt;&#xA;貧乏人がいくら堕落した政治を憂いても、声はまったく届かないんですね。&lt;/p&gt;&#xA;&lt;p&gt;サラリーマンをしてた頃は、月収が手取りで22万円ほど。&lt;br&gt;&#xA;月の労働時間は8時間×22日で176時間が規定で、平均残業時間が5時間×22日で110時間。&lt;br&gt;&#xA;土曜日はほぼ出勤していたので13×4日で52時間。&lt;br&gt;&#xA;だいたい月に残業が162時間でした。&lt;br&gt;&#xA;残業が多い月は、180時間を超えてました。&lt;br&gt;&#xA;残業は基本出してもらえないので0円ですね。&lt;/p&gt;&#xA;&lt;p&gt;おかげで神経の病気にはなるし、精神がおかしくなるし、免疫力が低下して、若年性歯槽膿漏で歯はなくなるし、まあろくなことはなかったんですが。&lt;/p&gt;&#xA;&lt;p&gt;もう長時間の残業が当たり前のシステムエンジニアには戻れないんですわ。&lt;br&gt;&#xA;しかもほとんどの会社がサービス残業を強要してくるのでね。&lt;br&gt;&#xA;いくら面接で残業代は出ますとか言ってても、実際には低い上限があって、それ以上は支払われてないことが多いし、というかほとんどだし。&lt;/p&gt;&#xA;&lt;p&gt;まあそんなことで世の中を悲観して生きております。&lt;/p&gt;</description>
     </item>
     <item>
       <title>非核三原則の崩壊</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-26_%E9%9D%9E%E6%A0%B8%E4%B8%89%E5%8E%9F%E5%89%87%E3%81%AE%E5%B4%A9%E5%A3%8A/</link>
+      <link>http://localhost:1313/posts/2012-06-26_%E9%9D%9E%E6%A0%B8%E4%B8%89%E5%8E%9F%E5%89%87%E3%81%AE%E5%B4%A9%E5%A3%8A/</link>
       <pubDate>Tue, 26 Jun 2012 22:09:41 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-26_%E9%9D%9E%E6%A0%B8%E4%B8%89%E5%8E%9F%E5%89%87%E3%81%AE%E5%B4%A9%E5%A3%8A/</guid>
+      <guid>http://localhost:1313/posts/2012-06-26_%E9%9D%9E%E6%A0%B8%E4%B8%89%E5%8E%9F%E5%89%87%E3%81%AE%E5%B4%A9%E5%A3%8A/</guid>
       <description>&lt;p&gt;消費増税の裏に隠れて、非常に重要な法案が可決されました。&lt;/p&gt;&#xA;&lt;p&gt;これまで日本が平和を享受してきたのは、太平洋戦争の反省から武装放棄と非核三原則があったが故、近隣諸国から脅威として敵視されないように努力してきた戦争を経験した先人たちがいたからです。&lt;/p&gt;&#xA;&lt;p&gt;そんな先人たちが年老い、政界から引退されてしまい抑えが効かなくなった政府や国会は、またもや富国強兵を夢見て、与野党の大政党とも天皇主権制や軍隊の保持を唱え、あげく、非核三原則を破壊する核兵器の保持を認める法律が可決されてしまったのです。&lt;/p&gt;&#xA;&lt;p&gt;テレビ報道やインターネット報道もそのことには一切触れていません。&lt;br&gt;&#xA;一部のラジオが軍国主義へ傾倒する国家を嘆いていました。&lt;/p&gt;&#xA;&lt;p&gt;東京の都知事も右に大きく傾いています。&lt;br&gt;&#xA;国民の生命、財産を守ることは国の責務であるとは言え、核兵器は全く必要のない大量虐殺兵器です。&lt;/p&gt;&#xA;&lt;p&gt;西日本は原子爆弾を2発も落とされ、30万人を超える死者を出した、あの戦争の愚かさと原子爆弾の恐怖を忘れることはありません。&lt;/p&gt;&#xA;&lt;p&gt;関東の人間は人が大量に死ぬことになる核兵器の保有を認めるのですか。&lt;/p&gt;&#xA;&lt;p&gt;近隣の住民を殺し、自分だけが生き残ればそれでいいのですか？&lt;/p&gt;&#xA;&lt;p&gt;日本の原発は、すぐに核兵器に転用できるレベルを持っています。&lt;br&gt;&#xA;原発に反対する理由は、単純に放射線の恐怖だけではなく、それを意志を持って大量に人を殺す兵器を持つことになる恐怖、脅威、悪に反対しているのです。&lt;/p&gt;&#xA;&lt;p&gt;消費税も、元来、大手の輸出企業に対して補助金の代わりに還付金を払う目的でできた制度です。&lt;br&gt;&#xA;還付金の額だけで、国民から徴収する消費税に匹敵します。&lt;br&gt;&#xA;つまり国民は消費税を払って、大手の輸出企業を養っているのです。&lt;/p&gt;&#xA;&lt;p&gt;国民はマスゴミの情報に踊らされ、政府や政治家、官僚の欺瞞に、だまされ続けるのではなく、ちゃんと勉強し、自分たちがどんな悪に荷担しているのか、ちゃんと知らなければならないのです。&lt;/p&gt;&#xA;&lt;p&gt;平和な国としての日本は崩壊しました。&lt;br&gt;&#xA;後は地獄へ転がり落ちるのみ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>長法寺 2012</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-25_%E9%95%B7%E6%B3%95%E5%AF%BA-2012/</link>
+      <link>http://localhost:1313/posts/2012-06-25_%E9%95%B7%E6%B3%95%E5%AF%BA-2012/</link>
       <pubDate>Mon, 25 Jun 2012 23:34:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-25_%E9%95%B7%E6%B3%95%E5%AF%BA-2012/</guid>
+      <guid>http://localhost:1313/posts/2012-06-25_%E9%95%B7%E6%B3%95%E5%AF%BA-2012/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047496090.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/1c/b4/j/t02200146_0800053212047496090.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047496088.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/a5/9a/j/t02200146_0800053212047496088.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047496087.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/d8/2d/j/t02200146_0800053212047496087.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047496086.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/f8/da/j/t02200146_0800053212047496086.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047494536.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/14/3c/j/t02200331_0720108312047494536.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047494535.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/75/7b/j/t02200146_0800053212047494535.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047494534.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/29/9f/j/t02200331_0720108312047494534.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11287010782-12047494533.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120625/23/yuki9902/dd/9f/j/t02200146_0800053212047494533.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / K-7 Limited Silver&lt;br&gt;&#xA;smcPENTAX DA*50-135F2.8ED[IF] / smcPENTAX DA Limited 35mmF2.8Macro&lt;/p&gt;</description>
     </item>
     <item>
       <title>以前から</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-21_%E4%BB%A5%E5%89%8D%E3%81%8B%E3%82%89/</link>
+      <link>http://localhost:1313/posts/2012-06-21_%E4%BB%A5%E5%89%8D%E3%81%8B%E3%82%89/</link>
       <pubDate>Thu, 21 Jun 2012 20:04:01 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-21_%E4%BB%A5%E5%89%8D%E3%81%8B%E3%82%89/</guid>
+      <guid>http://localhost:1313/posts/2012-06-21_%E4%BB%A5%E5%89%8D%E3%81%8B%E3%82%89/</guid>
       <description>&lt;p&gt;amebaでブログを始める遙か以前から、独自のドメインにてブログを書いております。&lt;br&gt;&#xA;ブログの仕組みが登場するより前は、ホームページを作って公開しておりました。&lt;/p&gt;&#xA;&lt;p&gt;その名残で、今でもトップページが存在するブログを運用しております。&lt;/p&gt;&#xA;&lt;p&gt;以前は、ブログツールとしてMovableTypeを使っておりましたが、今はWordPressを使っております。&lt;/p&gt;&#xA;&lt;p&gt;カスタマイズのしやすさはMovable Typeのほうが良いのですけれども。&lt;br&gt;&#xA;現在使っているレンタルスペースでは、記事の量が増えてくると発行（publish）動作が非常に重くなり、タイムアウトしてしまう状況になってしまいました。&lt;br&gt;&#xA;切り替え当時は動的ページ生成ではWordPressのほうが軽く、データを移行してWordPressに乗り換えました。&lt;/p&gt;&#xA;&lt;p&gt;今でもページのカスタマイズはMovableTypeのほうが簡単です。&lt;br&gt;&#xA;WordPressのようにPHPを書いたりする必要がありませんから。&lt;br&gt;&#xA;コード書き換える必要性に迫られてもMovableTypeで使っているPerlのほうがわかりやすいんですがね。&lt;br&gt;&#xA;まあデバッグがしやすいってことですが。&lt;/p&gt;&#xA;&lt;p&gt;いまではWordPressの解説書が出ているのでカスタマイズも苦になることはすくないでしょう。&lt;br&gt;&#xA;しかもWindowsなら、MicrosoftがWeb環境を簡単に構築してくれるパッケージを無料配布しているので、PHPのコーディングもずいぶん楽になっています。&lt;br&gt;&#xA;失敗してもサーバーがダウンして怒られることがないですからね。&lt;/p&gt;&#xA;&lt;p&gt;ああ、そろそろjqueryを勉強しなくては…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPressとFacebookの連携プラグイン</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</link>
       <pubDate>Wed, 20 Jun 2012 03:12:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</guid>
       <description>&lt;p&gt;Facebookから公式に、WordPressのプラグインが公開されました。&lt;/p&gt;&#xA;&lt;p&gt;WordPressで投稿した記事がFacebookのTimelineに掲載されるほか、「いいね」ボタン、「シェア」、「コメント」、「ユーザー」などが反映されます。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;インストールしたものの、アカウントの認証でエラーが出ています。&lt;/p&gt;&#xA;&lt;p&gt;エラーを解決しようと思ったのですが、ただいま、レンタルサーバーがメンテナンス中で、.htaccessを編集できないでいます。&lt;/p&gt;&#xA;&lt;p&gt;たぶん違うところだろうけど。&lt;/p&gt;&#xA;&lt;p&gt;解決は明日以降かな。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;で、&lt;/p&gt;&#xA;&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;&#xA;&lt;p&gt;とWordpressの管理画面に出ているのですが、これをクリックするとエラー、API Error Code: 191と表示されます。&lt;/p&gt;&#xA;&lt;p&gt;ネットで調べたらFacebookのアプリ設定で、App Domainが間違っているからとかいう書き込みをみたのですが、それはどうも違うようです。&lt;/p&gt;&#xA;&lt;p&gt;で、App DomainやHosting URLは未入力のままじゃないとだめです。&lt;/p&gt;&#xA;&lt;p&gt;Website with Facebook Loginの項目に自分のブログのトップURL (&lt;a href=&#34;http://yuki9902.com/wp/&#34;&gt;http://yuki9902.com/wp/&lt;/a&gt;)を入れてやります。&lt;/p&gt;&#xA;&lt;p&gt;それ以外の項目は未入力にしておいてください。&lt;/p&gt;&#xA;&lt;p&gt;これでFacebook側の設定を保存します。&lt;/p&gt;&#xA;&lt;p&gt;次にWordpressから&lt;/p&gt;&#xA;&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 3.3の新しいメディアアップローダー</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/</link>
+      <link>http://localhost:1313/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/</link>
       <pubDate>Tue, 19 Jun 2012 21:08:19 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/</guid>
+      <guid>http://localhost:1313/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/</guid>
       <description>&lt;p&gt;Word Press 3.3以降でメディアアップローダーが新しくなり、ドラッグ&amp;amp;ドロップによるファイルアップロードが可能になりました。&lt;/p&gt;&#xA;&lt;p&gt;しかし、Internet Explorer 9.0 (32/64bit)では使えませんでした。&lt;/p&gt;&#xA;&lt;p&gt;Google Chromeでは使えています。&lt;/p&gt;&#xA;&lt;p&gt;HTML5.0が条件かとも思いましたがそうでもないようですね。&lt;/p&gt;&#xA;&lt;p&gt;ie9がセキュリティーが高いせいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
     </item>
     <item>
       <title>食い過ぎじゃね</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-16_%E9%A3%9F%E3%81%84%E9%81%8E%E3%81%8E%E3%81%98%E3%82%83%E3%81%AD/</link>
+      <link>http://localhost:1313/posts/2012-06-16_%E9%A3%9F%E3%81%84%E9%81%8E%E3%81%8E%E3%81%98%E3%82%83%E3%81%AD/</link>
       <pubDate>Sat, 16 Jun 2012 23:58:43 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-16_%E9%A3%9F%E3%81%84%E9%81%8E%E3%81%8E%E3%81%98%E3%82%83%E3%81%AD/</guid>
+      <guid>http://localhost:1313/posts/2012-06-16_%E9%A3%9F%E3%81%84%E9%81%8E%E3%81%8E%E3%81%98%E3%82%83%E3%81%AD/</guid>
       <description>&lt;p&gt;メタボの治療をしているというのに、昼に腹が減って減って、「豚骨ラーメン」が食いたくなった。&lt;/p&gt;&#xA;&lt;p&gt;バリカタの麺 に、半チャンと餃子をつけて、さらに替え玉を頼んでしまった。&lt;/p&gt;&#xA;&lt;p&gt;普段、絶対食べない量なんだけど。&lt;/p&gt;&#xA;&lt;p&gt;この記事を書いている今も腹が減ってきている。&lt;/p&gt;&#xA;&lt;p&gt;しかも口の中はラーメン&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char2/192.gif&#34; alt=&#34;&#34;&gt; の味を思い出している。&lt;/p&gt;</description>
     </item>
     <item>
       <title>笑って</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-16_%E7%AC%91%E3%81%A3%E3%81%A6/</link>
+      <link>http://localhost:1313/posts/2012-06-16_%E7%AC%91%E3%81%A3%E3%81%A6/</link>
       <pubDate>Sat, 16 Jun 2012 10:06:28 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-16_%E7%AC%91%E3%81%A3%E3%81%A6/</guid>
+      <guid>http://localhost:1313/posts/2012-06-16_%E7%AC%91%E3%81%A3%E3%81%A6/</guid>
       <description>&lt;p&gt;右下の親知らずを抜いたら、顎が軽くなりました。&lt;/p&gt;&#xA;&lt;p&gt;いつも何かに押されたような感覚があったのが、なくなった感じ。&lt;/p&gt;&#xA;&lt;p&gt;でも貴重な歯がなくなったんだけど。&lt;/p&gt;&#xA;&lt;p&gt;さて今日は心療内科に来ています。&lt;/p&gt;&#xA;&lt;p&gt;今は主にメタボリック症候群の治療ですが。&lt;/p&gt;&#xA;&lt;p&gt;若いときの苦労は買ってまでしてはいけません。&lt;/p&gt;&#xA;&lt;p&gt;将来苦労が続いてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;いつも笑って居られる選択をしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痛かった。</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-15_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2012-06-15_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F/</link>
       <pubDate>Fri, 15 Jun 2012 16:55:59 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-15_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2012-06-15_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;親知らずを抜歯した。&lt;/p&gt;&#xA;&lt;p&gt;歯槽膿漏で歯はぐらぐらでも親知らずはがっちりしてた。&lt;/p&gt;&#xA;&lt;p&gt;でも歯ブラシも歯間ブラシも入らないところが虫歯になってた。&lt;/p&gt;&#xA;&lt;p&gt;いろいろ治療するんだけど、神経に障ったところが、気絶するかと思うぐらい痛かった。&lt;/p&gt;</description>
     </item>
     <item>
       <title>都会の人間の心の貧しさ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-12_%E9%83%BD%E4%BC%9A%E3%81%AE%E4%BA%BA%E9%96%93%E3%81%AE%E5%BF%83%E3%81%AE%E8%B2%A7%E3%81%97%E3%81%95/</link>
+      <link>http://localhost:1313/posts/2012-06-12_%E9%83%BD%E4%BC%9A%E3%81%AE%E4%BA%BA%E9%96%93%E3%81%AE%E5%BF%83%E3%81%AE%E8%B2%A7%E3%81%97%E3%81%95/</link>
       <pubDate>Tue, 12 Jun 2012 23:30:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-12_%E9%83%BD%E4%BC%9A%E3%81%AE%E4%BA%BA%E9%96%93%E3%81%AE%E5%BF%83%E3%81%AE%E8%B2%A7%E3%81%97%E3%81%95/</guid>
+      <guid>http://localhost:1313/posts/2012-06-12_%E9%83%BD%E4%BC%9A%E3%81%AE%E4%BA%BA%E9%96%93%E3%81%AE%E5%BF%83%E3%81%AE%E8%B2%A7%E3%81%97%E3%81%95/</guid>
       <description>&lt;p&gt;ここ一年、地物の農産物が買えなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;震災前のスーパーでは県内産の野菜や肉、魚がたくさん売っていたのですが、それらが手に入らなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;代わりに、東北や関東の農産物ばかりが並ぶようになりました。&lt;/p&gt;&#xA;&lt;p&gt;これってどういうことでしょう。&lt;/p&gt;&#xA;&lt;p&gt;首都圏では、放射性物質への過剰な意識から、西日本の農産物が消費されています。&lt;/p&gt;&#xA;&lt;p&gt;実際に首都圏向けの注文が増え、卸価格が上がっています。&lt;/p&gt;&#xA;&lt;p&gt;そして、西日本には、風評被害で価格が暴落している東北、関東の農産物が流通しています。&lt;/p&gt;&#xA;&lt;p&gt;結局、首都圏は復興しようという意識が全くないのではと思うのです。&lt;/p&gt;&#xA;&lt;p&gt;テレビでのたまわる文句はきれい事ばかりで、何も復興に貢献していないのが首都圏の人間でしょう。&lt;/p&gt;&#xA;&lt;p&gt;反吐がでる。&lt;/p&gt;&#xA;&lt;p&gt;岡山が安全だからと逃げてくる首都圏の人間も頭がおかしいんじゃないかと思うのです。&lt;/p&gt;&#xA;&lt;p&gt;岡山県北部には大量に放射性物質があるし、採掘できるところもあり、過去には、残土で社会問題にもなった。&lt;/p&gt;&#xA;&lt;p&gt;誰も正しい情報を持ちもせず、勉強もせず、自分勝手なことを言って、して、それで、逃げた先で理解されないから悔しいとか、ふざけるなと言いいたい。&lt;/p&gt;&#xA;&lt;p&gt;逃げることのできる金持ちは自分たちだけのことしか考えない。&lt;/p&gt;&#xA;&lt;p&gt;苦労してがんばって仕事をしている人たちの仕事を横から来てとっていくようなことは辞めてほしい。&lt;/p&gt;&#xA;&lt;p&gt;そんな逃げてきたような連中が悲惨さを記憶にとどめるようと呼びかけてどうする。&lt;/p&gt;&#xA;&lt;p&gt;それは実際に被災した人たちに失礼ではないだろうか。&lt;/p&gt;&#xA;&lt;p&gt;それよりも、まず被災地の復興に寄与し、今後悲惨な結果を生み出さないように努力することが大事ではないんだろうか。&lt;/p&gt;&#xA;&lt;p&gt;政治がおかしいとばかりテレビはいうが、おかしいのは中流以上の国民だと解れよ。&lt;/p&gt;&#xA;&lt;p&gt;日に日に日本人が嫌いになる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>はぁ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-11_%E3%81%AF%E3%81%81/</link>
+      <link>http://localhost:1313/posts/2012-06-11_%E3%81%AF%E3%81%81/</link>
       <pubDate>Mon, 11 Jun 2012 17:09:42 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-11_%E3%81%AF%E3%81%81/</guid>
+      <guid>http://localhost:1313/posts/2012-06-11_%E3%81%AF%E3%81%81/</guid>
       <description>&lt;p&gt;ここんところペタができずに申し訳ありません。&lt;/p&gt;&#xA;&lt;p&gt;あまりに歯が痛くて…。&lt;/p&gt;&#xA;&lt;p&gt;仕事も決まらないし。&lt;/p&gt;&#xA;&lt;p&gt;どうして？って思うことばかりです。&lt;/p&gt;&#xA;&lt;p&gt;はぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>解決は</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-10_%E8%A7%A3%E6%B1%BA%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2012-06-10_%E8%A7%A3%E6%B1%BA%E3%81%AF/</link>
       <pubDate>Sun, 10 Jun 2012 00:07:29 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-10_%E8%A7%A3%E6%B1%BA%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2012-06-10_%E8%A7%A3%E6%B1%BA%E3%81%AF/</guid>
       <description>&lt;p&gt;10数年ぶりにホタルの写真を撮りに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;結果はまったくよろしくありません。&lt;/p&gt;&#xA;&lt;p&gt;しかも自前のPENTAX K-7が、低照度の被写体に対して非常にノイズが出やすいことがわかりました。&lt;/p&gt;&#xA;&lt;p&gt;一定以上の輝度がないと、CMOSのアンプで増幅された信号に、必ず同じ位置にノイズがでます。&lt;/p&gt;&#xA;&lt;p&gt;しかもかなりの量が。&lt;/p&gt;&#xA;&lt;p&gt;まあもともと韓国製のCMOSは低照度に非常に弱くノイズが多い、といわれていたとおりでした。&lt;/p&gt;&#xA;&lt;p&gt;解決のためには、カメラをK-5に乗り換えるしかないのですが…。&lt;/p&gt;&#xA;&lt;p&gt;K-7、K-7 Limited Silverを下取りに出して、K-5に換えようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>反省</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-03_%E5%8F%8D%E7%9C%81/</link>
+      <link>http://localhost:1313/posts/2012-06-03_%E5%8F%8D%E7%9C%81/</link>
       <pubDate>Sun, 03 Jun 2012 23:59:44 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-03_%E5%8F%8D%E7%9C%81/</guid>
+      <guid>http://localhost:1313/posts/2012-06-03_%E5%8F%8D%E7%9C%81/</guid>
       <description>&lt;p&gt;皆様こんばんは。&lt;/p&gt;&#xA;&lt;p&gt;今日は電気工事士第二種の筆記試験がありました。&lt;/p&gt;&#xA;&lt;p&gt;せっかく電気・通信施工の訓練を受けましたので、受験しました。&lt;/p&gt;&#xA;&lt;p&gt;5年分の過去問を解いて90点前後ありましたので安心して受験したのですが、今年の問題は難しかったです。&lt;/p&gt;&#xA;&lt;p&gt;自己採点で76点でした。&lt;/p&gt;&#xA;&lt;p&gt;正直ショックなのです。&lt;/p&gt;&#xA;&lt;p&gt;試験対策のための教科書をしっかりやっていましたが、その範疇外の問題が多く、見事そこが合っていません。&lt;/p&gt;&#xA;&lt;p&gt;物理的な、いわゆる計算問題で間違うことはありませんが、知らない法律上の安全制限の値に関するところはぼろぼろでした。&lt;/p&gt;&#xA;&lt;p&gt;しかし法律上、電気工事士第二種の範囲です。&lt;/p&gt;&#xA;&lt;p&gt;つまり安全対策ですからね。&lt;/p&gt;&#xA;&lt;p&gt;知らないではいけないのですが、反省です。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BLOG HISTORY on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/categories/blog-history/</link>
+    <link>http://localhost:1313/categories/blog-history/</link>
     <description>Recent content in BLOG HISTORY on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 20 Mar 2013 17:28:39 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/categories/blog-history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/blog-history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpressの記事をFacebookに投稿</title>
-      <link>https://yuki9902-jp.github.io/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
+      <link>http://localhost:1313/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
+      <guid>http://localhost:1313/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;テスト投稿を兼ねての記事です。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;WordpressにFacebook公式のPluginをインストールするのは簡単ですが、Facebookアプリの開発用アカウントを取得して、細かな設定が必要です。&lt;/p&gt;&#xA;&lt;p&gt;公式Pluginも更新を何度かしているし、Facebookアプリの登録画面も細々と変更がされています。&lt;/p&gt;&#xA;&lt;p&gt;徐々に使いやすくなっているようですが、わかりにくい表現の英語（Facebook内部の用語とか）が並んでいるので、結構大変かも。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;んで、画像を自動的に登録してくれるのですが、変なアイコン画像を拾ってしまったり…。&lt;/p&gt;&#xA;&lt;p&gt;Pluginの側にもっと自由度というか、わかりやすい設定を追加してほしいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress Plug-in by Facebook</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
+      <link>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
       <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
+      <guid>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
       <description>&lt;p&gt;WordPressのPlug-inをFacebookが公式に提供しています。&lt;/p&gt;&#xA;&lt;p&gt;初期のバージョンには、Plug-in 側か、Facebook App API 側かわかりませんが、バグがあり動作しませんでした。&lt;/p&gt;&#xA;&lt;p&gt;で、先週に新しいPlug-inが公開されていたので、インストールしました。&lt;/p&gt;&#xA;&lt;p&gt;インストールは簡単ですが、利用できるまでの設定が面倒くさいです。&lt;/p&gt;&#xA;&lt;p&gt;まず、FacebookでDeveloper登録します。&lt;/p&gt;&#xA;&lt;p&gt;Facebook Appが利用できる状態にしておきます。&lt;/p&gt;&#xA;&lt;p&gt;大まかな設定については、Facebook Plug-inのヘルプを参照してください。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;大事なのは、Facebook Appの設定画面で、App DomainsにWordpressを実行しているドメイン名を登録することと、Open Graphの設定として登録することでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;それ以外でエラーが出る場合は、Plug-inの実行ディレクトリに適切な権限を設定しましょう。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;設定画面が所々日本語だったり、でも大事なところが英語だったりして、何を書いているのがよくわからなかったりしますが、トライアンドエラーでやるしかないのかな。&lt;/p&gt;&#xA;&lt;p&gt;単語や略語の羅列で意味がわからないのはつらいけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPressとFacebookの連携プラグイン</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</link>
+      <link>http://localhost:1313/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</link>
       <pubDate>Wed, 20 Jun 2012 03:12:55 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</guid>
+      <guid>http://localhost:1313/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/</guid>
       <description>&lt;p&gt;Facebookから公式に、WordPressのプラグインが公開されました。&lt;/p&gt;&#xA;&lt;p&gt;WordPressで投稿した記事がFacebookのTimelineに掲載されるほか、「いいね」ボタン、「シェア」、「コメント」、「ユーザー」などが反映されます。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;インストールしたものの、アカウントの認証でエラーが出ています。&lt;/p&gt;&#xA;&lt;p&gt;エラーを解決しようと思ったのですが、ただいま、レンタルサーバーがメンテナンス中で、.htaccessを編集できないでいます。&lt;/p&gt;&#xA;&lt;p&gt;たぶん違うところだろうけど。&lt;/p&gt;&#xA;&lt;p&gt;解決は明日以降かな。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;で、&lt;/p&gt;&#xA;&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;&#xA;&lt;p&gt;とWordpressの管理画面に出ているのですが、これをクリックするとエラー、API Error Code: 191と表示されます。&lt;/p&gt;&#xA;&lt;p&gt;ネットで調べたらFacebookのアプリ設定で、App Domainが間違っているからとかいう書き込みをみたのですが、それはどうも違うようです。&lt;/p&gt;&#xA;&lt;p&gt;で、App DomainやHosting URLは未入力のままじゃないとだめです。&lt;/p&gt;&#xA;&lt;p&gt;Website with Facebook Loginの項目に自分のブログのトップURL (&lt;a href=&#34;http://yuki9902.com/wp/&#34;&gt;http://yuki9902.com/wp/&lt;/a&gt;)を入れてやります。&lt;/p&gt;&#xA;&lt;p&gt;それ以外の項目は未入力にしておいてください。&lt;/p&gt;&#xA;&lt;p&gt;これでFacebook側の設定を保存します。&lt;/p&gt;&#xA;&lt;p&gt;次にWordpressから&lt;/p&gt;&#xA;&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;</description>
     </item>
     <item>
       <title>LightBox Plugin</title>
-      <link>https://yuki9902-jp.github.io/posts/2010-12-14-lightbox-plugin/</link>
+      <link>http://localhost:1313/posts/2010-12-14-lightbox-plugin/</link>
       <pubDate>Tue, 14 Dec 2010 15:26:25 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2010-12-14-lightbox-plugin/</guid>
+      <guid>http://localhost:1313/posts/2010-12-14-lightbox-plugin/</guid>
       <description>&lt;p&gt;WordPressのLightBox Pluginをインストールし、比較的簡単に対応できる写真に適応させました。&lt;/p&gt;&#xA;&lt;p&gt;なんとなく見栄えが良いかもしれません。&#xA;しかし大きな画像は逆に見づらいかも。&lt;/p&gt;&#xA;&lt;p&gt;JPEGを表示する際にIEが背景色を黒にしてくれればいいのに。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ameblo</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-08-11-ameblo/</link>
+      <link>http://localhost:1313/posts/2009-08-11-ameblo/</link>
       <pubDate>Tue, 11 Aug 2009 17:31:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-08-11-ameblo/</guid>
+      <guid>http://localhost:1313/posts/2009-08-11-ameblo/</guid>
       <description>&lt;p&gt;サイドバーにある「yuki9902の物欲と苦悩」からアメーバブログで公開中の記事の最新6件を表示しています。&#xA;これも見てやってください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>アバター表示に対応</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-07-22-%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E8%A1%A8%E7%A4%BA%E3%81%AB%E5%AF%BE%E5%BF%9C/</link>
+      <link>http://localhost:1313/posts/2009-07-22-%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E8%A1%A8%E7%A4%BA%E3%81%AB%E5%AF%BE%E5%BF%9C/</link>
       <pubDate>Wed, 22 Jul 2009 14:43:44 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-07-22-%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E8%A1%A8%E7%A4%BA%E3%81%AB%E5%AF%BE%E5%BF%9C/</guid>
+      <guid>http://localhost:1313/posts/2009-07-22-%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E8%A1%A8%E7%A4%BA%E3%81%AB%E5%AF%BE%E5%BF%9C/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://ja.gravatar.com/&#34;&gt;グローバルアバター(GRAVATAR)&lt;/a&gt;に対応してます。&#xA;このブログで使用しているメールアドレスとGravatarに登録したメールアカウントが一致すれば、Gravatarに登録したアバター画像が自動で表示されます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcom to My Weblog from Search Engine.</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-07-06-welcom-to-my-weblog-from-search-engine/</link>
+      <link>http://localhost:1313/posts/2009-07-06-welcom-to-my-weblog-from-search-engine/</link>
       <pubDate>Mon, 06 Jul 2009 09:18:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-07-06-welcom-to-my-weblog-from-search-engine/</guid>
+      <guid>http://localhost:1313/posts/2009-07-06-welcom-to-my-weblog-from-search-engine/</guid>
       <description>&lt;p&gt;検索エンジンでこられた方、ご来訪ありがとうございます。&#xA;そして目的のページに到達するまでにお手数をおかけして申し訳ありません。&#xA;右のサイドバーのサイト内検索を使って、目的の情報を検索していただきますようお願いします。&lt;/p&gt;&#xA;&lt;p&gt;CMS(Blogツール)を、Movable Type から Word Pressに換えた際に昔のサイト構造を変更した所為で、検索エンジンでの検索結果とは違うページにジャンプします。&#xA;サイト構造を変更した際は301で1HTMLファイルごとに新しいリンク先を指定するのが正しいやり方なのですが、500ページを超えるため、とてもできる話ではありません。&#xA;ですから404エラーでホームページにジャンプするようにしています。&lt;/p&gt;&#xA;&lt;p&gt;そのうち検索エンジンのクローラーが新しいインデックスを生成すると思いますので、それまでご了承ください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ケータイから投稿</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-07-01-%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF/</link>
+      <link>http://localhost:1313/posts/2009-07-01-%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Wed, 01 Jul 2009 13:27:06 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-07-01-%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF/</guid>
+      <guid>http://localhost:1313/posts/2009-07-01-%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%81%8B%E3%82%89%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;携帯電話からのメール投稿を可能にしました。投稿内容が反映されるのは、誰かがブログにアクセスした瞬間です。これまでMovable Typeでできなかったことができるようになりました。&#xA;これで外出先からでも投稿できます。&lt;/p&gt;&#xA;&lt;p&gt;ようやくやりたいことがやれるようになった感じですか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>簡単じゃん</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-07-01-%E7%B0%A1%E5%8D%98%E3%81%98%E3%82%83%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2009-07-01-%E7%B0%A1%E5%8D%98%E3%81%98%E3%82%83%E3%82%93/</link>
       <pubDate>Wed, 01 Jul 2009 09:48:07 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-07-01-%E7%B0%A1%E5%8D%98%E3%81%98%E3%82%83%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2009-07-01-%E7%B0%A1%E5%8D%98%E3%81%98%E3%82%83%E3%82%93/</guid>
       <description>&lt;p&gt;WordPressとても簡単じゃん。&#xA;サイドバーへの固定テキストを貼り付けるのがすごい簡単にできた。&#xA;そういうウィジェットが用意されているからですけど。&#xA;MovableTypeはそのウィジェットを自分で作るか、テンプレートを分割するか、ですけど。&#xA;とりあえずAmazonアソシエイトとGoogle AdSenseを貼りました。&#xA;アマゾンで買い物するときは、ここから入店すると、私に収益が上がります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>For Mobile</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-07-01-for-mobile/</link>
+      <link>http://localhost:1313/posts/2009-07-01-for-mobile/</link>
       <pubDate>Wed, 01 Jul 2009 01:13:20 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-07-01-for-mobile/</guid>
+      <guid>http://localhost:1313/posts/2009-07-01-for-mobile/</guid>
       <description>&lt;p&gt;たいがい欲しい機能はプラグインなりでそろっています。&#xA;サイドバーのQRコードを撮影して、モバイル（携帯端末）でアクセスすると、それぞれのキャリアに応じて、専用のWebページが表示されます。&lt;/p&gt;&#xA;&lt;p&gt;オリジナルの機能を追加したいときに、PHPのプログラミングが必要なるというのはちょっとハードルが高いですね。&#xA;近いうちにAmazonなりのウィジェットが追加されるようにカスタマイズして行こうと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ほかに移設するにしても</title>
-      <link>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</link>
+      <link>http://localhost:1313/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</link>
       <pubDate>Tue, 30 Jun 2009 22:27:45 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</guid>
+      <guid>http://localhost:1313/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</guid>
       <description>&lt;p&gt;ほかに移設するにしても、まずはほかのツールを試してみることにした。&lt;/p&gt;&#xA;&lt;p&gt;WordPressとMovable Typeのハイブリッドで現在運用中。&lt;/p&gt;&#xA;&lt;p&gt;過去の記事のディレクトリ構成を引き継いだままの運用なので、URLを直に入力するとMovable Type で作った古いページが見られる。&lt;/p&gt;</description>
     </item>
   </channel>

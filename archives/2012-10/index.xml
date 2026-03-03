@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-10 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2012-10/</link>
+    <link>http://localhost:1313/archives/2012-10/</link>
     <description>Recent content in 2012-10 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 31 Oct 2012 12:09:09 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2012-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2012-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ペタが飛び飛びですみません</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-31_%E3%83%9A%E3%82%BF%E3%81%8C%E9%A3%9B%E3%81%B3%E9%A3%9B%E3%81%B3%E3%81%A7%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2012-10-31_%E3%83%9A%E3%82%BF%E3%81%8C%E9%A3%9B%E3%81%B3%E9%A3%9B%E3%81%B3%E3%81%A7%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93/</link>
       <pubDate>Wed, 31 Oct 2012 12:09:09 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-31_%E3%83%9A%E3%82%BF%E3%81%8C%E9%A3%9B%E3%81%B3%E9%A3%9B%E3%81%B3%E3%81%A7%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2012-10-31_%E3%83%9A%E3%82%BF%E3%81%8C%E9%A3%9B%E3%81%B3%E9%A3%9B%E3%81%B3%E3%81%A7%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%82%93/</guid>
       <description>&lt;p&gt;いつもペタをくださる皆様、ありがとうございます。&lt;/p&gt;&#xA;&lt;p&gt;こちらからのペタが飛び飛びになってすみません。&lt;/p&gt;&#xA;&lt;p&gt;体調だったり、精神的なものだったりで、元気がないことが多くて・・・。&lt;/p&gt;&#xA;&lt;p&gt;今日は、風邪を引いたようです。&lt;/p&gt;&#xA;&lt;p&gt;風邪を引かないように気をつけていても、人の多いところにいくとどうしても伝染してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;一昨日、昨日と体の調子がよかったんですが・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>MeやVISTAのように無かったことにされる可能性が否定できない</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-28_me%E3%82%84vista%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E7%84%A1%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AB%E3%81%95%E3%82%8C%E3%82%8B%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%8C%E5%90%A6%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-10-28_me%E3%82%84vista%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E7%84%A1%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AB%E3%81%95%E3%82%8C%E3%82%8B%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%8C%E5%90%A6%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</link>
       <pubDate>Sun, 28 Oct 2012 15:18:04 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-28_me%E3%82%84vista%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E7%84%A1%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AB%E3%81%95%E3%82%8C%E3%82%8B%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%8C%E5%90%A6%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-10-28_me%E3%82%84vista%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E7%84%A1%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AB%E3%81%95%E3%82%8C%E3%82%8B%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%8C%E5%90%A6%E5%AE%9A%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11390773650-12258546557.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121028/15/yuki9902/8e/fb/j/t02200123_0683038312258546557.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Windows 8 Pro のアップグレードを、ダウンロード購入しました。&lt;br&gt;&#xA;画面はサブ機として使用しているノートPCのスタート画面です。&lt;/p&gt;&#xA;&lt;p&gt;パソコンの起動時やWindowsキーを押したときには表示されます。&lt;br&gt;&#xA;この画面でしか利用できないストアアプリがあります。&lt;/p&gt;&#xA;&lt;p&gt;どれもこれもアイコンが大ぶりなので、情報量が少ないのが欠点です。&lt;br&gt;&#xA;ただしその特性から写真や画像による情報が見やすくなっています。&lt;br&gt;&#xA;情報量が少ないのは、使用できる機能も少ないともいえます。&lt;/p&gt;&#xA;&lt;p&gt;特にメールは、POP3が使えない、迷惑メール除去機能がないなど、メーラーとしては致命的な機能不足です。&lt;/p&gt;&#xA;&lt;p&gt;スタート画面に標準で時計が表示されないのもかなりマイナスです。&lt;/p&gt;&#xA;&lt;p&gt;それからデスクトップアプリケーション（従来のWindowsアプリケーション）は、デスクトップで動作することになりますが、スタートメニューがないので、ほとんどの場合スタート画面を経由して起動することになります。&lt;/p&gt;&#xA;&lt;p&gt;デスクトップ上でファイルをダブルクリックすれば関連づけされたアプリケーションは起動するのですが、アプリを起動しておいてファイルをドロップするのは結構めんどくさい。&lt;/p&gt;&#xA;&lt;p&gt;それにデスクトップアプリを複数起動するのも、毎回、スタート画面を経由するので煩わしいです。&lt;/p&gt;&#xA;&lt;p&gt;まあ使いづらいランチャーソフトが、標準で付いてきた感じですか。&lt;/p&gt;&#xA;&lt;p&gt;ストアアプリ同士のファイルのやりとりは基本できません。&lt;br&gt;&#xA;デスクトップ経由で関連づけされていれば起動されます。&lt;/p&gt;&#xA;&lt;p&gt;ストアアプリで特に何が使いづらいって、マウスを右クリックするたびにタイルメニューが表示されることでしょうか。&lt;br&gt;&#xA;ソリティアでタイムアタックができないじゃんか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は日直でありますが</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-28_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%97%A5%E7%9B%B4%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C/</link>
+      <link>http://localhost:1313/posts/2012-10-28_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%97%A5%E7%9B%B4%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C/</link>
       <pubDate>Sun, 28 Oct 2012 11:00:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-28_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%97%A5%E7%9B%B4%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C/</guid>
+      <guid>http://localhost:1313/posts/2012-10-28_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%97%A5%E7%9B%B4%E3%81%A7%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C/</guid>
       <description>&lt;p&gt;皆様お久しぶりです。&lt;/p&gt;&#xA;&lt;p&gt;今日は日直で出勤です。&lt;/p&gt;&#xA;&lt;p&gt;週に2日はかならず休まないと、次の1週間が全く耐えられない体になってしまっております。&lt;/p&gt;&#xA;&lt;p&gt;今日も頭痛にめまいに激しい倦怠感です。&lt;/p&gt;&#xA;&lt;p&gt;睡眠不足は解消されているようですが、体力の回復には至っておりません。&lt;/p&gt;&#xA;&lt;p&gt;頭痛はロキソニンでなんとか押さえ込めているようですが、頭が非常に重く締め付けられているような感覚はなくなりません。&lt;/p&gt;&#xA;&lt;p&gt;めまいは抗うつ剤でだいぶ収まってきているのだと思いますが、頭を左右に傾けると目の焦点が合わず意識が若干遠のきます。&lt;br&gt;&#xA;昨日は階段でこけるかと思いましたが、手をついてなんとか転倒は防ぎました。&lt;br&gt;&#xA;まだ条件反射は正常なようです。&lt;/p&gt;&#xA;&lt;p&gt;さて、めまいもさることながら、意識が集中できないので、プログラムは無理ですが。&lt;/p&gt;&#xA;&lt;p&gt;今日は夕方まで体力が持ちますでしょうか・・・。&lt;/p&gt;&#xA;&lt;p&gt;不健康ネタばかりですみません。&lt;/p&gt;&#xA;&lt;p&gt;あ、メインのPCとノートPCにWindows8Proを入れました。&lt;br&gt;&#xA;使いづらいですが、動作はWindows7よりも軽くなっているのでびっくりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-23_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+      <link>http://localhost:1313/posts/2012-10-23_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
       <pubDate>Tue, 23 Oct 2012 22:20:48 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-23_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+      <guid>http://localhost:1313/posts/2012-10-23_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
       <description>&lt;p&gt;めまいと頭痛とだるさにしんどいのです。&lt;/p&gt;&#xA;&lt;p&gt;いい加減、治らないかな…。&lt;/p&gt;&#xA;&lt;p&gt;精神的ショックが続く…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>神様はじめました</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-23_%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2012-10-23_%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Tue, 23 Oct 2012 22:15:17 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-23_%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2012-10-23_%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;が、馬鹿でおもしろいです。&lt;/p&gt;&#xA;&lt;p&gt;でも少女漫画が原作でしょうから、きっともやっとするストーリーもあるのかな？&lt;/p&gt;&#xA;&lt;p&gt;オープニングもエンディングも印象的でナイスです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ぽっきりと</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-22_%E3%81%BD%E3%81%A3%E3%81%8D%E3%82%8A%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2012-10-22_%E3%81%BD%E3%81%A3%E3%81%8D%E3%82%8A%E3%81%A8/</link>
       <pubDate>Mon, 22 Oct 2012 20:54:52 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-22_%E3%81%BD%E3%81%A3%E3%81%8D%E3%82%8A%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2012-10-22_%E3%81%BD%E3%81%A3%E3%81%8D%E3%82%8A%E3%81%A8/</guid>
       <description>&lt;p&gt;心が折れたようです。&lt;/p&gt;&#xA;&lt;p&gt;契約更新で、当初の約束では正社員に採用される予定でしたが、まだしばらく契約社員のままです。&lt;/p&gt;&#xA;&lt;p&gt;雑用5割の業務の中、三〇人月相当のシステムを年末にはリリースさせるために、通常必要な設計作業などすべて省略してがんばっているんですが、それが見えないとのことで、評価保留らしいです。&lt;/p&gt;&#xA;&lt;p&gt;ウォーターフォールの開発なら明確なスケジューリングも成果も出せるんですが、一人アジャイル開発では、プログラミングで手一杯で、システム構成なども書く暇がないのです。&lt;/p&gt;&#xA;&lt;p&gt;しかも三〇人月という規模感をシステムをやったことない素人に理解させるのは、とても時間と気合いが必要なので、説明している暇などないのですが。&lt;/p&gt;&#xA;&lt;p&gt;まあ、そのうすらぼんやりしたイメージをシステムに落とし込んで言っている作業を、素人に評価してくれと言うのも酷ではありますが。&lt;/p&gt;&#xA;&lt;p&gt;専門家を正しく評価するには専門家としての知識が必要と言うことです。&lt;/p&gt;&#xA;&lt;p&gt;今は、会社では単なる便利屋状態です。&lt;br&gt;&#xA;電気機器、PCメンテというカスタマーエンジニア。&lt;br&gt;&#xA;デザイナー。&lt;br&gt;&#xA;Web管理者。&lt;br&gt;&#xA;ネットワーク管理者。&lt;br&gt;&#xA;システムエンジニア。&lt;br&gt;&#xA;プログラマー。&lt;br&gt;&#xA;事務補佐。&lt;br&gt;&#xA;庶務。&lt;br&gt;&#xA;介護福祉輸送。&lt;br&gt;&#xA;調理員補佐。&lt;/p&gt;&#xA;&lt;p&gt;仕事があるのは良いことですが、便利に使っておいて、ちょっと気に入らなかったら酷評するのをやめてください。&lt;/p&gt;&#xA;&lt;p&gt;私は道具ではないのですから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>モス</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-20_%E3%83%A2%E3%82%B9/</link>
+      <link>http://localhost:1313/posts/2012-10-20_%E3%83%A2%E3%82%B9/</link>
       <pubDate>Sat, 20 Oct 2012 12:36:37 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-20_%E3%83%A2%E3%82%B9/</guid>
+      <guid>http://localhost:1313/posts/2012-10-20_%E3%83%A2%E3%82%B9/</guid>
       <description>&lt;p&gt;家から一番近いモスにいます。&lt;/p&gt;&#xA;&lt;p&gt;ライスバーガー焼肉ととびきりハンバーグを頼みました。&lt;/p&gt;&#xA;&lt;p&gt;いくらでも入る胃があれば全種類頼みたいぐらいにモスが好きなのです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まさか</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-19_%E3%81%BE%E3%81%95%E3%81%8B/</link>
+      <link>http://localhost:1313/posts/2012-10-19_%E3%81%BE%E3%81%95%E3%81%8B/</link>
       <pubDate>Fri, 19 Oct 2012 23:55:08 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-19_%E3%81%BE%E3%81%95%E3%81%8B/</guid>
+      <guid>http://localhost:1313/posts/2012-10-19_%E3%81%BE%E3%81%95%E3%81%8B/</guid>
       <description>&lt;p&gt;今日は朝から胃が痛かったのです。&lt;/p&gt;&#xA;&lt;p&gt;昼過ぎには落ち着いていましたが。&lt;/p&gt;&#xA;&lt;p&gt;夜、仕事上がりに友人と寿司を食べに。&lt;/p&gt;&#xA;&lt;p&gt;食べ終わった頃に、友人の携帯に、友人の自宅から警察から連絡があったと電話が。&lt;/p&gt;&#xA;&lt;p&gt;友人の車を止めていた駐車場の区画の契約者から警察に通報があったらしいのです。&lt;/p&gt;&#xA;&lt;p&gt;すぐにその場所に戻っりましたが、一悶着合って警察沙汰に。&lt;/p&gt;&#xA;&lt;p&gt;警察がくる前に、話をまとめたんですが。&lt;/p&gt;&#xA;&lt;p&gt;寒い上に、心配で胃がきりきり痛み出しました。&lt;/p&gt;&#xA;&lt;p&gt;私の提案で、警察立ち会いのもと、迷惑料の支払いと謝罪をして、念書を書いて示談に。&lt;/p&gt;&#xA;&lt;p&gt;自宅への帰り道の一時間近く、激しく胃が痛み出しました。&lt;/p&gt;&#xA;&lt;p&gt;途中牛乳を飲んで若干痛みが和らぐものの、救急車を呼ばなきゃいけないのかと思うぐらい胃が痛かったのです。&lt;/p&gt;&#xA;&lt;p&gt;家にたどり着くと、安堵感からか少し痛みが和らぎ、その後、胃薬と熱い風呂で痛みがほぼ治まっています。&lt;/p&gt;&#xA;&lt;p&gt;今は大丈夫っぽいです。&lt;/p&gt;&#xA;&lt;p&gt;胃潰瘍までなりたくないよぉ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>酔熊猫</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-18_%E9%85%94%E7%86%8A%E7%8C%AB/</link>
+      <link>http://localhost:1313/posts/2012-10-18_%E9%85%94%E7%86%8A%E7%8C%AB/</link>
       <pubDate>Thu, 18 Oct 2012 20:54:16 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-18_%E9%85%94%E7%86%8A%E7%8C%AB/</guid>
+      <guid>http://localhost:1313/posts/2012-10-18_%E9%85%94%E7%86%8A%E7%8C%AB/</guid>
       <description>&lt;p&gt;酔っております。&lt;/p&gt;&#xA;&lt;p&gt;コニャックでございます。&lt;/p&gt;&#xA;&lt;p&gt;クスリをたくさん飲んでおりますので要注意ですが。&lt;/p&gt;&#xA;&lt;p&gt;少し酔いどれておきましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cool&#39;n&#39;Quiet が音飛びの原因</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-18-coolnquiet-%E3%81%8C%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
+      <link>http://localhost:1313/posts/2012-10-18-coolnquiet-%E3%81%8C%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
       <pubDate>Thu, 18 Oct 2012 11:39:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-18-coolnquiet-%E3%81%8C%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
+      <guid>http://localhost:1313/posts/2012-10-18-coolnquiet-%E3%81%8C%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
       <description>&lt;p&gt;新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。&lt;/p&gt;&#xA;&lt;p&gt;なんとなく省エネの雰囲気に流されて、GIGABYTE製の省エネアプリ、AMD製の省エネアプリを入れてました。&lt;/p&gt;&#xA;&lt;p&gt;両方ともアンインストールしたことで、Windows 7 64bit (ONKYO SE-200PCI LTD)の環境で音飛びしなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;ずいぶん前に、AMDのCool&amp;rsquo;n&amp;rsquo;Quietが、いろいろなもので処理落ちする原因になっていることを知っていたはずなのですが、ついついインストールしてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;CPU、M/Bを入れ替える前はCool&amp;rsquo;n&amp;rsquo;Quietをインストールしてなかったので、音飛びしないはずです。&lt;/p&gt;&#xA;&lt;p&gt;てっきり、PCIバスの実装方法に問題があるのかと思ってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;GA-990FX UD3のノースチップはAMD 990FX、サウスチップはAMD SB950です。&#xA;PCIバスはSB950に接続されています。&#xA;しかもネイティブで対応しています。&#xA;間にPCIeブリッジなどは入っていません。&lt;/p&gt;&#xA;&lt;p&gt;つまり処理落ちの原因は、Cool&amp;rsquo;n&amp;rsquo;Quietによる割り込みタイマーなどの優先順位やウェイトなどに問題があるからです。&lt;/p&gt;&#xA;&lt;p&gt;省エネは必要ないので、まあいいかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>クマなのにパンダ２</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-15_%E3%82%AF%E3%83%9E%E3%81%AA%E3%81%AE%E3%81%AB%E3%83%91%E3%83%B3%E3%83%80%EF%BC%92/</link>
+      <link>http://localhost:1313/posts/2012-10-15_%E3%82%AF%E3%83%9E%E3%81%AA%E3%81%AE%E3%81%AB%E3%83%91%E3%83%B3%E3%83%80%EF%BC%92/</link>
       <pubDate>Mon, 15 Oct 2012 22:11:05 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-15_%E3%82%AF%E3%83%9E%E3%81%AA%E3%81%AE%E3%81%AB%E3%83%91%E3%83%B3%E3%83%80%EF%BC%92/</guid>
+      <guid>http://localhost:1313/posts/2012-10-15_%E3%82%AF%E3%83%9E%E3%81%AA%E3%81%AE%E3%81%AB%E3%83%91%E3%83%B3%E3%83%80%EF%BC%92/</guid>
       <description>&lt;p&gt;またもや目の周りに殴られたかのように、クマができております。&lt;/p&gt;&#xA;&lt;p&gt;目の周りが浅黒くなっております。&lt;/p&gt;&#xA;&lt;p&gt;パンダです。&lt;/p&gt;&#xA;&lt;p&gt;めがねを外すと目立ちます。&lt;/p&gt;&#xA;&lt;p&gt;昨日の疲れが抜けておりませんし、今日も精神的ダメージを負って、頭痛にもおそわれ、途中グロッキーになりそうでしたが、抗うつ剤を飲んでリカバリーです。&lt;/p&gt;&#xA;&lt;p&gt;疲れはリポビタンDでドーピングです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>亀乃ゆいたまさん</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-14_%E4%BA%80%E4%B9%83%E3%82%86%E3%81%84%E3%81%9F%E3%81%BE%E3%81%95%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2012-10-14_%E4%BA%80%E4%B9%83%E3%82%86%E3%81%84%E3%81%9F%E3%81%BE%E3%81%95%E3%82%93/</link>
       <pubDate>Sun, 14 Oct 2012 19:52:29 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-14_%E4%BA%80%E4%B9%83%E3%82%86%E3%81%84%E3%81%9F%E3%81%BE%E3%81%95%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2012-10-14_%E4%BA%80%E4%B9%83%E3%82%86%E3%81%84%E3%81%9F%E3%81%BE%E3%81%95%E3%82%93/</guid>
       <description>&lt;p&gt;いつもありがとうございます。&lt;/p&gt;&#xA;&lt;p&gt;絶妙のタイミングで、励ましをいただき、非常にうれしいです。&lt;/p&gt;&#xA;&lt;p&gt;明日もまたがんばれます。&lt;/p&gt;&#xA;&lt;p&gt;ありがとう。&lt;/p&gt;&#xA;&lt;p&gt;今日は、先月末に届け出た勤務表では休日だったんですが、上司に否応なく仕事を入れられてしまい、代休もなく、しんどいなぁと思っていたところでした。&lt;br&gt;&#xA;建物のワックスがけというそれなりに重労働でした。&lt;br&gt;&#xA;剥離剤で浮き上がったワックスに足を取られ、転倒したりも。&lt;br&gt;&#xA;受け身を取り損ね左手をついてしまい、筋を痛めたようです。&lt;br&gt;&#xA;疲れが出て頭痛がありますが、痛み止めでごまかしてます。&lt;/p&gt;&#xA;&lt;p&gt;壊れない程度にがんばります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>じわりと</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-11_%E3%81%98%E3%82%8F%E3%82%8A%E3%81%A8/</link>
+      <link>http://localhost:1313/posts/2012-10-11_%E3%81%98%E3%82%8F%E3%82%8A%E3%81%A8/</link>
       <pubDate>Thu, 11 Oct 2012 00:03:47 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-11_%E3%81%98%E3%82%8F%E3%82%8A%E3%81%A8/</guid>
+      <guid>http://localhost:1313/posts/2012-10-11_%E3%81%98%E3%82%8F%E3%82%8A%E3%81%A8/</guid>
       <description>&lt;p&gt;今日もじわりとめまいと戦っております。&lt;/p&gt;&#xA;&lt;p&gt;気持ち悪いけど。&lt;/p&gt;&#xA;&lt;p&gt;すっきりとしたいなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>すんません</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-08_%E3%81%99%E3%82%93%E3%81%BE%E3%81%9B%E3%82%93/</link>
+      <link>http://localhost:1313/posts/2012-10-08_%E3%81%99%E3%82%93%E3%81%BE%E3%81%9B%E3%82%93/</link>
       <pubDate>Mon, 08 Oct 2012 22:14:35 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-08_%E3%81%99%E3%82%93%E3%81%BE%E3%81%9B%E3%82%93/</guid>
+      <guid>http://localhost:1313/posts/2012-10-08_%E3%81%99%E3%82%93%E3%81%BE%E3%81%9B%E3%82%93/</guid>
       <description>&lt;p&gt;すんません。&lt;/p&gt;&#xA;&lt;p&gt;いろいろとやらないといけないこと、メールの返信とか、気力がないのでごめんなさい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ありゃりゃ</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-07_%E3%81%82%E3%82%8A%E3%82%83%E3%82%8A%E3%82%83/</link>
+      <link>http://localhost:1313/posts/2012-10-07_%E3%81%82%E3%82%8A%E3%82%83%E3%82%8A%E3%82%83/</link>
       <pubDate>Sun, 07 Oct 2012 22:12:10 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-07_%E3%81%82%E3%82%8A%E3%82%83%E3%82%8A%E3%82%83/</guid>
+      <guid>http://localhost:1313/posts/2012-10-07_%E3%81%82%E3%82%8A%E3%82%83%E3%82%8A%E3%82%83/</guid>
       <description>&lt;p&gt;完全に鬱なのかなという症状にみまわれております。&lt;/p&gt;&#xA;&lt;p&gt;頭痛、めまい、吐き気、倦怠感とだけ聞くと風邪じゃね？とか思うんですが、熱もなく数週間続き、イライラや衝動的とか、夜寝付きが悪く、神経過敏、異常な喉の渇きがでてきていますから、鬱状態なのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;ごく普通の仕事量で勤務時間も長くないし、若干精神的プレッシャーがあるものの普通なら耐えられるレベルなのですが。&lt;/p&gt;&#xA;&lt;p&gt;今の私には無理だったのでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;また、仕事辞めることになるのかなぁ…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>めまい</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-05_%E3%82%81%E3%81%BE%E3%81%84/</link>
+      <link>http://localhost:1313/posts/2012-10-05_%E3%82%81%E3%81%BE%E3%81%84/</link>
       <pubDate>Fri, 05 Oct 2012 23:51:58 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-05_%E3%82%81%E3%81%BE%E3%81%84/</guid>
+      <guid>http://localhost:1313/posts/2012-10-05_%E3%82%81%E3%81%BE%E3%81%84/</guid>
       <description>&lt;p&gt;めまいを伴って、偏頭痛があるので、ちょっちしんどいです。&lt;/p&gt;&#xA;&lt;p&gt;PCの画面と人間関係が私にかなりのストレスを与えているのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;明日は心療内科に行く日なので、ちょっとめまいを止める薬をもらおうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>打たれ弱い私。</title>
-      <link>https://yuki9902-jp.github.io/posts/2012-10-03_%E6%89%93%E3%81%9F%E3%82%8C%E5%BC%B1%E3%81%84%E7%A7%81/</link>
+      <link>http://localhost:1313/posts/2012-10-03_%E6%89%93%E3%81%9F%E3%82%8C%E5%BC%B1%E3%81%84%E7%A7%81/</link>
       <pubDate>Wed, 03 Oct 2012 20:47:11 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2012-10-03_%E6%89%93%E3%81%9F%E3%82%8C%E5%BC%B1%E3%81%84%E7%A7%81/</guid>
+      <guid>http://localhost:1313/posts/2012-10-03_%E6%89%93%E3%81%9F%E3%82%8C%E5%BC%B1%E3%81%84%E7%A7%81/</guid>
       <description>&lt;p&gt;心や神経が弱ってるから、普通に仕事をするだけでもしんどいけど、一生懸命した仕事で怒られるのは、とってもしんどい。&lt;/p&gt;&#xA;&lt;p&gt;まあ理不尽なことじゃないから仕方ないけど。&lt;/p&gt;&#xA;&lt;p&gt;かつてがんばりすぎて、我慢しすぎて、何度も鬱を経験して、やっと日常生活が送れるようになって、サラリーマンに復帰したけど、やっぱりかなり打たれ弱くなったなぁ。&lt;/p&gt;&#xA;&lt;p&gt;少しでもつらいことがあると、心臓のあたりが、きゅっとなって、とても苦しくなるんだよ。&lt;/p&gt;&#xA;&lt;p&gt;カウンセラーには、人と接しない仕事で、農業などをしていくのが良いんじゃなかとも言われたけど、現実問題、生活が困窮してきたから。&lt;/p&gt;&#xA;&lt;p&gt;我慢せずにやりたいことやれば良かったのかなぁ。&lt;/p&gt;</description>
     </item>
   </channel>

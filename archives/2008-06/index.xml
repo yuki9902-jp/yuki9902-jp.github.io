@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2008-06 on yuki9902::blog</title>
-    <link>https://yuki9902-jp.github.io/archives/2008-06/</link>
+    <link>http://localhost:1313/archives/2008-06/</link>
     <description>Recent content in 2008-06 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 30 Jun 2008 11:12:27 +0900</lastBuildDate>
-    <atom:link href="https://yuki9902-jp.github.io/archives/2008-06/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archives/2008-06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>クラッチ交換</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-30-%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E4%BA%A4%E6%8F%9B/</link>
+      <link>http://localhost:1313/posts/2008-06-30-%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E4%BA%A4%E6%8F%9B/</link>
       <pubDate>Mon, 30 Jun 2008 11:12:27 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-30-%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E4%BA%A4%E6%8F%9B/</guid>
+      <guid>http://localhost:1313/posts/2008-06-30-%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E4%BA%A4%E6%8F%9B/</guid>
       <description>&lt;p&gt;マイSUBARU IMPREZA WRX STI Version (GH-GDBF)のクラッチのベアリングから音が出るということで、トランスミションをおろして部品交換となりました。&lt;/p&gt;&#xA;&lt;p&gt;ベアリングだけの交換と思いきや、すでにクラッチディスクも相当減っているということでクラッチディスクも交換です。&lt;/p&gt;&#xA;&lt;p&gt;で、当然クラッチカバーも交換です。&lt;/p&gt;&#xA;&lt;p&gt;クラッチディスクは消耗部品で実費でしたが、他の部品は保証期間内のクレーム修理となりました。&lt;/p&gt;&#xA;&lt;p&gt;ついでにミッションオイルも交換してくれました。&lt;/p&gt;&#xA;&lt;p&gt;エンジンオイルとクラッチディスクであわせて２万円弱でした。&lt;/p&gt;&#xA;&lt;p&gt;普通にやると１０万円越えコースなんですが。。。&lt;/p&gt;&#xA;&lt;p&gt;普通の車に比べて、ことごとく部品代が高いのは、レーシング仕様のパーツが多用されているから。&lt;/p&gt;&#xA;&lt;p&gt;ディーラーの人に「STIはスポーツカーだからしょうがないんです。」と言われました。&lt;/p&gt;&#xA;&lt;p&gt;維持費が大変なので、乗りつぶすより、年改の度に乗り換えるユーザーが多いのもある意味納得できますけど。&lt;/p&gt;&#xA;&lt;p&gt;今年は車検もあるので、まだまだお財布に厳しいです。&lt;/p&gt;&#xA;&lt;p&gt;結局、クラッチ交換で音がでなくなり、さらにクラッチが軽くなりました。&lt;/p&gt;&#xA;&lt;p&gt;でも軽く感じたのは、その前に激重のWRX NBを運転してたからかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>grease up</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-22-grease-up/</link>
+      <link>http://localhost:1313/posts/2008-06-22-grease-up/</link>
       <pubDate>Sun, 22 Jun 2008 20:46:39 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-22-grease-up/</guid>
+      <guid>http://localhost:1313/posts/2008-06-22-grease-up/</guid>
       <description>&lt;p&gt;クラッチを切るときに、ぎゅぎゅっと音がするんだけど、ディーラーに持ち込んで見てもらった。&lt;/p&gt;&#xA;&lt;p&gt;どうやら、クラッチプレートの受けのベアリングのグリスが切れてきたらしい。&lt;/p&gt;&#xA;&lt;p&gt;ということで、グリスアップしてもっらった。&lt;/p&gt;&#xA;&lt;p&gt;トランスミッションを下ろさなくてもグリスアップできるらしい。&lt;/p&gt;&#xA;&lt;p&gt;インタークーラーを外して、クラッチにグリスをさすところがあるらしく、そこからある程度直してもらった。&lt;/p&gt;&#xA;&lt;p&gt;私にはわからなかったが、若干、問題が残っているらしい。&lt;/p&gt;&#xA;&lt;p&gt;来週部品交換しますとのことだ。&lt;/p&gt;&#xA;&lt;p&gt;整備例もたくさんあるのだろうが、さすがスバルのディーラーメカニックだ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>鬱の気配</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-22-%E9%AC%B1%E3%81%AE%E6%B0%97%E9%85%8D/</link>
+      <link>http://localhost:1313/posts/2008-06-22-%E9%AC%B1%E3%81%AE%E6%B0%97%E9%85%8D/</link>
       <pubDate>Sun, 22 Jun 2008 20:32:22 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-22-%E9%AC%B1%E3%81%AE%E6%B0%97%E9%85%8D/</guid>
+      <guid>http://localhost:1313/posts/2008-06-22-%E9%AC%B1%E3%81%AE%E6%B0%97%E9%85%8D/</guid>
       <description>&lt;p&gt;春から何となく鬱状態が続いていたんですが、精神的な負荷がかかると、とたんに落ち込んでしまいます。&lt;/p&gt;&#xA;&lt;p&gt;やっぱりまだ鬱病は治ってないですね。&lt;/p&gt;&#xA;&lt;p&gt;最近自分が弱腰で、自己嫌悪です。&lt;/p&gt;&#xA;&lt;p&gt;全否定で話し始めた攻撃的な部分がなくなってしまい、なんでも自分が悪いんだというような考え方になってきました。&lt;/p&gt;&#xA;&lt;p&gt;周りから見ると優しいだけの人でしょうが。。。&lt;/p&gt;&#xA;&lt;p&gt;仕事能力も全盛期の半分以下です。&lt;/p&gt;&#xA;&lt;p&gt;昔は少々疲れていても３人分ぐらいの仕事はこなしていたんですが。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり、しばらく長い休みが必要なんでしょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>テレビを買ってみた</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-21-%E3%83%86%E3%83%AC%E3%83%93%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>http://localhost:1313/posts/2008-06-21-%E3%83%86%E3%83%AC%E3%83%93%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Sat, 21 Jun 2008 21:24:33 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-21-%E3%83%86%E3%83%AC%E3%83%93%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>http://localhost:1313/posts/2008-06-21-%E3%83%86%E3%83%AC%E3%83%93%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>&lt;p&gt;もう５年ほど前に買った自宅の液晶テレビに黒い帯が２つ出て、あまりに見るに堪えなくなったので新しくテレビを買った。&lt;/p&gt;&#xA;&lt;p&gt;２４日に届く。&lt;/p&gt;&#xA;&lt;p&gt;今まで２６インチだったが、今度は４２インチにしてみた。&lt;/p&gt;&#xA;&lt;p&gt;当時２７万円で買ったが、今度は１９万円だ。&lt;/p&gt;&#xA;&lt;p&gt;１インチ５０００円以下になった。&lt;/p&gt;&#xA;&lt;p&gt;一緒にブルーレイHDDレコーダーを買いたかったがやめた。&lt;/p&gt;&#xA;&lt;p&gt;高かった。&lt;/p&gt;&#xA;&lt;p&gt;コピー１０も７月から導入が決定したし、Blu-rayは、まだまだ下がる。&lt;/p&gt;&#xA;&lt;p&gt;うちではオリンピックを録画してまで見る習慣はないので、北京オリンピックに焦って買う必要はない。&lt;/p&gt;&#xA;&lt;p&gt;また番組をarchiveする習慣は家族にはないのでHDDレコーダーだけ購入すればよいと思っている。&lt;/p&gt;</description>
     </item>
     <item>
       <title>grand chef KOBE Premium Custard Pudding</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-05-grand-chef-kobe-pre/</link>
+      <link>http://localhost:1313/posts/2008-06-05-grand-chef-kobe-pre/</link>
       <pubDate>Thu, 05 Jun 2008 11:26:27 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-05-grand-chef-kobe-pre/</guid>
+      <guid>http://localhost:1313/posts/2008-06-05-grand-chef-kobe-pre/</guid>
       <description>&lt;p&gt;近所の方からお土産として「grand chef KOBE Premium Custard Pudding」をもらったので、食しました。&lt;/p&gt;&#xA;&lt;p&gt;何にも意識していなかったので、そのおいしさにびっくりしました。&lt;/p&gt;&#xA;&lt;p&gt;インターネットで調べてみると、トーラク株式会社の商品であることが分かりました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.toraku.co.jp/brand/gck_01.asp&#34;&gt;http://www.toraku.co.jp/brand/gck_01.asp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;この会社は、有名な神戸プリンを作っている会社でした。&lt;/p&gt;&#xA;&lt;p&gt;残念ながら食した物は通販していませんが、神戸プリンは通販しているので、食べたこともないので購入してみようかと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今週は</title>
-      <link>https://yuki9902-jp.github.io/posts/2008-06-01-%E4%BB%8A%E9%80%B1%E3%81%AF/</link>
+      <link>http://localhost:1313/posts/2008-06-01-%E4%BB%8A%E9%80%B1%E3%81%AF/</link>
       <pubDate>Sun, 01 Jun 2008 22:46:12 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/posts/2008-06-01-%E4%BB%8A%E9%80%B1%E3%81%AF/</guid>
+      <guid>http://localhost:1313/posts/2008-06-01-%E4%BB%8A%E9%80%B1%E3%81%AF/</guid>
       <description>&lt;p&gt;今週末は、コードギアスR2が芸人を使った特番になっていた。&lt;/p&gt;&#xA;&lt;p&gt;コードギアスネタだと予告があったが、簡単な番組紹介だけで、ほとんど芸人のアキバ探索で終わった。&lt;/p&gt;&#xA;&lt;p&gt;中に、金を払って耳かきをしてもらう店が紹介されていたが、風俗店と何がちがうのだろうか。&lt;/p&gt;&#xA;&lt;p&gt;予約をしないと入れないらしいが。。。&lt;/p&gt;&#xA;&lt;p&gt;近代の庶民の生活を研究している人によれば、江戸後期とか明治後期とか、やたら性風俗が乱れた時期があったが、援交が騒がれて以来の現在の状況はその時期に似ているらしい。&lt;/p&gt;&#xA;&lt;p&gt;戦時の綱紀粛正で貞操観念や倫理観が改善されるらしい。&lt;/p&gt;&#xA;&lt;p&gt;で、何が言いたいのかというと、かつてマニアのものだった世界も、や○ざに完全に支配されて、単なる金づるにされてしまっているということですか。&lt;/p&gt;&#xA;&lt;p&gt;今回のコードギアスの特番差し替えも、アニメイベントに向けての準備のために番組制作を休止させたのだろう。&lt;/p&gt;&#xA;&lt;p&gt;どうでもいい、人気のないアニメでもイベントが行われている。&lt;/p&gt;&#xA;&lt;p&gt;何だろう、毎日のように開かれているアニメイベントの話を聞くと、オタク熱は相変わらず首都圏だけで異常な盛り上がりをしているように思える。&lt;/p&gt;&#xA;&lt;p&gt;金儲けになっていることを考えると、ごく一部の話だけではなく、大多数の潮流のようなものがあるのだろうか。&lt;/p&gt;&#xA;&lt;p&gt;わずかな趣味の時間に熱を込めるのはいいが、生活すべてがそれになるのは危険ではないだろうか。&lt;/p&gt;&#xA;&lt;p&gt;このブログも最近アニメネタを書くが、それでも１週間のうち２～３時間しか見ていない。&lt;/p&gt;&#xA;&lt;p&gt;コードギアス、xxxHOLIC、銀魂、ドラゴンボールZの再放送か。&lt;/p&gt;&#xA;&lt;p&gt;テレビを見ている時間も８時間ぐらいだが。&lt;/p&gt;&#xA;&lt;p&gt;で、今日は昼間に大芦高原、和気まで行ってみた。&lt;/p&gt;&#xA;&lt;p&gt;いくつか通ったことのない道を選んで入っていたが、一度、正面からきた対向車を避けるため、&lt;/p&gt;&#xA;&lt;p&gt;フルブレーキでガードレールの方へ退避したが、あと２～３センチでガードレールに正面から突っ込むところだった。&lt;/p&gt;&#xA;&lt;p&gt;何とか止まった、道が狭く（２．７ｍ）ヘアピンだったので両者ともスピードが出ていなかった。&lt;/p&gt;&#xA;&lt;p&gt;インプレッサのブレーキ性能に助けられた。&lt;/p&gt;&#xA;&lt;p&gt;この季節は道脇の草の茂みが深くなっているから見通しが悪いので気をつけねば。&lt;/p&gt;&#xA;&lt;p&gt;せめて山道を走る人たちは前照灯をつけてほしい。&lt;/p&gt;&#xA;&lt;p&gt;そうすればかなり視認性が上がるのだが。&lt;/p&gt;</description>
     </item>
   </channel>
