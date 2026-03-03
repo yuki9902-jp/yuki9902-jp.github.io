@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2009-02 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2009-02/</link>
+    <link>https://yuki9902-jp.github.io/archives/2009-02/</link>
     <description>Recent content in 2009-02 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 23 Feb 2009 18:15:45 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2009-02/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2009-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>病気になっていないときがない。。。</title>
-      <link>http://localhost:1313/posts/2009-02-23-%E7%97%85%E6%B0%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%8C%E3%81%AA%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-23-%E7%97%85%E6%B0%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%8C%E3%81%AA%E3%81%84/</link>
       <pubDate>Mon, 23 Feb 2009 18:15:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-23-%E7%97%85%E6%B0%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%8C%E3%81%AA%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-23-%E7%97%85%E6%B0%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%8C%E3%81%AA%E3%81%84/</guid>
       <description>&lt;p&gt;丸二日、体力回復のため寝てました。&lt;/p&gt;&#xA;&lt;p&gt;ここ2週間、頭が重く、地に足がつかない感じでフラフラ。&lt;/p&gt;&#xA;&lt;p&gt;めまいがして、頭を傾けると、世界がぐるぐる回ります。&lt;/p&gt;&#xA;&lt;p&gt;目が上から下へくるくる。&lt;/p&gt;&#xA;&lt;p&gt;三半規管か、「てんかん」か、脳梗塞か。&lt;/p&gt;&#xA;&lt;p&gt;動けなくって医者にも行かず。&lt;/p&gt;&#xA;&lt;p&gt;今日ちょっと調子が良くなってめまいも収まってきているけど、週末には医者に行く予定がもともとあるので診てもらおう。&lt;/p&gt;&#xA;&lt;p&gt;神経の使いすぎはやっぱりダメだよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPSで居場所を確認</title>
-      <link>http://localhost:1313/posts/2009-02-20-gps%E3%81%A7%E5%B1%85%E5%A0%B4%E6%89%80%E3%82%92%E7%A2%BA%E8%AA%8D/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-20-gps%E3%81%A7%E5%B1%85%E5%A0%B4%E6%89%80%E3%82%92%E7%A2%BA%E8%AA%8D/</link>
       <pubDate>Fri, 20 Feb 2009 00:59:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-20-gps%E3%81%A7%E5%B1%85%E5%A0%B4%E6%89%80%E3%82%92%E7%A2%BA%E8%AA%8D/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-20-gps%E3%81%A7%E5%B1%85%E5%A0%B4%E6%89%80%E3%82%92%E7%A2%BA%E8%AA%8D/</guid>
       <description>&lt;p&gt;Sony GPS-CS1KSP を購入した。&lt;/p&gt;&#xA;&lt;p&gt;単なるGPSのデータロガーです。&lt;/p&gt;&#xA;&lt;p&gt;google earth用の*.kmlにログデータを変換して、goole mapでマイマップして変換したデータをアップロード。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://maps.google.co.jp/maps/ms?ie=UTF8&amp;amp;hl=ja&amp;amp;oe=UTF8&amp;amp;msa=0&amp;amp;msid=100923431306391917107.0004634766acce7081bc5&#34;&gt;google map&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;このリンクをたどると今日の私の帰宅の様子がわかります。&lt;/p&gt;&#xA;&lt;p&gt;家の近くで極端に速度が遅いのは大雪の所為です。&lt;/p&gt;&#xA;&lt;p&gt;GPSの精度は+-15mほど。&lt;/p&gt;&#xA;&lt;p&gt;電波が微弱なときや受信できる衛星の数が少ないときは精度が下がります。&lt;/p&gt;&#xA;&lt;p&gt;三角測量の原理だからしょうがないよね。&lt;/p&gt;&#xA;&lt;p&gt;15秒間隔のログなので車の軌跡はおおざっぱにならざるを得ないようですね。&lt;/p&gt;&#xA;&lt;p&gt;5秒間隔ぐらいがいいかな。&lt;/p&gt;&#xA;&lt;p&gt;現在のメモリの価格ならたぶん実現できるだろうけど、発売当時では仕方ないか。&lt;/p&gt;&#xA;&lt;p&gt;この携帯GPSロガーの精度がカーナビより云々というのは野暮。&lt;/p&gt;&#xA;&lt;p&gt;カーナビは独自にジャイロや車速センサー、加速度センサーなどで自立航法して自動追尾するし、地図補正機能も持っているので、同じ受信強度でも遙かに地図へのマッチング能力が高い。&lt;/p&gt;&#xA;&lt;p&gt;いやむしろカーナビより単なるロガーのほうが信頼できるかも。&lt;/p&gt;&#xA;&lt;p&gt;山道などで地図にない道を走るときのカーナビはとんでもない道にマッチングしてしまうから。&lt;/p&gt;</description>
     </item>
     <item>
       <title>廃線</title>
-      <link>http://localhost:1313/posts/2009-02-18-%E5%BB%83%E7%B7%9A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-18-%E5%BB%83%E7%B7%9A/</link>
       <pubDate>Wed, 18 Feb 2009 00:41:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-18-%E5%BB%83%E7%B7%9A/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/DSC00028(1).jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/DSC00028(1).jpg&#34; alt=&#34;DSC00028(1).jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;とある仕事で加計高校分校に行くことがありました。&lt;/p&gt;&#xA;&lt;p&gt;2003年11月14日のこと。&lt;/p&gt;&#xA;&lt;p&gt;もう六年も昔の話ですが。&lt;/p&gt;&#xA;&lt;p&gt;JR可部線に乗ってかなり奥地に向かいます。&lt;/p&gt;&#xA;&lt;p&gt;秋の行楽シーズンで駅は賑わっています。&lt;/p&gt;&#xA;&lt;p&gt;列車に乗る乗客たちになにやら違和感があって気になっていたのですが、数日後、この路線が廃線になっていたことを知りました。&lt;/p&gt;&#xA;&lt;p&gt;廃線になったのは、2003年11月30日。&lt;/p&gt;&#xA;&lt;p&gt;それで違和感のある乗客たちがいたのですね。&lt;/p&gt;&#xA;&lt;p&gt;ExifにGPS情報を書き込めるのがわかって楽しくて写真を整理しながら、昔行ったところを調べてたら懐かしくてUPしました。&lt;/p&gt;&#xA;&lt;p&gt;また鉄道旅行がしてみたいな。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-18-%E5%BB%83%E7%B7%9A/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/DSC00028(1).jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/DSC00028(1).jpg&#34; alt=&#34;DSC00028(1).jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;とある仕事で加計高校分校に行くことがありました。&lt;/p&gt;&#xA;&lt;p&gt;2003年11月14日のこと。&lt;/p&gt;&#xA;&lt;p&gt;もう六年も昔の話ですが。&lt;/p&gt;&#xA;&lt;p&gt;JR可部線に乗ってかなり奥地に向かいます。&lt;/p&gt;&#xA;&lt;p&gt;秋の行楽シーズンで駅は賑わっています。&lt;/p&gt;&#xA;&lt;p&gt;列車に乗る乗客たちになにやら違和感があって気になっていたのですが、数日後、この路線が廃線になっていたことを知りました。&lt;/p&gt;&#xA;&lt;p&gt;廃線になったのは、2003年11月30日。&lt;/p&gt;&#xA;&lt;p&gt;それで違和感のある乗客たちがいたのですね。&lt;/p&gt;&#xA;&lt;p&gt;ExifにGPS情報を書き込めるのがわかって楽しくて写真を整理しながら、昔行ったところを調べてたら懐かしくてUPしました。&lt;/p&gt;&#xA;&lt;p&gt;また鉄道旅行がしてみたいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>やば</title>
-      <link>http://localhost:1313/posts/2009-02-16-%E3%82%84%E3%81%B0/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-16-%E3%82%84%E3%81%B0/</link>
       <pubDate>Mon, 16 Feb 2009 19:25:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-16-%E3%82%84%E3%81%B0/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-16-%E3%82%84%E3%81%B0/</guid>
       <description>&lt;p&gt;熱があって、ひどいめまいがあります。&lt;/p&gt;&#xA;&lt;p&gt;自律神経失調やリンパ腺の炎症、もしかしたら脳梗塞。。。。&lt;/p&gt;&#xA;&lt;p&gt;やばいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>JAZZを聴け</title>
-      <link>http://localhost:1313/posts/2009-02-12-jazz%E3%82%92%E8%81%B4%E3%81%91/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-12-jazz%E3%82%92%E8%81%B4%E3%81%91/</link>
       <pubDate>Thu, 12 Feb 2009 18:57:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-12-jazz%E3%82%92%E8%81%B4%E3%81%91/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-12-jazz%E3%82%92%E8%81%B4%E3%81%91/</guid>
       <description>&lt;p&gt;JAZZのブームも去ってちょっと物足りなさもあるけれど、本当に良いモノはちゃんと残ると思う。&lt;/p&gt;&#xA;&lt;p&gt;往年の名盤がマスター音源からSACDになったものは結構あるけれど、高くてちょいちょい買うわけにはいかない。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと聴くにはインターネットラジオが良いかも。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.jjazz.net/&#34;&gt;http://www.jjazz.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;あまりJAZZとは言えないモノもあるけど、何でもありなのがJAZZなのかな。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと気取って、それでも落ち着いて聴くには良いかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>狼と香辛料X</title>
-      <link>http://localhost:1313/posts/2009-02-10-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99x/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-10-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99x/</link>
       <pubDate>Tue, 10 Feb 2009 18:22:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-10-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99x/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP1820m.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP1820m.jpg&#34; alt=&#34;_IGP1820m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;いつの間にか狼と香辛料の１０巻目が発売されていました。&lt;/p&gt;&#xA;&lt;p&gt;まだ読み始めですが、印象としては少し読みやすくなっているかな。&lt;/p&gt;&#xA;&lt;p&gt;先だって発売された「狼と香辛料の全テ」は、版権イラストが載った適度な解説書、いうかファンブックみたいなものも、少し前に買って読みました。&lt;/p&gt;&#xA;&lt;p&gt;ぶつぶつ文句を言う割にはしっかりと買ってますが。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-10-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99x/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1820m.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1820m.jpg&#34; alt=&#34;_IGP1820m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;いつの間にか狼と香辛料の１０巻目が発売されていました。&lt;/p&gt;&#xA;&lt;p&gt;まだ読み始めですが、印象としては少し読みやすくなっているかな。&lt;/p&gt;&#xA;&lt;p&gt;先だって発売された「狼と香辛料の全テ」は、版権イラストが載った適度な解説書、いうかファンブックみたいなものも、少し前に買って読みました。&lt;/p&gt;&#xA;&lt;p&gt;ぶつぶつ文句を言う割にはしっかりと買ってますが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>朝の仕込み</title>
-      <link>http://localhost:1313/posts/2009-02-07-%E6%9C%9D%E3%81%AE%E4%BB%95%E8%BE%BC%E3%81%BF/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-07-%E6%9C%9D%E3%81%AE%E4%BB%95%E8%BE%BC%E3%81%BF/</link>
       <pubDate>Sat, 07 Feb 2009 01:13:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-07-%E6%9C%9D%E3%81%AE%E4%BB%95%E8%BE%BC%E3%81%BF/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP1812m.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP1812m.jpg&#34; alt=&#34;_IGP1812m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;data:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K20D / smcPENTAX FA★85mmF1.4[IF]&lt;/p&gt;&#xA;&lt;p&gt;1/3200s / F14 / iso200 / スポット測光 / AdobeRGB &amp;gt; sRGB&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-07-%E6%9C%9D%E3%81%AE%E4%BB%95%E8%BE%BC%E3%81%BF/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1812m.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP1812m.jpg&#34; alt=&#34;_IGP1812m.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;data:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K20D / smcPENTAX FA★85mmF1.4[IF]&lt;/p&gt;&#xA;&lt;p&gt;1/3200s / F14 / iso200 / スポット測光 / AdobeRGB &amp;gt; sRGB&lt;/p&gt;</description>
     </item>
     <item>
       <title>疲れ目で</title>
-      <link>http://localhost:1313/posts/2009-02-05-%E7%96%B2%E3%82%8C%E7%9B%AE%E3%81%A7/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-02-05-%E7%96%B2%E3%82%8C%E7%9B%AE%E3%81%A7/</link>
       <pubDate>Thu, 05 Feb 2009 20:59:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-02-05-%E7%96%B2%E3%82%8C%E7%9B%AE%E3%81%A7/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-02-05-%E7%96%B2%E3%82%8C%E7%9B%AE%E3%81%A7/</guid>
       <description>&lt;p&gt;ぬぉおお、プログラミングのしすぎで、疲れ目になって文字が見えない。&lt;/p&gt;&#xA;&lt;p&gt;手元もおぼつかない。&lt;/p&gt;&#xA;&lt;p&gt;ブラインドタッチできるから、なんとかタイプできる。&lt;/p&gt;&#xA;&lt;p&gt;早く帰って眠りたい。&lt;/p&gt;</description>
     </item>
   </channel>

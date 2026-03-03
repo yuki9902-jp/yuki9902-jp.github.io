@@ -2,402 +2,402 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2009-10 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2009-10/</link>
+    <link>https://yuki9902-jp.github.io/archives/2009-10/</link>
     <description>Recent content in 2009-10 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 31 Oct 2009 23:25:22 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2009-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2009-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows7 Ultimate</title>
-      <link>http://localhost:1313/posts/2009-10-31_windows7-ultimate/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-31_windows7-ultimate/</link>
       <pubDate>Sat, 31 Oct 2009 23:25:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-31_windows7-ultimate/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-31_windows7-ultimate/</guid>
       <description>&lt;p&gt;Windows7 Ultimate 64bit をアップグレードインストールした。&lt;/p&gt;&#xA;&lt;p&gt;インストールには4時間ぐらい掛かったが、ほぼほったらかしで良いので楽だったけど。&lt;/p&gt;&#xA;&lt;p&gt;インストールする前にすでにデバイス類のドライバーが出そろっているのは確認していたし、そもそもVista x64にしたときに、ほとんどの過去のデバイスはあきらめたので、問題なく移行できた。&lt;/p&gt;&#xA;&lt;p&gt;インストール後、ＨＤＤのアクセスが信じられないくらい少なくなった。&lt;/p&gt;&#xA;&lt;p&gt;Ｖｉｓｔａだと20分以上、ＨＤＤがカリカリいっているが、7はそれがない。&lt;/p&gt;&#xA;&lt;p&gt;スーパープリフェッチのアルゴリズム改善はとても大きい。&lt;/p&gt;&#xA;&lt;p&gt;VistaでもServicePackでスパープリフェッチを改善できるとは思うが、それをしないのはWindows 7をメインストリームにしなければならない企業の事情だろうと思う。&lt;/p&gt;&#xA;&lt;p&gt;あとReadyBoostの制限が緩くなった。&lt;/p&gt;&#xA;&lt;p&gt;私のＰＣはメインメモリ８ＧＢもあるので、ReadyBoostのメリットがあるとは思えないが、Vistaで使っていたＵＳＢメモリをReadyBoostに設定した。&lt;/p&gt;&#xA;&lt;p&gt;（アルミ削り出し外装の高級品）&lt;/p&gt;&#xA;&lt;p&gt;デスクトップテーマが格段に増えた。&lt;/p&gt;&#xA;&lt;p&gt;これをＶｉｓｔａのＥｘｔｒａで用意して欲しかったが、まあ今回からは全ユーザーに提供されるのだから良しとしよう。&lt;/p&gt;&#xA;&lt;p&gt;Ｕｌｔｉｍａｔｅを持っている優位性は全くないわけだが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>７</title>
-      <link>http://localhost:1313/posts/2009-10-31_%EF%BC%97/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-31_%EF%BC%97/</link>
       <pubDate>Sat, 31 Oct 2009 20:27:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-31_%EF%BC%97/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-31_%EF%BC%97/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10377644263-10292357463.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091031/20/yuki9902/3e/2c/j/t02200367_0240040010292357463.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091031_2024~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Windows7をインストール中&lt;/p&gt;</description>
     </item>
     <item>
       <title>らーめん</title>
-      <link>http://localhost:1313/posts/2009-10-30_%E3%82%89%E3%83%BC%E3%82%81%E3%82%93/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-30_%E3%82%89%E3%83%BC%E3%82%81%E3%82%93/</link>
       <pubDate>Fri, 30 Oct 2009 22:28:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-30_%E3%82%89%E3%83%BC%E3%82%81%E3%82%93/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-30_%E3%82%89%E3%83%BC%E3%82%81%E3%82%93/</guid>
       <description>&lt;p&gt;らーめん食べて苦しい。&lt;/p&gt;&#xA;&lt;p&gt;胃が痛い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>昼寝する</title>
-      <link>http://localhost:1313/posts/2009-10-30_%E6%98%BC%E5%AF%9D%E3%81%99%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-30_%E6%98%BC%E5%AF%9D%E3%81%99%E3%82%8B/</link>
       <pubDate>Fri, 30 Oct 2009 12:25:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-30_%E6%98%BC%E5%AF%9D%E3%81%99%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-30_%E6%98%BC%E5%AF%9D%E3%81%99%E3%82%8B/</guid>
       <description>&lt;p&gt;ちょっと状況が変わりつつある。&lt;/p&gt;&#xA;&lt;p&gt;忙しいのには変わりがないが、刺さっていた棘が取れた感じ。&lt;/p&gt;&#xA;&lt;p&gt;自分ひとりの気持ちでなんとかなるものなら、どれだけ幸せなことか。&lt;/p&gt;&#xA;&lt;p&gt;いまは目標を持たないことにして、心の負荷を下げてやっていたけど、甘受せず貪る様に自分の夢を果たすようにしないとね。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず睡眠がほしい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>偏頭痛</title>
-      <link>http://localhost:1313/posts/2009-10-30_%E5%81%8F%E9%A0%AD%E7%97%9B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-30_%E5%81%8F%E9%A0%AD%E7%97%9B/</link>
       <pubDate>Fri, 30 Oct 2009 02:02:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-30_%E5%81%8F%E9%A0%AD%E7%97%9B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-30_%E5%81%8F%E9%A0%AD%E7%97%9B/</guid>
       <description>&lt;p&gt;ようやく帰ってきて、風呂に入って休憩中。&lt;/p&gt;&#xA;&lt;p&gt;頭痛い。&lt;/p&gt;&#xA;&lt;p&gt;仕事で毎日こんなのはかなりつらい。&lt;/p&gt;&#xA;&lt;p&gt;会社、早くやめたいけど、次のアテもないし・・・。&lt;/p&gt;&#xA;&lt;p&gt;正直、トップとNo2がやめてくれないとうまく回らない・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>終わろうとしている・・・</title>
-      <link>http://localhost:1313/posts/2009-10-29_%E7%B5%82%E3%82%8F%E3%82%8D%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-29_%E7%B5%82%E3%82%8F%E3%82%8D%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/</link>
       <pubDate>Thu, 29 Oct 2009 21:01:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-29_%E7%B5%82%E3%82%8F%E3%82%8D%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-29_%E7%B5%82%E3%82%8F%E3%82%8D%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/</guid>
       <description>&lt;p&gt;派遣切り・・・。&lt;/p&gt;&#xA;&lt;p&gt;会社が・・・。&lt;/p&gt;&#xA;&lt;p&gt;人でなし、仕事も回らなくなるよ。&lt;/p&gt;&#xA;&lt;p&gt;もう今のプロジェクトやめるのか？&lt;/p&gt;&#xA;&lt;p&gt;仕事を丸ごと失うぞ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>セキュリティーエリア</title>
-      <link>http://localhost:1313/posts/2009-10-28_%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%AA%E3%82%A2/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-28_%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%AA%E3%82%A2/</link>
       <pubDate>Wed, 28 Oct 2009 12:55:15 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-28_%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%AA%E3%82%A2/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-28_%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%AA%E3%82%A2/</guid>
       <description>&lt;p&gt;これからセキュリティーエリアにこもって、実にならない仕事です。&lt;/p&gt;&#xA;&lt;p&gt;チャリで移動しているのでちょっとしんどい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いぬ</title>
-      <link>http://localhost:1313/posts/2009-10-28_%E3%81%84%E3%81%AC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-28_%E3%81%84%E3%81%AC/</link>
       <pubDate>Wed, 28 Oct 2009 07:41:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-28_%E3%81%84%E3%81%AC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-28_%E3%81%84%E3%81%AC/</guid>
       <description>&lt;p&gt;子犬が三匹&lt;/p&gt;&#xA;&lt;p&gt;山の中に捨てられてました。&lt;/p&gt;&#xA;&lt;p&gt;道端に出てきて愛らしい姿を見せてました。&lt;/p&gt;&#xA;&lt;p&gt;残酷です。&lt;/p&gt;&#xA;&lt;p&gt;元飼い主はグズです。&lt;/p&gt;&#xA;&lt;p&gt;犬はそのうち保健所に回収され殺処分されるでしょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まよいマイマイ</title>
-      <link>http://localhost:1313/posts/2009-10-27_%E3%81%BE%E3%82%88%E3%81%84%E3%83%9E%E3%82%A4%E3%83%9E%E3%82%A4/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-27_%E3%81%BE%E3%82%88%E3%81%84%E3%83%9E%E3%82%A4%E3%83%9E%E3%82%A4/</link>
       <pubDate>Tue, 27 Oct 2009 23:36:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-27_%E3%81%BE%E3%82%88%E3%81%84%E3%83%9E%E3%82%A4%E3%83%9E%E3%82%A4/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-27_%E3%81%BE%E3%82%88%E3%81%84%E3%83%9E%E3%82%A4%E3%83%9E%E3%82%A4/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10374800023-10288688523.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091027/23/yuki9902/0b/de/j/t02200367_0240040010288688523.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091027_2330~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;化物語 第2巻まよいマイマイ です。&lt;/p&gt;&#xA;&lt;p&gt;ハッキリ言って戦場ヶ原ひたぎ萌です。&lt;/p&gt;&#xA;&lt;p&gt;見直すとまさにその通りですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはようございます</title>
-      <link>http://localhost:1313/posts/2009-10-27_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-27_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Tue, 27 Oct 2009 09:50:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-27_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-27_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;今日は比較的気分がいいっす。&lt;/p&gt;&#xA;&lt;p&gt;検案してたプロジェクトが順調に滑り出したからかな。&lt;/p&gt;&#xA;&lt;p&gt;まだ見えてない部分もあるけど、何とかなるでしょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
-      <link>http://localhost:1313/posts/2009-10-27_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-27_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
       <pubDate>Tue, 27 Oct 2009 01:08:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-27_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-27_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
       <description>&lt;p&gt;くっそー&lt;/p&gt;&#xA;&lt;p&gt;今日も麻雀ゲームで負けた。&lt;/p&gt;&#xA;&lt;p&gt;ゲームって読みができないからつらい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ゲームなのに</title>
-      <link>http://localhost:1313/posts/2009-10-26_%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AA%E3%81%AE%E3%81%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-26_%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AA%E3%81%AE%E3%81%AB/</link>
       <pubDate>Mon, 26 Oct 2009 01:10:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-26_%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AA%E3%81%AE%E3%81%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-26_%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AA%E3%81%AE%E3%81%AB/</guid>
       <description>&lt;p&gt;ゲームの麻雀で、国士無双を上がられた・・・。&lt;/p&gt;&#xA;&lt;p&gt;ショック。&lt;/p&gt;</description>
     </item>
     <item>
       <title>獅子舞</title>
-      <link>http://localhost:1313/posts/2009-10-25_%E7%8D%85%E5%AD%90%E8%88%9E/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-25_%E7%8D%85%E5%AD%90%E8%88%9E/</link>
       <pubDate>Sun, 25 Oct 2009 14:52:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-25_%E7%8D%85%E5%AD%90%E8%88%9E/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-25_%E7%8D%85%E5%AD%90%E8%88%9E/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10372960046-10286337093.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091025/14/yuki9902/c4/00/j/t02200367_0240040010286337093.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091025_1451~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;獅子舞&lt;/p&gt;</description>
     </item>
     <item>
       <title>天狗と子供</title>
-      <link>http://localhost:1313/posts/2009-10-25_%E5%A4%A9%E7%8B%97%E3%81%A8%E5%AD%90%E4%BE%9B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-25_%E5%A4%A9%E7%8B%97%E3%81%A8%E5%AD%90%E4%BE%9B/</link>
       <pubDate>Sun, 25 Oct 2009 13:51:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-25_%E5%A4%A9%E7%8B%97%E3%81%A8%E5%AD%90%E4%BE%9B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-25_%E5%A4%A9%E7%8B%97%E3%81%A8%E5%AD%90%E4%BE%9B/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10372925360-10286290324.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091025/13/yuki9902/c9/d6/j/t02200367_0240040010286290324.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091025_1349~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;天狗を質問攻めにする子供&lt;/p&gt;</description>
     </item>
     <item>
       <title>吉川八幡宮</title>
-      <link>http://localhost:1313/posts/2009-10-25_%E5%90%89%E5%B7%9D%E5%85%AB%E5%B9%A1%E5%AE%AE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-25_%E5%90%89%E5%B7%9D%E5%85%AB%E5%B9%A1%E5%AE%AE/</link>
       <pubDate>Sun, 25 Oct 2009 13:26:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-25_%E5%90%89%E5%B7%9D%E5%85%AB%E5%B9%A1%E5%AE%AE/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-25_%E5%90%89%E5%B7%9D%E5%85%AB%E5%B9%A1%E5%AE%AE/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10372911241-10286271820.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091025/13/yuki9902/ed/af/j/t02200367_0240040010286271820.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091025_1322~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;県社に指定されていた県重要文化財です。&lt;/p&gt;&#xA;&lt;p&gt;子供時分はここでよく遊びました。&lt;br&gt;&#xA;いまでも好きな場所です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>法被</title>
-      <link>http://localhost:1313/posts/2009-10-25_%E6%B3%95%E8%A2%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-25_%E6%B3%95%E8%A2%AB/</link>
       <pubDate>Sun, 25 Oct 2009 13:15:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-25_%E6%B3%95%E8%A2%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-25_%E6%B3%95%E8%A2%AB/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10372904848-10286263526.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091025/13/yuki9902/7c/22/j/t02200367_0240040010286263526.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091025_1310~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;法被を着てます。&lt;/p&gt;&#xA;&lt;p&gt;行列に参加します。&lt;/p&gt;&#xA;&lt;p&gt;槍か長刀か幟を持って歩きます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日の</title>
-      <link>http://localhost:1313/posts/2009-10-25_%E4%BB%8A%E6%97%A5%E3%81%AE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-25_%E4%BB%8A%E6%97%A5%E3%81%AE/</link>
       <pubDate>Sun, 25 Oct 2009 03:01:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-25_%E4%BB%8A%E6%97%A5%E3%81%AE/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-25_%E4%BB%8A%E6%97%A5%E3%81%AE/</guid>
       <description>&lt;p&gt;今日は、久しぶりに晩酌をした。&lt;/p&gt;&#xA;&lt;p&gt;今も若干酔いが残っている。&lt;/p&gt;&#xA;&lt;p&gt;燃える葡萄酒をあおって、とても良い感じ。&lt;/p&gt;&#xA;&lt;p&gt;気持ち悪くならないのは、ブランデーとウィスキー、ウォッカ、焼酎ぐらいだろうか。&lt;/p&gt;&#xA;&lt;p&gt;ビールなんて一口飲んだだけで、リバースしてしまう。&lt;/p&gt;&#xA;&lt;p&gt;なんでかな。&lt;/p&gt;&#xA;&lt;p&gt;今日は写真も結構撮ったけど良い仕上がりはなかった。&lt;/p&gt;&#xA;&lt;p&gt;でも、自分の時間を過ごせて気持ちはずいぶんと楽になったかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはようございます</title>
-      <link>http://localhost:1313/posts/2009-10-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Sat, 24 Oct 2009 12:38:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;おはようございます。&lt;/p&gt;&#xA;&lt;p&gt;久しぶりのよく寝ました。&lt;/p&gt;&#xA;&lt;p&gt;ほんと疲れてたんですね。&lt;/p&gt;&#xA;&lt;p&gt;昼過ぎに起きました。&lt;/p&gt;&#xA;&lt;p&gt;この後、散髪にでも行こうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>休める</title>
-      <link>http://localhost:1313/posts/2009-10-24_%E4%BC%91%E3%82%81%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-24_%E4%BC%91%E3%82%81%E3%82%8B/</link>
       <pubDate>Sat, 24 Oct 2009 00:30:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-24_%E4%BC%91%E3%82%81%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-24_%E4%BC%91%E3%82%81%E3%82%8B/</guid>
       <description>&lt;p&gt;ようやく帰ってきた。&lt;/p&gt;&#xA;&lt;p&gt;久々に休みだ。&lt;/p&gt;&#xA;&lt;p&gt;休める。&lt;/p&gt;&#xA;&lt;p&gt;BDとか小説とか漫画とか買ったので見なきゃね。&lt;/p&gt;&#xA;&lt;p&gt;でもカメラを買ったばかりなのに使ってないから写真も撮りたいな。&lt;/p&gt;&#xA;&lt;p&gt;日曜は、和装して祭りに参加です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>続かない思考</title>
-      <link>http://localhost:1313/posts/2009-10-23_%E7%B6%9A%E3%81%8B%E3%81%AA%E3%81%84%E6%80%9D%E8%80%83/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-23_%E7%B6%9A%E3%81%8B%E3%81%AA%E3%81%84%E6%80%9D%E8%80%83/</link>
       <pubDate>Fri, 23 Oct 2009 11:27:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-23_%E7%B6%9A%E3%81%8B%E3%81%AA%E3%81%84%E6%80%9D%E8%80%83/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-23_%E7%B6%9A%E3%81%8B%E3%81%AA%E3%81%84%E6%80%9D%E8%80%83/</guid>
       <description>&lt;p&gt;長時間にわたる思考ができなくなっているのは、薬のせいかな。&lt;/p&gt;&#xA;&lt;p&gt;それとも寝てないせいかな。&lt;/p&gt;&#xA;&lt;p&gt;３年前から精神が極限状態で仕事を続けたもので、破綻して病んじゃったんですが、この夏にはほぼ問題ないレベルにまで回復してました。&lt;/p&gt;&#xA;&lt;p&gt;せっかく回復したのに、ここ２ヶ月ぐらい平均睡眠時間が３時間半なので、これはかなりやばいです。&lt;/p&gt;&#xA;&lt;p&gt;今日はもうさくっと家に帰ることにします。&lt;/p&gt;&#xA;&lt;p&gt;問題があってもそんなものは先送り。&lt;/p&gt;&#xA;&lt;p&gt;自分の心と体のほうが大切です。&lt;/p&gt;&#xA;&lt;p&gt;がんばっていいのは自分のためになることだけです。&lt;/p&gt;&#xA;&lt;p&gt;それ以外は意味がない。&lt;/p&gt;&#xA;&lt;p&gt;私はやらなくてもできる子、わがままな子のはず、わけのわからないスパイラルに巻き込まれて、自分を殺して、やりたくないことをやって、何もできなくなってしまってました。&lt;/p&gt;&#xA;&lt;p&gt;自分をはやく取り戻さないと&lt;/p&gt;</description>
     </item>
     <item>
       <title>きつい！</title>
-      <link>http://localhost:1313/posts/2009-10-23_%E3%81%8D%E3%81%A4%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-23_%E3%81%8D%E3%81%A4%E3%81%84/</link>
       <pubDate>Fri, 23 Oct 2009 07:48:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-23_%E3%81%8D%E3%81%A4%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-23_%E3%81%8D%E3%81%A4%E3%81%84/</guid>
       <description>&lt;p&gt;今日は渋滞がいつも以上。&lt;/p&gt;&#xA;&lt;p&gt;完全寝不足なので意識が飛びそう。&lt;/p&gt;&#xA;&lt;p&gt;疲れた&lt;/p&gt;</description>
     </item>
     <item>
       <title>仕事が終わった</title>
-      <link>http://localhost:1313/posts/2009-10-22_%E4%BB%95%E4%BA%8B%E3%81%8C%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-22_%E4%BB%95%E4%BA%8B%E3%81%8C%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 22 Oct 2009 23:07:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-22_%E4%BB%95%E4%BA%8B%E3%81%8C%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-22_%E4%BB%95%E4%BA%8B%E3%81%8C%E7%B5%82%E3%82%8F%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;さあこれから帰るぞ。&lt;/p&gt;&#xA;&lt;p&gt;飯も食いたいがどうするかな・・・&lt;/p&gt;</description>
     </item>
     <item>
       <title>日本のナイアガラ</title>
-      <link>http://localhost:1313/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</link>
       <pubDate>Thu, 22 Oct 2009 13:26:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</guid>
       <description>&lt;p&gt;[googlemap lat=&amp;ldquo;32.96409872679787&amp;rdquo; lng=&amp;ldquo;131.45045042037964&amp;rdquo; width=&amp;ldquo;461px&amp;rdquo; height=&amp;ldquo;306px&amp;rdquo; zoom=&amp;ldquo;15&amp;rdquo; type=&amp;ldquo;G_NORMAL_MAP&amp;rdquo;]日本のナイアガラ[/googlemap]&lt;/p&gt;&#xA;&lt;p&gt;ここにいってみたいです。&lt;/p&gt;&#xA;&lt;p&gt;多分大したことはないだろうけど、ここと高千穂とあわせて行ってみたい。&lt;/p&gt;&#xA;&lt;p&gt;高速が安くなったのでふらっと行ってみるか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日の晩飯</title>
-      <link>http://localhost:1313/posts/2009-10-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%99%A9%E9%A3%AF/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%99%A9%E9%A3%AF/</link>
       <pubDate>Wed, 21 Oct 2009 19:31:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%99%A9%E9%A3%AF/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%99%A9%E9%A3%AF/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10370080226-10282800245.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091021/19/yuki9902/a8/ed/j/t02200367_0240040010282800245.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091021_1850~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ビーフカレーにビーフカツをトッピング&lt;/p&gt;&#xA;&lt;p&gt;満足した！&lt;/p&gt;</description>
     </item>
     <item>
       <title>胸焼け</title>
-      <link>http://localhost:1313/posts/2009-10-21_%E8%83%B8%E7%84%BC%E3%81%91/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-21_%E8%83%B8%E7%84%BC%E3%81%91/</link>
       <pubDate>Wed, 21 Oct 2009 07:40:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-21_%E8%83%B8%E7%84%BC%E3%81%91/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-21_%E8%83%B8%E7%84%BC%E3%81%91/</guid>
       <description>&lt;p&gt;疲れか寝不足か胸焼けが…&lt;br&gt;&#xA;頭も痛い&lt;/p&gt;&#xA;&lt;p&gt;１０年の朝の渋滞&lt;br&gt;&#xA;ボスの意味不明な癇癪&lt;/p&gt;&#xA;&lt;p&gt;長い休みが欲しい&lt;/p&gt;</description>
     </item>
     <item>
       <title>SANDISK Extream 30MB/s</title>
-      <link>http://localhost:1313/posts/2009-10-20-sandisk-extream-30mbs/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-20-sandisk-extream-30mbs/</link>
       <pubDate>Tue, 20 Oct 2009 17:07:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-20-sandisk-extream-30mbs/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-20-sandisk-extream-30mbs/</guid>
       <description>&lt;p&gt;Sandisk のExtream III 30MB/s 8GBを買いました。&#xA;K-7の動画撮影は問題なしです。&#xA;長時間撮影後の書き込みも早いので前の３分の１以下の時間で済みます。&#xA;ネット上のベンチマークでは確かにSandiskが飛びぬけて早いです。&#xA;Panasonicと比べると実際そのとおりの差がでます。&#xA;Panasonicのブランドは高いし、4GBで他社の8GBが買えます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>シェリル本</title>
-      <link>http://localhost:1313/posts/2009-10-20_%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%AB%E6%9C%AC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-20_%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%AB%E6%9C%AC/</link>
       <pubDate>Tue, 20 Oct 2009 06:34:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-20_%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%AB%E6%9C%AC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-20_%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%AB%E6%9C%AC/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10368922309-10281397213.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091020/06/yuki9902/04/20/j/t02200367_0240040010281397213.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091020_0629~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;角川のシェリル本です&lt;/p&gt;&#xA;&lt;p&gt;ニュータイプやジャケットで使われたイラストが満載です&lt;/p&gt;&#xA;&lt;p&gt;今秋公開の映画のイラストも入ってます&lt;/p&gt;&#xA;&lt;p&gt;シェリルファンは買ってもいいかな&lt;/p&gt;</description>
     </item>
     <item>
       <title>さむ</title>
-      <link>http://localhost:1313/posts/2009-10-19_%E3%81%95%E3%82%80/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-19_%E3%81%95%E3%82%80/</link>
       <pubDate>Mon, 19 Oct 2009 23:14:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-19_%E3%81%95%E3%82%80/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-19_%E3%81%95%E3%82%80/</guid>
       <description>&lt;p&gt;寒いですね&lt;/p&gt;&#xA;&lt;p&gt;でも頭がさえて気持ちいいです&lt;/p&gt;&#xA;&lt;p&gt;いい加減、働き過ぎです&lt;/p&gt;&#xA;&lt;p&gt;いろんなものを失ってますが、なかなか脱出出来ないですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>しゃべりづらい</title>
-      <link>http://localhost:1313/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%A5%E3%82%89%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%A5%E3%82%89%E3%81%84/</link>
       <pubDate>Mon, 19 Oct 2009 20:40:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%A5%E3%82%89%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E3%81%A5%E3%82%89%E3%81%84/</guid>
       <description>&lt;p&gt;しゃべりづらい。&#xA;ちょっと違和感があるけど、明日になれば気にならなくなるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>はあ</title>
-      <link>http://localhost:1313/posts/2009-10-19_%E3%81%AF%E3%81%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-19_%E3%81%AF%E3%81%82/</link>
       <pubDate>Mon, 19 Oct 2009 00:32:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-19_%E3%81%AF%E3%81%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-19_%E3%81%AF%E3%81%82/</guid>
       <description>&lt;p&gt;今日は諸事情により、完全引きこもり。&lt;/p&gt;&#xA;&lt;p&gt;ゆっくり休めたので体は良いんですが。&lt;/p&gt;&#xA;&lt;p&gt;精神的にはダメージがでかい。&lt;/p&gt;&#xA;&lt;p&gt;もう今更何ともならないんだけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あああ、</title>
-      <link>http://localhost:1313/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</link>
       <pubDate>Sun, 18 Oct 2009 01:09:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</guid>
       <description>&lt;p&gt;この年齢で最悪な状態。&#xA;もっとも懸念していた症状を治すこともできずについに。&lt;/p&gt;&#xA;&lt;p&gt;今は人様にあえる状態ではなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;早く何とかせねば。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今朝の</title>
-      <link>http://localhost:1313/posts/2009-10-17_%E4%BB%8A%E6%9C%9D%E3%81%AE/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-17_%E4%BB%8A%E6%9C%9D%E3%81%AE/</link>
       <pubDate>Sat, 17 Oct 2009 08:01:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-17_%E4%BB%8A%E6%9C%9D%E3%81%AE/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-17_%E4%BB%8A%E6%9C%9D%E3%81%AE/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10366639879-10278484728.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091017/08/yuki9902/a5/74/j/t02200367_0240040010278484728.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091017_0800~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝の目覚めの一本&lt;/p&gt;&#xA;&lt;p&gt;普通に仕事…&lt;/p&gt;</description>
     </item>
     <item>
       <title>デザート</title>
-      <link>http://localhost:1313/posts/2009-10-16_%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-16_%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88/</link>
       <pubDate>Fri, 16 Oct 2009 20:02:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-16_%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-16_%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10366280386-10278047701.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091016/20/yuki9902/07/0e/j/t02200367_0240040010278047701.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091016_1959~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;コンビニでリッチストロベリー＆ショコラ&lt;/p&gt;&#xA;&lt;p&gt;食う！&lt;/p&gt;</description>
     </item>
     <item>
       <title>あげあげ</title>
-      <link>http://localhost:1313/posts/2009-10-16_%E3%81%82%E3%81%92%E3%81%82%E3%81%92/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-16_%E3%81%82%E3%81%92%E3%81%82%E3%81%92/</link>
       <pubDate>Fri, 16 Oct 2009 07:49:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-16_%E3%81%82%E3%81%92%E3%81%82%E3%81%92/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-16_%E3%81%82%E3%81%92%E3%81%82%E3%81%92/</guid>
       <description>&lt;p&gt;もう気力が尽きていますので、今日はB&amp;rsquo;zでテンション上げていきます。&lt;br&gt;&#xA;先日発売されたマイロンリータウンを聞いてます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K-7</title>
-      <link>http://localhost:1313/posts/2009-10-15-pentax-k-7-4/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-15-pentax-k-7-4/</link>
       <pubDate>Thu, 15 Oct 2009 13:55:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-15-pentax-k-7-4/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-15-pentax-k-7-4/</guid>
       <description>&lt;p&gt;PENTAX K-7で使用しているSDCHなのですが、Panasonic のSDHC 4GB Class10です。&#xA;どうも話によるとPanasonic のSDHCは書き込みが遅いらしいですね。&#xA;それで、動画撮影時に30秒ほどでバッファを食い尽くして、録画が停止するようです。&lt;/p&gt;&#xA;&lt;p&gt;今日にでもSandiskのSDHC Class10を買おうかと思います。&#xA;こういうものは衝動買いでは見えてこないので、調査しとけばよかったかな。&lt;/p&gt;&#xA;&lt;p&gt;ブランド優先でかったのが間違いだったかな。&#xA;いまのSDHCはK20Dのほうで使おうっと。&lt;/p&gt;</description>
     </item>
     <item>
       <title>きついのかな、やっぱり</title>
-      <link>http://localhost:1313/posts/2009-10-15_%E3%81%8D%E3%81%A4%E3%81%84%E3%81%AE%E3%81%8B%E3%81%AA%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-15_%E3%81%8D%E3%81%A4%E3%81%84%E3%81%AE%E3%81%8B%E3%81%AA%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A/</link>
       <pubDate>Thu, 15 Oct 2009 10:29:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-15_%E3%81%8D%E3%81%A4%E3%81%84%E3%81%AE%E3%81%8B%E3%81%AA%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-15_%E3%81%8D%E3%81%A4%E3%81%84%E3%81%AE%E3%81%8B%E3%81%AA%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A/</guid>
       <description>&lt;p&gt;朝カレー・・・、イチローも食うなるという。&lt;/p&gt;&#xA;&lt;p&gt;昔は毎食カレーでも大丈夫ではありましたが、さすがに今の疲れている朝にはきついものです。&lt;/p&gt;&#xA;&lt;p&gt;欧風カレーではなく、インド式のスパイスの効いたカレーなら、からだの調子がよくなるかなぁ。&lt;/p&gt;&#xA;&lt;p&gt;血流やリンパが滞っているようで、調子が悪いです。&lt;/p&gt;&#xA;&lt;p&gt;デトックスしたいよ。&lt;/p&gt;&#xA;&lt;p&gt;誰か私を温泉に連れて行って・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ふう</title>
-      <link>http://localhost:1313/posts/2009-10-15_%E3%81%B5%E3%81%86/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-15_%E3%81%B5%E3%81%86/</link>
       <pubDate>Thu, 15 Oct 2009 00:20:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-15_%E3%81%B5%E3%81%86/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-15_%E3%81%B5%E3%81%86/</guid>
       <description>&lt;p&gt;さっき帰ってきて、風呂入って、さっぱり。&lt;/p&gt;&#xA;&lt;p&gt;死ぬんじゃね、私。&lt;/p&gt;&#xA;&lt;p&gt;今日は、天気予報を見ておいて、突然の豪雨に注意 とあったので、客先に車でいった。&lt;/p&gt;&#xA;&lt;p&gt;予報通り、雷と豪雨、雨脚はしばらくすると収まったようですけど。&lt;/p&gt;&#xA;&lt;p&gt;そんなところで、夕日が真っ赤だったけど、夕焼けにはならなかったな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>仕事。仕事（T 。T）</title>
-      <link>http://localhost:1313/posts/2009-10-14_%E4%BB%95%E4%BA%8B%E4%BB%95%E4%BA%8Bt-t/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-14_%E4%BB%95%E4%BA%8B%E4%BB%95%E4%BA%8Bt-t/</link>
       <pubDate>Wed, 14 Oct 2009 18:19:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-14_%E4%BB%95%E4%BA%8B%E4%BB%95%E4%BA%8Bt-t/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-14_%E4%BB%95%E4%BA%8B%E4%BB%95%E4%BA%8Bt-t/</guid>
       <description>&lt;p&gt;セキュリティーエリアから脱出。&lt;/p&gt;&#xA;&lt;p&gt;会社に戻ってきてこれから普通の業務・・・。&lt;/p&gt;&#xA;&lt;p&gt;死ぬぅ&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日もつまらない運用作業</title>
-      <link>http://localhost:1313/posts/2009-10-14_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-14_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD/</link>
       <pubDate>Wed, 14 Oct 2009 12:46:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-14_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-14_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD/</guid>
       <description>&lt;p&gt;今日もつまらない運用作業です。&lt;/p&gt;&#xA;&lt;p&gt;間もなくセキュリティーエリアにこもってログの確認ですよ。&lt;br&gt;&#xA;管理者のする仕事じゃないよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>秋口の伯耆富士</title>
-      <link>http://localhost:1313/posts/2009-10-14-%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-14-%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</link>
       <pubDate>Wed, 14 Oct 2009 00:46:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-14-%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-14-%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</guid>
       <description>&lt;p&gt;data:&#xA;PENTAX K-7 / smcPENTAX DA 12-24mmF4ED AL[IF]&#xA;f7.1 / 1/400s / iso200 / +2ev / -1ev処理 / AdobeRGB&lt;/p&gt;</description>
     </item>
     <item>
       <title>注意</title>
-      <link>http://localhost:1313/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</link>
       <pubDate>Tue, 13 Oct 2009 14:45:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</guid>
       <description>&lt;p&gt;９月１５日になぜか通常アクセスが１０倍に跳ね上がりました。&#xA;よくよく経緯を調べたら、HDMIに関するぼやきが価格.COMに掲載されたことに起因しているようです。&#xA;同時にスパムが急激に増えました。&lt;/p&gt;&#xA;&lt;p&gt;それ以降、安定してアクセス数が伸びているので不気味です。&lt;/p&gt;&#xA;&lt;p&gt;HDMIは根拠のないボヤキです。&#xA;このサイトを情報ソースにしないでください。&#xA;なお当ブログのニュースサイトや情報サイト、掲示板へのリンク掲載および記事内容の掲載は一切認めていません。&#xA;ここのボヤキを信じて行動した結果で、いかなる被害、損害をこうむろうとも私は一切の責任を負いません。&lt;/p&gt;&#xA;&lt;p&gt;Unuseful HDMIのぼやきは非公開にしました。&lt;/p&gt;&#xA;&lt;p&gt;また情報、画像の転載、流用を一切認めません。私の持つ著作権、肖像権を放棄しません。&lt;/p&gt;</description>
     </item>
     <item>
       <title>秋口の伯耆富士</title>
-      <link>http://localhost:1313/posts/2009-10-13_%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-13_%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</link>
       <pubDate>Tue, 13 Oct 2009 00:10:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-13_%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-13_%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10363490507-10274607038.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091013/00/yuki9902/e4/c8/j/t02200146_0602039910274607038.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-秋口の伯耆富士&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;「秋口の伯耆富士」&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7で撮影したものです。&lt;/p&gt;&#xA;&lt;p&gt;HDRを試そうかと+-2evでブラケット撮影をしたのですが、+1evが露出ドンぴしゃでした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K-7</title>
-      <link>http://localhost:1313/posts/2009-10-12_pentax-k-7/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-12_pentax-k-7/</link>
       <pubDate>Mon, 12 Oct 2009 21:16:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-12_pentax-k-7/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-12_pentax-k-7/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10363319524-10274380652.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091012/21/yuki9902/e5/5e/j/t02200146_0461030610274380652.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-PENTAX K-7&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ちょっと見づらいかな。&lt;/p&gt;&#xA;&lt;p&gt;小ぶりですが、結構重たいやつです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K-7</title>
-      <link>http://localhost:1313/posts/2009-10-12-pentax-k-7-3/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-12-pentax-k-7-3/</link>
       <pubDate>Mon, 12 Oct 2009 01:50:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-12-pentax-k-7-3/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-12-pentax-k-7-3/</guid>
       <description>&lt;p&gt;衝動買いをしました。&#xA;買わないかなと思っていたPENTAX K-7を買ってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;小ぶりで小指の握りが若干悪いですが、それ以外はたいがい持ちやすいです。&#xA;ボタンを押す位置が大きく見直されたこともあり肝心の露出補正ボタンが押しにくいのが難点ですけど。&lt;/p&gt;&#xA;&lt;p&gt;HD動画16:9 (6M) がCLASS10のSDカードでも処理しきれず30秒で撮影中止になってしまいます。&#xA;もっと早いSDカードが必要なのかも知れません。&lt;/p&gt;&#xA;&lt;p&gt;おおむねそんな感じ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PENTAX K7</title>
-      <link>http://localhost:1313/posts/2009-10-11_pentax-k7/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-11_pentax-k7/</link>
       <pubDate>Sun, 11 Oct 2009 04:20:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-11_pentax-k7/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-11_pentax-k7/</guid>
       <description>&lt;p&gt;買わない、とか思っていたんですが、衝動買いしてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;デザインはぱっとしませんが無骨ですけど持ちやすいカメラです。&lt;/p&gt;&#xA;&lt;p&gt;設定だけしてまだ撮影はしてないです。&lt;/p&gt;&#xA;&lt;p&gt;夕焼けにでもなれば、きっと良いものをお見せできるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>会社の前</title>
-      <link>http://localhost:1313/posts/2009-10-09_%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%89%8D/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-09_%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%89%8D/</link>
       <pubDate>Fri, 09 Oct 2009 22:10:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-09_%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%89%8D/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-09_%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%89%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10361062721-10271468147.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091009/22/yuki9902/7e/ff/j/t02200367_0240040010271468147.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091009_2208~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;会社の前にあるカレー屋&lt;br&gt;&#xA;今日は寄らない&lt;br&gt;&#xA;お家に帰ろう&lt;/p&gt;</description>
     </item>
     <item>
       <title>眠い</title>
-      <link>http://localhost:1313/posts/2009-10-09_%E7%9C%A0%E3%81%84/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-09_%E7%9C%A0%E3%81%84/</link>
       <pubDate>Fri, 09 Oct 2009 08:19:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-09_%E7%9C%A0%E3%81%84/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-09_%E7%9C%A0%E3%81%84/</guid>
       <description>&lt;p&gt;通勤中、意識がとびとびになりながらもなんとか会社にたどり着いた。&lt;/p&gt;&#xA;&lt;p&gt;眠い。&lt;/p&gt;&#xA;&lt;p&gt;ひたすら眠い。&lt;/p&gt;&#xA;&lt;p&gt;今日を乗り切れば…&lt;/p&gt;</description>
     </item>
     <item>
       <title>カレーだもん</title>
-      <link>http://localhost:1313/posts/2009-10-08_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A0%E3%82%82%E3%82%93/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A0%E3%82%82%E3%82%93/</link>
       <pubDate>Thu, 08 Oct 2009 19:17:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-08_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A0%E3%82%82%E3%82%93/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A0%E3%82%82%E3%82%93/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10360175654-10270445016.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091008/19/yuki9902/d0/30/j/t02200367_0240040010270445016.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-091008_1908~0001.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;やっぱりカレーだもんね。&lt;/p&gt;&#xA;&lt;p&gt;満足&lt;/p&gt;</description>
     </item>
     <item>
       <title>あ～あ</title>
-      <link>http://localhost:1313/posts/2009-10-08_%E3%81%82%E3%81%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%81%82%E3%81%82/</link>
       <pubDate>Thu, 08 Oct 2009 08:11:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-08_%E3%81%82%E3%81%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%81%82%E3%81%82/</guid>
       <description>&lt;p&gt;結局、岡山には台風の影響はほとんどなく、東海甲信越に上陸してもう勢力も弱まっているようです。&lt;/p&gt;&#xA;&lt;p&gt;休みが欲しかった。&lt;/p&gt;</description>
     </item>
     <item>
       <title>うにゅー</title>
-      <link>http://localhost:1313/posts/2009-10-08_%E3%81%86%E3%81%AB%E3%82%85%E3%83%BC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%81%86%E3%81%AB%E3%82%85%E3%83%BC/</link>
       <pubDate>Thu, 08 Oct 2009 01:05:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-08_%E3%81%86%E3%81%AB%E3%82%85%E3%83%BC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-08_%E3%81%86%E3%81%AB%E3%82%85%E3%83%BC/</guid>
       <description>&lt;p&gt;さっき帰ってきて風呂入って、ちょっとクールダウン。&lt;/p&gt;&#xA;&lt;p&gt;台風は過ぎ去った。&lt;/p&gt;&#xA;&lt;p&gt;というか岡山には来なかった。&lt;/p&gt;&#xA;&lt;p&gt;明日の休みはないな。&lt;/p&gt;&#xA;&lt;p&gt;寝不足のまま。&lt;/p&gt;&#xA;&lt;p&gt;頭が強烈に痛い。&lt;/p&gt;&#xA;&lt;p&gt;残業はドクターストップがかかっているのに。&lt;/p&gt;&#xA;&lt;p&gt;無理しても、メリットはないけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日もぎりぎり</title>
-      <link>http://localhost:1313/posts/2009-10-07_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%8E%E3%82%8A%E3%81%8E%E3%82%8A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-07_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%8E%E3%82%8A%E3%81%8E%E3%82%8A/</link>
       <pubDate>Wed, 07 Oct 2009 00:28:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-07_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%8E%E3%82%8A%E3%81%8E%E3%82%8A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-07_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%8E%E3%82%8A%E3%81%8E%E3%82%8A/</guid>
       <description>&lt;p&gt;働き過ぎと、ドクターストップがかかりました。&lt;/p&gt;&#xA;&lt;p&gt;月100時間以上のサービス残業です。&lt;/p&gt;&#xA;&lt;p&gt;多分、そのうち死にます。&lt;/p&gt;&#xA;&lt;p&gt;死んだら骨を拾ってください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>只今お昼</title>
-      <link>http://localhost:1313/posts/2009-10-05_%E5%8F%AA%E4%BB%8A%E3%81%8A%E6%98%BC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-05_%E5%8F%AA%E4%BB%8A%E3%81%8A%E6%98%BC/</link>
       <pubDate>Mon, 05 Oct 2009 12:17:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-05_%E5%8F%AA%E4%BB%8A%E3%81%8A%E6%98%BC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-05_%E5%8F%AA%E4%BB%8A%E3%81%8A%E6%98%BC/</guid>
       <description>&lt;p&gt;お客さんの所で運用作業してます。&lt;/p&gt;&#xA;&lt;p&gt;只今お昼です。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずボーっとしてます。&lt;br&gt;&#xA;することないもの。&lt;/p&gt;</description>
     </item>
     <item>
       <title>化け物語り ひたぎクラブ</title>
-      <link>http://localhost:1313/posts/2009-10-04_%E5%8C%96%E3%81%91%E7%89%A9%E8%AA%9E%E3%82%8A-%E3%81%B2%E3%81%9F%E3%81%8E%E3%82%AF%E3%83%A9%E3%83%96/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-04_%E5%8C%96%E3%81%91%E7%89%A9%E8%AA%9E%E3%82%8A-%E3%81%B2%E3%81%9F%E3%81%8E%E3%82%AF%E3%83%A9%E3%83%96/</link>
       <pubDate>Sun, 04 Oct 2009 16:07:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-04_%E5%8C%96%E3%81%91%E7%89%A9%E8%AA%9E%E3%82%8A-%E3%81%B2%E3%81%9F%E3%81%8E%E3%82%AF%E3%83%A9%E3%83%96/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-04_%E5%8C%96%E3%81%91%E7%89%A9%E8%AA%9E%E3%82%8A-%E3%81%B2%E3%81%9F%E3%81%8E%E3%82%AF%E3%83%A9%E3%83%96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-10356997297-10267431389.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20091004/16/yuki9902/c5/ab/j/t02200146_0461030610267431389.jpg?caw=800&#34; alt=&#34;おやぶんの物欲と苦悩-化け物語り&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Blu-rayを買いました。&lt;/p&gt;&#xA;&lt;p&gt;化け物語り ひたぎクラブ&lt;/p&gt;&#xA;&lt;p&gt;初回限定版です。&lt;/p&gt;&#xA;&lt;p&gt;結構高いですけど、まあ、 いいか。&lt;/p&gt;&#xA;&lt;p&gt;気に入った作品をメディアでコレクションするのが最近の趣味です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Headache</title>
-      <link>http://localhost:1313/posts/2009-10-02-headache/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-02-headache/</link>
       <pubDate>Fri, 02 Oct 2009 18:00:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-02-headache/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-02-headache/</guid>
       <description>&lt;p&gt;マジ寝不足でろれつが回らないし、頭が痛い。&lt;/p&gt;&#xA;&lt;p&gt;寝させて。&lt;/p&gt;</description>
     </item>
     <item>
       <title>倒れるな</title>
-      <link>http://localhost:1313/posts/2009-10-01_%E5%80%92%E3%82%8C%E3%82%8B%E3%81%AA/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-01_%E5%80%92%E3%82%8C%E3%82%8B%E3%81%AA/</link>
       <pubDate>Thu, 01 Oct 2009 22:17:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-01_%E5%80%92%E3%82%8C%E3%82%8B%E3%81%AA/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-01_%E5%80%92%E3%82%8C%E3%82%8B%E3%81%AA/</guid>
       <description>&lt;p&gt;頭痛いです。&lt;/p&gt;&#xA;&lt;p&gt;睡眠時間を頂戴。&lt;/p&gt;&#xA;&lt;p&gt;まだ走らなきゃ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ギリ</title>
-      <link>http://localhost:1313/posts/2009-10-01_%E3%82%AE%E3%83%AA/</link>
+      <link>https://yuki9902-jp.github.io/posts/2009-10-01_%E3%82%AE%E3%83%AA/</link>
       <pubDate>Thu, 01 Oct 2009 08:13:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2009-10-01_%E3%82%AE%E3%83%AA/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2009-10-01_%E3%82%AE%E3%83%AA/</guid>
       <description>&lt;p&gt;残業がキツくて精神的にも体力的にもギリギリですね…。&lt;/p&gt;&#xA;&lt;p&gt;今日は早く帰ろう。&lt;/p&gt;</description>
     </item>
   </channel>

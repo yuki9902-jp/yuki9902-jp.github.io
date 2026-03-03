@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2011-12 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2011-12/</link>
+    <link>https://yuki9902-jp.github.io/archives/2011-12/</link>
     <description>Recent content in 2011-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 26 Dec 2011 20:38:19 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2011-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2011-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今日この頃</title>
-      <link>http://localhost:1313/posts/2011-12-26_%E4%BB%8A%E6%97%A5%E3%81%93%E3%81%AE%E9%A0%83/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-26_%E4%BB%8A%E6%97%A5%E3%81%93%E3%81%AE%E9%A0%83/</link>
       <pubDate>Mon, 26 Dec 2011 20:38:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-26_%E4%BB%8A%E6%97%A5%E3%81%93%E3%81%AE%E9%A0%83/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-26_%E4%BB%8A%E6%97%A5%E3%81%93%E3%81%AE%E9%A0%83/</guid>
       <description>&lt;p&gt;Amebaのマイページが開けなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;面倒なことになっているんだろうか。&lt;/p&gt;&#xA;&lt;p&gt;さて、明日、訓練所に行くと今年は終わりです。&lt;/p&gt;&#xA;&lt;p&gt;ついでに電気工事に関する内容はほぼ終了です。&lt;/p&gt;&#xA;&lt;p&gt;来年からはPCアプリケーションの操作、ネットワーク設定等です。&lt;/p&gt;&#xA;&lt;p&gt;かろうじて光ファイバの融着作業があるのでそれぐらいが学べるものかな。&lt;/p&gt;&#xA;&lt;p&gt;あとは私にとってはやり尽くされたものでしかないですが。&lt;/p&gt;&#xA;&lt;p&gt;まあ就職活動に充てるしかないかな。&lt;/p&gt;&#xA;&lt;p&gt;また話は変わって、弟子からリクライニングチェアとオットマンをもらったので、自室のベッドの位置を動かして、設置してみた。&lt;/p&gt;&#xA;&lt;p&gt;結構狭い。&lt;/p&gt;&#xA;&lt;p&gt;座り心地はぼちぼちだけどね。&lt;/p&gt;&#xA;&lt;p&gt;あとは家の風呂とトイレを改装して、ほぼ完成しました。&lt;/p&gt;&#xA;&lt;p&gt;自動開閉機能付きのウォシュレットになりました。&lt;/p&gt;&#xA;&lt;p&gt;便器の中がライトアップされてます。&lt;/p&gt;&#xA;&lt;p&gt;変。&lt;/p&gt;&#xA;&lt;p&gt;天井のライトが、電球でランプシェードが、多面体ガラスなんでキラキラしています。&lt;/p&gt;&#xA;&lt;p&gt;LEDにしてみたら、ぜんぜんだめでした。&lt;/p&gt;&#xA;&lt;p&gt;なのでクリア電球です。&lt;/p&gt;&#xA;&lt;p&gt;クリア電球に換わる電球型全方向照射LEDが発売されないかと思う今日この頃。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Amebaのサーバーで不正アクセス</title>
-      <link>http://localhost:1313/posts/2011-12-25_ameba%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%A7%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-25_ameba%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%A7%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/</link>
       <pubDate>Sun, 25 Dec 2011 10:15:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-25_ameba%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%A7%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-25_ameba%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%A7%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/</guid>
       <description>&lt;p&gt;またここAmebaのサーバーで不正アクセスによる被害が発生している。&lt;/p&gt;&#xA;&lt;p&gt;一部のユーザーのIDが退会状態になってしまっているようだ。&lt;/p&gt;&#xA;&lt;p&gt;単純なIDとパスワードを設定した人のアカウントが狙われたんじゃないかと推測するがどうなんだろうね。&lt;/p&gt;&#xA;&lt;p&gt;約二年前には、芸能人ブログのアカウント情報がメールで流出し、それをつかって芸能人ブログが改ざんされる事件があった。&lt;/p&gt;&#xA;&lt;p&gt;その場合は芸能人ブログであったことから、早急に対処が行われたようだが、今回の事件は、まだ復旧作業中だ。&lt;/p&gt;&#xA;&lt;p&gt;運営会社のサイバーエージェントに対していえるのは、情報リテラシー、セキュリティーの低さ、技術力の低さ、コンプライアンスへの意識の低さ、顧客満足度に対する意識の低さだ。&lt;/p&gt;&#xA;&lt;p&gt;長年、情報技術やサービスを提供している会社とは違って、儲け主義で始まった会社であり、そのサービスだから、ユーザーを蔑ろにしてしまうのは、安易に想像できる。&lt;/p&gt;&#xA;&lt;p&gt;この会社はIT会社と呼ぶにはほど遠い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あけまし、、、めりーくるしみます、、メリークリスマス</title>
-      <link>http://localhost:1313/posts/2011-12-24_%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%82%81%E3%82%8A%E3%83%BC%E3%81%8F%E3%82%8B%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-24_%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%82%81%E3%82%8A%E3%83%BC%E3%81%8F%E3%82%8B%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
       <pubDate>Sat, 24 Dec 2011 21:18:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-24_%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%82%81%E3%82%8A%E3%83%BC%E3%81%8F%E3%82%8B%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-24_%E3%81%82%E3%81%91%E3%81%BE%E3%81%97%E3%82%81%E3%82%8A%E3%83%BC%E3%81%8F%E3%82%8B%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
       <description>&lt;p&gt;クリスマスまであと３時間を切りました。&lt;/p&gt;&#xA;&lt;p&gt;今日の日暮れから０時までがイブ（前夜）。&lt;/p&gt;&#xA;&lt;p&gt;明日がクリスマスです。&lt;/p&gt;&#xA;&lt;p&gt;さて元々のクリスマスは９月らしいですね。&lt;/p&gt;&#xA;&lt;p&gt;キリストの誕生日だとは言われていますが、まあ実在人物かどうかも怪しいんですが。&lt;/p&gt;&#xA;&lt;p&gt;彼女もいなけりゃ、嫁も子供もいないので、リア充のためのイベントはさておいて、小説やら漫画やらを買ってきたので読んでます。&lt;/p&gt;&#xA;&lt;p&gt;「恋物語」。&lt;/p&gt;&#xA;&lt;p&gt;「化物語」から続くのですが、今回で最終巻なるのかな？&lt;/p&gt;&#xA;&lt;p&gt;そういや１月から「偽物語」がアニメになるようですね。&lt;/p&gt;&#xA;&lt;p&gt;また「傷物語」も映画化されるし。&lt;/p&gt;&#xA;&lt;p&gt;おもしろいけどね。&lt;/p&gt;&#xA;&lt;p&gt;これを楽しめる人はリア充になれないよな…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は心療内科に</title>
-      <link>http://localhost:1313/posts/2011-12-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB/</link>
       <pubDate>Sat, 24 Dec 2011 08:14:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB/</guid>
       <description>&lt;p&gt;さて今日は心療内科に行く日です。&lt;/p&gt;&#xA;&lt;p&gt;12月に入って歯痛や頭痛にすっきりしない体調なので、相談してみようかな。&lt;/p&gt;&#xA;&lt;p&gt;ストレスは感じてないはずなんだけど。&lt;br&gt;&#xA;寒いからかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>宝石強盗</title>
-      <link>http://localhost:1313/posts/2011-12-23_%E5%AE%9D%E7%9F%B3%E5%BC%B7%E7%9B%97/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-23_%E5%AE%9D%E7%9F%B3%E5%BC%B7%E7%9B%97/</link>
       <pubDate>Fri, 23 Dec 2011 11:41:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-23_%E5%AE%9D%E7%9F%B3%E5%BC%B7%E7%9B%97/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-23_%E5%AE%9D%E7%9F%B3%E5%BC%B7%E7%9B%97/</guid>
       <description>&lt;p&gt;岡山県津山市で宝石強盗とは･･･。&lt;/p&gt;&#xA;&lt;p&gt;コナン君にきてもらわねば･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いつかのメリークリスマス</title>
-      <link>http://localhost:1313/posts/2011-12-22_%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-22_%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</link>
       <pubDate>Thu, 22 Dec 2011 20:44:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-22_%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-22_%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/</guid>
       <description>&lt;p&gt;Pepsiの新しいCMがクリスマスバージョンになってました。&lt;/p&gt;&#xA;&lt;p&gt;テレビから「いつかのメリークリスマス」が流れてきたのでじっと見てたら、女の子が出てきてドラマのような始まりでしたが、稲葉さんが歌っているシーンが出て、おおっ！と思ったら、PepsiのCMでした。&lt;/p&gt;&#xA;&lt;p&gt;今、「The Ballads ～Love &amp;amp; B&amp;rsquo;z～」を聴いています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あ～あ</title>
-      <link>http://localhost:1313/posts/2011-12-18_%E3%81%82%E3%81%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-18_%E3%81%82%E3%81%82/</link>
       <pubDate>Sun, 18 Dec 2011 00:04:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-18_%E3%81%82%E3%81%82/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-18_%E3%81%82%E3%81%82/</guid>
       <description>&lt;p&gt;母親が、叔母の舞台を観劇するための会場への送迎の合間に、かねてより懸案だったカーオーディオとウォークマンとの接続時にオルタネーターからのノイズが乗るのをカットするラインノイズフィルターを作ろうと思って、電子部品屋に行った。&lt;/p&gt;&#xA;&lt;p&gt;しかし店頭にトランジスタの2SD313およびその代替品がなかったのであきらめざるを得なかった。&lt;/p&gt;&#xA;&lt;p&gt;電気理論は物理専攻なのでわかるのだけど、電子回路はアンプぐらいしか設計したことがなく、ノイズフィルターはよくわからない。&lt;/p&gt;&#xA;&lt;p&gt;なので、自分で適当なトランジスタを探し出すことなんて無理。&lt;/p&gt;&#xA;&lt;p&gt;電子回路の勉強をしなくては…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ご苦労様とお疲れ様</title>
-      <link>http://localhost:1313/posts/2011-12-17_%E3%81%94%E8%8B%A6%E5%8A%B4%E6%A7%98%E3%81%A8%E3%81%8A%E7%96%B2%E3%82%8C%E6%A7%98/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-17_%E3%81%94%E8%8B%A6%E5%8A%B4%E6%A7%98%E3%81%A8%E3%81%8A%E7%96%B2%E3%82%8C%E6%A7%98/</link>
       <pubDate>Sat, 17 Dec 2011 01:32:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-17_%E3%81%94%E8%8B%A6%E5%8A%B4%E6%A7%98%E3%81%A8%E3%81%8A%E7%96%B2%E3%82%8C%E6%A7%98/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-17_%E3%81%94%E8%8B%A6%E5%8A%B4%E6%A7%98%E3%81%A8%E3%81%8A%E7%96%B2%E3%82%8C%E6%A7%98/</guid>
       <description>&lt;p&gt;「お疲れ様です」という会社での挨拶をつかうと、年配の方からいやな顔をされることがあります。&lt;/p&gt;&#xA;&lt;p&gt;それは、「お疲れ様」が平成に入って作られた若者言葉であり、元々は飲み屋街の接客サービス業をやっている方たちの間の挨拶で使われ出したのが、客となったサラリーマンなどが、会社内で使い始めたのが広まったものだからです。&lt;/p&gt;&#xA;&lt;p&gt;元来、人の労をねぎらう言葉は「ご苦労様」が使われていました。&lt;/p&gt;&#xA;&lt;p&gt;QAサイトなどでは、間違った解説として「ご苦労様には奉仕の意味合いが含まれるので目上から目下に対して使うのが」というのを見かけます。&lt;/p&gt;&#xA;&lt;p&gt;目上から目下に対しては、献上にあたる「御」「様」を抜くのが本来正しいのです。&lt;/p&gt;&#xA;&lt;p&gt;目下からの挨拶の例として、昭和天皇が海外外遊から戻られた際、昭和天皇に対し、中曽根総理大臣が「ご苦労様でございます」と挨拶したのがあります。&lt;/p&gt;&#xA;&lt;p&gt;ネットやビジネス用語辞典で調べた情報が、正しいと思って使うと意外に間違っているものがあると言うことです。&lt;/p&gt;&#xA;&lt;p&gt;自分が使っている言葉の成り立ちや時期をちゃんと把握して使うことが必要ですし、そしてなにより臨機応変が求められますね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>しばれる</title>
-      <link>http://localhost:1313/posts/2011-12-16_%E3%81%97%E3%81%B0%E3%82%8C%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-16_%E3%81%97%E3%81%B0%E3%82%8C%E3%82%8B/</link>
       <pubDate>Fri, 16 Dec 2011 20:03:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-16_%E3%81%97%E3%81%B0%E3%82%8C%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-16_%E3%81%97%E3%81%B0%E3%82%8C%E3%82%8B/</guid>
       <description>&lt;p&gt;今日の岡山は吹雪いてました。&lt;/p&gt;&#xA;&lt;p&gt;今日はいつもにまして寂しい日でした。&lt;/p&gt;&#xA;&lt;p&gt;訓練所に行って人が周りにいることになれてきたんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;冬の寒さが、人恋しくさせてしまうのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;思うように健康になれずに、いつかこの世を去るときに、誰にも知られずに逝ってしまうかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;すこし寂しいですが、それが私の生きる道ならば。&lt;/p&gt;</description>
     </item>
     <item>
       <title>月食</title>
-      <link>http://localhost:1313/posts/2011-12-11_%E6%9C%88%E9%A3%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-11_%E6%9C%88%E9%A3%9F/</link>
       <pubDate>Sun, 11 Dec 2011 01:25:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-11_%E6%9C%88%E9%A3%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-11_%E6%9C%88%E9%A3%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11103557097-11664445921.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20111211/01/yuki9902/b8/5b/j/t02200165_0800060011664445921.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX F*300F4.5ED[IF]&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日の俺</title>
-      <link>http://localhost:1313/posts/2011-12-08_%E4%BB%8A%E6%97%A5%E3%81%AE%E4%BF%BA/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-08_%E4%BB%8A%E6%97%A5%E3%81%AE%E4%BF%BA/</link>
       <pubDate>Thu, 08 Dec 2011 22:16:53 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-08_%E4%BB%8A%E6%97%A5%E3%81%AE%E4%BF%BA/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-08_%E4%BB%8A%E6%97%A5%E3%81%AE%E4%BF%BA/</guid>
       <description>&lt;p&gt;じんわりと腫れぼったい右あご。&lt;/p&gt;&#xA;&lt;p&gt;たまに差し込むような歯痛が頭に響きますが、それなりに元気です。&lt;/p&gt;&#xA;&lt;p&gt;前の会社にいたときはこんな痛みと、過労とストレスによる偏頭痛とめまいと、左半身の麻痺、至る所の関節痛と闘いながら仕事をしていたなんて信じられません。&lt;/p&gt;&#xA;&lt;p&gt;よく頑張った俺…。&lt;/p&gt;&#xA;&lt;p&gt;さて、今日は訓練所で、消防設備の電気工事の実習でした。&lt;/p&gt;&#xA;&lt;p&gt;簡単なんですが、面倒くさい。&lt;/p&gt;&#xA;&lt;p&gt;自前の道具を持って行った方が簡単そう…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>生きてる</title>
-      <link>http://localhost:1313/posts/2011-12-07_%E7%94%9F%E3%81%8D%E3%81%A6%E3%82%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-07_%E7%94%9F%E3%81%8D%E3%81%A6%E3%82%8B/</link>
       <pubDate>Wed, 07 Dec 2011 00:15:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-07_%E7%94%9F%E3%81%8D%E3%81%A6%E3%82%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-07_%E7%94%9F%E3%81%8D%E3%81%A6%E3%82%8B/</guid>
       <description>&lt;p&gt;ここ一週間あまり風邪で体調崩したり、吐き気を催したり、歯槽膿漏で頭に差し込むような歯痛で意識が遠のいたり、奥歯が折れたり。&lt;/p&gt;&#xA;&lt;p&gt;腱鞘炎から、指のしびれに発展した痛みは、まだ指先の感覚がなかったり。&lt;/p&gt;&#xA;&lt;p&gt;おかしいなぁ、健康になりたいんだけど。&lt;/p&gt;&#xA;&lt;p&gt;摂生してるし、無理もしてないし、まじめに生きてても病気が治らないんですが。&lt;/p&gt;&#xA;&lt;p&gt;生まれつきもあるのかなぁ。&lt;/p&gt;&#xA;&lt;p&gt;なんか、悲しくなってくるなぁ。&lt;/p&gt;&#xA;&lt;p&gt;でも生きていることに感謝していこう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>KORG AudioGate 2.2.1</title>
-      <link>http://localhost:1313/posts/2011-12-01-korg-audiogate-2-2-1/</link>
+      <link>https://yuki9902-jp.github.io/posts/2011-12-01-korg-audiogate-2-2-1/</link>
       <pubDate>Thu, 01 Dec 2011 23:41:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2011-12-01-korg-audiogate-2-2-1/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2011-12-01-korg-audiogate-2-2-1/</guid>
       <description>&lt;p&gt;KORG AudioGate が2.2.1にバージョンアップして、Windows7/VISTAにおけるWASAPI共有モードに対応しました。&lt;/p&gt;&#xA;&lt;p&gt;WASAPI共有モードなので、ビットパーフェクトは保証されませんが、WASAPI共有モード自体は32bit Floatで処理しているそうなので、24bit IntegerのWAVEデータなら問題はないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;32bit IntegerのWAVEファイルは存在してたり、作成することはできるのですが、私の持っているONKYO SE-200PCI LTDは、192kHz/24bit(Integer)までのフォーマットにしか対応していませんので、必要ないです。&lt;/p&gt;&#xA;&lt;p&gt;それにPCMの32bit Integerより、DSDデータをダイレクトでアナログに変換するD/Aコンバーターを手に入れる方がよっぽど現実的でしょう。いやDSDの方がマイナーなのか。&lt;/p&gt;&#xA;&lt;p&gt;ただ32bit Integerの分解能を生かせるデータは、DSDからの変換しか存在しないでしょうから、だったらDSDのままが良いんじゃないのかな。&lt;/p&gt;&#xA;&lt;p&gt;ただ世の中に32bit Integerを必要とする音楽ソースがないのも事実だけどね。&lt;/p&gt;&#xA;&lt;p&gt;むしろ高音域にのってくる量子化ノイズ、ビートダウンノイズ対策が大変になってくる分、音質上メリットが少ないかも。&lt;/p&gt;</description>
     </item>
   </channel>

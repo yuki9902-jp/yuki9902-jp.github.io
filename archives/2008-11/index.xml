@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2008-11 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2008-11/</link>
+    <link>https://yuki9902-jp.github.io/archives/2008-11/</link>
     <description>Recent content in 2008-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 29 Nov 2008 18:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2008-11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2008-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K10Dのピント（改訂）</title>
-      <link>http://localhost:1313/posts/2008-11-29-k10d%E3%81%AE%E3%83%94%E3%83%B3%E3%83%88%E6%94%B9%E8%A8%82/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-29-k10d%E3%81%AE%E3%83%94%E3%83%B3%E3%83%88%E6%94%B9%E8%A8%82/</link>
       <pubDate>Sat, 29 Nov 2008 18:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-29-k10d%E3%81%AE%E3%83%94%E3%83%B3%E3%83%88%E6%94%B9%E8%A8%82/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/01.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/01.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;乾電池の表面の「警告」と言う文字にピントを合わせています。&lt;/p&gt;&#xA;&lt;p&gt;AFとMFでは同じ位置にピントが来ます。&lt;/p&gt;&#xA;&lt;p&gt;実際の撮影物は近接撮影で後ピン3mmとなっています。&lt;/p&gt;&#xA;&lt;p&gt;つまりCCDの撮像面がピント面より若干前に装着されているようです。&lt;/p&gt;&#xA;&lt;p&gt;被写界深度の浅い明るいレンズを使うユーザーでは、その問題が顕著になります。&lt;/p&gt;&#xA;&lt;p&gt;上のレンズは50mmF1.4で、35mm換算で78.5mm相当になるのでポートレートに使うレンズとなります。&lt;/p&gt;&#xA;&lt;p&gt;F2.0で撮影したものですが、あからさまにピントが後ろにずれるので、ポートレートでまつげや瞳にピントを持って行っても、ずれてボケボケになり非常に気持ち悪いです。&lt;/p&gt;&#xA;&lt;p&gt;また、K10Dのフォーカシングスクリーンでは、被写界深度が約３段ほど深くなるので、とてもピントが出しにくいです。&lt;/p&gt;&#xA;&lt;p&gt;（改訂 thanks yasu）&lt;/p&gt;&#xA;&lt;p&gt;K20Dで韓国メーカー供給のCMOSだそうですが、K10Dの問題からか、きちんとピントが来るようになったようです。&lt;/p&gt;&#xA;&lt;p&gt;K10Dに採用されたCCDは国内供給で、他社のデジタル一眼レフに採用されていますが、他社では問題がないようです。&lt;/p&gt;&#xA;&lt;p&gt;従って組み付け精度が不十分か、ということが考えられます。&lt;/p&gt;&#xA;&lt;p&gt;K10Dを購入した多くのユーザーから同様の不満が報告されていることから、あからさまに組み付け精度が低いのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;K10Dも後期出荷分は、ずいぶんとましになっているようですが。。。&lt;/p&gt;&#xA;&lt;p&gt;AFはファームウェアでピンずれを解消できるようですが、そうなるとスクリーンで見た物と実像のピントが異なります。&lt;/p&gt;&#xA;&lt;p&gt;K10Dを修理してもMFでのピントずれはほとんど解消されないようです。&lt;/p&gt;&#xA;&lt;p&gt;昔、6x6のゼンザブロニカを購入したときに同じような問題に遭遇しました。&lt;/p&gt;&#xA;&lt;p&gt;そのときは、フォーカシングスクリーンの調整をメーカーに依頼して計3度やりとりしました。&lt;/p&gt;&#xA;&lt;p&gt;すでに生産完了品で入手した時点で15年落ちの中古でしたが、タダで調整してくれました。&lt;/p&gt;&#xA;&lt;p&gt;たぶんHOYA PENTAXにクレームをつけても、部品そのものを取り替えざるを得なくなりそうで、いかんともしがたい状態となり、悶々としてしまうことが想像に難くありません。&lt;/p&gt;&#xA;&lt;p&gt;しかし、だめもとでピックアップサービスで修理してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;保証期間が過ぎていて、修理調整費の見積2万円で、かなり高いです。&lt;/p&gt;&#xA;&lt;p&gt;これで治らないようだったら、今のK10Dを中古に出して、他のK10Dを購入するか、本格的に他社に乗り換えることを検討しようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;まあ、何せ、ストロボも買い直しが必要ですし、ASP-Cイメージサークルのデジタル専用レンズを買う気もないですし。&lt;/p&gt;&#xA;&lt;p&gt;そうなるとデジタルカメラがPENTAXでなければならない理由はもうないようです。。。&lt;/p&gt;&#xA;&lt;p&gt;それから、デジタルカメラは画質を換えようと思うと本体の買い直しを余儀なくされるので。。。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-29-k10d%E3%81%AE%E3%83%94%E3%83%B3%E3%83%88%E6%94%B9%E8%A8%82/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/blog/img/01.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/01.jpg&#34; alt=&#34;01.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;乾電池の表面の「警告」と言う文字にピントを合わせています。&lt;/p&gt;&#xA;&lt;p&gt;AFとMFでは同じ位置にピントが来ます。&lt;/p&gt;&#xA;&lt;p&gt;実際の撮影物は近接撮影で後ピン3mmとなっています。&lt;/p&gt;&#xA;&lt;p&gt;つまりCCDの撮像面がピント面より若干前に装着されているようです。&lt;/p&gt;&#xA;&lt;p&gt;被写界深度の浅い明るいレンズを使うユーザーでは、その問題が顕著になります。&lt;/p&gt;&#xA;&lt;p&gt;上のレンズは50mmF1.4で、35mm換算で78.5mm相当になるのでポートレートに使うレンズとなります。&lt;/p&gt;&#xA;&lt;p&gt;F2.0で撮影したものですが、あからさまにピントが後ろにずれるので、ポートレートでまつげや瞳にピントを持って行っても、ずれてボケボケになり非常に気持ち悪いです。&lt;/p&gt;&#xA;&lt;p&gt;また、K10Dのフォーカシングスクリーンでは、被写界深度が約３段ほど深くなるので、とてもピントが出しにくいです。&lt;/p&gt;&#xA;&lt;p&gt;（改訂 thanks yasu）&lt;/p&gt;&#xA;&lt;p&gt;K20Dで韓国メーカー供給のCMOSだそうですが、K10Dの問題からか、きちんとピントが来るようになったようです。&lt;/p&gt;&#xA;&lt;p&gt;K10Dに採用されたCCDは国内供給で、他社のデジタル一眼レフに採用されていますが、他社では問題がないようです。&lt;/p&gt;&#xA;&lt;p&gt;従って組み付け精度が不十分か、ということが考えられます。&lt;/p&gt;&#xA;&lt;p&gt;K10Dを購入した多くのユーザーから同様の不満が報告されていることから、あからさまに組み付け精度が低いのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;K10Dも後期出荷分は、ずいぶんとましになっているようですが。。。&lt;/p&gt;&#xA;&lt;p&gt;AFはファームウェアでピンずれを解消できるようですが、そうなるとスクリーンで見た物と実像のピントが異なります。&lt;/p&gt;&#xA;&lt;p&gt;K10Dを修理してもMFでのピントずれはほとんど解消されないようです。&lt;/p&gt;&#xA;&lt;p&gt;昔、6x6のゼンザブロニカを購入したときに同じような問題に遭遇しました。&lt;/p&gt;&#xA;&lt;p&gt;そのときは、フォーカシングスクリーンの調整をメーカーに依頼して計3度やりとりしました。&lt;/p&gt;&#xA;&lt;p&gt;すでに生産完了品で入手した時点で15年落ちの中古でしたが、タダで調整してくれました。&lt;/p&gt;&#xA;&lt;p&gt;たぶんHOYA PENTAXにクレームをつけても、部品そのものを取り替えざるを得なくなりそうで、いかんともしがたい状態となり、悶々としてしまうことが想像に難くありません。&lt;/p&gt;&#xA;&lt;p&gt;しかし、だめもとでピックアップサービスで修理してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;保証期間が過ぎていて、修理調整費の見積2万円で、かなり高いです。&lt;/p&gt;&#xA;&lt;p&gt;これで治らないようだったら、今のK10Dを中古に出して、他のK10Dを購入するか、本格的に他社に乗り換えることを検討しようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;まあ、何せ、ストロボも買い直しが必要ですし、ASP-Cイメージサークルのデジタル専用レンズを買う気もないですし。&lt;/p&gt;&#xA;&lt;p&gt;そうなるとデジタルカメラがPENTAXでなければならない理由はもうないようです。。。&lt;/p&gt;&#xA;&lt;p&gt;それから、デジタルカメラは画質を換えようと思うと本体の買い直しを余儀なくされるので。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>まだまだ続く</title>
-      <link>http://localhost:1313/posts/2008-11-26-%E3%81%BE%E3%81%A0%E3%81%BE%E3%81%A0%E7%B6%9A%E3%81%8F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-26-%E3%81%BE%E3%81%A0%E3%81%BE%E3%81%A0%E7%B6%9A%E3%81%8F/</link>
       <pubDate>Wed, 26 Nov 2008 12:29:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-26-%E3%81%BE%E3%81%A0%E3%81%BE%E3%81%A0%E7%B6%9A%E3%81%8F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-26-%E3%81%BE%E3%81%A0%E3%81%BE%E3%81%A0%E7%B6%9A%E3%81%8F/</guid>
       <description>&lt;p&gt;病気の治療には、まだまだ期間を要するようです。&lt;/p&gt;&#xA;&lt;p&gt;ずいぶん元気になったと思っている今でも、大勢の人がいるところや、頭を使う仕事をすると、すぐに神経が疲れて頭が痛くなり、ぐったりしてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;そうなると長い睡眠をとって神経を休めるしかありません。&lt;/p&gt;&#xA;&lt;p&gt;家にいるときも、考え事や内職をせず、ぼーっとして神経を休めないと、翌日ぐったりして動けなくなります。&lt;/p&gt;&#xA;&lt;p&gt;頭や神経を使う趣味は当面出来そうにないです。&lt;/p&gt;&#xA;&lt;p&gt;まだ数ヶ月は、投薬と休息でじっくりと治して行かないといけないようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>日々雑感</title>
-      <link>http://localhost:1313/posts/2008-11-20-%E6%97%A5%E3%80%85%E9%9B%91%E6%84%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-20-%E6%97%A5%E3%80%85%E9%9B%91%E6%84%9F/</link>
       <pubDate>Thu, 20 Nov 2008 18:59:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-20-%E6%97%A5%E3%80%85%E9%9B%91%E6%84%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-20-%E6%97%A5%E3%80%85%E9%9B%91%E6%84%9F/</guid>
       <description>&lt;p&gt;秋というか、いきなり冬になりました。&lt;/p&gt;&#xA;&lt;p&gt;家の周りでは雪がちらほら。&lt;/p&gt;&#xA;&lt;p&gt;朝方の気温は氷点下2度。&lt;/p&gt;&#xA;&lt;p&gt;室内でも6度ぐらいまで下がってました。&lt;/p&gt;&#xA;&lt;p&gt;氷点下3度になると、車のウォッシャー液とか凍って、ワイパーでこするとシャーベット状になります。&lt;/p&gt;&#xA;&lt;p&gt;寒いので職場にセーター着て行っています。&lt;/p&gt;&#xA;&lt;p&gt;首を温めると体温がそれほど下がらないので、風邪は引きにくくなるようです。&lt;/p&gt;&#xA;&lt;p&gt;先週、牡牛座流星群を見ました。&lt;/p&gt;&#xA;&lt;p&gt;極大日は11月12日でしたが、前後三日ぐらいは見えていたようです。&lt;/p&gt;&#xA;&lt;p&gt;1時間あたり3個ほど見えるらしいです。&lt;/p&gt;&#xA;&lt;p&gt;11月13日は快晴でしたが、満月と重なり、暗い流星までは見えませんでした。&lt;/p&gt;&#xA;&lt;p&gt;私は、帰宅して車庫から出てきた時に、たまたま正面の東の空に比較的明るい流星を見ることができました。&lt;/p&gt;&#xA;&lt;p&gt;その後、時折夜空を見上げましたが、流星を見ることはできませんでした。&lt;/p&gt;&#xA;&lt;p&gt;体調が良ければ、外でカメラを構えて写真を撮るのですが、先週は体力がまったくなく、クタクタで部屋でごろごろしてました。&lt;/p&gt;&#xA;&lt;p&gt;今日になってようやく調子が戻ってきたような気がします。&lt;/p&gt;&#xA;&lt;p&gt;頭が痛くなくなってきたので。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日もまたごろごろ</title>
-      <link>http://localhost:1313/posts/2008-11-16-%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%BE%E3%81%9F%E3%81%94%E3%82%8D%E3%81%94%E3%82%8D/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-16-%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%BE%E3%81%9F%E3%81%94%E3%82%8D%E3%81%94%E3%82%8D/</link>
       <pubDate>Sun, 16 Nov 2008 23:16:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-16-%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%BE%E3%81%9F%E3%81%94%E3%82%8D%E3%81%94%E3%82%8D/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-16-%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%BE%E3%81%9F%E3%81%94%E3%82%8D%E3%81%94%E3%82%8D/</guid>
       <description>&lt;p&gt;今日も何もせずにごろごろ。&lt;/p&gt;&#xA;&lt;p&gt;しなきゃいけないことがあるけどやる気が起きずに何もせずにごろごろ。&lt;/p&gt;&#xA;&lt;p&gt;土曜日に写真を撮りに出たけどピントがほとんど合ってない。&lt;/p&gt;&#xA;&lt;p&gt;フォーカシングスクリーンで見たものよりも奥にピントが来ている。&lt;/p&gt;&#xA;&lt;p&gt;特に明るいレンズだとピントが拾いにくいです。&lt;/p&gt;&#xA;&lt;p&gt;フォーカシングスクリーンで被写界深度がずれてしまっているからですが、難しい。&lt;/p&gt;&#xA;&lt;p&gt;自宅に戻って撮影テストしたけどそのときはきっちりピントが出せてる。&lt;/p&gt;&#xA;&lt;p&gt;めがねを変えないと難しいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>比較的平衡</title>
-      <link>http://localhost:1313/posts/2008-11-08-%E6%AF%94%E8%BC%83%E7%9A%84%E5%B9%B3%E8%A1%A1/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-08-%E6%AF%94%E8%BC%83%E7%9A%84%E5%B9%B3%E8%A1%A1/</link>
       <pubDate>Sat, 08 Nov 2008 19:59:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-08-%E6%AF%94%E8%BC%83%E7%9A%84%E5%B9%B3%E8%A1%A1/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-08-%E6%AF%94%E8%BC%83%E7%9A%84%E5%B9%B3%E8%A1%A1/</guid>
       <description>&lt;p&gt;何もせずに家でごろごろするのが一番心にいいみたいですね。&lt;/p&gt;&#xA;&lt;p&gt;今日はすごい安定している。&lt;/p&gt;&#xA;&lt;p&gt;ただし何もしたくない。&lt;/p&gt;&#xA;&lt;p&gt;メールもチャットもしなければ、考えることもないので鬱になることもないみたいですね。&lt;/p&gt;&#xA;&lt;p&gt;キーボードを打つ手が非常に軽いです。&lt;/p&gt;&#xA;&lt;p&gt;明日は、昨年世話になった人に会いに行きます。&lt;/p&gt;&#xA;&lt;p&gt;明後日は病院に行きます。&lt;/p&gt;&#xA;&lt;p&gt;早く治らないと、周りに鬱をばらまいて周りの人に不愉快な思いをさせてしまう。&lt;/p&gt;&#xA;&lt;p&gt;今特定の一人に迷惑をかけています。&lt;/p&gt;&#xA;&lt;p&gt;病気でなければきっといい関係を気づけたと思うのですが。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>時節に気づかず</title>
-      <link>http://localhost:1313/posts/2008-11-07-%E6%99%82%E7%AF%80%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8B%E3%81%9A/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-07-%E6%99%82%E7%AF%80%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8B%E3%81%9A/</link>
       <pubDate>Fri, 07 Nov 2008 00:01:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-07-%E6%99%82%E7%AF%80%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8B%E3%81%9A/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-07-%E6%99%82%E7%AF%80%E3%81%AB%E6%B0%97%E3%81%A5%E3%81%8B%E3%81%9A/</guid>
       <description>&lt;p&gt;しばらく周りに目をやる余裕がなかったのですが、ふと気づいたのですが、家の周りの木々は赤く色づいていました。&lt;/p&gt;&#xA;&lt;p&gt;今週の冷え込みでようやく秋を迎えたような気がします。&lt;/p&gt;&#xA;&lt;p&gt;今年こそは紅葉を追いかけようと思いましたが、こんな事になるとは。&lt;/p&gt;&#xA;&lt;p&gt;二年前はまだひどかったですが、今年もやる気がでるまでにはいたりませんね。&lt;/p&gt;&#xA;&lt;p&gt;私にとって写真という芸術は、身の回りの小さな事に目を向けて感動を生み出そうとするものなので、非常にセンシティブであり研ぎ澄まされた感覚が必要です。&lt;/p&gt;&#xA;&lt;p&gt;健全な精神状態でなければならないのですが、今はそれに至ることができません。&lt;/p&gt;&#xA;&lt;p&gt;写真を撮ることができない。&lt;/p&gt;&#xA;&lt;p&gt;やはり長期の休みが必要なのかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;本来のやりたいことができなくなるのは本当に苦痛です。&lt;/p&gt;&#xA;&lt;p&gt;あの会社で働いている自分がいやでいやで仕方ないような感じです。&lt;/p&gt;&#xA;&lt;p&gt;黒い会社で、もう十分に精神修行したはずです。&lt;/p&gt;&#xA;&lt;p&gt;心と体を休めて、本来のあるべき自分に向かっていけたらいいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>得難きは時、会い難きは友</title>
-      <link>http://localhost:1313/posts/2008-11-04-%E5%BE%97%E9%9B%A3%E3%81%8D%E3%81%AF%E6%99%82%E4%BC%9A%E3%81%84%E9%9B%A3%E3%81%8D%E3%81%AF%E5%8F%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-04-%E5%BE%97%E9%9B%A3%E3%81%8D%E3%81%AF%E6%99%82%E4%BC%9A%E3%81%84%E9%9B%A3%E3%81%8D%E3%81%AF%E5%8F%8B/</link>
       <pubDate>Tue, 04 Nov 2008 22:56:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-04-%E5%BE%97%E9%9B%A3%E3%81%8D%E3%81%AF%E6%99%82%E4%BC%9A%E3%81%84%E9%9B%A3%E3%81%8D%E3%81%AF%E5%8F%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-04-%E5%BE%97%E9%9B%A3%E3%81%8D%E3%81%AF%E6%99%82%E4%BC%9A%E3%81%84%E9%9B%A3%E3%81%8D%E3%81%AF%E5%8F%8B/</guid>
       <description>&lt;p&gt;何を焦っているんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;精神的に不安定なときは、それが絶対に駄目な選択だとわかっていても、自分を壊すように石を投げてしまう。&lt;/p&gt;&#xA;&lt;p&gt;危うく貴重な友達を失うところだったようです。&lt;/p&gt;&#xA;&lt;p&gt;あまりに本音を吐露しすぎて、どこまで笑い話ですむか微妙なことを振ってしまうことが多いのは、鬱になっているときの自分自身では気づけない。&lt;/p&gt;&#xA;&lt;p&gt;敢えて痛いネタを振ってしまう自分がかなり恥ずかしい。&lt;/p&gt;&#xA;&lt;p&gt;つまりこのブログもかなり恥ずかしい。&lt;/p&gt;&#xA;&lt;p&gt;一年半前からの鬱は全然治ってない。&lt;/p&gt;&#xA;&lt;p&gt;わずかな心の揺らぎであっという間に鬱に戻ってしまう。&lt;/p&gt;&#xA;&lt;p&gt;おまけに神経の疲れが一気に襲ってくる。&lt;/p&gt;&#xA;&lt;p&gt;この鬱でいる時間ももったいない。&lt;/p&gt;&#xA;&lt;p&gt;いろいろ自分を変えるチャンスがあったが、失っているようだ。&lt;/p&gt;&#xA;&lt;p&gt;「得難きは時、会い難きは友」&lt;/p&gt;</description>
     </item>
     <item>
       <title>良い人を演じる私</title>
-      <link>http://localhost:1313/posts/2008-11-02-%E8%89%AF%E3%81%84%E4%BA%BA%E3%82%92%E6%BC%94%E3%81%98%E3%82%8B%E7%A7%81/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-02-%E8%89%AF%E3%81%84%E4%BA%BA%E3%82%92%E6%BC%94%E3%81%98%E3%82%8B%E7%A7%81/</link>
       <pubDate>Sun, 02 Nov 2008 21:24:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-02-%E8%89%AF%E3%81%84%E4%BA%BA%E3%82%92%E6%BC%94%E3%81%98%E3%82%8B%E7%A7%81/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-02-%E8%89%AF%E3%81%84%E4%BA%BA%E3%82%92%E6%BC%94%E3%81%98%E3%82%8B%E7%A7%81/</guid>
       <description>&lt;p&gt;今、神経がすごい過敏で、人の心の動きを捕らえすぎて疲れます。&lt;/p&gt;&#xA;&lt;p&gt;薬を飲んで、神経の活性化を抑えています。&lt;/p&gt;&#xA;&lt;p&gt;この神経の過敏さはたぶん生まれつき。&lt;/p&gt;&#xA;&lt;p&gt;感受性の強さもそこから来てるんじゃないかと。&lt;/p&gt;&#xA;&lt;p&gt;ものすごく神経が過敏なときに考えすぎが加わって精神が不安定になります。&lt;/p&gt;&#xA;&lt;p&gt;いまはいろいろなことが思うようには事は進まず、どうやってもいい方向に向かわないですね。&lt;/p&gt;&#xA;&lt;p&gt;我慢する時期かも知れませんが、今の場所は自分を悪い方向へ向かわせるのはよくわかっているので、がらっと環境を変える必要があるとは思います。&lt;/p&gt;&#xA;&lt;p&gt;しかし、夢というか自分がどうしたいのかよくわからなくて。&lt;/p&gt;&#xA;&lt;p&gt;何にも興味を持てない。&lt;/p&gt;&#xA;&lt;p&gt;ここ一年そんな虚無感に覆われています。&lt;/p&gt;&#xA;&lt;p&gt;過去の記事を読み返してもたぶんそんな感じが見て取れるのではないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;一年半前のことはそれだけ心を失わせるのには十分なことだったんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;薬を飲み始めた半年間はすごく焦りを感じて何かをとりあえずやらなければと考えましたが、それらがすべて空振りに終わったとき、喪失感を感じず、虚無感に覆われました。&lt;/p&gt;&#xA;&lt;p&gt;またこれまでも、そばに友達や彼女がいないことに寂しいと思うことがあっても、本当に相手に興味を持ったことはないです。&lt;/p&gt;&#xA;&lt;p&gt;相手に心を預けようとしても、離れていくし、傷つくのが怖いから、相手の本心を知りたくないのです。&lt;/p&gt;&#xA;&lt;p&gt;それがあって普段は自分の領域に人が入ってくること拒否しているので、達観しているとか、本音が見えないとか言われますが、信頼する人には全部開けっぴろげにしてすべて預けてしまうので、対象となった人にはすごい重いでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;つまりどっちにしても人が遠ざかっていくので、それらを理解してくれる人でないと本当の私に近づくことは難しいのかな。&lt;/p&gt;&#xA;&lt;p&gt;あえてそうしてまで近づく人は少ないでしょうけど。&lt;/p&gt;&#xA;&lt;p&gt;でも本当は、本音をぶちまけられ、べったりくっついていられる友達や恋人がほしいのかな。&lt;/p&gt;&#xA;&lt;p&gt;たぶんそれが満たされればこの虚無感は消えるのかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;この先も、本当に人を好きになる事なんてあるんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;もう一つ。&lt;/p&gt;&#xA;&lt;p&gt;カウンセラーには自分の幸せを考え、自分を大切にしなさいと言われます。&lt;/p&gt;&#xA;&lt;p&gt;必要以上に何かを背負おうとしているらしいです。&lt;/p&gt;&#xA;&lt;p&gt;よかれと思ったことが、ある意味お節介だというものもあるようです。&lt;/p&gt;&#xA;&lt;p&gt;もしかして自分が不幸せになる選択肢を無意識に選んでいるんではないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;他人に置き換えるとそれはNGのフラグというものあえて選んでいたりします。&lt;/p&gt;&#xA;&lt;p&gt;過酷な状況、重い責任をこなすだけの能力も自信もあるようだが、もっと適当でいいとカウンセラーに言われます。&lt;/p&gt;&#xA;&lt;p&gt;なぜそうなっているのか、今の状況に耐えられないと家族に相談しても、父親や弟は、我慢しろ、サラリーマンでいろとひたすら言います。&lt;/p&gt;&#xA;&lt;p&gt;踏ん張らなければならない自分しか認められないと思い込んでいるのかも知れないです。&lt;/p&gt;&#xA;&lt;p&gt;寂しさは、これらを受け止めてくれる人がほしい、というところからきてるのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;優しさは与えることができても、もらうことは難しいのかな。&lt;/p&gt;&#xA;&lt;p&gt;普段、自分が強くがんばっているだけに、それとは逆に包み込んで支えてくれる人はまず現れにくいのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;人にいい人だと思われても好かれることがあっても、支えたいとか守りたいとか愛されることはないんでしょう。&lt;/p&gt;&#xA;&lt;p&gt;弱い自分を理解して、がんばらなくていいんだよと、包み込んでくれる人がほしいだけなんですが、無理かな。&lt;/p&gt;&#xA;&lt;p&gt;私の外観も良くないし、あえて踏み込んでくる人はいないでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;結局、恋人がいなくて寂しくて、何にも興味が持てなくて虚無感に覆われているだけ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ごっくん馬路村</title>
-      <link>http://localhost:1313/posts/2008-11-01-%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E9%A6%AC%E8%B7%AF%E6%9D%91/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-01-%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E9%A6%AC%E8%B7%AF%E6%9D%91/</link>
       <pubDate>Sat, 01 Nov 2008 23:00:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-01-%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E9%A6%AC%E8%B7%AF%E6%9D%91/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP0969m.jpg&#34; alt=&#34;ごっくん馬路村&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;それまで柚が嫌いだった私の世界を変えた一品です。&lt;/p&gt;&#xA;&lt;p&gt;高知に行く機会があり購入したものです。&lt;/p&gt;&#xA;&lt;p&gt;岡山でも普通にスーパーとかで買えます。&lt;/p&gt;&#xA;&lt;p&gt;でも高知に行くとあえてこれを買います。&lt;/p&gt;&#xA;&lt;p&gt;疲れたときにはいいですよ。のどにもよさそうです。&lt;/p&gt;</description>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-01-%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E9%A6%AC%E8%B7%AF%E6%9D%91/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/blog/img/_IGP0969m.jpg&#34; alt=&#34;ごっくん馬路村&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;それまで柚が嫌いだった私の世界を変えた一品です。&lt;/p&gt;&#xA;&lt;p&gt;高知に行く機会があり購入したものです。&lt;/p&gt;&#xA;&lt;p&gt;岡山でも普通にスーパーとかで買えます。&lt;/p&gt;&#xA;&lt;p&gt;でも高知に行くとあえてこれを買います。&lt;/p&gt;&#xA;&lt;p&gt;疲れたときにはいいですよ。のどにもよさそうです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いろいろやりたいことがあったけど</title>
-      <link>http://localhost:1313/posts/2008-11-01-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%81%A3%E3%81%9F%E3%81%91%E3%81%A9/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-11-01-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%81%A3%E3%81%9F%E3%81%91%E3%81%A9/</link>
       <pubDate>Sat, 01 Nov 2008 00:59:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-11-01-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%81%A3%E3%81%9F%E3%81%91%E3%81%A9/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-11-01-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%81%A3%E3%81%9F%E3%81%91%E3%81%A9/</guid>
       <description>&lt;p&gt;体は極限に疲れて眠いのですが、なぜか寝付かれないです。&lt;/p&gt;&#xA;&lt;p&gt;こんな時のための薬もありますが、それは脳の活動を抑える薬、いわゆる睡眠導入剤。&lt;/p&gt;&#xA;&lt;p&gt;どうもずっと風邪が治ってないようです。&lt;/p&gt;&#xA;&lt;p&gt;咳が続くので。&lt;/p&gt;&#xA;&lt;p&gt;今日は寝て過ごすしかないかな。&lt;/p&gt;&#xA;&lt;p&gt;写真撮りに行ったり、誰かと飯くいに行ったりとかしたかったけど、おとなしく寝てよう。&lt;/p&gt;&#xA;&lt;p&gt;最近、チャットやメールに餓えてます。&lt;/p&gt;&#xA;&lt;p&gt;メールしまくり、迷惑かけてますね。&lt;/p&gt;&#xA;&lt;p&gt;自粛しなくては。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず寝てよ・・・。&lt;/p&gt;</description>
     </item>
   </channel>

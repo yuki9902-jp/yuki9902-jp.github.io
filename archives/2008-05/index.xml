@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2008-05 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2008-05/</link>
+    <link>https://yuki9902-jp.github.io/archives/2008-05/</link>
     <description>Recent content in 2008-05 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 29 May 2008 00:09:59 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2008-05/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2008-05/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FLEX</title>
-      <link>http://localhost:1313/posts/2008-05-29-flex/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-29-flex/</link>
       <pubDate>Thu, 29 May 2008 00:09:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-29-flex/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-29-flex/</guid>
       <description>&lt;p&gt;仕事でAdobe FLEXを使っている。&lt;/p&gt;&#xA;&lt;p&gt;FLEXは、ActionScriptでプログラミングして、コンパイルするとSWFが出来る。&lt;/p&gt;&#xA;&lt;p&gt;Flashの概念とJavaに通じるオブジェクト指向が、こんがらがっていて非常に扱いづらい。&lt;/p&gt;&#xA;&lt;p&gt;できの悪いVB.netとでも言うべきものだ。&lt;/p&gt;&#xA;&lt;p&gt;Flash特有のユーザーコントロール(UIコンポーネント)が用意されているので、見た目がリッチなアプリケーションをさくっと作れる。&lt;/p&gt;&#xA;&lt;p&gt;ただ、難しいことは出来ない。&lt;/p&gt;&#xA;&lt;p&gt;UIコンポーネントのクローンが作れない、プリント機能が非常に弱い、ファイル保存が弱い、Flashの機能を完全には享受できないなどの制約がある。&lt;/p&gt;&#xA;&lt;p&gt;あと、フレームと言う概念を持たないUIコンポーネントを使うと、イベント発生でプロシージャが終了した後に、描画が開始されるという奇妙な動きをする。&lt;/p&gt;&#xA;&lt;p&gt;つまり、ユーザーが書いたプログラムが実行し終了してから、その記述通りに描画されるのである。&lt;/p&gt;&#xA;&lt;p&gt;たとえば本をめくる処理があったとすると、&lt;/p&gt;&#xA;&lt;p&gt;ページめくり（UIコンポーネントのイベント発行）→ページ切り替え処理→処理終了→ページ切り替えの描画開始→イベント待ち状態&lt;/p&gt;&#xA;&lt;p&gt;となる。&lt;/p&gt;&#xA;&lt;p&gt;もし、切り替え処理中の描画オブジェクトを新しくインスタンスに挿入しても、UIDだけの空のメモリが渡されてしまう。&lt;/p&gt;&#xA;&lt;p&gt;中身が入っているかを調べてもUIDが取得できるだけで、実際のメモリに書き込まれているかはわからない。&lt;/p&gt;&#xA;&lt;p&gt;この辺は、FLASHのUIコンポーネントの実装方法に問題があるのだろう。&lt;/p&gt;&#xA;&lt;p&gt;また、描画オブジェクトは、親となるインスタンスを２つ以上持つことが出来ない制限があって、同じ型のオブジェクトを宣言して、新しくインスタンスを作成して、クローンを作ろうとしても、クローニングされずに、本来のオブジェクトがそのまま渡されてしまう。&lt;/p&gt;&#xA;&lt;p&gt;つまり、クローンを操作しようとすると、元のオブジェクトが書き換わってしまうと言う問題が発生する。&lt;/p&gt;&#xA;&lt;p&gt;Adobeによるとこれの回避方法はなく、仕様と言うことになっている。&lt;/p&gt;&#xA;&lt;p&gt;FLEXで出来ることは非常に少ない。&lt;/p&gt;&#xA;&lt;p&gt;Javaに似たコーディングでSWFを作成出来るのが売りということだろうか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ピント</title>
-      <link>http://localhost:1313/posts/2008-05-26-%E3%83%94%E3%83%B3%E3%83%88/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-26-%E3%83%94%E3%83%B3%E3%83%88/</link>
       <pubDate>Mon, 26 May 2008 00:18:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-26-%E3%83%94%E3%83%B3%E3%83%88/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-26-%E3%83%94%E3%83%B3%E3%83%88/</guid>
       <description>&lt;p&gt;PENTAX K10Dのオートフォーカスがずれている話がちらほら出ていたけど、やっぱり手持ちのK10Dもピントがずれます。&lt;/p&gt;&#xA;&lt;p&gt;FA*85mmF1.4だと顕著になります。&lt;/p&gt;&#xA;&lt;p&gt;オートフォーカスだと４ｍの近接撮影で２ｍ以上奥ピンになっています。&lt;/p&gt;&#xA;&lt;p&gt;フォーカシングスクリーンで目視でピントを合わせると2cm前後の誤差があるものの実用範囲です。&lt;/p&gt;&#xA;&lt;p&gt;裏メニューを表示させるとオートフォーカスの調整が出来るらしいのですが、厳密なチャート表を使わないと意味がないので、時間があるときに調整してみます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>NetRadio</title>
-      <link>http://localhost:1313/posts/2008-05-25-netradio/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-25-netradio/</link>
       <pubDate>Sun, 25 May 2008 23:14:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-25-netradio/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-25-netradio/</guid>
       <description>&lt;p&gt;日本では、DJ形式のストリーミングコンテンツをネットラジオと呼びますが、海外ではストリーミングではありますが、それこそ普通にラジオ放送をしています。&lt;/p&gt;&#xA;&lt;p&gt;ジャンルは音楽中心ではありますが、宗教、政治やカルチャーなど様々です。&lt;/p&gt;&#xA;&lt;p&gt;欧州や南米の放送が簡単に聴けるので、時間のあるときには聴いています。&lt;/p&gt;&#xA;&lt;p&gt;聴く方法はAVアンプに搭載されたネットラジオチューナーです。&lt;/p&gt;&#xA;&lt;p&gt;MP3、WMA形式の配信なら聴くことが出来ます。&lt;/p&gt;&#xA;&lt;p&gt;PCではiTuneかWindowsMediaPlayerですが、ラジオ局がプリセットされているiTuneがおすすめです。&lt;/p&gt;&#xA;&lt;p&gt;ビットレートは32kbps前後のものが多いですが、中には128kbpsのものもあります。&lt;/p&gt;&#xA;&lt;p&gt;格段に音質が違うのでビットレートの高いものを選びます。&lt;/p&gt;&#xA;&lt;p&gt;良く聴くのがSmoothJazz.comでした。&lt;/p&gt;&#xA;&lt;p&gt;ネットラジオを知っている人の間ではかなり有名なラジオ局ですが、負荷が高いのか、かつて128kbpsで配信していたのですが、いまは32kbsになってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;日本ではJASRACやコンテンツホルダー（大手放送会社）の圧力が厳しく、本来のネットラジオを享受することはかないません。&lt;/p&gt;&#xA;&lt;p&gt;従来のラジオ局がやっているネットラジオもホームページを開かないと聞けなかったりと不便です。&lt;/p&gt;&#xA;&lt;p&gt;ワールドワイドな規格に対応すれば楽しく便利になるんですけど、日本は遅れてるなぁ。&lt;/p&gt;&#xA;&lt;p&gt;かといって海外メディアを楽しもうにも日本語以外の言語はほんとんどわからないしなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>鉄拳5 DR</title>
-      <link>http://localhost:1313/posts/2008-05-21-%E9%89%84%E6%8B%B35-dr/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-21-%E9%89%84%E6%8B%B35-dr/</link>
       <pubDate>Wed, 21 May 2008 13:53:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-21-%E9%89%84%E6%8B%B35-dr/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-21-%E9%89%84%E6%8B%B35-dr/</guid>
       <description>&lt;p&gt;鉄拳5 DRを闇雲にやっています。&lt;/p&gt;&#xA;&lt;p&gt;PS3のオンライン版ではないやつなので、プラクティスモードがなく、ひたすらゴーストモードで練習しています。&lt;/p&gt;&#xA;&lt;p&gt;鉄拳5 DRで追加されたキャラ、LILIを使っているのですが、技表を見ながら練習するのは苦労します。&lt;/p&gt;&#xA;&lt;p&gt;きちんとコマンドが入力できたかははっきりわかりません。&lt;/p&gt;&#xA;&lt;p&gt;オンライン版にアップグレードすれば、プラクティスモードがあるので、ちょいと購入してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;PS3版でフルHD対応ですから、迫力があって良いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>コードギアス 反逆のルルーシュR2 第7話 「棄てられた 仮面」</title>
-      <link>http://localhost:1313/posts/2008-05-19-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5r2-%E7%AC%AC/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-19-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5r2-%E7%AC%AC/</link>
       <pubDate>Mon, 19 May 2008 16:34:09 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-19-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5r2-%E7%AC%AC/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-19-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5r2-%E7%AC%AC/</guid>
       <description>&lt;p&gt;「棄てられた仮面」は、心理を描写している表現だったようで。&lt;/p&gt;&#xA;&lt;p&gt;ルルーシュがてっきり素顔をさらすのかと思っていたのですが。。。&lt;/p&gt;&#xA;&lt;p&gt;シャルル・ジ・ブリタニア（ブリタニア皇帝）は、ルルーシュが反抗してくるのを楽しんでいるとしか思えないのは気のせいではないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;そういや、会話から察するにシャルルはV.V.の弟なんですね。&lt;/p&gt;&#xA;&lt;p&gt;ちょいちょい出てくるC.C.とマリアンヌの会話も気になりますし、C.C.はルルーシュの存在自体に意味があるようなことを言っています。&lt;/p&gt;&#xA;&lt;p&gt;前作の１話の冒頭、日本がブリタニアに占領される前の話で、ちょこっとC.C.が登場します。&lt;/p&gt;&#xA;&lt;p&gt;端からC.C.はルルーシュに王の力（ギアス）を与える予定だったんですね。&lt;/p&gt;&#xA;&lt;p&gt;マリアンヌもルルーシュを嵌めてるんですね。&lt;/p&gt;&#xA;&lt;p&gt;伏線があまりに多いので、考えられる可能性がいっぱいあり、Ｒ２でどれだけ明らかになるのかはわかりません。&lt;/p&gt;&#xA;&lt;p&gt;なので、本当に飽きないアニメで楽しいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>「狼と香辛料 8」</title>
-      <link>http://localhost:1313/posts/2008-05-13-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99-8/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-13-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99-8/</link>
       <pubDate>Tue, 13 May 2008 13:03:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-13-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99-8/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-13-%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99-8/</guid>
       <description>&lt;p&gt;狼と香辛料 ８が発売された。&lt;/p&gt;&#xA;&lt;p&gt;早速、Amazonで購入して、すぐに読了しました。&lt;/p&gt;&#xA;&lt;p&gt;物語的には次の下巻へつながるようになっています。&lt;/p&gt;&#xA;&lt;p&gt;全体のストーリーとしては、それなりにおもしろいです。&lt;/p&gt;&#xA;&lt;p&gt;文字量の割には物足りなさが残りました。&lt;/p&gt;&#xA;&lt;p&gt;残念なのは、ホロの出番が少ないこと。&lt;/p&gt;&#xA;&lt;p&gt;前回の６巻で旅連れを一人増やしてしまったがために、ホロとロレンスの密度の濃い会話シーンがめっきり減りました。&lt;/p&gt;&#xA;&lt;p&gt;旅ではなくては話が成り立たないのでしょうが、数年単位の腰を据えた話へつながるよう期待しなければ、もったいなく思いますが。&lt;/p&gt;&#xA;&lt;p&gt;そのあたり作者はどこで終わらせるつもりなのでしょうか。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>連休だったか？</title>
-      <link>http://localhost:1313/posts/2008-05-07-%E9%80%A3%E4%BC%91%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%8B/</link>
+      <link>https://yuki9902-jp.github.io/posts/2008-05-07-%E9%80%A3%E4%BC%91%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%8B/</link>
       <pubDate>Wed, 07 May 2008 11:46:41 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2008-05-07-%E9%80%A3%E4%BC%91%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%8B/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2008-05-07-%E9%80%A3%E4%BC%91%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%8B/</guid>
       <description>&lt;p&gt;暦通りに出勤となった。&lt;/p&gt;&#xA;&lt;p&gt;４連休となったけど、資金難につき一人でドライブのみ。&lt;/p&gt;&#xA;&lt;p&gt;２９日には、午後１時から大山に出かけた。&lt;/p&gt;&#xA;&lt;p&gt;前略&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道６６号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;落合中学脇&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【林道】・・・この林道は狭い。&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道３９０号線】・・・この県道はさらに狭い。サイドブレーキを引かなくては曲がれない。&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;ＪＲ姫新線月田駅脇&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道３２号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【国道１８１号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;美甘中学脇&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道５５号線】・・・美甘中学から上る道が狭い。結構交通量があるので注意。&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;見明戸&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道３２３号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;種&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道３２２号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;蒜山中福田&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【国道４８２号線】・・・結局ここまでくるのに国道３１３号線を走った方が楽。&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;蒜山上福田&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;【県道１１４号線】&lt;/p&gt;&#xA;&lt;p&gt;　↓&lt;/p&gt;&#xA;&lt;p&gt;鏡ヶ成スキー場&lt;/p&gt;&#xA;&lt;p&gt;家から鏡ヶ成スキー場まで引いた直線上をたどるように道を選んで走るわけです。&lt;/p&gt;&#xA;&lt;p&gt;距離は最短ですが、時間は２時間近くかかります。&lt;/p&gt;&#xA;&lt;p&gt;林道や県道は道幅が狭く脱輪や対向車に注意が必要です。&lt;/p&gt;&#xA;&lt;p&gt;落石や落ち葉、倒木もあるのでパンクやスリップにも注意が必要です。&lt;/p&gt;&#xA;&lt;p&gt;ブレーキでロックしても谷底に落ちない速度で走りましょう。&lt;/p&gt;&#xA;&lt;p&gt;あとおもしろいのが、久世町の１８１号線から中和村の国道４８２号線を結ぶ県道６５号線です。&lt;/p&gt;&#xA;&lt;p&gt;途中、のとろ温泉がありそれなりに道幅が広いです。&lt;/p&gt;&#xA;&lt;p&gt;ですが、入道山と富栄山を越える峠が極端に狭くなり急激な上り坂になっています。&lt;/p&gt;&#xA;&lt;p&gt;ナビや地図上では近道なのでたまに普通の人がここに入ってきますが、高級車の人は無理せず別の道を走りましょう。&lt;/p&gt;&#xA;&lt;p&gt;別の日はハワイで日本海を見て帰りました。&lt;/p&gt;</description>
     </item>
   </channel>

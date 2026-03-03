@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on yuki9902::blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://yuki9902-jp.github.io/categories/</link>
     <description>Recent content in Categories on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 01 Mar 2026 08:53:16 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>COLUMN</title>
-      <link>http://localhost:1313/categories/column/</link>
+      <link>https://yuki9902-jp.github.io/categories/column/</link>
       <pubDate>Sun, 01 Mar 2026 08:53:16 +0900</pubDate>
-      <guid>http://localhost:1313/categories/column/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/column/</guid>
       <description></description>
     </item>
     <item>
       <title>COMPUTER</title>
-      <link>http://localhost:1313/categories/computer/</link>
+      <link>https://yuki9902-jp.github.io/categories/computer/</link>
       <pubDate>Thu, 26 Feb 2026 14:06:47 +0900</pubDate>
-      <guid>http://localhost:1313/categories/computer/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/computer/</guid>
       <description></description>
     </item>
     <item>
       <title>GAME</title>
-      <link>http://localhost:1313/categories/game/</link>
+      <link>https://yuki9902-jp.github.io/categories/game/</link>
       <pubDate>Mon, 09 Feb 2026 06:49:24 +0900</pubDate>
-      <guid>http://localhost:1313/categories/game/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/game/</guid>
       <description></description>
     </item>
     <item>
       <title>AUDIO</title>
-      <link>http://localhost:1313/categories/audio/</link>
+      <link>https://yuki9902-jp.github.io/categories/audio/</link>
       <pubDate>Wed, 01 Sep 2021 17:36:18 +0900</pubDate>
-      <guid>http://localhost:1313/categories/audio/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>BLOG HISTORY</title>
-      <link>http://localhost:1313/categories/blog-history/</link>
+      <link>https://yuki9902-jp.github.io/categories/blog-history/</link>
       <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
-      <guid>http://localhost:1313/categories/blog-history/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/blog-history/</guid>
       <description></description>
     </item>
     <item>
       <title>SITE</title>
-      <link>http://localhost:1313/categories/site/</link>
+      <link>https://yuki9902-jp.github.io/categories/site/</link>
       <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
-      <guid>http://localhost:1313/categories/site/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/site/</guid>
       <description></description>
     </item>
     <item>
       <title>GALLERY</title>
-      <link>http://localhost:1313/categories/gallery/</link>
+      <link>https://yuki9902-jp.github.io/categories/gallery/</link>
       <pubDate>Sun, 21 Mar 2010 22:36:20 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gallery/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>ENTHUSIAST</title>
-      <link>http://localhost:1313/categories/enthusiast/</link>
+      <link>https://yuki9902-jp.github.io/categories/enthusiast/</link>
       <pubDate>Sat, 06 Feb 2010 20:00:38 +0900</pubDate>
-      <guid>http://localhost:1313/categories/enthusiast/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/enthusiast/</guid>
       <description></description>
     </item>
     <item>
       <title>ANIMATION</title>
-      <link>http://localhost:1313/categories/animation/</link>
+      <link>https://yuki9902-jp.github.io/categories/animation/</link>
       <pubDate>Thu, 24 Dec 2009 01:00:47 +0900</pubDate>
-      <guid>http://localhost:1313/categories/animation/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/animation/</guid>
       <description></description>
     </item>
     <item>
       <title>MUSIC</title>
-      <link>http://localhost:1313/categories/music/</link>
+      <link>https://yuki9902-jp.github.io/categories/music/</link>
       <pubDate>Thu, 06 Aug 2009 08:32:42 +0900</pubDate>
-      <guid>http://localhost:1313/categories/music/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/music/</guid>
       <description></description>
     </item>
     <item>
       <title>SOURCE LIBRARY</title>
-      <link>http://localhost:1313/categories/source-library/</link>
+      <link>https://yuki9902-jp.github.io/categories/source-library/</link>
       <pubDate>Mon, 06 Jul 2009 11:49:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/source-library/</guid>
+      <guid>https://yuki9902-jp.github.io/categories/source-library/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012-11 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2012-11/</link>
+    <link>https://yuki9902-jp.github.io/archives/2012-11/</link>
     <description>Recent content in 2012-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 25 Nov 2012 22:57:28 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2012-11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuki9902-jp.github.io/archives/2012-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ふと</title>
-      <link>http://localhost:1313/posts/2012-11-25_%E3%81%B5%E3%81%A8/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-25_%E3%81%B5%E3%81%A8/</link>
       <pubDate>Sun, 25 Nov 2012 22:57:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-25_%E3%81%B5%E3%81%A8/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-25_%E3%81%B5%E3%81%A8/</guid>
       <description>&lt;p&gt;なけなしの休日に用事やら、雨やらで、今年は紅葉の撮影に行くことができませんでした。&lt;/p&gt;&#xA;&lt;p&gt;非常に寂しい。&lt;/p&gt;&#xA;&lt;p&gt;好きな写真を好きなだけ撮れないのは、ストレスがたまります。&lt;/p&gt;&#xA;&lt;p&gt;今年の冬には少しがんばって、雪景色や朝日、夕日、夜景でも撮りに行こうかな。&lt;/p&gt;&#xA;&lt;p&gt;ああ、でも休みがあまり取れないんだよな･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 7 / 8 で音飛びする件</title>
-      <link>http://localhost:1313/posts/2012-11-22-windows-7-8-%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%99%E3%82%8B%E4%BB%B6/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-22-windows-7-8-%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%99%E3%82%8B%E4%BB%B6/</link>
       <pubDate>Thu, 22 Nov 2012 09:57:10 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-22-windows-7-8-%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-22-windows-7-8-%E3%81%A7%E9%9F%B3%E9%A3%9B%E3%81%B3%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
       <description>&lt;p&gt;Windows 単独や、オーディオデバイス単独、ドライバー単独の問題ではないようです。&lt;/p&gt;&#xA;&lt;p&gt;Microsoftでもグリッチとして、問題を確認しているようです。&lt;/p&gt;&#xA;&lt;p&gt;Microsoftが、Windows Lab.で検証を行っているらしいですが、複合的な原因で、各種ハードウェア構成、ドライバーのインストール順位などで、発生したり、発生しなかったり。&lt;/p&gt;&#xA;&lt;p&gt;おおよそ80%のユーザーが何らかのグリッチを経験しているそうです。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;私も環境を変えるたび、クリーンインストールするたびに、以前の解決方法を試して、解決したり、解決しなかったりするので、おおよそ、そんな感じではないだろうかと思っていましたが・・・。&lt;/p&gt;&#xA;&lt;p&gt;いろいろなサイトやブログで、Windowsの音飛びの解決方法を紹介していますが、すべて正しいですが、すべてが完全な方法ではないということなのです。&lt;/p&gt;&#xA;&lt;p&gt;個々の環境によって問題発生も解決も異なります。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;デバイスとしては、USBデバイスよりもPCIデバイスの方が優位、PCIデバイスよりもPCI-Eデバイスの方が優位。&lt;/p&gt;&#xA;&lt;p&gt;ハードウェア構成としては、必要最小限として、オンボードデバイスも最小にして、極力不要なドライバー、アプリケーションは入れない。&#xA;Windowsの要らないサービス、アプリケーションは無効にする。&#xA;ウィルスなどに感染しない閉じられたLANで使用して、常駐型の監視ツールなどはすべて削除するなど。&lt;/p&gt;&#xA;&lt;p&gt;音声再生はいわゆるストリーミングですから、ハードウェアもOSも100%占有できれば、グリッチは発生しないでしょうけど。&lt;/p&gt;&#xA;&lt;p&gt;グリッチはオーディオマニアとか云々ではなくて、通常ユーザーでもかなりのストレスになりますからね。&lt;/p&gt;&#xA;&lt;p&gt;専用マシンを用意するとかではなく、OS、ハードウェア、アプリケーションを作る側で努力して解決してほしいものです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress Plug-in by Facebook</title>
-      <link>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</link>
       <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-20-wordpress-plug-in-by-facebook/</guid>
       <description>&lt;p&gt;WordPressのPlug-inをFacebookが公式に提供しています。&lt;/p&gt;&#xA;&lt;p&gt;初期のバージョンには、Plug-in 側か、Facebook App API 側かわかりませんが、バグがあり動作しませんでした。&lt;/p&gt;&#xA;&lt;p&gt;で、先週に新しいPlug-inが公開されていたので、インストールしました。&lt;/p&gt;&#xA;&lt;p&gt;インストールは簡単ですが、利用できるまでの設定が面倒くさいです。&lt;/p&gt;&#xA;&lt;p&gt;まず、FacebookでDeveloper登録します。&lt;/p&gt;&#xA;&lt;p&gt;Facebook Appが利用できる状態にしておきます。&lt;/p&gt;&#xA;&lt;p&gt;大まかな設定については、Facebook Plug-inのヘルプを参照してください。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;大事なのは、Facebook Appの設定画面で、App DomainsにWordpressを実行しているドメイン名を登録することと、Open Graphの設定として登録することでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;それ以外でエラーが出る場合は、Plug-inの実行ディレクトリに適切な権限を設定しましょう。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;設定画面が所々日本語だったり、でも大事なところが英語だったりして、何を書いているのがよくわからなかったりしますが、トライアンドエラーでやるしかないのかな。&lt;/p&gt;&#xA;&lt;p&gt;単語や略語の羅列で意味がわからないのはつらいけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>酒</title>
-      <link>http://localhost:1313/posts/2012-11-17_%E9%85%92/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-17_%E9%85%92/</link>
       <pubDate>Sat, 17 Nov 2012 22:59:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-17_%E9%85%92/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-17_%E9%85%92/</guid>
       <description>&lt;p&gt;家に焼酎があったので、ロックで飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;においからすると米かなぁ。&lt;/p&gt;&#xA;&lt;p&gt;もやしもんを見てると日本酒が飲みたくなるんだけど、良いのが近くで売ってないから。&lt;/p&gt;&#xA;&lt;p&gt;また高知に行きたいなぁ。&lt;/p&gt;&#xA;&lt;p&gt;ってか、また住みたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ONKYO SE-300PCIE on Windows 8 Pro 64bit</title>
-      <link>http://localhost:1313/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
       <pubDate>Fri, 16 Nov 2012 15:02:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
       <description>&lt;p&gt;ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、&lt;a href=&#34;http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/&#34;&gt;ONKYO SE-300PCIE&lt;/a&gt; に買い換えました。&lt;/p&gt;&#xA;&lt;p&gt;商品名にもあるとおりPCI-Enhanced バスを使用します。&lt;/p&gt;&#xA;&lt;p&gt;SE-300PCIE はカードの高さがあり、隣のバスに干渉しますので2スロット分の空きが必要になります。&lt;/p&gt;&#xA;&lt;p&gt;GIGA-BYTE GA-990FXA-UD3の一番下のスロットに差し込んでやろうとしたら、USB2.0やUSB3.0、IEEE1394のコネクタに干渉して取り付けできませんでした。&lt;/p&gt;&#xA;&lt;p&gt;下から2番目のスロットはPCIなので、ここにはSE-300PCIEの拡張コネクタを差し込みます。&lt;/p&gt;&#xA;&lt;p&gt;下から3番目のスロットのPCI-E x16にSE-300PCIEの本体を差し込みました。&lt;/p&gt;&#xA;&lt;p&gt;グラフィックカードのSLIやCrossFireを使わないなら、ここで問題ないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;PCI-E x1が2スロットありますが、ことごとくグラフィックカードと干渉します。&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;スロット&lt;/th&gt;&#xA;          &lt;th&gt;差し込みカード&lt;/th&gt;&#xA;          &lt;th&gt;バックパネル&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x1-1&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x16-1&lt;/td&gt;&#xA;          &lt;td&gt;Radeon HD 5670&lt;/td&gt;&#xA;          &lt;td&gt;Radeon HD 5670&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x1-2&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x4-1&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x16-2&lt;/td&gt;&#xA;          &lt;td&gt;SE-300PCIE&lt;/td&gt;&#xA;          &lt;td&gt;SE-300PCIE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;          &lt;td&gt;SE-300PCIE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PCI-E x4-2&lt;/td&gt;&#xA;          &lt;td&gt;空き&lt;/td&gt;&#xA;          &lt;td&gt;USB2.0/IEEE1394&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;こんな感じです。&lt;/p&gt;&#xA;&lt;p&gt;SE-300PCIE を PCI-E x1 に接続すると認識されないなどの現象があるようです。&lt;/p&gt;&#xA;&lt;p&gt;x4以上のスロットなら大丈夫らしいです。&lt;/p&gt;&#xA;&lt;p&gt;PCI-E x4-1のスロットにそのうち差し替えます。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;気になる音質ですが、美辞麗句や酷評は薀蓄を語る人たちに任せます。&lt;/p&gt;&#xA;&lt;p&gt;最近では「付帯感のない」などという意味のわからない言葉が横行してます。&lt;/p&gt;&#xA;&lt;p&gt;あげぽよと同じくらい意味わからないです。&lt;/p&gt;&#xA;&lt;p&gt;結局のところ聞きやすいかどうかだけ。&lt;/p&gt;&#xA;&lt;p&gt;で、SE-300PCIE は聞きやすい。&lt;/p&gt;&#xA;&lt;p&gt;もうひとつ、音飛びやノイズがなくなってストレス解消ですわ。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;百万超えの外付けUSB音源で音飛びしているやつとか、もう悲惨としかいえないだろ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>突然の不安感</title>
-      <link>http://localhost:1313/posts/2012-11-14_%E7%AA%81%E7%84%B6%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-14_%E7%AA%81%E7%84%B6%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F/</link>
       <pubDate>Wed, 14 Nov 2012 22:47:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-14_%E7%AA%81%E7%84%B6%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-14_%E7%AA%81%E7%84%B6%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F/</guid>
       <description>&lt;p&gt;家に帰るまでは調子よかったのですが、仕事上の雇用待遇について、いやなことを思い出して、かなり鬱になっています。&lt;/p&gt;&#xA;&lt;p&gt;ものすごく鬱の状態です。&lt;/p&gt;&#xA;&lt;p&gt;一時的なものではあると思うのですが、少しでも自分にとって悲しい思いがあると、激しく落ち込んで、虚脱感、焦燥感、不安感が押し寄せ、体が硬直し、体温が下がり、意識が定まらなくなり、胸が苦しくなります。&lt;/p&gt;&#xA;&lt;p&gt;薬を飲んで、寝れば忘れられるかな。&lt;/p&gt;&#xA;&lt;p&gt;不安で苦しいから寝られないかもしれないけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ONKYO SE-300PCIE</title>
-      <link>http://localhost:1313/posts/2012-11-14_onkyo-se-300pcie/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-14_onkyo-se-300pcie/</link>
       <pubDate>Wed, 14 Nov 2012 11:45:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-14_onkyo-se-300pcie/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-14_onkyo-se-300pcie/</guid>
       <description>&lt;p&gt;自作のミドルタワーPC用にサウンドカードを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;ONKYO社 SE-300PCIE&lt;/p&gt;&#xA;&lt;p&gt;これ以前に使っていたのが、同じくONKYO社 SE-200PCI LTDです。&lt;/p&gt;&#xA;&lt;p&gt;SE-200PCI LTD は、PCIバスを使うサウンドカードです。&lt;/p&gt;&#xA;&lt;p&gt;制御チップは、VIA社 Envy24-HTです。&lt;/p&gt;&#xA;&lt;p&gt;扱える音声データは、PCM で、サンプリング周波数：44.1kHz、48kHz、88.2kHz(*)、96kHz、176.4kHz(*)、192kHz、量子化数：16bit、24bit、チャンネル数：8chです。&lt;br&gt;&#xA;(*)Windows VISTAではOSの制限により未対応。Windows 7 / 8ではドライバーの制限で未対応。&lt;/p&gt;&#xA;&lt;p&gt;これだけ見ると現行のサウンドカードやUSB音源と比べて特に見劣りするものではありませんが、あくまでPCMを再生する機能を見たときだけの話です。&lt;/p&gt;&#xA;&lt;p&gt;OSの描画処理が重たくなった場合やHDDにアクセスがあった場合に、PCIバスのサウンドカードでは、信号飛びが起こり、ノイズや音飛びとなって聞こえます。&lt;br&gt;&#xA;で、またVIA Envy24-HTが微妙なのは、スペックは問題ないように見えますが、処理速度の低さとバッファメモリの少なさが災いして、HDサウンドを再生すると音飛びが頻発します。&lt;/p&gt;&#xA;&lt;p&gt;ちなみにUSB2.0の方が遅延が起こりやすいです。&lt;br&gt;&#xA;規格上の問題なのでしようがないですが。&lt;/p&gt;&#xA;&lt;p&gt;で、音飛びは、精神衛生上、非常に良くないので、Windows 8 に乗り換えたのを機に、サウンドカードも変えました。&lt;/p&gt;&#xA;&lt;p&gt;今度のSE-300PCIEは、PCMの再生に関しては、SE-200PCI LTDに比べ、スペック上見劣りがします。&lt;br&gt;&#xA;しかし、信号遅延が起こらないことが非常に良いです。&lt;/p&gt;&#xA;&lt;p&gt;前のサウンドカードでは、信号遅延のせいで、正確な再生ができていなかったのでしょうか、新しい方が、音の変質がないように聞こえます。&lt;br&gt;&#xA;「音楽」として聴きやすくなった気がします。&lt;/p&gt;&#xA;&lt;p&gt;スペック頂上主義やプラシーボUSB音源のオカルト信仰ではないので、100%正確な再生が可能になれば、ストレスが解消され、本来の目的である「音楽を楽しむこと」ができます。&lt;/p&gt;&#xA;&lt;p&gt;SE-300PCIEのおかげで、非可逆圧縮の音声ファイルのアラがすごい耳障りです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>http://localhost:1313/posts/2012-11-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Sat, 10 Nov 2012 10:03:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-10_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;今日は心療内科に通う日です。&lt;/p&gt;&#xA;&lt;p&gt;冬になると鬱の人が増えます。&lt;br&gt;&#xA;交感神経が切り替わるのがうまくいかないとなります。&lt;/p&gt;&#xA;&lt;p&gt;まあ、私はメタボリック症候群の治療ですが…。&lt;/p&gt;&#xA;&lt;p&gt;それでも新しい環境に神経が追いつくのに時間がかかるので鬱の状態になってましたが。&lt;/p&gt;&#xA;&lt;p&gt;漢方が効いてきたのか先週からは気分が晴れてます。&lt;/p&gt;&#xA;&lt;p&gt;でも寝付けないことや夜中に頻繁に目が覚めるのは、神経の調子が良くないからでしょうが。&lt;/p&gt;&#xA;&lt;p&gt;秋山の写真を撮りに行きたい…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カラオケ</title>
-      <link>http://localhost:1313/posts/2012-11-09_%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-09_%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/</link>
       <pubDate>Fri, 09 Nov 2012 23:29:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-09_%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-09_%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/</guid>
       <description>&lt;p&gt;久しぶりにカラオケをしました。&lt;/p&gt;&#xA;&lt;p&gt;今週は職員旅行がありまして、ホテルのバーを貸しきりでカラオケでございます。&lt;/p&gt;&#xA;&lt;p&gt;それに車を運転しなくてよかったので、しっかりと飲みました。&lt;/p&gt;&#xA;&lt;p&gt;飲んだせいでのどがつぶれて、高音域が全く出なくなってしまいまして、クリスタルキングの「愛を取り戻せ」が歌えませんでした。&lt;/p&gt;&#xA;&lt;p&gt;しかし若い人たちに大受けです。&lt;/p&gt;&#xA;&lt;p&gt;B&amp;rsquo;zはALONEを歌いました。&lt;/p&gt;&#xA;&lt;p&gt;これは大丈夫、つぶれてても出る音域でしたから。&lt;/p&gt;&#xA;&lt;p&gt;アルコールが入ると、のどを痛めますね。&lt;/p&gt;&#xA;&lt;p&gt;無茶はやめようぅ・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>twitterの互換表示</title>
-      <link>http://localhost:1313/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</link>
       <pubDate>Sat, 03 Nov 2012 15:36:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</guid>
       <description>&lt;p&gt;さて、Internet Explorer は互換表示機能を持っていますが、ページレイアウトにエラーがあると「互換表示」に切り替わって、リロードします。&lt;/p&gt;&#xA;&lt;p&gt;で、twitterのサイトの「欠陥仕様」により、互換表示になっていると「mobile.twitter.com」に転送されてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;で、通常httpsのSSLで接続している場合はアドレスバーに互換表示マークが表示されないので、変更するのに苦労します。&lt;/p&gt;&#xA;&lt;p&gt;この状態から回復するには、以下の手順で大丈夫かと思います。&lt;/p&gt;&#xA;&lt;p&gt;１．IEの何もないところで右クリックして、「メニューバー」を表示させます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268220608.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/0b/5f/j/t02200069_0800025112268220608.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;２．ツールをクリックして互換表示のチェックを外すか、&lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268225390.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/fe/b2/j/t02200117_0800042412268225390.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;３．互換表示設定で該当のアドレスを削除します。&lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268226091.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/fb/a5/j/t02200270_0457056012268226091.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;この画面を閉じれば、リロードされて通常表示になるはずです。&lt;/p&gt;&#xA;&lt;p&gt;で、これはあくまでもtwitter.comの問題ですから！！&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 8 Pro Upgrade (32/64bit)</title>
-      <link>http://localhost:1313/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</link>
+      <link>https://yuki9902-jp.github.io/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</link>
       <pubDate>Fri, 02 Nov 2012 12:22:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</guid>
+      <guid>https://yuki9902-jp.github.io/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</guid>
       <description>&lt;p&gt;Windows 8 Pro のアップグレードが、ダウンロード販売で3,300円という安さだったので、発売日に迷わず購入しました。&lt;/p&gt;&#xA;&lt;p&gt;ノートPC、自作ミドルタワーPCの常用している2台を、早速アップグレードしました。&lt;/p&gt;&#xA;&lt;p&gt;ノートPCは、hp ProBook 4515s (CPU:AMD Sempron M100 / Memory 4GB増 / SSD256GB換装) で、Windows 7 Home Premium (32bit)です。&lt;/p&gt;&#xA;&lt;p&gt;まずは、ダウンロード購入時ままデスクトップ上でセットアップを実行。&lt;/p&gt;&#xA;&lt;p&gt;約10分で1回の再起動で完了しました。&lt;/p&gt;&#xA;&lt;p&gt;ドライバ類はWindows 8 に含まれているものと、Windows 7からそのまま引き継いだものがありますが、別段、インストールせずにすぐに利用可能でした。&lt;/p&gt;&#xA;&lt;p&gt;Windows 8 に対応したドライバはまだメーカーのHPには上がってはいませんが、特に問題ないでしょう。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;で、今度は同じノートPCにクリーンインストールしてみます。&lt;/p&gt;&#xA;&lt;p&gt;ダウンロードしたセットアッププログラムからセットアップDVDのISOが出力されるので、それからDVD-Rに書き込みます。&lt;/p&gt;&#xA;&lt;p&gt;で、そのDVDをPCに入れて起動すれば、普通にセットアップが始まります。&lt;/p&gt;&#xA;&lt;p&gt;インストールドライブの選択時に、元のパーティションを全削除して、再割り当て。&lt;/p&gt;&#xA;&lt;p&gt;アップグレードですが、既存OSの確認なしにセットアップできます。&lt;/p&gt;&#xA;&lt;p&gt;ただしアクティベーションは強固になっているそうです。&lt;/p&gt;&#xA;&lt;p&gt;で、これも簡単にインストールが終了して、ほぼすぐに使えますが、タッチパッドの一部機能が使えないので、ドライバーは、メーカーサイトではなくOEMの供給元のサイトからダウンロードします。&lt;/p&gt;&#xA;&lt;p&gt;Windows 7用のドライバーが使えるので、ほかのハードウェアも気になるようならインストールします。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;つぎはミドルタワーPCをアップグレードします。&lt;/p&gt;&#xA;&lt;p&gt;大まかな構成は以下の通りです。&lt;/p&gt;&#xA;&lt;p&gt;CPU : AMD FX-6100&lt;/p&gt;&#xA;&lt;p&gt;M/B : Giga-Byte GA-990FXA-UD3 (rev.1.1)&lt;/p&gt;&#xA;&lt;p&gt;Mem : 8GB (DDR3-1600)&lt;/p&gt;&#xA;&lt;p&gt;HDD/SSD : ADATA P900 / WD Caviar Green 2.0TB / 3.0TB&lt;/p&gt;&#xA;&lt;p&gt;Optical : PIONEER BD&lt;/p&gt;&#xA;&lt;p&gt;Graphic : AMD Radeon HD 5670&lt;/p&gt;</description>
     </item>
   </channel>
