@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012-02 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2012-02/</link>
+    <description>Recent content in 2012-02 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 27 Feb 2012 12:43:23 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2012-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>さて</title>
+      <link>http://localhost:1313/posts/2012-02-27_%E3%81%95%E3%81%A6/</link>
+      <pubDate>Mon, 27 Feb 2012 12:43:23 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-27_%E3%81%95%E3%81%A6/</guid>
+      <description>&lt;p&gt;不採用の連絡があった。&lt;/p&gt;&#xA;&lt;p&gt;何度目だろう。&lt;/p&gt;&#xA;&lt;p&gt;うーん、能力や経歴には問題がないと思うんだけどなぁ。&lt;/p&gt;&#xA;&lt;p&gt;求人数は、見かけ上多いけど、実際の採用はほとんどない。&lt;/p&gt;&#xA;&lt;p&gt;と、ハローワークの職員が言っていた。&lt;/p&gt;&#xA;&lt;p&gt;確かに県の労働局や商工会やら同友会などから企業に対して申し入れが多く、企業はしぶしぶ求人を出しているようだ。&lt;/p&gt;&#xA;&lt;p&gt;あと若年者の助成金目当てで、採用しても日給月給で、稼働日数が少ないため、賃金を非常に低く抑えているものもあるようだが。&lt;/p&gt;&#xA;&lt;p&gt;正直、雇う気もないのに試験や面接を受けるのも、書類を送るのも疲れた。&lt;/p&gt;&#xA;&lt;p&gt;この時間もお金も馬鹿にはならない。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ起業しようかとも思う。&lt;/p&gt;&#xA;&lt;p&gt;もともとそのつもりだったしね。&lt;/p&gt;&#xA;&lt;p&gt;さて。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visual Studio 2010</title>
+      <link>http://localhost:1313/posts/2012-02-26_visual-studio-2010/</link>
+      <pubDate>Sun, 26 Feb 2012 23:22:24 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-26_visual-studio-2010/</guid>
+      <description>&lt;p&gt;Visual Studio 2010 Expressをフルでインストール中です。&lt;/p&gt;&#xA;&lt;p&gt;Visual C#、Visual BASIC、Visual C++、Visual Web DeveroperのExpressエディションを、すべてインストールしています。&lt;/p&gt;&#xA;&lt;p&gt;デスクトップPCとモバイルPCと二台ありますが、モバイルは先日インストールを終えて、C#のアプリを作成していました。&lt;/p&gt;&#xA;&lt;p&gt;が、やっぱりモバイルでの開発は作業しづらいので、デスクトップにもインストールをすることにしました。&lt;/p&gt;&#xA;&lt;p&gt;もともとはデスクトップで作業していたんですが、何度かWindowsのクリーンインストールをしているうちに、Visual Studioを入れるのが面倒くさくなって放置していたんですが、このたび作成欲が働き、C#の勉強を再開したので、開発環境が必要になったのです。&lt;/p&gt;&#xA;&lt;p&gt;さて、C#で、iPhone風のデザインの時計アプリを作成していて、ウィンドーの透過やらタスクトレイのアイコン表示やらを組み込んでいます。&lt;/p&gt;&#xA;&lt;p&gt;これのベースを作ったのが2010年だったかな。&lt;/p&gt;&#xA;&lt;p&gt;で、設定の保存機能を追加しようと現在改良中です。&lt;/p&gt;&#xA;&lt;p&gt;昔は INIファイルを使ってましたが、今はXMLファイルなんですね。&lt;/p&gt;&#xA;&lt;p&gt;しかも簡単っぽいです。&lt;/p&gt;&#xA;&lt;p&gt;発行しようとしたら証明書の有効期限がきれているようなので、再取得が必要なのかな。&lt;/p&gt;&#xA;&lt;p&gt;この辺がよくわからないですね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>図らずも</title>
+      <link>http://localhost:1313/posts/2012-02-24_%E5%9B%B3%E3%82%89%E3%81%9A%E3%82%82/</link>
+      <pubDate>Fri, 24 Feb 2012 22:13:44 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-24_%E5%9B%B3%E3%82%89%E3%81%9A%E3%82%82/</guid>
+      <description>&lt;p&gt;ブロードバンドルーターを交換したら、スループットが激しく向上しました。&lt;/p&gt;&#xA;&lt;p&gt;FTP96Mbpsスループットが謳い文句の有線ルーターをこれまで使っていました。&lt;/p&gt;&#xA;&lt;p&gt;また無線ルーターも保有していたんですが、ルーター機能はOFFにして、使っていました。&lt;/p&gt;&#xA;&lt;p&gt;機器の整理をするために、有線ルーターを撤去して、無線ルーターのルーター機能をONにして、ネットワーク設定をやり直したら、なんかインターネット接続が非常にスムーズになりました。&lt;/p&gt;&#xA;&lt;p&gt;プロバイダーから割り合てられるIPアドレスも変わっているので、プロバイダー側の集約機器が更新されているところに割り当てられたのかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;これまで8Mbps程度が普通だったんですが、13Mbps程度で安定しています。&lt;/p&gt;&#xA;&lt;p&gt;またダウンロードソフトでのセッション数が多くても新しいルーターのほうが処理が早いようです。&lt;/p&gt;&#xA;&lt;p&gt;コンシューマー向けの製品も基本的なところで改善が図られているのかもしれません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ここ数日は</title>
+      <link>http://localhost:1313/posts/2012-02-24_%E3%81%93%E3%81%93%E6%95%B0%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Fri, 24 Feb 2012 08:48:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-24_%E3%81%93%E3%81%93%E6%95%B0%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;ここ数日はＣＡＤの勉強をしております。&lt;/p&gt;&#xA;&lt;p&gt;ＣＡＤはＪＷＣＡＤというフリーウェアです。&lt;/p&gt;&#xA;&lt;p&gt;かなり利用者の多いアプリケーションですが、非常に使いづらいのが特徴です。&lt;/p&gt;&#xA;&lt;p&gt;で、画面を注視して作業するので、目が非常に疲れます。&lt;/p&gt;&#xA;&lt;p&gt;一時期治っていた眼圧の低さもまた出てきました。&lt;/p&gt;&#xA;&lt;p&gt;まったくピントが合いません。&lt;/p&gt;&#xA;&lt;p&gt;乱視とは違う感じで、上下2重に大きく像がずれているので、メガネなどで補正できません。&lt;/p&gt;&#xA;&lt;p&gt;目をしばらく休めれば治るんですが･･･。&lt;/p&gt;&#xA;&lt;p&gt;まだしばらくＣＡＤの学習ですが、もううんざりです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>これから</title>
+      <link>http://localhost:1313/posts/2012-02-22_%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89/</link>
+      <pubDate>Wed, 22 Feb 2012 09:24:01 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-22_%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89/</guid>
+      <description>&lt;p&gt;これから採用面接です。&lt;/p&gt;&#xA;&lt;p&gt;変に緊張します。&lt;/p&gt;&#xA;&lt;p&gt;経営者一人だけの株式会社ですが、面白い会社ならいいんですが。&lt;/p&gt;&#xA;&lt;p&gt;果たしてどんなものやら。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>確定申告だけど</title>
+      <link>http://localhost:1313/posts/2012-02-20_%E7%A2%BA%E5%AE%9A%E7%94%B3%E5%91%8A%E3%81%A0%E3%81%91%E3%81%A9/</link>
+      <pubDate>Mon, 20 Feb 2012 23:25:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-20_%E7%A2%BA%E5%AE%9A%E7%94%B3%E5%91%8A%E3%81%A0%E3%81%91%E3%81%A9/</guid>
+      <description>&lt;p&gt;確定申告に行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;一応、自営業者になるんでしょうか、正確には無職ですが…。&lt;/p&gt;&#xA;&lt;p&gt;昨年の収入はありませんでしたから、申告は、医療費と保険税と年金の支出だけ。&lt;/p&gt;&#xA;&lt;p&gt;簡単なものです。&lt;/p&gt;&#xA;&lt;p&gt;市場ニーズの予測が立てられても、金に執着がないので儲けたいとも思わないのがいけないのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;欲が激しく湧く方法ってないもんでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>痛かったよぅ。</title>
+      <link>http://localhost:1313/posts/2012-02-16_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%88%E3%81%85/</link>
+      <pubDate>Thu, 16 Feb 2012 21:58:28 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-16_%E7%97%9B%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%88%E3%81%85/</guid>
+      <description>&lt;p&gt;一昨日、晩ご飯を食べた後しばらくして、急激な歯痛に襲われまして、あまりの激痛に悶絶しておりました。&lt;/p&gt;&#xA;&lt;p&gt;鎮痛剤がなかなか効かず、６錠飲んで、それでも効かず、顆粒の鎮痛剤を一包のんで、徐々に効き始めました。&lt;/p&gt;&#xA;&lt;p&gt;それでも耐えがたい痛みで、右回りにくるくる回って、何とか痛みをごまかし、意識を保ちました。&lt;/p&gt;&#xA;&lt;p&gt;歯槽膿漏による歯痛も痛風の痛みもどちらも耐え難いです。&lt;/p&gt;&#xA;&lt;p&gt;しかもどちらも鎮痛剤が効きにくい。&lt;/p&gt;&#xA;&lt;p&gt;食生活や口内の健康には気を遣っているんですが、免疫力や肝機能の弱さが如実に出てしまっています。&lt;/p&gt;&#xA;&lt;p&gt;こればかりは生まれ持ったものなのでしょうがないですね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>リフォームをDo It Yourselfで</title>
+      <link>http://localhost:1313/posts/2012-02-12_%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%92do-it-yourself%E3%81%A7/</link>
+      <pubDate>Sun, 12 Feb 2012 22:48:32 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-12_%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%92do-it-yourself%E3%81%A7/</guid>
+      <description>&lt;p&gt;今日もリフォームしてました。&lt;/p&gt;&#xA;&lt;p&gt;築４０年の我が家をあちこちと。&lt;/p&gt;&#xA;&lt;p&gt;昨年末に風呂とトイレが壊れたのを機に、もともと商店をしていた屋根続きの別棟に風呂とトイレを増設して、浄化処理層をうめました。&lt;/p&gt;&#xA;&lt;p&gt;もとあった風呂とトイレを撤去し、埋設で、浄化槽を接地したので町からの補助金をもらいました。&lt;/p&gt;&#xA;&lt;p&gt;さて、物事は勢い次いでです。&lt;/p&gt;&#xA;&lt;p&gt;元あった風呂の場所は小部屋に、トイレは倉庫に。&lt;/p&gt;&#xA;&lt;p&gt;廊下の床下の根座を修理して、床板をフローリングに。&lt;/p&gt;&#xA;&lt;p&gt;現在、さらについでにリビングの根座がシロアリによって全滅しているのを、床板を剥がして、修理中。&lt;/p&gt;&#xA;&lt;p&gt;柱も数本、シロアリにやられています。&lt;/p&gt;&#xA;&lt;p&gt;柱の修繕は大工にお願いしてしてもらうことにしました。&lt;/p&gt;&#xA;&lt;p&gt;あとは家族で、自分たちの手で修復です。&lt;/p&gt;&#xA;&lt;p&gt;まあ数百万円かかるところを数十万円で押さえられるし、やってみれば自然と施工技術が身につくのでおもしろいです。&lt;/p&gt;&#xA;&lt;p&gt;ただ筋肉痛や関節痛がありますが…。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>こんばんは</title>
+      <link>http://localhost:1313/posts/2012-02-10_%E3%81%93%E3%82%93%E3%81%B0%E3%82%93%E3%81%AF/</link>
+      <pubDate>Fri, 10 Feb 2012 23:06:50 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-10_%E3%81%93%E3%82%93%E3%81%B0%E3%82%93%E3%81%AF/</guid>
+      <description>&lt;p&gt;こんばんは。&lt;/p&gt;&#xA;&lt;p&gt;今晩は、あまりの歯痛に、悶絶してました。&lt;/p&gt;&#xA;&lt;p&gt;なかなかきついです。&lt;/p&gt;&#xA;&lt;p&gt;今は、痛み止めが効いているようです。&lt;/p&gt;&#xA;&lt;p&gt;ありがとう、サリドン。&lt;/p&gt;&#xA;&lt;p&gt;はあ、もしかなうなら、歯をすべてきれいにしたいよ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>アメブロ、早く直して</title>
+      <link>http://localhost:1313/posts/2012-02-06_%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%E6%97%A9%E3%81%8F%E7%9B%B4%E3%81%97%E3%81%A6/</link>
+      <pubDate>Mon, 06 Feb 2012 22:31:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-06_%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD%E6%97%A9%E3%81%8F%E7%9B%B4%E3%81%97%E3%81%A6/</guid>
+      <description>&lt;p&gt;アメブロのマイページのチェックリストが不便。&lt;/p&gt;&#xA;&lt;p&gt;読者登録しているブログがすべて表示されるわけではないようだ。&lt;/p&gt;&#xA;&lt;p&gt;いつの間にか、リストからなくなっているブログがあってびっくりした。&lt;/p&gt;&#xA;&lt;p&gt;読者登録の設定画面から、訪問しなきゃいけないのはちょっと大変だ。&lt;/p&gt;&#xA;&lt;p&gt;アメブロ、早く直して。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>雪が</title>
+      <link>http://localhost:1313/posts/2012-02-01_%E9%9B%AA%E3%81%8C/</link>
+      <pubDate>Wed, 01 Feb 2012 09:01:53 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-02-01_%E9%9B%AA%E3%81%8C/</guid>
+      <description>&lt;p&gt;6時ごろから雪が降り出しました。&lt;/p&gt;&#xA;&lt;p&gt;気温は1度ぐらいなので、積もる傍から解けていきます。&lt;/p&gt;&#xA;&lt;p&gt;7時頃は解けるよりも早く降ってきたので、積もっていきました。&lt;/p&gt;&#xA;&lt;p&gt;8時頃にはハラハラと降り積もりはしません。&lt;/p&gt;&#xA;&lt;p&gt;日本海側には例年の倍というような雪が降っているようで、亡くなる方もあり、心配でもあります。&lt;/p&gt;&#xA;&lt;p&gt;いろいろな名目でばら蒔いている庶民や地方に届かないお金を除雪にまわしても良いんじゃないかとも思います。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

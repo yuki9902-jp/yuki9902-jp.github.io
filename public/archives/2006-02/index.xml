@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2006-02 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2006-02/</link>
+    <description>Recent content in 2006-02 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 22 Feb 2006 08:37:34 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2006-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自作への道 0005</title>
+      <link>http://localhost:1313/posts/2006-02-22-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0005/</link>
+      <pubDate>Wed, 22 Feb 2006 08:37:34 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-22-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0005/</guid>
+      <description>&lt;p&gt;マザーボードの入れ替えとか、もうなれたものです。&lt;/p&gt;&#xA;&lt;p&gt;ドライブ類はすべて流用するので、そのまま接続して、電源を投入。&lt;/p&gt;&#xA;&lt;p&gt;システムコマンダーが起動して、再構成。&lt;/p&gt;&#xA;&lt;p&gt;次にOSのブートローダーが起動します。&lt;/p&gt;&#xA;&lt;p&gt;おっ、予想どおりWindows XPはブルーバックで、エラーが出て停止しました。&lt;/p&gt;&#xA;&lt;p&gt;シングルプロセッサからデュアルコアプロセッサ（中に二つのプロセッサが入っている）に変えたので当たり前です。&lt;/p&gt;&#xA;&lt;p&gt;なのでWindowsXPをアップグレードインストール。&lt;/p&gt;&#xA;&lt;p&gt;これでWindowsXPは無事に起動しました。&lt;/p&gt;&#xA;&lt;p&gt;でもサービスパックが未適用状態になっているけど、モジュールが新しいままなのでIEでのWindows Updateに問題が発生。&lt;/p&gt;&#xA;&lt;p&gt;サービスパックのフルセットをダウンロードして、インストールすることでIEの問題も解消。&lt;/p&gt;&#xA;&lt;p&gt;その後は、各種ドライバーをインストールして完了。&lt;/p&gt;&#xA;&lt;p&gt;さて、新しい環境ですが、かなり速いです。&lt;/p&gt;&#xA;&lt;p&gt;あんなに速くなっているとは…。&lt;/p&gt;&#xA;&lt;p&gt;今までのような周波数の競争とは別次元の速さだと感じました。&lt;/p&gt;&#xA;&lt;p&gt;速さを説明しにくいです。&lt;/p&gt;&#xA;&lt;p&gt;数値的な速さはベンチマークテストの結果がどこでも公表されているので割愛。&lt;/p&gt;&#xA;&lt;p&gt;で、感動のついでに Age Of EmpireⅢをフルオプションで実行。&lt;/p&gt;&#xA;&lt;p&gt;世界観が違うぐらい画像の品質が上がります。&lt;/p&gt;&#xA;&lt;p&gt;でも、良いことばかりじゃなく問題も…。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自作への道 0004</title>
+      <link>http://localhost:1313/posts/2006-02-20-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0004/</link>
+      <pubDate>Mon, 20 Feb 2006 12:20:41 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-20-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0004/</guid>
+      <description>&lt;p&gt;週末にいよいよ自作するためにPCパーツを買いに出かけました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、ストレージ関係はそのまま流用することにして、マザーボード、CPU、メモリ、ビデオカードを購入することにしました。&lt;/p&gt;&#xA;&lt;p&gt;CPUは、もちろんAMD Athlon 64x2。&lt;/p&gt;&#xA;&lt;p&gt;となるとマザーボードは、nFoce4シリーズまたはKT8シリーズのチップセットになります。&lt;/p&gt;&#xA;&lt;p&gt;思い切って SLI に挑戦することにしました。&lt;/p&gt;&#xA;&lt;p&gt;ブランドは、GIGABYTE か ASUS です。すでに老舗ですね。&lt;/p&gt;&#xA;&lt;p&gt;AOPEN を一時期使ったことがありましたが、台湾製コンデンサに泣かされましたし、真空管搭載マザーボードなどという怪しい方向を向かった時代があったので避けます。&lt;/p&gt;&#xA;&lt;p&gt;購入のため、まずはアプライドへ。&lt;/p&gt;&#xA;&lt;p&gt;ここは、高い。&lt;/p&gt;&#xA;&lt;p&gt;しかも、AMD用のマザーボードはわずか3枚。&lt;/p&gt;&#xA;&lt;p&gt;パス。&lt;/p&gt;&#xA;&lt;p&gt;次にパソコン工房へ。&lt;/p&gt;&#xA;&lt;p&gt;ここは市場価格。&lt;/p&gt;&#xA;&lt;p&gt;マザー自体が少ないけど、AMD用はしっかりあります。&lt;/p&gt;&#xA;&lt;p&gt;GIGABYTEの&lt;a href=&#34;http://www.gigabyte.co.jp/nippon/k8n-pro-sli/k8n-pro-m.jpg&#34;&gt;K8N PRO-SLI&lt;/a&gt;がありました。1万6千円ほどです。&lt;/p&gt;&#xA;&lt;p&gt;SLI マザーなのでこれに決定。&lt;/p&gt;&#xA;&lt;p&gt;その勢いで、ビデオカードを物色。&lt;/p&gt;&#xA;&lt;p&gt;隣の陳列棚にGIGABYTE の &lt;a href=&#34;http://www.gigabyte.co.jp/nippon/nvidia-list.html#fa&#34;&gt;GV-NX66T128VP&lt;/a&gt; があったのでこれに決定。&lt;/p&gt;&#xA;&lt;p&gt;で、メモリ1GB*2(SAMSUNG) とCPU AMD Athlon 64x2 3800+を購入。&lt;/p&gt;&#xA;&lt;p&gt;しめて、10万円ほどでした。&lt;/p&gt;&#xA;&lt;p&gt;予想より、遙かに安い。&lt;/p&gt;&#xA;&lt;p&gt;続きは後日。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自作への道 0003</title>
+      <link>http://localhost:1313/posts/2006-02-18-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0003/</link>
+      <pubDate>Sat, 18 Feb 2006 01:17:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-18-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0003/</guid>
+      <description>&lt;p&gt;お亡くなりになったPCに変わり、予備機としてスリムPCを確保していたので、そちらに使える部品を移植してバリバリ速いスリムPCを作って、今この記事を書いています。&lt;/p&gt;&#xA;&lt;p&gt;さすがにOSは高いので、Windows2000Professinalです。&lt;/p&gt;&#xA;&lt;p&gt;OSが軽い分、滅茶苦茶速いですよ。&lt;/p&gt;&#xA;&lt;p&gt;普段のマシンはこちらにして、今度組むマシンはパフォーマンス重視でもいいかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自作への道 0002</title>
+      <link>http://localhost:1313/posts/2006-02-17-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0002/</link>
+      <pubDate>Fri, 17 Feb 2006 16:52:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-17-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0002/</guid>
+      <description>&lt;p&gt;PCにメモリを挿して起動させたところ、ブザーからジジ…と異音がしてるなと思ったら、ばちんと音がして、マザーボードの電源コネクタ周辺のチップがはじけました。&lt;/p&gt;&#xA;&lt;p&gt;メモリを反対に挿したのが原因でした。&lt;/p&gt;&#xA;&lt;p&gt;疲れていたのに、ぼんやりと作業をして、メモリがちゃんと挿っていないことを確認しなかったのです。&lt;/p&gt;&#xA;&lt;p&gt;しかも、異音がしているのに電源を落とさなかったし…。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードがお亡くなりになってしまったので、新しく組み上げねばなりません。&lt;/p&gt;&#xA;&lt;p&gt;次の自作を検討していたとは言え、ちょっと財布に厳しい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自作への道 0001</title>
+      <link>http://localhost:1313/posts/2006-02-08-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0001/</link>
+      <pubDate>Wed, 08 Feb 2006 08:34:27 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-08-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0001/</guid>
+      <description>&lt;p&gt;今年の夏頃には、Windows Vista が発売になるとは思いますが、やはりそれに向けたPCのリニューアルを図らなくてはいけません。&lt;/p&gt;&#xA;&lt;p&gt;すでにハードウェアとしては、64bit化が進んでおり、PCI、ハードディスクのバス周りも大きく変わっています。&lt;/p&gt;&#xA;&lt;p&gt;現状保持しているハードウェアでは、新しいCPUとマザーに持ち越しができません。&lt;/p&gt;&#xA;&lt;p&gt;ほとんどのパーツを買い換える必要があります。&lt;/p&gt;&#xA;&lt;p&gt;まあ、そこでWindows Vistaに合わせて買い換えようと思っているわけです。&lt;/p&gt;&#xA;&lt;p&gt;もちろんAMD Athlon64 を中心に構成するわけですが、それでも如何せん、価格が高い。&lt;/p&gt;&#xA;&lt;p&gt;今の構成も当時30万円相当でくみ上げましたが、今度も納得がいくレベルにするには同じぐらいの投資が必要になりそうです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>スノードリフト</title>
+      <link>http://localhost:1313/posts/2006-02-07-%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%89%E3%83%AA%E3%83%95%E3%83%88/</link>
+      <pubDate>Tue, 07 Feb 2006 00:20:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-07-%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%89%E3%83%AA%E3%83%95%E3%83%88/</guid>
+      <description>&lt;p&gt;雪が積もりましたが、溶けかけてぐちゅぐちゅです。&lt;/p&gt;&#xA;&lt;p&gt;雪の上でドリフトしながら家まで帰ってきました。&lt;/p&gt;&#xA;&lt;p&gt;派手にはいきませんが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>釣人</title>
+      <link>http://localhost:1313/posts/2006-02-06-%E9%87%A3%E4%BA%BA/</link>
+      <pubDate>Mon, 06 Feb 2006 01:32:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-06-%E9%87%A3%E4%BA%BA/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/thisweek.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/thisweek-thumb.jpg&#34; alt=&#34;釣人&#34;&gt;&lt;/a&gt;&#xA;「釣人」&lt;/p&gt;&#xA;&lt;p&gt;早朝、光る海、釣り人がいる&lt;/p&gt;&#xA;&lt;p&gt;data:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX Z-1 / smcPENTAX-FA★ 300mmF4.5ED[IF]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>リチャード・バーンズ</title>
+      <link>http://localhost:1313/posts/2006-02-05-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%83%B3%E3%82%BA/</link>
+      <pubDate>Sun, 05 Feb 2006 18:19:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-05-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%83%B3%E3%82%BA/</guid>
+      <description>&lt;p&gt;かつてSUBARU WORLD RALLY TEAMで活躍したリチャード・バーンズ氏が、昨年11月末に急逝。&lt;/p&gt;&#xA;&lt;p&gt;SUBARUのサイトで訃報を目にしたときは、事故死かと思ったのですが、どうも脳腫瘍だったそうです。&lt;/p&gt;&#xA;&lt;p&gt;2003年末、再びSUBARUのワークスドライバーになるはずでしたが、シーズン明けて2004年になってリチャード・バーンズの姿が見えず、どうしたのかと思ってました。&lt;/p&gt;&#xA;&lt;p&gt;WRCドライバーが競技以外で亡くなったと聞くとちょっとショックですね。&lt;/p&gt;&#xA;&lt;p&gt;ご冥福をお祈りします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webサイトコンサルティング</title>
+      <link>http://localhost:1313/posts/2006-02-05-web%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Sun, 05 Feb 2006 02:32:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-05-web%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/</guid>
+      <description>&lt;p&gt;最近急に忙しくなりました。&lt;/p&gt;&#xA;&lt;p&gt;会社が新プロジェクトを立ち上げるために、その準備に追われています。&lt;/p&gt;&#xA;&lt;p&gt;Webサイトコンサルティングです。&lt;/p&gt;&#xA;&lt;p&gt;いかにしてWebで儲けるかということを顧客にアピールするかが重要な事業なのですが、これは難しい。&lt;/p&gt;&#xA;&lt;p&gt;顧客を儲けさせることができるなら、うちの会社が儲かっているはずですから。&lt;/p&gt;&#xA;&lt;p&gt;営業力や企画力よりも、技術力で勝負するのがうちの会社です。&lt;/p&gt;&#xA;&lt;p&gt;せめて心ない他社のWebサイトコンサルのようにはならないようにします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>リンク張り直し</title>
+      <link>http://localhost:1313/posts/2006-02-03-%E3%83%AA%E3%83%B3%E3%82%AF%E5%BC%B5%E3%82%8A%E7%9B%B4%E3%81%97/</link>
+      <pubDate>Fri, 03 Feb 2006 18:49:13 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-%E3%83%AA%E3%83%B3%E3%82%AF%E5%BC%B5%E3%82%8A%E7%9B%B4%E3%81%97/</guid>
+      <description>&lt;p&gt;関係者各位のサイトにリンクを張りました。&lt;/p&gt;&#xA;&lt;p&gt;個性の強い方々ばかりです。&lt;/p&gt;&#xA;&lt;p&gt;ブログのエントリーでリンクを作るのは楽で良いかも。&lt;/p&gt;&#xA;&lt;p&gt;ただ、pingサーバーにスパムと判断される可能性があるのかなぁ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>R*R</title>
+      <link>http://localhost:1313/posts/2006-02-03-rr/</link>
+      <pubDate>Fri, 03 Feb 2006 18:43:44 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-rr/</guid>
+      <description>&lt;p&gt;大学時代の後輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital-e-Nikki</title>
+      <link>http://localhost:1313/posts/2006-02-03-digital-e-nikki/</link>
+      <pubDate>Fri, 03 Feb 2006 18:40:01 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-digital-e-nikki/</guid>
+      <description>&lt;p&gt;大学時代の先輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meeting of Shinosan</title>
+      <link>http://localhost:1313/posts/2006-02-03-meeting-of-shinosan/</link>
+      <pubDate>Fri, 03 Feb 2006 18:39:12 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-meeting-of-shinosan/</guid>
+      <description>&lt;p&gt;大学時代の先輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>K&#39;s room</title>
+      <link>http://localhost:1313/posts/2006-02-03-ks-room/</link>
+      <pubDate>Fri, 03 Feb 2006 18:37:51 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-ks-room/</guid>
+      <description>&lt;p&gt;大学時代の後輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>才婆ショット</title>
+      <link>http://localhost:1313/posts/2006-02-03-%E6%89%8D%E5%A9%86%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/</link>
+      <pubDate>Fri, 03 Feb 2006 18:34:04 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-%E6%89%8D%E5%A9%86%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/</guid>
+      <description>&lt;p&gt;大学時代の後輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>N&#39;s square</title>
+      <link>http://localhost:1313/posts/2006-02-03-ns-square/</link>
+      <pubDate>Fri, 03 Feb 2006 17:57:23 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-ns-square/</guid>
+      <description>&lt;p&gt;大学時代の先輩のサイトです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>にしかはのつれづれなるままに</title>
+      <link>http://localhost:1313/posts/2006-02-03-%E3%81%AB%E3%81%97%E3%81%8B%E3%81%AF%E3%81%AE%E3%81%A4%E3%82%8C%E3%81%A5%E3%82%8C%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</link>
+      <pubDate>Fri, 03 Feb 2006 17:44:45 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-%E3%81%AB%E3%81%97%E3%81%8B%E3%81%AF%E3%81%AE%E3%81%A4%E3%82%8C%E3%81%A5%E3%82%8C%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</guid>
+      <description>&lt;p&gt;大学時代の先輩のブログです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>更新をがんばってみます</title>
+      <link>http://localhost:1313/posts/2006-02-03-%E6%9B%B4%E6%96%B0%E3%82%92%E3%81%8C%E3%82%93%E3%81%B0%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%99/</link>
+      <pubDate>Fri, 03 Feb 2006 12:11:13 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-%E6%9B%B4%E6%96%B0%E3%82%92%E3%81%8C%E3%82%93%E3%81%B0%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;ホームページ（ルートインデックスページ）を作っていなかった所為で、なかなか検索エンジンに登録されません。&lt;/p&gt;&#xA;&lt;p&gt;また、前のサイトの情報が検索エンジンに残ったままになってあまり良い状態とは言えないですね。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずは、過去の情報を駆逐するぐらいの勢いで更新をかけていきますね。&lt;/p&gt;&#xA;&lt;p&gt;姑息な手段で一時のアクセスアップをしても内容が薄ければ、リピータを獲得できませんからね。&lt;/p&gt;&#xA;&lt;p&gt;がんばりますよ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Hacks</title>
+      <link>http://localhost:1313/posts/2006-02-03-google-hacks/</link>
+      <pubDate>Fri, 03 Feb 2006 08:49:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-03-google-hacks/</guid>
+      <description>&lt;p&gt;仕事の延長で、書籍「GOOGLE HACKS」 O&amp;rsquo;REILLY を購入しました。&lt;/p&gt;&#xA;&lt;p&gt;実に興味深いGoogleの技術紹介、利用方法がびっしり詰まっています。&lt;/p&gt;&#xA;&lt;p&gt;今のところ、私がうまい利用法を思いつきませんが、少しずつ技術を取り入れていきますね。&lt;/p&gt;&#xA;&lt;p&gt;そのうち、ここでも何か試してみたいと思います。&lt;/p&gt;&#xA;&lt;p&gt;まずは、GoogleAPI からかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>POTENZA RE-01R</title>
+      <link>http://localhost:1313/posts/2006-02-02-potenza-re-01r/</link>
+      <pubDate>Thu, 02 Feb 2006 18:36:44 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-02-potenza-re-01r/</guid>
+      <description>&lt;p&gt;そろそろ春になろうという感じです。&lt;/p&gt;&#xA;&lt;p&gt;スタッドレスタイヤのブリジストン ブリザック REV01(Bridgestone BLIZZAK REV01)から、夏タイヤに履き替えねばなりません。&lt;/p&gt;&#xA;&lt;p&gt;この間まで、ブリジストン ポテンザ RE-01R (Bridgestone POTENZA RE-01R) を使っていました。&lt;/p&gt;&#xA;&lt;p&gt;すばらしいドライグリップで、ねらい通りのラインをトレースすることができました。&lt;/p&gt;&#xA;&lt;p&gt;アンダーステアに持ち込んでも、破綻したり、突然グリップが回復したりすることがなく、一定のグリップを発揮します。&lt;/p&gt;&#xA;&lt;p&gt;今度はRE050にしてみようかと思いましたが、どんなもんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり、RE-01Rかな…。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Age Of Empire Ⅲ</title>
+      <link>http://localhost:1313/posts/2006-02-01-age-of-empire-/</link>
+      <pubDate>Wed, 01 Feb 2006 02:05:17 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-01-age-of-empire-/</guid>
+      <description>&lt;p&gt;久々にPCゲームを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;Microsoft から発売された Age Of Empire Ⅲです。&lt;/p&gt;&#xA;&lt;p&gt;このシリーズは、長く続いていますね。&lt;/p&gt;&#xA;&lt;p&gt;Age Of Empire は、リアルタイム文明育成戦術ゲームです。&lt;/p&gt;&#xA;&lt;p&gt;初代、Age Of Empire では、大学時代の後輩とネットワーク対戦をして遊びました。&lt;/p&gt;&#xA;&lt;p&gt;拡張パック、Rise Of Rome で新たな文明を追加したり、コマンドで卑怯な技を使ったりと非常におもしろかったです。&lt;/p&gt;&#xA;&lt;p&gt;Age Of EmpireⅡ Age Of King もかなりグラフィックが良くなり、マップも広がり、戦術ユニット、住民ユニットが増え、これもかなり楽しかったですね。&lt;/p&gt;&#xA;&lt;p&gt;何よりこのシリーズは、常にユニットがマップ上で動いているところです。&lt;/p&gt;&#xA;&lt;p&gt;木を切ったり、建物を建てたり、戦争では血を吹いて死んだり、小さなユニットの動きがリアルで見ていて全然飽きないのが良いです。&lt;/p&gt;&#xA;&lt;p&gt;今度のAge Of Empire Ⅲもかなりのグラフィックとなり、Age Of Mythologyで使われた技術も取り込まれて良い感じです。&lt;/p&gt;&#xA;&lt;p&gt;文明の時代は、大航海時代以後の近代にわたる辺りから始まります。&lt;/p&gt;&#xA;&lt;p&gt;暇なときにやり込んでみます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>もう２月</title>
+      <link>http://localhost:1313/posts/2006-02-01-%E3%82%82%E3%81%86%EF%BC%92%E6%9C%88/</link>
+      <pubDate>Wed, 01 Feb 2006 01:48:37 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-02-01-%E3%82%82%E3%81%86%EF%BC%92%E6%9C%88/</guid>
+      <description>&lt;p&gt;急に寒さがゆるんできましたね。&lt;/p&gt;&#xA;&lt;p&gt;もうすぐ春ですね。&lt;/p&gt;&#xA;&lt;p&gt;菜の花や梅、桜などまた撮影に行かなければ。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

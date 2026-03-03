@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025-11 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2025-11/</link>
+    <description>Recent content in 2025-11 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 19 Nov 2025 23:28:14 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2025-11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASUS ROG STRIX X870E-E Gaming WIFI BIOS 1804</title>
+      <link>http://localhost:1313/posts/2025-11-19_asus-rog-strix-x870e-e-gaming-wifi-bios-1804/</link>
+      <pubDate>Wed, 19 Nov 2025 23:28:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-19_asus-rog-strix-x870e-e-gaming-wifi-bios-1804/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/&#34;&gt;ASUS ROG STRIX X870E-E Gaming WIFI BIOS 1804&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ASUSのハイエンドマザーボード &lt;strong&gt;ROG STRIX X870E-E GAMING WIFI&lt;/strong&gt; に、最新BIOSバージョン「1804」がリリースされました。&lt;/p&gt;&#xA;&lt;p&gt;今回のアップデート内容は以下の通りです。&lt;/p&gt;&#xA;&lt;h4 id=&#34;1-主な更新内容&#34;&gt;1. 主な更新内容&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AGESA ComboAM5 PI 1.2.7.0への更新&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CPUおよび周辺デバイスとの互換性向上&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;【重要な注意点】&lt;/strong&gt; 本バージョンを適用すると、これより&lt;strong&gt;過去のBIOSバージョンにロールバック（書き戻し）することができなくなります。&lt;/strong&gt; 安定性を重視する方は念頭に置いておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;私の環境（Ryzen 9 9950X3D）では、特に問題なくスムーズに更新作業が完了しました。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;2-追記20260118なぜ今回の更新が必須なのか&#34;&gt;2. 追記（2026.01.18）：なぜ今回の更新が「必須」なのか&lt;/h4&gt;&#xA;&lt;p&gt;最新の &lt;strong&gt;A.G.E.S.A 1.2.7.0&lt;/strong&gt; マイクロコードには、非常に重要な修正が含まれていることが分かりました。&lt;/p&gt;&#xA;&lt;p&gt;以前より話題になっていた、CPUのオーバークロック（OC）やPBO、EXPO/XMPプロファイルの使用時に、&lt;strong&gt;SoC電圧が突発的に安全圏（1.35V）を大きく超え、最悪の場合CPUやソケットが焼損する可能性がある問題&lt;/strong&gt;。今回のアップデートは、このリスクに対処するものだそうです。&lt;/p&gt;&#xA;&lt;p&gt;最新のRyzen 9000シリーズ、特に9950X3Dのような高価なフラッグシップCPUを使用している場合、ハードウェアを物理的な故障から守るためにも、早めに適用しておくべき内容と言えるでしょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DDR5の価格爆上げ</title>
+      <link>http://localhost:1313/posts/2025-11-18_ddr5%E3%81%AE%E4%BE%A1%E6%A0%BC%E7%88%86%E4%B8%8A%E3%81%92/</link>
+      <pubDate>Tue, 18 Nov 2025 23:49:45 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-18_ddr5%E3%81%AE%E4%BE%A1%E6%A0%BC%E7%88%86%E4%B8%8A%E3%81%92/</guid>
+      <description>&lt;p&gt;九月の下旬に、37000円ほどで買ったDDR5 6000CL30 32GBx2が、十一月の十八日時点で86000円ほどになってて驚いた。&lt;/p&gt;&#xA;&lt;p&gt;底値の時に買えて良かった。&lt;/p&gt;&#xA;&lt;p&gt;AI需要での高騰らしい。&lt;/p&gt;&#xA;&lt;p&gt;来年の夏頃まで続くのかな。&lt;/p&gt;&#xA;&lt;p&gt;AIと言いつつも知能としての役割は未だに実現できているわけでは無く、条件演算・偏重検索型大規模データベースでしかないので、まあ、WikiPediaのアホさ、信頼性と同程度でしかないんですが。Webが学習情報源なので玉石混淆で間違っていることを恰も本当らしく回答する厄介な道具ですね。&lt;/p&gt;&#xA;&lt;p&gt;ブロックチェーン（仮想通貨）もディープラーニング（AI）も様々なコストの無駄喰をする未完成な技術ですが、金が絡むと目の色を変えて飛びつく輩がいるから始末が悪い。&lt;/p&gt;&#xA;&lt;p&gt;早く消えてなくならないかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日も今日とて、明日は明日で</title>
+      <link>http://localhost:1313/posts/2025-11-16_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%8A%E6%97%A5%E3%81%A8%E3%81%A6%E6%98%8E%E6%97%A5%E3%81%AF%E6%98%8E%E6%97%A5%E3%81%A7/</link>
+      <pubDate>Sun, 16 Nov 2025 17:45:28 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-16_%E4%BB%8A%E6%97%A5%E3%82%82%E4%BB%8A%E6%97%A5%E3%81%A8%E3%81%A6%E6%98%8E%E6%97%A5%E3%81%AF%E6%98%8E%E6%97%A5%E3%81%A7/</guid>
+      <description>&lt;p&gt;てんかんと認知症で母の介護をしています。&lt;/p&gt;&#xA;&lt;p&gt;自分も鬱と不眠症があり、なかなか体力的にも精神的にもキツいですが、頑張らざるを得ないので頑張ります。&lt;/p&gt;&#xA;&lt;p&gt;肩が非常に凝っているのも自分では解せないので痛辛いです。&lt;/p&gt;&#xA;&lt;p&gt;いつになったら幸せな人生があるんでしょうか。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

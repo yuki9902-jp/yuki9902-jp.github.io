@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012-05 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2012-05/</link>
+    <description>Recent content in 2012-05 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 31 May 2012 15:59:04 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2012-05/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Windows</title>
+      <link>http://localhost:1313/posts/2012-05-31_microsoft-windows/</link>
+      <pubDate>Thu, 31 May 2012 15:59:04 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-31_microsoft-windows/</guid>
+      <description>&lt;p&gt;あまり知られていないのですが、Microsoft Windowsにも、iOSやMacみたいな端末同士の情報を共有して最新状態に保つ機能があります。&lt;/p&gt;&#xA;&lt;p&gt;Windows Live Essential に含まれるLive Meshというものですが、Windows端末同士で、文書ファイルやお気に入りなどを同期してくれます。&lt;/p&gt;&#xA;&lt;p&gt;メールやカレンダーは、おなじくLive Essential に含まれる Live Mailを通して同期されます。&lt;/p&gt;&#xA;&lt;p&gt;で、この機能はWindows 8からは標準で搭載される見込みです。&lt;/p&gt;&#xA;&lt;p&gt;あのメトロスタイルのショートカットから直接やりとりでき、ネット上のアカウントをWindowsのアカウントと紐づければ、違う端末でも、おなじ環境が得られます。&lt;/p&gt;&#xA;&lt;p&gt;Windows 7でも簡単なんですが、ちょっと後ろに隠れています。&lt;/p&gt;&#xA;&lt;p&gt;ユーザーアカウントの設定の中に「オンラインIDとリンク」という項目がありますので試してみたらいいのではないでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>まだ復旧作業中</title>
+      <link>http://localhost:1313/posts/2012-05-31_%E3%81%BE%E3%81%A0%E5%BE%A9%E6%97%A7%E4%BD%9C%E6%A5%AD%E4%B8%AD/</link>
+      <pubDate>Thu, 31 May 2012 13:14:12 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-31_%E3%81%BE%E3%81%A0%E5%BE%A9%E6%97%A7%E4%BD%9C%E6%A5%AD%E4%B8%AD/</guid>
+      <description>&lt;p&gt;さてPCのリカバリー作業ついでにHDD構成をきれいにしています。&lt;/p&gt;&#xA;&lt;p&gt;Windows 7 Ultimate x64を入れ終わりましたが、更新パッチやドライバ、アプリのインストール、環境設定など、まだ2日ぐらいかかりそうです。&lt;/p&gt;&#xA;&lt;p&gt;日曜日に電工試験があるのにあんまり勉強してないし・・・。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>復旧作業中</title>
+      <link>http://localhost:1313/posts/2012-05-31_%E5%BE%A9%E6%97%A7%E4%BD%9C%E6%A5%AD%E4%B8%AD/</link>
+      <pubDate>Thu, 31 May 2012 11:08:13 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-31_%E5%BE%A9%E6%97%A7%E4%BD%9C%E6%A5%AD%E4%B8%AD/</guid>
+      <description>&lt;p&gt;メインPCのOSをインストールしているHDDをクラッシュさせてしまい、仕方なしに音楽ファイルをため込んでいたHDDを犠牲にしてOSをインストールしています。&lt;/p&gt;&#xA;&lt;p&gt;Windows7のアップグレード版のため、アップグレード対象となるなんらかのOSを先にインストールしておかなければならないなど、面倒くさいことが多いです。&lt;/p&gt;&#xA;&lt;p&gt;一回インストールしたんですが、新規インストール（前のOSとは違うフォルダーにインストール）したら、ドキュメントなど重要なファイルがあるHDDにインストールされてしまった。&lt;/p&gt;&#xA;&lt;p&gt;OSとファイルは別々に運用したいので、またOSのインストールし直しです。&lt;/p&gt;&#xA;&lt;p&gt;今度は勝手にほかのHDDにインストールされないように、OS用のHDD以外のケーブルを抜いて、再インストールです。&lt;/p&gt;&#xA;&lt;p&gt;ああ面倒。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最悪</title>
+      <link>http://localhost:1313/posts/2012-05-30_%E6%9C%80%E6%82%AA/</link>
+      <pubDate>Wed, 30 May 2012 23:04:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-30_%E6%9C%80%E6%82%AA/</guid>
+      <description>&lt;p&gt;MAPLUS3のGPSログを Sony PlayMemories Homeに付属のGPS Image Tracker用のGPSログに変換するアプリを作って、そのポイントなんかをブログに書こうとしたら、Windows 7が無反応状態に・・・。&lt;/p&gt;&#xA;&lt;p&gt;しかたなく電源ボタンを長押しして、電源を落として再起動したら、HDDが壊れた・・・。&lt;/p&gt;&#xA;&lt;p&gt;で、応急処置にHDDを古いものと交換して、Windows 7をインストールしようとしたら、SATA接続のBD-RドライブからWindows 7のディスクがブートしない。&lt;/p&gt;&#xA;&lt;p&gt;以前、こんな問題は起きていなかった。&lt;/p&gt;&#xA;&lt;p&gt;HDDの故障はともかく、DVD-ROMブートできないのは非常につらい。&lt;/p&gt;&#xA;&lt;p&gt;どうしたものか・・・。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>修理</title>
+      <link>http://localhost:1313/posts/2012-05-24_%E4%BF%AE%E7%90%86/</link>
+      <pubDate>Thu, 24 May 2012 10:10:26 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-24_%E4%BF%AE%E7%90%86/</guid>
+      <description>&lt;p&gt;車の修理をしたです。&lt;/p&gt;&#xA;&lt;p&gt;私の車は SUBARU Impreza WRX STI (GH-GDBF)なのです。&lt;/p&gt;&#xA;&lt;p&gt;もう13万5千キロも乗っております。&lt;/p&gt;&#xA;&lt;p&gt;左前輪から、走行中しばらくするとキキキキキキキと異音が鳴り始めるようになりました。&lt;/p&gt;&#xA;&lt;p&gt;また左後輪からも、異音がします。&lt;/p&gt;&#xA;&lt;p&gt;走行距離も結構なものですし、走行中、タイヤの回転に併せて鳴るので、ハブ周辺だろうと予測できます。&lt;/p&gt;&#xA;&lt;p&gt;んで、リフトアップして、ホイール、ブレーキキャリパー、ブレーキディスクを外し、ドライブシャフトとハブを止めているナットを外し、ステアリングロッドを外します。&lt;/p&gt;&#xA;&lt;p&gt;メンバーからハブユニットを外し、ハブに入っているボールベアリングを点検します。&lt;/p&gt;&#xA;&lt;p&gt;手で回すと結構重く、またわずかな引っかかりがあります。&lt;/p&gt;&#xA;&lt;p&gt;どうやら異音の原因はベアリングの摩耗です。&lt;/p&gt;&#xA;&lt;p&gt;ベアリングを外そうと思ったのですが、このGH-GDBFは、ベアリングがハブユニットに直接圧入されているので、人間業では外せないようです。&lt;/p&gt;&#xA;&lt;p&gt;ハブユニットをまるごと交換です。&lt;/p&gt;&#xA;&lt;p&gt;左右のハブユニットを部品注文したら、届いたのがハブユニットにボルトまで装着されたものでした。&lt;/p&gt;&#xA;&lt;p&gt;片側で1万円強ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;ついでに左前輪のメンバーとハブユニットの接合部のボールジョイントのブーツが切れていたので、左右とも交換です。&lt;/p&gt;&#xA;&lt;p&gt;あとは、後輪の異音を調べるため、ブレーキローターをばらしますが、いまいち原因がはっきりしません。&lt;/p&gt;&#xA;&lt;p&gt;ハブとドライブシャフトをしめるナットに緩みがあり、がたつきがあるようなので、まし締めするとがたつきがなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;左右で締め量が違っていたのでこれが原因かもしれません。&lt;/p&gt;&#xA;&lt;p&gt;ハブナットを4輪とも交換して、きつめに締めます。&lt;/p&gt;&#xA;&lt;p&gt;キリカキにあわせて、ナットのフチを打ち曲げて固定します。&lt;/p&gt;&#xA;&lt;p&gt;すべての車輪を組み付けて終了です。&lt;/p&gt;&#xA;&lt;p&gt;走行試験をしましたが、今のところ異音はありません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>部分日食 2012/05/21 07:31</title>
+      <link>http://localhost:1313/posts/2012-05-21_%E9%83%A8%E5%88%86%E6%97%A5%E9%A3%9F-2012_05_21-07_31/</link>
+      <pubDate>Mon, 21 May 2012 08:17:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-21_%E9%83%A8%E5%88%86%E6%97%A5%E9%A3%9F-2012_05_21-07_31/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256386429-11984766829.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120521/08/yuki9902/6d/d2/j/t02200146_0800053211984766829.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX F* 300mmF4.5ED[IF] / PLフィルター + 自作フィルター&lt;/p&gt;&#xA;&lt;p&gt;1/2500s / f10 / 白色点補正(7140K)&lt;/p&gt;&#xA;&lt;p&gt;岡山県加賀郡吉備中央町&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RSKバラ園 2012/05/20</title>
+      <link>http://localhost:1313/posts/2012-05-20_rsk%E3%83%90%E3%83%A9%E5%9C%92-2012_05_20/</link>
+      <pubDate>Sun, 20 May 2012 22:06:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-20_rsk%E3%83%90%E3%83%A9%E5%9C%92-2012_05_20/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984086213.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/9e/c2/j/t02200146_0800053211984086213.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984086216.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/95/ae/j/t02200146_0800053211984086216.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984086217.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/0f/77/j/t02200146_0800053211984086217.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984086234.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/8f/92/j/t02200331_0720108311984086234.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984086273.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/0d/c4/j/t02200146_0800053211984086273.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984087631.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/80/eb/j/t02200146_0800053211984087631.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984087632.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/b1/a5/j/t02200146_0800053211984087632.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11256055157-11984087633.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20120520/22/yuki9902/be/9b/j/t02200146_0800053211984087633.jpg?caw=800&#34; alt=&#34;高原の風&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX F* 300mmF4.5ED[IF] / smcPENTAX DA* 50-135F2.8ED[IF]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>農繁期</title>
+      <link>http://localhost:1313/posts/2012-05-16_%E8%BE%B2%E7%B9%81%E6%9C%9F/</link>
+      <pubDate>Wed, 16 May 2012 17:41:09 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-16_%E8%BE%B2%E7%B9%81%E6%9C%9F/</guid>
+      <description>&lt;p&gt;代掻きに草刈りに田植えが終了しました。&lt;/p&gt;&#xA;&lt;p&gt;春の農繁期終了です。&lt;/p&gt;&#xA;&lt;p&gt;途中、叔父が「農業がやりたい」と田植えの手伝いに帰ってきたものの、農業のしんどさにすぐにギブアップ。&lt;/p&gt;&#xA;&lt;p&gt;早々に大阪に帰っていきました。&lt;/p&gt;&#xA;&lt;p&gt;農業はしんどいですが、人間嫌いには良いかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ロハス</title>
+      <link>http://localhost:1313/posts/2012-05-09_%E3%83%AD%E3%83%8F%E3%82%B9/</link>
+      <pubDate>Wed, 09 May 2012 14:49:05 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-09_%E3%83%AD%E3%83%8F%E3%82%B9/</guid>
+      <description>&lt;p&gt;人間嫌いはいかんともし難いですね。&lt;/p&gt;&#xA;&lt;p&gt;今日は代掻きをしておりますが、とても心地よいのです。&lt;/p&gt;&#xA;&lt;p&gt;緑に囲まれのんびり暮らすのが性にあっているようです。&lt;/p&gt;&#xA;&lt;p&gt;あとは木工を始めようと思います。&lt;/p&gt;&#xA;&lt;p&gt;昔から手作業は得意だったんですが、あえてITの道に進んでしまいました。&lt;/p&gt;&#xA;&lt;p&gt;能力はもったいないのかも知れませんが、人間嫌いはいかんともし難いですから、人の顔色をうかがうサラリーマンは私には無理なのです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>クサクサ</title>
+      <link>http://localhost:1313/posts/2012-05-08_%E3%82%AF%E3%82%B5%E3%82%AF%E3%82%B5/</link>
+      <pubDate>Tue, 08 May 2012 22:14:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-08_%E3%82%AF%E3%82%B5%E3%82%AF%E3%82%B5/</guid>
+      <description>&lt;p&gt;就活のとある企業の一次面接を受け、私としてはいくつかの理由で就職に値しない企業だったので、行きたくないと思っていたんですが、二次面接を言ってきました。&lt;/p&gt;&#xA;&lt;p&gt;昨日、朝10時頃に相手方から、「これから二次面接をするから一時間で出てこい」との感じで言ったので、むかっと来て「無理です。午後からなら何とか」と答えると、&lt;/p&gt;&#xA;&lt;p&gt;相手方は、「午後はだめだ、明日の9時半から10時の間で」というので、「じゃあ9時半に伺います」と答えると、相手方は、「いや、10時に」と言うので、さらにむかっと来て。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、その日程で約束をしたのですが。&lt;/p&gt;&#xA;&lt;p&gt;体調が悪くしばらく寝込んだりを繰り返しているときだったし、歯医者には行かなくちゃいけないし、で、非常に私の機嫌も悪くなりました。&lt;/p&gt;&#xA;&lt;p&gt;で、歯医者に行っているときに、自宅へ、相手方から「午後からこれますか、よかったら連絡してくれ」との電話があったようで。&lt;/p&gt;&#xA;&lt;p&gt;一時間も空けないうちに、午後から暇になったからと言って自分たちの都合だけで日程を変更してきたことに、私は完全にかちんと来て、歯医者から帰ってからも完全に無視しておきました。&lt;/p&gt;&#xA;&lt;p&gt;んで、案の定体調も悪く非常にしんどかったので、寝込んでました。&lt;/p&gt;&#xA;&lt;p&gt;するとまた4時頃に相手方からまた自宅に電話があり、家族が「寝込んでいる」と返すと「電話してくれ」とのこと。&lt;/p&gt;&#xA;&lt;p&gt;さらに「明日は大丈夫なんでしょうねぇ」と言っていたらしい。&lt;/p&gt;&#xA;&lt;p&gt;しつこさと非常識さに頭に来てました。&lt;/p&gt;&#xA;&lt;p&gt;こっちは完全に行く気がなくなっていたんですが、今日、断りを言うため、わざわざ相手側に訪問してきました。&lt;/p&gt;&#xA;&lt;p&gt;断りの本当の理由「サービス残業の強要、非常識、雰囲気の悪さ」を言うのも面倒くさいので、相手側から断る理由を与えるために、こちらから嘘の辞退理由と失礼な振る舞いをして、わざと相手を怒らせました。&lt;/p&gt;&#xA;&lt;p&gt;まあ当然、相手側は、私が意図して怒らせたことには気づかないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;さらには、私をいらない人材として思わせたことには気づかないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;こっちが本当は怒っているというの悟らせず、相手に断らせるという条件は満たせました。&lt;/p&gt;&#xA;&lt;p&gt;でも、わざととは言え、相手を怒らせて、こちらに非を作るのは、心がクサクサしてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;これで心がクサクサしないようなら、ネゴシエーターになれるかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;こんな悪い私を許してください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>引きこもり</title>
+      <link>http://localhost:1313/posts/2012-05-07_%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A/</link>
+      <pubDate>Mon, 07 May 2012 13:40:35 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-07_%E5%BC%95%E3%81%8D%E3%81%93%E3%82%82%E3%82%8A/</guid>
+      <description>&lt;p&gt;ここ数日体調が悪くて、用事があって出かける以外は引きこもっております。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり在宅でできる仕事か、拘束時間の短い仕事でないと、私にはできないのかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;はぁ、天気が良くても引きこもらなくてはならないのはつらいですね。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>けふのこと</title>
+      <link>http://localhost:1313/posts/2012-05-05_%E3%81%91%E3%81%B5%E3%81%AE%E3%81%93%E3%81%A8/</link>
+      <pubDate>Sat, 05 May 2012 23:23:44 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-05_%E3%81%91%E3%81%B5%E3%81%AE%E3%81%93%E3%81%A8/</guid>
+      <description>&lt;p&gt;今日は朝から和気町の藤棚を見に出かけておりました。&lt;/p&gt;&#xA;&lt;p&gt;4年連続見ておりますが、去年よりは花付きが良かったものの、4年前には及びません。&lt;/p&gt;&#xA;&lt;p&gt;私の別のブログを見てもらえれば、4年前の藤がいかに見応えがあったか分かっていただけるものでしょう。&lt;/p&gt;&#xA;&lt;p&gt;で、家に帰ってから、夕方頃から、激しい頭痛に襲われ、痛み止めを飲んで寝込んでおりました。&lt;/p&gt;&#xA;&lt;p&gt;数日来調子が悪かったものの、今朝方は調子が良かったので油断しておりました。&lt;/p&gt;&#xA;&lt;p&gt;やはり普通に就職して残業ができるような体ではないのですね。&lt;/p&gt;&#xA;&lt;p&gt;就活で面接に行けば体調のことを根掘り葉掘りと聞かれるもので、残業ありきの現在の状況は異常だと思いながら、残業を許容しつつもサービス残業をさせない企業を探すのは大変です。&lt;/p&gt;&#xA;&lt;p&gt;先日も面接に行けば、サービス残業を半強制するようなことを言われ、それって企業としての体をすでになしてないと思ったりして…。&lt;/p&gt;&#xA;&lt;p&gt;技術力があっても体力がないのはしんどいですね…。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>写真</title>
+      <link>http://localhost:1313/posts/2012-05-02_%E5%86%99%E7%9C%9F/</link>
+      <pubDate>Wed, 02 May 2012 23:02:57 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2012-05-02_%E5%86%99%E7%9C%9F/</guid>
+      <description>&lt;p&gt;たまゆらってアニメの一話を見ました。&lt;/p&gt;&#xA;&lt;p&gt;ほのぼのして良いアニメです。&lt;/p&gt;&#xA;&lt;p&gt;なんとなく写真家を夢見る中学生？が主人公です。&lt;/p&gt;&#xA;&lt;p&gt;「たまゆら」は、アニメの中で曰く、写真の中に映り込む白くふわふわものです。&lt;/p&gt;&#xA;&lt;p&gt;我々写真部を経験した人間がみると、逆光によってレンズ内で反射した太陽光がゴーストになって映り込む失敗写真のことなんですが、まあ、それはクォリティーや技術を追求しない最近の流行写真の手法ですから、笑って見過ごすことにしましょう。&lt;/p&gt;&#xA;&lt;p&gt;私の所属した写真部はスパルタでした。&lt;/p&gt;&#xA;&lt;p&gt;写真展前の作品選定では、部員からの酷評に耐え抜いた主張ある作品だけが生き残るわけです。&lt;/p&gt;&#xA;&lt;p&gt;そんななかで、自分の作品を作る能力、見極める能力、撮影技術、現像技術、プリント技術が、すさまじく伸びていくわけです。&lt;/p&gt;&#xA;&lt;p&gt;感性を研ぎ澄ますのも必要ですからね。&lt;/p&gt;&#xA;&lt;p&gt;ほめられてばかりじゃ、天狗になってしまって伸びるものも伸びなくなってしまうんですわ。&lt;/p&gt;&#xA;&lt;p&gt;また酷評を受け入れて自分を変革する強さも必要です。&lt;/p&gt;&#xA;&lt;p&gt;反発して自己主張を貫くためには、逃げずに正面からぶつかって、それで他人を説得できる作品を見せなければなりません。&lt;/p&gt;&#xA;&lt;p&gt;自分があらゆる面で感動できない写真は、他人を感動させることはできないのです。&lt;/p&gt;&#xA;&lt;p&gt;たまたま写った写真で満足するのではなく、自分が感動した情景を、自分の意図で、さらに効果的に表現するのが大事なのです。&lt;/p&gt;&#xA;&lt;p&gt;そう、写真について熱く語るものを私は持っています。&lt;/p&gt;&#xA;&lt;p&gt;写真を撮る自分を成長させるため、精神修行となるような労働条件の厳しい会社に務めてみたり、馬鹿なこともやっています。&lt;/p&gt;&#xA;&lt;p&gt;カメラ、写真雑誌の自称プロのカメラマンの下手な作品を見ると、修行してから出直してこいと思うのです。&lt;/p&gt;&#xA;&lt;p&gt;日本人は誰でもカメラを持っていて、しかも簡単にそれなりの写真がとれます。&lt;/p&gt;&#xA;&lt;p&gt;だからこそ本質を追究し最高の技術でもって、人を感動させられる作品を提供できるプロフェッショナルが必要だと思うのですがね。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

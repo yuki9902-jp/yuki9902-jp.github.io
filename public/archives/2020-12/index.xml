@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020-12 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2020-12/</link>
+    <description>Recent content in 2020-12 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 31 Dec 2020 19:35:46 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2020-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>今年も寒い</title>
+      <link>http://localhost:1313/posts/2020-12-31_%E4%BB%8A%E5%B9%B4%E3%82%82%E5%AF%92%E3%81%84/</link>
+      <pubDate>Thu, 31 Dec 2020 19:35:46 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-31_%E4%BB%8A%E5%B9%B4%E3%82%82%E5%AF%92%E3%81%84/</guid>
+      <description>&lt;p&gt;ブログを読み返してみると昨年も寒い年末だったようです。&lt;/p&gt;&#xA;&lt;p&gt;今日も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;昨年末にFTTHの1Gbpsに契約を変更して快適なインターネット接続が出来るようになりましたが、Youtubeへの投稿を何もしてませんね。&lt;/p&gt;&#xA;&lt;p&gt;当たり前が当たり前にならなくなった1年。&lt;/p&gt;&#xA;&lt;p&gt;時間は無情に過ぎていき、何も出来ず、ただただずっと我慢している日々。&lt;/p&gt;&#xA;&lt;p&gt;世の中の悪いところが何一つとして改善されず、正論と真実は闇に葬られ、悪化していく状況を憂いても何も変えられず、無力を悟る。&lt;/p&gt;&#xA;&lt;p&gt;来年に何かを期待することも出来ず、ただ他人に迷惑をかけずに済めばそれで良いかなと、細く短く生きていきます。&lt;/p&gt;&#xA;&lt;p&gt;皆さんには、何か良いことがある新しい年となるように祈っています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>twitterアカウント削除</title>
+      <link>http://localhost:1313/posts/2020-12-31_twitter%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%89%8A%E9%99%A4/</link>
+      <pubDate>Thu, 31 Dec 2020 11:12:59 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-31_twitter%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%89%8A%E9%99%A4/</guid>
+      <description>&lt;p&gt;twitterで流れてくるトピックが、偽善者の偏見と無知による他者への罵詈雑言、偏向されたニュースに溢れ、利用者の多くが感情を剥き出しにして争っている場になっていて、twitterの画面を見ているだけでもとても気持ち悪くなり、鬱になりそうなのでアカウントを削除しました。&lt;/p&gt;&#xA;&lt;p&gt;文字だけで相手の考えや本質を掴むのは難しいのに、140文字という制限の中で理解できるわけはないのです。&lt;/p&gt;&#xA;&lt;p&gt;脊髄反射で綴られた言葉は、便所の落書きとなにも変わりません。&lt;/p&gt;&#xA;&lt;p&gt;ただただ人を不快にさせる物です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>うっすら</title>
+      <link>http://localhost:1313/posts/2020-12-31_%E3%81%86%E3%81%A3%E3%81%99%E3%82%89/</link>
+      <pubDate>Thu, 31 Dec 2020 08:09:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-31_%E3%81%86%E3%81%A3%E3%81%99%E3%82%89/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12647223395-14874570459.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201231/08/yuki9902/8b/89/j/o1080081014874570459.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨晩、氷点下4度に下がってから雨が雪に変わりましたが、中国山地を越えてくると随分と湿気もなくなり、雪はうっすらと積もっている程度になります。&lt;/p&gt;&#xA;&lt;p&gt;雪が降ると太陽の光が反射して明るくなるし、保温効果が高くて冷え込みが和らぎます。&lt;/p&gt;&#xA;&lt;p&gt;大晦日は雪。&lt;/p&gt;&#xA;&lt;p&gt;事故をしないよう過ごしましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SMB Direct</title>
+      <link>http://localhost:1313/posts/2020-12-30_smb-direct/</link>
+      <pubDate>Wed, 30 Dec 2020 13:47:40 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-30_smb-direct/</guid>
+      <description>&lt;p&gt;Windows 10 Proには、CPUへの負荷を極力減らしネットワークインターフェイスが直接メモリにアクセス出来る機能「SMB Direct」が追加されています。&lt;/p&gt;&#xA;&lt;p&gt;これを有効にすることでネットワークのパフォーマンスが改善されます。&lt;/p&gt;&#xA;&lt;p&gt;有効にするためにはWindows PowerShellで、&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Set-NetOffloadGlobalSetting -NetworkDirect Enabled&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;と入力して、クライアント側、サーバー側の両方で設定します。&lt;/p&gt;&#xA;&lt;p&gt;ネットワークブリッジを有効にしていると、この機能が無効になります。&lt;/p&gt;&#xA;&lt;p&gt;昨日はネットワークブリッジを有効にして、帯域を2Gbpsに拡大させましたが、速度は遅くなっていました。&lt;/p&gt;&#xA;&lt;p&gt;今日、ネットワークブリッジを解除し、ジャンボフレームを9KB MTUに設定して、SMB Directの無効と有効で速度計測を行いました。&lt;/p&gt;&#xA;&lt;p&gt;CrystalDiskmarkのシーケンシャルリードで90MB/s(750Mbps)から120MB/s(1GBps)に上がりました。&lt;/p&gt;&#xA;&lt;p&gt;シーケンシャルライトでは80MB/sから90MB/sに上がりました。&lt;/p&gt;&#xA;&lt;p&gt;ランダムライト、ランダムリードともに変わりません。&lt;/p&gt;&#xA;&lt;p&gt;ランダム性能はHDDがボトルネックになっているのでSMB Directに影響されることはありません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ファイルサーバー</title>
+      <link>http://localhost:1313/posts/2020-12-30_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</link>
+      <pubDate>Wed, 30 Dec 2020 01:28:43 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-30_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</guid>
+      <description>&lt;p&gt;先月、CPUに6万円という散財をしてローンで支払中ですが、また散財して850WのPSUを買いました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/5GpsTg1acwKoHQg0cfU3F4&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Corsair RM850-2019- 850W PC電源ユニット 80PLUS GOLD PS863 CP-9020196-JP&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;11,800〜14,399円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;CPU、マザーボード、PSU、PCケース、かなり古いが使えるGPUが手元にあるので、RAMとOS用のM.2 SSDがあればファイルサーバーが組めると思い、RAM DDR4 2666MHz CL16 16GB(8GB*2)とNVMe M.2 SSD 250GBをまた買いました。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/0eVjvQDKNsjm39U6NENwma&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;CORSAIR DDR4-2666MHz デスクトップPC用 メモリモジュール VENGEANCE LPX Series 8GB×2枚キット CMK16GX4M2A2666C16&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;6,427〜14,305円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://p.odsyms15.com/5fiHuVGtRpTTYxcTtptnS0&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Western Digital WD Black 内蔵SSD M.2-2280 SN750 ゲームPC カスタムPC向け250GB NVMe 5年保証 WDS250G3X0C-EC 【国内正規代理店品】&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;6,334円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;ファイルサーバーのパーツ構成は&lt;/p&gt;&#xA;&lt;p&gt;CPU･･･AMD RYZEN 7 1700&lt;/p&gt;&#xA;&lt;p&gt;M/B･･･GIGABYTE GA-AX370 Gaming K7 (AMD X370)&lt;/p&gt;&#xA;&lt;p&gt;GPU･･･GIGABYTE GV-N105TOC-4GL (NVIDIA Geforce GTX 1050Ti OC)&lt;/p&gt;&#xA;&lt;p&gt;RAM･･･Corsair VENGEANCE LPX 16GB (2*8GB) DDR4 DRAM 2666MHz CL16&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>極寒領域</title>
+      <link>http://localhost:1313/posts/2020-12-25_%E6%A5%B5%E5%AF%92%E9%A0%98%E5%9F%9F/</link>
+      <pubDate>Fri, 25 Dec 2020 21:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-25_%E6%A5%B5%E5%AF%92%E9%A0%98%E5%9F%9F/</guid>
+      <description>&lt;p&gt;ソシャゲーの原神、新しく追加されたマップが「ドラゴンスパイン」という極寒の高山です。&lt;/p&gt;&#xA;&lt;p&gt;寒さに耐えきれなくなるとHPが削れるという要素が追加されるし、ブリザードで前は見えないし、天候が常に荒れていて薄暗いし、この領域は果てしなくストレスがたまります。&lt;/p&gt;&#xA;&lt;p&gt;実際に家の中が寒いし、冬の中国山地はいつも曇りなので、余計に気分が滅入ります。&lt;/p&gt;&#xA;&lt;p&gt;ただ少しだけ許せるのは、ガチャを引く機会がかなり増えたことでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;★5の当たり確率は0.6%という渋さなのは相変わらずなので、ガチャを引いたところで当たりはしないんですが。&lt;/p&gt;&#xA;&lt;p&gt;ああ、寒い。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>気温3度以下じゃないとエアコンを点けられない隣国</title>
+      <link>http://localhost:1313/posts/2020-12-23_%E6%B0%97%E6%B8%A93%E5%BA%A6%E4%BB%A5%E4%B8%8B%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%A8%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%92%E7%82%B9%E3%81%91%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E9%9A%A3%E5%9B%BD/</link>
+      <pubDate>Wed, 23 Dec 2020 01:29:05 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-23_%E6%B0%97%E6%B8%A93%E5%BA%A6%E4%BB%A5%E4%B8%8B%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%A8%E3%82%A8%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%92%E7%82%B9%E3%81%91%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E9%9A%A3%E5%9B%BD/</guid>
+      <description>&lt;p&gt;COVID-19の発生源であり、感染実態を世界に報告しなかったことの調査を豪州に調査するように言われたのが悔しくて、豪州からの石炭の輸入を制限して、発電、暖房用の石炭が枯渇している状況で、自身の面子を重視して、国民に電気の使用制限および計画停電を実施し、自国民を苦しめ、主要な外貨獲得のための商品製造や物流を停めてしまう愚かな隣国。&lt;/p&gt;&#xA;&lt;p&gt;1階でも3階でもない人が執拗に隣国との交流や貿易を推し進めるのは、本当に阿呆だとしか言いようがない。&lt;/p&gt;&#xA;&lt;p&gt;この第3波の原因は、こっそり緩和していた入国制限で隣国&amp;rsquo;sの人たちが大量に入ってきたから。&lt;/p&gt;&#xA;&lt;p&gt;11月までに海外から入り込んだキャリアの7割が外国籍だという事実。&lt;/p&gt;&#xA;&lt;p&gt;おまけに元観光協会会長だっただけに、GOTOキャンペーンを推進しているのも1階でも3階でもない人。&lt;/p&gt;&#xA;&lt;p&gt;総理は人身御供だし。&lt;/p&gt;&#xA;&lt;p&gt;今の我が国は、生皮を剥がれながらまだ死なないからとヘラヘラと媚び諂っているが如く。&lt;/p&gt;&#xA;&lt;p&gt;トップニュースに共同通信から買ったフェイクニュースを垂れ流しても平気な全テレビ局。&lt;/p&gt;&#xA;&lt;p&gt;骨の髄まで腐った連中には手の施しようがない。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ショートケーキの日らしい</title>
+      <link>http://localhost:1313/posts/2020-12-22_%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B1%E3%83%BC%E3%82%AD%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84/</link>
+      <pubDate>Tue, 22 Dec 2020 01:04:50 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-22_%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B1%E3%83%BC%E3%82%AD%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12645435632-14869970623.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201222/01/yuki9902/85/90/j/o1080081014869970623.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;クリスマスケーキにホールで頼むようなことは出来ないので、カットしてあるゲームを買って来ました。&lt;/p&gt;&#xA;&lt;p&gt;美味しい甘味は癒やしです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>外気温</title>
+      <link>http://localhost:1313/posts/2020-12-21_%E5%A4%96%E6%B0%97%E6%B8%A9/</link>
+      <pubDate>Mon, 21 Dec 2020 09:56:52 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-21_%E5%A4%96%E6%B0%97%E6%B8%A9/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12645279625-14869562443.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201221/09/yuki9902/f3/a1/j/o1080081014869562443.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;もう10時に近いのにこの気温。&lt;/p&gt;&#xA;&lt;p&gt;寒いです。&lt;/p&gt;&#xA;&lt;p&gt;でもここの最低気温は-13度くらいです。&lt;/p&gt;&#xA;&lt;p&gt;免許をとってからは-7度でスタッドレスタイヤを履いて信号で停止するときに10メートル滑ったくらいでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7番目のおらが村</title>
+      <link>http://localhost:1313/posts/2020-12-21_7%E7%95%AA%E7%9B%AE%E3%81%AE%E3%81%8A%E3%82%89%E3%81%8C%E6%9D%91/</link>
+      <pubDate>Mon, 21 Dec 2020 00:58:32 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-21_7%E7%95%AA%E7%9B%AE%E3%81%AE%E3%81%8A%E3%82%89%E3%81%8C%E6%9D%91/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12645238111-14869466465.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201221/00/yuki9902/22/3b/j/o1920108014869466465.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;シティーズ：スカイラインで25マス開放するMODを入れて、資金無限、土砂無限、災害なしで徐々に開発しています。&lt;/p&gt;&#xA;&lt;p&gt;林業、鉱業、農業の開発はやってますが、石油化学はまだ手つかずです。&lt;/p&gt;&#xA;&lt;p&gt;地下資源を確認せずに飲料水を汲み上げていたら、その下は油田でした。&lt;/p&gt;&#xA;&lt;p&gt;住民は平気だったようです(￣∇￣)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>体調不良</title>
+      <link>http://localhost:1313/posts/2020-12-19_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</link>
+      <pubDate>Sat, 19 Dec 2020 11:57:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-19_%E4%BD%93%E8%AA%BF%E4%B8%8D%E8%89%AF/</guid>
+      <description>&lt;p&gt;朝起きたら、ひどい頭痛に肩首筋の筋肉の硬直になってて、調子が悪いです。&lt;/p&gt;&#xA;&lt;p&gt;頭痛がひどいので、痛み止めを飲んで、首筋に懐炉を貼り付けています。&lt;/p&gt;&#xA;&lt;p&gt;痛みは和らぎましたが、頭が重いのと意識がぼんやりとするので、今日は何も出来そうにないです。&lt;/p&gt;&#xA;&lt;p&gt;珈琲に牛乳を入れて、電子レンジで温めてちびちび。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12644909277-14868597552.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201219/11/yuki9902/61/13/j/o0966064014868597552.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;はあ･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は寒さが身にしみます</title>
+      <link>http://localhost:1313/posts/2020-12-14_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%AF%92%E3%81%95%E3%81%8C%E8%BA%AB%E3%81%AB%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99/</link>
+      <pubDate>Mon, 14 Dec 2020 20:01:57 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-14_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%AF%92%E3%81%95%E3%81%8C%E8%BA%AB%E3%81%AB%E3%81%97%E3%81%BF%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;寒気が降りてきてとても寒いです。&lt;/p&gt;&#xA;&lt;p&gt;ダウン型のジャンパーを着ております。&lt;/p&gt;&#xA;&lt;p&gt;灯油の排煙で気持ち悪くなるので、温まりにくい電気のヒーターを使ってますが、足下だけ温かいです。&lt;/p&gt;&#xA;&lt;p&gt;うー、寒い。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SDGsや脱炭素は共産主義への地均し</title>
+      <link>http://localhost:1313/posts/2020-12-14_sdgs%E3%82%84%E8%84%B1%E7%82%AD%E7%B4%A0%E3%81%AF%E5%85%B1%E7%94%A3%E4%B8%BB%E7%BE%A9%E3%81%B8%E3%81%AE%E5%9C%B0%E5%9D%87%E3%81%97/</link>
+      <pubDate>Mon, 14 Dec 2020 02:46:09 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-14_sdgs%E3%82%84%E8%84%B1%E7%82%AD%E7%B4%A0%E3%81%AF%E5%85%B1%E7%94%A3%E4%B8%BB%E7%BE%A9%E3%81%B8%E3%81%AE%E5%9C%B0%E5%9D%87%E3%81%97/</guid>
+      <description>&lt;p&gt;既存の技術開発の延長や発展途上国の開発に制限をかけ、Chinaが苦手な内燃機関の開発をやめさせ、Chinaが得意だと思っている電気機器での製品を売り込むのが目的のSDGs。&lt;/p&gt;&#xA;&lt;p&gt;SDGsや脱炭素社会を積極的に推進しているのはエコテロリストであり、彼らはChina共産党から資金提供を受け、活動している。&lt;/p&gt;&#xA;&lt;p&gt;温暖化に二酸化炭素は関係しない。&lt;/p&gt;&#xA;&lt;p&gt;二酸化炭素は大気中に0.04%しか存在せず、大気に対して比熱は1.1倍程度しかない。&lt;/p&gt;&#xA;&lt;p&gt;科学的に二酸化炭素が温室効果を引き起こすことはあり得ない。&lt;/p&gt;&#xA;&lt;p&gt;それよりも水の比熱が非常に高く、水蒸気の温室効果がかなり大きい。&lt;/p&gt;&#xA;&lt;p&gt;水素ガスを燃焼させて水を作るエネルギーシステムの方が、ガソリンを燃やすエネルギーシステムよりも、温室効果を発揮する。&lt;/p&gt;&#xA;&lt;p&gt;感情論と似非科学で人々を惑わすエコテロリストとマスゴミ、左翼の言うことを聞いて間違った規制ばかりを増やすと、最終的に共産主義社会になってしまう。&lt;/p&gt;&#xA;&lt;p&gt;ガソリン車に規制をかけ続け、電気自動車を本格的に推し進めようとする日本は近い将来再び共産主義に蹂躙される。&lt;/p&gt;&#xA;&lt;p&gt;電気自動車は氷点下では非常にエネルギー効率の悪い物だということも知っておけ。&lt;/p&gt;&#xA;&lt;p&gt;電気では代替できない環境もあることをしっかり学んでおけ。&lt;/p&gt;&#xA;&lt;p&gt;世間で謳われるエコは本当に正しいのか疑問を持て。&lt;/p&gt;&#xA;&lt;p&gt;Chinaの資金で生きながらえているテレビの嘘で埋め尽くされた情報を信じる価値がどこにある。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一気に増えてきました</title>
+      <link>http://localhost:1313/posts/2020-12-13_%E4%B8%80%E6%B0%97%E3%81%AB%E5%A2%97%E3%81%88%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 13 Dec 2020 17:57:20 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-13_%E4%B8%80%E6%B0%97%E3%81%AB%E5%A2%97%E3%81%88%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>&lt;p&gt;岡山県の今日の感染者数は38人で先日発生したスナックでのクラスターの関係者から次々に陽性者が出てきています。&lt;/p&gt;&#xA;&lt;p&gt;県の発表では病床の状況はまだ余裕があるので、騒ぎ立てるほどではないですが、感染ルートの50％が分からないのは、恐怖があります。&lt;/p&gt;&#xA;&lt;p&gt;家に籠もって、食料品を買いに出るだけの我慢の1年でしたが、我慢や努力もむなしく、国が率先して感染を拡大させている現状には失望しかありません。&lt;/p&gt;&#xA;&lt;p&gt;特定（特亜）地域からの入国制限を緩めてC国やK国から入ってくるウィルスキャリアが素通しの現状では、GOTO事業をやめても感染の拡大は収まらないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;感染の大本であるC国からは絶対に終息するまで開いてはいけないのですが･･･。&lt;/p&gt;&#xA;&lt;p&gt;セカンドフロアや親C派の議員や官僚共は、マジ腐っている。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PBO2は難しい･･･(訂正)</title>
+      <link>http://localhost:1313/posts/2020-12-11_pbo2%E3%81%AF%E9%9B%A3%E3%81%97%E3%81%84%E8%A8%82%E6%AD%A3/</link>
+      <pubDate>Fri, 11 Dec 2020 22:36:57 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-11_pbo2%E3%81%AF%E9%9B%A3%E3%81%97%E3%81%84%E8%A8%82%E6%AD%A3/</guid>
+      <description>&lt;p&gt;AMD RYZEN 7 5800XとASUS ROG STRIX X580-F GAMING BIOS 3001(AGESA 1.1.8.0)でPrecision Boost OverDrive 2の効果を確認してみました。&lt;/p&gt;&#xA;&lt;p&gt;UEFIでPrecision Boost OverDriveを有効にして、高性能コア2つの電圧設定を「-」（Negative）の0～10、それ以外を同じく「-」の20～30、TDPをマニュアルで180に設定して起動して確認しました。&lt;/p&gt;&#xA;&lt;p&gt;CINEBENCH R20&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;PBO2&lt;/th&gt;&#xA;          &lt;th&gt;★&lt;/th&gt;&#xA;          &lt;th&gt;●&lt;/th&gt;&#xA;          &lt;th&gt;他のコア&lt;/th&gt;&#xA;          &lt;th&gt;測定&lt;/th&gt;&#xA;          &lt;th&gt;Score(cb)&lt;/th&gt;&#xA;          &lt;th&gt;Clock(GHz)&lt;/th&gt;&#xA;          &lt;th&gt;消費電力(W)&lt;/th&gt;&#xA;          &lt;th&gt;電圧(V)&lt;/th&gt;&#xA;          &lt;th&gt;温度(℃)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;有効&lt;/td&gt;&#xA;          &lt;td&gt;-5&lt;/td&gt;&#xA;          &lt;td&gt;-10&lt;/td&gt;&#xA;          &lt;td&gt;-30&lt;/td&gt;&#xA;          &lt;td&gt;MP&lt;/td&gt;&#xA;          &lt;td&gt;5778&lt;/td&gt;&#xA;          &lt;td&gt;4.775&lt;/td&gt;&#xA;          &lt;td&gt;140&lt;/td&gt;&#xA;          &lt;td&gt;1.444&lt;/td&gt;&#xA;          &lt;td&gt;77&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SP&lt;/td&gt;&#xA;          &lt;td&gt;620&lt;/td&gt;&#xA;          &lt;td&gt;5.050&lt;/td&gt;&#xA;          &lt;td&gt;64&lt;/td&gt;&#xA;          &lt;td&gt;1.475&lt;/td&gt;&#xA;          &lt;td&gt;64&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;有効&lt;/td&gt;&#xA;          &lt;td&gt;-0&lt;/td&gt;&#xA;          &lt;td&gt;-5&lt;/td&gt;&#xA;          &lt;td&gt;-20&lt;/td&gt;&#xA;          &lt;td&gt;MP&lt;/td&gt;&#xA;          &lt;td&gt;5759&lt;/td&gt;&#xA;          &lt;td&gt;4.725&lt;/td&gt;&#xA;          &lt;td&gt;144&lt;/td&gt;&#xA;          &lt;td&gt;1.488&lt;/td&gt;&#xA;          &lt;td&gt;79&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SP&lt;/td&gt;&#xA;          &lt;td&gt;617&lt;/td&gt;&#xA;          &lt;td&gt;5.050&lt;/td&gt;&#xA;          &lt;td&gt;65&lt;/td&gt;&#xA;          &lt;td&gt;1.488&lt;/td&gt;&#xA;          &lt;td&gt;66&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;無効&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;MP&lt;/td&gt;&#xA;          &lt;td&gt;6170&lt;/td&gt;&#xA;          &lt;td&gt;4.725&lt;/td&gt;&#xA;          &lt;td&gt;144&lt;/td&gt;&#xA;          &lt;td&gt;1.281&lt;/td&gt;&#xA;          &lt;td&gt;85&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SP&lt;/td&gt;&#xA;          &lt;td&gt;606&lt;/td&gt;&#xA;          &lt;td&gt;4.725&lt;/td&gt;&#xA;          &lt;td&gt;65&lt;/td&gt;&#xA;          &lt;td&gt;1.294&lt;/td&gt;&#xA;          &lt;td&gt;58&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;手動オーバークロックだと最大負荷時にコア電圧が下がります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 3001 Update</title>
+      <link>http://localhost:1313/posts/2020-12-09_asus-rog-strix-x570-f-gaming-bios-3001-update/</link>
+      <pubDate>Wed, 09 Dec 2020 17:57:18 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-09_asus-rog-strix-x570-f-gaming-bios-3001-update/</guid>
+      <description>&lt;p&gt;「&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download/&#34;&gt;ASUS ROG STRIX X570-F GamingのBIOS バージョン3001&lt;/a&gt;」が公開されました。&lt;/p&gt;&#xA;&lt;p&gt;新しいCPUのサポートとAMD SAM(Smart Access Memory)を使用できるようにするための「ReSize BAR」の項目が追加されました。&lt;/p&gt;&#xA;&lt;p&gt;他にPrecision Boost Overdrive 2に関連する項目が表示されていたのでAGESA 1.1.8.0が適用されたBIOSだと思います。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の項目の設定方法がいまいち分からないですが、使っていないコアの電圧を引き下げて電力と熱容量を確保し、負荷の高いコアに余った電力を供給して性能向上を図るらしいです。&lt;/p&gt;&#xA;&lt;p&gt;AMDのスライドを使っただけの概要はAMD HEROSに紹介されていますが、個体によって設定値が異なるので、自分で追い込んでいく必要があるみたいです。&lt;/p&gt;&#xA;&lt;p&gt;設定してみましたが、sweet spotを外しているみたいで大幅に性能ダウンしてしまうので、追い込みは難しいです。&lt;/p&gt;&#xA;&lt;p&gt;面倒くさいので、全コア4.725GHzにオーバークロックにしました。&lt;/p&gt;&#xA;&lt;p&gt;PBO2に関しては、日本語で詳しく設定方法を解説した情報がでるまで待ちます。&lt;/p&gt;&#xA;&lt;p&gt;PBOも使わなかったし、結局PBO2も使わないような気がします。&lt;/p&gt;&#xA;&lt;p&gt;AMD SAMついでにPCI-Eの設定項目の中に「Above 4G Decoding」があります。&lt;/p&gt;&#xA;&lt;p&gt;32bitの限界を超え4GBを超えるデータを一気に読み書きできます。&lt;/p&gt;&#xA;&lt;p&gt;64bit OSを使っている場合はONにしておけば、もしかしたら良いパフォーマンスを得られるかもしれません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AMD RYZEN 7シリーズの性能比較</title>
+      <link>http://localhost:1313/posts/2020-12-09_amd-ryzen-7%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%80%A7%E8%83%BD%E6%AF%94%E8%BC%83/</link>
+      <pubDate>Wed, 09 Dec 2020 10:42:57 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-09_amd-ryzen-7%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%80%A7%E8%83%BD%E6%AF%94%E8%BC%83/</guid>
+      <description>&lt;p&gt;RYZEN 7シリーズの比較&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CPU&lt;/th&gt;&#xA;          &lt;th&gt;Clock&lt;/th&gt;&#xA;          &lt;th&gt;Memory&lt;/th&gt;&#xA;          &lt;th&gt;Chip Set&lt;/th&gt;&#xA;          &lt;th&gt;CINEBENCH R20&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;CINEBENCH R15&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;MP&lt;/td&gt;&#xA;          &lt;td&gt;Single&lt;/td&gt;&#xA;          &lt;td&gt;MP&lt;/td&gt;&#xA;          &lt;td&gt;Single&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 1700&lt;/td&gt;&#xA;          &lt;td&gt;3.6GHz&lt;/td&gt;&#xA;          &lt;td&gt;2993MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X370&lt;/td&gt;&#xA;          &lt;td&gt;3526&lt;/td&gt;&#xA;          &lt;td&gt;331&lt;/td&gt;&#xA;          &lt;td&gt;1436&lt;/td&gt;&#xA;          &lt;td&gt;151&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 3700X&lt;/td&gt;&#xA;          &lt;td&gt;4.3GHz&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td&gt;4977&lt;/td&gt;&#xA;          &lt;td&gt;495&lt;/td&gt;&#xA;          &lt;td&gt;2214&lt;/td&gt;&#xA;          &lt;td&gt;206&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 5800X&lt;/td&gt;&#xA;          &lt;td&gt;4.725GHz&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td&gt;6180&lt;/td&gt;&#xA;          &lt;td&gt;607&lt;/td&gt;&#xA;          &lt;td&gt;2693&lt;/td&gt;&#xA;          &lt;td&gt;258&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CPU&lt;/th&gt;&#xA;          &lt;th&gt;Clock&lt;/th&gt;&#xA;          &lt;th&gt;Memory&lt;/th&gt;&#xA;          &lt;th&gt;Chip Set&lt;/th&gt;&#xA;          &lt;th&gt;GPU&lt;/th&gt;&#xA;          &lt;th&gt;FF XIV 紅蓮のリベレーター&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;FF XIV 漆黒のヴィランズ&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;最高品質&lt;/td&gt;&#xA;          &lt;td&gt;FPS (Avg.)&lt;/td&gt;&#xA;          &lt;td&gt;最高品質&lt;/td&gt;&#xA;          &lt;td&gt;FPS (Avg.)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 1700&lt;/td&gt;&#xA;          &lt;td&gt;3.6GHz&lt;/td&gt;&#xA;          &lt;td&gt;2996MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X370&lt;/td&gt;&#xA;          &lt;td&gt;Geforce GTX 1060 6GB&lt;/td&gt;&#xA;          &lt;td&gt;12253&lt;/td&gt;&#xA;          &lt;td&gt;83.82&lt;/td&gt;&#xA;          &lt;td&gt;12183&lt;/td&gt;&#xA;          &lt;td&gt;85.8196&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 3700X&lt;/td&gt;&#xA;          &lt;td&gt;4.3GHz&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td&gt;Geforce GTX 1060 6GB&lt;/td&gt;&#xA;          &lt;td&gt;13081&lt;/td&gt;&#xA;          &lt;td&gt;87.73&lt;/td&gt;&#xA;          &lt;td&gt;13772&lt;/td&gt;&#xA;          &lt;td&gt;93.0694&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RADEON RX 5700XT&lt;/td&gt;&#xA;          &lt;td&gt;17712&lt;/td&gt;&#xA;          &lt;td&gt;123.412&lt;/td&gt;&#xA;          &lt;td&gt;18043&lt;/td&gt;&#xA;          &lt;td&gt;132.0101&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 5800X&lt;/td&gt;&#xA;          &lt;td&gt;4.725GHz&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td&gt;RADEON RX 5700XT&lt;/td&gt;&#xA;          &lt;td&gt;21794&lt;/td&gt;&#xA;          &lt;td&gt;146.884&lt;/td&gt;&#xA;          &lt;td&gt;22206&lt;/td&gt;&#xA;          &lt;td&gt;151.3159&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12642945202-14863770273.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201209/10/yuki9902/3f/cb/p/o0475035914863770273.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>川の中州に建設中 - CITIES：SKYLINES</title>
+      <link>http://localhost:1313/posts/2020-12-07_%E5%B7%9D%E3%81%AE%E4%B8%AD%E5%B7%9E%E3%81%AB%E5%BB%BA%E8%A8%AD%E4%B8%AD---citiesskylines/</link>
+      <pubDate>Mon, 07 Dec 2020 20:09:39 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-07_%E5%B7%9D%E3%81%AE%E4%B8%AD%E5%B7%9E%E3%81%AB%E5%BB%BA%E8%A8%AD%E4%B8%AD---citiesskylines/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12642643982-14863039659.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201207/20/yuki9902/c9/cd/j/o1920108014863039659.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;川の中州に街を建設中です。&lt;/p&gt;&#xA;&lt;p&gt;低層住宅を中心にリゾートっぽく作っていましたが、高層住宅、高層商業ビルを許可するとあっという間に超高層ビル群が出来てしまいました。&lt;/p&gt;&#xA;&lt;p&gt;災害発生を0にしているので中州でも街に出来ますが、災害発生頻度をあげると、すぐに壊滅してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;また気が向いたときにスクラップアンドビルドします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XMedia Recodeが落ちないだと</title>
+      <link>http://localhost:1313/posts/2020-12-04_xmedia-recode%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E3%81%A0%E3%81%A8/</link>
+      <pubDate>Fri, 04 Dec 2020 21:41:36 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-04_xmedia-recode%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E3%81%A0%E3%81%A8/</guid>
+      <description>&lt;p&gt;XMedia Recode 3.5.2.3にアップデートしたら落ちなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;mp4でちゃんと出力できます。&lt;/p&gt;&#xA;&lt;p&gt;AVI（Motion JPEG FHD 25fps / PCM 32kHz Mono）1分30秒（1GB）をMP4（AMD AMF エンコーダー）に変換させてみました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12642060014-14861530948.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201204/21/yuki9902/c3/7f/p/o0604045514861530948.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;20秒で変換できました。&lt;/p&gt;&#xA;&lt;p&gt;落ちるときは、エンコード開始1秒で落ちて、中身のないファイルが出来るんですが、ちゃんと再生できるmp4ファイルが出来ていました。&lt;/p&gt;&#xA;&lt;p&gt;ということで、XMedia Recodeが落ちる人は、最新版にアップデートしてみましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4.725GHzか4.7GHzか</title>
+      <link>http://localhost:1313/posts/2020-12-01_4.725ghz%E3%81%8B4.7ghz%E3%81%8B/</link>
+      <pubDate>Tue, 01 Dec 2020 03:15:28 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-01_4.725ghz%E3%81%8B4.7ghz%E3%81%8B/</guid>
+      <description>&lt;p&gt;AMD RYZEN 7 5800Xのオーバークロックを詰めています。&lt;/p&gt;&#xA;&lt;p&gt;BIOSでPBOをAutoで設定して、AMD RYZEN MASTERでPBOのTDPを150Wに設定して、CINEBENCH R15を走らせるとSingleは268になるもののマルチは2500程度になります。&lt;/p&gt;&#xA;&lt;p&gt;消費電力も135Wを超えてくるし、CPUパッケージ温度も85度を超えてきます。&lt;/p&gt;&#xA;&lt;p&gt;BIOSでCPUを4.725GHzに設定して、SoC電圧設定をオフセットモードにして[-]にします。&lt;/p&gt;&#xA;&lt;p&gt;ASUS AI Suite 3での設定だけではCINEBENCH R15が転けるので、BIOSで設定です。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 &lt;a href=&#34;mailto:5800X@4.725GHz&#34;&gt;5800X@4.725GHz&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Single 258&lt;/p&gt;&#xA;&lt;p&gt;マルチ 2693&lt;/p&gt;&#xA;&lt;p&gt;バックグラウンドで動くアプリを終了すれば、他のブログで掲載されているような数値になるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;消費電力は139Wで、温度は81度まで上がります。&lt;/p&gt;&#xA;&lt;p&gt;アイドル時は43W、42度ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;微妙なところですが、4.7GHzに設定した方が消費電力と温度のバランスが良いように思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>四川風麻婆豆腐</title>
+      <link>http://localhost:1313/posts/2020-12-01_%E5%9B%9B%E5%B7%9D%E9%A2%A8%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</link>
+      <pubDate>Tue, 01 Dec 2020 01:48:09 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2020-12-01_%E5%9B%9B%E5%B7%9D%E9%A2%A8%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</guid>
+      <description>&lt;p&gt;12月になりました。&lt;/p&gt;&#xA;&lt;p&gt;寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;今晩は、寒い日に身体が温まる四川風麻婆豆腐を作りました。&lt;/p&gt;&#xA;&lt;p&gt;1，中華鍋を煙が出るまで熱し、太白胡麻油を入れて更に煙が出るまで熱する。&lt;/p&gt;&#xA;&lt;p&gt;2，黒胡椒、塩をした豚挽肉を中華鍋に入れ、油が透明になるまで炒めてから、鍋から取り上げる。&lt;/p&gt;&#xA;&lt;p&gt;3，1の手順で熱した鍋に豆板醤を入れ焦げないように炒める。&lt;/p&gt;&#xA;&lt;p&gt;4，花椒（ホアジャオ）を入れ香りを出す。&lt;/p&gt;&#xA;&lt;p&gt;5，唐辛子を入れ焦げないように辛さを引き出す。&lt;/p&gt;&#xA;&lt;p&gt;6，生姜を入れ炒める。&lt;/p&gt;&#xA;&lt;p&gt;7，大蒜を入れ炒める。&lt;/p&gt;&#xA;&lt;p&gt;8，葱を入れ炒める。&lt;/p&gt;&#xA;&lt;p&gt;9，火を弱め、豆豉醤、甜麺醤を入れ炒める。&lt;/p&gt;&#xA;&lt;p&gt;10，日本酒、創味シャンタンDX、水を入れ強火で煮立たせる。&lt;/p&gt;&#xA;&lt;p&gt;11，オイスターソース、韮を入れる。&lt;/p&gt;&#xA;&lt;p&gt;12，別に熱湯で温めていた絹ごし豆腐を入れ煮立たせる。&lt;/p&gt;&#xA;&lt;p&gt;13，煮立たせた鍋の中に、水溶き片栗粉を少しずつ加え、とろみをつけていく。&lt;/p&gt;&#xA;&lt;p&gt;14，皿に盛った麻婆豆腐に四川風辣油を入れ好みの辛さにする。&lt;/p&gt;&#xA;&lt;p&gt;毎回手順が微妙にずれます。&lt;/p&gt;&#xA;&lt;p&gt;油を思い切ってたくさん入れると本格的な仕上がりになりますが、やはり躊躇します。&lt;/p&gt;&#xA;&lt;p&gt;ご飯が進みすぎるおかずなので要注意です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

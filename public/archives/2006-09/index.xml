@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2006-09 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2006-09/</link>
+    <description>Recent content in 2006-09 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 27 Sep 2006 00:10:15 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2006-09/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ナビ取り付け後日誌 ２</title>
+      <link>http://localhost:1313/posts/2006-09-27-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E5%BE%8C%E6%97%A5%E8%AA%8C-%EF%BC%92/</link>
+      <pubDate>Wed, 27 Sep 2006 00:10:15 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-27-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E5%BE%8C%E6%97%A5%E8%AA%8C-%EF%BC%92/</guid>
+      <description>&lt;p&gt;やっぱりナビの配線は気になるようで、検索ヒット率が上がります。&lt;/p&gt;&#xA;&lt;p&gt;「のれん分けハーネス」が気になるんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;インプレッサのアクセサリカタログには注意書き程度に掲載されているんですが、オーディオカタログには掲載されていません。&lt;/p&gt;&#xA;&lt;p&gt;実際、この「のれん分けハーネス」を使うシーンは、ナビの取り付けだとおもうのですが。&lt;/p&gt;&#xA;&lt;p&gt;５年前には、LEGACYの部品として手に入れなければなりませんでした。&lt;/p&gt;&#xA;&lt;p&gt;当時は「のれん分けハーネス」と言う名称でもなく、ナビ取り付けようのコネクタと言って注文しました。&lt;/p&gt;&#xA;&lt;p&gt;さて、この「のれん分けハーネス」の配線は、&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;１：バッテリ（＋）&lt;/li&gt;&#xA;&lt;li&gt;２：ACC&lt;/li&gt;&#xA;&lt;li&gt;３：IG&lt;/li&gt;&#xA;&lt;li&gt;４：ILL&lt;/li&gt;&#xA;&lt;li&gt;５：SPEED&lt;/li&gt;&#xA;&lt;li&gt;６：BACK&lt;/li&gt;&#xA;&lt;li&gt;７：GND&lt;/li&gt;&#xA;&lt;li&gt;８：ハンドブレーキ&lt;/li&gt;&#xA;&lt;li&gt;９：H/Lamp&lt;/li&gt;&#xA;&lt;li&gt;１０：TAIL/Lamp&lt;/li&gt;&#xA;&lt;li&gt;１１：ROOM/Lamp&lt;/li&gt;&#xA;&lt;li&gt;１２：BACK DOOR&lt;/li&gt;&#xA;&lt;li&gt;１３：ALT&lt;/li&gt;&#xA;&lt;li&gt;１４：&lt;/li&gt;&#xA;&lt;li&gt;１５：P・P&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;となっています。（「のれん分けハーネス」付属説明書より）&lt;/p&gt;&#xA;&lt;p&gt;色々と分からない略文字になっていますが、ナビの取り付けなら、「SPEED」と「BACK」と「ハンドブレーキ」に結線するだけです。&lt;/p&gt;&#xA;&lt;p&gt;「GND」以外は、すべてギボシ端子なので、ナビの配線を直すことなくポン付けできます。&lt;/p&gt;&#xA;&lt;p&gt;エレクトロタップは、個人的に嫌いです。&lt;/p&gt;&#xA;&lt;p&gt;理由は簡単、芯線を痛めてしまう為です。&lt;/p&gt;&#xA;&lt;p&gt;無理に取り外そうとすると、線を切ってしまうおそれがあります。&lt;/p&gt;&#xA;&lt;p&gt;「のれん分けハーネス」の値段は、定価で２０００円と、かなり安いので素直に「のれん分けハーネス」を買ってナビを取り付けるのがいいでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;でなければ、ECUをはぐって車速パルスの線へ結線したり、バックランプまで配線して結線したり、ハンドブレーキまで配線して警告灯スイッチに結線したり、何かと配線する必要があり、結構大変です。&lt;/p&gt;&#xA;&lt;p&gt;「のれん分けハーネス」に更に「のれん分けハーネス」を接続することもできそうです。&lt;/p&gt;&#xA;&lt;p&gt;ほかのオプション品をつける際にも役立つでしょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ナビ取り付け後日誌 １</title>
+      <link>http://localhost:1313/posts/2006-09-19-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E5%BE%8C%E6%97%A5%E8%AA%8C-%EF%BC%91/</link>
+      <pubDate>Tue, 19 Sep 2006 23:38:56 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-19-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E5%BE%8C%E6%97%A5%E8%AA%8C-%EF%BC%91/</guid>
+      <description>&lt;p&gt;PanasonicのHDDナビCN-HDS620DをIMPREZA WRX STI (GH-GDBF)を取り付けて、使い勝手にそれなりに満足はしているものの、それはあくまで昼間での使用に関して。&lt;/p&gt;&#xA;&lt;p&gt;夜間は、ボタンの青い照明が眩しくて、ちょっと左側が見にくくなりました。&lt;/p&gt;&#xA;&lt;p&gt;画面はOFFにできるのでいいのですが、ボタンの照明はOFFにできません。&lt;/p&gt;&#xA;&lt;p&gt;ナビ本体の電源を落とすこともできないので、ちょっと対策を検討しなければ。&lt;/p&gt;&#xA;&lt;p&gt;夜の山道を攻めるときは、青い光が眩しく完全に邪魔になってしまいます。&lt;/p&gt;&#xA;&lt;p&gt;ばらして、輝度の低いLEDに交換するか、ボタンの上に簡単なカバーをつけるか。&lt;/p&gt;&#xA;&lt;p&gt;映り込みも気になるので、ボタンの上にカバーをつけるのが良いのかな…。&lt;/p&gt;&#xA;&lt;p&gt;青は眩しいのでオレンジ系統に交換するのも良いかも。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ナビ取り付け日誌 ２</title>
+      <link>http://localhost:1313/posts/2006-09-17-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%97%A5%E8%AA%8C-%EF%BC%92/</link>
+      <pubDate>Sun, 17 Sep 2006 20:32:56 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-17-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%97%A5%E8%AA%8C-%EF%BC%92/</guid>
+      <description>&lt;p&gt;さて、ナビの取り付けですが、途中の写真を撮るのを忘れてました。&lt;/p&gt;&#xA;&lt;p&gt;フロントウィンドーへの取り付け規制が厳しいのですが、最近のナビなので規制の範囲内に取り付けできます。&lt;/p&gt;&#xA;&lt;p&gt;１．センターパネルをまず外して、グローブボックスもハンドル下のカバーも外します。&lt;/p&gt;&#xA;&lt;p&gt;２．テレビチューナーとVICSのアンテナをフロントウィンドーに貼り付けます。&lt;/p&gt;&#xA;&lt;p&gt;ドライバーの柄でゴシゴシとこすりつけて、後はフィルムをはがせば完了。&lt;/p&gt;&#xA;&lt;p&gt;３．Aピラーの内張をはがします。これは、力ずく。&lt;/p&gt;&#xA;&lt;p&gt;ウィンドーのフィルムにアンテナ線を取り付けて、Aピラーに線を固定します。&lt;/p&gt;&#xA;&lt;p&gt;あとは内張をはめて完了。&lt;/p&gt;&#xA;&lt;p&gt;４．GPSアンテナですが、これはダッシュボードの中に埋め込みます。&lt;/p&gt;&#xA;&lt;p&gt;インプレッサの特徴的な時計のついたパネルを力任せに上に引っ張って外します。&lt;/p&gt;&#xA;&lt;p&gt;するとエアコンのダクトが見えます。&lt;/p&gt;&#xA;&lt;p&gt;この上に金属のプレートを貼り付けて、GPSアンテナを載っけます。&lt;/p&gt;&#xA;&lt;p&gt;ついでにETCアンテナもここから配線します。&lt;/p&gt;&#xA;&lt;p&gt;ETCユニットはグローブボックスの中に設置。&lt;/p&gt;&#xA;&lt;p&gt;５．前回整理しておいたナビの電源周りの配線をインプレッサのオーディオコネクタに差し込みます。&lt;/p&gt;&#xA;&lt;p&gt;車速パルスとバックランプの配線をハンドル下の「のれん分けハーネス」に接続します。&lt;/p&gt;&#xA;&lt;p&gt;ちなみに「のれん分けハーネス」には、配線図が付属しているので特に迷うことはないはずです。&lt;/p&gt;&#xA;&lt;p&gt;６．アンテナ線、GPSアンテナ線、ETC接続ケーブルを束ねてグローブボックスの裏に釣るように整理します。&lt;/p&gt;&#xA;&lt;p&gt;７．ナビ本体に、インプレッサに付属の固定用金属パネルを取り付けて、センターコンソールにはめ込み仮止め。&lt;/p&gt;&#xA;&lt;p&gt;８．配線を押し込みながらグローブボックスを取り付けます。&lt;/p&gt;&#xA;&lt;p&gt;９．エンジンを掛けて、ナビの動作確認。問題なく動いています。&lt;/p&gt;&#xA;&lt;p&gt;１０．外した各パネルをすべて取り付けて完了。&lt;/p&gt;&#xA;&lt;p&gt;これは取り付け後の写真。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP1004.jpg&#34; alt=&#34;_IGP1004.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ETCアンテナ以外はほんとに目立ちません。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP1005.jpg&#34; alt=&#34;_IGP1005.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ついでに、フォグランプを取り付けたので。&lt;/p&gt;&#xA;&lt;p&gt;すでに配線済みです。フォグランプキットには、ランプとスイッチ、リレーが入っています。&lt;/p&gt;&#xA;&lt;p&gt;フォグランプ用バンパーパネルは別売なので同時に購入。&lt;/p&gt;&#xA;&lt;p&gt;ランプの配線もすでに取り付け位置まで来ています。&lt;/p&gt;&#xA;&lt;p&gt;はめるだけ。&lt;/p&gt;&#xA;&lt;p&gt;フォグランプをつけたほうが、私としては引き締まった感じがするのですが。&lt;/p&gt;&#xA;&lt;p&gt;チェリーレッドのマークがあまり好きでないからかもしれませんが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PENTAX K10D</title>
+      <link>http://localhost:1313/posts/2006-09-16-pentax-k10d/</link>
+      <pubDate>Sat, 16 Sep 2006 00:45:31 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-16-pentax-k10d/</guid>
+      <description>&lt;p&gt;ようやく使えるカメラがペンタックスから発売されます。&lt;/p&gt;&#xA;&lt;p&gt;ここに来て、部品供給の問題でことごとくレンズを生産中止せざるを得なかった状況からすると、このボディー売れ行き次第でレンズのラインナップの方向性が確定してしまうと言うことです。&lt;/p&gt;&#xA;&lt;p&gt;フルサイズのデジカメが欲しいのですが、これまで失ってきた操作性が復活するのは大いに歓迎ですし、今持っている*istDsを下取りにして買い換えるだけの魅力はあります。&lt;/p&gt;&#xA;&lt;p&gt;やっぱりハイパーマニュアルとハイパープログラムがないといけないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;ただ微妙なのは、レンズが少ないことです。&lt;/p&gt;&#xA;&lt;p&gt;光学系を変えなくても内部の電装品やら基盤やらを最新（改訂）にして、早急にラインナップを充実してもらいたいところです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ナビ取り付け日誌　１</title>
+      <link>http://localhost:1313/posts/2006-09-14-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%97%A5%E8%AA%8C-%EF%BC%91/</link>
+      <pubDate>Thu, 14 Sep 2006 23:37:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-14-%E3%83%8A%E3%83%93%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%97%A5%E8%AA%8C-%EF%BC%91/</guid>
+      <description>&lt;p&gt;パナソニックのストラーダを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;CN-HDS620D です。&lt;/p&gt;&#xA;&lt;p&gt;ナビを取り付けていく過程を綴ってみます。&lt;/p&gt;&#xA;&lt;p&gt;意外にこれが役に立つんですよ。&lt;/p&gt;&#xA;&lt;p&gt;さて下の写真（写真をクリックすると大きくなります）は、とリあえずの配線処理をしたものです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP0997.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP0997-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;１．　車速パルスとバックランプ（リバースギア）の信号線です。&lt;/p&gt;&#xA;&lt;p&gt;ギボシ加工をして、「のれん分けハーネス」へ接続できるようにしています。&lt;/p&gt;&#xA;&lt;p&gt;２．　サイドブレーキ（ハンドブレーキ）の信号線です。&lt;/p&gt;&#xA;&lt;p&gt;本来なら、「のれん分けハーネス」またはサイドブレーキに繋がっているサイドブレーキ警告灯の信号線につなぎますが、私は悪い子なので、直接グランド（アース）につなぎます。&lt;/p&gt;&#xA;&lt;p&gt;３．　ナビ本体からのグランド（アース、コールド）線です。&lt;/p&gt;&#xA;&lt;p&gt;ねじ止め用の端子（裸圧着端子、C字型端子）を切断して、ギボシに交換します。&lt;/p&gt;&#xA;&lt;p&gt;４．　オーディオ用コネクタのグランド線です。&lt;/p&gt;&#xA;&lt;p&gt;５．の社外品オーディオ用コネクタもC字型端子だったので切断して、ギボシに加工します。&lt;/p&gt;&#xA;&lt;p&gt;また、サイドブレーキ信号線とつなぐためにギボシから分岐させます。&lt;/p&gt;&#xA;&lt;p&gt;６．　ETC接続ケーブルです。&lt;/p&gt;&#xA;&lt;p&gt;全長７メートルのケーブルです。長すぎます。&lt;/p&gt;&#xA;&lt;p&gt;GPSアンテナ、テレビアンテナ、ETC接続ケーブルをのぞき、信号線やら電源は、すべてオーディオ用コ&lt;/p&gt;&#xA;&lt;p&gt;ネクタにつなぎます。&lt;/p&gt;&#xA;&lt;p&gt;軽く準備できました。&lt;/p&gt;&#xA;&lt;p&gt;「のれん分けハーネス」ですが、ETCの取り付けのためすでに購入して取り付けています。&lt;/p&gt;&#xA;&lt;p&gt;このハーネスは、ハンドル右下のパネルを外して、ヒューズボックスの裏をまさぐります。&lt;/p&gt;&#xA;&lt;p&gt;すると、白色の１５ピンコネクタが見つかります。これに繋げます。&lt;/p&gt;&#xA;&lt;p&gt;はっきり言います。このコネクタは、ハンドルの下に潜り込んでも、すぐには見えません。&lt;/p&gt;&#xA;&lt;p&gt;かなりまさぐって見つけます。作業時にサイドストレーキを壊さないように注意しましょう。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、今日はここまで。&lt;/p&gt;&#xA;&lt;p&gt;この週末に車に取り付けに掛かります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ETC(CY-ET900D)の取り付け</title>
+      <link>http://localhost:1313/posts/2006-09-12-etccy-et900d%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91/</link>
+      <pubDate>Tue, 12 Sep 2006 00:22:23 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2006-09-12-etccy-et900d%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91/</guid>
+      <description>&lt;p&gt;ガソリンを入れるためのクレジットカードで、せっせとポイントを集めて、パナソニックのETC(CY-ET900D)をゲットしました。それは５月の話ですが。&lt;/p&gt;&#xA;&lt;p&gt;さて、車をSUBARU IMPREZA WRX STI (GH-GDBF)に変えたので、ETCを新しい車に取り付けます。&lt;/p&gt;&#xA;&lt;p&gt;取り付けに当たっては、配線でアクセサリ、主電源、アース（グランド）があればOKです。&lt;/p&gt;&#xA;&lt;p&gt;通常、これらはオーディオ用の配線から取ることができます。&lt;/p&gt;&#xA;&lt;p&gt;また別の配線としては、GD型のインプレッサの場合は、ハンドルの右下（フューズボックスの裏）にサービスカプラ（白色の１５ピン）がぶら下がっていて、ここに「のれん分けハーネス」をつないで取ることができます。&lt;/p&gt;&#xA;&lt;p&gt;後々、ナビをつける予定なので、「のれん分けハーネス」をスバル部品に注文しました。&lt;/p&gt;&#xA;&lt;p&gt;２日もしないうちにモノが入荷したのですが、仕事の都合で１週間開けた週末に引き取りにいきました。&lt;/p&gt;&#xA;&lt;p&gt;さて取り付けは、結構面倒です。&lt;/p&gt;&#xA;&lt;p&gt;ハンドル下のコンソールを外して、サービスカプラを捜します。潜り込んでようやく発見。&lt;/p&gt;&#xA;&lt;p&gt;ここにのれん分けハーネスをつなぐ前に、ETCの配線を若干加工（アースをギボシ加工）して、のれん分けハーネスとつないでおきます。&lt;/p&gt;&#xA;&lt;p&gt;あとは、ETCの配線をきれいに束ねて見えないところに這わせます。&lt;/p&gt;&#xA;&lt;p&gt;ETC本体はグルーブボックスの車検証ホルダーに両面テープで固定。&lt;/p&gt;&#xA;&lt;p&gt;アンテナ兼スピーカーは、ウィンドーへの貼り付けが保安基準で禁止されているので、オンダッシュにします。&lt;/p&gt;&#xA;&lt;p&gt;ハンドル右の奥に両面テープで貼り付けます。&lt;/p&gt;&#xA;&lt;p&gt;配線は、コンソールパネルの継ぎ目に押し込んで隠します。&lt;/p&gt;&#xA;&lt;p&gt;しかし、ETCのアンテナは格好悪いです。&lt;/p&gt;&#xA;&lt;p&gt;できることなら、コンソールの中に埋め込みたいです。&lt;/p&gt;&#xA;&lt;p&gt;ナビのGPSアンテナは、埋め込んでも特に問題ないので同じようにできないかな。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

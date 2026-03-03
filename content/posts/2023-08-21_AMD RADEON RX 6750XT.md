@@ -1,0 +1,83 @@
+---
+title: "AMD RADEON RX 6750XT"
+date: 2023-08-21T20:48:38+09:00
+archives: ["2023-08"]
+original_url: https://ameblo.jp/yuki9902/entry-12817194767.html
+categories: ['COMPUTER']
+---
+
+[ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6 | Graphics Card | ASUS GlobalROG Strix Radeon™ RX 6750 XT OC Edition 12GB GDDR6 is a cooling and power-performance juggernaut.![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)rog.asus.com![](https://dlcdnwebimgs.asus.com/gain/FBB83F06-C7D1-42B5-9690-229B3A4C0A94)](https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rx6750xt-o12g-gaming-model/)
+
+[![ROG Strix Radeon RX 6750 XT 12GB GPU](https://stat.ameba.jp/user_images/20230821/20/yuki9902/d9/25/j/o1878140815328184551.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184551.html)
+
+[![ASUS ROG Strix Radeon RX 6750 XT GPU](https://stat.ameba.jp/user_images/20230821/20/yuki9902/36/55/j/o1838137815328184558.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184558.html)
+
+[![ROG Strix RX 6750 XT GPU背面](https://stat.ameba.jp/user_images/20230821/20/yuki9902/b7/92/j/o1756131715328184566.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184566.html)
+
+[![ROG Strix RX 6750 XT GPU搭載PC](https://stat.ameba.jp/user_images/20230821/20/yuki9902/da/62/j/o1943145715328184571.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184571.html)
+
+ASUS ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6
+
+が、59800円でドスパラの通販に掲載されていたので購入しました。
+
+ROG Strix Radeon RX 6700 XT OCは日本で販売されていましたが、6750XTは日本では未発売でした。
+
+今週末には7700XTと7800XTが発表される見通しなので、在庫の6000シリーズはかなり安くなって販売されていました。
+
+しかし、AI処理に新規参入する中小業者が専用プロセッサを購入できないことから、VRAMの多いGPUがまた値上がりに転じてきました。
+
+為替の影響もあり、GPUは引き続き値上がり傾向になるので、また暫く入手困難な状況になります。
+
+で、これまでASUS ROG Strix Radeon RX 5700 XT OC 8GBを使ってきましたが、WQHD環境で、「原神」のプレイおよび配信を行うと200Wを消費して温度もホットスポットが100度を超える状況になり60Pを下回ることがあるので、処理能力向上と消費電力低下が課題になりました。
+
+PCケースに収まるASUS DUALシリーズをウォッチしてましたが、ROG Strixの在庫が復活したので、PCケースに収まるか微妙でしたが覚悟を決めて購入しました。
+
+上の写真の通りぎりぎり前面ファンに干渉せずに収まりました。
+
+FF14ベンチマークでの性能向上は僅か5%ほどですが、実際のゲームでの性能差は30％前後です。
+
+ラスタライズではRTX4060TIとほぼ横並びの性能なので、数年は困ることはないと思います。
+
+DLSS3でコマ補完で描写されていない中間コマを生成しているRTX4060TIとの比較では負けますが、NativeのRay Tracing性能はあんまり変わらないです。
+
+さて、性能向上でコマ落ちはなくなり消費電力も100～130Wの間だし、発熱はホットスポットで70度以下なので、ファンノイズも低減されて快適です。
+
+GPUは数年ぶりの買い換えチャンスでしたね。もう終わりましたが。
+
+---
+
+以下、Gemini3Flashを使った2026/01/24現在の考察です。
+
+### 1. 「ワットパフォーマンス」と「電力制限」に関する考察
+
+記事では、消費電力が100〜130Wに下がり、発熱も劇的に改善したとあります。
+
+* **追加考察:** RX 6750 XTのTBP（Total Board Power）は公称250Wと高めですが、ブログ主のように「原神」などの負荷で130W程度に収まっているのは、RDNA 2アーキテクチャの効率の良さと、ASUS ROG Strixの強力な冷却機構が寄与しています。
+* **提案:** Radeon設定（AMD Software: Adrenalin Edition）で「低電圧化（Undervolt）」を試すと、性能を維持したままさらに消費電力と発熱を抑えられるポテンシャルがあることに触れると、自作PCユーザー向けの深みが増します。
+
+### 2. 「VRAM 12GB」の将来価値についての深掘り
+
+記事内で「AI処理によるVRAM需要」に触れられていますが、これは非常に鋭い指摘です。
+
+* **追加考察:** 2024年現在のゲームシーンでは、RTX 4060 Ti（8GBモデル）などはVRAM不足がボトルネックになるタイトルが増えています。RX 6750 XTが持つ12GBという容量は、WQHD解像度においてテクスチャ品質を落とさずに維持できる大きなアドバンテージです。
+* **技術的視点:** また、Infinity Cache（96MB）の存在が、高解像度時のメモリ帯域不足を補っている点も、5700 XT（RDNA 1）からの大きな進化ポイントとして補足できます。
+
+### 3. FSR 3 / AFMF（フレーム生成）による寿命の延長
+
+記事ではDLSS 3（フレーム補完）との比較で「負ける」とされていますが、その後のアップデートで状況が変わっています。
+
+* **追加考察:** AMDは「AFMF（AMD Fluid Motion Frames）」をリリースしました。これにより、ドライバレベルでほぼ全てのゲームでフレーム生成が可能になっています。
+* **メリット:** 購入時に懸念していた「コマ補完の有無」という弱点が、現在のRadeonではソフトウェア更新によって克服されており、RX 6750 XTはさらに「長く戦えるカード」になったというポジティブな考察を追加できます。
+
+### 4. ROG Strix版の希少性と品質
+
+* **追加考察:** 記事にある通り、RX 6750 XTのROG Strixモデルは日本での正規流通が極めて少なく、ドスパラがスポットで入荷させたものは当時「隠れた名品」でした。3連ファンと巨大なヒートシンクにより、ホットスポットが70度以下というのは、他の安価な2連ファンモデルでは到達できない静音性と安定性です。
+* **結論:** 「単なる6750 XTへの買い替え」ではなく、「最高級グレードの冷却機構を手に入れた」ことによるQOL（静音性）の向上が、この買い物の最大の成功要因であると強調できます。
+
+### 検証まとめ：
+
+記事の内容は、当時の市場価格（59,800円）から見ても非常に賢い選択であったと裏付けられます。
+
+**記事に追加する一文案：**
+
+> 「その後、AMDからAFMF（フレーム生成技術）が提供されたことで、懸念していたDLSS 3との差も縮まり、12GBのVRAMと相まって、2024年以降の重いゲームでもWQHD環境で長く戦える『非常にコスパの良い選択』であったことが証明されました。」

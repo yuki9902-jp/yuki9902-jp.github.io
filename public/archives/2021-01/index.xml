@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021-01 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2021-01/</link>
+    <description>Recent content in 2021-01 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 30 Jan 2021 08:46:14 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2021-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最近</title>
+      <link>http://localhost:1313/posts/2021-01-30_%E6%9C%80%E8%BF%91/</link>
+      <pubDate>Sat, 30 Jan 2021 08:46:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-30_%E6%9C%80%E8%BF%91/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12653449299-14888725719.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210130/08/yuki9902/b7/38/j/o1080081014888725719.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;最近は寝起きに寒くて体が動かないので、毎朝温かいカップラーメンを食べてます。&lt;/p&gt;&#xA;&lt;p&gt;昼は抜きです。&lt;/p&gt;&#xA;&lt;p&gt;体に脂肪がつきやすいし気持ち悪くなるので、ノンフライ麺にしてます。&lt;/p&gt;&#xA;&lt;p&gt;暑いのも寒いのも体、特に神経系の調子が悪くなるので、早く春になってほしい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>仮想通貨のマイニング再び</title>
+      <link>http://localhost:1313/posts/2021-01-29_%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8%E3%81%AE%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%86%8D%E3%81%B3/</link>
+      <pubDate>Fri, 29 Jan 2021 01:25:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-29_%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8%E3%81%AE%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%86%8D%E3%81%B3/</guid>
+      <description>&lt;p&gt;ビットコインが1BTCあたり300万円前後で取引されているので、PCの有り余るパワーを使ってマイニングしています。&lt;/p&gt;&#xA;&lt;p&gt;計算に必要な電気代と相殺しても１日あたり300円ほどにはなりそうです。&lt;/p&gt;&#xA;&lt;p&gt;仮想通貨や証券が爆騰していますが、本来は中共ウィルスにより生活に困窮して苦しんでいる人たちへ配られるはずのお金が、各種団体の特権を持つ人たちに掠め盗られた上に、そのお金は実体経済とは関係ない金融市場でマネーゲームに使われています。&lt;/p&gt;&#xA;&lt;p&gt;ならばそのお金の取引に必要な計算に入り込んで回収（マイニング）してやります。&lt;/p&gt;&#xA;&lt;p&gt;全世界でバブル崩壊と仮想通貨破綻が起きそうな気配なので、早い内に現物資産に交換したいなぁ。&lt;/p&gt;&#xA;&lt;p&gt;24金の相場価格3万円ほどの金貨を、とある元大統領が1枚3000円ほどで記念として販売しているので、それが欲しいけど、システム上の問題で郵便番号が入力できなくて注文できない･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PBO2チューニング</title>
+      <link>http://localhost:1313/posts/2021-01-28_pbo2%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Thu, 28 Jan 2021 13:19:28 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-28_pbo2%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/</guid>
+      <description>&lt;p&gt;RYZEN 7 5800XとX570 BIOS 3402beta でPBO2をチューニングしました。&lt;/p&gt;&#xA;&lt;p&gt;Ryzen Masterで見ると高性能コアは「★」「●」で表示されています。&lt;/p&gt;&#xA;&lt;p&gt;この２つのコアに熱容量と電力を優先的に回すように設定していきます。&lt;/p&gt;&#xA;&lt;p&gt;私の持っているRYZEN 7 5800Xは、C2とC7が高性能コアです。&lt;/p&gt;&#xA;&lt;p&gt;UEFIで見るとC0から始まるのでC1とC6が該当するコアになります。&lt;/p&gt;&#xA;&lt;p&gt;電力特性カーブのオフセットをすべてマイナス（ネガティブ）にして、C1とC6は5、他のコアは30に設定します。&lt;/p&gt;&#xA;&lt;p&gt;この辺は、個体差によるものらしいので、何度かベンチマークを取りながら最速の設定を見つけるしかありません。&lt;/p&gt;&#xA;&lt;p&gt;この設定で、後はASUS AiSuite3でVDDCR CPU電圧の最適値を探していきます。&lt;/p&gt;&#xA;&lt;p&gt;1.10000Vから1クリック（0.00625V)ずつ基本的にマイナス方向に設定してはベンチマークを走らせます。&lt;/p&gt;&#xA;&lt;p&gt;全コアの動作周波数が最も高いのは1.0250Vの時の4.750GHzでした。&lt;/p&gt;&#xA;&lt;p&gt;プラス方向も試しましたが、CINEBENCH R20のMPの値が一番高いのは、1.10000Vの時でした。&lt;/p&gt;&#xA;&lt;p&gt;MP 6109cb(平均4.65GHz） SP 633cb(5.050GHz)となりました。&lt;/p&gt;&#xA;&lt;p&gt;最大消費電力は135W程度で、パッケージ温度79℃になります。&lt;/p&gt;&#xA;&lt;p&gt;全コアOCで4.725GHzならMP 6190前後、SP 610前後、4.750GHzだと結構な確率でCINEBENCH R20が落ちますが、完走出来るとMP 6280前後、SP 610超えになります。&lt;/p&gt;&#xA;&lt;p&gt;最新のAGESAでカーブ特性が改善されているのは、確かなようで、消費電力が下がっています。&lt;/p&gt;&#xA;&lt;p&gt;PBO2が難しいのは、モニタリングし全コアの動作周波数が高くなっているのを確認していてもCINEBENCH R20のMPのスコアが下がるところにあります。&lt;/p&gt;&#xA;&lt;p&gt;１ミリ秒単位で電力と周波数を制御しているCPUとWindowsの制約により250ミリ秒でモニタリングしているアプリとの齟齬が発生しています。&lt;/p&gt;&#xA;&lt;p&gt;ちなみにCINEBENCH R20で最高スコアがでたPBO2の設定でFF14漆黒のヴィランズのベンチマークを走らせたら、過去最高のスコアが出ました。&lt;/p&gt;&#xA;&lt;p&gt;全コア4.750GHzでOCしたときよりもほんの僅かに速いです。&lt;/p&gt;&#xA;&lt;p&gt;全コア4.725GHzでOCした時とPBO2でチューニングした時とApplicationの使用感に差は感じません。&lt;/p&gt;&#xA;&lt;p&gt;全コア4.750GHzだとCINEBENCHでの高負荷時に落ちる可能性が高いですが、ゲームや動画編集では安定しているように感じます。&lt;/p&gt;&#xA;&lt;p&gt;２コア（４スレッド）の瞬発力を必要とするときはPBO2、安定性をとるならECCメモリと4.725GHzOC、ゲームベンチなら4.800GHz+280ミリ簡易水冷でしょうか。&lt;/p&gt;&#xA;&lt;p&gt;しばらくPBO2を使ってみようと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は昨日より暖かいです</title>
+      <link>http://localhost:1313/posts/2021-01-25_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%98%A8%E6%97%A5%E3%82%88%E3%82%8A%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <pubDate>Mon, 25 Jan 2021 20:29:15 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-25_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%98%A8%E6%97%A5%E3%82%88%E3%82%8A%E6%9A%96%E3%81%8B%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <description>&lt;p&gt;今日の昼間はヒーターをつけずとも過ごせる暖かさでした。&lt;/p&gt;&#xA;&lt;p&gt;明日も暖かいようですが、天気は下り坂です。&lt;/p&gt;&#xA;&lt;p&gt;でもさすがに夜になると若干冷えます。&lt;/p&gt;&#xA;&lt;p&gt;ヒーターをつけるとちょっと暑く感じます。&lt;/p&gt;&#xA;&lt;p&gt;今年の冬は短かったのかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は</title>
+      <link>http://localhost:1313/posts/2021-01-23_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Sat, 23 Jan 2021 23:52:54 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-23_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;今日はずっと雨が降っています。&lt;/p&gt;&#xA;&lt;p&gt;昨晩から雪予報が出たりしましたが、暖かいままで雨です。&lt;/p&gt;&#xA;&lt;p&gt;最近の天気予報は全然当たらないなぁ。&lt;/p&gt;&#xA;&lt;p&gt;甥っ子が車の免許を取得したので、中古の軽四のMT（マニュアルトランスファーミッション）を引き取りに来ました。&lt;/p&gt;&#xA;&lt;p&gt;初乗りなので田舎道で走行練習をしました。&lt;/p&gt;&#xA;&lt;p&gt;自車の左リヤのハブを交換しました。&lt;/p&gt;&#xA;&lt;p&gt;完全にガリガリ音がなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;もう２４万キロを超えましたが、ちょこちょこと部品を換えればまだ乗れそうです。&lt;/p&gt;&#xA;&lt;p&gt;一番の悩みはパワステポンプの寿命で異音が発生しているのを直したいけど、ステアリングギアボックスもほぼ寿命らしく、部品代だけであわせて２０万超えになることでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;走行性能はダントツに高い車なので、買い換えるとどの車も対抗できないです。&lt;/p&gt;&#xA;&lt;p&gt;身体が満足できるか微妙なところです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>生徒会役員共を見ながら</title>
+      <link>http://localhost:1313/posts/2021-01-22_%E7%94%9F%E5%BE%92%E4%BC%9A%E5%BD%B9%E5%93%A1%E5%85%B1%E3%82%92%E8%A6%8B%E3%81%AA%E3%81%8C%E3%82%89/</link>
+      <pubDate>Fri, 22 Jan 2021 00:51:11 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-22_%E7%94%9F%E5%BE%92%E4%BC%9A%E5%BD%B9%E5%93%A1%E5%85%B1%E3%82%92%E8%A6%8B%E3%81%AA%E3%81%8C%E3%82%89/</guid>
+      <description>&lt;p&gt;今日は生徒会役員共が無料公開されていたので、それを見ながら、情報収集してました。&lt;/p&gt;&#xA;&lt;p&gt;頭の悪い下ネタアニメですが、世の中の闇の実態を知って荒れた精神を和らげるには、適当だったでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;世の中の混乱が早く収まり、SARS-CoV-2の治療が正しく行われることを願うばかりです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ガリガリ</title>
+      <link>http://localhost:1313/posts/2021-01-20_%E3%82%AC%E3%83%AA%E3%82%AC%E3%83%AA/</link>
+      <pubDate>Wed, 20 Jan 2021 20:19:56 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-20_%E3%82%AC%E3%83%AA%E3%82%AC%E3%83%AA/</guid>
+      <description>&lt;p&gt;車の左後輪からガリガリと音がします。&lt;/p&gt;&#xA;&lt;p&gt;ハブを外してベアリングを見てみました。&lt;/p&gt;&#xA;&lt;p&gt;シールベアリングですがあたりが若干ガリガリと手に当たる感じがあります。&lt;/p&gt;&#xA;&lt;p&gt;ハブを抜いて、ベアリングを交換していて気がついたんですが、ハブの軸に変な傷が出来ていて、ベアリングがスコスコしてがたついています。&lt;/p&gt;&#xA;&lt;p&gt;ハブの軸とベアリングを受けるところが「す」が入ったようにザラザラになっていてかなり削れた跡もあります。&lt;/p&gt;&#xA;&lt;p&gt;本来は圧入する部品なのでガタつきがあるわけがないのです。&lt;/p&gt;&#xA;&lt;p&gt;３万５千キロからずっと異音が続いていたので、製造時の品質のばらつきによる欠陥のような気がします。&lt;/p&gt;&#xA;&lt;p&gt;ということで、ハブも注文しました。&lt;/p&gt;&#xA;&lt;p&gt;車はまだしばらくはお不動さんのままです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F GAMING BIOS 3402 Beta</title>
+      <link>http://localhost:1313/posts/2021-01-17_asus-rog-strix-x570-f-gaming-bios-3402-beta/</link>
+      <pubDate>Sun, 17 Jan 2021 20:34:16 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-17_asus-rog-strix-x570-f-gaming-bios-3402-beta/</guid>
+      <description>&lt;p&gt;ASUS ROG STRIX X570-F GAMINGのBIOS 3402 Betaが公開されたので適用しました。&lt;/p&gt;&#xA;&lt;p&gt;AM4 AGESA V2 PI 1.2.0.0のアップデートです。&lt;/p&gt;&#xA;&lt;p&gt;更新内容はまだ分かっていません。&lt;/p&gt;&#xA;&lt;p&gt;今後発売されるNVIDIA GeForce RTX 3060Ti 12GBで、AMD SAM(Re-size BAR)が使えるようになり、それ以外のRTX 30シリーズはNVIDIA側でvBIOS更新で対応するようです。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の性能は相変わらずで、全く使いどころがないです。&lt;/p&gt;&#xA;&lt;p&gt;なんでコア電圧があんなに上がるんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;手動オーバークロックとコア電圧自動の方が、最大負荷時に電圧が低いのはなぜなんでしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;追記：&lt;/p&gt;&#xA;&lt;p&gt;ClockTuner for Ryzenの開発を手がける&lt;a href=&#34;https://twitter.com/1usmus&#34;&gt;Yuri Bubly&lt;/a&gt;によると&lt;/p&gt;&#xA;&lt;p&gt;「I see interesting information that AGESA 1.2.0.0 contains only &amp;ldquo;bug fixes&amp;rdquo;. It does not. SMU 56.44.00 contains a number of improvements to the Curve + improvements for the dLDO injector. Also AGESA 1.2.0.0 has no problems with WHEA on FCLK 1900.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ラズパイ4でLDAPサーバー（途中）</title>
+      <link>http://localhost:1313/posts/2021-01-16_%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A44%E3%81%A7ldap%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%80%94%E4%B8%AD/</link>
+      <pubDate>Sat, 16 Jan 2021 01:01:10 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-16_%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A44%E3%81%A7ldap%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%80%94%E4%B8%AD/</guid>
+      <description>&lt;p&gt;Raspberry Pi 4bにUbuntu Desktop 20.1 64bitをインストールして、LDAPサーバーをインストールして、設定して、phpLDAPadminで操作できるようにしました。&lt;/p&gt;&#xA;&lt;p&gt;Ubuntu Server 20.1 64bitで途中まで構成してたんですが、CUIだけでは調べ物をしながらの作業効率が非常に悪いので、Ubuntu Desktopをインストールして構築していきました。&lt;/p&gt;&#xA;&lt;p&gt;設定作業がとてもしんどくて、先ほどようやくphpLDAPadmin.phpが動くようになりました。&lt;/p&gt;&#xA;&lt;p&gt;ディレクトリサービスとしては、Windows ServerでのActive Directoryの構築経験は何度もあるんですが、LinuxでLDAPは初めてな上に、Raspberry Pi 4bというarmのコンピューターで動作は鈍いし、資料は少ないし難しいです。&lt;/p&gt;&#xA;&lt;p&gt;Googleの検索エンジンではまったく情報が見つからないので、他の検索エンジンを使って探しました。&lt;/p&gt;&#xA;&lt;p&gt;LDAPサーバーを構築したのは良いけど、使い方が全然分からない(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;Firewallを設定してもlocalhost以外ではhttpが通らないのでRaspberry Pi 4b上でWebブラウザを起動しないと設定できないのでphpLDAPadminのGUIはあんまり役に立たなさそう･･･。&lt;/p&gt;&#xA;&lt;p&gt;数十台のPCを管理するならまだしも2，3台ならローカルアカウントで管理した方が楽だな･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>地震</title>
+      <link>http://localhost:1313/posts/2021-01-15_%E5%9C%B0%E9%9C%87/</link>
+      <pubDate>Fri, 15 Jan 2021 22:34:22 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-15_%E5%9C%B0%E9%9C%87/</guid>
+      <description>&lt;p&gt;インドネシアの大きな地震で被災された方々にお見舞い申し上げます。&lt;/p&gt;&#xA;&lt;p&gt;この厳しい状況で災害が起こるとのは非常に辛いことです。&lt;/p&gt;&#xA;&lt;p&gt;早く日常が戻ってくることを祈って止みません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>電力不足は供給側の問題</title>
+      <link>http://localhost:1313/posts/2021-01-15_%E9%9B%BB%E5%8A%9B%E4%B8%8D%E8%B6%B3%E3%81%AF%E4%BE%9B%E7%B5%A6%E5%81%B4%E3%81%AE%E5%95%8F%E9%A1%8C/</link>
+      <pubDate>Fri, 15 Jan 2021 00:21:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-15_%E9%9B%BB%E5%8A%9B%E4%B8%8D%E8%B6%B3%E3%81%AF%E4%BE%9B%E7%B5%A6%E5%81%B4%E3%81%AE%E5%95%8F%E9%A1%8C/</guid>
+      <description>&lt;p&gt;この冬に急遽電力需要に対して供給が追いつかないと騒ぎ出したのはなぜか。&lt;/p&gt;&#xA;&lt;p&gt;JOGMECが公表している「&lt;a href=&#34;https://oilgas-info.jogmec.go.jp/info_reports/1008604/1008920.html&#34;&gt;天然ガス・LNG最新動向 ―スポットLNG価格急騰！2020年トラブル頻発とパナマ運河制約で激変迫るLNG物流―&lt;/a&gt;」のページを見れば分かります。&lt;/p&gt;&#xA;&lt;p&gt;この中で言及されている「（3）トラブルの推定原因」の「5．トラブルを大きく公表し、安定供給懸念に対する市場センチメント形成を狙った可能性」を読み落とさないように拾う必要があります。&lt;/p&gt;&#xA;&lt;p&gt;Chinaでは豪州に対する制裁という意味不明な政策で、豪州からの石炭の荷揚げを禁止しています。&lt;/p&gt;&#xA;&lt;p&gt;かわりにカナダやマレーシア、ロシアからの石炭の輸入量を増やしていますが、追いついていません。&lt;/p&gt;&#xA;&lt;p&gt;LNGを急遽調達し始めたのが原因で、LNGが高騰しています。&lt;/p&gt;&#xA;&lt;p&gt;これに引き摺られて、日本のLNG調達に影響が出てきました。&lt;/p&gt;&#xA;&lt;p&gt;原発を停めてしまった日本の発電はLNGによる火力発電に頼る部分が大きくなっているので、厳冬の今は電力の需要に供給が追いつかなくなる可能性があります。&lt;/p&gt;&#xA;&lt;p&gt;マスコミが言う家庭での消費電力が増えた影響、太陽光発電の不足の影響ではなく、LNGの急激な需要に対してパナマ運河の大渋滞で物流に遅延が発生し、それにより価格が高騰しており、LNGの調達が難しくなっているのが原因です。&lt;/p&gt;&#xA;&lt;p&gt;ベースロード電源に関してはいろいろ言いたいことがあるんですが、とりあえずマスコミの嘘に騙されないように、健康に影響が出ないように適切に暖房を使って、生活に必要の無いところは節約しましょう。&lt;/p&gt;&#xA;&lt;p&gt;一番の節電はテレビを消すことです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi 4でActive Directoryを（失敗）</title>
+      <link>http://localhost:1313/posts/2021-01-12_raspberry-pi-4%E3%81%A7active-directory%E3%82%92%E5%A4%B1%E6%95%97/</link>
+      <pubDate>Tue, 12 Jan 2021 22:22:55 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-12_raspberry-pi-4%E3%81%A7active-directory%E3%82%92%E5%A4%B1%E6%95%97/</guid>
+      <description>&lt;p&gt;LAN内にメインPC、ファイルサーバー、ノートPC（ラップトップw）があり、自分のユーザーアカウントの管理を一元化したほうが良いのか、STANDALONEで管理した方が良いのか迷い中。&lt;/p&gt;&#xA;&lt;p&gt;そして手元には正直使い道に困っているRaspberry Pi 4Bの4GBモデルがあります。&lt;/p&gt;&#xA;&lt;p&gt;64bit OSが動く環境でもありますが、Ubuntu 20.1 64bit Desktopの公式版をインストールしてみました。&lt;/p&gt;&#xA;&lt;p&gt;Desktop版はRaspberry Pi 4B 4GBでは重いです。&lt;/p&gt;&#xA;&lt;p&gt;ディスクがSDカードなのでしょうがないですね。&lt;/p&gt;&#xA;&lt;p&gt;で、次にRaspberry Pi OSをインストールして、Active Directoryの構築を試みました。&lt;/p&gt;&#xA;&lt;p&gt;DNSをSAMBAに内蔵されたDNSサーバーを使うように設定していきましたが、Port 135の通信が出来ずにDNSの逆引き登録が出来ません。&lt;/p&gt;&#xA;&lt;p&gt;Portの開き方が分からず、FirewallをインストールしてPortを開ける方法を試そうとしましたが、Firewallのインストールに失敗します。&lt;/p&gt;&#xA;&lt;p&gt;Raspberry Pi 3でActive Directoryの構築をしているサイトを参考にしていましたが、簡単にはいきません。&lt;/p&gt;&#xA;&lt;p&gt;RaspiOSでの構築は一旦諦めます。&lt;/p&gt;&#xA;&lt;p&gt;今は、Ubuntu 20.1 Server 64bitをSDカードに書き込みました。&lt;/p&gt;&#xA;&lt;p&gt;今日はもう面倒なので構築はまた明日にします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は何も手につかなかった</title>
+      <link>http://localhost:1313/posts/2021-01-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%BD%95%E3%82%82%E6%89%8B%E3%81%AB%E3%81%A4%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Tue, 12 Jan 2021 01:33:12 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%BD%95%E3%82%82%E6%89%8B%E3%81%AB%E3%81%A4%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+      <description>&lt;p&gt;Linux Mintでリモートデスクトップ、仮想デスクトップVNC、Xサーバー、何を使った良いかよく分からず、とりあえずVNCをインストールしてみましたが、思ったように設定できずに、最適な情報を見つけられず迷走しています。&lt;/p&gt;&#xA;&lt;p&gt;とある軍事作戦で世界中で大規模な停電が発生していて、DNSやルーティングが不安定で、調べ物をするには結構しんどいです。&lt;/p&gt;&#xA;&lt;p&gt;自分のポリシーから大きくかけ離れた大手SNSからはすべてアカウントを削除したので、情報取得するのはなかなか大変です。&lt;/p&gt;&#xA;&lt;p&gt;結局、ストレスだけが膨らみ何も手につきませんでした。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>かつて自由の大海原だった</title>
+      <link>http://localhost:1313/posts/2021-01-10_%E3%81%8B%E3%81%A4%E3%81%A6%E8%87%AA%E7%94%B1%E3%81%AE%E5%A4%A7%E6%B5%B7%E5%8E%9F%E3%81%A0%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Sun, 10 Jan 2021 01:25:41 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-10_%E3%81%8B%E3%81%A4%E3%81%A6%E8%87%AA%E7%94%B1%E3%81%AE%E5%A4%A7%E6%B5%B7%E5%8E%9F%E3%81%A0%E3%81%A3%E3%81%9F/</guid>
+      <description>&lt;p&gt;インターネットはかつて技術を自由に開発し、学問、知識の自由を得る大海原で、皆サーフィンしていた時代がありました。&lt;/p&gt;&#xA;&lt;p&gt;WWWはWorld Wide Web、世界中に張り巡らせた蜘蛛の糸。&lt;/p&gt;&#xA;&lt;p&gt;この基礎を開発した人は今日のインターネットでの雁字搦めの言論統制、共産主義者のプロパガンダ、フェイクニューズ、インフラの破壊活動、犯罪シンジケートのネットワーク、富の搾取に使われるようなことを考えていたわけではないのです。&lt;/p&gt;&#xA;&lt;p&gt;インターネットが一般に公開された頃から使ってきましたが、10数年前から善意は悪意に押しつぶされ、徐々に自由を奪われ、文化を奪われ、言葉を奪われ、技術を奪われ、知力を奪われ、資産を奪われ、仕事を奪われ、ついにすべてを奪われました。&lt;/p&gt;&#xA;&lt;p&gt;インターネットを捨てることで、たぶん自由を取り戻すことが出来るかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;インフラと呼ばれるぐらいに肥大化した大手インターネットサービス会社は、傲慢にして悪辣となり、絶対に犯してはならない罪を犯しました。&lt;/p&gt;&#xA;&lt;p&gt;先人の築いた自由の大海原で荒稼ぎしてきたビックテック企業は今すぐ消え去って欲しい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>極寒</title>
+      <link>http://localhost:1313/posts/2021-01-08_%E6%A5%B5%E5%AF%92/</link>
+      <pubDate>Fri, 08 Jan 2021 00:19:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-08_%E6%A5%B5%E5%AF%92/</guid>
+      <description>&lt;p&gt;ヒーターの前にはりついてても寒いです。&lt;/p&gt;&#xA;&lt;p&gt;室温が徐々に下がっていきます。&lt;/p&gt;&#xA;&lt;p&gt;今、7度です。&lt;/p&gt;&#xA;&lt;p&gt;外気温は-7度くらいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;三年ぶりの寒さですが、やはりキツいです。&lt;/p&gt;&#xA;&lt;p&gt;熱いお茶もあっという間に冷めて、冷たくなります。&lt;/p&gt;&#xA;&lt;p&gt;さて布団に潜り込もうかな。&lt;/p&gt;&#xA;&lt;p&gt;長時間は寝られないですが、暖をとるには布団の中が一番です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 3202 Beta</title>
+      <link>http://localhost:1313/posts/2021-01-07_asus-rog-strix-x570-f-gaming-bios-3202-beta/</link>
+      <pubDate>Thu, 07 Jan 2021 23:14:08 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-07_asus-rog-strix-x570-f-gaming-bios-3202-beta/</guid>
+      <description>&lt;p&gt;1/6にASUS ROG STRIX X570-F Gamingのバージョン3202のベータBIOSが公開されました。&lt;/p&gt;&#xA;&lt;p&gt;先月末に公開された3201ベータBIOSはすぐに取り下げられていました。&lt;/p&gt;&#xA;&lt;p&gt;同じくAM4 AGESA V2 PI 1.1.9.0のアップデートです。&lt;/p&gt;&#xA;&lt;p&gt;AGESA V2 PI 1.1.9.0の更新内容は&lt;/p&gt;&#xA;&lt;p&gt;1．DDR4のFCLKが1600MHzより高い場合、特に1800～2000MHzでの安定性を改善。&lt;/p&gt;&#xA;&lt;p&gt;2．暗号化された指定のSOi3を使用したWindows 10のモダンスタンバイに対応。&lt;/p&gt;&#xA;&lt;p&gt;3．ファンレスのX570チップセットに対応。&lt;/p&gt;&#xA;&lt;p&gt;4．安定性の向上。&lt;/p&gt;&#xA;&lt;p&gt;だそうです。&lt;/p&gt;&#xA;&lt;p&gt;ベータBIOSですが、とりあず更新してみました。&lt;/p&gt;&#xA;&lt;p&gt;不具合も別になく、PBO2の性能も変わりないようですが、設定項目が若干整理されているようです。&lt;/p&gt;&#xA;&lt;p&gt;RAMに関しては、だいぶ前からG.SKILLのTrident Z NEO 8GB*4 3600MHz CL18を使っていたのでFCLKは1800MHzで使っていました。&lt;/p&gt;&#xA;&lt;p&gt;Samsung Bダイなら問題は起きにくいのではないかと思います。&lt;/p&gt;&#xA;&lt;p&gt;RAMをオーバークロックで使う場合にアップデートしても良いかもしれませんが、慎重に検討してください。&lt;/p&gt;&#xA;&lt;p&gt;それ以外ではベータBIOSなので、人柱を覚悟しましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>雪が降っています</title>
+      <link>http://localhost:1313/posts/2021-01-07_%E9%9B%AA%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <pubDate>Thu, 07 Jan 2021 11:10:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-07_%E9%9B%AA%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12648729904-14878173484.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20210107/11/yuki9902/8b/0d/j/o1080081014878173484.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;先程から日差しがなくなり、雪が積もり始めました。&lt;/p&gt;&#xA;&lt;p&gt;薄暗い世の中です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3D酔い</title>
+      <link>http://localhost:1313/posts/2021-01-04_3d%E9%85%94%E3%81%84/</link>
+      <pubDate>Mon, 04 Jan 2021 23:56:02 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-04_3d%E9%85%94%E3%81%84/</guid>
+      <description>&lt;p&gt;脳神経が疲れてきた夕方以降に原神をすると3D酔いになります。&lt;/p&gt;&#xA;&lt;p&gt;Minecraftほど酔わないですが、原神もかなり酔います。&lt;/p&gt;&#xA;&lt;p&gt;日本製のゲームだと3D酔いを防ぐための工夫や制限がきっちり決まっているので酔いにくいですが、海外の新興企業のゲームはダメですね。&lt;/p&gt;&#xA;&lt;p&gt;で、3D酔いしながらも「白亜と黒竜」のミッションをすべてクリアしました。&lt;/p&gt;&#xA;&lt;p&gt;ドラゴンスパインも起伏の激しいマップで、山の斜面やブリザードで視界が遮られるしキャラクターの動きにダイレクトに追従するカメラなので確実に酔います。&lt;/p&gt;&#xA;&lt;p&gt;それから世界ランク5、冒険ランク45のキャップを解放したら、経験値がたまりすぎていて、冒険ランク50まで一気に上がり、そのキャップまで到達してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;キャラクターと武器のレベルがまだ80なので、これらを90にあげたらキャップを解放します。&lt;/p&gt;&#xA;&lt;p&gt;無課金でいったら3ヶ月以上かかるかも･･･。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ストレスに耐えて</title>
+      <link>http://localhost:1313/posts/2021-01-04_%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%81%AB%E8%80%90%E3%81%88%E3%81%A6/</link>
+      <pubDate>Mon, 04 Jan 2021 01:09:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-04_%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%81%AB%E8%80%90%E3%81%88%E3%81%A6/</guid>
+      <description>&lt;p&gt;極寒マップで精神がガリガリ削られる原神のドラゴンスパインで、しばらく攻略を停めてました。&lt;/p&gt;&#xA;&lt;p&gt;精神を削りながらも、今開催されている「白亜と黒竜」のイベントを第四幕のミッションを一つ残すのみまで進めました。&lt;/p&gt;&#xA;&lt;p&gt;第四幕は「急凍樹」の強化版で中途半端なマルチプレイ対応です。&lt;/p&gt;&#xA;&lt;p&gt;食料バフをかけるとソロでもいけますが、ソロでもメニュー画面を開いても進行が停止しないので、回復や食料バフ掛け中にダメージを受けます。&lt;/p&gt;&#xA;&lt;p&gt;1月5日の5時には「白亜と黒竜」イベントが終了するので、あと4回ほど急凍樹を倒せば良いので、全ミッションクリア出来そうです。&lt;/p&gt;&#xA;&lt;p&gt;ドラゴンスパインでは、★4の片手剣、★4の槍とそのレシピ、★4の両手剣のレシピが手に入ります。&lt;/p&gt;&#xA;&lt;p&gt;★4の片手剣はシナリオを進めれば、必ず手に入ります。&lt;/p&gt;&#xA;&lt;p&gt;★4の槍はドラゴンスパインの麓のキャンプ地でクエストを受注して、鍛造に必要なアイテムを集めれば入手できます。&lt;/p&gt;&#xA;&lt;p&gt;★4の両手剣のレシピは、八つの石碑を発見して三つの箱を手に入れれば、入手できますが、必然的に「山に隠されし物」のクエストを受注して、ドラゴンスパインのワープポイントを全解放しなければいけません。&lt;/p&gt;&#xA;&lt;p&gt;「山に隠されし物」はドラゴンスパインが追加されて3日目にはクリアしてたような気がします。&lt;/p&gt;&#xA;&lt;p&gt;「緋紅玉髄」を集めてエリアのランクを上げると攻略に欠かせない極寒ゲージの増加を抑える料理のレシピが手に入るので、早めに「緋紅玉髄」を探すのが良いと思います。&lt;/p&gt;&#xA;&lt;p&gt;明日、神経の調子が良ければイベントを完遂できるかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>今日は</title>
+      <link>http://localhost:1313/posts/2021-01-02_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <pubDate>Sat, 02 Jan 2021 21:56:56 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-02_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <description>&lt;p&gt;あまりの寒さと冬の吉備高原特有の昼間の薄暗さで気分はめっちゃダウナーでめまいがありますが、今日は弟家族が来たので、いろいろと料理を作りました。&lt;/p&gt;&#xA;&lt;p&gt;おせちは食べ飽きてるだろうから、ステーキと白ご飯とお吸い物、茶碗蒸し、唐揚げとラーメン。&lt;/p&gt;&#xA;&lt;p&gt;ステーキに添えた大蒜とバターとバジルをペースト状にした薬味が好評でした。&lt;/p&gt;&#xA;&lt;p&gt;空いた時間で甥っ子のPCのCPUとグラボを交換しました。&lt;/p&gt;&#xA;&lt;p&gt;CPU RYZEN 7 1700→RYZEN 7 3700X&lt;/p&gt;&#xA;&lt;p&gt;GPU Geforce GTX 1050Ti 4GB→Geforce GTX 1060 6GB&lt;/p&gt;&#xA;&lt;p&gt;両方併せてゲーム性能は60％ほど向上したはずです。&lt;/p&gt;&#xA;&lt;p&gt;取り外したRYZEN 7 1700とGeforce GTX 1050Ti 4GBは私のファイルサーバーに移植しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>朝陽を浴びて</title>
+      <link>http://localhost:1313/posts/2021-01-01_%E6%9C%9D%E9%99%BD%E3%82%92%E6%B5%B4%E3%81%B3%E3%81%A6/</link>
+      <pubDate>Fri, 01 Jan 2021 08:23:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-01_%E6%9C%9D%E9%99%BD%E3%82%92%E6%B5%B4%E3%81%B3%E3%81%A6/</guid>
+      <description>&lt;p&gt;おはようございます。&lt;/p&gt;&#xA;&lt;p&gt;明けましておめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;不幸、苦悩、悲哀は置き捨てて、新しい人生をこれから歩みましょう。&lt;/p&gt;&#xA;&lt;p&gt;寒さと世の中の状況からちょっと症状の重い鬱になっていますが、気持ちの&lt;/p&gt;&#xA;&lt;p&gt;100分の1ぐらいは前に向いて行きたい、生きたいと思っています。&lt;/p&gt;&#xA;&lt;p&gt;家があり、暖房があり、食べ物があり、風呂があり、皆に挨拶が出来る環境がある、それだけで幸せではあると思います。&lt;/p&gt;&#xA;&lt;p&gt;そんな小さな幸せも失う時代になりました。&lt;/p&gt;&#xA;&lt;p&gt;国内外の脅威が見えていて対処する方法も分かっていても、あらゆる力が出てきません。&lt;/p&gt;&#xA;&lt;p&gt;皆さんはそんな状態にならないように、元気にお過ごしください。&lt;/p&gt;&#xA;&lt;p&gt;何も出来ないお荷物の人間ですが、それでも生きていこうと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ようこそ、令和3年</title>
+      <link>http://localhost:1313/posts/2021-01-01_%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E4%BB%A4%E5%92%8C3%E5%B9%B4/</link>
+      <pubDate>Fri, 01 Jan 2021 00:10:59 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-01_%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E4%BB%A4%E5%92%8C3%E5%B9%B4/</guid>
+      <description>&lt;p&gt;初春のお慶びを申し上げます。&lt;/p&gt;&#xA;&lt;p&gt;今年の前半は耐え忍ぶことがまだまだ多いと思いますが、後半には良いことがたくさんあると良いなと淡い期待をしておきます。&lt;/p&gt;&#xA;&lt;p&gt;神護寺に鐘が鳴りながら、八幡宮が打ち上げる花火の音も聞こえます。&lt;/p&gt;&#xA;&lt;p&gt;行動によって起こる結果に潜むリスクを検討して、リスクを最小にする正しい選択をする賢い人間になりましょう。&lt;/p&gt;&#xA;&lt;p&gt;今のビジネスの在り方が壊れたのは、極短期的な利益優先でリスクヘッジを考えないからです。&lt;/p&gt;&#xA;&lt;p&gt;国際基準やグローバル化は、文化、個性、特長の破壊です。&lt;/p&gt;&#xA;&lt;p&gt;何でもかんでも規制緩和、何でもかんでも規制、これらは自縄自縛に陥ります。&lt;/p&gt;&#xA;&lt;p&gt;何を得て、何を犠牲にするのか、一番大切なのは何かをよく考えて選択をしましょう。&lt;/p&gt;&#xA;&lt;p&gt;皆が少しずつ賢くなってくれたら良い年になると思いますよ。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

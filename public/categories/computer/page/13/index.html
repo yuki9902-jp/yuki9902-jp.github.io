@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>COMPUTER - yuki9902::blog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/categories/computer/index.xml" title="yuki9902::blog">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="yuki9902::blog" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">yuki9902::blog</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/search/">
+				
+				<span class="menu__text">Search</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">COMPUTER</h1>
+	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-09-06_vb-audio-voicemeeter-potato/" rel="bookmark">
+			VB-Audio VoiceMeeter Potato
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://www.vb-audio.com/index.htm">VB-Audio Software</a>のVoice Meeter Potatoをインストールしました。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12622831000-14815168981.html"><img src="https://stat.ameba.jp/user_images/20200905/23/yuki9902/5c/1c/p/o1645077014815168981.png?caw=800" alt=""></a></p>
+<p>WindowsとMac用のオーディオミキサーです。</p>
+<p>Windows 10にインストールしました。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12622831000-14815170454.html"><img src="https://stat.ameba.jp/user_images/20200905/23/yuki9902/5a/83/p/o0465051814815170454.png?caw=800" alt=""></a></p>
+<p><a href="https://ameblo.jp/yuki9902/image-12622831000-14815172746.html"><img src="https://stat.ameba.jp/user_images/20200905/23/yuki9902/15/c4/p/o0465051814815172746.png?caw=800" alt=""></a></p>
+<p>サウンド設定でVoiceMeeter Inputというバーチャルハードウェアを選択して既定値に設定、構成を7.1チャンネル、プロパティの規定の形式を24ビット、192000Hz(スタジオの音質）に設定します。</p>
+<p>次にVoiceMeeter Potatoを起動して、Virtual InputsでVoiceMeeter VAIOの出力先をA1に設定、Hardware OutのA1をプルダウンして、WDM(WASAPI)のRealtek Audioを選択します。</p>
+<p>他にサウンド関係のハードウェアをつないでいる場合には、A2、A3、A4、A5に設定していきます。</p>
+<p>ハードウェアに応じて、WDM(WASAPI)、KS(カーネルストリーミング)、MME(DirectX)、ASIOのAPIもしくはドライバを選択することが出来ます。</p>
+<p>Windows 10ではWDMかASIOを選択すると思います。</p>
+<p>ASIOを使う場合はA1に割り当ててください。</p>
+<p>VoiceMeeterのMenuから設定できるWDM、ASIOともバッファリングの値は小さい方が良いみたいです。</p>
+<p>LANを通してオーディオをストリームする機能のVBANの送出側で音飛びが発生します。</p>
+<p>他にSony PHA-1Aというポータブルアンプ（USB-DAC）をつないでいるんですが、このASIOドライバー側のバッファは2msに設定しても問題なく音が鳴りました。</p>
+<p>ノートPCにもVoiceMeeterをインストールしてVBANを使ってみました。</p>
+<p>前述したようにバッファリングの値が初期値だと音飛びが発生しました。</p>
+<p>あとサンプリングレートが44.1kHz系統か48kHz系統かの違いでも音飛びが発生します。</p>
+<p>受信側が48kHz系統の倍数、48kHz、96kHz、196kHzをHardware Outに設定していると、送出側で44.1kHzのデータを送ると音飛びが発生しました。</p>
+<p>96kHz、24bit、8ch(7.1ch)を送出すると50Mbps程度のトラフィックが流れます。</p>
+<p>有線LANで接続した方が良いでしょう。</p>
+<p>まだゲームでは試していないので、どれくらいCPUに負荷が掛かり、遅延が発生するか調べていません。</p>
+<p>通常の音楽再生ソフトでは気になりません。</p>
+<p>マイク入力から音が出るまでには50ms程度の遅延が発生します。</p>
+<p>安価にOBSなどで配信したい場合などは良いかもしれませんが、本格的に使う場合はASIOに対応した外部のハードウェアミキサーを購入した方が良いと思います。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-09-03_xmedia-recode%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
+			XMedia Recodeが落ちる
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>注）最新版の3.5.2.3にアップデートしたら落ちなくなりました。（2020/12/04）</p>
+<p>GPUにNVIDIA GeForce GTX 1060 6GBを使っていたときは、コーデックのH.264を使ってMP4形式のファイルを作成しても、XMdeia Recodeが落ちることはありませんでした。</p>
+<p>GPUをAMD Radeon RX 5700 XTに換えたら、XMedia RecodeでMP4形式のファイルを作成しようとするとアプリが落ちます。</p>
+<p>Windowsのアプリケーションログを見ると、XMedia Recodeに入っているH264.dllが障害を起こして、Application errorでアプリが終了してしまっています。</p>
+<p>ファイルコンテナーをMKV(Matroska)にして、H.264コーデックをAMF H.264エンコーダーを使うようにすると落ちません。</p>
+<p>ファイル形式がMP4の場合、H264.dllがハードウェアの判定をせずに、AMDのドライバーには実装されていないモノを使おうとしているのでしょう。</p>
+<p>MKVでは、BlackMagic DaVinci Resolve 16に読み込めないので、別の形式を使うことにします。</p>
+<p>変換したいファイルがAVIコンテナーで映像はMotionJpeg形式、音声はPCMなので、これもDaVinci Resolveでは読み込めません。</p>
+<p>mov形式のMotion Jpegは読み込めるので、XMedia RecodeでAVIからmovに変換することにしました。</p>
+<p>この場合、Motion JpegもPCMもデコードしてからエンコードする必要は無く、どちらもコピーすることになります。</p>
+<p>実質、ファイルのコンテナーの情報を書き換えるだけになるので、処理は一瞬で終わります。</p>
+<p>ということで、mp4形式に変換するときにXMedia Recodeが落ちる場合はNVIDIAのGPUに載せ替えるか、XMedia Recodeを諦めてffmpegを使いましょう。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-08-26_%E4%BD%99%E3%81%A3%E3%81%9F%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%92deckboard%E3%81%A7%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%87%E3%83%83%E3%82%AD%E3%81%AB%E3%81%99%E3%82%8B/" rel="bookmark">
+			余ったスマホをDeckboardでストリームデッキにする
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>現在の電波仕様に対応できないSony XPERIA Z Ultra海外仕様を活用できないかといろいろとアプリを探していました。</p>
+<p>PCのサブディスプレイにしてみたり、AMD RADEON SOFTWARE ADRENALINEを通してPCの使用状況を表示させたりしましたが、どれもいまいち活用している状況にはならない。</p>
+<p>今日、Elgato Streame Deckを見てたら、やっぱりこのハードウェアと同じような使い方、ボタンにApplicationのランチャーや動画配信ソフトのショートカットを割り当てて使うのが良いなと思い、無料で実現できるアプリを探しました。</p>
+<p>ようやく見つけたのが、Deckboardというソフトです。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12620305818-14809935916.html"><img src="https://stat.ameba.jp/user_images/20200826/12/yuki9902/3c/fe/j/o2259169414809935916.jpg?caw=800" alt=""></a></p>
+<p>Windows10にサーバーアプリを入れて、スマホにランチャーボタンアプリを入れます。</p>
+<p>Wi-FiかUSBを通してPCと接続します。</p>
+<p>XPERIA Z UltraはUSBケーブルを接続しにくいので、Wi-Fiで接続しました。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12620305818-14809772211.html"><img src="https://stat.ameba.jp/user_images/20200826/00/yuki9902/87/fe/p/o0800070014809772211.png?caw=800" alt=""></a></p>
+<p>PC側のサーバーアプリでボタンにいろいろな割り当てをしていきます。</p>
+<p>登録したアプリケーションのアイコンを読み込んで表示したりは出来ないので、ネットでアプリケーションのアイコンを探して登録しないといけません。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12620305818-14809773144.html"><img src="https://stat.ameba.jp/user_images/20200826/00/yuki9902/d3/98/p/o0800070014809773144.png?caw=800" alt=""></a></p>
+<p>Windowsのストアアプリの登録は出来ますが、起動はしません。</p>
+<p>何かしら方法があるかもしれませんが、試行錯誤で見つけるしかないようです。</p>
+<p>Twich、Spotify、OBSなどはアプリケーションの操作をすることができるので、ゲーム実況や生配信もスムーズに出来るでしょう。</p>
+<p>ホームワークやテレワークでオンライン会議システムを使う場合にも重宝しそうです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-08-19_asus-rog-strix-x570-f-gaming-bios-2606-update/" rel="bookmark">
+			ASUS ROG STRIX X570-F Gaming BIOS 2606 Update
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://www.asus.com/jp/Motherboards/ROG-Strix-X570-F-Gaming/HelpDesk_Download/">ASUS ROG STRIX X570-F GAMING BIOS 2606</a></p>
+<p>2602が取り下げになって、2606が公開されました。</p>
+<p>&ldquo;Improve system performance and stability</p>
+<p>Improve Fan control function</p>
+<p>Improve DRAM stability</p>
+<p>Update AM4 AGESA combo V2 PI 1.0.8.0</p>
+<p>Improve system stability</p>
+<p>Improve DRAM performance</p>
+<p>Before running the USB flashback tool，please rename the BIOS file (SX570FG.CAP) using BIOSRenamer&rdquo;</p>
+<p>システムの性能と安定性の改善</p>
+<p>ファンコントロール機能の改善</p>
+<p>メモリーの安定性の改善</p>
+<p>AM4 AGESA combo V2 PI 1.0.8.0の更新</p>
+<p>システムの安定性の改善</p>
+<p>メモリーの性能の改善</p>
+<p>更新内容はBIOS 2602と変わらないように見えます。</p>
+<p>取り下げてバージョンが少し上がっているのは何かしら変更点があったんでしょうが、ソースコード上の細かい問題でしょうかね。</p>
+<p>さて、BIOS 2602からBIOS 2606に更新しました。</p>
+<p>設定項目は初期化されます。</p>
+<p>FANの端子がいくつか使い物にならなくなっていたので、CPUクーラー以外はCorsair Commander Proに統合させてしまったので、何が変わったかは見ていません。</p>
+<p>もしかしたらFANの端子が復活しているかもしれないですが、今更面倒です。</p>
+<p>とりあえず、XMP2に該当するD.O.C.PをDDR4-3600にして、手動でtRCを64に設定、3700Xのクロック倍率を43にして、電源周りの設定をして、Windows 10を起動させました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-08-10_asus-rog-strix-x570-f-gaming-bios-2602-update/" rel="bookmark">
+			ASUS ROG STRIX X570-F Gaming BIOS 2602 Update
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://www.asus.com/jp/Motherboards/ROG-Strix-X570-F-Gaming/HelpDesk_Download/">ASUS ROG STRIX X570-F GAMING BIOS 2602</a></p>
+<p>BIOSが更新されました。</p>
+<hr>
+<p>ROG STRIX X570-F GAMING BIOS 2602</p>
+<p>&ldquo;Improve system performance and stability</p>
+<p>Improve Fan control function</p>
+<p>Improve DRAM stability</p>
+<p>Update AM4 AGESA combo V2 PI 1.0.8.0</p>
+<p>Improve system stability</p>
+<p>Improve DRAM performance</p>
+<p>Before running the USB flashback tool，please rename the BIOS file (SX570FG.CAP) using BIOSRenamer&rdquo;</p>
+<hr>
+<p>更新内容は、</p>
+<p>システムの性能と安定性の改善、</p>
+<p>ファンコントロール項目の改善、</p>
+<p>メモリー安定性の改善、</p>
+<p>AM4 AGESA combo V2 PI 1.0.8.0の更新、</p>
+<p>システムの安定性の改善、</p>
+<p>メモリー性能の改善</p>
+<p>USBフラッシュバックツールを使う前に、BIOSRenamerをつかってBIOSファイル（SX570FG.CAP)にリネームしてください。</p>
+<p>ということです。</p>
+<p>注意：8/13現在、このバージョンのBIOSは取り下げられています。</p>
+<p>詳細は分かりません。</p>
+<p>少し前にメモリーの動作が怪しくなっていたので、今回の更新で安定するようになれば良いですが。</p>
+<p>またしばらく様子見です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-08-07_hdd%E3%81%AE%E3%82%B5%E3%83%AB%E3%83%99%E3%83%BC%E3%82%B8%E4%BD%9C%E6%A5%AD%E7%B5%82%E4%BA%86/" rel="bookmark">
+			HDDのサルベージ作業終了
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>HDDから必要なデータをサルベージして、新しく購入した不安定なSATA-USBブリッジを外して、もともと使っていたものに戻してHDDを初期化。</p>
+<p>HDDの構成とデータを整理して、SSDのEFIパーティションのサイズがバラバラだったのを整理しました。</p>
+<p>ようやく通常の運用環境に戻りました。</p>
+<p>構築作業をやっているときは、時間を忘れてしまいます。</p>
+<p>元の仕事がSIやSEだけにやっぱり向いているんだろうね。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-07-29_windows-10-may-2020-update/" rel="bookmark">
+			Windows 10 May 2020 Update
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Windows 10 Pro 64bitに2020年5月の大型アップデートを適用しました。</p>
+<p>Windows Updateからは、なかなか配信されてこないので、「<a href="https://www.microsoft.com/ja-jp/software-download/windows10%E3%80%80">Windows 10 のダウンロード</a>」から、アップデートツールをダウンロードして、アップデートを行いました。</p>
+<p>ダウンロードはさほど時間が掛かりませんでしたが、更新プログラムの実行は結構長く感じました。</p>
+<p>8コア16スレッドのCPUを搭載したタワーPCと2コア4スレッドのCPUを搭載したノートPCでは、かなり時間が違いましたが、ノートPCは途中で適用プログラムが止まってしまったので、再起動して入れ直したため、2時間ぐらい掛かりました。</p>
+<p>アップデートしてから、あからさまにFirefox 78.0.2(64bit)の動作がもっさりするようになりました。</p>
+<p>どうやらFirefoxの最新版が、今、公開されたようなので適用してみます。</p>
+<p>Windows 10のテキスト入力のカーソル表示が見やすくなって、これはかなり良いです。</p>
+<p>メモリ周りの改善で、アナウンス通りGoogle Chromeのメモリ使用量が大幅に少なくなりました。</p>
+<p>一旦、記事を保存して、Firefoxを79.0に更新しました。</p>
+<p>Firefox 79.0でもっさり感、つまりJavaScriptの処理速度もFirefox 79.0で改善したようです。</p>
+<p>でもメモリ使用量は減ってないようです。</p>
+<p>32GB搭載しているタワーPCでは問題にはならないのですけど。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-07-21_7.1ch%E5%8C%96---2020%E5%B9%B4%E7%89%88/" rel="bookmark">
+			7.1ch化 - 2020年版
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://ameblo.jp/yuki9902/image-12612485407-14792218754.html"><img src="https://stat.ameba.jp/user_images/20200721/18/yuki9902/a5/2c/p/o1920108014792218754.png?caw=800" alt="7.1chサラウンドスピーカー配置図とPC接続"></a></p>
+<p>　Windows 10 PCにおける7.1chマルチチャンネルオーディオを実現するためには、大きく分け二つの方法があります。</p>
+<p>1．AMD RADEONやNVIDIA GeForceのグラフィックボードのHDMI(DP、DVI-Dも含む)からAVアンプへHDMIで接続する。</p>
+<p>2．マザボードまたはサウンドカードのアナログマルチチャンネル出力からアナログマルチチャンネル入力端子を備えたAVアンプへ接続する。</p>
+<p>　1．の方法はHDMI1.1以降のHDMI端子を備えたマルチチャンネル対応のAVアンプに接続すれば、Windowsのサウンドの「デジタル出力」の「構成」という項目の中に「7.1 サラウンド」が表示されます。</p>
+<p><a href="https://ameblo.jp/yuki9902/image-12612485407-14792224402.html"><img src="https://stat.ameba.jp/user_images/20200721/18/yuki9902/c8/ba/p/o0609045414792224402.png?caw=800" alt="Windows 7.1chサラウンドスピーカー構成設定画面"></a></p>
+<p>　サンプリングレートやビット深度は接続したAVアンプとグラフィックボードに依存します。どちらかの低い方が上限になります。</p>
+<p>　2．の方法はRealtek ALC1220などのマルチチャンネル出力に対応した音声処理チップを搭載し、7.1chマルチチャンネルアナログ出力端子を搭載したマザボードとマルチチャンネル入力端子を備えたAVアンプをアナログケーブルで接続します。</p>
+<p>　しかしマルチチャンネル入力端子を備えたAVアンプは、現在のところ一部のハイエンドのAVアンプしか販売されていません。AVアンプが買えない場合は、マルチチャンネル対応スピーカーセットを導入する方法と、ステレオ2チャンネルアンプを4台とアンプ内蔵スパーウーファーを導入する方法があります。</p>
+<p>　マルチチャンネルのスピーカーの設置方法は、上記の図や昔のマルチチャンネルSACDの説明サイトなどを参考にしてください。スピーカーはリスニングポジションを中心に同心円上に設置するのが望ましく、サブウーファーは定常波をなくすために部屋の中心軸から外して設置するのが良いとされています。スピーカーの設置場所が同心円上にない場合は、オーディオドライバーの設定等からスピーカーまでの距離から遅延を補正してください。同じような設定はAVアンプの設定項目の中にもあります。</p>
+<p>　BD作品を楽しむ際、デジタルサラウンド信号（DTS-HD、Dolby ATMOSなど）をデジタルパススルーするためには、BD再生アプリケーションと受信側のAVアンプとHDMIのバージョンがその信号に対応している必要があります。AVアンプが対応していない場合は、PC側（BD再生アプリケーション）でデコードします。</p>
+<p>　アナログ出力を使う場合は、すべてPC側でデコードします。</p>
+<p>　PCのWebブラウザで見るYoutubeやAmazon Primeのコンテンツは、マルチチャンネルで再生されず、すべてステレオかモノラルになります。</p>
+<p>　最近のTVに搭載されているHDMIのオーディオリターンチャンネルに関しては、対応している機器を持ってなく確認していません。</p>
+<p>　ちなみ私はアナログ出力でマルチチャンネル7.1chを実現しています。私の持っているAVアンプはHDMI1.1対応と結構古く、HDMIの音声信号を受信する際に毎回フォーマットを確認してリセットするので、再生の最初2秒が音飛びします。更にHDMIだと5.1ch 96kHz/24bitまでにしか対応していないので、AVアンプのHDMIは使っていません。</p>
+<p>　音楽再生にはFoobar2000、Sony Music Center for PCを使っています。Foobar2000には、ステレオ信号をマルチチャンネルに拡張するDSPプラグインを入れています。リバーブなどのエフェクトをかけることで、様々な環境を擬似的に作り出すことが出来ます。全方位から響くのは、映像作品やゲームへの没入感が高まります。ただやや大きめのブックシェルフ型のスピーカーをスタンドに設置するには場所に困ります。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-07-12_amder/" rel="bookmark">
+			AMDer
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>AMD K-6を購入したあたりからのAMD CPUのユーザーです。</p>
+<p>一番最初に購入したPC/AT互換機は富士通FM-V DESKROWER SでIntel Pentium 100が載ってました。</p>
+<p>その後、Cyrix 6x86に乗り換え、そしてAMD K-6へと乗り換えていきました。</p>
+<p>K6-2、K6-III、Athlon、Athlon Thunderbird、Athlon XP、Atlon 64、Athlon X2、Phenom、Phenom II、FX、RYZENへと乗り換えていき、今はRYZEN 7 3700Xになりました。</p>
+<p>サブ機は、AMD Duron、Intel Celeron、AMD Sempronと毎回作り替え、今はノートPCのIntel Core i3になりました。</p>
+<p>FXシリーズの後、GPUを内包したAPU、Aシリーズが出ましたが、別体のGPUの性能を超えるものでもないし、CPU部分はFXシリーズと変わらないものなので導入しませんでした。</p>
+<p>GPUは、PowerVRとかVooDoo BansheeとかnViDiA RIVAとか。</p>
+<p>ATi RADEON HD5760とか。</p>
+<p>nViDIAのSLIとかもやりました。</p>
+<p>クロシコのNVIDIA GeForce 8600GT搭載GPUを買ったら、気温10度以下で起動しないトラブルにあって、ASUSのGPUに買い換え、クロシコのGPUは会社の後輩になすりつけました。</p>
+<p>NVIDIA GeForceシリーズは下位モデルの8600GT、GTX 750、GTX 1050、GTX 1060を使ってきました。</p>
+<p>今は10年ぶりのRADEON、AMD RADEON RX5700XTですね。</p>
+<p>自作erとしては1996年、AMDerとしては1997年からですね。</p>
+<p>Intelを使わないのは高いからという理由だけです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2020-07-07_asus-rog-strix-x570-f-bios-2407-%E6%9B%B4%E6%96%B0/" rel="bookmark">
+			ASUS ROG-STRIX X570-F BIOS 2407 更新
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-f-gaming-model/HelpDesk_Download">ASUS ROG-STRIX X570-F GAMINGのBIOS2407</a></p>
+<p><a href="https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-f-gaming-model/HelpDesk_Download">ROG Strix X570-F Gaming | ROG Strix | Gaming Motherboards｜ROG - Republic of Gamers｜ROG Global<img src="https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg" alt="リンク">rog.asus.com</a></p>
+<p>が公開されていたので、先ほど更新しました。</p>
+<ul>
+<li>
+<p>Improved system performance and compatibility</p>
+</li>
+<li>
+<p>Improved DRAM compatibility</p>
+</li>
+<li>
+<p>Update AM4 combo V2 PI 1.0.0.2</p>
+</li>
+</ul>
+<p>更新内容は以上の通りなんで、システムの性能、互換性の改善、メモリーの互換性改善、AM4 combo V2 PI 1.0.0.2の更新です。</p>
+<p>6月後半にAM4 combo V2 PI 1.0.0.2が出てたので、BIOSの更新は早かったですね。</p>
+<p>前回のAM4 combo V2 PI 1.0.0.1との比較は<a href="https://www.funkykit.com/articles/performance-analysis-amd-agesa-combo-am4-v2-1-0-0-2-smu-46-61/">Performance Analysis: AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61</a></p>
+<p><a href="https://www.funkykit.com/articles/performance-analysis-amd-agesa-combo-am4-v2-1-0-0-2-smu-46-61/">Performance Analysis: AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61 - FunkyKitToday, we’ll be taking a quick look at the performance analysis of the new AGESA BIOS from AMD. We will be using the latest version (AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61) which is &hellip;<img src="https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg" alt="リンク">www.funkykit.com<img src="https://i1.wp.com/www.funkykit.com/wp-content/uploads/2020/07/AMD-AGESA-ASRock-b550-taichi.jpg?fit=1280%2C720&amp;ssl=1" alt=""></a></p>
+	</div>
+</article>
+</main>
+
+<div class="pagination">
+	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/page/12/">«</a>
+	<span class="pagination__item pagination__item--current">13/25</span>
+	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/14/">»</a>
+</div>
+
+			</div>
+			
+<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-archives widget">
+    <h4 class="widget__title">Archives</h4>
+    <div class="widget__content">
+        <ul class="widget__list">
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2005 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2005-12/">
+                                12月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2005-11/">
+                                11月 (13)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2005-10/">
+                                10月 (12)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2006 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-12/">
+                                12月 (8)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-11/">
+                                11月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-10/">
+                                10月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-09/">
+                                09月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-08/">
+                                08月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-07/">
+                                07月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-06/">
+                                06月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-05/">
+                                05月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-04/">
+                                04月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-03/">
+                                03月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-02/">
+                                02月 (22)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2006-01/">
+                                01月 (3)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2007 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-12/">
+                                12月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-11/">
+                                11月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-10/">
+                                10月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-09/">
+                                09月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-08/">
+                                08月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-07/">
+                                07月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-06/">
+                                06月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-05/">
+                                05月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-03/">
+                                03月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-02/">
+                                02月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2007-01/">
+                                01月 (5)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2008 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-12/">
+                                12月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-11/">
+                                11月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-10/">
+                                10月 (8)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-09/">
+                                09月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-08/">
+                                08月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-07/">
+                                07月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-06/">
+                                06月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-05/">
+                                05月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-04/">
+                                04月 (8)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-03/">
+                                03月 (27)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-02/">
+                                02月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2008-01/">
+                                01月 (16)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2009 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-12/">
+                                12月 (52)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-11/">
+                                11月 (45)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-10/">
+                                10月 (56)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-09/">
+                                09月 (74)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-08/">
+                                08月 (168)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-07/">
+                                07月 (114)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-06/">
+                                06月 (76)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-05/">
+                                05月 (58)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-04/">
+                                04月 (24)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-03/">
+                                03月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-02/">
+                                02月 (8)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2009-01/">
+                                01月 (18)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2010 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-12/">
+                                12月 (17)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-11/">
+                                11月 (27)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-10/">
+                                10月 (27)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-09/">
+                                09月 (26)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-08/">
+                                08月 (33)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-07/">
+                                07月 (47)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-06/">
+                                06月 (30)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-05/">
+                                05月 (24)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-04/">
+                                04月 (32)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-03/">
+                                03月 (38)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-02/">
+                                02月 (37)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2010-01/">
+                                01月 (38)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2011 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-12/">
+                                12月 (13)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-11/">
+                                11月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-10/">
+                                10月 (21)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-09/">
+                                09月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-08/">
+                                08月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-07/">
+                                07月 (13)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-06/">
+                                06月 (17)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-05/">
+                                05月 (17)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-04/">
+                                04月 (33)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-03/">
+                                03月 (30)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-02/">
+                                02月 (55)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2011-01/">
+                                01月 (28)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2012 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-12/">
+                                12月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-11/">
+                                11月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-10/">
+                                10月 (17)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-09/">
+                                09月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-08/">
+                                08月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-07/">
+                                07月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-06/">
+                                06月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-05/">
+                                05月 (13)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-04/">
+                                04月 (16)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-03/">
+                                03月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-02/">
+                                02月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2012-01/">
+                                01月 (13)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2013 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-12/">
+                                12月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-11/">
+                                11月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-10/">
+                                10月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-09/">
+                                09月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-08/">
+                                08月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-07/">
+                                07月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-06/">
+                                06月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-05/">
+                                05月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-04/">
+                                04月 (8)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-03/">
+                                03月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-02/">
+                                02月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2013-01/">
+                                01月 (5)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2014 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-12/">
+                                12月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-11/">
+                                11月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-10/">
+                                10月 (21)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-09/">
+                                09月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-08/">
+                                08月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-07/">
+                                07月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-06/">
+                                06月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-05/">
+                                05月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-04/">
+                                04月 (13)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-03/">
+                                03月 (16)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-02/">
+                                02月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2014-01/">
+                                01月 (4)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2015 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-12/">
+                                12月 (43)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-11/">
+                                11月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-10/">
+                                10月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-09/">
+                                09月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-08/">
+                                08月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-07/">
+                                07月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-06/">
+                                06月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-05/">
+                                05月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-04/">
+                                04月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-03/">
+                                03月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-02/">
+                                02月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2015-01/">
+                                01月 (5)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2016 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-12/">
+                                12月 (314)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-11/">
+                                11月 (129)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-10/">
+                                10月 (170)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-09/">
+                                09月 (267)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-08/">
+                                08月 (107)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-07/">
+                                07月 (99)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-06/">
+                                06月 (38)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-05/">
+                                05月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-04/">
+                                04月 (17)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-03/">
+                                03月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-02/">
+                                02月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2016-01/">
+                                01月 (13)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2017 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-12/">
+                                12月 (78)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-11/">
+                                11月 (53)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-10/">
+                                10月 (65)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-09/">
+                                09月 (87)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-08/">
+                                08月 (168)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-07/">
+                                07月 (239)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-06/">
+                                06月 (228)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-05/">
+                                05月 (241)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-04/">
+                                04月 (190)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-03/">
+                                03月 (152)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-02/">
+                                02月 (190)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2017-01/">
+                                01月 (279)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2018 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-12/">
+                                12月 (48)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-11/">
+                                11月 (77)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-10/">
+                                10月 (94)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-09/">
+                                09月 (112)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-08/">
+                                08月 (173)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-07/">
+                                07月 (217)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-06/">
+                                06月 (97)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-05/">
+                                05月 (50)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-04/">
+                                04月 (51)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-03/">
+                                03月 (64)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-02/">
+                                02月 (46)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2018-01/">
+                                01月 (67)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2019 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-12/">
+                                12月 (68)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-11/">
+                                11月 (48)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-10/">
+                                10月 (45)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-09/">
+                                09月 (48)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-08/">
+                                08月 (59)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-07/">
+                                07月 (34)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-06/">
+                                06月 (35)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-05/">
+                                05月 (71)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-04/">
+                                04月 (44)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-03/">
+                                03月 (35)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-02/">
+                                02月 (36)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2019-01/">
+                                01月 (48)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2020 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-12/">
+                                12月 (21)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-11/">
+                                11月 (14)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-10/">
+                                10月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-09/">
+                                09月 (19)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-08/">
+                                08月 (34)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-07/">
+                                07月 (46)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-06/">
+                                06月 (38)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-05/">
+                                05月 (52)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-04/">
+                                04月 (56)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-03/">
+                                03月 (20)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-02/">
+                                02月 (30)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2020-01/">
+                                01月 (46)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2021 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-12/">
+                                12月 (14)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-11/">
+                                11月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-10/">
+                                10月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-09/">
+                                09月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-08/">
+                                08月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-07/">
+                                07月 (14)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-06/">
+                                06月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-05/">
+                                05月 (15)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-04/">
+                                04月 (12)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-03/">
+                                03月 (21)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-02/">
+                                02月 (18)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2021-01/">
+                                01月 (22)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2022 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-12/">
+                                12月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-11/">
+                                11月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-10/">
+                                10月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-09/">
+                                09月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-08/">
+                                08月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-07/">
+                                07月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-06/">
+                                06月 (9)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-05/">
+                                05月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-04/">
+                                04月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-03/">
+                                03月 (11)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-02/">
+                                02月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2022-01/">
+                                01月 (8)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2023 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-12/">
+                                12月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-11/">
+                                11月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-10/">
+                                10月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-08/">
+                                08月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-07/">
+                                07月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-06/">
+                                06月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-05/">
+                                05月 (6)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-04/">
+                                04月 (10)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-03/">
+                                03月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-02/">
+                                02月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2023-01/">
+                                01月 (2)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2024 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-12/">
+                                12月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-11/">
+                                11月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-10/">
+                                10月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-08/">
+                                08月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-06/">
+                                06月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-05/">
+                                05月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-04/">
+                                04月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2024-01/">
+                                01月 (1)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2025 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-12/">
+                                12月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-11/">
+                                11月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-10/">
+                                10月 (3)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-09/">
+                                09月 (4)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-08/">
+                                08月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-06/">
+                                06月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-04/">
+                                04月 (2)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-03/">
+                                03月 (5)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2025-01/">
+                                01月 (2)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+            <li class="widget__item">
+                <details>
+                    <summary style="cursor: pointer; list-style: none; font-weight: bold; padding: 5px 0;">
+                        ▶ 2026 年
+                    </summary>
+                    <ul style="padding-left: 20px; list-style: none;">
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2026-03/">
+                                03月 (1)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2026-02/">
+                                02月 (7)
+                            </a>
+                        </li>
+                        <li class="widget__item" style="margin: 5px 0;">
+                            <a class="widget__link" href="/archives/2026-01/">
+                                01月 (16)
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+     
+    details summary::-webkit-details-marker { display: none; }
+    details[open] summary { color: #e02424; }  
+    details[open] summary:before { content: "▼ "; }
+    details:not([open]) summary:before { content: "▶ "; }
+    details summary:before { font-size: 0.8em; }
+</style>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/computer/">COMPUTER</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/enthusiast/">ENTHUSIAST</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/gallery/">GALLERY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/game/">GAME</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/site/">SITE</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2026 yuki9902::blog.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

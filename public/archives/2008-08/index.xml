@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2008-08 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2008-08/</link>
+    <description>Recent content in 2008-08 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 25 Aug 2008 13:42:34 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2008-08/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adobe Flash Playerの不具合</title>
+      <link>http://localhost:1313/posts/2008-08-25-adobe-flash-player%E3%81%AE/</link>
+      <pubDate>Mon, 25 Aug 2008 13:42:34 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-25-adobe-flash-player%E3%81%AE/</guid>
+      <description>&lt;p&gt;Windows VISTA x64 の32bit版Internet Explorer 7 でネットサーフィンをしていると、頻繁にアプリケーションクラッシュでIEが強制終了してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;クラッシュの原因は、Flash Player 8 (or 9)がメモリアドレスを壊して、アクセスしようとすることにあります。&lt;/p&gt;&#xA;&lt;p&gt;Adobe、Macromediaの体質から、Flash Player 8、9のデバッグは十分に行われてはいないように感じます。&lt;/p&gt;&#xA;&lt;p&gt;奇数バージョンで不具合が多いとか、そういった都市伝説が起きるぐらい仕様上のバグが放置されています。&lt;/p&gt;&#xA;&lt;p&gt;Flash Playerだけでなく、Flashのオーサリング環境である「Flash CS3」もメモリアクセス違反でアプリケーションがクラッシュしたり、動作がおかしくなります。&lt;/p&gt;&#xA;&lt;p&gt;Action Script、Java Scriptなどのスクリプト実行環境を持つこれらが不安定になるのは、技術的に困難な部分が多いのだと推測しますが、メモリをプロテクトする機能をユーザー、開発者に提供する必要があるのかと思います。&lt;/p&gt;&#xA;&lt;p&gt;問題は、プログラミングの基本がなっていない作法の悪いFlashのコンテンツが数多く存在していると言うことではないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;オーサリングツールがデザイナー寄りだったことから、プログラミングの基本であるエラー処理やオブジェクト指向プログラミングができていません。&lt;/p&gt;&#xA;&lt;p&gt;エラーがでる大半のFlashは、悪質なコマーシャルコンテンツなどですから、これらを排除する対策をとってもらいたいものです。&lt;/p&gt;&#xA;&lt;p&gt;っていうかFlashのコマーシャルやめて、重くて鬱陶しいから。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SHM-CDよりもSACD</title>
+      <link>http://localhost:1313/posts/2008-08-20-shm-cd%E3%82%88%E3%82%8A%E3%82%82sacd/</link>
+      <pubDate>Wed, 20 Aug 2008 16:52:36 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-20-shm-cd%E3%82%88%E3%82%8A%E3%82%82sacd/</guid>
+      <description>&lt;p&gt;SCM-CDのCDを購入してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;これまでのCDで同じ音源が存在していないので、比較のしようがありませんが。&lt;/p&gt;&#xA;&lt;p&gt;聞いた感じですが、分かりません。&lt;/p&gt;&#xA;&lt;p&gt;クロック精度やレーザー収束精度の高いシステムでは、音質の違いが分からないはずです。&lt;/p&gt;&#xA;&lt;p&gt;SHM-CDが、通常のCDより高音質と豪語しているのは、ビット取りこぼしによるエラー補間を無くしマスターに近いPCMを得られること、再読み込みによるサーボ電流からのDACへのジッタ発生を少なくすることが理由なので、精度の高いシステムでは意味をなさないからです。&lt;/p&gt;&#xA;&lt;p&gt;JPOPなどに使われている安い素材と置き換えるのは有効でしょう。&lt;/p&gt;&#xA;&lt;p&gt;エラー訂正に頼ったエントリークラスのシステムにも有効かも知れません。&lt;/p&gt;&#xA;&lt;p&gt;ハイエンドオーディオには必要性を感じないし、質の高いプレスをおこなったCDとの置き換えも考えにくいです。&lt;/p&gt;&#xA;&lt;p&gt;それよりも音匠塗装したSACDがいいです。&lt;/p&gt;&#xA;&lt;p&gt;もっとSACD普及してください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>メンテナンス</title>
+      <link>http://localhost:1313/posts/2008-08-20-%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</link>
+      <pubDate>Wed, 20 Aug 2008 09:34:19 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-20-%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9/</guid>
+      <description>&lt;p&gt;GDBFのフロントタイヤの肩からワイヤがのぞいてます。&lt;/p&gt;&#xA;&lt;p&gt;ヒルクライムで、弱アンダーで走らせていたので、しっかりとフロントタイヤが削れました。&lt;/p&gt;&#xA;&lt;p&gt;知り合いを通じてRE070の中古（ウェアインジケータが露出済み）を１本千円で買い取り、５千キロ使用できました。&lt;/p&gt;&#xA;&lt;p&gt;今度は新品にします。前と同じRE050を注文しました。&lt;/p&gt;&#xA;&lt;p&gt;価格はRE11より高いですが、寿命は若干長いと思われます。&lt;/p&gt;&#xA;&lt;p&gt;実質RE050の寿命は２万１千キロなので、感覚的にはRE070やRE01Rとの差は感じられません。&lt;/p&gt;&#xA;&lt;p&gt;３千キロなんて一ヶ月少々で到達してしまうので。。。&lt;/p&gt;&#xA;&lt;p&gt;あとフロントのブレーキパッドを交換しました。&lt;/p&gt;&#xA;&lt;p&gt;前回も２万５千キロで交換したので、大体それぐらいしか持たないのがよく分かりました。&lt;/p&gt;&#xA;&lt;p&gt;GD型の初期のパッドは、制動力が弱く、ブレンボキャリパーをつけている意味が無いとまで酷評されたため、GDBD以降、純正パッドも制動力が高いものに変更されました。&lt;/p&gt;&#xA;&lt;p&gt;当然のごとく、パッドの減りは早くなっています。&lt;/p&gt;&#xA;&lt;p&gt;しかしローターへの攻撃性は他社のスポーツパッドより良好で、ローターの減りは少ないようです。&lt;/p&gt;&#xA;&lt;p&gt;ああそうそう、リヤのストラットを交換してから、リヤがブレークしづらくなったので、それがフロントへの負荷を高めているようでもあります。&lt;/p&gt;&#xA;&lt;p&gt;しなやかな足回りにはRE070はあわないのがよく分かります。&lt;/p&gt;&#xA;&lt;p&gt;RE070は固すぎるかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>コードギアス 反逆のルルーシュ R2</title>
+      <link>http://localhost:1313/posts/2008-08-18-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7-08ae/</link>
+      <pubDate>Mon, 18 Aug 2008 21:39:14 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-18-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7-08ae/</guid>
+      <description>&lt;p&gt;コードギアスの公式サイトを見ると、ナナリーは「死亡」となっていました。&lt;/p&gt;&#xA;&lt;p&gt;あれ？行方不明ではなく、死亡。。。&lt;/p&gt;&#xA;&lt;p&gt;咲世子もギルフォードも死亡って。。。&lt;/p&gt;&#xA;&lt;p&gt;なにげにヴィレッタが捕虜ではなく黒の騎士団になっているし。&lt;/p&gt;&#xA;&lt;p&gt;公式サイトの情報が一番びっくりするんですが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>コードギアス 反逆のルルーシュ R2 Turn19 「裏切り」</title>
+      <link>http://localhost:1313/posts/2008-08-18-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5-r2/</link>
+      <pubDate>Mon, 18 Aug 2008 18:10:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-18-%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E5%8F%8D%E9%80%86%E3%81%AE%E3%83%AB%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A5-r2/</guid>
+      <description>&lt;p&gt;韓国バレの通りに進行中のコードギアスR2ですが、おおよそ次の1話ぐらいでネタが尽きているようです。&lt;/p&gt;&#xA;&lt;p&gt;ネタバレが出た時点では、最終話までの脚本が出来ていなかったからだろうとは思いますが。。。&lt;/p&gt;&#xA;&lt;p&gt;また、どうやらキャラ崩れが激しかったのが修正されたみたいで、質の高い本来のコードギアスにもどったのかな。&lt;/p&gt;&#xA;&lt;p&gt;ネタバレはともかく、相変わらずおもしろいアニメです。&lt;/p&gt;&#xA;&lt;p&gt;さて気になるのは、黒の騎士団から完全に孤立したルルーシュが誰を味方につけるのかということですね。&lt;/p&gt;&#xA;&lt;p&gt;シュナイゼルの画策で黒の騎士団の反乱にあい、銃口に取り囲まれたルルーシュは「最期」とあきらめる中で、自分を庇い心中を決意しようとしたカレンに対して、悪ぶり嘘をつき、あえて突き放すあたり美学だなと思った次第です。&lt;/p&gt;&#xA;&lt;p&gt;また、黒の騎士団から銃殺されようとする直前、ルルーシュからカレンに向けられて小声で語られた言葉、「カレン、きみは生きろ」、臭いけど格好良いじゃないですか。&lt;/p&gt;&#xA;&lt;p&gt;カレンは、シンボル、カリスマとしてのゼロを慕っていたときとは違って、守るものを無くし独りになっても弱くても抗おうとするルルーシュに心惹かれているんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;彼の真意、本心を知ったカレンは今後、黒の騎士団から離脱するのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;また、ルルーシュ救出劇に黒の騎士団の旗艦「斑鳩」に取り残されたC.C.の今後はどうなるのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;きっと、C.C.はカレンと共に黒の騎士団を離れ、ルルーシュに合流すべく動くのでしょうけど。&lt;/p&gt;&#xA;&lt;p&gt;C.C.の話ですが、ロロがルルーシュを運び入れてきたときに、そのあまりに打ち拉がれたルルーシュの姿にびっくりして、掃除の途中だったのでしょうか、ハンディーモップを持ったまま固まっていました。&lt;/p&gt;&#xA;&lt;p&gt;シーンが転換して戻ったときも固まったままでいたのは、あまりにもルルーシュの姿が痛々しかったため、どうしたものかと思案していたのでしょう、C.C.も健気です。&lt;/p&gt;&#xA;&lt;p&gt;ルルーシュは、記憶をなくしたC.C.の言動に素直に癒されているのかと思うのですが。&lt;/p&gt;&#xA;&lt;p&gt;これからは韓国ネタバレがないので、ようやく純粋に楽しめます。&lt;/p&gt;&#xA;&lt;p&gt;予想外の展開が続くとは思いますが、望むようなラストを迎えられれば良いんですが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>朝顔</title>
+      <link>http://localhost:1313/posts/2008-08-16-%E6%9C%9D%E9%A1%94/</link>
+      <pubDate>Sat, 16 Aug 2008 00:39:35 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-16-%E6%9C%9D%E9%A1%94/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/IMGP0010s.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/IMGP0010s.jpg&#34; alt=&#34;IMGP0010s.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DATA:&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K10D / smcPENTAX DA 18-55mmF3.5-5.6 AL&lt;/p&gt;&#xA;&lt;p&gt;1/60s / f5.6 / iso200 / sRGB&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Safari 3.1 for Windows</title>
+      <link>http://localhost:1313/posts/2008-08-15-safari-3.1-for-wind/</link>
+      <pubDate>Fri, 15 Aug 2008 13:52:27 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-15-safari-3.1-for-wind/</guid>
+      <description>&lt;p&gt;Safariのカラーマネジメント機能がすばらしい。&lt;/p&gt;&#xA;&lt;p&gt;Internet Explorerでは、デジカメで撮影したAdobeRGBの画像は、暗部が浮いて彩度が失われて表示されていましたが、Safariではきちんとマネジメントされて表示されている。&lt;/p&gt;&#xA;&lt;p&gt;モニタの能力(sRGB)を超えては表示されませんが、撮影したときの雰囲気と言う物がちゃんと反映されるというのはうれしい。&lt;/p&gt;&#xA;&lt;p&gt;モニタのカラーマネジメントは、きちんとしたカラープロファイルを提供しているメーカーが少ないので、自分で測定器（calibrator）を買って調整しなければならないんですが、価格の面からなかなか敷居が高い。&lt;/p&gt;&#xA;&lt;p&gt;でも最低限、写真作品を見るなら、カラーマネジメントされた環境が必要だと常々思っていた。&lt;/p&gt;&#xA;&lt;p&gt;まだ、Safari、Firefox、Photoshopなどの一部のApplicationに過ぎないが、正しく見られる環境があると言うことはありがたい。&lt;/p&gt;&#xA;&lt;p&gt;あとは、AdobeRGBの色域が表示でき、その階調を失わないハイビット処理を行えるディスプレイを買えばよい。&lt;/p&gt;&#xA;&lt;p&gt;今ならx.v.Color対応の液晶テレビが安物液晶ディスプレイより再現性は高い。&lt;/p&gt;&#xA;&lt;p&gt;ここらで写真用に業務用液晶ディスプレイでも買うか。。。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RCAケーブル交換</title>
+      <link>http://localhost:1313/posts/2008-08-13-rca%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E4%BA%A4%E6%8F%9B/</link>
+      <pubDate>Wed, 13 Aug 2008 23:45:31 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-13-rca%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E4%BA%A4%E6%8F%9B/</guid>
+      <description>&lt;p&gt;MONSTER CABLEのRCAオーディオピンケーブル MC200I-1M を３セット購入しました。&lt;/p&gt;&#xA;&lt;p&gt;SACDプレーヤー(Marantz SA8260)とAVアンプ(DENON AVC-4320)を接続していたケーブルは、６チャンネル必要なんですが、長さ、メーカー、グレードもまちまちでした。&lt;/p&gt;&#xA;&lt;p&gt;ということでモデルチェンジしたばかりのモンスターケーブルです。&lt;/p&gt;&#xA;&lt;p&gt;MC200iなどのRCAピンジャックはしっかりと端子に食いつき、防振対策もとられています。&lt;/p&gt;&#xA;&lt;p&gt;さらにケーブル自体は、周波数に応じて伝導する線材や長さ、太さを調整した構造で、信号伝達のロスを防いでいます。&lt;/p&gt;&#xA;&lt;p&gt;またシールド線とグランド線を別々に配することで、グランド線が本来運ぶべき情報の欠落がないとのこと。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP0737a.jpg&#34; alt=&#34;_IGP0737a.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;で、早速、ケーブルを取り替えて聴いてみました。&lt;/p&gt;&#xA;&lt;p&gt;CDで同軸デジタルとの違いを確認しましたが、デジタルの方が音像がクリア、アナログの方がマイルドな感じですが、ブラインドテストされるとたぶんわかりません。&lt;/p&gt;&#xA;&lt;p&gt;ということで、ステレオではケーブルを換えて音がよくなったかは私にはわかりません。&lt;/p&gt;&#xA;&lt;p&gt;これまでステレオ時に使っていたのは、ベルデン1192aと言うケーブルで、今度のケーブルの２倍以上の値段でした。&lt;/p&gt;&#xA;&lt;p&gt;でも、マルチチャンネル時に音がちぐはぐな状態がなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;これまでのケーブルとは違って、音がちゃんとつながって聞こえます。&lt;/p&gt;&#xA;&lt;p&gt;ようやく普通に聞こえるようになった感じです。&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;チャンネル&lt;/th&gt;&#xA;          &lt;th&gt;旧&lt;/th&gt;&#xA;          &lt;th&gt;→&lt;/th&gt;&#xA;          &lt;th&gt;新&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;フロント L,R&lt;/td&gt;&#xA;          &lt;td&gt;BELDEN 1192A(1m)&lt;/td&gt;&#xA;          &lt;td&gt;→&lt;/td&gt;&#xA;          &lt;td&gt;MONSTER CABLE MC200i-1M(1m)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;サラウンド L,R&lt;/td&gt;&#xA;          &lt;td&gt;audio-technica SUPER LINK&lt;/td&gt;&#xA;          &lt;td&gt;→&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;センタ,SW&lt;/td&gt;&#xA;          &lt;td&gt;SONY HIFI CONNECTING CORD&lt;/td&gt;&#xA;          &lt;td&gt;→&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>PENTAX K10D &#43; AF500FTZ</title>
+      <link>http://localhost:1313/posts/2008-08-13-pentax-k10d-&#43;-af500/</link>
+      <pubDate>Wed, 13 Aug 2008 14:02:06 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-13-pentax-k10d-&#43;-af500/</guid>
+      <description>&lt;p&gt;しばらく人撮りをしていなかったので、外付けフラッシュを使うことがありませんでした。&lt;/p&gt;&#xA;&lt;p&gt;んでK10Dにつけて撮影したことがないことに思い当たって、どんな風に撮れるのか試したくなりました。&lt;/p&gt;&#xA;&lt;p&gt;結果、全くTTLオート（自動調光）が働きません。&lt;/p&gt;&#xA;&lt;p&gt;もしかして補正しなければ使えないのかと思い、いろいろやりました。&lt;/p&gt;&#xA;&lt;p&gt;分かったのはAF500FTZがフル発光しているだけ、K10DはTTLせずにマニュアルフラッシュと同じ扱い。&lt;/p&gt;&#xA;&lt;p&gt;ただ、画角連動とかAF補助光とか動くので、最初はK10Dの故障かと思いましたよ。&lt;/p&gt;&#xA;&lt;p&gt;ネットで調べたら、K10DやK100Dなどでは、P-TTLフラッシュでないと自動調光できないそうです。&lt;/p&gt;&#xA;&lt;p&gt;なので、そのうちフラッシュも買わないと。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SACDの試聴</title>
+      <link>http://localhost:1313/posts/2008-08-10-sacd%E3%81%AE%E8%A9%A6%E8%81%B4/</link>
+      <pubDate>Sun, 10 Aug 2008 01:24:51 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-10-sacd%E3%81%AE%E8%A9%A6%E8%81%B4/</guid>
+      <description>&lt;p&gt;ビックカメラにいって、コンポーネントオーディオコーナーで物色していたら、店員のおねーさんが話しかけてきました。&lt;/p&gt;&#xA;&lt;p&gt;店員のおねーさんが、何か聞きたい機器があるかと聞いてきたので、前から気になっていたソニーのSACDプレーヤーのSCD-XA1200ESを頼んでみました。&lt;/p&gt;&#xA;&lt;p&gt;アンプはDENONのSA-11、スピーカーはB&amp;amp;Wの805。&lt;/p&gt;&#xA;&lt;p&gt;普段聞くソースとしてJAZZと伝えて、かけてもらいました。&lt;/p&gt;&#xA;&lt;p&gt;ソニーのSACDプレーヤーから、出てきた音は非常に耳に痛い。&lt;/p&gt;&#xA;&lt;p&gt;ドラムのハイハット、トランペットの金属の響きが、刺さってくるようです。&lt;/p&gt;&#xA;&lt;p&gt;印象としては、音につながりがない。&lt;/p&gt;&#xA;&lt;p&gt;あまりに聞くに堪えないので、SACDプレーヤーを代えてもらいました。&lt;/p&gt;&#xA;&lt;p&gt;店員のおねーさんに、今私が持っているMarantzの話をしていたので、次にMarantzを薦めてきましたが、今更Marantzを聴いてもつまらないので、DENONのDCD-SA11をかけてもらいました。&lt;/p&gt;&#xA;&lt;p&gt;ソニーのSACDとちがって、聞きやすくなめらか、艶のある感じ（店員のおねーさん曰く）でした。&lt;/p&gt;&#xA;&lt;p&gt;DENONは聴き疲れしません。&lt;/p&gt;&#xA;&lt;p&gt;でも、さすがにDCD-SA11の価格は私のとっては現実的ではないので、普及価格帯のDENON DCD-1650AEをかけてもらいました。&lt;/p&gt;&#xA;&lt;p&gt;これは、DCD-SA11と遜色なく音が出ています。&lt;/p&gt;&#xA;&lt;p&gt;B&amp;amp;W805の能力に耐えうる音が出ています。&lt;/p&gt;&#xA;&lt;p&gt;店員のおねーさん曰く、DENONのDCD-1650AEとDCD-1500AEは売れ筋だそうです。&lt;/p&gt;&#xA;&lt;p&gt;店頭の環境ノイズ、スピーカーが乱立する狭さの悪条件でも、DENONのSACDプレーヤーの良さを認識できました。&lt;/p&gt;&#xA;&lt;p&gt;今日はDENON LINK搭載（SACDがデジタル転送できる）のDVDプレーヤーDENON DVD-2930を購入するつもりでしたが、DCD-1650AEを気に入ってしまい予定変更です。&lt;/p&gt;&#xA;&lt;p&gt;予算不足なので、来月まで資金繰りをしなければ。&lt;/p&gt;&#xA;&lt;p&gt;しかし、さすがにコンポーネントオーディオのコーナーにいる店員さんですわ。&lt;/p&gt;&#xA;&lt;p&gt;大手量販店だと、大概、しらねーなと思ってあしらうのですが、今日の人は、よく勉強してました。&lt;/p&gt;&#xA;&lt;p&gt;アクロリンクやワイヤーワールドを薦めてきた上に、ベルデンを使用中と伝えると「モンスターケーブルは似た音」と教えてくれました。&lt;/p&gt;&#xA;&lt;p&gt;アクロリンクやワイヤーワールドは６チャンネル用には買えません。&lt;/p&gt;&#xA;&lt;p&gt;それだけでSACDプレーヤーが買えます。&lt;/p&gt;&#xA;&lt;p&gt;なのでおねーさんに頼んでモンスターケーブルを取り寄せすることにしました。&lt;/p&gt;&#xA;&lt;p&gt;その後はカメラ売り場に行きレンズを購入。&lt;/p&gt;&#xA;&lt;p&gt;店を出たところで、さっきの店員のおねーさんが台車を押して戻ってきているところに遭遇、挨拶されましたが、一瞬気づくのが遅れて、「あっ、どうも」といってしまいました。。。かっこわるいし失礼だったか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smc PENTAX FA 50mmF1.4</title>
+      <link>http://localhost:1313/posts/2008-08-10-smc-pentax-fa-50mmf/</link>
+      <pubDate>Sun, 10 Aug 2008 00:16:19 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-10-smc-pentax-fa-50mmf/</guid>
+      <description>&lt;p&gt;久々にレンズを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;smcPENTAX FA50mmF1.4の新品です。&lt;/p&gt;&#xA;&lt;p&gt;この製品は発売されてから１５年以上が経過しており、かなり古い設計になりますが、写りはパキっとしていますが、ボケはそれなりに芯があってきれいです。&lt;/p&gt;&#xA;&lt;p&gt;レンズを買ったついでに、手持ちのレンズの清掃でもと思って、smcPENTAX FAzoom28-70mmF4ALのキャップを外すと、後群なにやら七色に光る曇りが見られます。&lt;/p&gt;&#xA;&lt;p&gt;レンズの中をのぞき込むと菌糸が巣を張っているではありませんか。&lt;/p&gt;&#xA;&lt;p&gt;情けない、レンズをカビさせてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;２年ぐらい使っていませんでしたが、それなりに清掃はしていたのですが。。。&lt;/p&gt;&#xA;&lt;p&gt;PENTAX Z-1QDのファインダーカバーのゴムもひび割れ、アイピースの保護カバーも外れ、傷だらけなので、レンズと併せてオーバーホールです。&lt;/p&gt;&#xA;&lt;p&gt;レンズはちょっとやばそうです。&lt;/p&gt;&#xA;&lt;p&gt;もしかしたらカビ取り不能になりそうです。&lt;/p&gt;&#xA;&lt;p&gt;月曜にキタムラに修理でもだすか。&lt;/p&gt;&#xA;&lt;p&gt;8/13&lt;/p&gt;&#xA;&lt;p&gt;本日PENTAXのピックアップリペアサービスにお願いして、回収してもらいました。&lt;/p&gt;&#xA;&lt;p&gt;今更、ゼラチンシルバーのAF一眼レフやそれ用のAFズームレンズを買うのも難しいので、修理してでも使おうと思います。&lt;/p&gt;&#xA;&lt;p&gt;なんせ、PENTAX Z-1QDは1993年にアルバイトして初めて買ったカメラですから。&lt;/p&gt;&#xA;&lt;p&gt;今思い出したけど、これについていたsmc PENTAX FAzoom 28-80mm/F3.5-4.7は、パワーズームの回路から煙を噴いて壊れたことがありました。&lt;/p&gt;&#xA;&lt;p&gt;光学的には古い設計でしたが、シンプルで秀逸でした。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず不思議な設計なのでフィルターもアタッチメントを入れないとケラレるし使いづらかったことを覚えています。&lt;/p&gt;&#xA;&lt;p&gt;三年も使わないうちに売り払い、smcPENTAX FAzoom28-70mmF4ALに乗り換えました。&lt;/p&gt;&#xA;&lt;p&gt;smcPENTAX FAzoom28-70mmF4ALは、FA★zoom28-70F2.8ALを踏襲し、小型化したものだと聞いています。&lt;/p&gt;&#xA;&lt;p&gt;初めてsmcPENTAX FAzoom28-70mmF4ALの描写を見たときに、廉価ズームレンズもここまで写るのかと感動した覚えがあります。&lt;/p&gt;&#xA;&lt;p&gt;それで、迷わずsmcPENTAX FAzoom28-70mmF4ALに乗り換えたわけですが。&lt;/p&gt;&#xA;&lt;p&gt;でも、そんなレンズもデジタル一眼レフのAPS-Cの画角にはマッチしづらく、長いことを使っていませんでした。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>雑感</title>
+      <link>http://localhost:1313/posts/2008-08-04-%E9%9B%91%E6%84%9F/</link>
+      <pubDate>Mon, 04 Aug 2008 11:10:11 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-08-04-%E9%9B%91%E6%84%9F/</guid>
+      <description>&lt;p&gt;部屋を片付ける意味で、全く使わなくなったAVアンプ（Marantz PS7400）を売り払いました。&lt;/p&gt;&#xA;&lt;p&gt;ハードオフに持って行くと、ボリュームダイヤルに問題があるということで、2,000円という額が提示されました。&lt;/p&gt;&#xA;&lt;p&gt;新品購入時からの不具合でしたが、修理に出すのも面倒くさく、ボリュームダイヤルを使うことがほとんどなかったので放置していました。&lt;/p&gt;&#xA;&lt;p&gt;結局、それを直していなかったばかりに2000円です。&lt;/p&gt;&#xA;&lt;p&gt;あっても邪魔なので2,000円で引き取ってもらいました。&lt;/p&gt;&#xA;&lt;p&gt;ついでに、Luxman L-58Aも引き取ってもらいました。&lt;/p&gt;&#xA;&lt;p&gt;こちらは予想外の10,000円。&lt;/p&gt;&#xA;&lt;p&gt;これは中古の自作PCと交換で友人からもらいました。&lt;/p&gt;&#xA;&lt;p&gt;もう30年前のアンプですが、ClassAのMOS-FETTで、現在でも愛好者の多い名機です。&lt;/p&gt;&#xA;&lt;p&gt;美品なら35,000円が相場で、中には60,000円で買う人もいます。&lt;/p&gt;&#xA;&lt;p&gt;コンデンサ類は液漏れしていませんでしたが、バランスボリュームにガリがあります。&lt;/p&gt;&#xA;&lt;p&gt;あと電源部の基盤に若干の焼けが見られます。&lt;/p&gt;&#xA;&lt;p&gt;ほしい人は、岡山市野田のハードオフにあるので。&lt;/p&gt;&#xA;&lt;p&gt;この夏にボーナスで買ったのは、DLNA対応のNASです。&lt;/p&gt;&#xA;&lt;p&gt;ファイル223GBを約1日かけてNASにコピーして、DLNAサーバーとして設定すると、しばらく待つとDBが更新され、DLNAクライアントからファイルが見られるようになります。&lt;/p&gt;&#xA;&lt;p&gt;あとFTPサーバーが設定できるので、DDNSを取得して、外からFTPできるようにしました。&lt;/p&gt;&#xA;&lt;p&gt;会社から読み書きできるので、でっかいファイルがあっても楽勝。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

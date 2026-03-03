@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2008-01 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2008-01/</link>
+    <description>Recent content in 2008-01 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 30 Jan 2008 13:40:01 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2008-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I drank a &#39;shiroi natchan&#39;.</title>
+      <link>http://localhost:1313/posts/2008-01-30-i-drank-a-shiroi-na/</link>
+      <pubDate>Wed, 30 Jan 2008 13:40:01 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-30-i-drank-a-shiroi-na/</guid>
+      <description>&lt;p&gt;「白いなっちゃん」を飲みました。&lt;/p&gt;&#xA;&lt;p&gt;乳脂肪分のコロイドが舌やのどの奥に絡まないので、後口がすっきりしていていいです。&lt;/p&gt;&#xA;&lt;p&gt;味も酸味が適当でかなりいいです。&lt;/p&gt;&#xA;&lt;p&gt;ラベルは白基調ですが、表面がマットです。少しでも擦れると汚れがついてしまいます。お店での陳列に気を遣いそうです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PENTAX K20D</title>
+      <link>http://localhost:1313/posts/2008-01-28-pentax-k20d/</link>
+      <pubDate>Mon, 28 Jan 2008 13:08:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-28-pentax-k20d/</guid>
+      <description>&lt;p&gt;PENTAX K10Dをベースに進化を遂げた、デジタル一眼レフPENTAX K20D。&lt;/p&gt;&#xA;&lt;p&gt;様々な改善点がありますが、特筆すべきは新開発CMOSセンサー。&lt;/p&gt;&#xA;&lt;p&gt;受光素子を結ぶ回路が、これまで背が高く、光学系から斜めに入射する光を遮り、デジタル時代以前の設計レンズの性能を生かすことができませんでしたが、新開発CMOSセンサーは回路の背が低くなり、斜めからの入射光もとらえることができ、これまで秀逸と言われたレンズの本来の性能を発揮させることができます。&lt;/p&gt;&#xA;&lt;p&gt;また、レンズでは、200mmF2.8、300mmF4.5がDA*レンズで復活しています。&lt;/p&gt;&#xA;&lt;p&gt;レンズ構成図を見ると今までの光学系と大きな変更があるようには見えないですが、受光素子に対応させるため、レンズ後端を前に寄せ面パワーを下げて入射角をあげてあるのかと思います。&lt;/p&gt;&#xA;&lt;p&gt;予測としては、解像度が向上しているのではないかと思いますけど。&lt;/p&gt;&#xA;&lt;p&gt;DA*200mmF2.8のイメージサークルが、135サイズに対応するようなら買ってみようかな。&lt;/p&gt;&#xA;&lt;p&gt;対応しないならFA*200F2.8にしようかな。&lt;/p&gt;&#xA;&lt;p&gt;しかし、HOYAと合併して企業の元気が戻ったんだろうか。&lt;/p&gt;&#xA;&lt;p&gt;13～4年前ぐらいの勢いがあれば、PENTAXユーザーとしては売れしいんですが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It&#39;s cold today.</title>
+      <link>http://localhost:1313/posts/2008-01-28-its-cold-today/</link>
+      <pubDate>Mon, 28 Jan 2008 12:56:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-28-its-cold-today/</guid>
+      <description>&lt;p&gt;「ちたま」温暖化してくれれば、冬場ずいぶんと過ごしやすくなるのだけれども、変動期の「ちたま」は、そのうち、近い将来、氷河期になるんでしょうが。&lt;/p&gt;&#xA;&lt;p&gt;ところでここのところようやく冬らしくなりました。&lt;/p&gt;&#xA;&lt;p&gt;去年は1回だけスタッドレスの出番がありましたが、今年は何度も活躍です。&lt;/p&gt;&#xA;&lt;p&gt;今晩も山間部では積雪があるようです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Renewal Design</title>
+      <link>http://localhost:1313/posts/2008-01-25-renewal-design/</link>
+      <pubDate>Fri, 25 Jan 2008 13:42:24 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-25-renewal-design/</guid>
+      <description>&lt;p&gt;デザインを換えました。&lt;/p&gt;&#xA;&lt;p&gt;変更時にバックアップに失敗しyasuさんからの投稿が消えてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;ごめんなさい。&lt;/p&gt;&#xA;&lt;p&gt;さて、時間があればデザインを自分でやっていきます。&lt;/p&gt;&#xA;&lt;p&gt;人のデザインを使うのは、何となく自分のブログではない気がします。&lt;/p&gt;&#xA;&lt;p&gt;ついでにフォトギャラリーもplug-inで実現してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;設定する時間があればいいのですが。&lt;/p&gt;&#xA;&lt;p&gt;写真の投稿ですが、1.3MBを超えるファイルを投稿したのですが、ちゃんとアップロードされていますね。&lt;/p&gt;&#xA;&lt;p&gt;いつの間にか、レンタルサーバーのimagemagicがアップグレードされたのでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Photo Widget</title>
+      <link>http://localhost:1313/posts/2008-01-23-test-photo-widget/</link>
+      <pubDate>Wed, 23 Jan 2008 15:35:27 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-23-test-photo-widget/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/img/_IGP0564.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/blog/img/_IGP0564.jpg&#34; alt=&#34;_IGP0564.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;テスト投稿です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It rained not snow</title>
+      <link>http://localhost:1313/posts/2008-01-23-it-rained-not-snow/</link>
+      <pubDate>Wed, 23 Jan 2008 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-23-it-rained-not-snow/</guid>
+      <description>&lt;p&gt;夜半に雪が降っていたのですが、日付が変わる頃には雨に変わってました。おかげで路面が凍ることなく出勤できるのですが、でも凍結していれば、それを口実に休もうかと思ったんですけど。&lt;/p&gt;&#xA;&lt;p&gt;なぜか先週末より、夕方になると猛烈に眠くなります。うつらうつらと言う感じではなく、眠さに耐えられそうにないので、眠さをかき消すのに色々してみますが、効果なしです。何とか、業務時間の終わりまで耐えて、一眠りします。昼寝どころではなく完全に爆睡です。&lt;/p&gt;&#xA;&lt;p&gt;体内時計が完全に昼夜逆転しているのだと思います。またそれに加えて残業が続いているので、神経が休む暇がないようです。また、ストレス解消に趣味に使う時間を必ずとるので、必然的に寝不足になります。&lt;/p&gt;&#xA;&lt;p&gt;なので、雪が降れば休んで、神経を休めようかと思ったのですが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It snowed after a long absence...</title>
+      <link>http://localhost:1313/posts/2008-01-21-it-snowed-after-a-l/</link>
+      <pubDate>Mon, 21 Jan 2008 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-21-it-snowed-after-a-l/</guid>
+      <description>&lt;p&gt;日曜日の未明から降り続いた雪が、日曜日の晩までに２０ｃｍを超え積もりました。&lt;/p&gt;&#xA;&lt;p&gt;天気予報をチェックしていなかったので、ちょっと驚きました。土曜日の夜に新年会があって家に帰るのが遅かったのですが、そのときは、雪が降ってもいませんでしたので、翌朝起きたときには、ちょっとショックでした。&lt;/p&gt;&#xA;&lt;p&gt;日曜日に買い物に出ようかと思っていたのですが、それも取りやめて家でごろごろしてましたが、あっという間に一日が終わってしまいました。撮り貯めたアニメ番組をみて、ゲームをちょこっとして、昼寝して。&lt;/p&gt;&#xA;&lt;p&gt;岡山市内でも積雪があり、岡山南部の山々が白い装いをしているのを始めてみました。さすがに通勤中で写真を撮れなかったのですけれど。&lt;/p&gt;&#xA;&lt;p&gt;久々に雪景色を撮影せねば。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Build Up PC 2008 #04</title>
+      <link>http://localhost:1313/posts/2008-01-17-self-build-up-pc-20/</link>
+      <pubDate>Thu, 17 Jan 2008 21:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-17-self-build-up-pc-20/</guid>
+      <description>&lt;p&gt;VISTAの再インストールをするつもりでしたが、少し先送り。&lt;/p&gt;&#xA;&lt;p&gt;Windows Live Writerをインストールしたのですが、自宅のVISTA x64ではうまく動かない状態です。&lt;/p&gt;&#xA;&lt;p&gt;今、メーカーにサポートを依頼中なのでそれが解決するまでは、ちょっと待ちます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cannot I but install Vista?</title>
+      <link>http://localhost:1313/posts/2008-01-16-cannot-i-but-instal/</link>
+      <pubDate>Wed, 16 Jan 2008 08:11:11 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-16-cannot-i-but-instal/</guid>
+      <description>&lt;p&gt;やはりLANの調子がよろしくない。&lt;/p&gt;&#xA;&lt;p&gt;またアプリケーションも動きがよろしくない。&lt;/p&gt;&#xA;&lt;p&gt;ドライバもアプリケーションも、そしてなによりWindows VISTAのシステムファイルをクリーンな状態に戻すため、クリーンインストールせざるを得ないかな。&lt;/p&gt;&#xA;&lt;p&gt;幸いにも、システムがインストールしてあるドライブで、設定やデータでバックアップしなければならないのはメールとIEのお気に入りとSonicStageCPぐらいなので、それぞれバックアップ方法も簡単なので、思い切ってインストールをしてみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;ついでに、ごちゃごちゃしているドライブ構成も整理してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;再インストールに掛かるであろう時間は1時間ほど。今夜にでも実行して何事もなかったように安定させられれば良いのですが。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Windows Live Writer</title>
+      <link>http://localhost:1313/posts/2008-01-15-test-windows-live-w/</link>
+      <pubDate>Tue, 15 Jan 2008 15:50:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-15-test-windows-live-w/</guid>
+      <description>&lt;p&gt;blogをローカルで入力するツールがだんだんと公開され始めました。&lt;/p&gt;&#xA;&lt;p&gt;Webベースのツールと違いWIndowsアプリケーションなので、GUI等での複雑な制御も可能です。&lt;/p&gt;&#xA;&lt;p&gt;こういったツールがあれば原稿を記入するのが飛躍的に楽になります。&lt;/p&gt;&#xA;&lt;p&gt;しかもすばらしいことにローカルで投稿イメージを確認できます。&lt;/p&gt;&#xA;&lt;p&gt;で、今回試したのが、Microsoft Windows Live Writerです。&lt;/p&gt;&#xA;&lt;p&gt;これまであったツールのように中途半端にblog(MovableType)のタグを無視して表示ではなく、Movable Typeでの出力結果をシミュレートしてくれます。&lt;/p&gt;&#xA;&lt;p&gt;入力結果を本番環境で確かめる必要がないので、表組みや画像の入り方を投稿してから修正するなどの必要がなくなります。&lt;/p&gt;&#xA;&lt;p&gt;blogの更新がおっくうになっている人は、試してみたら良いかも&lt;/p&gt;&#xA;&lt;p&gt;すばらしいツールをありがとうMicrosoft&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Build Up PC 2008 #03</title>
+      <link>http://localhost:1313/posts/2008-01-15-self-build-up-pc-20/</link>
+      <pubDate>Tue, 15 Jan 2008 08:08:08 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-15-self-build-up-pc-20/</guid>
+      <description>&lt;p&gt;GeForce8600GTの成果は結構あるみたいです。&lt;/p&gt;&#xA;&lt;p&gt;Windows VISTAでは、PCの性能を数値で見せてくれる機能があるのですが、それで見ると5.7という数値です。&lt;/p&gt;&#xA;&lt;p&gt;前のGeForce6600GTx2(SLI)では、4.8ぐらいの数値だったので、かなりの性能向上です。&lt;/p&gt;&#xA;&lt;p&gt;また、GeForce6600GTの頃は、ファンレス仕様だったのでSLIでは、熱の問題があり、後付で12cmの大型ファンを取り付けていました。&lt;/p&gt;&#xA;&lt;p&gt;結構低い音で、意外に部屋の外で気になる音でした。&lt;/p&gt;&#xA;&lt;p&gt;今度のGeForce8600GTは、ビデオカードとしては、比較的大型のファンが付けられています。&lt;/p&gt;&#xA;&lt;p&gt;色々とファンを取り外すと、総量としての音圧が下がったので比較的静かになりました。&lt;/p&gt;&#xA;&lt;p&gt;また、周波数も若干上に寄ったので、部屋の外では気にならないレベルになりました。&lt;/p&gt;&#xA;&lt;p&gt;あと、500GBのHDDですが、さすがにSATA2です。かなり高速です。&lt;/p&gt;&#xA;&lt;p&gt;前が160GBのATA133にSATA変換を使っていたので、体感差は明らかです。&lt;/p&gt;&#xA;&lt;p&gt;発熱量も気にならないレベルです。&lt;/p&gt;&#xA;&lt;p&gt;あまったHDD2本は、USB2の外付けケースに入れて外だしにしました。&lt;/p&gt;&#xA;&lt;p&gt;かなり電源への負担が減ったようです。&lt;/p&gt;&#xA;&lt;p&gt;ビデオカード1枚、HDD2本が減ったので当たり前でしょうか。&lt;/p&gt;&#xA;&lt;p&gt;CPUやメモリを交換するにはマザーボードを交換しなくてはならないので、そのあたりは夏ぐらいですかね。&lt;/p&gt;&#xA;&lt;p&gt;ビデオカードもHDDも1万円ちょっとで購入できたので、かなり安上がりでした。&lt;/p&gt;&#xA;&lt;p&gt;2年前と比べてPCパーツの値下がり感があるので、自作派にはうれしいです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Build Up PC 2008 #02</title>
+      <link>http://localhost:1313/posts/2008-01-12-self-build-up-pc-20/</link>
+      <pubDate>Sat, 12 Jan 2008 08:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-12-self-build-up-pc-20/</guid>
+      <description>&lt;p&gt;現状のPCを増強する形で、物欲を満たすことにしました。&lt;/p&gt;&#xA;&lt;p&gt;新たにPCを購入するほどの予算もないし、ハイスペックを使い倒すほどのゲームもしないので、まあ、実際にちょっと困っているところで、HDDの容量追加とビデオカードをHDCP(コンテンツ保護のためのライセンス)に対応させることにしました。&lt;/p&gt;&#xA;&lt;p&gt;HDDは久々にWestern Deigital にしました。&lt;/p&gt;&#xA;&lt;p&gt;WD5000AAKSです。500GB、16MBキャッシュ、SATA2(3Gbps)、7200rpmです。&lt;/p&gt;&#xA;&lt;p&gt;消費電力が低いので発熱量も少ないし、また比較的静かそうです。&lt;/p&gt;&#xA;&lt;p&gt;ビデオカードは、これまで外れを引いたことはなかった玄人志向にしました。&lt;/p&gt;&#xA;&lt;p&gt;GF8600GT-E256HW/HPです。GeForce 8600GT 256MB HDCP対応です。&lt;/p&gt;&#xA;&lt;p&gt;購入した後で知ったのですが、メーカーのサイトのBBSには、低温時の不安定さが話題になっていました。&lt;/p&gt;&#xA;&lt;p&gt;これは、カスを引いたかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;まだ、組付けをしていないので、不安です。&lt;/p&gt;&#xA;&lt;p&gt;東南アジア圏で製造された製品は、低温耐性がない(コンデンサ、チップともに)ので、日本製の部品に置き換えが必要かもしれません。&lt;/p&gt;&#xA;&lt;p&gt;東南アジアでは、最低気温が10度を下回ることなんて、まずないですからね。&lt;/p&gt;&#xA;&lt;p&gt;玄人志向は、かつてハードコアな自社設計ボードを供給していましたが、現在ではOEM販売のみ、国内のPC市場不況ではしょうがないのかな。。。&lt;/p&gt;&#xA;&lt;p&gt;今日はこれらをA店で購入しました。&lt;/p&gt;&#xA;&lt;p&gt;店員さんに、似た商品が同じ山に積んであるけど間違えないように念押ししたけど、それでも商品を取り違えられて、購入後に開封してから、交換となりました。&lt;/p&gt;&#xA;&lt;p&gt;交換時には、今度こそ取り違えないように、中身を確認してましたけど。&lt;/p&gt;&#xA;&lt;p&gt;まあ、久しぶりに接客されて、ちょっと店員さんに花を持たせてあげようと思ったのですが、いろいろなところで勉強不足が露呈してますよ。&lt;/p&gt;&#xA;&lt;p&gt;それは商品説明でも言えることなのですが。。。&lt;/p&gt;&#xA;&lt;p&gt;店員さんが寄ってきて商品説明しようが、そんなことは百も承知なので全然意味をなさないのです。&lt;/p&gt;&#xA;&lt;p&gt;で、ちょっと質問すると、案の定、質問に答えられない状況になりました。&lt;/p&gt;&#xA;&lt;p&gt;バルク品を漁っている人(私)に話しかけちゃだめです。&lt;/p&gt;&#xA;&lt;p&gt;店員さん、話しかけるときは、マニアかどうかをちゃんと見極めないとイタイです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、私は怒りはしないのでいいですが。&lt;/p&gt;&#xA;&lt;p&gt;また、話は変わって、LANボード(PCIカード、オンボードとも)が認識されない現象が発生する問題ですが、Windows VISTAはWindows Update後(修正モジュールインストール後)にグラフィックカード、LAN、USB、バス周りのドライバが初期化されることがあるようです。&lt;/p&gt;&#xA;&lt;p&gt;そのため不完全にドライバがロードされ認識されなくなるようです。&lt;/p&gt;&#xA;&lt;p&gt;そのたびに、再度、ドライバを入れ直してやる必要があります。&lt;/p&gt;&#xA;&lt;p&gt;バス周りのドライバ→グラフィックのドライバ→LANのドライバとインストールしてやれば、再び安定します。&lt;/p&gt;&#xA;&lt;p&gt;このあたり、Windows VISTAのService Pack で修正されると良いのですが。&lt;/p&gt;&#xA;&lt;p&gt;如何せん、問題を特定することが困難で、電源やM/B関係のトラブルのように見えます。&lt;/p&gt;&#xA;&lt;p&gt;まあ、よくよく考えれば、同じ構成でWindows XPの時は発生していなかった問題なので、VISTAの不具合です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Self Build Up PC 2008 #01</title>
+      <link>http://localhost:1313/posts/2008-01-10-self-build-up-pc-20/</link>
+      <pubDate>Thu, 10 Jan 2008 15:35:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-10-self-build-up-pc-20/</guid>
+      <description>&lt;p&gt;現在使用中のPCも丸2年になろうとしています。&lt;/p&gt;&#xA;&lt;p&gt;最近、また起動時にLANボードを認識しなくなることが頻発し、またたまにVGAのドライバーもロードされないことがあります。&lt;/p&gt;&#xA;&lt;p&gt;あまりに頻度が高いので、マザーボードのFlash BIOS周りで問題が発生しているような気がします。&lt;/p&gt;&#xA;&lt;p&gt;すでに古いマザーボードなので、BIOSの更新も行われず(2006年7月で終わっていたような。。。)なので、もはや解決は見込めないでしょうが。&lt;/p&gt;&#xA;&lt;p&gt;そこで、今のPCをWindows XP Professional (32bit/64bit共存環境)に戻すことにして、新たにWindows VISTA Ultimate x64環境を調達しようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;出来合のPCを購入するのは癪に障るので、やはり自作です。&lt;/p&gt;&#xA;&lt;p&gt;自作も96年からこつこつとですから、12年を迎えることになりました。&lt;/p&gt;&#xA;&lt;p&gt;構成は、AMDのCPU(Phenom 9600ぐらい)にしてみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;Intel でないのは、マイノリティーを求めているからです。&lt;/p&gt;&#xA;&lt;p&gt;嘘です。昔、IntelのCPUは高すぎて買えなかったので、未だに僻みで買わないだけです。&lt;/p&gt;&#xA;&lt;p&gt;AMD歴もK6からですから10年以上にはなるのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;その前はCyrix 6x86 でした。&lt;/p&gt;&#xA;&lt;p&gt;さて、CPU、チップセット、GPUともAMDにしようかとおもいます。&lt;/p&gt;&#xA;&lt;p&gt;nVIDIAのチップセットでは、性能を生かし切れないのと、AMDのリファレンスに近いモノならトラブルが少ないだろうと思うからです。&lt;/p&gt;&#xA;&lt;p&gt;さて、いらないモノを売却して、資金を得ようかな。&lt;/p&gt;&#xA;&lt;p&gt;プロジェクターとAVアンプを売れば10万円ぐらいにはなるかな。。。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PS3で動画</title>
+      <link>http://localhost:1313/posts/2008-01-07-ps3%E3%81%A7%E5%8B%95%E7%94%BB/</link>
+      <pubDate>Mon, 07 Jan 2008 17:12:26 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-07-ps3%E3%81%A7%E5%8B%95%E7%94%BB/</guid>
+      <description>&lt;p&gt;PS3のv2.1のファームウェアでWMVとDivxの再生が可能になりました。&lt;/p&gt;&#xA;&lt;p&gt;WMVの再生は確認できましたが、Divxのファイルは真っ黒な画面のままになり、音も出ません。&lt;/p&gt;&#xA;&lt;p&gt;いまいち、動画ファイルの再生要件が分からないのですが、PS3のサイトでは、Divx3.11以降と2GB以下なっています。&lt;/p&gt;&#xA;&lt;p&gt;それ以外にも、ファイルの解像度が関係ありそうですが、そのあたりいまいち分かりません。&lt;/p&gt;&#xA;&lt;p&gt;で、WMVですが、VistaのWMP11で全画面表示で再生するより明らかになめらかに再生されるので、完全にPS3がメインのメディアプレーヤーになっています。&lt;/p&gt;&#xA;&lt;p&gt;Vistaマシンが非力なのもありますが、Vistaにプレインストールされているコーデックがいまいちなのは言うまでもありません。&lt;/p&gt;&#xA;&lt;p&gt;何せ、サードパーティー製のコーデックを入れるとスムーズに再生されるから。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、何とかPS3での再生要件をまとめて、快適な動画再生環境を構築しましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A列車で行こう7</title>
+      <link>http://localhost:1313/posts/2008-01-02-a%E5%88%97%E8%BB%8A%E3%81%A7%E8%A1%8C%E3%81%93%E3%81%867/</link>
+      <pubDate>Wed, 02 Jan 2008 23:24:39 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-02-a%E5%88%97%E8%BB%8A%E3%81%A7%E8%A1%8C%E3%81%93%E3%81%867/</guid>
+      <description>&lt;p&gt;PS3のPLAYSTATION STORE でA5が販売されていたので、ちょっと懐かしさもあって購入して遊んでみると、はまる、はまる。&lt;/p&gt;&#xA;&lt;p&gt;おもしろいね。&lt;/p&gt;&#xA;&lt;p&gt;で、勢いに乗って最新版を購入したいと思って、調べてみるとA7が2005年に出てました。&lt;/p&gt;&#xA;&lt;p&gt;2007年にマイナーバージョンアップしてVISTA対応になっていました。&lt;/p&gt;&#xA;&lt;p&gt;Amazonで早速注文。&lt;/p&gt;&#xA;&lt;p&gt;昨年末の３０日に届いたので、速攻インストールして、遊びまくりです。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとゲームの操作には慣れが必要ですが、やはりA列車。&lt;/p&gt;&#xA;&lt;p&gt;また、はまってます。&lt;/p&gt;&#xA;&lt;p&gt;グラフィックもフルHDに対応して、美麗です。&lt;/p&gt;&#xA;&lt;p&gt;欲を言うなら２４ビットカラーのテクスチャーを用意してほしいのと、A5にあった3Dでの鑑賞モードの復活を望む。&lt;/p&gt;&#xA;&lt;p&gt;今時、PCゲーム不況の中、続編がでるかは危ういですが、次作に期待します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>あけおめ</title>
+      <link>http://localhost:1313/posts/2008-01-01-%E3%81%82%E3%81%91%E3%81%8A%E3%82%81/</link>
+      <pubDate>Tue, 01 Jan 2008 03:53:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2008-01-01-%E3%81%82%E3%81%91%E3%81%8A%E3%82%81/</guid>
+      <description>&lt;p&gt;インフルエンザで寝込んでたよ。&lt;/p&gt;&#xA;&lt;p&gt;３０日の午後まで頭が痛くて、気持ち悪くて寝てた。&lt;/p&gt;&#xA;&lt;p&gt;２８日の会社の大掃除に出たら、翌日、気持ち悪さでダウン。&lt;/p&gt;&#xA;&lt;p&gt;今日もまだ気持ち悪い。&lt;/p&gt;&#xA;&lt;p&gt;いつの間にか、年が変わってました。&lt;/p&gt;&#xA;&lt;p&gt;みなさん、あけましておめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;では。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

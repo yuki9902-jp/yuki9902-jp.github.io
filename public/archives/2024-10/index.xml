@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024-10 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2024-10/</link>
+    <description>Recent content in 2024-10 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 06 Oct 2024 08:24:49 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2024-10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC周りの雑記</title>
+      <link>http://localhost:1313/posts/2024-10-06_pc%E5%91%A8%E3%82%8A%E3%81%AE%E9%9B%91%E8%A8%98/</link>
+      <pubDate>Sun, 06 Oct 2024 08:24:49 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2024-10-06_pc%E5%91%A8%E3%82%8A%E3%81%AE%E9%9B%91%E8%A8%98/</guid>
+      <description>&lt;h3 id=&#34;1-メインpcシステムソフトウェアの刷新&#34;&gt;1. メインPC：システム・ソフトウェアの刷新&lt;/h3&gt;&#xA;&lt;p&gt;メインPC（ASUS ROG STRIX X570-F Gaming）において、安定性とセキュリティ向上のための大幅なアップデートを実施しました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;BIOS・チップセットの更新&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BIOS (v5020 Beta):&lt;/strong&gt; AGESA ComboV2PI 1.2.0.Cc へ更新。CPUの脆弱性対策および、特定条件下（スリープ・休止・ソフト電源オフ時）のCPU例外エラーを修正。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;チップセットドライバ:&lt;/strong&gt; 新たに「AMD Interface Driver」が追加されました。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;GPU・オーディオドライバ&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GPU (Radeon RX 6750 XT):&lt;/strong&gt; 9月版ドライバへ更新。**AFMF 2（AMD Fluid Motion Frames 2）**の搭載により、シーン切り替え時のフレーム補間が改善され、より滑らかな高リフレッシュレートを実現。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Realtek Audio Driver (v6.0.9700.1):&lt;/strong&gt; システムの安定性が向上しました。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OS・アプリケーションのアップグレード&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows 11 24H2:&lt;/strong&gt; インストーラー経由で上書きインストール。非対応のVoiceMeeter仮想ドライバが残存していると更新が阻害されるため、手動で残骸を全削除して対応しました。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DaVinci Resolve v19:&lt;/strong&gt; 最新版へアップグレード完了。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;トラブルシューティング&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Armoury Crate × iCUE 連携:&lt;/strong&gt; 両ソフトの競合トラブルが発生。OSの修復インストールを3回試みましたが解決せず、最終的には各ソフトウェア自体のアップデートにより解消されました。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-ハードウェアの調整と周辺機器&#34;&gt;2. ハードウェアの調整と周辺機器&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;メモリの熱対策&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DDR4 OCメモリ（4枚挿し/3600MHz/CL16）が高負荷時に&lt;strong&gt;50°C&lt;/strong&gt;を超え、システムダウンが発生。Amazonで購入したJonsbo製クーラーが不良品だったため、手持ちの&lt;strong&gt;80mmファン&lt;/strong&gt;で代替。これにより高負荷時も&lt;strong&gt;43°C前後&lt;/strong&gt;で安定するようになりました。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;オーディオ環境の改善&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;TASCAM Series 102i&lt;/strong&gt;を導入。旧環境（Sony PHA-1A × ASMedia製USBチップ）の相性問題を解決しました。102iは音質・性能ともに優秀ですが、ドライバUIの視認性には課題を感じます。&lt;/li&gt;&#xA;&lt;li&gt;なお、PHA-1Aも接続ポートの変更により安定したため、現在は併用しています。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-サブpcサーバーのos変更&#34;&gt;3. サブPC・サーバーのOS変更&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;ノートPC（非サポート環境）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;第3世代Core i3機（非対応ハード）にWindows 11 24H2を強制適用しましたが、更新パッチの適用不可という不具合が発生。実用性を重視し、&lt;strong&gt;Linux Mint Cinnamon&lt;/strong&gt;へ移行しました。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;ファイルサーバー（Ryzen 7 1700機）&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

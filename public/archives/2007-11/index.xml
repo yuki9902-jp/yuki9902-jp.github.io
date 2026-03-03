@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2007-11 on yuki9902::blog</title>
+    <link>http://localhost:1313/archives/2007-11/</link>
+    <description>Recent content in 2007-11 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 29 Nov 2007 15:40:42 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/archives/2007-11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LAN解決</title>
+      <link>http://localhost:1313/posts/2007-11-29-lan%E8%A7%A3%E6%B1%BA/</link>
+      <pubDate>Thu, 29 Nov 2007 15:40:42 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2007-11-29-lan%E8%A7%A3%E6%B1%BA/</guid>
+      <description>&lt;p&gt;電源の不安定さから、オンボードLANの認識がおかしくなっていたかと思っていたのですが、原因はチップそのものでした。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードは、GIGA-BYTE GA-K8N SLI Proでチップセットは、nForce4SLIです。&lt;/p&gt;&#xA;&lt;p&gt;このボードには、LANコントローラであるVITESSE 8201 phyが乗っています。&lt;/p&gt;&#xA;&lt;p&gt;世間一般ではNVLANだと言われていますが、別メーカーのチップです。&lt;/p&gt;&#xA;&lt;p&gt;どうやらこれは、PCI Express x1を介さず、直にnForce4 SLIに接続されているようです。&lt;/p&gt;&#xA;&lt;p&gt;このチップが他のPCI Express x16やPCIとメモリの衝突をしているようです。&lt;/p&gt;&#xA;&lt;p&gt;このLANをBIOSで使えないようにして、ReadTekのチップが載ったPCI LANカードを導入しました。&lt;/p&gt;&#xA;&lt;p&gt;すると何事もなかったかのように、すんなりとネットワークにつながります。&lt;/p&gt;&#xA;&lt;p&gt;ただ、数少ないPCIスロットなので、USBカードを抜いて差し替えです。&lt;/p&gt;&#xA;&lt;p&gt;PCI * 2&lt;/p&gt;&#xA;&lt;p&gt;PCI Express x16 * 2&lt;/p&gt;&#xA;&lt;p&gt;PCI Express x1 * 2&lt;/p&gt;&#xA;&lt;p&gt;でPCI Express x16 はすでにSLIで埋まって、PCI はサウンドカード、LANカードで埋まって、SLIを使っているときは、PCI Express x1 が一個使えないので、残るはPCI Express 1x です。&lt;/p&gt;&#xA;&lt;p&gt;PCI Express x1 の万能カードを探して挿してみようかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>コンデンサかな</title>
+      <link>http://localhost:1313/posts/2007-11-06-%E3%82%B3%E3%83%B3%E3%83%87%E3%83%B3%E3%82%B5%E3%81%8B%E3%81%AA/</link>
+      <pubDate>Tue, 06 Nov 2007 00:58:10 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2007-11-06-%E3%82%B3%E3%83%B3%E3%83%87%E3%83%B3%E3%82%B5%E3%81%8B%E3%81%AA/</guid>
+      <description>&lt;p&gt;秋になって、気温が下がるとコンピューターの電源投入時の動作が安定しなくなります。&lt;/p&gt;&#xA;&lt;p&gt;東南アジアで製造される部品は、熱耐性が高くても、低温には弱いです。&lt;/p&gt;&#xA;&lt;p&gt;特に電源ユニットは顕著で定格の出力がありません。&lt;/p&gt;&#xA;&lt;p&gt;日本製の電源ユニットはそんなことはないのですが。。。&lt;/p&gt;&#xA;&lt;p&gt;さて最近電源だけとは思えないですが、オンボードのLANが認識されなくなることが非常に多いです。&lt;/p&gt;&#xA;&lt;p&gt;しばらく通電して温度を上げてやると再起動でちゃんと認識されます。&lt;/p&gt;&#xA;&lt;p&gt;面倒なのでLANカードを増設したのですが、認識されずに断念。&lt;/p&gt;&#xA;&lt;p&gt;結局オンボードのLANです。&lt;/p&gt;&#xA;&lt;p&gt;電源ユニットは以前使っていた物があるのですが、SATAのコネクタに対応していないので変換しなければなりませんし、音がうるさいので今更戻れません。&lt;/p&gt;&#xA;&lt;p&gt;でも、安定しています。&lt;/p&gt;&#xA;&lt;p&gt;今の電源ユニットは夏場は静かで安定していますが、寒くなると起動が不安定。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと前に買ったやつも不安定でした。&lt;/p&gt;&#xA;&lt;p&gt;日本製でも老舗ならともかく、新参のメーカーはだめです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>けふもしごとなり</title>
+      <link>http://localhost:1313/posts/2007-11-03-%E3%81%91%E3%81%B5%E3%82%82%E3%81%97%E3%81%94%E3%81%A8%E3%81%AA%E3%82%8A/</link>
+      <pubDate>Sat, 03 Nov 2007 20:35:13 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2007-11-03-%E3%81%91%E3%81%B5%E3%82%82%E3%81%97%E3%81%94%E3%81%A8%E3%81%AA%E3%82%8A/</guid>
+      <description>&lt;p&gt;今日も何となく仕事をしています。&lt;/p&gt;&#xA;&lt;p&gt;効率は上がらないし、必要性もあまりないのですが。&lt;/p&gt;&#xA;&lt;p&gt;何か楽しいことをしないと腐ってしまいそう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>東風荘</title>
+      <link>http://localhost:1313/posts/2007-11-03-%E6%9D%B1%E9%A2%A8%E8%8D%98/</link>
+      <pubDate>Sat, 03 Nov 2007 00:20:01 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2007-11-03-%E6%9D%B1%E9%A2%A8%E8%8D%98/</guid>
+      <description>&lt;p&gt;オンライン麻雀の話題が出て、かつてから名前だけは知っていた東風荘に登録してプレイしてみた。&lt;/p&gt;&#xA;&lt;p&gt;勢いに飲み込まれる感じで、結構つらいかも。&lt;/p&gt;&#xA;&lt;p&gt;一人でやると、布団押し売り会場に紛れ込んだような感じ。&lt;/p&gt;&#xA;&lt;p&gt;疲れているときは結構こたえる。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

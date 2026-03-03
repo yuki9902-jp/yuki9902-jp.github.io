@@ -1,0 +1,69 @@
+---
+title: "ASUS ROG STRIX X570-F Gaming Audio Driver Update"
+date: 2021-05-22T09:58:36+09:00
+archives: ["2021-05"]
+original_url: https://ameblo.jp/yuki9902/entry-12675972416.html
+categories: ['COMPUTER']
+---
+
+[Realtek Audio Driver V6.0.9088.1 For Windows 10 64-bit.](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download)
+
+ASUS ROG STRIX X570-F Gamingに搭載されているオーディオコーデックチップ「Realtek ALC1220」のドライバーが更新されたため、インストールを行いました。
+
+今回のアップデートにより、これまで動作が不安定だったSonic Studio 3、Sonic Radar 3、およびUWP版のRealtek Audio Console Appが改善されたようです。ALC1220世代以降は、Intel/AMD共にCPU内のサウンドプロセッサーと密接に連携して動作するため、マザーボードメーカーが最適化した専用ドライバーを使用することが不可欠です。
+
+#### ドライバー入手時の注意点
+
+現在、ASUSのオーディオドライバーは「Armoury Crate」経由と「サポートページ」公開分の2種類が存在します。
+
+* **Armoury Crate提供版：** 6.0.8899.1
+* **公式サイトサポートページ提供版：** 6.0.9088.1
+
+サポートページで公開されている最新版（6.0.9088.1）は非常に安定しています。逆に、これより古いバージョンを中途半端にインストールするとシステムが不安定になり、最悪の場合Windows 10のクリーンインストールを余儀なくされるケースが多いため、常に最新版の使用を強く推奨します。
+
+#### インストールされるコンポーネント
+
+本パッケージを導入することで、以下のソフトウェア群が一括でインストールされます。
+
+* WDMドライバー / ASIOドライバー
+* A-Volute Nh3 Audio（バーチャルミキサー、Sonic Studio 3、Sonic Radar 3 / Nahimic Service）
+* Realtek Audio Console App
+
+#### 音質維持のための設定：バーチャルミキサーの無効化
+
+インストール後、サウンド設定から「Sonic Studio Virtual Mixer」を**無効化**することをおすすめします。 これが有効になっていると、WDM（WASAPI）経由の音声も強制的にバーチャルミキサーへループバックされてしまい、音質が著しく劣化する原因となります。
+
+#### 充実したアナログ・デジタル出力の仕様
+
+本ボードのオーディオ回路は非常に優秀です。背面端子は金メッキ仕様となっており、電源ユニットのアースを適切に取れば、公称値通りの高いS/N比と低いノイズフロアを実現できます。ピュアオーディオシステムに接続しても十分に通用するクオリティです。
+
+**1. S/PDIF（光デジタル）出力** アンプと接続し、WASAPI（排他モード）で再生すればビットパーフェクトな転送が可能です。光ファイバーによる電気的絶縁により物理的なノイズ混入も遮断されるため、PCオーディオとしては理想的な環境が構築できます。
+
+* **対応サンプリングレート：** 44.1 / 48 / 88.2 / 96 / 192 kHz
+* **ビット深度：** 16 / 24 bit
+* ※S/PDIFではASIOは使用不可
+
+**2. アナログ出力** フラットな特性を持っているため、再生ソフトやアンプ側での色付けがしやすいのが特徴です。
+
+* **WASAPI対応：** 44.1 ～ 192 kHz（16 / 24 bit、32 bit浮動小数点対応）
+* **ASIO対応：** 44.1 ～ 192 kHz（24 bit整数のみ）
+
+本チップはDAW用（音楽制作向け）ではないため、リスニング用途であればASIOを利用するメリットは少ないでしょう。
+
+#### 結論
+
+下手に高価なUSB-DACを追加するよりも、ROGクラスの高品質なマザーボードオーディオを正しく設定して使うほうが、遥かに満足度の高いサウンドを楽しめます。
+
+[![Realtekオーディオドライバー デバイスマネージャー画面](https://stat.ameba.jp/user_images/20210522/09/yuki9902/58/2e/p/o0986070814945553699.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945553699.html)
+
+[![Realtek Audio Control画面、再生・録音デバイス設定](https://stat.ameba.jp/user_images/20210522/09/yuki9902/d9/cc/p/o1202093414945555601.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945555601.html)
+
+[![Realtekオーディオコンソール：7.1ch設定](https://stat.ameba.jp/user_images/20210522/09/yuki9902/da/79/p/o1202093414945555713.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945555713.html)
+
+[![Sonic Studio IIIの基本設定画面、イコライザーとエフェクト](https://stat.ameba.jp/user_images/20210522/09/yuki9902/42/f9/p/o1052092114945556058.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945556058.html)
+
+[![Realtek Sonic Radar III プレビュー画面](https://stat.ameba.jp/user_images/20210522/09/yuki9902/4d/44/p/o0972100414945556377.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945556377.html)
+
+バーチャルミキサーを無効化
+
+[![Windowsサウンド設定画面、再生デバイス一覧](https://stat.ameba.jp/user_images/20210522/09/yuki9902/3e/9e/p/o0465051814945556632.png?caw=800)](https://ameblo.jp/yuki9902/image-12675972416-14945556632.html)
