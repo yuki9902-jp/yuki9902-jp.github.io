@@ -121,24 +121,26 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p>先月、CPUに6万円という散財をしてローンで支払中ですが、また散財して850WのPSUを買いました。</p>
-<p>[<img src="https://p.odsyms15.com/5GpsTg1acwKoHQg0cfU3F4" alt=""></p>
-<p>Corsair RM850-2019- 850W PC電源ユニット 80PLUS GOLD PS863 CP-9020196-JP</p>
-<p>Amazon（アマゾン）</p>
-<p>11,800〜14,399円](<a href="https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>CPU、マザーボード、PSU、PCケース、かなり古いが使えるGPUが手元にあるので、RAMとOS用のM.2 SSDがあればファイルサーバーが組めると思い、RAM DDR4 2666MHz CL16 16GB(8GB*2)とNVMe M.2 SSD 250GBをまた買いました。</p>
-<p>[<img src="https://p.odsyms15.com/0eVjvQDKNsjm39U6NENwma" alt=""></p>
-<p>CORSAIR DDR4-2666MHz デスクトップPC用 メモリモジュール VENGEANCE LPX Series 8GB×2枚キット CMK16GX4M2A2666C16</p>
-<p>Amazon（アマゾン）</p>
-<p>6,427〜14,305円](<a href="https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/5fiHuVGtRpTTYxcTtptnS0" alt=""></p>
-<p>Western Digital WD Black 内蔵SSD M.2-2280 SN750 ゲームPC カスタムPC向け250GB NVMe 5年保証 WDS250G3X0C-EC 【国内正規代理店品】</p>
-<p>Amazon（アマゾン）</p>
-<p>6,334円](<a href="https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 <p>ファイルサーバーのパーツ構成は</p>
 <p>CPU･･･AMD RYZEN 7 1700</p>
 <p>M/B･･･GIGABYTE GA-AX370 Gaming K7 (AMD X370)</p>
 <p>GPU･･･GIGABYTE GV-N105TOC-4GL (NVIDIA Geforce GTX 1050Ti OC)</p>
 <p>RAM･･･Corsair VENGEANCE LPX 16GB (2*8GB) DDR4 DRAM 2666MHz CL16</p>
+<p>SSD･･･WD Black SN750 250GB (NVMe M.2 PCIe Gen.3)</p>
+<p>HDD･･･TOSHIBA DT01ACA300 (3TB SATA600 7200rpm)*2</p>
+<p>       SEAGATE Barracuda ST3000DM001 (3TB SATA600 7200rpm)*2</p>
+<p>       SEAGATE Barracuda ST8000DM004 (8TB SATA600 5400rpm)*1</p>
+<p>PSU･･･Corsair RM 750W (2013年モデル)</p>
+<p>Case･･･Corsair OBSIDIAN 550D (2012年発売)</p>
+<p>さて、それで組み上げて、OSを入れる段でいろいろ試しました。</p>
+<p>ファイルサーバーというよりはNASにしようかと、最初はFreeNASの後継TrueNASを入れましたが、4回やってもインストールできませんでした。</p>
+<p>次にDebianをインストールしましたが、Sambaの構築が出来ず断念。</p>
+<p>次にUbuntuをインストールしましたが、UEFI領域の構築で4度インストールに失敗。</p>
+<p>ブータブルUSBを挿しているUSBポートを変更して5度目にインストールできました。</p>
+<p>UbuntuでSambaを構築して、コンフィグファイルにユーザーを追加して、共有するディレクトリーを設定して再起動したら、ちゃんとファイル共有が出来るようになりました。</p>
+<p>しかし、NTFSで構築されているデータ保存済みのHDD5台をこれに追加するのは面倒です。</p>
+<p>GUIでディレクトリー（フォルダー）の設定が出来ないのは後の運用を考えても面倒でしかないです。</p>
+<p>ということで、ダメ元でWindows 10 Proをインストールしました。</p>
 	</div>
 </article><article class="list__item post">
 	
