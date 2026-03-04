@@ -268,10 +268,17 @@
 		<p><strong>1. SMB3 マルチチャネルによる帯域統合（ロードバランシング）</strong></p>
 <p>　Windows 8/Windows Server 2012以降で導入されたSMB 3.0から、**「SMB マルチチャネル」**が利用可能になりました。これにより、複数のネットワークインターフェースカード（NIC）を同時に使用してデータを転送し、スループットを向上させることができます。</p>
 <p><strong>2. Linux/BSD系OSでの注意点：サブネットの分離</strong></p>
-<p>　SMB3に対応したLinux（Samba）やBSD（TrueNAS等）でもマルチチャネルは利用可能です。ただし、Windowsとは異なり、同一サブネット内に複数のNICを接続する構成では正しく動作しない場合があります。 この制限を回避するには、NICごとに異なるサブネットを手動で割り当てるのが有効です。</p>
+<p>　SMB3に対応したLinux（Samba）やBSD（TrueNAS等）でもマルチチャネルは利用可能です。ただし、Windowsとは違い、TCP/IPの規格に沿って同一サブネット内に複数のNICを接続する構成は出来ません。この制約を回避するには、NICごとに異なるサブネットを手動で割り当てます。</p>
 <ul>
-<li><strong>PC A:</strong> <code>192.168.1.10/24</code> と <code>192.168.2.10/24</code></li>
-<li><strong>PC B:</strong> <code>192.168.1.11/24</code> と <code>192.168.2.11/24</code></li>
+<li>
+<p><strong>PC A:</strong> <code>192.168.1.10/24</code> と <code>192.168.2.10/24</code></p>
+</li>
+<li>
+<p><strong>PC B:</strong> <code>192.168.1.11/24</code> と <code>192.168.2.11/24</code></p>
+</li>
+<li>
+<p><strong>Sambaの設定:</strong> smb.conf に server multi channel support = yes と記述する。</p>
+</li>
 </ul>
 <p>このように、対応する各NICを同じサブネット同士で対向させることで、マルチチャネル接続を確実に機能させることができます。</p>
 <p><strong>3. 動作確認の方法</strong></p>
