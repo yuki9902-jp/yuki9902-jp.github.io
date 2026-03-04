@@ -74,7 +74,7 @@
 		<div class="content post__content clearfix">
 			<p>AMD RYZEN 7 5800XとASUS ROG STRIX X580-F GAMING BIOS 3001(AGESA 1.1.8.0)でPrecision Boost OverDrive 2の効果を確認してみました。</p>
 <p>UEFIでPrecision Boost OverDriveを有効にして、高性能コア2つの電圧設定を「-」（Negative）の0～10、それ以外を同じく「-」の20～30、TDPをマニュアルで180に設定して起動して確認しました。</p>
-<p>CINEBENCH R20</p>
+<h3 id="cinebench-r20-マルチ">CINEBENCH R20 マルチ</h3>
 <table>
   <thead>
       <tr>
@@ -82,7 +82,6 @@
           <th>★</th>
           <th>●</th>
           <th>他のコア</th>
-          <th>測定</th>
           <th>Score(cb)</th>
           <th>Clock(GHz)</th>
           <th>消費電力(W)</th>
@@ -96,7 +95,6 @@
           <td>-5</td>
           <td>-10</td>
           <td>-30</td>
-          <td>MP</td>
           <td>5778</td>
           <td>4.775</td>
           <td>140</td>
@@ -104,23 +102,10 @@
           <td>77</td>
       </tr>
       <tr>
-          <td>SP</td>
-          <td>620</td>
-          <td>5.050</td>
-          <td>64</td>
-          <td>1.475</td>
-          <td>64</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
           <td>有効</td>
           <td>-0</td>
           <td>-5</td>
           <td>-20</td>
-          <td>MP</td>
           <td>5759</td>
           <td>4.725</td>
           <td>144</td>
@@ -128,40 +113,66 @@
           <td>79</td>
       </tr>
       <tr>
-          <td>SP</td>
-          <td>617</td>
-          <td>5.050</td>
-          <td>65</td>
-          <td>1.488</td>
-          <td>66</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
           <td>無効</td>
           <td></td>
           <td></td>
           <td></td>
-          <td>MP</td>
           <td>6170</td>
           <td>4.725</td>
           <td>144</td>
           <td>1.281</td>
           <td>85</td>
       </tr>
+  </tbody>
+</table>
+<h3 id="cinebench-r20-シングル">CINEBENCH R20 シングル</h3>
+<table>
+  <thead>
       <tr>
-          <td>SP</td>
+          <th>PBO2</th>
+          <th>★</th>
+          <th>●</th>
+          <th>他のコア</th>
+          <th>Score(cb)</th>
+          <th>Clock(GHz)</th>
+          <th>消費電力(W)</th>
+          <th>電圧(V)</th>
+          <th>温度(℃)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>有効</td>
+          <td>-5</td>
+          <td>-10</td>
+          <td>-30</td>
+          <td>620</td>
+          <td>5.050</td>
+          <td>64</td>
+          <td>1.475</td>
+          <td>64</td>
+      </tr>
+      <tr>
+          <td>有効</td>
+          <td>-0</td>
+          <td>-5</td>
+          <td>-20</td>
+          <td>617</td>
+          <td>5.050</td>
+          <td>65</td>
+          <td>1.488</td>
+          <td>66</td>
+      </tr>
+      <tr>
+          <td>無効</td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td>606</td>
           <td>4.725</td>
           <td>65</td>
           <td>1.294</td>
           <td>58</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
       </tr>
   </tbody>
 </table>
