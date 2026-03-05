@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/archives/2026-03/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/computer/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</loc>
-    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</loc>
     <lastmod>2026-03-03T19:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/column/</loc>
