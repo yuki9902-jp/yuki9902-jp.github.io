@@ -248,6 +248,15 @@
     <loc>http://localhost:1313/posts/2024-06-22_%E5%8E%9F%E7%A5%9E%E3%83%97%E3%83%AC%E3%82%A4%E9%85%8D%E4%BF%A1%E4%B8%AD/</loc>
     <lastmod>2024-06-22T11:44:25+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/gallery/</loc>
+    <lastmod>2024-06-14T22:12:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pentax/</loc>
+    <lastmod>2024-06-14T22:12:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-14T22:12:11+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2024-06-14_%E5%A4%A7%E7%80%A7%E5%B1%B1-%E8%A5%BF%E6%B3%95%E9%99%A2---2024_06_14/</loc>
     <lastmod>2024-06-14T22:12:11+09:00</lastmod>
   </url><url>
@@ -5962,15 +5971,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/2018-07-18_%E5%B0%91%E3%81%97/</loc>
     <lastmod>2018-07-18T01:36:23+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/gallery/</loc>
-    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pentax/</loc>
-    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2018-07-17_%E3%82%B8%E3%83%A5%E3%83%94%E3%82%BF%E3%83%BC/</loc>
     <lastmod>2018-07-17T21:46:48+09:00</lastmod>

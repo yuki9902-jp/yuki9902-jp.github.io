@@ -73,180 +73,195 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-21_%E6%99%AE%E9%80%9A%E3%81%A3%E3%81%A6/" rel="bookmark">
-			普通って
+			<a href="/posts/2010-12-14-%E5%90%84%E7%A8%AEapi%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA/" rel="bookmark">
+			各種APIとの連携
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>家でごろごろしてたら、頭が痛いのもなんとなく治まった。</p>
-<p>普段から頭痛や強烈な眠気があっても、仕事はしなきゃいけないんだけど、そういったことに寛容な職場ってあるんだろうか。</p>
-<p>何かをすれば眠気が取れるというのは、意外に嘘なんだけど、頻繁に眠気に襲われる身としては、昼寝や休憩時間を自由に取れる所じゃないと辛いんだよな。</p>
-<p>1日の稼働時間は8時間が限界だよな。</p>
-<p>それ以上は身体が持たないし。</p>
-<p>普通ってなんなんだろうね。</p>
+		<p>各種APIとの連携を止めました。</p>
+<p>権利関係で、相手方に全て持って行かれたりするような内容で、非常に不利になります。</p>
+<p>特にTwitterは気をつけなければなりません。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-19_suntory-gokuri-pink-grapefruit/" rel="bookmark">
-			SUNTORY Gokuri Pink Grapefruit
+			<a href="/posts/2010-12-12-%E7%9F%AD%E7%B8%AE-url/" rel="bookmark">
+			諸々の試行
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-10806886696-11061457185.html"><img src="https://stat.ameba.jp/user_images/20110219/23/yuki9902/d5/15/j/t02200331_0480072211061457185.jpg?caw=800" alt="yuki9902::blog"></a></p>
-<p>Gokuriのピンクグレープフルーツです。</p>
-<p>すこし桃のような香りと甘みのあるグレープフルーツです。</p>
-<p>酸味は少ないです。</p>
-<p>パンチに欠けると言えば欠けます。</p>
-<p>のどにいがらないので飲みやすいですよ。</p>
+		<p>短縮URLとTwitterとブログ更新プラグインといろいろ試しています。</p>
+<p>他にamebloをやっていますが、こちらは各種web apiが提供されていないし、外部のweb apiに対応していないので、独立してしまっている感じです。</p>
+<p>amebloの技術レベルが低いのが主な原因ですが、早急に他のサービス並みに機能を提供してもらいたいです。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-19_%E7%8B%BC%E3%81%A8%E9%A6%99%E8%BE%9B%E6%96%99-xvi/" rel="bookmark">
-			狼と香辛料 XVI
+			<a href="/posts/2010-12-11_%E6%8A%80%E8%A1%93%E3%81%AE%E5%85%88%E3%81%AB/" rel="bookmark">
+			技術の先に
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>狼と香辛料もついに完結です。</p>
-<p>現在、読んでいる最中です。</p>
-<p>相変わらず読みにくい表現がありますが、気にせず読みましょう。</p>
-<p>これももうアニメ化はないのかな。</p>
-<p>あとタイトルとは関係ないですが、</p>
-<p>ご本人やご家族が重い病気や怪我をされて大変な思いをされていらっしゃる方たちへ、少しでも、早く良くなりますように祈っております。</p>
-<p>皆様に幸多からんことを。</p>
+		<p>XMLデータからXSLTで変換してXSL-FOを作り出して、パーサーを通してPDFやらSWFを作成する技術を開発していました。</p>
+<p>ワンソースマルチユースということで、出版や印刷業者が今一生懸命生き残りをかけて開発している分野です。</p>
+<p>iPhoneがFlashを搭載しないことから、電子書籍のフォーマットはPDFに確実に向いてしまいました。</p>
+<p>それにkindleやSonyのReaderもPDFが中心です。</p>
+<p>PDFに関してはすでにAdobe社がAcrobatを提供している上、多くのツールでPDFを出力できるため、新技術開発のメリットは薄いです。</p>
+<p>残るは、過去のソースを如何にPDFに変換していくかということ。</p>
+<p>日本語の組版は非常に複雑で、日本独自の発展をしてきたため、完全な自動化が不可能に近いのです。</p>
+<p>さらに問題は、出版印刷の工程と原稿の保管にも問題があり、最終印刷物を「完成物（正版）」としているため、組版済みのイラストレーターファイルやクォークファイルがあっても、文字（テキスト）データが残っていないことが多いのです。</p>
+<p>大概はアウトライン化されテキスト情報が欠落してしまっています。</p>
+<p>これらをOCRして再テキスト化しても読み取り率は98%前後。</p>
+<p>残りの数％を確認するのは人間の仕事です。</p>
+<p>それを探すことは、つまり全文字を人間が読まなければならないので、結局自動化によるコストメリットが薄くなってしまうのです。</p>
+<p>で、私はそもそも大手出版社の持っているコンテンツには興味がありません。</p>
+<p>それよりもこれから電子書籍がマーケットの主流になるであろうこの段階で、自費出版している作家、漫画家、地方の埋もれた才能を発掘して、大手のあくどい版権ビジネスから保護して、より自由な出版が行えるようにしていきたいのです。</p>
+<p>日本の版権ビジネスは非常に複雑で、非常にあくどい。</p>
+<p>書籍、音楽、映像どれをとっても然り。</p>
+<p>自由に且つ作家や消費者双方にとってうれしいビジネスにしていきたいものです。</p>
+<p>以下廣告</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-18_%E4%BB%8A%E6%97%A5%E3%81%AF/" rel="bookmark">
-			今日は
+			<a href="/posts/2010-12-06_%E9%8B%AD%E6%84%8F%E4%BD%9C%E6%88%90%E4%B8%AD/" rel="bookmark">
+			鋭意作成中
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>今日は心療内科にいく日。</p>
-<p>長い時間通っている…、３度目の発症だと治るまでに時間がかかる。</p>
+		<p>WEBデザインとシステム開発の会社を作ってみようかと、現在ホームページを作成中。</p>
+<p>仕事が来るかなぁ。</p>
+<p>また完成したら公開いたします。</p>
+<p>ここが社長ブログになったらおもしろいけどね。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-18_%E6%B6%99%E3%81%BC%E3%82%8D%E3%81%BC%E3%82%8D/" rel="bookmark">
-			涙ぼろぼろ
+			<a href="/posts/2010-12-05_%E3%82%82%E3%81%A3%E3%81%A8%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A%E3%81%A8%E7%94%9F%E3%81%8D%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E3%81%8B%E3%81%AA/" rel="bookmark">
+			もっとすっきりと生きられないかな。
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>コードギアス 反逆のルルーシュ R2のBDを見て、ピクチャードラマを見て、奇跡の誕生日を見ました。</p>
-<p>涙ぼろぼろ・・・。</p>
-<p>何度見ても泣いちゃう。</p>
+		<p>どんなんだ。</p>
+<p>生きるというのは辛いことが多いのだが。</p>
+<p>というか辛いことしか覚えていない・・・。</p>
+<p>いや、せっかくスケジュール立ててたのに、あっさり拒否りやがって。</p>
+<p>普段からあんまり何にも考えてない奴だから仕方ないとはいえ、今回はちょっとむかっときた。</p>
+<p>まあ、しょうがない忘れよう。</p>
+<p>ひっかかてもしんどいだけだし。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-16_%E6%88%91%E3%81%8C%E5%AE%B6%E3%81%AE%E3%81%8A%E7%A8%B2%E8%8D%B7%E3%81%95%E3%81%BE/" rel="bookmark">
-			我が家のお稲荷さま
+			<a href="/posts/2010-12-03_%E3%81%84%E3%81%A4%E3%82%82%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/" rel="bookmark">
+			いつもありがとうございます。
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>久しぶりに引っ張り出して見たです、我が家のお稲荷さま。</p>
-<p>ほのぼの優しい気持ちになれる良いアニメです。</p>
-<p>天狐空玄は、ゆかなさんの声が良く合います。</p>
-<p>コードギアスのC.C.を見たら、ゆかなさんの他の作品も見たくなって引っ張り出しました。</p>
+		<p>いつもみさなんペタをありがとうございます。</p>
+<p>感動なのです。</p>
+<p>夢に向かってがんばっている人。</p>
+<p>現状を変えたいとがんばっている人。</p>
+<p>がんばっておられる人の姿に感動しております。</p>
+<p>遠くから応援することしかできませんけども、少しでも心が届いたならうれしいことです。</p>
+<p>皆様に幸多きことを。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-16_%E7%A2%BA%E5%AE%9A%E7%94%B3%E5%91%8A/" rel="bookmark">
-			確定申告
+			<a href="/posts/2010-12-02_%E3%82%A2%E3%83%B3%E3%83%8B%E3%83%A5%E3%82%A4/" rel="bookmark">
+			アンニュイ
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>確定申告にいってきました。</p>
-<p>書類をちゃんと揃えていたので、ものの5分で終わりました。</p>
-<p>e-Taxならもっと簡単かも。</p>
+		<p>最近、身の回りの人間が鬱っぽい状態になっていて、どうしたものかと思案中。</p>
+<p>励ましても逆効果になるので、ゆっくり話をして聴いてあげればいいのでしょう。</p>
+<p>それぞれ原因があるので、それが取り除かれれば、きっとすぐに治るでしょう。</p>
+<p>まあ私は本格的に投薬とカウンセリングの治療を受けていますが。</p>
+<p>あ、3度目の発症から、もうカウンセリングも1年になろうとしている。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-15_limited-silver/" rel="bookmark">
-			Limited Silver
+			<a href="/posts/2010-11-30_%E5%A4%89%E3%81%AA%E6%A9%9F%E8%83%BD/" rel="bookmark">
+			変な機能
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>PENTAXから発表されたばかりのK-5 Limited SilverとsmcPENTAX DA limited Silverレンズのメーカー受注数が予定数に達したようです。</p>
-<p>Amazonとかに注文が出来るようになる前に、締め切られてしまいました。</p>
-<p>限定発売じゃなく、標準生産品にして欲しいモノです。</p>
-<p>販売店から苦情が入ればまた生産するかもね。</p>
+		<p>うお、新しい機能がついている。</p>
+<p>なうで紹介、mixiチェック、ツィート。</p>
+<p>でも勝手に引用されるのは嫌だな。</p>
+<p>TrackBackを禁止しているのに。</p>
+<p>これよりも「なう」と「twitter」の連携機能をつけてくれ。</p>
+<p>たかがphpとJavaServletのコーディングじゃないか、簡単だろ。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-15_%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/" rel="bookmark">
-			テンション↓
+			<a href="/posts/2010-11-29_%E3%81%84%E3%81%BE%E3%81%95%E3%82%89%E3%81%A0%E3%82%8D/" rel="bookmark">
+			いまさらだろ
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>せっかくテンション高かったのに、直後に契約providerのDHCPサーバーとDNSが参照できなくなって、ネットがダウンした。</p>
-<p>たぶんprovider内のルーターのルーティングテーブルが異常を来したんだと思う。</p>
-<p>こちらからはDHCPが通らなければ、何もしようがないのでお手上げだった。</p>
-<p>おかげでテンションだだ下がり。</p>
-<p>晩ご飯をやけ食いして、おなか苦しい。</p>
+		<p>もともと写せるモノがあればコピーしていたさ。<br>
+ネットから引用するのは当たり前だろ。<br>
+新聞社だって時事通信や共同通信から平気でネタを買ってるじゃないか。</p>
+<p>学校の宿題で強制され提出したモノを、教師が勝手にコンクールに出しているんだからしょうがないだろ。<br>
+つまりコンクールが必要なのかってことだよ。</p>
+<p>宿題で強制するんじゃなく、ちゃんと公募して、それ相応の賞金を出し、作家や詩人を目指せるモノとすればいいわけだ。</p>
+<p>審査する側も真剣な取り組みが必要なのだと言うこと。</p>
+<p>罪悪感などといういい加減な判断基準で問題提起をするんじゃなく、コンクールの必要性に言及すべき。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2011-02-15_%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3/" rel="bookmark">
-			テンション
+			<a href="/posts/2010-11-29_twitter/" rel="bookmark">
+			twitter
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>ANIMAX MUSIX FALL 2010のPart3でMay&rsquo;nさんを見て、テンション上がってます。</p>
-<p>テンション上がったまま、今日のおやつをあさります。</p>
-<p>自家栽培のキウイ、サツマイモが今日のおやつ。</p>
-<p>キウイは秋に収穫して、冷蔵庫で熟成。</p>
-<p>糖度が高くなって、酸味が消えます。</p>
-<p>売り物にはない甘さなのです。</p>
-<p>サツマイモは、スイートポテトにしています。</p>
-<p>サツマイモ、オンリーで作る天然の甘さです。</p>
-<p>で、またもやテンション上がってしまった。</p>
-<p>テンション上がったついでに、WebブラウザをInternet Explorer 9にアップデートしました。</p>
-<p>見た目がシンプルになって、またもやテンションが上がる。</p>
-<p>いかん、鼻血出たらどうしよう。</p>
+		<p>twitterのアカウントを復活させてみました。</p>
+<p>これがアメーバなうと連携すれば使いやすいんだけどね。</p>
+<p>あ、あまりフォローしないでください。</p>
+<p>ブクログの更新情報がアップされるぐらいなので。</p>
+<p>@や#の使い分けも、ショートリンクも難しい。</p>
+<p>誰のどのツィートをフォローしているのか分からなくなる・・・。</p>
 	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/column/page/588/">«</a>
-	<span class="pagination__item pagination__item--current">589/719</span>
+	<span class="pagination__item pagination__item--current">589/712</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/column/page/590/">»</a>
 </div>
 

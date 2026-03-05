@@ -30,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>GALLERY</title>
+      <link>http://localhost:1313/categories/gallery/</link>
+      <pubDate>Fri, 14 Jun 2024 22:12:11 +0900</pubDate>
+      <guid>http://localhost:1313/categories/gallery/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>AUDIO</title>
       <link>http://localhost:1313/categories/audio/</link>
       <pubDate>Wed, 01 Sep 2021 17:36:18 +0900</pubDate>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/categories/pentax/</link>
       <pubDate>Fri, 29 May 2020 21:43:40 +0900</pubDate>
       <guid>http://localhost:1313/categories/pentax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GALLERY</title>
-      <link>http://localhost:1313/categories/gallery/</link>
-      <pubDate>Tue, 17 Jul 2018 21:46:48 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gallery/</guid>
       <description></description>
     </item>
     <item>

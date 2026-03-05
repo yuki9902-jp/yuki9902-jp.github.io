@@ -78,10 +78,47 @@
 <p>で、すべてマザーボードに搭載されたSATAコネクタに接続しています。</p>
 <p>RAIDコントローラーは、AMD X370チップセットに内包されています。</p>
 <p>3TBを6台なので、そのまま使うと18TBの大容量ですが、HDDのランダムアクセス性能の低さを補う目的とデータの安全性を保つ目的でRAID10を使うことにしました。</p>
-<p>                       HDD 1   HDD 3   HDD 5    HDD 1   HDD 3   HDD 5</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
-<p> DATA [100110] =&gt;      HDD 2   HDD 4   HDD 6    HDD 2   HDD 4   HDD 6</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">DATA</th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center">Stripe1 </th>
+          <th style="text-align: center">Stripe2</th>
+          <th style="text-align: center">Stripe3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"><strong>HDD A</strong></td>
+          <td style="text-align: center"><strong>HDD C</strong> </td>
+          <td style="text-align: center"><strong>HDD E</strong> </td>
+      </tr>
+      <tr>
+          <td style="text-align: center">010</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">0 </td>
+          <td style="text-align: center">1 </td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">↓</td>
+          <td style="text-align: center"> </td>
+          <td style="text-align: center"><strong>HDD B</strong> </td>
+          <td style="text-align: center"><strong>HDD D</strong> </td>
+          <td style="text-align: center"> <strong>HDD F</strong> </td>
+      </tr>
+      <tr>
+          <td style="text-align: center"> 010</td>
+          <td style="text-align: center">→ </td>
+          <td style="text-align: center">0 </td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">0</td>
+      </tr>
+  </tbody>
+</table>
 <p>RAID10を模式図にしたらこんな感じになるんですが、データを先頭から順次ストライピング(RAID0)して、それをミラーリング(RAID1)するという形で記録していきます。</p>
 <p>うまく行けば、最大で500MB/sぐらいの速度が出そうです。</p>
 <p>まあ1GbEなので125MB/s</p>

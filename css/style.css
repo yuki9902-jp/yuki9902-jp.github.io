@@ -48,7 +48,7 @@ body {
 	font-size: .875rem;
 	line-height: 1.6;
 	word-wrap: break-word;
-	background: #555555;
+	background: #303030;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .wrapper {
 	padding: 25px;
-	background: #e0e0e0;
+	background: #aaaaaa;
 }
 
 .flex {
@@ -259,13 +259,14 @@ samp {
 
 pre,
 code {
-	background-color: #f5f5f5;
-	border: 1px solid #ebebeb;
+	color: #fff;
+	background-color: #000044;
+	border: 1px solid #888888;
 }
 
 code {
-	padding: 0 5px;
-	color: #c33;
+	padding: 1px;
+	color: #ffffff;
 }
 
 pre {
@@ -275,7 +276,7 @@ pre {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	overflow: auto;
-	color: #000;
+	color: #ffffff;
 }
 
 pre code {
