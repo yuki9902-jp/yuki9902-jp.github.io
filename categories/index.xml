@@ -37,6 +37,20 @@
       <description></description>
     </item>
     <item>
+      <title>PENTAX</title>
+      <link>http://localhost:1313/categories/pentax/</link>
+      <pubDate>Fri, 29 May 2020 21:43:40 +0900</pubDate>
+      <guid>http://localhost:1313/categories/pentax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GALLERY</title>
+      <link>http://localhost:1313/categories/gallery/</link>
+      <pubDate>Tue, 17 Jul 2018 21:46:48 +0900</pubDate>
+      <guid>http://localhost:1313/categories/gallery/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>BLOG HISTORY</title>
       <link>http://localhost:1313/categories/blog-history/</link>
       <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
@@ -48,13 +62,6 @@
       <link>http://localhost:1313/categories/site/</link>
       <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
       <guid>http://localhost:1313/categories/site/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GALLERY</title>
-      <link>http://localhost:1313/categories/gallery/</link>
-      <pubDate>Sun, 21 Mar 2010 22:36:20 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gallery/</guid>
       <description></description>
     </item>
     <item>

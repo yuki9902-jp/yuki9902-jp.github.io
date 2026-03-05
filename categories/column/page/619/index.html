@@ -73,244 +73,188 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-12_sacd%E3%81%A7%E3%81%AA%E3%81%84%E3%81%8B%E3%81%AA%E3%81%A7%E3%81%AA%E3%81%84%E3%82%88%E3%81%AA/" rel="bookmark">
-			SACDでないかな、でないよな・・・。
+			<a href="/posts/2010-03-21_otard-xo/" rel="bookmark">
+			Otard XO
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>現在、坂本真綾さんの「everywhere」の楽曲をPCに取り込んで、192kHz/24bitにアップコンバート中。</p>
-<p>コンプレッサが効き過ぎていてせっかくのSHMCDなのに音が定位感や奥行き感がなくなっています。</p>
-<p>アップコンバートのロジックによっては、音量バランスが好ましくなるので、それを期待してコンバートしてます。</p>
-<p>せっかく良い作品なのでSACDなど出してくれないかな。</p>
-<p>SACDとか聞いたら、CDやダウンロードなんて選択肢はなくなっちゃうんだけどな。</p>
+		<p>ちぃ、ブランデーの酒瓶のコルクが折れた。</p>
+<p>瓶の中に押し込んでブランデーの中に落としたぜ。</p>
+<p>まあ味が変わるものじゃないからいいとするか。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-11_play-for-sure/" rel="bookmark">
-			Play For Sure
+			<a href="/posts/2010-03-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%A2%85/" rel="bookmark">
+			今日の梅
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>私の持っているDENON AVC-4320は、Windows VISTA / 7での<a href="http://www.microsoft.com/japan/presspass/detail.aspx?newsid=2544">Play For Sure</a>
-を取得しています。</p>
-<p>LANを通して、リモート再生、メディアサーバーからの再生、Webブラウザコントロールが利用できます。</p>
-<p>これまでメディアサーバー機能、Webブラウザコントロールは使っていましたが、リモート再生は使ったことがなかったです。</p>
-<p>Windows Media Playerで再生可能なオーディオファイルを、Windows上で選んで「リモート再生」をクリックすると、</p>
-<p><a href="https://ameblo.jp/yuki9902/image-10560383652-10586094760.html"><img src="https://stat.ameba.jp/user_images/20100611/20/yuki9902/39/06/p/t02200300_0348047510586094760.png?caw=800" alt="おやぶんの物欲と苦悩"></a></p>
-<p>こんな画面が出てAVアンプから音が出てきます。</p>
-<p>オーディオファイルをストリーミングとしてAVアンプの送出し、AVアンプ側でデコードして再生するものです。</p>
-<p>AVアンプの性能に頼るので、サウンドカードがしょぼかろうと高音質になります。</p>
-<p>最近ではONKYOのAVアンプも対応しているようです。</p>
+		<p>今日は風が強かった。</p>
+<p>梅ももう見頃は終わりました。</p>
+<p>桜を待ってます。</p>
+<p>早く咲かないかな。</p>
+<p><a href="http://yuki9902.com/?p=1141">http://yuki9902.com/?p=1141</a></p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-11_where-is-kmixer.sys-in-windows7_/" rel="bookmark">
-			Where is KMixer.sys in Windows7?
+			<a href="/posts/2010-03-19_%E8%B2%B7%E3%81%8A%E3%81%86%E3%81%8B%E3%81%AA/" rel="bookmark">
+			買おうかな
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>ちまたでは「カーネルミキサーで音が悪い」という話が流れてるんですが、これってKMixer.sysっていうもののことなんですが、Windows 7 / Windows VISTAには「ない」んですよね。</p>
-<p>そもそもSound / Audio device へのアクセス方法が完全に見直されて、XP以前の構造をしていないんです。</p>
-<p>XP以前の環境ではこのKMixer.sysを回避するためにASI4ALLを介して、deviceにアクセスしていたんですが、VISTA/7以降ではこのアクセスを禁止して、代わりに低レイテンシでのアクセスとしてWASAPIを用意したわけです。</p>
-<p>アプリケーションからは、<a href="http://msdn.microsoft.com/en-us/library/dd370784(VS.85).aspx">Windows Core Audio API</a>
-を介してデバイスにアクセスします。</p>
-<p>このAPIの中にWASAPIがあります。</p>
-<p>このCore Audio API は、XP以前には搭載されることはありません。</p>
-<p>実際プログラミングの見地からいうと、</p>
-<p>VISTA / 7でサウンドを鳴らす限りKMixerを使うことはあり得ないということ。</p>
-<p>WASAPIを使ったプログラミングをしたからといって高音質になるとはいえないこと。</p>
-<p>ドライバの品質が音質に与える影響が大きいということ。</p>
-<p>もっとも重要なのはサウンドカードの品質。</p>
-<p>44.1khz/16bit から192khz/24bitにアップコンバートする時の音質は、どういったロジックによりどういった信号補間するかということです。</p>
-<p>リアルタイムにソフトウェアでアップコンバート？</p>
-<p>リアルタイムにハードウェアでアップコンバート？</p>
-<p>事前にソフトウェアでアップコンバート？</p>
-<p>どれでもいいんですよ。</p>
-<p>結局のところアップコーンバーとするときのロジックが重要なんですよね。</p>
-<p>もとの品質を超えた高音質はあり得ないので、どれくらいあり得ないデータを上手に作るかが、プログラマーやコンバーター設計者の腕の見せ所なのでしょう。</p>
-<p>それはフィルターと呼ばれるものですが、単純にハイビットサンプリングしただけではギザギザがたった聞き苦しいデータになるので、ノイズをあえて乗っけて聞きやすい波形データを作るということです。</p>
-<p>「音数が増える」とか「情報量が増える」とか、確かに増えるんですが、虚構です。</p>
-<p>聞く方は「高音質」ではなく、「好き」か「嫌い」でしかないということを前提に考えた方が正しいです。</p>
-<p>さて、事実を知っていればアップコンバート機能付きのDACに数百万円を払うのはばからしい話なのですが。</p>
-<p>私もその虚構に昔踊らされました。</p>
-<p>PS3のアップコンバート機能が流行った頃ですね。</p>
-<p>日本では（海外にはない）技術論よりも感情論、宗教のようなオーディオ趣向があるのでそれが変な思い込みを与えてました。</p>
-<p>日本は高度な技術屋とオカルト信者な消費者がいる不思議な国ですね。</p>
+		<p>SonyのWalkmanのアプリケーションが「SonicStage」から「X-アプリ」になってしばらく経ちます。</p>
+<p>みんなバージョンアップして使ってるのかな。</p>
+<p>auのツールも「X-アプリ for au」になっているので、ユーザーは多いかな。</p>
+<p>その中で楽曲配信サイト「mora」が利用できるんですが、「mora」で機動戦士ガンダムのＴＶサントラが配信されました。</p>
+<p>試聴できるので、さっそく聞いてみると、楽曲でＴＶのシーンをありありと思い出されてきます。</p>
+<p>ほしいと思うけど、圧縮音声だからなぁ・・・。</p>
+<p>機器への転送制限やCDへの記録制限もあるのだからＨＤ音源で配信して欲しいものだね。</p>
+<p>ほかに欲しい楽曲がありすぎて困る。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-07_windows-7-64bit%E3%81%AE%E5%86%8D%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/" rel="bookmark">
-			Windows 7 64bitの再インストール
+			<a href="/posts/2010-03-18_%E6%AD%AF%E5%91%A8%E7%97%85%E3%81%AE%E6%B2%BB%E7%99%82%E3%81%AB/" rel="bookmark">
+			歯周病の治療に
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>メインで使っているPCが、グラフィックボードを交換してから、起動時またはシャットダウン時にブルーバックになって落ちるので、再インストールを決行しました。</p>
-<p>メールと音楽ファイル、ブックマーク、ゲームの保存データをバックアップしてから、Windows 7 64bitをクリーンインストール。</p>
-<p>インストールは３０分ほどでした。</p>
-<p>準備は大変だったけどね。</p>
-<p>ドライバーをインストールして、再起動してもブルーバックにならず、安定。</p>
-<p>そのあとアプリケーションをぼちぼちとインストールして、バックアップデータからメールとブックマークと音楽ファイルとゲームの保存データをリストアして、完全性を確認して、問題なし。</p>
-<p>もともとWindows VISTAからのアップグレードだったので、いらないソフトも結構入っていたし、レジストリやフォルダ権限も新しくしました。</p>
-<p>んで、すこぶる調子よくなりました。</p>
-<p>壁紙をFF13のライトニングに換えたりして、利用環境を整えてます。</p>
-<p>再インストールついでに、久しぶりにAge of Empires 3をしました。</p>
-<p>おもしろいです。</p>
-<p>いいゲームです。</p>
-<p>さて目的のトラブル回避はちゃんとできました。</p>
-<p>グラフィックボードを入れ替えるときはOSを再インストールした方がいいみたいですね。</p>
-<p>かなり高度なOSですから、仕方ないのかな。</p>
+		<p>広島大学歯学部で歯周病治療で幹細胞を使い、歯茎に幹細胞を植え付け歯茎の再生に成功し、人での臨床実験の結果、治療に期待できることが発表されました。</p>
+<p>私も急性若年性歯周病でかなり苦労していますから、このニュースはとても歓迎しています。</p>
+<p>手術をしたり高額な治療費のインプラントをしないで済む上、重度の歯周病でも、歯槽根が再生することが期待できますから、私も治療し回復できることに期待できます。</p>
+<p>三年以内に実用化すると発表がありました。</p>
+<p>早く治療を受けたいところです。</p>
+<p>期待しています。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-07_%E3%83%AB%E3%83%94%E3%82%B7%E3%82%A2%E3%81%AE%E3%81%8A%E8%8C%B6/" rel="bookmark">
-			ルピシアのお茶
+			<a href="/posts/2010-03-17_%E6%99%B4%E3%82%8C/" rel="bookmark">
+			晴れ
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>今年のダージリン地方の紅茶はあたりだそうで、実際一番詰みの香りはとてもいいです。</p>
-<p>もう何年になるか、毎年ルピシアでお茶を買っています。</p>
-<p>日本茶ブランドが統合される前のレピシエの頃も買ってましたね。</p>
-<p>色々な紅茶を試しましたが、自分で淹れて呑むならダージリンに落ち着きました。</p>
-<p>ダージリンでもシンブーリ茶園が気に入ってます。</p>
-<p><a href="http://www.lupicia.com/html/ja/item/001/006/item5211.html">シンブーリ・スーパーファイン, 2010-DJ20</a></p>
-<p>[1002] SINGBULLI, SFTGFOP1 SUPER FINE 2010-DJ20</p>
-<p>SFTGFOP1ってどんな意味でしょうね。</p>
-<p><a href="http://www.lupicia.com/about/index.html">ルピシアのHP</a>
-に解説されています。</p>
-<p>OP＝Orange Pekoe（オレンジペコ）：枝先から2番目の小さな葉。<br>
-FOP＝Flowery Orange Pekoe（フラワリー・オレンジペコ）：枝先の貴重な新芽。<br>
-TGFOP＝Tippy Golden FOP：金色の新芽、ゴールデンチップスが含まれた上級品。<br>
-FTGFOP＝Finest TGFOP：ゴールデンチップスの多いTGFOPのさらに上級品。<br>
-SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
-<p>1：各グレード名の最後に「1」がつくのは、その農園の同グレードの最上級品。</p>
-<p>Special Finest Tippy Golden Flowery Orange Pekoe 1</p>
-<p>って事ですね。</p>
-<p>淹れ方は85-95度のお湯ですが、私は若干低めに淹れます。</p>
-<p>75-80度ぐらいかな。</p>
-<p>渋みが少なく甘みが増し、香りも乗ります。</p>
-<p>水質や気温、気分に併せて自分なりの淹れ方を研究してみてください。</p>
-<p>タルボ茶園は軽やかでフルーティーな味わいですが、これもいいですよ。</p>
+		<p><a href="https://ameblo.jp/yuki9902/image-10483909823-10454731185.html"><img src="https://stat.ameba.jp/user_images/20100317/09/yuki9902/bc/ac/j/t02200367_0240040010454731185.jpg?caw=800" alt="おやぶんの物欲と苦悩-100317_0918~0001.jpg"></a></p>
+<p>今日も梅を撮影してます。<br>
+きれいに晴れました。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-05_%E3%81%82%E3%81%82/" rel="bookmark">
-			あ～あ
+			<a href="/posts/2010-03-15_%E8%87%AD%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E8%87%AD%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C%E8%87%AD%E3%81%84%E3%81%AE%E3%81%AF%E5%AB%8C/" rel="bookmark">
+			臭いのは嫌、臭いのは嫌、臭いのは嫌
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>今度の総理は史上最低の首相になる可能性がありますね。</p>
-<p>頭は悪い上に、ポリシーがないし、究極の風見鶏だし、ＫＹだし。</p>
-<p>国家崩壊に備え、自己防衛をしたほうが良いかもしれませんね。</p>
+		<p>今年はカメムシの大量発生でこまってます。</p>
+<p>臭い。</p>
+<p>そうでなくても虫が嫌いなのに。</p>
+<p>臭いのや痛いのやかゆいのは嫌です。</p>
+<p>カメムシを効果的に抹殺する方法を考えなくては。</p>
+<p>掃除機では吸い取った後、臭い。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-03_%E6%82%B2%E3%81%97%E3%81%84%E3%81%97%E6%82%94%E3%81%97%E3%81%84/" rel="bookmark">
-			悲しいし悔しい
+			<a href="/posts/2010-03-12_%E3%82%BF%E3%82%A4%E3%83%A4/" rel="bookmark">
+			タイヤ
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>朝から悲しくて憤りを禁じ得ないです。</p>
-<p>ニュースサイトのニュースを見ると、凶悪な事件が増えています。</p>
-<p>殺人事件、婦女暴行事件・・・。</p>
-<p>特に都市部の事件が凶悪化しているようです。</p>
-<p>密室や人通りの少ないところで行われているのではなく、周りにいる人たちが見ていながら、その目の前で犯行が行われていることも多いようです。</p>
-<p>密集している割に自閉してしまい周りに無関心な人間があまりに多い。</p>
-<p>外国人から見た日本人の特徴そのものであるらしいですが。</p>
-<p>「親切で礼儀正しい」は見せかけで、本質は「事なかれ主義」なのではないかと言うことなのです。</p>
-<p>隣の誰かを思いやってください。</p>
-<p>家族、知人、そしてどんな他人でも大切に思えば、人に暴力や屈辱を与える事件なと起きないはずです。</p>
-<p>目の前の不穏なことを事件になる前に、被害者が出る前に解決できるはずです。</p>
-<p>無関心は罪だと思います。</p>
-<p>遠くにいる皆さんが事件に遭わないように、被害者にならないように祈ることしか出来ないのが悔しいです。</p>
+		<p>今日タイヤを買いました。<br>
+ブリヂストンＲＥ０５０です。<br>
+新製品が登場しての３割引ぐらいです。</p>
+<p>あっ、ちなみに業者価格です。</p>
+<p>ウエットでの信頼性は相変わらず高いですね。<br>
+雪解けで路面はウエットでしたが安心して走れます。</p>
+<p>４時間も走ってちょっと疲れので、今マクドです。<br>
+ジャンクフードもたまにはいいかな。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-05-30_%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%8B%E3%82%82/" rel="bookmark">
-			しんどいかも
+			<a href="/posts/2010-03-09_%E4%BB%8A%E6%9C%9D%E3%81%AE%E8%A9%B1/" rel="bookmark">
+			今朝の話
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>A列車で行こう９を買った。</p>
-<p>７とはゲームシステムが変わってたが、すぐになれたけど、ゲーム始めると時間が足りない。</p>
-<p>時間掛かりすぎる・・・。</p>
-<p>しんどいかも</p>
+		<p>今朝ぶつけて壊れた箇所を確認した。</p>
+<p>右のフロントのタイロッドが見事にゆがんでました。</p>
+<p>部品交換することにしました。</p>
+<p>ほかにはバンパーがゆがんでますが、これはバンパー交換はさすがに価格が高いので、針金で修理することにした。</p>
+<p>はあ、仕方ないか。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-05-25_%E3%82%82%E3%81%8F%E3%82%82%E3%81%8F%E3%81%A3%E3%81%A8%E3%81%8D%E3%81%A6/" rel="bookmark">
-			もくもくっときて
+			<a href="/posts/2010-03-09_%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/" rel="bookmark">
+			しまった
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>もくもくっと突然きて、一雨降りました。</p>
-<p>いまは雲が切れて晴れ間が出ています。</p>
-<p>まだ昼過ぎだ。</p>
-<p>今日は何しようかな。</p>
+		<p>今朝はべちゃべちゃの雪がどかどかと積もってます。</p>
+<p>で、車を中央分離帯にぶつけてしまった。</p>
+<p>右側のアライメントがトーインしてしまった。</p>
+<p>バンパーのマウントもゆがんだ。</p>
+<p>かなりブルーです。</p>
+<p>雪の写真を撮ろうと勢い勇んで、他人が事故している脇をぬけていった直後に、自分がハーフスピン・・・。</p>
+<p>スタッドレスも劣化しててだめだった。</p>
+<p>リヤが左に流れたらもうコントロール不能。</p>
+<p>左にカウンターを当てブレーキコントロールをしたけど、右に流れていって中央分離帯にガガッと接触。</p>
+<p>かろうじて、バンパーのマウントがゆがんだのと、ホイールの傷、アライメント狂いぐらいの破損ですんだ。</p>
+<p>あっという間に意気消沈。</p>
+<p>ふて寝します。</p>
 	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/2010-05-25_%E6%87%B8%E5%BF%B5/" rel="bookmark">
-			懸念
+			<a href="/posts/2010-03-07_%E3%81%8F%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1%E5%BD%93%E3%81%9F%E3%82%93%E3%81%AD%E3%83%BC/" rel="bookmark">
+			く、天気予報当たんねー
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>中国からの危機に対して、民主党は全く無頓着で困る。</p>
-<p>そもそも民主党の実権を握る小沢が中国寄りであることがかなりの問題だ。</p>
-<p>中国の艦隊の領海侵犯に抗議するでもなく、鳩山は胡錦濤にへつらいに行ってきた。</p>
-<p>普天間の移設問題にも絡み、ふざけるのもいい加減にして欲しい。</p>
-<p>すでに中国は経済的にも日本をしのぎ、軍事力はアメリカに対抗するぐらいに強大になっている。</p>
-<p>こんな中で日本が平和であるのは、アメリカの傘の下にいるからにほかないのだから。</p>
-<p>民主党のようなボンボンとバカの烏合の衆では全く日本を良い方向に導くことはできない。</p>
-<p>内政も目先の節約と選挙対策にこだわり、誰も言うことを聴かない事業仕分けと公明党と同じような子ども手当というばらまき政策をしている。</p>
-<p>さらに行政の実務に疎い大臣ばかりで口蹄疫問題を拡大させてしまっている。</p>
-<p>日本人としての誇りを持って、独立性と平和を維持するために、いま本当に必要なことを考えて欲しい。</p>
-<p>国民自体も、テレビ報道に流されない、高い見識と思慮深い行動をとらなくてはいけない。</p>
-<p>我々もいつまでもバカであってはいけない。</p>
+		<p>午後から雲だというから、鞆の浦に行ったのに雨だった…。</p>
+<p>人も多いし車も停められないから、諦めて帰ってきた。</p>
+<p>ビックカメラに行ったけど買う物ないので、また別の場所に。</p>
+<p>久しぶりに亀王ラーメンだよ。</p>
 	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/column/page/618/">«</a>
-	<span class="pagination__item pagination__item--current">619/731</span>
+	<span class="pagination__item pagination__item--current">619/719</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/column/page/620/">»</a>
 </div>
 
@@ -1762,6 +1706,8 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1772,6 +1718,7 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>

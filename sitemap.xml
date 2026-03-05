@@ -1751,6 +1751,9 @@
     <loc>http://localhost:1313/posts/2020-05-29_hd-pentax-d-fa85mmf1.4ed-sdm-aw/</loc>
     <lastmod>2020-05-29T21:43:40+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/pentax/</loc>
+    <lastmod>2020-05-29T21:43:40+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2020-05-29_%E5%B1%8B%E6%A0%B9%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%90%E3%83%A9---png48bit%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%86%E3%82%B9%E3%83%88/</loc>
     <lastmod>2020-05-29T11:09:46+09:00</lastmod>
   </url><url>
@@ -5959,6 +5962,15 @@
   </url><url>
     <loc>http://localhost:1313/posts/2018-07-18_%E5%B0%91%E3%81%97/</loc>
     <lastmod>2018-07-18T01:36:23+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gallery/</loc>
+    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pentax/</loc>
+    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2018-07-17T21:46:48+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2018-07-17_%E3%82%B8%E3%83%A5%E3%83%94%E3%82%BF%E3%83%BC/</loc>
     <lastmod>2018-07-17T21:46:48+09:00</lastmod>
@@ -20270,18 +20282,6 @@
     <loc>http://localhost:1313/posts/2010-03-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%A2%85/</loc>
     <lastmod>2010-03-21T22:36:34+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/gallery/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pentax-k-7/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/smcpentax-da-12-24mmf4-ed-alif/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/2010-03-21-%E4%BB%8A%E6%97%A5%E3%81%AE%E6%A2%85/</loc>
     <lastmod>2010-03-21T22:36:20+09:00</lastmod>
   </url><url>
@@ -21013,6 +21013,12 @@
   </url><url>
     <loc>http://localhost:1313/posts/2009-10-14_%E4%BB%8A%E6%97%A5%E3%82%82%E3%81%A4%E3%81%BE%E3%82%89%E3%81%AA%E3%81%84%E9%81%8B%E7%94%A8%E4%BD%9C%E6%A5%AD/</loc>
     <lastmod>2009-10-14T12:46:07+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pentax-k-7/</loc>
+    <lastmod>2009-10-14T00:46:32+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/smcpentax-da-12-24mmf4-ed-alif/</loc>
+    <lastmod>2009-10-14T00:46:32+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2009-10-14-%E7%A7%8B%E5%8F%A3%E3%81%AE%E4%BC%AF%E8%80%86%E5%AF%8C%E5%A3%AB/</loc>
     <lastmod>2009-10-14T00:46:32+09:00</lastmod>
