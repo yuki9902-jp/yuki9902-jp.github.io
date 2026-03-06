@@ -16,6 +16,13 @@
       <description></description>
     </item>
     <item>
+      <title>WHEA-Logger ID:18</title>
+      <link>http://localhost:1313/tags/whea-logger-id18/</link>
+      <pubDate>Mon, 07 Jun 2021 08:26:26 +0900</pubDate>
+      <guid>http://localhost:1313/tags/whea-logger-id18/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Archived</title>
       <link>http://localhost:1313/tags/archived/</link>
       <pubDate>Tue, 30 Jun 2009 09:18:10 +0900</pubDate>
@@ -27,6 +34,13 @@
       <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Tue, 30 Jun 2009 09:18:10 +0900</pubDate>
       <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</title>
+      <link>http://localhost:1313/tags/%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/</guid>
       <description></description>
     </item>
   </channel>

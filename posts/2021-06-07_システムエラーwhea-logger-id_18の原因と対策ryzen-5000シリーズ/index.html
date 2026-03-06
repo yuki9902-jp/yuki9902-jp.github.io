@@ -72,12 +72,11 @@
 			
 		</header>
 		<div class="content post__content clearfix">
-			<p><a href="https://ameblo.jp/yuki9902/entry-12957494856.html">『解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』１．解決方法（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。（２）低電力設定をやめる。　・Global C StateをDisableにする。…<img src="https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg" alt="リンク">ameblo.jp<img src="https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg" alt=""></a></p>
-<p>AMD Ryzen 5000シリーズにおいて、高負荷時に特定のコアでエラーが検出され、システムが強制終了（シャットダウン）してしまう事象があります。</p>
+			<p>AMD Ryzen 5000シリーズにおいて、高負荷時に特定のコアでエラーが検出され、システムが強制終了（シャットダウン）してしまう事象があります。</p>
 <p><a href="https://ameblo.jp/yuki9902/image-12679118874-14953650696.html"><img src="https://stat.ameba.jp/user_images/20210607/08/yuki9902/7d/68/p/o0986070814953650696.png?caw=800" alt="WHEA-Loggerエラーログ：CPU電圧制御不調"></a></p>
 <p>一部では「コアの耐性不足によるハードウェアの不具合」としてCPU本体の交換対応が行われているケースも見受けられますが、詳しく調査したところ、必ずしも個体の不具合とは言えない実態が見えてきました。</p>
 <p>参照：</p>
-<p><a href="https://ameblo.jp/yuki9902/entry-12679531081.html">『致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』　システムエラーで致命的なエラーWHEA-Logger ID:18としてエラーが記録されてPCが落ちてしまうことがやはり続きます。このエラーログを見るとCPU…<img src="https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg" alt="リンク">ameblo.jp<img src="https://stat.ameba.jp/user_images/20210609/09/yuki9902/d0/c6/p/o1186095914954665977.png?caw=800" alt="Ryzen 7 5800X CPU-Zバリデーション画面"></a></p>
+<p>[致命的なエラー WHEA-Logger ID:18でWindowsが落ちる](../致命的なエラー WHEA-Logger ID:18でWindowsが落ちる/)</p>
 <h4 id="エラーの正体電圧制御のアンマッチ">エラーの正体：電圧制御のアンマッチ</h4>
 <p>イベントログに記録される致命的なエラー「WHEA-Logger ID:18」を自分の持てる知識で分析すると、その主因は**「コアに印加される電圧が許容範囲外（過電圧、または電圧不足）」**になっていることと推測しました。</p>
 <p>私の場合、原因はPBO2（Precision Boost Overdrive 2）の設定にありました。具体的には、推奨設定としてよく挙げられる「電圧のマイナスオフセット」を適用していたことが、システムの不安定化を招いていました。</p>
@@ -96,6 +95,17 @@
 <p>もし同様のエラーに悩んでいる方がいれば、CPUの故障を疑う前に、一度電圧設定を「Auto」に戻して検証することをおすすめします。</p>
 
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/whea-logger-id18/" rel="tag">WHEA-Logger ID:18</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
@@ -1563,6 +1573,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
 	</div>
 </div>
 </aside>

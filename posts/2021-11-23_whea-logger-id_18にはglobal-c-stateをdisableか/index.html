@@ -72,17 +72,27 @@
 			
 		</header>
 		<div class="content post__content clearfix">
-			<p><a href="https://ameblo.jp/yuki9902/entry-12957494856.html">『解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』１．解決方法（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。（２）低電力設定をやめる。　・Global C StateをDisableにする。…<img src="https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg" alt="リンク">ameblo.jp<img src="https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg" alt=""></a></p>
-<p>　Ryzen 7 5800XのメインPCにWindows11をインストールしてから、WHEA-Logger ID:18が頻発しています。</p>
-<p>　PCの電源を入れたまま放置していると、いつの間にか再起動しています。</p>
-<p>　オーバークロックだろうとオートだろうとCPUがアイドル時から突発的な負荷が掛かると落ちているように見えます。</p>
-<p>　ということで、CPUの省電力制御を有効にしているGlobal C StateをDisableにしてみました。</p>
-<p>　PBO2の電圧カーブで、優秀なコア-5、他のコア-20に設定して、OCCTのデータセット大で5分間、Cinebench R23の10分間の負荷テストはクリアしました。</p>
-<p> 室温20度で、CPUパッケージの温度はアイドル時40度、OCCT負荷時70度、CinebenchR23負荷時78度で安定しています。ちなみに280ミリの簡易水冷です。</p>
-<p>　しばらくこれで運用してみて、安定するか確かめてみます。</p>
-<p>　ちなみにLinuxやBSDでは、Ryzen全シリーズでGlobal C StateをDisableにしないと不安定になるようで、この設定は必須です。</p>
+			<p>Ryzen 7 5800XのメインPCにWindows11をインストールしてから、WHEA-Logger ID:18が頻発しています。</p>
+<p>PCの電源を入れたまま放置していると、いつの間にか再起動しています。</p>
+<p>オーバークロックだろうとオートだろうとCPUがアイドル時から突発的な負荷が掛かると落ちているように見えます。</p>
+<p>ということで、CPUの省電力制御を有効にしているGlobal C StateをDisableにしてみました。</p>
+<p>PBO2の電圧カーブで、優秀なコア-5、他のコア-20に設定して、OCCTのデータセット大で5分間、Cinebench R23の10分間の負荷テストはクリアしました。</p>
+<p>室温20度で、CPUパッケージの温度はアイドル時40度、OCCT負荷時70度、CinebenchR23負荷時78度で安定しています。ちなみに280ミリの簡易水冷です。</p>
+<p>しばらくこれで運用してみて、安定するか確かめてみます。</p>
+<p>ちなみにLinuxやBSDでは、Ryzen全シリーズでGlobal C StateをDisableにしないと不安定になるようで、この設定は必須です。</p>
 
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/whea-logger-id18/" rel="tag">WHEA-Logger ID:18</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
@@ -1550,6 +1560,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
 	</div>
 </div>
 </aside>
