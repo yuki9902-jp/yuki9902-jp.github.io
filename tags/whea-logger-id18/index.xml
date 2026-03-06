@@ -6,8 +6,15 @@
     <description>Recent content in WHEA-Logger ID:18 on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 27 Jan 2026 02:49:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 08:19:46 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/whea-logger-id18/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</title>
+      <link>http://localhost:1313/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/</link>
+      <pubDate>Sun, 22 Feb 2026 08:19:46 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/</guid>
+      <description>&lt;h3 id=&#34;１解決方法&#34;&gt;１．解決方法&lt;/h3&gt;&#xA;&lt;p&gt;（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。&lt;/p&gt;&#xA;&lt;p&gt;（２）低電力設定をやめる。&lt;/p&gt;&#xA;&lt;p&gt;　・Global C StateをDisableにする。&lt;/p&gt;&#xA;&lt;p&gt;（３）電圧設定をデフォルトにする。&lt;/p&gt;&#xA;&lt;p&gt;（４）オーバクロックをやめる。&lt;/p&gt;&#xA;&lt;p&gt;　・PBO（Precision Boost Overdrive）をAutoまたはDisableにする。&lt;/p&gt;&#xA;&lt;p&gt;（５）Windowsの電源プランを「高パフォーマンス」に設定する。&lt;/p&gt;&#xA;&lt;h3 id=&#34;２エラー発生の原因&#34;&gt;２．エラー発生の原因&lt;/h3&gt;&#xA;&lt;p&gt;（１）CPUが省電力状態から復帰する際に過渡応答で過剰に電圧ドロップが発生しコアおよびキャッシュにアクセスするタイミングでWindowsがエラーを検出して、システムダウンが発生している。&lt;/p&gt;&#xA;&lt;p&gt;（２）オーバークロック特にPBO2でマイナスオフセットをしている場合、省電力状態に移行する場合または省電力状態から復帰する際に必要な電圧が得られずにエラーが発生する。&lt;/p&gt;&#xA;&lt;h3 id=&#34;３認識の修正&#34;&gt;３．認識の修正&lt;/h3&gt;&#xA;&lt;p&gt;（１）PBO2は&lt;strong&gt;メーカー保証外のオーバークロック&lt;/strong&gt;であることを自覚する。&lt;/p&gt;&#xA;&lt;p&gt;（２）AGESA（BIOS）の最適化により、現在では、複雑化したCPUの電圧制御によりユーザーがコントロールできる余地がほとんど無くなっている。&lt;/p&gt;&#xA;&lt;p&gt;（３）オーバークロックは紳士の嗜みであり、誰もが真似して良いものでは無い。&lt;/p&gt;&#xA;&lt;h3 id=&#34;４例外&#34;&gt;４．例外&lt;/h3&gt;&#xA;&lt;p&gt;（１）極まれにCPUの個体差でどうしても解決できない場合がある。エラーが起きているコアにPBO2のカーブオプティマイザーでプラスオフセットで解決する場合もある。&lt;br&gt;&#xA;（２）長期に低電圧状態で運用し続けた場合、チップの劣化が深刻に進み、復帰電圧に到達できなくなる場合がある。その場合は、焼損リスクを避けるためにも新品への交換を勧める。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ryzen 5000シリーズにおける「WHEA-Logger ID:18」の発生要因と対策の再考</title>
       <link>http://localhost:1313/posts/2026-01-27_ryzen-5000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8Bwhea-logger-id_18%E3%81%AE%E7%99%BA%E7%94%9F%E8%A6%81%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%86%8D%E8%80%83/</link>

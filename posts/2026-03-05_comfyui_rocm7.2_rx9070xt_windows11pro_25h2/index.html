@@ -134,7 +134,11 @@
       </tr>
       <tr>
           <td>Interpreter</td>
-          <td>Python 3.12.10</td>
+          <td>Windows installer (64-bit)</td>
+      </tr>
+      <tr>
+          <td>Interpreter</td>
+          <td>Windows embeddable package (64-bit)</td>
       </tr>
       <tr>
           <td>AI Suite</td>
@@ -170,7 +174,8 @@
 <p>上記のリンクからダウンロードし、インストールしたら念のためPCを再起動します。</p>
 <h3 id="python-31210">Python 3.12.10</h3>
 <p>Adrenaline 26.2.2をインストールするときに一緒にインストールされるはずです。</p>
-<p>されていない場合は、<a href="https://www.python.org/downloads/windows/">Python 3.12.10</a>をダウンロードしてインストールします。必ず<em><strong>Python 3.12.10</strong></em>をインストールしてください。</p>
+<p>されていない場合は、<a href="https://www.python.org/downloads/release/python-31210/">Python 3.12.10</a>をダウンロードしてインストールします。必ず<em><strong>Python 3.12.10</strong></em>をインストールしてください。</p>
+<p>また後ほどエンベデッド版のPythonをComfyUIのインストールフォルダに入れます。</p>
 <h3 id="comfyui-git">ComfyUI (Git)</h3>
 <p>簡単に使いたい場合は、<a href="https://www.comfy.org/download">デスクトップ版のComfyUI</a>をダウンロードして、<code>D:\ComfyUI\</code>にインストールして使いましょう。</p>
 <p>ここからはAMDの公式手順 <a href="https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.2/index.html#use-rocm-on-radeon-and-ryzen">Use ROCm on Radeon and Ryzen</a> に従い、Gitのリポジトリに公開されているComfyUIをインストールします。</p>
@@ -300,7 +305,76 @@ sams: Sams
 diffusion_models: DiffusionModels
 </code></pre></li>
 </ol>
-<h2 id="4確認">4.確認</h2>
+<h3 id="python-31210-windows-embeddable-package-64-bit">Python 3.12.10 Windows embeddable package (64-bit)</h3>
+<p>AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない何かしらの理由があるはずなので、Pythonの実行環境を保護する必要があります。したがってエンベデッド版をComfyUIのフォルダに設置します。</p>
+<ol>
+<li>
+<p><code>D:\ComfyUI\python_embeded</code> を作成します。</p>
+</li>
+<li>
+<p><a href="https://www.python.org/downloads/release/python-31210/">Python 3.12.10</a>から、Windows embeddable package (64-bit) を任意のフォルダにダウンロードし解凍します。</p>
+</li>
+<li>
+<p>解凍したフォルダの中身をすべて、<code>D:\ComfyUI\python_embeded</code> にコピーします。</p>
+</li>
+<li>
+<p><code>D:\ComfyUI\python_embeded\python312._pth</code> をテキストエディタで開き以下のように編集します。</p>
+<h4 id="python312_pth">python312._pth</h4>
+<pre tabindex="0"><code>python312.zip
+.
+# 下記を追記（Lib\site-packagesを認識させるため）
+Lib\site-packages
+# import site のコメントアウトを外す（重要！）
+import site
+</code></pre></li>
+</ol>
+<h3 id="起動用バッチファイル">起動用バッチファイル</h3>
+<p>起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。</p>
+<h4 id="startbat">start.bat</h4>
+<pre tabindex="0"><code>@echo off
+setlocal
+:: システムのPythonやライブラリを無視させる
+set PYTHONNOUSERSITE=1
+set PYTHONPATH=
+:: このアプリ専用のPythonとROCmのパスを最優先にする
+set PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
+python main.py
+</code></pre><p>実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。</p>
+<h4 id="comfyui_datebat">ComfyUI_Date.bat</h4>
+<pre tabindex="0"><code>@echo off
+setlocal
+
+rem PowerShellを使って確実に yyyyMMdd を取得（ロケールに左右されません）
+for /f &#34;usebackq&#34; %%i in (`powershell -NoProfile -Command &#34;Get-Date -Format &#39;yyyyMMdd&#39;&#34;`) do set yyyymmdd=%%i
+ 
+rem Get the Output path
+set parentPath=F:\output
+    
+rem Create the folder with the name yyyymmdd
+set outpath=%parentPath%\%yyyymmdd%
+    
+:: システムのPythonやライブラリを無視させる
+set PYTHONNOUSERSITE=1
+set PYTHONPATH=
+:: このアプリ専用のPythonとROCmのパスを最優先にする
+set PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
+    
+rem --- ROCm / PyTorch 最適化設定 ---
+SET PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.6
+SET PYTORCH_HIP_ALLOC_CONF=expandable_segments:True
+SET ROCM_ENABLE_PREFETCH=1
+    
+rem フォルダが存在しない場合のみ作成
+if not exist &#34;%outpath%&#34; mkdir &#34;%outpath%&#34;
+    
+echo Target path: %outpath%
+     
+D:
+cd D:\ComfyUI
+    
+python main.py --output-directory %outpath% --preview-method none --reserve-vram 0.0 --cache-lru 8 --use-pytorch-cross-attention
+endlocal
+</code></pre><h2 id="4確認">4.確認</h2>
 <ol>
 <li>Stability Matrixで使いたい学習済みモデルをダウンロードしてください。</li>
 <li>ComfyUIを起動して、先ほどダウンロードした学習済みモデルが表示されれば成功です。</li>

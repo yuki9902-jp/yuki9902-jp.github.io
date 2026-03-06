@@ -73,6 +73,36 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
+			解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h3 id="１解決方法">１．解決方法</h3>
+<p>（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。</p>
+<p>（２）低電力設定をやめる。</p>
+<p>　・Global C StateをDisableにする。</p>
+<p>（３）電圧設定をデフォルトにする。</p>
+<p>（４）オーバクロックをやめる。</p>
+<p>　・PBO（Precision Boost Overdrive）をAutoまたはDisableにする。</p>
+<p>（５）Windowsの電源プランを「高パフォーマンス」に設定する。</p>
+<h3 id="２エラー発生の原因">２．エラー発生の原因</h3>
+<p>（１）CPUが省電力状態から復帰する際に過渡応答で過剰に電圧ドロップが発生しコアおよびキャッシュにアクセスするタイミングでWindowsがエラーを検出して、システムダウンが発生している。</p>
+<p>（２）オーバークロック特にPBO2でマイナスオフセットをしている場合、省電力状態に移行する場合または省電力状態から復帰する際に必要な電圧が得られずにエラーが発生する。</p>
+<h3 id="３認識の修正">３．認識の修正</h3>
+<p>（１）PBO2は<strong>メーカー保証外のオーバークロック</strong>であることを自覚する。</p>
+<p>（２）AGESA（BIOS）の最適化により、現在では、複雑化したCPUの電圧制御によりユーザーがコントロールできる余地がほとんど無くなっている。</p>
+<p>（３）オーバークロックは紳士の嗜みであり、誰もが真似して良いものでは無い。</p>
+<h3 id="４例外">４．例外</h3>
+<p>（１）極まれにCPUの個体差でどうしても解決できない場合がある。エラーが起きているコアにPBO2のカーブオプティマイザーでプラスオフセットで解決する場合もある。<br>
+（２）長期に低電圧状態で運用し続けた場合、チップの劣化が深刻に進み、復帰電圧に到達できなくなる場合がある。その場合は、焼損リスクを避けるためにも新品への交換を勧める。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2026-01-27_ryzen-5000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8Bwhea-logger-id_18%E3%81%AE%E7%99%BA%E7%94%9F%E8%A6%81%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%86%8D%E8%80%83/" rel="bookmark">
 			Ryzen 5000シリーズにおける「WHEA-Logger ID:18」の発生要因と対策の再考
 			</a>
