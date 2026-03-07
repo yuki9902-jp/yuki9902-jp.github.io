@@ -2,332 +2,332 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020-07 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2020-07/</link>
+    <link>http://localhost:63371/archives/2020-07/</link>
     <description>Recent content in 2020-07 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 31 Jul 2020 20:32:58 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2020-07/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2020-07/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>熱がやばいです</title>
-      <link>http://localhost:1313/posts/2020-07-31_%E7%86%B1%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-31_%E7%86%B1%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Fri, 31 Jul 2020 20:32:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-31_%E7%86%B1%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-31_%E7%86%B1%E3%81%8C%E3%82%84%E3%81%B0%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;外付けHDDのSATA-USBブリッジの調子が悪いなぁーと思って、昨日外付けHDDのケースを買ったんですが、それに装着したHDDが熱暴走してデータが吹っ飛び、ついでにPCのメモリ周りに不具合を引き起こしました。&lt;/p&gt;&#xA;&lt;p&gt;ミルクティーをぶちまけた影響かと思い、エレクトリックパーツクリーナーを買ってきて、メモリやマザーボード、CPUをきれいに洗浄しました。&lt;/p&gt;&#xA;&lt;p&gt;メモリを2,4スロットに差して3600MHzに設定して起動できますが、1,3スロットに差すと3600MHzで起動できません。&lt;/p&gt;&#xA;&lt;p&gt;当然、1,2,3,4スロットに差しても3600MHzで起動できません。&lt;/p&gt;&#xA;&lt;p&gt;2133MHzだと起動できました。&lt;/p&gt;&#xA;&lt;p&gt;設定を見直したり、BIOSを初期化したり、XMP2の設定の3600MHzでもtRCをオート設定にして85clocksだと3600MHzで起動できました。&lt;/p&gt;&#xA;&lt;p&gt;XMP2にはｔRCは64clocksで記録されていますが、64にすると転けます。&lt;/p&gt;&#xA;&lt;p&gt;まあ、熱暴走と言うことで。&lt;/p&gt;&#xA;&lt;p&gt;あと今は8TBのHDDのファイルシステムを記録してある部分が吹っ飛んでしまったので、フリーソフトを使ってデータサルベージをしています。&lt;/p&gt;&#xA;&lt;p&gt;復元先の外付けHDDも熱暴走するので、ケースを外してむき出し状態で接続しています。&lt;/p&gt;&#xA;&lt;p&gt;今年の夏はHDDには厳しいようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨が降ってきました</title>
-      <link>http://localhost:1313/posts/2020-07-29_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-29_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 29 Jul 2020 12:12:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-29_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-29_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;強めの雨が降ってきました。&lt;/p&gt;&#xA;&lt;p&gt;しばらく降りそうです。&lt;/p&gt;&#xA;&lt;p&gt;明日、梅雨明けする見通しとテレビは言うけれど、まだ続きそうです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 10 May 2020 Update</title>
-      <link>http://localhost:1313/posts/2020-07-29_windows-10-may-2020-update/</link>
+      <link>http://localhost:63371/posts/2020-07-29_windows-10-may-2020-update/</link>
       <pubDate>Wed, 29 Jul 2020 00:44:55 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-29_windows-10-may-2020-update/</guid>
+      <guid>http://localhost:63371/posts/2020-07-29_windows-10-may-2020-update/</guid>
       <description>&lt;p&gt;Windows 10 Pro 64bitに2020年5月の大型アップデートを適用しました。&lt;/p&gt;&#xA;&lt;p&gt;Windows Updateからは、なかなか配信されてこないので、「&lt;a href=&#34;https://www.microsoft.com/ja-jp/software-download/windows10%E3%80%80&#34;&gt;Windows 10 のダウンロード&lt;/a&gt;」から、アップデートツールをダウンロードして、アップデートを行いました。&lt;/p&gt;&#xA;&lt;p&gt;ダウンロードはさほど時間が掛かりませんでしたが、更新プログラムの実行は結構長く感じました。&lt;/p&gt;&#xA;&lt;p&gt;8コア16スレッドのCPUを搭載したタワーPCと2コア4スレッドのCPUを搭載したノートPCでは、かなり時間が違いましたが、ノートPCは途中で適用プログラムが止まってしまったので、再起動して入れ直したため、2時間ぐらい掛かりました。&lt;/p&gt;&#xA;&lt;p&gt;アップデートしてから、あからさまにFirefox 78.0.2(64bit)の動作がもっさりするようになりました。&lt;/p&gt;&#xA;&lt;p&gt;どうやらFirefoxの最新版が、今、公開されたようなので適用してみます。&lt;/p&gt;&#xA;&lt;p&gt;Windows 10のテキスト入力のカーソル表示が見やすくなって、これはかなり良いです。&lt;/p&gt;&#xA;&lt;p&gt;メモリ周りの改善で、アナウンス通りGoogle Chromeのメモリ使用量が大幅に少なくなりました。&lt;/p&gt;&#xA;&lt;p&gt;一旦、記事を保存して、Firefoxを79.0に更新しました。&lt;/p&gt;&#xA;&lt;p&gt;Firefox 79.0でもっさり感、つまりJavaScriptの処理速度もFirefox 79.0で改善したようです。&lt;/p&gt;&#xA;&lt;p&gt;でもメモリ使用量は減ってないようです。&lt;/p&gt;&#xA;&lt;p&gt;32GB搭載しているタワーPCでは問題にはならないのですけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>壊れました</title>
-      <link>http://localhost:1313/posts/2020-07-27_%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-27_%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Mon, 27 Jul 2020 21:52:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-27_%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-27_%E5%A3%8A%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;椅子が壊れました。&lt;/p&gt;&#xA;&lt;p&gt;一番の原因は耐荷重に近い体重のせいですね。&lt;/p&gt;&#xA;&lt;p&gt;でもね、China製の椅子はすぐに壊れます。&lt;/p&gt;&#xA;&lt;p&gt;所詮、見てくれだけのChina製です。&lt;/p&gt;&#xA;&lt;p&gt;ちゃんとしたリクライニング機能付きオフィスチェアがほしいよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>幽霊の日</title>
-      <link>http://localhost:1313/posts/2020-07-26_%E5%B9%BD%E9%9C%8A%E3%81%AE%E6%97%A5/</link>
+      <link>http://localhost:63371/posts/2020-07-26_%E5%B9%BD%E9%9C%8A%E3%81%AE%E6%97%A5/</link>
       <pubDate>Sun, 26 Jul 2020 21:50:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-26_%E5%B9%BD%E9%9C%8A%E3%81%AE%E6%97%A5/</guid>
+      <guid>http://localhost:63371/posts/2020-07-26_%E5%B9%BD%E9%9C%8A%E3%81%AE%E6%97%A5/</guid>
       <description>&lt;p&gt;東海道四谷怪談の初演日が由来とされる幽霊の日。&lt;/p&gt;&#xA;&lt;p&gt;かつては、枕元に立ち何かの知らせを告げるものを幽霊と言ったとか言わないとか。&lt;/p&gt;&#xA;&lt;p&gt;虫の知らせというもの。&lt;/p&gt;&#xA;&lt;p&gt;江戸時代には、非業の死を遂げたもの、未練を残して死んだものが、生前の姿で現れたものと言う。&lt;/p&gt;&#xA;&lt;p&gt;やがて埋葬の変化とともに、白装束に額烏帽子と言う姿に変わり、足がなくなり、前に手を垂らすように表現されるようになる。&lt;/p&gt;&#xA;&lt;p&gt;まあ、幽霊と言えば「黄昏乙女×アムネジア」の夕子さんだな。&lt;/p&gt;&#xA;&lt;p&gt;幽霊話は救いがないのでもの悲しさだけが残りますが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>やっべ</title>
-      <link>http://localhost:1313/posts/2020-07-25_%E3%82%84%E3%81%A3%E3%81%B9/</link>
+      <link>http://localhost:63371/posts/2020-07-25_%E3%82%84%E3%81%A3%E3%81%B9/</link>
       <pubDate>Sat, 25 Jul 2020 21:36:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-25_%E3%82%84%E3%81%A3%E3%81%B9/</guid>
+      <guid>http://localhost:63371/posts/2020-07-25_%E3%82%84%E3%81%A3%E3%81%B9/</guid>
       <description>&lt;p&gt;部屋の片付け中にPCの上にコップを倒してミルクティーをぶちまけてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;PC内部に入ってしまいましたが、電源を切って掃除しました。&lt;/p&gt;&#xA;&lt;p&gt;CPUファン、グラボにかかっていましたが、取り外してエアダスターで吹き飛ばし、バックプレートを外してティッシュとアルコールで拭き上げました。&lt;/p&gt;&#xA;&lt;p&gt;CPUクーラーを外したときに、CPUをスッポンしてしまい、ピンが曲がりましたが爪で直しました。&lt;/p&gt;&#xA;&lt;p&gt;USBポートにも入り込んでましたが、そこもエアダスターで吹き飛ばし、アルコールをかけて吹き飛ばしました。&lt;/p&gt;&#xA;&lt;p&gt;ついでに埃をきれいにして、CPUのグリースを塗り直して組み上げて動作確認をしました。&lt;/p&gt;&#xA;&lt;p&gt;PCケースもアルコールで拭き上げてきれいにしました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず事なきを得ました。&lt;/p&gt;&#xA;&lt;p&gt;また気をつけないと・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダンまちコミック</title>
-      <link>http://localhost:1313/posts/2020-07-24_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/</link>
+      <link>http://localhost:63371/posts/2020-07-24_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/</link>
       <pubDate>Fri, 24 Jul 2020 23:45:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-24_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/</guid>
+      <guid>http://localhost:63371/posts/2020-07-24_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/</guid>
       <description>&lt;p&gt;ダンまちの本編のコミック版の作画が変更になっていて、新しい作画からはダンまち2になってた。&lt;/p&gt;&#xA;&lt;p&gt;前の作画担当はいろいろ噂が飛び交っているけど、何も情報がない。&lt;/p&gt;&#xA;&lt;p&gt;まあいろいろあるんでしょうけど・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>虻</title>
-      <link>http://localhost:1313/posts/2020-07-23_%E8%99%BB/</link>
+      <link>http://localhost:63371/posts/2020-07-23_%E8%99%BB/</link>
       <pubDate>Thu, 23 Jul 2020 12:48:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-23_%E8%99%BB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-23_%E8%99%BB/</guid>
       <description>&lt;p&gt;昨日、草刈りをしていたときに背中と腰にチクッとした鋭い痛みを感じました。&lt;/p&gt;&#xA;&lt;p&gt;腫れて少し固くなっているので、虻に刺されていたようです。&lt;/p&gt;&#xA;&lt;p&gt;虻にやられたら痛いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痒い</title>
-      <link>http://localhost:1313/posts/2020-07-23_%E7%97%92%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2020-07-23_%E7%97%92%E3%81%84/</link>
       <pubDate>Thu, 23 Jul 2020 01:14:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-23_%E7%97%92%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2020-07-23_%E7%97%92%E3%81%84/</guid>
       <description>&lt;p&gt;右手の甲、左手首、指に蕁麻疹がでてます。&lt;/p&gt;&#xA;&lt;p&gt;痛痒いです。&lt;/p&gt;&#xA;&lt;p&gt;多分、豚肉にアレルギーが出たんではないかなぁ。&lt;/p&gt;&#xA;&lt;p&gt;かゆみ止めでごまかして、今夜はもう寝よう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>徒然なるままに</title>
-      <link>http://localhost:1313/posts/2020-07-22_%E5%BE%92%E7%84%B6%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</link>
+      <link>http://localhost:63371/posts/2020-07-22_%E5%BE%92%E7%84%B6%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</link>
       <pubDate>Wed, 22 Jul 2020 23:18:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-22_%E5%BE%92%E7%84%B6%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-22_%E5%BE%92%E7%84%B6%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%BE%E3%81%AB/</guid>
       <description>&lt;p&gt;今日も草刈りをしました。&lt;/p&gt;&#xA;&lt;p&gt;昼から北風が入ってきて、気温が下がり昨日ほどの暑さにならず、幾分か過ごしやすくなりました。&lt;/p&gt;&#xA;&lt;p&gt;さすがに34度を体験すると30度ぐらいは平気になりますね。&lt;/p&gt;&#xA;&lt;p&gt;で、昼寝をしてたら、脱水して目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯を作って、その後は転スラを見てました。&lt;/p&gt;&#xA;&lt;p&gt;明日は朝方まで雨が降って、昼間は曇って、夜にまた雨が降りそうです。&lt;/p&gt;&#xA;&lt;p&gt;麦茶を切らしてしまったのでまた買わなくちゃ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>7.1ch化 - 2020年版</title>
-      <link>http://localhost:1313/posts/2020-07-21_7.1ch%E5%8C%96---2020%E5%B9%B4%E7%89%88/</link>
+      <link>http://localhost:63371/posts/2020-07-21_7.1ch%E5%8C%96---2020%E5%B9%B4%E7%89%88/</link>
       <pubDate>Tue, 21 Jul 2020 19:25:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-21_7.1ch%E5%8C%96---2020%E5%B9%B4%E7%89%88/</guid>
+      <guid>http://localhost:63371/posts/2020-07-21_7.1ch%E5%8C%96---2020%E5%B9%B4%E7%89%88/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12612485407-14792218754.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200721/18/yuki9902/a5/2c/p/o1920108014792218754.png?caw=800&#34; alt=&#34;7.1chサラウンドスピーカー配置図とPC接続&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　Windows 10 PCにおける7.1chマルチチャンネルオーディオを実現するためには、大きく分け二つの方法があります。&lt;/p&gt;&#xA;&lt;p&gt;1．AMD RADEONやNVIDIA GeForceのグラフィックボードのHDMI(DP、DVI-Dも含む)からAVアンプへHDMIで接続する。&lt;/p&gt;&#xA;&lt;p&gt;2．マザボードまたはサウンドカードのアナログマルチチャンネル出力からアナログマルチチャンネル入力端子を備えたAVアンプへ接続する。&lt;/p&gt;&#xA;&lt;p&gt;　1．の方法はHDMI1.1以降のHDMI端子を備えたマルチチャンネル対応のAVアンプに接続すれば、Windowsのサウンドの「デジタル出力」の「構成」という項目の中に「7.1 サラウンド」が表示されます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12612485407-14792224402.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200721/18/yuki9902/c8/ba/p/o0609045414792224402.png?caw=800&#34; alt=&#34;Windows 7.1chサラウンドスピーカー構成設定画面&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　サンプリングレートやビット深度は接続したAVアンプとグラフィックボードに依存します。どちらかの低い方が上限になります。&lt;/p&gt;&#xA;&lt;p&gt;　2．の方法はRealtek ALC1220などのマルチチャンネル出力に対応した音声処理チップを搭載し、7.1chマルチチャンネルアナログ出力端子を搭載したマザボードとマルチチャンネル入力端子を備えたAVアンプをアナログケーブルで接続します。&lt;/p&gt;&#xA;&lt;p&gt;　しかしマルチチャンネル入力端子を備えたAVアンプは、現在のところ一部のハイエンドのAVアンプしか販売されていません。AVアンプが買えない場合は、マルチチャンネル対応スピーカーセットを導入する方法と、ステレオ2チャンネルアンプを4台とアンプ内蔵スパーウーファーを導入する方法があります。&lt;/p&gt;&#xA;&lt;p&gt;　マルチチャンネルのスピーカーの設置方法は、上記の図や昔のマルチチャンネルSACDの説明サイトなどを参考にしてください。スピーカーはリスニングポジションを中心に同心円上に設置するのが望ましく、サブウーファーは定常波をなくすために部屋の中心軸から外して設置するのが良いとされています。スピーカーの設置場所が同心円上にない場合は、オーディオドライバーの設定等からスピーカーまでの距離から遅延を補正してください。同じような設定はAVアンプの設定項目の中にもあります。&lt;/p&gt;&#xA;&lt;p&gt;　BD作品を楽しむ際、デジタルサラウンド信号（DTS-HD、Dolby ATMOSなど）をデジタルパススルーするためには、BD再生アプリケーションと受信側のAVアンプとHDMIのバージョンがその信号に対応している必要があります。AVアンプが対応していない場合は、PC側（BD再生アプリケーション）でデコードします。&lt;/p&gt;&#xA;&lt;p&gt;　アナログ出力を使う場合は、すべてPC側でデコードします。&lt;/p&gt;&#xA;&lt;p&gt;　PCのWebブラウザで見るYoutubeやAmazon Primeのコンテンツは、マルチチャンネルで再生されず、すべてステレオかモノラルになります。&lt;/p&gt;&#xA;&lt;p&gt;　最近のTVに搭載されているHDMIのオーディオリターンチャンネルに関しては、対応している機器を持ってなく確認していません。&lt;/p&gt;&#xA;&lt;p&gt;　ちなみ私はアナログ出力でマルチチャンネル7.1chを実現しています。私の持っているAVアンプはHDMI1.1対応と結構古く、HDMIの音声信号を受信する際に毎回フォーマットを確認してリセットするので、再生の最初2秒が音飛びします。更にHDMIだと5.1ch 96kHz/24bitまでにしか対応していないので、AVアンプのHDMIは使っていません。&lt;/p&gt;&#xA;&lt;p&gt;　音楽再生にはFoobar2000、Sony Music Center for PCを使っています。Foobar2000には、ステレオ信号をマルチチャンネルに拡張するDSPプラグインを入れています。リバーブなどのエフェクトをかけることで、様々な環境を擬似的に作り出すことが出来ます。全方位から響くのは、映像作品やゲームへの没入感が高まります。ただやや大きめのブックシェルフ型のスピーカーをスタンドに設置するには場所に困ります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>中途半端に</title>
-      <link>http://localhost:1313/posts/2020-07-21_%E4%B8%AD%E9%80%94%E5%8D%8A%E7%AB%AF%E3%81%AB/</link>
+      <link>http://localhost:63371/posts/2020-07-21_%E4%B8%AD%E9%80%94%E5%8D%8A%E7%AB%AF%E3%81%AB/</link>
       <pubDate>Tue, 21 Jul 2020 18:03:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-21_%E4%B8%AD%E9%80%94%E5%8D%8A%E7%AB%AF%E3%81%AB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-21_%E4%B8%AD%E9%80%94%E5%8D%8A%E7%AB%AF%E3%81%AB/</guid>
       <description>&lt;p&gt;中途半端に夕立みたいに降って、気温が下がらずに日差しが出てきて、非常に蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと耐えられないのでエアコンをつけました。&lt;/p&gt;&#xA;&lt;p&gt;空気がべとつくようで気持ち悪いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>気温30度でも観測所は23度らしい</title>
-      <link>http://localhost:1313/posts/2020-07-20_%E6%B0%97%E6%B8%A930%E5%BA%A6%E3%81%A7%E3%82%82%E8%A6%B3%E6%B8%AC%E6%89%80%E3%81%AF23%E5%BA%A6%E3%82%89%E3%81%97%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2020-07-20_%E6%B0%97%E6%B8%A930%E5%BA%A6%E3%81%A7%E3%82%82%E8%A6%B3%E6%B8%AC%E6%89%80%E3%81%AF23%E5%BA%A6%E3%82%89%E3%81%97%E3%81%84/</link>
       <pubDate>Mon, 20 Jul 2020 23:37:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-20_%E6%B0%97%E6%B8%A930%E5%BA%A6%E3%81%A7%E3%82%82%E8%A6%B3%E6%B8%AC%E6%89%80%E3%81%AF23%E5%BA%A6%E3%82%89%E3%81%97%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2020-07-20_%E6%B0%97%E6%B8%A930%E5%BA%A6%E3%81%A7%E3%82%82%E8%A6%B3%E6%B8%AC%E6%89%80%E3%81%AF23%E5%BA%A6%E3%82%89%E3%81%97%E3%81%84/</guid>
       <description>&lt;p&gt;ただいまの気温30度。&lt;/p&gt;&#xA;&lt;p&gt;網戸をして扇風機を回しているけど全然冷えません。&lt;/p&gt;&#xA;&lt;p&gt;蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;この近くの観測所のデータでMicrosoftの天気アプリでは26度、Google先生は23度って言ってます。&lt;/p&gt;&#xA;&lt;p&gt;気象庁のデータは26度超えになっているので、Microsoftの天気アプリの方が正しいですね。&lt;/p&gt;&#xA;&lt;p&gt;まあ、実気温は違うんですけどね。&lt;/p&gt;&#xA;&lt;p&gt;今夜は風がなくて蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;今日も朝から草刈りをして、風呂入って、今は筋肉痛と暑さと格闘中。&lt;/p&gt;&#xA;&lt;p&gt;首、肩、背中が張って少し頭痛になっています。&lt;/p&gt;&#xA;&lt;p&gt;暑いので、もう横になって寝ようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜は暑いです。</title>
-      <link>http://localhost:1313/posts/2020-07-20_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-20_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Mon, 20 Jul 2020 02:02:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-20_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-20_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;湿度がちょっと高めで、蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;朝に草刈りをして、朝日に当たると暑すぎて、作業できなくなり9時には終了しました。&lt;/p&gt;&#xA;&lt;p&gt;明日は湿気が抜ければ良いんですけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Xpreia Z Ultra 社外バッテリーに交換</title>
-      <link>http://localhost:1313/posts/2020-07-19_xpreia-z-ultra-%E7%A4%BE%E5%A4%96%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AB%E4%BA%A4%E6%8F%9B/</link>
+      <link>http://localhost:63371/posts/2020-07-19_xpreia-z-ultra-%E7%A4%BE%E5%A4%96%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AB%E4%BA%A4%E6%8F%9B/</link>
       <pubDate>Sun, 19 Jul 2020 13:19:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-19_xpreia-z-ultra-%E7%A4%BE%E5%A4%96%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AB%E4%BA%A4%E6%8F%9B/</guid>
+      <guid>http://localhost:63371/posts/2020-07-19_xpreia-z-ultra-%E7%A4%BE%E5%A4%96%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AB%E4%BA%A4%E6%8F%9B/</guid>
       <description>&lt;p&gt;Sony XPERIA Z Ultra C6833 ホワイト 香港仕様のバッテリーが2度目の劣化を迎えたので、社外バッテリーに交換しました。&lt;/p&gt;&#xA;&lt;p&gt;前回の交換はSonyの純正品と交換しましたが、やっぱり同じ年数使用していたらバッテリーが膨らんできて、背面パネルを押し上げて剥がれました。&lt;/p&gt;&#xA;&lt;p&gt;もうさすがに修理用の純正バッテリーは手に入らなくなったので、社外バッテリーを買いました。&lt;/p&gt;&#xA;&lt;p&gt;バッテリーの裏には製造時のデータが印字されていますが、純正品と同じでした。&lt;/p&gt;&#xA;&lt;p&gt;ただ検品のシールは貼られていなかったです。&lt;/p&gt;&#xA;&lt;p&gt;もう裏蓋が剥がれてしまっているので、交換は簡単です。&lt;/p&gt;&#xA;&lt;p&gt;バッテリーを固定しているネジ4本と、接続ケーブルの上に掛かっているカバーのネジを外して、バッテリーを抜き出し、新しいバッテリーをはめてネジを締めるだけです。&lt;/p&gt;&#xA;&lt;p&gt;2013年製のSony Xperia Z Ultraですが、自宅で電子書籍を読んだり、Youtubeを閲覧するには十分な性能です。&lt;/p&gt;&#xA;&lt;p&gt;So-netの0SIMのサービスも終了したので、もっぱら自宅のWi-fiでの利用です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>追い詰められてしまった人に</title>
-      <link>http://localhost:1313/posts/2020-07-18_%E8%BF%BD%E3%81%84%E8%A9%B0%E3%82%81%E3%82%89%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E4%BA%BA%E3%81%AB/</link>
+      <link>http://localhost:63371/posts/2020-07-18_%E8%BF%BD%E3%81%84%E8%A9%B0%E3%82%81%E3%82%89%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E4%BA%BA%E3%81%AB/</link>
       <pubDate>Sat, 18 Jul 2020 21:43:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-18_%E8%BF%BD%E3%81%84%E8%A9%B0%E3%82%81%E3%82%89%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E4%BA%BA%E3%81%AB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-18_%E8%BF%BD%E3%81%84%E8%A9%B0%E3%82%81%E3%82%89%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E4%BA%BA%E3%81%AB/</guid>
       <description>&lt;p&gt;あなたはすごく頑張りました。&lt;/p&gt;&#xA;&lt;p&gt;辛いこと、悲しいことがたくさんありましたでしょう。&lt;/p&gt;&#xA;&lt;p&gt;真剣に、真面目に取り組んでいるのに理解されないことがとても辛いでしょう。&lt;/p&gt;&#xA;&lt;p&gt;寝ずに働いて働いて、頑張って頑張って、堪えて堪えて、誰よりも働いたんですね。&lt;/p&gt;&#xA;&lt;p&gt;報われない世の中に絶望しているのでしょおう。&lt;/p&gt;&#xA;&lt;p&gt;自らの命を絶つことばかりが頭に浮かんでしまうのでしょう。&lt;/p&gt;&#xA;&lt;p&gt;だったら、何もかも投げ捨てて、逃げてしまえば良いのです。&lt;/p&gt;&#xA;&lt;p&gt;あたなを追いかけてまで縛り付けるものはいないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;楽な方へ逃げても良いんですよ。&lt;/p&gt;&#xA;&lt;p&gt;あなたの好きなように生きれば良いのです。&lt;/p&gt;&#xA;&lt;p&gt;組織や会社に従っても、それらはあなたのことを助けてはくれません。&lt;/p&gt;&#xA;&lt;p&gt;あなたを助けるのはあなた自身です。&lt;/p&gt;&#xA;&lt;p&gt;辛いこと、悲しいことを投げ捨てて、逃げても良いんです。&lt;/p&gt;&#xA;&lt;p&gt;もう頑張らなくて良いんです。&lt;/p&gt;&#xA;&lt;p&gt;目の前にある問題は、時間がたてばなんとかなります。&lt;/p&gt;&#xA;&lt;p&gt;あなたが背負わなくても良いんです。&lt;/p&gt;&#xA;&lt;p&gt;逃げても良いんです。&lt;/p&gt;&#xA;&lt;p&gt;だから、生きるのだけは、諦めないでください。&lt;/p&gt;&#xA;&lt;p&gt;あなたの笑顔が見たいんです。&lt;/p&gt;&#xA;&lt;p&gt;あなたの家族や恋人があなたのことを心配してます。&lt;/p&gt;&#xA;&lt;p&gt;あなたの生きている姿を見せてあげてください。&lt;/p&gt;&#xA;&lt;p&gt;あなたの笑顔を見せてあげてください。&lt;/p&gt;&#xA;&lt;p&gt;今は笑えなくても、きっと生きていて良かったと笑える日がきます。&lt;/p&gt;&#xA;&lt;p&gt;だからもう頑張らなくて良いんです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>夏らしい暑さ</title>
-      <link>http://localhost:1313/posts/2020-07-18_%E5%A4%8F%E3%82%89%E3%81%97%E3%81%84%E6%9A%91%E3%81%95/</link>
+      <link>http://localhost:63371/posts/2020-07-18_%E5%A4%8F%E3%82%89%E3%81%97%E3%81%84%E6%9A%91%E3%81%95/</link>
       <pubDate>Sat, 18 Jul 2020 17:29:50 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-18_%E5%A4%8F%E3%82%89%E3%81%97%E3%81%84%E6%9A%91%E3%81%95/</guid>
+      <guid>http://localhost:63371/posts/2020-07-18_%E5%A4%8F%E3%82%89%E3%81%97%E3%81%84%E6%9A%91%E3%81%95/</guid>
       <description>&lt;p&gt;気温30度。&lt;/p&gt;&#xA;&lt;p&gt;晴れて夏らしい暑さになりました。&lt;/p&gt;&#xA;&lt;p&gt;冷蔵庫に眠っていたキャベツを消費するため、出来合いのロールキャベツを入れたポトフとちゃんちゃん焼きを作りました。&lt;/p&gt;&#xA;&lt;p&gt;暑いのに熱い料理です。&lt;/p&gt;&#xA;&lt;p&gt;みんなおうちでゆっくり過ごしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>http://localhost:1313/posts/2020-07-17_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2020-07-17_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Fri, 17 Jul 2020 23:01:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-17_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2020-07-17_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;夏とは思えない涼しく晴れた日でした。&lt;/p&gt;&#xA;&lt;p&gt;南の高気圧が弱く、梅雨前線が南に下がってしまい、北から冷たい空気が入ってきています。&lt;/p&gt;&#xA;&lt;p&gt;雨が続いて、気温が低かったので、稲にいもち病が出始めました。&lt;/p&gt;&#xA;&lt;p&gt;葉の部分だけなら良いんですが、このまま気温が低くて日照時間が短いと穂が出ても実がつかず、穂にもいもち病が出てしまいます。&lt;/p&gt;&#xA;&lt;p&gt;そうなると収穫高が激減してしまいます。&lt;/p&gt;&#xA;&lt;p&gt;夏が涼しいのは過ごしやすくて良いんですが、米も野菜も果物も不作になってしまうので、マジで困ります。&lt;/p&gt;&#xA;&lt;p&gt;今年から農作物にかかる保険の制度が変わって、作物の収穫量ではなく、売上高に掛かるようになって、保険料が跳ね上がったので、保険に入れない農家が一気に増えました。&lt;/p&gt;&#xA;&lt;p&gt;だって高いのに保険料は掛け捨てだもん・・・。&lt;/p&gt;&#xA;&lt;p&gt;ヤバいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>7月に入ってから4300人</title>
-      <link>http://localhost:1313/posts/2020-07-17_7%E6%9C%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%8B%E3%82%894300%E4%BA%BA/</link>
+      <link>http://localhost:63371/posts/2020-07-17_7%E6%9C%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%8B%E3%82%894300%E4%BA%BA/</link>
       <pubDate>Fri, 17 Jul 2020 00:31:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-17_7%E6%9C%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%8B%E3%82%894300%E4%BA%BA/</guid>
+      <guid>http://localhost:63371/posts/2020-07-17_7%E6%9C%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%8B%E3%82%894300%E4%BA%BA/</guid>
       <description>&lt;p&gt;COVID-19の感染者数が7月だけで全国で4300人です。&lt;/p&gt;&#xA;&lt;p&gt;東京都に絞ると2400人。&lt;/p&gt;&#xA;&lt;p&gt;緊急事態宣言が解除された翌日5月26日からだと全国で6500人。&lt;/p&gt;&#xA;&lt;p&gt;東京都に絞ると3500人。&lt;/p&gt;&#xA;&lt;p&gt;全国との比率にすると54％ほどです。&lt;/p&gt;&#xA;&lt;p&gt;東京都が自粛全面解除したのが6月19日、そこからの東京都の感染者数は2957人。&lt;/p&gt;&#xA;&lt;p&gt;ＧＯＴＯキャンペーンに目が向いてますが、数字で明らかになっている一番の問題点は東京都の全面解除です。&lt;/p&gt;&#xA;&lt;p&gt;風俗、水商売、劇場、カラオケ、ライブハウスでクラスター感染を引き起こし、そこにいた客が地方に持って帰るという経路が明らかになっています。&lt;/p&gt;&#xA;&lt;p&gt;感染経路不明というのは、風俗に行った人が周りにばれるのが嫌で言わないだけなのは、いろいろな医者が言っていることを聞いた上での想像でしかないですが、辿れないのではないのです。&lt;/p&gt;&#xA;&lt;p&gt;まあ、東京都が自粛要請と休業補償をしないので、ＧＯＴＯキャンペーンは東京都を発着とする旅行には適用されないようになりましたが。&lt;/p&gt;&#xA;&lt;p&gt;今は行政の混乱を避けたいために現職の知事を再選させたんでしょうけど、現状の混乱の一因でもある人を再選させたのは悪手だと思うんですけどね。&lt;/p&gt;&#xA;&lt;p&gt;明日、休業要請を実施しないようなら、長い時間、苦しい状況に陥るでしょう。&lt;/p&gt;&#xA;&lt;p&gt;不規則、不明確でこれまでの状況と比較できない新しい基準や曖昧な標語などを頻繁にプラカードで掲げるのは滑稽としか言えません。&lt;/p&gt;&#xA;&lt;p&gt;明かりが見えたと思ったトンネルの先は、・・・崩落してた・・・、そんな気分です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>手羽元</title>
-      <link>http://localhost:1313/posts/2020-07-16_%E6%89%8B%E7%BE%BD%E5%85%83/</link>
+      <link>http://localhost:63371/posts/2020-07-16_%E6%89%8B%E7%BE%BD%E5%85%83/</link>
       <pubDate>Thu, 16 Jul 2020 22:48:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-16_%E6%89%8B%E7%BE%BD%E5%85%83/</guid>
+      <guid>http://localhost:63371/posts/2020-07-16_%E6%89%8B%E7%BE%BD%E5%85%83/</guid>
       <description>&lt;p&gt;最近、手羽元の唐揚げとか焼き鳥が流行なのでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;希少部位とか言いつつ、これまではあえてそこにクローズアップして売られることはなかったですね。&lt;/p&gt;&#xA;&lt;p&gt;単価も安いし、唐揚げや焼き鳥にはちょうど良い大きさです。&lt;/p&gt;&#xA;&lt;p&gt;食感、脂の量とも、もも肉に近いですかね。&lt;/p&gt;&#xA;&lt;p&gt;大量に料理するならもも肉ですけれども。&lt;/p&gt;&#xA;&lt;p&gt;なすときゅうりが大量に出来て消費がなかなか間に合いません。&lt;/p&gt;&#xA;&lt;p&gt;いろいろと工夫して料理してみますけれど、あまり変わったものは食べてくれる人がいないので。&lt;/p&gt;&#xA;&lt;p&gt;醤油ベースの甘辛い味しか食べない人がいるので・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>心療内科に行ってきます</title>
-      <link>http://localhost:1313/posts/2020-07-16_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-16_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</link>
       <pubDate>Thu, 16 Jul 2020 13:12:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-16_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-16_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;山は曇りで雨降りそうですが、平野部は暑いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GOTOキャンペーンを中止してください、予算を災害復興に</title>
-      <link>http://localhost:1313/posts/2020-07-16_goto%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E4%BA%88%E7%AE%97%E3%82%92%E7%81%BD%E5%AE%B3%E5%BE%A9%E8%88%88%E3%81%AB/</link>
+      <link>http://localhost:63371/posts/2020-07-16_goto%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E4%BA%88%E7%AE%97%E3%82%92%E7%81%BD%E5%AE%B3%E5%BE%A9%E8%88%88%E3%81%AB/</link>
       <pubDate>Thu, 16 Jul 2020 09:34:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-16_goto%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E4%BA%88%E7%AE%97%E3%82%92%E7%81%BD%E5%AE%B3%E5%BE%A9%E8%88%88%E3%81%AB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-16_goto%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E4%BA%88%E7%AE%97%E3%82%92%E7%81%BD%E5%AE%B3%E5%BE%A9%E8%88%88%E3%81%AB/</guid>
       <description>&lt;p&gt;切実な想いです。&lt;/p&gt;&#xA;&lt;p&gt;医療体制が常に逼迫した田舎にSARS-CoV-2(新型コロナウィルス、武漢肺炎ウィルス)をまき散らすGOTOキャンペーンを中止してください。&lt;/p&gt;&#xA;&lt;p&gt;お願いします。&lt;/p&gt;&#xA;&lt;p&gt;経済より人の命を大切にしてください。&lt;/p&gt;&#xA;&lt;p&gt;人あっての国、人あっての経済です。&lt;/p&gt;&#xA;&lt;p&gt;仕事がなくなるのなら、給付金で対応してください。&lt;/p&gt;&#xA;&lt;p&gt;これまで諦めて閉めた人たちは感染防止、人命優先のため、泣く泣く諦めたのです。&lt;/p&gt;&#xA;&lt;p&gt;みんな、人に移したらダメだ、医療を崩壊させてはダメだ、と思い一生懸命自粛してきて、終息しかけたんです。&lt;/p&gt;&#xA;&lt;p&gt;それを無為にしてしまうGOTOキャンペーンをすぐに中止してください。&lt;/p&gt;&#xA;&lt;p&gt;もう中国共産党の飼い犬である自民党二階派、公明党には失望しかありません。&lt;/p&gt;&#xA;&lt;p&gt;あなたたちは立憲民主、共産、社民とともにさっさと国政から去ってください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カビ</title>
-      <link>http://localhost:1313/posts/2020-07-15_%E3%82%AB%E3%83%93/</link>
+      <link>http://localhost:63371/posts/2020-07-15_%E3%82%AB%E3%83%93/</link>
       <pubDate>Wed, 15 Jul 2020 19:31:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-15_%E3%82%AB%E3%83%93/</guid>
+      <guid>http://localhost:63371/posts/2020-07-15_%E3%82%AB%E3%83%93/</guid>
       <description>&lt;p&gt;今日は曇りだったり小雨だったり晴れだったりしましたが、概ね涼しい一日でした。&lt;/p&gt;&#xA;&lt;p&gt;湿度は高めですが。&lt;/p&gt;&#xA;&lt;p&gt;昨日、カメラとレンズにカビが来ないように食品用密閉容器と除湿剤と湿度・温度計付き時計を買いました。&lt;/p&gt;&#xA;&lt;p&gt;昨日、容器に入れた時点では70％の湿度でしたが一晩たって今の時点で34％まで湿度が下がってます。&lt;/p&gt;&#xA;&lt;p&gt;今の外気の湿度は62％です。&lt;/p&gt;&#xA;&lt;p&gt;30％以下だと繁殖するカビがあるらしいので、35％～50％で保つのが良いみたいです。&lt;/p&gt;&#xA;&lt;p&gt;先ほど蓋を開けて、空気を入れたのですこし湿度が上がると思います。&lt;/p&gt;&#xA;&lt;p&gt;こまめにチェックしないとね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>昔味ちゃーしゅーと唐揚げ</title>
-      <link>http://localhost:1313/posts/2020-07-14_%E6%98%94%E5%91%B3%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92/</link>
+      <link>http://localhost:63371/posts/2020-07-14_%E6%98%94%E5%91%B3%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92/</link>
       <pubDate>Tue, 14 Jul 2020 15:00:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-14_%E6%98%94%E5%91%B3%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92/</guid>
+      <guid>http://localhost:63371/posts/2020-07-14_%E6%98%94%E5%91%B3%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12610957471-14788820584.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200714/15/yuki9902/b8/f3/j/o1080081014788820584.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;うまかった。&lt;/p&gt;</description>
     </item>
     <item>
       <title>グラフィックボードの設定</title>
-      <link>http://localhost:1313/posts/2020-07-13_%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A/</link>
+      <link>http://localhost:63371/posts/2020-07-13_%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A/</link>
       <pubDate>Mon, 13 Jul 2020 23:18:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-13_%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A/</guid>
+      <guid>http://localhost:63371/posts/2020-07-13_%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A8%AD%E5%AE%9A/</guid>
       <description>&lt;p&gt;今日はグラフィックボードの設定を詰めてました。&lt;/p&gt;&#xA;&lt;p&gt;FF14漆黒のヴィランズでは、フルＨＤ最高品質で18000を超えました。&lt;/p&gt;&#xA;&lt;p&gt;AMD RYZEN 7 3700XとAMD RADEON RX 5700XTの空冷の組み合わせではなかなか良い数値が出ました。&lt;/p&gt;&#xA;&lt;p&gt;あとはDIRT RALLY 2.0で、PS3のコントローラーで操作しやすいコントローラー設定とグラボの設定をいろいろやってました。&lt;/p&gt;&#xA;&lt;p&gt;アンチラグやエンハンスドシンクの設定で描画遅延や操作遅延をなくすようにいろいろやりました。&lt;/p&gt;&#xA;&lt;p&gt;レースゲームも60fps固定だと視覚と動作に誤差が出てしまいます。&lt;/p&gt;&#xA;&lt;p&gt;60Hzの入力信号を倍速フレーム120Hzで中間画像を機械的に補完するＴＶを使っているので、ネットや動画を見たりするのにはチラつきは気になりませんが、ミリ秒単位の入力が必要なゲームではやはり違和感が出ます。&lt;/p&gt;&#xA;&lt;p&gt;フルHD以上で30インチクラスの144fpsディスプレイが要るかな・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rain drops</title>
-      <link>http://localhost:1313/posts/2020-07-13_rain-drops/</link>
+      <link>http://localhost:63371/posts/2020-07-13_rain-drops/</link>
       <pubDate>Mon, 13 Jul 2020 00:33:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-13_rain-drops/</guid>
+      <guid>http://localhost:63371/posts/2020-07-13_rain-drops/</guid>
       <description>&lt;p&gt;雨粒が軒先に植えてある葡萄の葉にポツポツと当たる音が聞こえます。&lt;/p&gt;&#xA;&lt;p&gt;湿度は60％ほど、気温は25度。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと肌寒く感じます。&lt;/p&gt;&#xA;&lt;p&gt;今夜はゆっくりとお休み。&lt;/p&gt;&#xA;&lt;p&gt;誠実に生きている人たちの明日が素晴らしいものとなるように祈ってます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>重複買い・・・</title>
-      <link>http://localhost:1313/posts/2020-07-12_%E9%87%8D%E8%A4%87%E8%B2%B7%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2020-07-12_%E9%87%8D%E8%A4%87%E8%B2%B7%E3%81%84/</link>
       <pubDate>Sun, 12 Jul 2020 16:05:50 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-12_%E9%87%8D%E8%A4%87%E8%B2%B7%E3%81%84/</guid>
-      <description>&lt;p&gt;デスマーチからはじまる異世界狂想曲の20巻をAmazonの新刊予約で重複買いしてしまっていました。&lt;/p&gt;&#xA;&lt;p&gt;発送通知が来て、あっ、と気づきましたが既に遅し。&lt;/p&gt;&#xA;&lt;p&gt;これを注文した頃、書籍の発注方法のシステム変更が行われたあたりで、重複買いをしないように「○月○日に購入済み」表示が出るはずが、出ていませんでした。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと高いのでショック。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://m.media-amazon.com/images/I/51ELZ0g0hhL.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;デスマーチからはじまる異世界狂想曲 20 (カドカワBOOKS)&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;1,188円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=XVRrzRMqGxAMa1BijxEMPC&amp;amp;mimp=aRyTvr9CE6Tmnhc8hdsAMQ&amp;amp;session=b19576fb-1f29-4023-b92b-6fcda14202a1&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=XVRrzRMqGxAMa1BijxEMPC&amp;amp;mimp=aRyTvr9CE6Tmnhc8hdsAMQ&amp;amp;session=b19576fb-1f29-4023-b92b-6fcda14202a1&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;</description>
+      <guid>http://localhost:63371/posts/2020-07-12_%E9%87%8D%E8%A4%87%E8%B2%B7%E3%81%84/</guid>
+      <description>&lt;p&gt;デスマーチからはじまる異世界狂想曲の20巻をAmazonの新刊予約で重複買いしてしまっていました。&lt;/p&gt;&#xA;&lt;p&gt;発送通知が来て、あっ、と気づきましたが既に遅し。&lt;/p&gt;&#xA;&lt;p&gt;これを注文した頃、書籍の発注方法のシステム変更が行われたあたりで、重複買いをしないように「○月○日に購入済み」表示が出るはずが、出ていませんでした。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと高いのでショック。&lt;/p&gt;&#xA;&lt;p&gt;[&lt;img src=&#34;https://m.media-amazon.com/images/I/51ELZ0g0hhL.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;デスマーチからはじまる異世界狂想曲 20 (カドカワBOOKS)&lt;/p&gt;&#xA;&lt;p&gt;Amazon（アマゾン）&lt;/p&gt;&#xA;&lt;p&gt;1,188円](&lt;a href=&#34;https://d.odsyms15.com/click?aid=XVRrzRMqGxAMa1BijxEMPC&amp;amp;mimp=aRyTvr9CE6Tmnhc8hdsAMQ&amp;amp;session=b19576fb-1f29-4023-b92b-6fcda14202a1&amp;amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;amp;ext.referrer=blank&#34;&gt;https://d.odsyms15.com/click?aid=XVRrzRMqGxAMa1BijxEMPC&amp;mimp=aRyTvr9CE6Tmnhc8hdsAMQ&amp;session=b19576fb-1f29-4023-b92b-6fcda14202a1&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMDer</title>
-      <link>http://localhost:1313/posts/2020-07-12_amder/</link>
+      <link>http://localhost:63371/posts/2020-07-12_amder/</link>
       <pubDate>Sun, 12 Jul 2020 03:00:38 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-12_amder/</guid>
+      <guid>http://localhost:63371/posts/2020-07-12_amder/</guid>
       <description>&lt;p&gt;AMD K-6を購入したあたりからのAMD CPUのユーザーです。&lt;/p&gt;&#xA;&lt;p&gt;一番最初に購入したPC/AT互換機は富士通FM-V DESKROWER SでIntel Pentium 100が載ってました。&lt;/p&gt;&#xA;&lt;p&gt;その後、Cyrix 6x86に乗り換え、そしてAMD K-6へと乗り換えていきました。&lt;/p&gt;&#xA;&lt;p&gt;K6-2、K6-III、Athlon、Athlon Thunderbird、Athlon XP、Atlon 64、Athlon X2、Phenom、Phenom II、FX、RYZENへと乗り換えていき、今はRYZEN 7 3700Xになりました。&lt;/p&gt;&#xA;&lt;p&gt;サブ機は、AMD Duron、Intel Celeron、AMD Sempronと毎回作り替え、今はノートPCのIntel Core i3になりました。&lt;/p&gt;&#xA;&lt;p&gt;FXシリーズの後、GPUを内包したAPU、Aシリーズが出ましたが、別体のGPUの性能を超えるものでもないし、CPU部分はFXシリーズと変わらないものなので導入しませんでした。&lt;/p&gt;&#xA;&lt;p&gt;GPUは、PowerVRとかVooDoo BansheeとかnViDiA RIVAとか。&lt;/p&gt;&#xA;&lt;p&gt;ATi RADEON HD5760とか。&lt;/p&gt;&#xA;&lt;p&gt;nViDIAのSLIとかもやりました。&lt;/p&gt;&#xA;&lt;p&gt;クロシコのNVIDIA GeForce 8600GT搭載GPUを買ったら、気温10度以下で起動しないトラブルにあって、ASUSのGPUに買い換え、クロシコのGPUは会社の後輩になすりつけました。&lt;/p&gt;&#xA;&lt;p&gt;NVIDIA GeForceシリーズは下位モデルの8600GT、GTX 750、GTX 1050、GTX 1060を使ってきました。&lt;/p&gt;&#xA;&lt;p&gt;今は10年ぶりのRADEON、AMD RADEON RX5700XTですね。&lt;/p&gt;&#xA;&lt;p&gt;自作erとしては1996年、AMDerとしては1997年からですね。&lt;/p&gt;&#xA;&lt;p&gt;Intelを使わないのは高いからという理由だけです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ヤバい</title>
-      <link>http://localhost:1313/posts/2020-07-11_%E3%83%A4%E3%83%90%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2020-07-11_%E3%83%A4%E3%83%90%E3%81%84/</link>
       <pubDate>Sat, 11 Jul 2020 17:58:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-11_%E3%83%A4%E3%83%90%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2020-07-11_%E3%83%A4%E3%83%90%E3%81%84/</guid>
       <description>&lt;p&gt;ヤバいくらい頭が痛いです。&lt;/p&gt;&#xA;&lt;p&gt;熱中症です。&lt;/p&gt;&#xA;&lt;p&gt;曇って雨が降ったり、薄曇りになってジトジトムシムシして暑かったです。&lt;/p&gt;&#xA;&lt;p&gt;昨夜の雨の中、猪が田圃の畦をほじくり返していたので、朝から電気柵の設置をしてました。&lt;/p&gt;&#xA;&lt;p&gt;今日は調子が悪かったのに、頑張って作業して、もっと調子が悪くなりました。&lt;/p&gt;&#xA;&lt;p&gt;シャワーで頭を冷やしましたが、一時痛みが和らぎましたが、また痛くなっています。&lt;/p&gt;&#xA;&lt;p&gt;鎮痛剤を飲もう、久々の堪えられない痛みです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨音</title>
-      <link>http://localhost:1313/posts/2020-07-11_%E9%9B%A8%E9%9F%B3/</link>
+      <link>http://localhost:63371/posts/2020-07-11_%E9%9B%A8%E9%9F%B3/</link>
       <pubDate>Sat, 11 Jul 2020 03:00:03 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-11_%E9%9B%A8%E9%9F%B3/</guid>
+      <guid>http://localhost:63371/posts/2020-07-11_%E9%9B%A8%E9%9F%B3/</guid>
       <description>&lt;p&gt;雨が打ち付ける音で、目が覚めてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;睡眠薬が効いているはずなのでちょっとキツいです。&lt;/p&gt;&#xA;&lt;p&gt;また横になります。&lt;/p&gt;&#xA;&lt;p&gt;何事もなく前線が通り過ぎますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ピーク</title>
-      <link>http://localhost:1313/posts/2020-07-10_%E3%83%94%E3%83%BC%E3%82%AF/</link>
+      <link>http://localhost:63371/posts/2020-07-10_%E3%83%94%E3%83%BC%E3%82%AF/</link>
       <pubDate>Fri, 10 Jul 2020 19:31:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-10_%E3%83%94%E3%83%BC%E3%82%AF/</guid>
+      <guid>http://localhost:63371/posts/2020-07-10_%E3%83%94%E3%83%BC%E3%82%AF/</guid>
       <description>&lt;p&gt;SARS-CoV-2感染者は来週頭にも第一波の日本全体のピークを超えそうです。&lt;/p&gt;&#xA;&lt;p&gt;今日は東京で過去最多、第一波のピークを越えました。&lt;/p&gt;&#xA;&lt;p&gt;終息どころか減少の見通しは立たず、&lt;/p&gt;&#xA;&lt;p&gt;COVID-19に対応できる感染症病床は東京で4800床を確保しているそうですが、現在980床埋まっているようです。&lt;/p&gt;&#xA;&lt;p&gt;全国で現在のCOVID-19の入院患者数1900、感染症病床は31800床です。&lt;/p&gt;&#xA;&lt;p&gt;大規模イベントで集団感染が発生すると一気に逼迫するのは変わらないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;東京で2000人を調査して分かった6月時点の抗体保持率は0.1%。&lt;/p&gt;&#xA;&lt;p&gt;現在までの東京の感染者累計7272人。&lt;/p&gt;&#xA;&lt;p&gt;抗体保持率から予測される感染者数13982人。&lt;/p&gt;&#xA;&lt;p&gt;在野に無症状、無自覚の感染者がかなりいると予測できるので、自己防衛をして、感染しないようにしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨が降っています</title>
-      <link>http://localhost:1313/posts/2020-07-10_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-10_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Fri, 10 Jul 2020 01:48:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-10_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-10_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;一昨日、昨日と晴れ間がありました。&lt;/p&gt;&#xA;&lt;p&gt;今日に日付が変わる頃から雨が降り出しました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯に、また唐揚げを作りました。&lt;/p&gt;&#xA;&lt;p&gt;鶏もも肉3枚に対して塩小さじ2杯、醤油大さじ2杯、酒大さじ3杯。&lt;/p&gt;&#xA;&lt;p&gt;大蒜一かけ、その半量の生姜。&lt;/p&gt;&#xA;&lt;p&gt;それでちょうど良いくらいの味です。&lt;/p&gt;&#xA;&lt;p&gt;醜い世の中を良くしようとする人たちもいれば、自己中で守銭奴のような人もいて、いつも世の中はめちゃくちゃですけど、投げ出さず、諦めず、ただただ自分の中の善性を信じて生きて行くのみです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>発症者数</title>
-      <link>http://localhost:1313/posts/2020-07-09_%E7%99%BA%E7%97%87%E8%80%85%E6%95%B0/</link>
+      <link>http://localhost:63371/posts/2020-07-09_%E7%99%BA%E7%97%87%E8%80%85%E6%95%B0/</link>
       <pubDate>Thu, 09 Jul 2020 22:04:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-09_%E7%99%BA%E7%97%87%E8%80%85%E6%95%B0/</guid>
+      <guid>http://localhost:63371/posts/2020-07-09_%E7%99%BA%E7%97%87%E8%80%85%E6%95%B0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://jagjapan.maps.arcgis.com/apps/opsdashboard/index.html#/641eba7fef234a47880e1e1dc4de85ce&#34;&gt;都道府県別新型コロナウイルス感染者数マップ&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;COVID-19の積極的検査にかかわらず、6月21日から発症者数が増加しているのが見て取れます。&lt;/p&gt;&#xA;&lt;p&gt;先週に予想したとおりに増加しているので、何も対策をとらないと来週末には1000人を超える勢いになりそうです。&lt;/p&gt;&#xA;&lt;p&gt;大規模イベント開催を解禁する方針だとか、各業界団体の一時的な救済にはなりますが、大規模集団感染が必ず起こるでしょうから、長期的には大規模イベントという業態が縮小することになるんじゃないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;イベントに関する保険があるから主催者側は、大規模感染が起きても金銭的な問題を回避できると思っているでしょうが、必ず起きるリスクに保険がかけられるほど保険会社はあまくないですよ。&lt;/p&gt;&#xA;&lt;p&gt;自然災害でみんなの目が災害に向いているからと言って、抑えられるリスクを無視して、一部業界を優遇する判断は、後々国全体を困窮させてしまうでしょう。&lt;/p&gt;&#xA;&lt;p&gt;他国は現ナマ100兆円から200兆円規模をばら撒いたのに、日本だけ事業規模100兆円、昨年の繰り越し併せて実質20兆円規模の現ナマでは、夏のさらなる景気後退を受けきれず、秋には大規模なリストラと失業が起こるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;復興国債を発行して、被災地や生活困窮者支援、失業者支援、新規産業勃興、エンターテインメントのネットインフラの開発に現ナマ200兆円ばら撒くぐらいの度量はないものでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;いつまでも業界団体や官僚の利権に縛られていたら落ちていく一方です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨脚が強いです。</title>
-      <link>http://localhost:1313/posts/2020-07-08_%E9%9B%A8%E8%84%9A%E3%81%8C%E5%BC%B7%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-08_%E9%9B%A8%E8%84%9A%E3%81%8C%E5%BC%B7%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Wed, 08 Jul 2020 02:23:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-08_%E9%9B%A8%E8%84%9A%E3%81%8C%E5%BC%B7%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-08_%E9%9B%A8%E8%84%9A%E3%81%8C%E5%BC%B7%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;6日の降り始めからの積算雨量で90ミリを超えました。&lt;/p&gt;&#xA;&lt;p&gt;今は1時間あたり7ミリです。&lt;/p&gt;&#xA;&lt;p&gt;この2時間で15ミリ降りました。&lt;/p&gt;&#xA;&lt;p&gt;Xバンドレーダーでは時間降雨量10ミリの雲が掛かっているようです。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと前まで30ミリの雲がかかっていたので、少しずつ雨脚が弱っているのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;雨が屋根から落ちる水の音は少し下がったような気がします。&lt;/p&gt;&#xA;&lt;p&gt;また高梁川の流域で大雨が降っているようなので、平野部の浸水が気になります。&lt;/p&gt;&#xA;&lt;p&gt;まだ2年前の水害から復興してないんですから・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ウィスキーがお好きでしょ</title>
-      <link>http://localhost:1313/posts/2020-07-07_%E3%82%A6%E3%82%A3%E3%82%B9%E3%82%AD%E3%83%BC%E3%81%8C%E3%81%8A%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%97%E3%82%87/</link>
+      <link>http://localhost:63371/posts/2020-07-07_%E3%82%A6%E3%82%A3%E3%82%B9%E3%82%AD%E3%83%BC%E3%81%8C%E3%81%8A%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%97%E3%82%87/</link>
       <pubDate>Tue, 07 Jul 2020 21:46:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-07_%E3%82%A6%E3%82%A3%E3%82%B9%E3%82%AD%E3%83%BC%E3%81%8C%E3%81%8A%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%97%E3%82%87/</guid>
+      <guid>http://localhost:63371/posts/2020-07-07_%E3%82%A6%E3%82%A3%E3%82%B9%E3%82%AD%E3%83%BC%E3%81%8C%E3%81%8A%E5%A5%BD%E3%81%8D%E3%81%A7%E3%81%97%E3%82%87/</guid>
       <description>&lt;p&gt;今夜は久々にウィスキーをロックで呑んでます。&lt;/p&gt;&#xA;&lt;p&gt;Green Forestという銘柄の和製ウィスキーです。&lt;/p&gt;&#xA;&lt;p&gt;そろそろ大手の有名銘柄のウィスキーも値段が下がってくるのではないかと期待しています。&lt;/p&gt;&#xA;&lt;p&gt;某国のせいで品薄になり、かなり高騰してましたから。&lt;/p&gt;&#xA;&lt;p&gt;ブランデーも値下がりすると良いな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ASUS ROG-STRIX X570-F BIOS 2407 更新</title>
-      <link>http://localhost:1313/posts/2020-07-07_asus-rog-strix-x570-f-bios-2407-%E6%9B%B4%E6%96%B0/</link>
+      <link>http://localhost:63371/posts/2020-07-07_asus-rog-strix-x570-f-bios-2407-%E6%9B%B4%E6%96%B0/</link>
       <pubDate>Tue, 07 Jul 2020 21:02:41 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-07_asus-rog-strix-x570-f-bios-2407-%E6%9B%B4%E6%96%B0/</guid>
+      <guid>http://localhost:63371/posts/2020-07-07_asus-rog-strix-x570-f-bios-2407-%E6%9B%B4%E6%96%B0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-f-gaming-model/HelpDesk_Download&#34;&gt;ASUS ROG-STRIX X570-F GAMINGのBIOS2407&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-f-gaming-model/HelpDesk_Download&#34;&gt;ROG Strix X570-F Gaming | ROG Strix | Gaming Motherboards｜ROG - Republic of Gamers｜ROG Global&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;rog.asus.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;が公開されていたので、先ほど更新しました。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Improved system performance and compatibility&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Improved DRAM compatibility&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update AM4 combo V2 PI 1.0.0.2&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;更新内容は以上の通りなんで、システムの性能、互換性の改善、メモリーの互換性改善、AM4 combo V2 PI 1.0.0.2の更新です。&lt;/p&gt;&#xA;&lt;p&gt;6月後半にAM4 combo V2 PI 1.0.0.2が出てたので、BIOSの更新は早かったですね。&lt;/p&gt;&#xA;&lt;p&gt;前回のAM4 combo V2 PI 1.0.0.1との比較は&lt;a href=&#34;https://www.funkykit.com/articles/performance-analysis-amd-agesa-combo-am4-v2-1-0-0-2-smu-46-61/&#34;&gt;Performance Analysis: AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.funkykit.com/articles/performance-analysis-amd-agesa-combo-am4-v2-1-0-0-2-smu-46-61/&#34;&gt;Performance Analysis: AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61 - FunkyKitToday, we’ll be taking a quick look at the performance analysis of the new AGESA BIOS from AMD. We will be using the latest version (AMD AGESA Combo-AM4 v2 1.0.0.2 + SMU 46.61) which is &amp;hellip;&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;www.funkykit.com&lt;img src=&#34;https://i1.wp.com/www.funkykit.com/wp-content/uploads/2020/07/AMD-AGESA-ASRock-b550-taichi.jpg?fit=1280%2C720&amp;amp;ssl=1&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は七夕なのに</title>
-      <link>http://localhost:1313/posts/2020-07-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%B8%83%E5%A4%95%E3%81%AA%E3%81%AE%E3%81%AB/</link>
+      <link>http://localhost:63371/posts/2020-07-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%B8%83%E5%A4%95%E3%81%AA%E3%81%AE%E3%81%AB/</link>
       <pubDate>Tue, 07 Jul 2020 18:43:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%B8%83%E5%A4%95%E3%81%AA%E3%81%AE%E3%81%AB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-07_%E4%BB%8A%E6%97%A5%E3%81%AF%E4%B8%83%E5%A4%95%E3%81%AA%E3%81%AE%E3%81%AB/</guid>
       <description>&lt;p&gt;土曜日から断続的に雨が降っています。&lt;/p&gt;&#xA;&lt;p&gt;洪水や土砂崩れで被災された方の生活が早く再建されますように願います。&lt;/p&gt;&#xA;&lt;p&gt;今日は、眠いので一日寝てました。&lt;/p&gt;&#xA;&lt;p&gt;天気につられて元気がなくなるのは仕方ないです。&lt;/p&gt;&#xA;&lt;p&gt;ざゆりさん、お誕生日おめでとうございます。&lt;/p&gt;&#xA;&lt;p&gt;世の中のことはさておき、あなたのこれからの一年がまた素晴らしいものでありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ギャラリーの見せ方を変更しました</title>
-      <link>http://localhost:1313/posts/2020-07-06_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AE%E8%A6%8B%E3%81%9B%E6%96%B9%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-06_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AE%E8%A6%8B%E3%81%9B%E6%96%B9%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Mon, 06 Jul 2020 15:54:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-06_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AE%E8%A6%8B%E3%81%9B%E6%96%B9%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-06_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AE%E8%A6%8B%E3%81%9B%E6%96%B9%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902&amp;rsquo;s Gallery&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902&amp;rsquo;s Gallery&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;sites.google.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;カルーセルという写真がフリップする見せ方を止め、カテゴリーと撮影年ごとにページを分けました。&lt;/p&gt;&#xA;&lt;p&gt;相変わらず写真が重たいですが、1枚あたり500キロバイト前後にしています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ギャラリーを更新しました</title>
-      <link>http://localhost:1313/posts/2020-07-05_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-05_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 05 Jul 2020 23:44:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-05_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-05_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902&amp;rsquo;s Gallery&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902&amp;rsquo;s Gallery&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;sites.google.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ギャラリーサイトを更新しました。&lt;/p&gt;&#xA;&lt;p&gt;蓮と紅葉の写真を追加しました。&lt;/p&gt;&#xA;&lt;p&gt;写真が多いので非常に重いです。&lt;/p&gt;&#xA;&lt;p&gt;シリーズ化した方がわかりやすいですが、画像のダウンロードに時間が掛かるのとメモリーを非常に圧迫するので、近いうちに見せ方を変えます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>鰻</title>
-      <link>http://localhost:1313/posts/2020-07-05_%E9%B0%BB/</link>
+      <link>http://localhost:63371/posts/2020-07-05_%E9%B0%BB/</link>
       <pubDate>Sun, 05 Jul 2020 19:15:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-05_%E9%B0%BB/</guid>
+      <guid>http://localhost:63371/posts/2020-07-05_%E9%B0%BB/</guid>
       <description>&lt;p&gt;宮崎県産の鰻の蒲焼きを買っておいたので、今夜はうな丼にしました。&lt;/p&gt;&#xA;&lt;p&gt;グリルで鰻の蒲焼きを炙って、ご飯にタレをかけ、鰻をのせ、またタレをかける。&lt;/p&gt;&#xA;&lt;p&gt;鰻は子供の頃からの大好物で、どっか遠出したときのドライブインのレストレランでうな重を食べる、旅行自体は覚えてなくても、うな重が楽しみでよく覚えてます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>熊本の豪雨、洪水災害</title>
-      <link>http://localhost:1313/posts/2020-07-04_%E7%86%8A%E6%9C%AC%E3%81%AE%E8%B1%AA%E9%9B%A8%E6%B4%AA%E6%B0%B4%E7%81%BD%E5%AE%B3/</link>
+      <link>http://localhost:63371/posts/2020-07-04_%E7%86%8A%E6%9C%AC%E3%81%AE%E8%B1%AA%E9%9B%A8%E6%B4%AA%E6%B0%B4%E7%81%BD%E5%AE%B3/</link>
       <pubDate>Sat, 04 Jul 2020 14:21:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-04_%E7%86%8A%E6%9C%AC%E3%81%AE%E8%B1%AA%E9%9B%A8%E6%B4%AA%E6%B0%B4%E7%81%BD%E5%AE%B3/</guid>
+      <guid>http://localhost:63371/posts/2020-07-04_%E7%86%8A%E6%9C%AC%E3%81%AE%E8%B1%AA%E9%9B%A8%E6%B4%AA%E6%B0%B4%E7%81%BD%E5%AE%B3/</guid>
       <description>&lt;p&gt;今朝発生した豪雨災害、まだ全容が分かりませんが、広範囲で多数の人が被害にあったようです。&lt;/p&gt;&#xA;&lt;p&gt;まずは救助、避難所の確保、生活物資の配給、医療体制の構築ですね。&lt;/p&gt;&#xA;&lt;p&gt;球磨川流域の街の浸水状況を見ました。&lt;/p&gt;&#xA;&lt;p&gt;人口が多い地域が2階より高い位置まで浸水してました。&lt;/p&gt;&#xA;&lt;p&gt;犠牲者が少なくあってほしいと思います。&lt;/p&gt;&#xA;&lt;p&gt;八代海の昼の満潮と川への流入が重なって、川の水位がかなり高くなっていました。&lt;/p&gt;&#xA;&lt;p&gt;早く水が引くと良いのですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>七夕の短冊に願いを込めて</title>
-      <link>http://localhost:1313/posts/2020-07-04_%E4%B8%83%E5%A4%95%E3%81%AE%E7%9F%AD%E5%86%8A%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6/</link>
+      <link>http://localhost:63371/posts/2020-07-04_%E4%B8%83%E5%A4%95%E3%81%AE%E7%9F%AD%E5%86%8A%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6/</link>
       <pubDate>Sat, 04 Jul 2020 14:05:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-04_%E4%B8%83%E5%A4%95%E3%81%AE%E7%9F%AD%E5%86%8A%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6/</guid>
+      <guid>http://localhost:63371/posts/2020-07-04_%E4%B8%83%E5%A4%95%E3%81%AE%E7%9F%AD%E5%86%8A%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12608778122-14783976569.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200704/13/yuki9902/65/15/p/o0734038614783976569.png?caw=800&#34; alt=&#34;七夕2020_私のお願い事&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;一．武漢ウィルス肺炎COVID-19の早期終息&lt;/p&gt;&#xA;&lt;p&gt;二．九州豪雨災害で被災された方の救済と早期復興&lt;/p&gt;&#xA;&lt;p&gt;三．これまでの被災地域の早期復興&lt;/p&gt;&#xA;&lt;p&gt;四．日本経済の復興&lt;/p&gt;&#xA;&lt;p&gt;五．拉致被害者の早期奪還・返還&lt;/p&gt;&#xA;&lt;p&gt;六．香港市民の安全確保&lt;/p&gt;&#xA;&lt;p&gt;七．People&amp;rsquo;s Republic of Chinaの中国共産党の解体&lt;/p&gt;&#xA;&lt;p&gt;八．チュチェ思想の撲滅&lt;/p&gt;</description>
     </item>
     <item>
       <title>第二波は既に始まっています</title>
-      <link>http://localhost:1313/posts/2020-07-03_%E7%AC%AC%E4%BA%8C%E6%B3%A2%E3%81%AF%E6%97%A2%E3%81%AB%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-07-03_%E7%AC%AC%E4%BA%8C%E6%B3%A2%E3%81%AF%E6%97%A2%E3%81%AB%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Fri, 03 Jul 2020 15:20:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-03_%E7%AC%AC%E4%BA%8C%E6%B3%A2%E3%81%AF%E6%97%A2%E3%81%AB%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-07-03_%E7%AC%AC%E4%BA%8C%E6%B3%A2%E3%81%AF%E6%97%A2%E3%81%AB%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;６月の中旬ぐらいに県をまたいだ移動が行われるようになって、無自覚・無症状感染者に潜伏中だったSARS-CoV-2の感染が拡大しており第二波が起きています。&lt;/p&gt;&#xA;&lt;p&gt;今日中に、歓楽街への出入りを自粛すること、県をまたいだ移動を自粛すること、人の集まるイベントの自粛を要請しないと、感染者数は二週間後には今の３倍を超える数字になるものと推測します。&lt;/p&gt;&#xA;&lt;p&gt;第二波のピークがいつ、どれくらいなのかはまだ予測が出来ていないそうです。&lt;/p&gt;&#xA;&lt;p&gt;いずれにしてもワクチンが認可されるまでは、終息は無理なので、手洗いうがいと不必要な外出を避けるよう引き続き自衛しましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は肌寒い日でした</title>
-      <link>http://localhost:1313/posts/2020-07-03_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%82%8C%E5%AF%92%E3%81%84%E6%97%A5%E3%81%A7%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-03_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%82%8C%E5%AF%92%E3%81%84%E6%97%A5%E3%81%A7%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 03 Jul 2020 00:32:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-03_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%82%8C%E5%AF%92%E3%81%84%E6%97%A5%E3%81%A7%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-03_%E4%BB%8A%E6%97%A5%E3%81%AF%E8%82%8C%E5%AF%92%E3%81%84%E6%97%A5%E3%81%A7%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;昼の気温が２０度ほどで、肌寒かったので長袖、長ズボンを着ていました。&lt;/p&gt;&#xA;&lt;p&gt;帆立貝の炊き込みご飯、ピーマンともやしと豚肉の炒め物を作ったかな。&lt;/p&gt;&#xA;&lt;p&gt;ルピシア便りのディクサムを使って、チャイを作ろうとしたらロイヤルミルクティーになりました。&lt;/p&gt;&#xA;&lt;p&gt;砂糖を入れなかったからですけど。&lt;/p&gt;&#xA;&lt;p&gt;DiRT RALLY 2のスウェーデンのSSをSUBARU IMPREZA WRC 2001でプレイしました。&lt;/p&gt;&#xA;&lt;p&gt;コースは完全にスノー、センターデフのLSDの締結力を２段階強めにして４輪の駆動力を高めました。&lt;/p&gt;&#xA;&lt;p&gt;アンダーステアが出ますが、スノーなのでかなり早めブレーキでの姿勢変更でコーナーリングはゼロカウンターで抜けていきます。&lt;/p&gt;&#xA;&lt;p&gt;画面の目視よりもコドライバーのペースノートが頼りです。&lt;/p&gt;&#xA;&lt;p&gt;で、夕方はgoogleサイトでギャラリーを開設してました。&lt;/p&gt;&#xA;&lt;p&gt;テーマで分類して徐々に過去の作品を追加していきます。&lt;/p&gt;&#xA;&lt;p&gt;細かいデザインが出来ないのが難点ですが、操作は簡単で、扱えるデータの種類は多いのは良いところです。&lt;/p&gt;&#xA;&lt;p&gt;さて、夜も冷えるので、温かい紅茶を飲んで寝る準備をしましょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ギャラリーを開設しました</title>
-      <link>http://localhost:1313/posts/2020-07-02_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-02_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Thu, 02 Jul 2020 14:09:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-02_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-02_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902 PHOTO GALLERY&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/yuki9902sgallery/home&#34;&gt;yuki9902&amp;rsquo;s Gallery&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;sites.google.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;これまで公開してきた写真をまとめたギャラリーを開設しました。&lt;/p&gt;&#xA;&lt;p&gt;PC、タブレット、スマートフォンからご覧ください。&lt;/p&gt;&#xA;&lt;p&gt;フィーチャーフォンでの確認は出来ていません。&lt;/p&gt;&#xA;&lt;p&gt;フィーチャーフォンではきちんと表示されないと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>すかっと晴れました</title>
-      <link>http://localhost:1313/posts/2020-07-01_%E3%81%99%E3%81%8B%E3%81%A3%E3%81%A8%E6%99%B4%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-07-01_%E3%81%99%E3%81%8B%E3%81%A3%E3%81%A8%E6%99%B4%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 01 Jul 2020 18:25:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-07-01_%E3%81%99%E3%81%8B%E3%81%A3%E3%81%A8%E6%99%B4%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-07-01_%E3%81%99%E3%81%8B%E3%81%A3%E3%81%A8%E6%99%B4%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;梅雨前線が通り過ぎてスカッと晴れました。&lt;/p&gt;&#xA;&lt;p&gt;そして北風が入ってきて涼しいです。&lt;/p&gt;&#xA;&lt;p&gt;しかし、太陽の光を浴びると３５度とか簡単に超えてきます。&lt;/p&gt;&#xA;&lt;p&gt;カーテンを新調しに探しに行ったんですが、目の粗い青いレースのカーテンがありませんでした。&lt;/p&gt;&#xA;&lt;p&gt;ショックです。&lt;/p&gt;&#xA;&lt;p&gt;青じゃなきゃダメなんです。&lt;/p&gt;&#xA;&lt;p&gt;白じゃダメなんです。&lt;/p&gt;&#xA;&lt;p&gt;昔は普通に売っていたんですが、今は全く見かけませんねぇ。&lt;/p&gt;&#xA;&lt;p&gt;困りました。&lt;/p&gt;</description>
     </item>
   </channel>

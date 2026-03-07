@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2026-03 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2026-03/</link>
+    <link>http://localhost:63371/archives/2026-03/</link>
     <description>Recent content in 2026-03 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Thu, 05 Mar 2026 12:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2026-03/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2026-03/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</title>
-      <link>http://localhost:1313/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</link>
+      <link>http://localhost:63371/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</link>
       <pubDate>Thu, 05 Mar 2026 12:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</guid>
+      <guid>http://localhost:63371/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</guid>
       <description>&lt;h2 id=&#34;1始めに&#34;&gt;1.始めに&lt;/h2&gt;&#xA;&lt;p&gt;2026/02/26にAMDからRadeonのドライバースイートである、AMD Software: Adrenaline Edition 26.2.2 (WHQL Recommended)が公開されました。前回の26.2.1 OptionalからROCm7.2が同梱され、ドライバーと共にインストールされます。&#xA;今回はWindows11Pro 25H2をクリーンインストールしたことを機にComfyUI (Git版)の環境を再構築しました。&lt;/p&gt;&#xA;&lt;h2 id=&#34;2環境&#34;&gt;2.環境&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ハードウェア&#34;&gt;ハードウェア&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Device&lt;/th&gt;&#xA;          &lt;th&gt;Product&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU&lt;/td&gt;&#xA;          &lt;td&gt;AMD Ryzen 9 9950X3D&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;M/B&lt;/td&gt;&#xA;          &lt;td&gt;ASUS ROG STRIX X870E-E GAMING WIFI (AMD X870E)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RAM&lt;/td&gt;&#xA;          &lt;td&gt;Corsair CMH64GX5M2B6000Z30 (DDR5-6000 64GB) (32GB or more recommended)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GPU&lt;/td&gt;&#xA;          &lt;td&gt;ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SSD&lt;/td&gt;&#xA;          &lt;td&gt;WD BLACK SN850X 2TB (NVMe Gen.4x4) System (C:)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SSD&lt;/td&gt;&#xA;          &lt;td&gt;WD BLACK SN850X 2TB (NVMe Gen.4x4) ComfyUI (D:)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;ソフトウェア&#34;&gt;ソフトウェア&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Software&lt;/th&gt;&#xA;          &lt;th&gt;Product&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;OS&lt;/td&gt;&#xA;          &lt;td&gt;Microsoft Windows 11 Pro 25H2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Chipset Driver&lt;/td&gt;&#xA;          &lt;td&gt;AMD Chipset Drivers 8.01.20.513&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GPU Driver&lt;/td&gt;&#xA;          &lt;td&gt;AMD Software: Adrenalin 26.2.2 (WHQL Recommended)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Interpreter&lt;/td&gt;&#xA;          &lt;td&gt;Windows installer (64-bit)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Interpreter&lt;/td&gt;&#xA;          &lt;td&gt;Windows embeddable package (64-bit)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AI Suite&lt;/td&gt;&#xA;          &lt;td&gt;Stability Matrix&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AI Generator&lt;/td&gt;&#xA;          &lt;td&gt;ComfyUI (Git)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;bios-uefi&#34;&gt;BIOS (UEFI)&lt;/h3&gt;&#xA;&lt;p&gt;以下はメインメモリとVRAMのやりとりをスムーズにするため必須です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>RADEON Software Adrenaline 26.2.2</title>
-      <link>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</link>
+      <link>http://localhost:63371/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</link>
       <pubDate>Tue, 03 Mar 2026 19:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</guid>
+      <guid>http://localhost:63371/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</guid>
       <description>&lt;h3 id=&#34;amd-software-adrenalin-edition-2622-release-notes&#34;&gt;&lt;a href=&#34;https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-2.html&#34;&gt;AMD Software: Adrenalin Edition 26.2.2 Release Notes&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;AMD Software: Adrenaline Edition 26.2.2 が公開されています。&lt;/p&gt;&#xA;&lt;p&gt;前回より、約600MBスリムになっています。アップデートインストールしたので、AI Bundleの何かが少なくなっているのかはわかりません。&lt;/p&gt;&#xA;&lt;p&gt;そして前回のAMD Software Adrenalin Edition 26.2.1では、ROCm7.2がインストールされました。&lt;/p&gt;&#xA;&lt;p&gt;AMDの手順で、PyTorchインストール中にROCm7.1.1のインストールコマンドでエラーになるので、エラーメッセージを見ると7.2のバージョンをインストールして、と出ていたいので、ROCm7.2がAdrenaline 26.2.1と一緒にインストールされているのがわかりました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>yuki9902::blog</title>
-      <link>http://localhost:1313/posts/2026-03-01_yuki9902__blog/</link>
+      <link>http://localhost:63371/posts/2026-03-01_yuki9902__blog/</link>
       <pubDate>Sun, 01 Mar 2026 08:53:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-01_yuki9902__blog/</guid>
+      <guid>http://localhost:63371/posts/2026-03-01_yuki9902__blog/</guid>
       <description>&lt;p&gt;ブログのタイトルを「yuki9902::blog」に変更しました。&lt;/p&gt;&#xA;&lt;p&gt;またハンドルネームを「おやぶん」から「yuki9902」に変更しました。&lt;/p&gt;&#xA;&lt;p&gt;ブログの検索性や掲載情報の確度を向上させるためと、他のサイトやハンドルネームとの混同を回避するためです。&lt;/p&gt;&#xA;&lt;p&gt;17年間使ってきた「おやぶん」ですが、これで検索する人は居ないのでwww。&lt;/p&gt;</description>
     </item>
   </channel>

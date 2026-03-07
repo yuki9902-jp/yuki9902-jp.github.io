@@ -2,423 +2,423 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019-08 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2019-08/</link>
+    <link>http://localhost:63371/archives/2019-08/</link>
     <description>Recent content in 2019-08 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 30 Aug 2019 21:55:19 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2019-08/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2019-08/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>烏龍茶</title>
-      <link>http://localhost:1313/posts/2019-08-30_%E7%83%8F%E9%BE%8D%E8%8C%B6/</link>
+      <link>http://localhost:63371/posts/2019-08-30_%E7%83%8F%E9%BE%8D%E8%8C%B6/</link>
       <pubDate>Fri, 30 Aug 2019 21:55:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-30_%E7%83%8F%E9%BE%8D%E8%8C%B6/</guid>
+      <guid>http://localhost:63371/posts/2019-08-30_%E7%83%8F%E9%BE%8D%E8%8C%B6/</guid>
       <description>&lt;p&gt;今夜は烏龍茶、黄金桂です。&lt;/p&gt;&#xA;&lt;p&gt;今日はパソコンショップに行ってきましたが、色々と買うかどうか悩んで買いませんでした。&lt;/p&gt;&#xA;&lt;p&gt;どうもストレスが溜まっていたようで、ちょこちょこと間食しすぎました。&lt;/p&gt;&#xA;&lt;p&gt;お茶で体と心の調子を整えたいと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>X370マザーでのRYZEN 7 3700X 動作実績</title>
-      <link>http://localhost:1313/posts/2019-08-30_x370%E3%83%9E%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%AEryzen-7-3700x-%E5%8B%95%E4%BD%9C%E5%AE%9F%E7%B8%BE/</link>
+      <link>http://localhost:63371/posts/2019-08-30_x370%E3%83%9E%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%AEryzen-7-3700x-%E5%8B%95%E4%BD%9C%E5%AE%9F%E7%B8%BE/</link>
       <pubDate>Fri, 30 Aug 2019 00:33:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-30_x370%E3%83%9E%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%AEryzen-7-3700x-%E5%8B%95%E4%BD%9C%E5%AE%9F%E7%B8%BE/</guid>
-      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;メーカー&lt;/th&gt;&#xA;          &lt;th&gt;型式・名称&lt;/th&gt;&#xA;          &lt;th&gt;設定等&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU&lt;/td&gt;&#xA;          &lt;td&gt;AMD&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07SXMZLPK/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=7086927c37609294a3ce4e5a3a9bd6cf&amp;amp;language=ja_JP&#34;&gt;RYZEN 7 3700X&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;～4.35GHz(OC無し) / 全コア負荷100%時4.0GHz(75℃前後)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU Cooler&lt;/td&gt;&#xA;          &lt;td&gt;Cooler Master&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/Cooler-Master-MasterAir-CPU%E3%82%AF%E3%83%BC%E3%83%A9%E3%83%BC-MAP-T6PN-218PC-R1/dp/B076MSL6CJ/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=QAVQF0BNNQOV&amp;amp;keywords=masterair+ma610p&amp;amp;qid=1567092467&amp;amp;s=computers&amp;amp;sprefix=MASTERAIR,computers,275&amp;amp;sr=1-1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=ad15cb4288730dfedfa0d936682f799b&amp;amp;language=ja_JP&#34;&gt;MASTERAIR MA610P&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Mother Board&lt;/td&gt;&#xA;          &lt;td&gt;GIGABYTE&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B06XF3R469/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=6a3302750886869c88a4edf9732bcc9b&amp;amp;language=ja_JP&#34;&gt;GA-AX370-Gaming K7&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;BIOS 42a&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;G.SKILL&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07VMD311T/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=ef2798b59ffcb1936740a7b73bc601eb&amp;amp;language=ja_JP&#34;&gt;Trident Z NEO F4-3600C18D-16GTZN&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz (18-22-22-42) 1.35V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;CORSAIR&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B0123ZC6CO/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=55eecdc512a005f5ca11440fc823e683&amp;amp;language=ja_JP&#34;&gt;VENGEANCE LPX CMK16GX4M2A2666C16R&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2666MHz (16-18-18-35) 1.2V / 2933MHz (16-18-18-35) 1.2V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GPU&lt;/td&gt;&#xA;          &lt;td&gt;GIGABYTE&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B075QYRYN2/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=512192d8a0e6a0b75f6f0f6ab0cc920a&amp;amp;language=ja_JP&#34;&gt;GV-N1060AORUS-6GD (GeForce GTX 1060 6GB)&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;BIOS F60&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SSD/HDD&lt;/td&gt;&#xA;          &lt;td&gt;Western Digital&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E3%80%90%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91WD-BLACK-SN750-%E3%83%8F%E3%82%A4%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9-WDS500G3X0C-EC/dp/B07SL4R5L7/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=37T47D8FWOH6M&amp;amp;keywords=wd+black+nvme&amp;amp;qid=1567092714&amp;amp;s=computers&amp;amp;sprefix=WD+black,computers,263&amp;amp;sr=1-4&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=613c7494c7675d80b8e1dc48d3d0de21&amp;amp;language=ja_JP&#34;&gt;WD BLACKTM SN750 NVMe SSD (WDS500G3X0C)&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;M.2 NVMe PCIe Gen.3x4&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12514606455-14558997805.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190830/00/yuki9902/ca/4c/p/o0417041914558997805.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:63371/posts/2019-08-30_x370%E3%83%9E%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%AEryzen-7-3700x-%E5%8B%95%E4%BD%9C%E5%AE%9F%E7%B8%BE/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;メーカー&lt;/th&gt;&#xA;          &lt;th&gt;型式・名称&lt;/th&gt;&#xA;          &lt;th&gt;設定等&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU&lt;/td&gt;&#xA;          &lt;td&gt;AMD&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07SXMZLPK/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=7086927c37609294a3ce4e5a3a9bd6cf&amp;amp;language=ja_JP&#34;&gt;RYZEN 7 3700X&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;～4.35GHz(OC無し) / 全コア負荷100%時4.0GHz(75℃前後)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU Cooler&lt;/td&gt;&#xA;          &lt;td&gt;Cooler Master&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/Cooler-Master-MasterAir-CPU%E3%82%AF%E3%83%BC%E3%83%A9%E3%83%BC-MAP-T6PN-218PC-R1/dp/B076MSL6CJ/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=QAVQF0BNNQOV&amp;amp;keywords=masterair&amp;#43;ma610p&amp;amp;qid=1567092467&amp;amp;s=computers&amp;amp;sprefix=MASTERAIR,computers,275&amp;amp;sr=1-1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=ad15cb4288730dfedfa0d936682f799b&amp;amp;language=ja_JP&#34;&gt;MASTERAIR MA610P&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Mother Board&lt;/td&gt;&#xA;          &lt;td&gt;GIGABYTE&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B06XF3R469/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=6a3302750886869c88a4edf9732bcc9b&amp;amp;language=ja_JP&#34;&gt;GA-AX370-Gaming K7&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;BIOS 42a&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;G.SKILL&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07VMD311T/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=ef2798b59ffcb1936740a7b73bc601eb&amp;amp;language=ja_JP&#34;&gt;Trident Z NEO F4-3600C18D-16GTZN&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;3600MHz (18-22-22-42) 1.35V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;CORSAIR&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B0123ZC6CO/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=55eecdc512a005f5ca11440fc823e683&amp;amp;language=ja_JP&#34;&gt;VENGEANCE LPX CMK16GX4M2A2666C16R&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2666MHz (16-18-18-35) 1.2V / 2933MHz (16-18-18-35) 1.2V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GPU&lt;/td&gt;&#xA;          &lt;td&gt;GIGABYTE&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B075QYRYN2/ref=as_li_ss_tl?ie=UTF8&amp;amp;psc=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=512192d8a0e6a0b75f6f0f6ab0cc920a&amp;amp;language=ja_JP&#34;&gt;GV-N1060AORUS-6GD (GeForce GTX 1060 6GB)&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;BIOS F60&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SSD/HDD&lt;/td&gt;&#xA;          &lt;td&gt;Western Digital&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E3%80%90%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91WD-BLACK-SN750-%E3%83%8F%E3%82%A4%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9-WDS500G3X0C-EC/dp/B07SL4R5L7/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=37T47D8FWOH6M&amp;amp;keywords=wd&amp;#43;black&amp;#43;nvme&amp;amp;qid=1567092714&amp;amp;s=computers&amp;amp;sprefix=WD&amp;#43;black,computers,263&amp;amp;sr=1-4&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=613c7494c7675d80b8e1dc48d3d0de21&amp;amp;language=ja_JP&#34;&gt;WD BLACKTM SN750 NVMe SSD (WDS500G3X0C)&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;M.2 NVMe PCIe Gen.3x4&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12514606455-14558997805.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190830/00/yuki9902/ca/4c/p/o0417041914558997805.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>http://localhost:1313/posts/2019-08-29_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2019-08-29_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Thu, 29 Aug 2019 23:11:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-29_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-29_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;豚カツを作りました。&lt;/p&gt;&#xA;&lt;p&gt;豚ロースがちょっと薄めだったので、しその葉を挟んで二枚で1つの豚カツを作りました。&lt;/p&gt;&#xA;&lt;p&gt;厚めだと火を通しても柔らかく旨味が逃げにくいです。&lt;/p&gt;&#xA;&lt;p&gt;明日は何を作りましょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
-      <link>http://localhost:1313/posts/2019-08-29_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-08-29_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Thu, 29 Aug 2019 05:55:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-29_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-08-29_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12513641236-14556571164.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190829/05/yuki9902/06/bb/j/o1080081014556571164.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝は悲しい夢を見てしまいました。&lt;/p&gt;&#xA;&lt;p&gt;大切な人に嫌われる夢を。&lt;/p&gt;&#xA;&lt;p&gt;朝からこんなに絶望するなんて。&lt;/p&gt;&#xA;&lt;p&gt;でも夢でよかった。&lt;/p&gt;&#xA;&lt;p&gt;今日も暗く雨が降っていますが、あなたの笑顔で私は元気になれます。&lt;/p&gt;&#xA;&lt;p&gt;どうかよい一日をおくってください。&lt;/p&gt;&#xA;&lt;p&gt;いってらっしゃい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ティーブレイク</title>
-      <link>http://localhost:1313/posts/2019-08-28_%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF/</link>
+      <link>http://localhost:63371/posts/2019-08-28_%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF/</link>
       <pubDate>Wed, 28 Aug 2019 23:15:49 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-28_%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-28_%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF/</guid>
       <description>&lt;p&gt;今夜はホットで紅茶を頂きます。&lt;/p&gt;&#xA;&lt;p&gt;ルピシアのティーブレイク。&lt;/p&gt;&#xA;&lt;p&gt;ニルギリベースのブレンドです。&lt;/p&gt;&#xA;&lt;p&gt;やわらかい味わいだそうです。&lt;/p&gt;&#xA;&lt;p&gt;いつもは華やかなダージリンファーストフラッシュやどっしりとしたダージリンオータムナルを飲みますが、試飲で貰ったのを飲みます。&lt;/p&gt;&#xA;&lt;p&gt;ダージリンファーストフラッシュは何度も抽出できないというか、二度目は青臭さが立つので好きじゃ無いんですが、これはどうなんでしょうね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>G.SKILL Trident Z NEO F4-3600C18D-16GTZN</title>
-      <link>http://localhost:1313/posts/2019-08-28_g.skill-trident-z-neo-f4-3600c18d-16gtzn/</link>
+      <link>http://localhost:63371/posts/2019-08-28_g.skill-trident-z-neo-f4-3600c18d-16gtzn/</link>
       <pubDate>Wed, 28 Aug 2019 21:52:09 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-28_g.skill-trident-z-neo-f4-3600c18d-16gtzn/</guid>
+      <guid>http://localhost:63371/posts/2019-08-28_g.skill-trident-z-neo-f4-3600c18d-16gtzn/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12513525650-14556103091.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190828/21/yuki9902/99/16/j/o3264244814556103091.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12513525650-14556103362.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190828/21/yuki9902/09/a2/j/o3264244814556103362.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;G.SKILLのDDR4メモリ &lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07VMD311T/ref=as_li_ss_sm_am_asin_tl?ie=UTF8&amp;amp;camp=1207&amp;amp;creative=13007&amp;amp;creativeASIN=B07VMD311T&amp;amp;linkCode=shr&amp;amp;tag=yuki9902assoc-22&amp;amp;smid=A2SLCPU63Z4C25&amp;amp;psc=1&#34;&gt;Trident Z NEO F4-3600C18D-16GTZN&lt;/a&gt; を買いました。&lt;/p&gt;&#xA;&lt;p&gt;CORSAIRのDDR4メモリ &lt;a href=&#34;https://www.amazon.co.jp/CORSAIR-DDR4-2666MHz-%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97PC%E7%94%A8-VENGEANCE-CMK16GX4M2A2666C16/dp/B0123ZC6CO/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=CORSAIR&amp;amp;qid=1566995821&amp;amp;s=gateway&amp;amp;sr=8-7&amp;amp;th=1&amp;amp;linkCode=ll1&amp;amp;tag=yuki9902assoc-22&amp;amp;linkId=a256f1e9c9a71a88ea505e1d241f9628&amp;amp;language=ja_JP&#34;&gt;VENGEANCE LPX CMK16GX4M2A2666C16R&lt;/a&gt; をOCして、2933MHzで使ってました。&lt;/p&gt;&#xA;&lt;p&gt;ベンチマークでの測定では1.12倍程度の性能アップです。&lt;/p&gt;&#xA;&lt;p&gt;CPUをRyzen 7 1700からRyzen 7 3700Xへの載せ替えで1.2倍。&lt;/p&gt;&#xA;&lt;p&gt;メモリをCORSAIR VENGEANCE LPXの2933MHzからG.SKILL Trident Z NEOの3600MHzへの載せ替えで1.12倍。&lt;/p&gt;&#xA;&lt;p&gt;これらの恩恵を受けるのは画像編集、動画編集などのCPUやメモリに負荷を掛けるソフトウェアですね。&lt;/p&gt;&#xA;&lt;p&gt;ゲームはCPU性能に影響を受けるDDONしかしていないので良いかな。&lt;/p&gt;&#xA;&lt;p&gt;まあDDONはサービスを終了するけど。&lt;/p&gt;&#xA;&lt;p&gt;2年前に買ったCORSAIR VENGEANCE LPX 2666MHzは17,777円でしたが、今は9,524円ですか。&lt;/p&gt;&#xA;&lt;p&gt;あの頃は仮想通貨のマイニングで自作ユーザー以外の人がメモリなどを買っていたので、PCパーツが軒並み高騰してました(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>大雨と洪水</title>
-      <link>http://localhost:1313/posts/2019-08-28_%E5%A4%A7%E9%9B%A8%E3%81%A8%E6%B4%AA%E6%B0%B4/</link>
+      <link>http://localhost:63371/posts/2019-08-28_%E5%A4%A7%E9%9B%A8%E3%81%A8%E6%B4%AA%E6%B0%B4/</link>
       <pubDate>Wed, 28 Aug 2019 12:24:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-28_%E5%A4%A7%E9%9B%A8%E3%81%A8%E6%B4%AA%E6%B0%B4/</guid>
+      <guid>http://localhost:63371/posts/2019-08-28_%E5%A4%A7%E9%9B%A8%E3%81%A8%E6%B4%AA%E6%B0%B4/</guid>
       <description>&lt;p&gt;雨ですね。&lt;/p&gt;&#xA;&lt;p&gt;こちらでも大雨に近いぐらいの雨が降っています。&lt;/p&gt;&#xA;&lt;p&gt;今回の大雨で亡くなられた方がいるのは悲しいです。&lt;/p&gt;&#xA;&lt;p&gt;テレビの大雑把でいい加減な情報に頼るのでは無く、国土交通省が発表している「&lt;a href=&#34;http://www.river.go.jp/portal/#80&#34;&gt;河川の防災情報&lt;/a&gt;」から情報収集をして、早めに雛行動しましょう。&lt;/p&gt;&#xA;&lt;p&gt;しばらく雨が降り続きますので、お気を付けください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>omelet と rice の融合</title>
-      <link>http://localhost:1313/posts/2019-08-28_omelet-%E3%81%A8-rice-%E3%81%AE%E8%9E%8D%E5%90%88/</link>
+      <link>http://localhost:63371/posts/2019-08-28_omelet-%E3%81%A8-rice-%E3%81%AE%E8%9E%8D%E5%90%88/</link>
       <pubDate>Wed, 28 Aug 2019 00:16:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-28_omelet-%E3%81%A8-rice-%E3%81%AE%E8%9E%8D%E5%90%88/</guid>
+      <guid>http://localhost:63371/posts/2019-08-28_omelet-%E3%81%A8-rice-%E3%81%AE%E8%9E%8D%E5%90%88/</guid>
       <description>&lt;p&gt;今日はオムライスを作りました。&lt;/p&gt;&#xA;&lt;p&gt;ケチャップライスはケチャップと赤ワインと胡椒で味付け。&lt;/p&gt;&#xA;&lt;p&gt;具材はピーマンと玉葱とソーセージ。&lt;/p&gt;&#xA;&lt;p&gt;卵と牛乳。&lt;/p&gt;&#xA;&lt;p&gt;オムレツ専用の鉄のフライパンを熱してバターを溶かし、卵液を流し込んで菜箸で軽く混ぜたりしながら固めていく。&lt;/p&gt;&#xA;&lt;p&gt;火を消して、ケチャップライスを卵の上にのせて、再度着火。&lt;/p&gt;&#xA;&lt;p&gt;卵の生っぽさが無くなったら、フライパンを揺すってオムライスを奥側に寄せて、皿にフライパンを返しながらオムライスをくるっとのせて完成。&lt;/p&gt;&#xA;&lt;p&gt;オムライスは簡単に作れて、食べ応えも見た目もボリュームがあって満足度が高いかな。&lt;/p&gt;&#xA;&lt;p&gt;カレーやデミグラスソースやミートソースやホワイトシチューを掛けてもいけるなんて。&lt;/p&gt;</description>
     </item>
     <item>
       <title>広い台所と高めの調理台が欲しい</title>
-      <link>http://localhost:1313/posts/2019-08-27_%E5%BA%83%E3%81%84%E5%8F%B0%E6%89%80%E3%81%A8%E9%AB%98%E3%82%81%E3%81%AE%E8%AA%BF%E7%90%86%E5%8F%B0%E3%81%8C%E6%AC%B2%E3%81%97%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-08-27_%E5%BA%83%E3%81%84%E5%8F%B0%E6%89%80%E3%81%A8%E9%AB%98%E3%82%81%E3%81%AE%E8%AA%BF%E7%90%86%E5%8F%B0%E3%81%8C%E6%AC%B2%E3%81%97%E3%81%84/</link>
       <pubDate>Tue, 27 Aug 2019 00:01:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-27_%E5%BA%83%E3%81%84%E5%8F%B0%E6%89%80%E3%81%A8%E9%AB%98%E3%82%81%E3%81%AE%E8%AA%BF%E7%90%86%E5%8F%B0%E3%81%8C%E6%AC%B2%E3%81%97%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-08-27_%E5%BA%83%E3%81%84%E5%8F%B0%E6%89%80%E3%81%A8%E9%AB%98%E3%82%81%E3%81%AE%E8%AA%BF%E7%90%86%E5%8F%B0%E3%81%8C%E6%AC%B2%E3%81%97%E3%81%84/</guid>
       <description>&lt;p&gt;昼に大根おろして、揚げを煮て、うどんを湯がいて冷やしうどん。&lt;/p&gt;&#xA;&lt;p&gt;夜に、ごはんを炊く。&lt;/p&gt;&#xA;&lt;p&gt;大根、玉葱、蒟蒻、豚肉で豚汁。&lt;/p&gt;&#xA;&lt;p&gt;卵茹でてらっきょう刻んでタルタルソース。&lt;/p&gt;&#xA;&lt;p&gt;玉葱、トマトを刻んでオリーブオイルとクレイジーソルトと砂糖を混ぜてドレッシング。&lt;/p&gt;&#xA;&lt;p&gt;北海道産の鮭の切り身の骨を抜いて、鱗を落として、小麦粉はたいて、バッター液つけて、パン粉つけてフライにして、茄子もフライ。&lt;/p&gt;&#xA;&lt;p&gt;キャベツの千切りとマヨネーズとゴマドレッシングと柚ドレッシングを混ぜてサラダ。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと料理するだけで半日を費やした気分。&lt;/p&gt;&#xA;&lt;p&gt;台所が狭いので、刻む、加熱と作る順番と使った道具はすぐに片付けていくのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;広いと際限なく散らかしてしまいそう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ポチるか</title>
-      <link>http://localhost:1313/posts/2019-08-26_%E3%83%9D%E3%83%81%E3%82%8B%E3%81%8B/</link>
+      <link>http://localhost:63371/posts/2019-08-26_%E3%83%9D%E3%83%81%E3%82%8B%E3%81%8B/</link>
       <pubDate>Mon, 26 Aug 2019 21:58:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-26_%E3%83%9D%E3%83%81%E3%82%8B%E3%81%8B/</guid>
+      <guid>http://localhost:63371/posts/2019-08-26_%E3%83%9D%E3%83%81%E3%82%8B%E3%81%8B/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07VMD311T/ref=as_li_ss_sm_am_asin_tl?ie=UTF8&amp;amp;camp=1207&amp;amp;creative=13007&amp;amp;creativeASIN=B07VMD311T&amp;amp;linkCode=shr&amp;amp;tag=yuki9902assoc-22&amp;amp;smid=A2SLCPU63Z4C25&amp;amp;psc=1&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/41sElkAIiEL._SL160_.jpg&#34; alt=&#34;&#34;&gt;G.SKILL F4-3600C18D-16GTZN 8GB×2 デスクトップ用メモリ Trident Z Neoシリーズ&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ryzen 3000シリーズ用に最適化されたDDR4メモリです。&lt;/p&gt;&#xA;&lt;p&gt;性能の底上げのためにポチろうかと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>辛そう</title>
-      <link>http://localhost:1313/posts/2019-08-26_%E8%BE%9B%E3%81%9D%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-08-26_%E8%BE%9B%E3%81%9D%E3%81%86/</link>
       <pubDate>Mon, 26 Aug 2019 06:56:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-26_%E8%BE%9B%E3%81%9D%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-08-26_%E8%BE%9B%E3%81%9D%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12511959038-14551827342.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190826/06/yuki9902/b2/83/j/o0810108014551827342.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝は寒くて目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;朝から辛口の四川風のカップヌードルでシャキッとします。&lt;/p&gt;&#xA;&lt;p&gt;無理せず今日も元気よく頑張りましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>秋の音</title>
-      <link>http://localhost:1313/posts/2019-08-25_%E7%A7%8B%E3%81%AE%E9%9F%B3/</link>
+      <link>http://localhost:63371/posts/2019-08-25_%E7%A7%8B%E3%81%AE%E9%9F%B3/</link>
       <pubDate>Sun, 25 Aug 2019 18:13:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-25_%E7%A7%8B%E3%81%AE%E9%9F%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-08-25_%E7%A7%8B%E3%81%AE%E9%9F%B3/</guid>
       <description>&lt;p&gt;今日の吉備高原は昼間でも26度でした。&lt;/p&gt;&#xA;&lt;p&gt;今日は食料品の買い出しに出かけました。&lt;/p&gt;&#xA;&lt;p&gt;お昼ごはんに廻る寿司屋でノドグロを食べました。&lt;/p&gt;&#xA;&lt;p&gt;脂がのっていて、でもクセの無い白身で美味しいです。&lt;/p&gt;&#xA;&lt;p&gt;晩は解凍のさんまを焼きました。&lt;/p&gt;&#xA;&lt;p&gt;今年の近海物のさんまは不漁なので、生さんまは無理かも知れませんけど。&lt;/p&gt;&#xA;&lt;p&gt;秋の虫の音を聞きながら、今夜ものんびり過ごします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜は涼しい</title>
-      <link>http://localhost:1313/posts/2019-08-24_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%B6%BC%E3%81%97%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-08-24_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%B6%BC%E3%81%97%E3%81%84/</link>
       <pubDate>Sat, 24 Aug 2019 21:32:03 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-24_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%B6%BC%E3%81%97%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-08-24_%E4%BB%8A%E5%A4%9C%E3%81%AF%E6%B6%BC%E3%81%97%E3%81%84/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12511307699-14549927320.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190824/21/yuki9902/2b/79/j/o1080081014549927320.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今夜は涼しいです。&lt;/p&gt;&#xA;&lt;p&gt;ということで、ダージリンファーストフラッシュのサングマ ホワイトブルームを煎れてみます。&lt;/p&gt;&#xA;&lt;p&gt;冷たいものばかりだと代謝が落ちます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
-      <link>http://localhost:1313/posts/2019-08-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-08-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Sat, 24 Aug 2019 10:02:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-08-24_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;朝から草刈りしてきました。&lt;/p&gt;&#xA;&lt;p&gt;気温は26度くらいですが、陽射しを浴びると徐々に体温が上がっていきます。&lt;/p&gt;&#xA;&lt;p&gt;アセダックになったのでシャワーを浴びて、すっきりさせました。&lt;/p&gt;&#xA;&lt;p&gt;疲れた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>痒い</title>
-      <link>http://localhost:1313/posts/2019-08-24_%E7%97%92%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-08-24_%E7%97%92%E3%81%84/</link>
       <pubDate>Sat, 24 Aug 2019 01:03:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-24_%E7%97%92%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-08-24_%E7%97%92%E3%81%84/</guid>
       <description>&lt;p&gt;朝、猪対策のため電柵を設置しました。&lt;/p&gt;&#xA;&lt;p&gt;暑かったので半袖半ズボン、長靴、手袋、麦わら帽子の格好で。&lt;/p&gt;&#xA;&lt;p&gt;色々なところを蚊に刺されました。&lt;/p&gt;&#xA;&lt;p&gt;刺されてから半日ほど経った頃が一番痒いです。&lt;/p&gt;&#xA;&lt;p&gt;そう、今、痒いです。&lt;/p&gt;&#xA;&lt;p&gt;痒み止めの残りが少ないので、また買ってこよう。&lt;/p&gt;&#xA;&lt;p&gt;痒いけど、眠いので寝ます。&lt;/p&gt;&#xA;&lt;p&gt;お休みなさい。&lt;/p&gt;&#xA;&lt;p&gt;ポリポリ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨</title>
-      <link>http://localhost:1313/posts/2019-08-23_%E9%9B%A8/</link>
+      <link>http://localhost:63371/posts/2019-08-23_%E9%9B%A8/</link>
       <pubDate>Fri, 23 Aug 2019 19:36:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-23_%E9%9B%A8/</guid>
+      <guid>http://localhost:63371/posts/2019-08-23_%E9%9B%A8/</guid>
       <description>&lt;p&gt;雨が降っていて、扇風機の風が少し寒いです。&lt;/p&gt;&#xA;&lt;p&gt;先日、PCのCPUを交換したので、前のCPUが余っています。&lt;/p&gt;&#xA;&lt;p&gt;OSをインストールしていたNVMe M.2 SSDも1つ余っています。&lt;/p&gt;&#xA;&lt;p&gt;FF14が快適に動作するエントリークラスのグラフィックボードも余っています。&lt;/p&gt;&#xA;&lt;p&gt;4万円ほど投資して、マザーボード、メモリ、電源、ケースを調達してPCを一つ組もうかと思います。&lt;/p&gt;&#xA;&lt;p&gt;組んだPCは甥っ子が来年、情報工学系の大学に進学しそうなので、PCを持ってないらしいので譲ろうかと思います。&lt;/p&gt;&#xA;&lt;p&gt;サブPCにしても良いんですが、サブPCって結局使わないんですよね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>なんだかとっても眠いんだ</title>
-      <link>http://localhost:1313/posts/2019-08-23_%E3%81%AA%E3%82%93%E3%81%A0%E3%81%8B%E3%81%A8%E3%81%A3%E3%81%A6%E3%82%82%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</link>
+      <link>http://localhost:63371/posts/2019-08-23_%E3%81%AA%E3%82%93%E3%81%A0%E3%81%8B%E3%81%A8%E3%81%A3%E3%81%A6%E3%82%82%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</link>
       <pubDate>Fri, 23 Aug 2019 00:04:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-23_%E3%81%AA%E3%82%93%E3%81%A0%E3%81%8B%E3%81%A8%E3%81%A3%E3%81%A6%E3%82%82%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</guid>
+      <guid>http://localhost:63371/posts/2019-08-23_%E3%81%AA%E3%82%93%E3%81%A0%E3%81%8B%E3%81%A8%E3%81%A3%E3%81%A6%E3%82%82%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</guid>
       <description>&lt;p&gt;室温28度、湿度72％&lt;/p&gt;&#xA;&lt;p&gt;これで扇風機の風を受けるととても涼しく感じるけど、体は若干熱中症っぽいのかな。&lt;/p&gt;&#xA;&lt;p&gt;今、雨がシトシト降ってます。&lt;/p&gt;&#xA;&lt;p&gt;良い夢を見ましょう。&lt;/p&gt;&#xA;&lt;p&gt;明日が楽しくなるような、そんな夢を。&lt;/p&gt;&#xA;&lt;p&gt;おやすみ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>炎上</title>
-      <link>http://localhost:1313/posts/2019-08-22_%E7%82%8E%E4%B8%8A/</link>
+      <link>http://localhost:63371/posts/2019-08-22_%E7%82%8E%E4%B8%8A/</link>
       <pubDate>Thu, 22 Aug 2019 19:19:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-22_%E7%82%8E%E4%B8%8A/</guid>
+      <guid>http://localhost:63371/posts/2019-08-22_%E7%82%8E%E4%B8%8A/</guid>
       <description>&lt;p&gt;朝、家から出たときは26度。&lt;/p&gt;&#xA;&lt;p&gt;岡山市内で病院に到着したときは30度。&lt;/p&gt;&#xA;&lt;p&gt;診察終わって車に戻ったら40度。&lt;/p&gt;&#xA;&lt;p&gt;倉敷のイオンモールの駐車場は40度。&lt;/p&gt;&#xA;&lt;p&gt;帰りにスーパーに寄ったときは36度。&lt;/p&gt;&#xA;&lt;p&gt;家に帰ったら28度。&lt;/p&gt;&#xA;&lt;p&gt;湿度80％で頭痛と目眩と胸が苦しくなって、熱中症になりかけた。&lt;/p&gt;&#xA;&lt;p&gt;冷房で24度まで下げて体を冷やしたらなんとか復活。&lt;/p&gt;&#xA;&lt;p&gt;今の室温30度。&lt;/p&gt;&#xA;&lt;p&gt;またちょっと頭痛くなってきた。&lt;/p&gt;&#xA;&lt;p&gt;スーパーからの帰り道。&lt;/p&gt;&#xA;&lt;p&gt;対向車のカーキャリアトラックの荷台に、黒焦げになったワンボックスカーが乗せられて輸送されてた。&lt;/p&gt;&#xA;&lt;p&gt;続いて警察の事故処理車とすれ違った。&lt;/p&gt;&#xA;&lt;p&gt;またちょっと行くとパトカーが回転灯を上に上げて停車してた。&lt;/p&gt;&#xA;&lt;p&gt;消防士が何人かいた。&lt;/p&gt;&#xA;&lt;p&gt;左端の標識がなぎ倒され、スリップ痕が路面に着いていて、その先で何かが燃えた後がしっかり残って、水浸しになってた。&lt;/p&gt;&#xA;&lt;p&gt;どうやら上り坂の大きな左カーブで回りすぎて標識にぶつかって自損事故を起こし路上に横転して、車の燃料に火がついたみたい。&lt;/p&gt;&#xA;&lt;p&gt;救急車が来ていたけれど、怪我人はいなかったみたい。&lt;/p&gt;&#xA;&lt;p&gt;現代の車で横転して車両火災起こすのは珍しいというか、でも今回のはトヨタ車の欠陥も大いにありそうだな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>313ケルビン</title>
-      <link>http://localhost:1313/posts/2019-08-22_313%E3%82%B1%E3%83%AB%E3%83%93%E3%83%B3/</link>
+      <link>http://localhost:63371/posts/2019-08-22_313%E3%82%B1%E3%83%AB%E3%83%93%E3%83%B3/</link>
       <pubDate>Thu, 22 Aug 2019 12:48:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-22_313%E3%82%B1%E3%83%AB%E3%83%93%E3%83%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-08-22_313%E3%82%B1%E3%83%AB%E3%83%93%E3%83%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12510194070-14546831085.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190822/12/yuki9902/cd/41/j/o1080081014546831085.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;アッツイデス&lt;/p&gt;&#xA;&lt;p&gt;ウスグモリデメッチャ暑イデス&lt;/p&gt;&#xA;&lt;p&gt;勘弁シテ頂戴&lt;/p&gt;</description>
     </item>
     <item>
       <title>明日は</title>
-      <link>http://localhost:1313/posts/2019-08-21_%E6%98%8E%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2019-08-21_%E6%98%8E%E6%97%A5%E3%81%AF/</link>
       <pubDate>Wed, 21 Aug 2019 23:02:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-21_%E6%98%8E%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-21_%E6%98%8E%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;明日は心療内科に行ってきます。&lt;/p&gt;&#xA;&lt;p&gt;曇りの一日になりそうです。&lt;/p&gt;&#xA;&lt;p&gt;ついでに美味しいものでも食べてこようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D酔い</title>
-      <link>http://localhost:1313/posts/2019-08-21_3d%E9%85%94%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-08-21_3d%E9%85%94%E3%81%84/</link>
       <pubDate>Wed, 21 Aug 2019 14:02:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-21_3d%E9%85%94%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-08-21_3d%E9%85%94%E3%81%84/</guid>
       <description>&lt;p&gt;気になっていたマインクラフトをインストールしてプレイしてみた。&lt;/p&gt;&#xA;&lt;p&gt;視界のなかの粗い3Dオブジェクトが近すぎて、3D酔いして吐きそうです。&lt;/p&gt;&#xA;&lt;p&gt;本格的に吐きそうになって、30分でプレイを終了してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;3500円の無駄です。&lt;/p&gt;&#xA;&lt;p&gt;試用版があれば良かったのに。&lt;/p&gt;&#xA;&lt;p&gt;しかしゲームの3D酔いは初めてです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>日がな一日</title>
-      <link>http://localhost:1313/posts/2019-08-20_%E6%97%A5%E3%81%8C%E3%81%AA%E4%B8%80%E6%97%A5/</link>
+      <link>http://localhost:63371/posts/2019-08-20_%E6%97%A5%E3%81%8C%E3%81%AA%E4%B8%80%E6%97%A5/</link>
       <pubDate>Tue, 20 Aug 2019 22:58:15 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-20_%E6%97%A5%E3%81%8C%E3%81%AA%E4%B8%80%E6%97%A5/</guid>
+      <guid>http://localhost:63371/posts/2019-08-20_%E6%97%A5%E3%81%8C%E3%81%AA%E4%B8%80%E6%97%A5/</guid>
       <description>&lt;p&gt;自分の車の左のフォグランプが切れました。&lt;/p&gt;&#xA;&lt;p&gt;15時頃に部品を注文したら17時前に着きました。&lt;/p&gt;&#xA;&lt;p&gt;明日取り付けします。&lt;/p&gt;&#xA;&lt;p&gt;今日は雨が降ったり止んだり。&lt;/p&gt;&#xA;&lt;p&gt;雨粒は小さいけど、降るときはざーっと降ります。&lt;/p&gt;&#xA;&lt;p&gt;気温は26度ぐらいでしたが、夕方に28度になり蒸し暑かったです。&lt;/p&gt;&#xA;&lt;p&gt;今は室温28度ですが、扇風機の風が冷たいです。&lt;/p&gt;&#xA;&lt;p&gt;明日は曇り。&lt;/p&gt;&#xA;&lt;p&gt;過ごしやすいと良いんですけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ありゃー</title>
-      <link>http://localhost:1313/posts/2019-08-20_%E3%81%82%E3%82%8A%E3%82%83%E3%83%BC/</link>
+      <link>http://localhost:63371/posts/2019-08-20_%E3%81%82%E3%82%8A%E3%82%83%E3%83%BC/</link>
       <pubDate>Tue, 20 Aug 2019 00:07:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-20_%E3%81%82%E3%82%8A%E3%82%83%E3%83%BC/</guid>
+      <guid>http://localhost:63371/posts/2019-08-20_%E3%81%82%E3%82%8A%E3%82%83%E3%83%BC/</guid>
       <description>&lt;p&gt;もう8月の20日なのですね。&lt;/p&gt;&#xA;&lt;p&gt;一日があっという間に感じるのは歳をとりすぎたせいかなぁ。&lt;/p&gt;&#xA;&lt;p&gt;カップラーメンの3分は長く感じるんだけどね(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;昼過ぎに帰ってきてから、軽トラックのトランスミッションを下ろして、クラッチプレートの交換をする作業をしました。&lt;/p&gt;&#xA;&lt;p&gt;明日は、トランスミッションを組み付けます。&lt;/p&gt;&#xA;&lt;p&gt;コストを省いた車種なので、荷台からのメンテナンスホールが無いという変わったものでした。&lt;/p&gt;&#xA;&lt;p&gt;全部下側から作業しなくてはいけないので面倒臭いと言えば面倒臭い。&lt;/p&gt;&#xA;&lt;p&gt;自分の車ほどじゃないけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ちゃーしゅーや亀王</title>
-      <link>http://localhost:1313/posts/2019-08-19_%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%82%84%E4%BA%80%E7%8E%8B/</link>
+      <link>http://localhost:63371/posts/2019-08-19_%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%82%84%E4%BA%80%E7%8E%8B/</link>
       <pubDate>Mon, 19 Aug 2019 13:18:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-19_%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%82%84%E4%BA%80%E7%8E%8B/</guid>
+      <guid>http://localhost:63371/posts/2019-08-19_%E3%81%A1%E3%82%83%E3%83%BC%E3%81%97%E3%82%85%E3%83%BC%E3%82%84%E4%BA%80%E7%8E%8B/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12508874362-14542985603.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190819/13/yuki9902/8e/54/j/o1080081014542985603.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昔味の厚切りちゃーしゅーが好きでしたが、厚切りちゃーしゅーがメニューからなくなり普通のちゃーしゅーになってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;それでも結構分厚いですけど。&lt;/p&gt;&#xA;&lt;p&gt;昔味の胡椒と唐辛子と焦がしニンニク油のパンチが好きです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダンまち ファミリアミス 2</title>
-      <link>http://localhost:1313/posts/2019-08-19_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1-%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%82%A2%E3%83%9F%E3%82%B9-2/</link>
+      <link>http://localhost:63371/posts/2019-08-19_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1-%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%82%A2%E3%83%9F%E3%82%B9-2/</link>
       <pubDate>Mon, 19 Aug 2019 01:40:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-19_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1-%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%82%A2%E3%83%9F%E3%82%B9-2/</guid>
+      <guid>http://localhost:63371/posts/2019-08-19_%E3%83%80%E3%83%B3%E3%81%BE%E3%81%A1-%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%82%A2%E3%83%9F%E3%82%B9-2/</guid>
       <description>&lt;p&gt;遂に、サンジョウノ春姫が登場しました。&lt;/p&gt;&#xA;&lt;p&gt;春姫は紐神様（ヘスティア）や剣姫（アイズ）やポーター（リリルカ）やギルド職員（エイナ）や酒場のウエイトレス（シル）を圧倒するヒロインです。&lt;/p&gt;&#xA;&lt;p&gt;リュー・リオンは並ぶかな。&lt;/p&gt;&#xA;&lt;p&gt;原作小説だと8巻ですね。&lt;/p&gt;&#xA;&lt;p&gt;文字量は二時間以上の映画が作れるくらいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;自分が娼婦で汚れていると思い込んで、命を奪われる境遇すらも諦めて受け入れてしまう春姫を、なんとしてでも救い出そうとするベル・クラネルとヤマト・命。&lt;/p&gt;&#xA;&lt;p&gt;男の裸を見ると気絶してしまう春姫は、事に及ぶ前に客に突き返され、娼婦としての経験は全くなかったのですが、本人は毎回気絶しているので知るよしもなく…。&lt;/p&gt;&#xA;&lt;p&gt;原作の最新巻では、悪夢に魘されるベル・クラネルを心配したサンジョウノ・春姫との添い寝が毎晩…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あっついっす</title>
-      <link>http://localhost:1313/posts/2019-08-18_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E3%81%A3%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-08-18_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E3%81%A3%E3%81%99/</link>
       <pubDate>Sun, 18 Aug 2019 12:48:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-18_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E3%81%A3%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-08-18_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E3%81%A3%E3%81%99/</guid>
       <description>&lt;p&gt;夏バテしてませんか。&lt;/p&gt;&#xA;&lt;p&gt;梅雨終わりの夏バテから回復して、体がようやく暑さに慣れてきました。&lt;/p&gt;&#xA;&lt;p&gt;室温32.4度ですが平気です(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;涼しいショッピングモールや映画館でデートをして美味しいものを食べたいと思うけれど、独り者は家でおとなしくアイスコーヒーでも飲みながら動画やネット小説を楽しみます。&lt;/p&gt;&#xA;&lt;p&gt;最近、アイスコーヒーやアイスティーを作ってません。&lt;/p&gt;&#xA;&lt;p&gt;もっぱら既製品の無糖無香料のアイスコーヒーばかりです。&lt;/p&gt;&#xA;&lt;p&gt;冷蔵庫が一杯でボトルを冷やすスペースがないからですが。&lt;/p&gt;&#xA;&lt;p&gt;さて、午後もあなたが笑顔でいられるように良い事がありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD Ryzen 7 3700X 届きました</title>
-      <link>http://localhost:1313/posts/2019-08-17_amd-ryzen-7-3700x-%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2019-08-17_amd-ryzen-7-3700x-%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sat, 17 Aug 2019 23:10:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-17_amd-ryzen-7-3700x-%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2019-08-17_amd-ryzen-7-3700x-%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12508164517-14540862899.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190817/22/yuki9902/3e/50/j/o0966064014540862899.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;左がAMD RYZEN 7 1700、右がAMD RYZEN 7 3700X。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12508164517-14540862992.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190817/22/yuki9902/96/85/j/o0966064014540862992.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUの箱を開封して中箱を取り出し。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12508164517-14540863068.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190817/22/yuki9902/0c/da/j/o0966064014540863068.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ソケットAM4に装着します。&lt;/p&gt;&#xA;&lt;p&gt;1700も3700Xも8コア16スレッドのCPUです。&lt;/p&gt;&#xA;&lt;p&gt;ベンチマークの結果、シングルスレッド、マルチスレッド共に1.2倍の性能アップになりました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードはGIGABYTE GA-AX370-Gaming K7で、AMD X370チップセットを搭載しています。&lt;/p&gt;&#xA;&lt;p&gt;当時発売されたX370マザーボードの中では最上位モデルになると思います。&lt;/p&gt;&#xA;&lt;p&gt;amazon.co.jpのレビューには私のレビューしかありませんね…。&lt;/p&gt;&#xA;&lt;p&gt;さて、BIOSは現在最新のF42Aに更新しています。&lt;/p&gt;&#xA;&lt;p&gt;3700Xを搭載して起動した後はBIOS(UEFI)の画面が表示されるまでしばらく掛かります。&lt;/p&gt;&#xA;&lt;p&gt;POST CODEを見ていると色々チェックして、新CPU用に設定を変更しているようです。&lt;/p&gt;&#xA;&lt;p&gt;BIOS(UEFI)が表示されたら、DELキーを押して設定の変更を行います。&lt;/p&gt;&#xA;&lt;p&gt;タイミングによってはLoad Default Settingが表示されて、BIOSの設定が初期化されます。&lt;/p&gt;&#xA;&lt;p&gt;メモリ設定や起動ドライブ、PCI-E設定、サウンドデバイスなどの設定を確認して、設定を保存して、再起動します。&lt;/p&gt;&#xA;&lt;p&gt;Windows 10 Proは特に問題なく起動しました。&lt;/p&gt;&#xA;&lt;p&gt;3700Xを搭載する前にAMD RYZEN MASTERと言うアプリケーションをインストールしていた場合、そのアプリが起動しない場合があります。&lt;/p&gt;&#xA;&lt;p&gt;一旦アンインストールして、Regedit.exeで、「\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AMDRyzenMasterDriverV13」のキーを削除して再起動します。&lt;/p&gt;&#xA;&lt;p&gt;再起動後、AMD RYZEN MASTERをインストールし直します。&lt;/p&gt;&#xA;&lt;p&gt;レジストリに「\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AMDRyzenMasterDriverV14」のキーがあればOKです。&lt;/p&gt;&#xA;&lt;p&gt;後は好きにオーバークロックしましょう(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;さて、デフォルト状態でベンチマークを取りました。&lt;/p&gt;&#xA;&lt;p&gt;FF14 紅蓮のリベレーター(最高品質） DX11&lt;/p&gt;&#xA;&lt;p&gt;スコア：12253→13040  1.06倍&lt;/p&gt;&#xA;&lt;p&gt;FPS：83.820→87.542  1.04倍&lt;/p&gt;&#xA;&lt;p&gt;FF14 漆黒のヴィランズ（最高品質） DX11&lt;/p&gt;&#xA;&lt;p&gt;スコア：12183→13405  1.10倍&lt;/p&gt;&#xA;&lt;p&gt;FPS：85.81959→91.09769  1.06倍&lt;/p&gt;&#xA;&lt;p&gt;FF15（標準品質） DX12&lt;/p&gt;&#xA;&lt;p&gt;スコア：7178→7137  0.994倍&lt;/p&gt;&#xA;&lt;p&gt;DDON（ゲーム本体）&lt;/p&gt;&#xA;&lt;p&gt;FPS：54→60（上限）&lt;/p&gt;&#xA;&lt;p&gt;サービス終了が決定してダウンロードできなくなったDDON(Dragon&amp;rsquo;s Dogma Online)はCPU依存率が高いので、FPSが上限の60に張り付きました。&lt;/p&gt;&#xA;&lt;p&gt;FF14、FF15はCPU性能の差であまり動作は改善されません。&lt;/p&gt;&#xA;&lt;p&gt;特にFF15はGPU依存度が高いので、CPUを買い換えるよりGeForce GTX 1060 6GBより2ランク上のGeForce GTX 1660Tiか1070Tiを買った方が幸せになれるかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ポチった</title>
-      <link>http://localhost:1313/posts/2019-08-17_%E3%83%9D%E3%83%81%E3%81%A3%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2019-08-17_%E3%83%9D%E3%83%81%E3%81%A3%E3%81%9F/</link>
       <pubDate>Sat, 17 Aug 2019 00:01:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-17_%E3%83%9D%E3%83%81%E3%81%A3%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2019-08-17_%E3%83%9D%E3%83%81%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;AMD RYZEN 7 3700Xを熱帯密林でポチってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;10月頃には価格がだいぶ下がるんでしょうけど、今は税込み43000円ぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;14nmプロセスで製造されたAMD RYZEN 7 1700を現在使っているんですが、RYZEN 7 3700は7nmプロセスで製造され、1.3倍程度性能が上がります。&lt;/p&gt;&#xA;&lt;p&gt;日本が開発している3nmプロセスもそのうちコンシューマー向けプロセッサに採用されることになるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;話は変わるんですが、&lt;/p&gt;&#xA;&lt;p&gt;3nmプロセスには日本で生産される超高純度フッ化水素が必須です。&lt;/p&gt;&#xA;&lt;p&gt;テレビでは半導体生産にフッ化水素が必要と言っていますが、其れよりも高濃度の6フッ化ウランを生産するにも高純度フッ化水素が必要であり6フッ化ウランは核兵器になる事の方が問題です。&lt;/p&gt;&#xA;&lt;p&gt;SK国からNK国に高純度フッ化水素が密輸されていることの問題は、日本から輸出した高純度フッ化水素がSK国を経由してそのまま核兵器の製造に使われるからです。&lt;/p&gt;&#xA;&lt;p&gt;NK国に核兵器製造に必要な材料を密輸していたSK国をホワイトリストから外したのは、当たり前のことなのです。&lt;/p&gt;&#xA;&lt;p&gt;そもそも2006年にホワイトリストに登録したこと自体がおかしいんですけどね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD Ryzen 7 3700X 欲しいなぁ</title>
-      <link>http://localhost:1313/posts/2019-08-16_amd-ryzen-7-3700x-%E6%AC%B2%E3%81%97%E3%81%84%E3%81%AA%E3%81%81/</link>
+      <link>http://localhost:63371/posts/2019-08-16_amd-ryzen-7-3700x-%E6%AC%B2%E3%81%97%E3%81%84%E3%81%AA%E3%81%81/</link>
       <pubDate>Fri, 16 Aug 2019 15:29:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-16_amd-ryzen-7-3700x-%E6%AC%B2%E3%81%97%E3%81%84%E3%81%AA%E3%81%81/</guid>
+      <guid>http://localhost:63371/posts/2019-08-16_amd-ryzen-7-3700x-%E6%AC%B2%E3%81%97%E3%81%84%E3%81%AA%E3%81%81/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/product/B07SXMZLPK/ref=as_li_ss_sm_am_asin_tl?ie=UTF8&amp;amp;camp=1207&amp;amp;creative=13007&amp;amp;creativeASIN=B07SXMZLPK&amp;amp;linkCode=shr&amp;amp;tag=yuki9902assoc-22&amp;amp;smid=AN1VRQENFRJN5&amp;amp;psc=1&#34;&gt;&lt;img src=&#34;https://images-fe.ssl-images-amazon.com/images/I/317u-snMMVL._SL160_.jpg&#34; alt=&#34;&#34;&gt;AMD Ryzen 7 3700X with Wraith Prism cooler 3.6GHz 8コア / 16スレッド 36MB 65W【国内正規代理店品】 100-100000071BOX&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;欲しいので買おうかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>蒸し暑い</title>
-      <link>http://localhost:1313/posts/2019-08-16_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-08-16_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</link>
       <pubDate>Fri, 16 Aug 2019 10:30:53 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-16_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-08-16_%E8%92%B8%E3%81%97%E6%9A%91%E3%81%84/</guid>
       <description>&lt;p&gt;台風の中心が過ぎ去りました。&lt;/p&gt;&#xA;&lt;p&gt;湿気を大量に持ってきたので蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;朝からイノシシ除けの電柵を設置しました。&lt;/p&gt;&#xA;&lt;p&gt;イノシシは台風でもお構いなしに田圃の畦を崩します。&lt;/p&gt;&#xA;&lt;p&gt;畦を崩すと田圃の水が抜けてしまったり、水抜き溝が埋まってしまったりします。&lt;/p&gt;&#xA;&lt;p&gt;土を上にすくい上げ、何十メートルも直すのは重労働です。&lt;/p&gt;&#xA;&lt;p&gt;駆除を依頼しても、最近の猟師は、猟が下手です。&lt;/p&gt;&#xA;&lt;p&gt;困りものです。&lt;/p&gt;&#xA;&lt;p&gt;動物愛護？ふっ、何其れ、それでお腹膨れるの？&lt;/p&gt;</description>
     </item>
     <item>
       <title>台風最接近</title>
-      <link>http://localhost:1313/posts/2019-08-15_%E5%8F%B0%E9%A2%A8%E6%9C%80%E6%8E%A5%E8%BF%91/</link>
+      <link>http://localhost:63371/posts/2019-08-15_%E5%8F%B0%E9%A2%A8%E6%9C%80%E6%8E%A5%E8%BF%91/</link>
       <pubDate>Thu, 15 Aug 2019 17:31:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-15_%E5%8F%B0%E9%A2%A8%E6%9C%80%E6%8E%A5%E8%BF%91/</guid>
+      <guid>http://localhost:63371/posts/2019-08-15_%E5%8F%B0%E9%A2%A8%E6%9C%80%E6%8E%A5%E8%BF%91/</guid>
       <description>&lt;p&gt;現在、台風の中心は広島県を北上中です。&lt;/p&gt;&#xA;&lt;p&gt;岡山では最接近ですが、雨は小康状態です。&lt;/p&gt;&#xA;&lt;p&gt;風も昼間は強く吹いていましたが、今は小康状態です。&lt;/p&gt;&#xA;&lt;p&gt;低気圧で体の調子がおかしいですが、其れぐらいかな。&lt;/p&gt;&#xA;&lt;p&gt;後は湿気の多さにまいります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨の中</title>
-      <link>http://localhost:1313/posts/2019-08-14_%E9%9B%A8%E3%81%AE%E4%B8%AD/</link>
+      <link>http://localhost:63371/posts/2019-08-14_%E9%9B%A8%E3%81%AE%E4%B8%AD/</link>
       <pubDate>Wed, 14 Aug 2019 20:35:04 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-14_%E9%9B%A8%E3%81%AE%E4%B8%AD/</guid>
+      <guid>http://localhost:63371/posts/2019-08-14_%E9%9B%A8%E3%81%AE%E4%B8%AD/</guid>
       <description>&lt;p&gt;台風の雨の中、風があんまり吹いていないので、花火が打ち上がっています。&lt;/p&gt;&#xA;&lt;p&gt;観覧客は殆ど居ないと思いますが。&lt;/p&gt;&#xA;&lt;p&gt;家から岡を一つ超えた先ですが、花火が見えます。&lt;/p&gt;&#xA;&lt;p&gt;台風の低気圧で、呻くほどに頭が痛かったのですが、鎮痛剤を飲んで落ち着いています。&lt;/p&gt;&#xA;&lt;p&gt;花火の音を聞きつつ、家で動画を見ます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨が降り出しました</title>
-      <link>http://localhost:1313/posts/2019-08-14_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%82%8A%E5%87%BA%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2019-08-14_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%82%8A%E5%87%BA%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 14 Aug 2019 14:03:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-14_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%82%8A%E5%87%BA%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2019-08-14_%E9%9B%A8%E3%81%8C%E9%99%8D%E3%82%8A%E5%87%BA%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;台風の雨雲が遂にやってまいりました。&lt;/p&gt;&#xA;&lt;p&gt;もうすぐ強風圏内に入ります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>シャリアピンステーキ</title>
-      <link>http://localhost:1313/posts/2019-08-14_%E3%82%B7%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%94%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/</link>
+      <link>http://localhost:63371/posts/2019-08-14_%E3%82%B7%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%94%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/</link>
       <pubDate>Wed, 14 Aug 2019 11:05:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-14_%E3%82%B7%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%94%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/</guid>
+      <guid>http://localhost:63371/posts/2019-08-14_%E3%82%B7%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%94%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12506202303-14535204285.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190814/11/yuki9902/0c/5c/j/o1080081014535204285.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;丸一日漬け込んだ1ポンドの牛肉をスキレットで焼きました。&lt;/p&gt;&#xA;&lt;p&gt;漬け込んだタレと肉汁にバターと赤ワインと砂糖と醤油を加えてソースにしました。&lt;/p&gt;&#xA;&lt;p&gt;旨いんですが筋はやっぱり堅いです(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>So, hot morning Today.</title>
-      <link>http://localhost:1313/posts/2019-08-14_so-hot-morning-today./</link>
+      <link>http://localhost:63371/posts/2019-08-14_so-hot-morning-today./</link>
       <pubDate>Wed, 14 Aug 2019 08:37:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-14_so-hot-morning-today./</guid>
+      <guid>http://localhost:63371/posts/2019-08-14_so-hot-morning-today./</guid>
       <description>&lt;p&gt;朝から30度を超えています。&lt;/p&gt;&#xA;&lt;p&gt;暑いですね。&lt;/p&gt;&#xA;&lt;p&gt;さてこれから昼の食事の準備を始めます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Annie, are you ok?</title>
-      <link>http://localhost:1313/posts/2019-08-14_annie-are-you-ok_/</link>
+      <link>http://localhost:63371/posts/2019-08-14_annie-are-you-ok_/</link>
       <pubDate>Wed, 14 Aug 2019 01:15:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-14_annie-are-you-ok_/</guid>
+      <guid>http://localhost:63371/posts/2019-08-14_annie-are-you-ok_/</guid>
       <description>&lt;p&gt;Michael JacksonのSmooth Climinalのサビの部分が頭の中でグルグル回ります。&lt;/p&gt;&#xA;&lt;p&gt;Annie, are you ok?&lt;/p&gt;&#xA;&lt;p&gt;So, Annie are you ok&lt;/p&gt;&#xA;&lt;p&gt;Are you ok, Annie?&lt;/p&gt;&#xA;&lt;p&gt;アニーを心配しているこのサビをひたすら繰り返すだけですけど。&lt;/p&gt;&#xA;&lt;p&gt;それだけに印象が強いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>仕込み</title>
-      <link>http://localhost:1313/posts/2019-08-13_%E4%BB%95%E8%BE%BC%E3%81%BF/</link>
+      <link>http://localhost:63371/posts/2019-08-13_%E4%BB%95%E8%BE%BC%E3%81%BF/</link>
       <pubDate>Tue, 13 Aug 2019 22:53:04 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-13_%E4%BB%95%E8%BE%BC%E3%81%BF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-13_%E4%BB%95%E8%BE%BC%E3%81%BF/</guid>
       <description>&lt;p&gt;明日、弟家族が帰ってくるので、食事の仕込みをしました。&lt;/p&gt;&#xA;&lt;p&gt;シャリアピンステーキ用に買っていた1ポンドの牛肉に林檎、玉葱、大蒜をミキサージューサーで潰したものを掛け、ビニール袋に入れて冷蔵庫に入れました。&lt;/p&gt;&#xA;&lt;p&gt;唐揚げ用の鶏もも肉に同じく林檎、玉葱、大蒜、それから塩麹、酒を掛けてビニール袋に入れて冷蔵庫に入れました。&lt;/p&gt;&#xA;&lt;p&gt;それからBBQ用の肉、ホルモンうどん用の牛の小腸を冷凍庫から冷蔵庫に移し解凍。&lt;/p&gt;&#xA;&lt;p&gt;明日の晩ご飯にラーメンを出す予定なので、煮卵を準備しました。&lt;/p&gt;&#xA;&lt;p&gt;明日は朝から料理をします。&lt;/p&gt;&#xA;&lt;p&gt;BBQは、単に肉を焼くだけじゃないのよ。&lt;/p&gt;&#xA;&lt;p&gt;メイン以外の準備が大変。&lt;/p&gt;&#xA;&lt;p&gt;明日は地元の神社の夏祭りですが、台風10号の影響が午後には出そうで、たぶん雨が降ります。&lt;/p&gt;&#xA;&lt;p&gt;花火も祭りも中止だろうな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>歯磨き粉</title>
-      <link>http://localhost:1313/posts/2019-08-13_%E6%AD%AF%E7%A3%A8%E3%81%8D%E7%B2%89/</link>
+      <link>http://localhost:63371/posts/2019-08-13_%E6%AD%AF%E7%A3%A8%E3%81%8D%E7%B2%89/</link>
       <pubDate>Tue, 13 Aug 2019 18:20:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-13_%E6%AD%AF%E7%A3%A8%E3%81%8D%E7%B2%89/</guid>
+      <guid>http://localhost:63371/posts/2019-08-13_%E6%AD%AF%E7%A3%A8%E3%81%8D%E7%B2%89/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12505915614-14534356784.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190813/18/yuki9902/49/7c/j/o0640096614534356784.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;数十年ぶりにチョコミント味を食べてみました。&lt;/p&gt;&#xA;&lt;p&gt;歯磨き粉です。&lt;/p&gt;&#xA;&lt;p&gt;それ以外の何物でもない(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>http://localhost:1313/posts/2019-08-13_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2019-08-13_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Tue, 13 Aug 2019 00:34:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-13_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-13_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;ほぼ毎年ですが、8月13日にはお墓参りに行きます。&lt;/p&gt;&#xA;&lt;p&gt;そして誕生日でもあります。&lt;/p&gt;&#xA;&lt;p&gt;私にとっては自分のルーツ、日本人としての8月の重みを考える日になっています。&lt;/p&gt;&#xA;&lt;p&gt;SNSが出来てから人に祝って貰うことが増えて、結構嬉しいものです。&lt;/p&gt;&#xA;&lt;p&gt;祝って貰うというのは自分が生きていても良いんだなと思う事でもあります。&lt;/p&gt;&#xA;&lt;p&gt;先がどうなるかは分かりませんが、色々なことにちょっとずつでも挑戦して新しい道を開いていけたら良いなと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>台風10号</title>
-      <link>http://localhost:1313/posts/2019-08-12_%E5%8F%B0%E9%A2%A810%E5%8F%B7/</link>
+      <link>http://localhost:63371/posts/2019-08-12_%E5%8F%B0%E9%A2%A810%E5%8F%B7/</link>
       <pubDate>Mon, 12 Aug 2019 23:41:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-12_%E5%8F%B0%E9%A2%A810%E5%8F%B7/</guid>
+      <guid>http://localhost:63371/posts/2019-08-12_%E5%8F%B0%E9%A2%A810%E5%8F%B7/</guid>
       <description>&lt;p&gt;予想進路がかなりヤバいです。&lt;/p&gt;&#xA;&lt;p&gt;豊後水道を北上して中国地方に上陸しそうです。&lt;/p&gt;&#xA;&lt;p&gt;岡山は台風の東側になりそうなので、かなり激しい暴風雨になるかな。&lt;/p&gt;&#xA;&lt;p&gt;家が飛ばないように祈るしかないか…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ペルセウス座流星群</title>
-      <link>http://localhost:1313/posts/2019-08-12_%E3%83%9A%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</link>
+      <link>http://localhost:63371/posts/2019-08-12_%E3%83%9A%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</link>
       <pubDate>Mon, 12 Aug 2019 18:48:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-12_%E3%83%9A%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</guid>
+      <guid>http://localhost:63371/posts/2019-08-12_%E3%83%9A%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</guid>
       <description>&lt;p&gt;明日、13日の朝4時頃に極大を迎えるペルセウス座流星群。&lt;/p&gt;&#xA;&lt;p&gt;今夜は満月に近いので流星を見つけづらいです。&lt;/p&gt;&#xA;&lt;p&gt;3時頃には月が沈んでいるので流星が見えるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;薄明の涼しい朝方に天体観測するのも良いかもね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は君が代記念日</title>
-      <link>http://localhost:1313/posts/2019-08-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%90%9B%E3%81%8C%E4%BB%A3%E8%A8%98%E5%BF%B5%E6%97%A5/</link>
+      <link>http://localhost:63371/posts/2019-08-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%90%9B%E3%81%8C%E4%BB%A3%E8%A8%98%E5%BF%B5%E6%97%A5/</link>
       <pubDate>Mon, 12 Aug 2019 01:22:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%90%9B%E3%81%8C%E4%BB%A3%E8%A8%98%E5%BF%B5%E6%97%A5/</guid>
+      <guid>http://localhost:63371/posts/2019-08-12_%E4%BB%8A%E6%97%A5%E3%81%AF%E5%90%9B%E3%81%8C%E4%BB%A3%E8%A8%98%E5%BF%B5%E6%97%A5/</guid>
       <description>&lt;p&gt;君が代、歌詞をみないで歌える？&lt;/p&gt;&#xA;&lt;p&gt;▼本日限定！ブログスタンプ&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/gCCcYvLxNcIOjwXqyQEP&#34;&gt;&lt;img src=&#34;https://c.stat100.ameba.jp/img/stamp/event/stamp_0812.png&#34; alt=&#34;あなたもスタンプをGETしよう&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://lo.ameba.jp/v1/gCCcYvLxNcIOjwXqyQEP&#34;&gt;あなたもスタンプをGETしよう&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;日本国民なら歌えて当然でしょう。&lt;/p&gt;&#xA;&lt;p&gt;歌えないの？ぷーくすくす&lt;/p&gt;</description>
     </item>
     <item>
       <title>4時</title>
-      <link>http://localhost:1313/posts/2019-08-11_4%E6%99%82/</link>
+      <link>http://localhost:63371/posts/2019-08-11_4%E6%99%82/</link>
       <pubDate>Sun, 11 Aug 2019 10:07:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-11_4%E6%99%82/</guid>
+      <guid>http://localhost:63371/posts/2019-08-11_4%E6%99%82/</guid>
       <description>&lt;p&gt;4時に起きて、5時からラジコンヘリによる防虫剤散布をしました。&lt;/p&gt;&#xA;&lt;p&gt;米の天敵は亀虫です。&lt;/p&gt;&#xA;&lt;p&gt;亀虫は籾に吸い付いて、米が黒く変色します。&lt;/p&gt;&#xA;&lt;p&gt;黒い斑点がある米は2等米になってしまいます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
-      <link>http://localhost:1313/posts/2019-08-10_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+      <link>http://localhost:63371/posts/2019-08-10_%E4%BB%8A%E6%97%A5%E3%82%82/</link>
       <pubDate>Sat, 10 Aug 2019 13:54:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-10_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+      <guid>http://localhost:63371/posts/2019-08-10_%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
       <description>&lt;p&gt;暑いですが、湿気が少ないので比較的過ごしやすい気がします。&lt;/p&gt;&#xA;&lt;p&gt;でも自室は2階の西側。&lt;/p&gt;&#xA;&lt;p&gt;午後からの陽射しで部屋は滅茶苦茶熱いです。&lt;/p&gt;&#xA;&lt;p&gt;明日は夜明け頃から稲の害虫予防の作業をする予定です。&lt;/p&gt;&#xA;&lt;p&gt;ま、大型のラジコンヘリで防虫剤を散布するだけですが。&lt;/p&gt;&#xA;&lt;p&gt;朝4時に起きられるかが心配ですが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>デスマーチからはじまる異世界狂想曲</title>
-      <link>http://localhost:1313/posts/2019-08-10_%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2/</link>
+      <link>http://localhost:63371/posts/2019-08-10_%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2/</link>
       <pubDate>Sat, 10 Aug 2019 00:51:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-10_%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2/</guid>
+      <guid>http://localhost:63371/posts/2019-08-10_%E3%83%87%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%81%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%8B%82%E6%83%B3%E6%9B%B2/</guid>
       <description>&lt;p&gt;デスマーチからはじまる異世界狂想曲の新巻が届いたのでよみます。&lt;/p&gt;&#xA;&lt;p&gt;深夜になるとさすがに涼しいです。&lt;/p&gt;&#xA;&lt;p&gt;室温は29度以上ありますが。&lt;/p&gt;&#xA;&lt;p&gt;デスマーチかぁ…。&lt;/p&gt;&#xA;&lt;p&gt;デスマーチよりヘルファイヤーと言うレベル、煉獄を経験しました。&lt;/p&gt;&#xA;&lt;p&gt;そんな中で体も精神も壊れましたねぇ。&lt;/p&gt;&#xA;&lt;p&gt;あの業界から足を洗ってもうすぐ10年です。&lt;/p&gt;&#xA;&lt;p&gt;たくさんのタスクを抱え、長時間思考し続けることが出来なくなりました。&lt;/p&gt;&#xA;&lt;p&gt;簡単なプログラムさえ書けない今日この頃。&lt;/p&gt;&#xA;&lt;p&gt;悲しい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も祈りを</title>
-      <link>http://localhost:1313/posts/2019-08-09_%E4%BB%8A%E6%97%A5%E3%82%82%E7%A5%88%E3%82%8A%E3%82%92/</link>
+      <link>http://localhost:63371/posts/2019-08-09_%E4%BB%8A%E6%97%A5%E3%82%82%E7%A5%88%E3%82%8A%E3%82%92/</link>
       <pubDate>Fri, 09 Aug 2019 21:48:20 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-09_%E4%BB%8A%E6%97%A5%E3%82%82%E7%A5%88%E3%82%8A%E3%82%92/</guid>
+      <guid>http://localhost:63371/posts/2019-08-09_%E4%BB%8A%E6%97%A5%E3%82%82%E7%A5%88%E3%82%8A%E3%82%92/</guid>
       <description>&lt;p&gt;今日も長崎に祈りを捧げましょう。&lt;/p&gt;&#xA;&lt;p&gt;なくなった人は帰ってはこない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>真アジ</title>
-      <link>http://localhost:1313/posts/2019-08-08_%E7%9C%9F%E3%82%A2%E3%82%B8/</link>
+      <link>http://localhost:63371/posts/2019-08-08_%E7%9C%9F%E3%82%A2%E3%82%B8/</link>
       <pubDate>Thu, 08 Aug 2019 19:08:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-08_%E7%9C%9F%E3%82%A2%E3%82%B8/</guid>
+      <guid>http://localhost:63371/posts/2019-08-08_%E7%9C%9F%E3%82%A2%E3%82%B8/</guid>
       <description>&lt;p&gt;今日は真アジを3枚おろしにして小麦粉を付けて揚げました。&lt;/p&gt;&#xA;&lt;p&gt;小さな鰺だたので下処理に掛かった時間は結構なものですが、食べるのは一瞬です。&lt;/p&gt;&#xA;&lt;p&gt;かといって、下処理して骨を抜いてまでしてあるものは高いですからね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>世は全て事もなし</title>
-      <link>http://localhost:1313/posts/2019-08-07_%E4%B8%96%E3%81%AF%E5%85%A8%E3%81%A6%E4%BA%8B%E3%82%82%E3%81%AA%E3%81%97/</link>
+      <link>http://localhost:63371/posts/2019-08-07_%E4%B8%96%E3%81%AF%E5%85%A8%E3%81%A6%E4%BA%8B%E3%82%82%E3%81%AA%E3%81%97/</link>
       <pubDate>Wed, 07 Aug 2019 18:15:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-07_%E4%B8%96%E3%81%AF%E5%85%A8%E3%81%A6%E4%BA%8B%E3%82%82%E3%81%AA%E3%81%97/</guid>
+      <guid>http://localhost:63371/posts/2019-08-07_%E4%B8%96%E3%81%AF%E5%85%A8%E3%81%A6%E4%BA%8B%E3%82%82%E3%81%AA%E3%81%97/</guid>
       <description>&lt;p&gt;昼下がり、空が晴れてきて気温がぐっとあがり、33度ぐらいになりました。&lt;/p&gt;&#xA;&lt;p&gt;湿度も高めで蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;驚くようなニュースが流れていたり、世の中はそれなりに動いているようです。&lt;/p&gt;&#xA;&lt;p&gt;昼間、暑くて勉強する気になれない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>台風が通り過ぎて</title>
-      <link>http://localhost:1313/posts/2019-08-06_%E5%8F%B0%E9%A2%A8%E3%81%8C%E9%80%9A%E3%82%8A%E9%81%8E%E3%81%8E%E3%81%A6/</link>
+      <link>http://localhost:63371/posts/2019-08-06_%E5%8F%B0%E9%A2%A8%E3%81%8C%E9%80%9A%E3%82%8A%E9%81%8E%E3%81%8E%E3%81%A6/</link>
       <pubDate>Tue, 06 Aug 2019 23:33:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-06_%E5%8F%B0%E9%A2%A8%E3%81%8C%E9%80%9A%E3%82%8A%E9%81%8E%E3%81%8E%E3%81%A6/</guid>
+      <guid>http://localhost:63371/posts/2019-08-06_%E5%8F%B0%E9%A2%A8%E3%81%8C%E9%80%9A%E3%82%8A%E9%81%8E%E3%81%8E%E3%81%A6/</guid>
       <description>&lt;p&gt;今夜は涼しいです。&lt;/p&gt;&#xA;&lt;p&gt;それでも室温は29度ですけど。&lt;/p&gt;&#xA;&lt;p&gt;夕食に、鶏もも肉のステーキを作りました。&lt;/p&gt;&#xA;&lt;p&gt;冷凍していた肉を朝から解凍と一緒に生姜、大蒜、塩麹、醤油のタレに漬け込んでました。&lt;/p&gt;&#xA;&lt;p&gt;焼く前に水気を切って、油を多めに入れたフライパンで皮目から焼いて焦げ目を付け、ひっくり返して焼いて、次に玉葱を下に敷いて蓋をして蒸し焼きに。&lt;/p&gt;&#xA;&lt;p&gt;後は漬けダレに砂糖を加えて、フライパンに入れ肉に味付けをして、硬くならないうちに肉を取り出し、タレを煮詰めて行きます。&lt;/p&gt;&#xA;&lt;p&gt;煮詰まったタレを皿に盛った肉に掛けて完成。&lt;/p&gt;&#xA;&lt;p&gt;とても柔らかい良い感じに調理できました。&lt;/p&gt;&#xA;&lt;p&gt;明日は何にしましょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>祈りを捧げる日</title>
-      <link>http://localhost:1313/posts/2019-08-06_%E7%A5%88%E3%82%8A%E3%82%92%E6%8D%A7%E3%81%92%E3%82%8B%E6%97%A5/</link>
+      <link>http://localhost:63371/posts/2019-08-06_%E7%A5%88%E3%82%8A%E3%82%92%E6%8D%A7%E3%81%92%E3%82%8B%E6%97%A5/</link>
       <pubDate>Tue, 06 Aug 2019 00:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-06_%E7%A5%88%E3%82%8A%E3%82%92%E6%8D%A7%E3%81%92%E3%82%8B%E6%97%A5/</guid>
+      <guid>http://localhost:63371/posts/2019-08-06_%E7%A5%88%E3%82%8A%E3%82%92%E6%8D%A7%E3%81%92%E3%82%8B%E6%97%A5/</guid>
       <description>&lt;p&gt;7月25日に降伏する旨を米国に伝えていたにもかかわらず、74年前の今日、広島に原爆が投下されました。&lt;/p&gt;&#xA;&lt;p&gt;「神の祝福あれ」と言って投下した彼らの精神性は全く理解できません。&lt;/p&gt;&#xA;&lt;p&gt;アジアを欧米の植民地から解放するために大東亜戦争で亡くなった日本人の数は320万人です。&lt;/p&gt;&#xA;&lt;p&gt;今一度、何故、私たち日本人が多くの犠牲を払ったのか、よく考えてみましょう。&lt;/p&gt;&#xA;&lt;p&gt;全ての民族が平等になる世界を願っています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>スパイダーネット</title>
-      <link>http://localhost:1313/posts/2019-08-05_%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/</link>
+      <link>http://localhost:63371/posts/2019-08-05_%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/</link>
       <pubDate>Mon, 05 Aug 2019 01:50:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-05_%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/</guid>
+      <guid>http://localhost:63371/posts/2019-08-05_%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88/</guid>
       <description>&lt;p&gt;蜘蛛は空中に糸を出して、風に乗って飛びます。&lt;/p&gt;&#xA;&lt;p&gt;羽のないめっちゃ小さい蟻も風に乗って飛びます。&lt;/p&gt;&#xA;&lt;p&gt;網戸の目や窓の隙間から部屋の中に入ってくるので困ります。&lt;/p&gt;&#xA;&lt;p&gt;部屋の電気を消しているので、蚊はあんまり来ないですが、蜘蛛や蟻は来ます。&lt;/p&gt;&#xA;&lt;p&gt;10分もあれば蜘蛛は風の抜けるところに巣を張るので、しょっちゅう蜘蛛の巣に掛かってイラッとします。&lt;/p&gt;&#xA;&lt;p&gt;蟻は洗濯物に塊になって集っていたり、チックとしたと思ったら噛まれて小さく腫れたりするので困ります。&lt;/p&gt;&#xA;&lt;p&gt;夏は虫や獣や蛇や変質者がわらわらと出てくるので困ります。&lt;/p&gt;&#xA;&lt;p&gt;気をつけて生活しましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>スコヴィル</title>
-      <link>http://localhost:1313/posts/2019-08-04_%E3%82%B9%E3%82%B3%E3%83%B4%E3%82%A3%E3%83%AB/</link>
+      <link>http://localhost:63371/posts/2019-08-04_%E3%82%B9%E3%82%B3%E3%83%B4%E3%82%A3%E3%83%AB/</link>
       <pubDate>Sun, 04 Aug 2019 23:40:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-04_%E3%82%B9%E3%82%B3%E3%83%B4%E3%82%A3%E3%83%AB/</guid>
+      <guid>http://localhost:63371/posts/2019-08-04_%E3%82%B9%E3%82%B3%E3%83%B4%E3%82%A3%E3%83%AB/</guid>
       <description>&lt;p&gt;辛さを表す単位にスコヴィル値というのがあるそうです。&lt;/p&gt;&#xA;&lt;p&gt;ピーマンやししとうは0、タバスコは2500、ハバネロは10万～35万、世界一辛い唐辛子として2013年にギネス認定されたキャロライナ・リーパーは156万～220万、人間がショック死する可能性のある純粋なカプサイシンは1600万、化学火傷を引き起こす猛毒レシニフェラトキシンは160億だそうです。&lt;/p&gt;&#xA;&lt;p&gt;夏場は辛いもので食欲増進は良いですが、辛すぎる物を体内に入れると毒なので気をつけましょう。&lt;/p&gt;&#xA;&lt;p&gt;キャロライナ・リーパーなどは目に着いたりすると失明の危険があるので気をつけましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AM1:00</title>
-      <link>http://localhost:1313/posts/2019-08-04_am1_00/</link>
+      <link>http://localhost:63371/posts/2019-08-04_am1_00/</link>
       <pubDate>Sun, 04 Aug 2019 01:17:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-04_am1_00/</guid>
+      <guid>http://localhost:63371/posts/2019-08-04_am1_00/</guid>
       <description>&lt;p&gt;午前1時。&lt;/p&gt;&#xA;&lt;p&gt;まだ室温は29度です。&lt;/p&gt;&#xA;&lt;p&gt;扇風機の風がちょっと節々にしみるぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;朝は少し涼しくなったと思いましたが、今夜は蒸し暑いです。&lt;/p&gt;&#xA;&lt;p&gt;疲れたら休みましょう。&lt;/p&gt;&#xA;&lt;p&gt;夏の暑い時期にしっかり休みを取るのは一年を健康に過ごすためにも必要なことだと、ブラック企業の社畜だった頃に痛感しました。&lt;/p&gt;&#xA;&lt;p&gt;働き過ぎは良くないですよ。&lt;/p&gt;&#xA;&lt;p&gt;のんびり生きましょう。&lt;/p&gt;&#xA;&lt;p&gt;では、良い夢を。&lt;/p&gt;&#xA;&lt;p&gt;そして良い一日を。&lt;/p&gt;&#xA;&lt;p&gt;おやすみなさい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>盛夏</title>
-      <link>http://localhost:1313/posts/2019-08-03_%E7%9B%9B%E5%A4%8F/</link>
+      <link>http://localhost:63371/posts/2019-08-03_%E7%9B%9B%E5%A4%8F/</link>
       <pubDate>Sat, 03 Aug 2019 19:15:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-03_%E7%9B%9B%E5%A4%8F/</guid>
+      <guid>http://localhost:63371/posts/2019-08-03_%E7%9B%9B%E5%A4%8F/</guid>
       <description>&lt;p&gt;どんぐり豚で豚カツを作った。&lt;/p&gt;&#xA;&lt;p&gt;分厚い肉で作る豚カツは柔らかくて美味しいです。&lt;/p&gt;&#xA;&lt;p&gt;赤味噌ダレ、豚カツソース、大根おろしに醤油とレモンを搾ったソースといろいろと味を楽しみました。&lt;/p&gt;&#xA;&lt;p&gt;そしてビールをコップ一杯、氷を入れると飲みやすくなります。&lt;/p&gt;&#xA;&lt;p&gt;中華だろうと洋食だろうと和食だろうと結構な数をこなしてきたので、料理動画を撮ってYoutubeに投稿すれば、それなりにお金が入るんじゃないかと思いますが、カメラとレンズが油まみれになるのは嫌なのでやりません。&lt;/p&gt;&#xA;&lt;p&gt;現在の気温は32度。&lt;/p&gt;&#xA;&lt;p&gt;陽が落ちて少し涼しくなってきました。&lt;/p&gt;&#xA;&lt;p&gt;34度以上は耐えられないので、エアコンを点けます。&lt;/p&gt;&#xA;&lt;p&gt;32度は平気です。&lt;/p&gt;&#xA;&lt;p&gt;今日もアイスコーヒーが美味しいです。&lt;/p&gt;&#xA;&lt;p&gt;UCCブラックを3分の1ほど水で割ると、とても飲みやすいです。&lt;/p&gt;&#xA;&lt;p&gt;ヒグラシが鳴いているのを聞きながら、夕涼みしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>やっぱり熱いね</title>
-      <link>http://localhost:1313/posts/2019-08-02_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E7%86%B1%E3%81%84%E3%81%AD/</link>
+      <link>http://localhost:63371/posts/2019-08-02_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E7%86%B1%E3%81%84%E3%81%AD/</link>
       <pubDate>Fri, 02 Aug 2019 21:41:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-02_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E7%86%B1%E3%81%84%E3%81%AD/</guid>
+      <guid>http://localhost:63371/posts/2019-08-02_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E7%86%B1%E3%81%84%E3%81%AD/</guid>
       <description>&lt;p&gt;太陽からの熱エネルギーを水に吸収させて、お湯を作る原始的ですが、非常にエコな給湯器を屋根に設置しているんですが、この時季は出来るお湯がとても熱いです。&lt;/p&gt;&#xA;&lt;p&gt;卵ならたぶん煮えると思います。&lt;/p&gt;&#xA;&lt;p&gt;湯煎ステーキとか作れるんじゃないでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;熱すぎて、水を足して冷ますんですが、なかなか大変です。&lt;/p&gt;&#xA;&lt;p&gt;浴室がサウナ状態になるのでちょっと熱くてしんどいです。&lt;/p&gt;&#xA;&lt;p&gt;氷水を飲んでもなかなか体温が下がりません。&lt;/p&gt;&#xA;&lt;p&gt;今夜も寝苦しい夜になりそうです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>かなりしんどいですが。</title>
-      <link>http://localhost:1313/posts/2019-08-02_%E3%81%8B%E3%81%AA%E3%82%8A%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%A7%E3%81%99%E3%81%8C/</link>
+      <link>http://localhost:63371/posts/2019-08-02_%E3%81%8B%E3%81%AA%E3%82%8A%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%A7%E3%81%99%E3%81%8C/</link>
       <pubDate>Fri, 02 Aug 2019 14:08:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-02_%E3%81%8B%E3%81%AA%E3%82%8A%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%A7%E3%81%99%E3%81%8C/</guid>
+      <guid>http://localhost:63371/posts/2019-08-02_%E3%81%8B%E3%81%AA%E3%82%8A%E3%81%97%E3%82%93%E3%81%A9%E3%81%84%E3%81%A7%E3%81%99%E3%81%8C/</guid>
       <description>&lt;p&gt;目が回る。&lt;/p&gt;&#xA;&lt;p&gt;目が回って、体温が下がらず、気持ち悪いです。&lt;/p&gt;&#xA;&lt;p&gt;エアコン全開ですが、太陽の陽射しが熱すぎて、部屋の温度が余り下がりません。&lt;/p&gt;&#xA;&lt;p&gt;室内は30度です。&lt;/p&gt;&#xA;&lt;p&gt;冷たい飲み物で体を冷やしてはいるのですが、なかなか…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日はパンツの日らしいです</title>
-      <link>http://localhost:1313/posts/2019-08-02_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%83%91%E3%83%B3%E3%83%84%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-08-02_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%83%91%E3%83%B3%E3%83%84%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Fri, 02 Aug 2019 01:56:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-02_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%83%91%E3%83%B3%E3%83%84%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-08-02_%E4%BB%8A%E6%97%A5%E3%81%AF%E3%83%91%E3%83%B3%E3%83%84%E3%81%AE%E6%97%A5%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;スティールすると何故かパンツを奪ってしまうサトウカズマではありません。&lt;/p&gt;&#xA;&lt;p&gt;このすばの小説が届いたので其れをよみつつ寝ます。&lt;/p&gt;&#xA;&lt;p&gt;楽しい夢を。&lt;/p&gt;&#xA;&lt;p&gt;せめて夢の世界だけでも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>アツイ</title>
-      <link>http://localhost:1313/posts/2019-08-01_%E3%82%A2%E3%83%84%E3%82%A4/</link>
+      <link>http://localhost:63371/posts/2019-08-01_%E3%82%A2%E3%83%84%E3%82%A4/</link>
       <pubDate>Thu, 01 Aug 2019 21:43:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-01_%E3%82%A2%E3%83%84%E3%82%A4/</guid>
+      <guid>http://localhost:63371/posts/2019-08-01_%E3%82%A2%E3%83%84%E3%82%A4/</guid>
       <description>&lt;p&gt;夜明け頃に少しだけ涼しくなりましたが、日が昇ると直ぐに蒸し暑くなりました。&lt;/p&gt;&#xA;&lt;p&gt;余りに暑いので、少し伸びていた髪の毛を切りに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;トニックシャンプーやら氷シャンプーが肌にしみてヒリヒリ、スースーしました。&lt;/p&gt;&#xA;&lt;p&gt;お昼に岡山市内まで出かけて豚骨ラーメンを食べました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12500348354-14519452659.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190801/21/yuki9902/b0/09/j/o3264244814519452659.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;「長浜ラーメンやまがさ」と「博多とんこつ ばり」と悩みましたが、味のパンチと満足感を得るため「ばり」にしました。&lt;/p&gt;&#xA;&lt;p&gt;「香りめん」のばりかたです。&lt;/p&gt;&#xA;&lt;p&gt;チャーシューの上の赤いブリッとしたものは、「柚胡椒」です。&lt;/p&gt;&#xA;&lt;p&gt;この柚胡椒のパンチがクセになります。&lt;/p&gt;&#xA;&lt;p&gt;帰りに、原材料コーヒーのUCCブラックの1リットル入りを6本買いました。&lt;/p&gt;&#xA;&lt;p&gt;自分で挽いた方が香りも味も良いのですが、暑いのにコーヒーを淹れるのも熱いし、氷を大量消費してしまうし、珈琲豆のコストも結構高いので、原材料コーヒーだけのUCCブラックです。&lt;/p&gt;&#xA;&lt;p&gt;そうそう、余りに熱いと熱膨張で金属が延びたりするので、夏場は色々と故障したりします。&lt;/p&gt;&#xA;&lt;p&gt;接着剤が剥がれたりとかもあります。&lt;/p&gt;&#xA;&lt;p&gt;お腹の駄肉も落ちないかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おやすみ</title>
-      <link>http://localhost:1313/posts/2019-08-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</link>
+      <link>http://localhost:63371/posts/2019-08-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</link>
       <pubDate>Thu, 01 Aug 2019 00:40:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-08-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</guid>
+      <guid>http://localhost:63371/posts/2019-08-01_%E3%81%8A%E3%82%84%E3%81%99%E3%81%BF/</guid>
       <description>&lt;p&gt;目が回るのでもう寝ます。&lt;/p&gt;&#xA;&lt;p&gt;横になると目眩が酷いですけど。&lt;/p&gt;&#xA;&lt;p&gt;頭の向きによって目眩の度合いが違います。&lt;/p&gt;&#xA;&lt;p&gt;しんどい…&lt;/p&gt;</description>
     </item>
   </channel>

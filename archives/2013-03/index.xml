@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2013-03 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2013-03/</link>
+    <link>http://localhost:63371/archives/2013-03/</link>
     <description>Recent content in 2013-03 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sun, 24 Mar 2013 13:26:25 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2013-03/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2013-03/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今日は頭が痛いのです。</title>
-      <link>http://localhost:1313/posts/2013-03-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%A0%AD%E3%81%8C%E7%97%9B%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2013-03-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%A0%AD%E3%81%8C%E7%97%9B%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99/</link>
       <pubDate>Sun, 24 Mar 2013 13:26:25 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-03-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%A0%AD%E3%81%8C%E7%97%9B%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2013-03-24_%E4%BB%8A%E6%97%A5%E3%81%AF%E9%A0%AD%E3%81%8C%E7%97%9B%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;今日は昼前から頭が痛いのです。&lt;/p&gt;&#xA;&lt;p&gt;一昨日は、自然に眠くなったので、睡眠薬を飲まずに寝たら、1時間半で目が覚めてしまって、そのまま眠れず、仕方なく睡眠薬を飲んで寝ました。&lt;br&gt;&#xA;で、昨日から調子を崩したまま、夜には睡眠薬を飲んで寝たのですが、今朝から頭が重い状態でした。&lt;br&gt;&#xA;このまま頭が痛くなる兆候だったので、ロキソニンを飲みましたが、昼前から頭痛です。&lt;/p&gt;&#xA;&lt;p&gt;痛み止めの効かない頭痛は、思考力を奪われるので、今日も何もできずに終わってしまいそうです。&lt;br&gt;&#xA;もう仕事を辞めて一ヶ月以上になりますが、壊れた脳神経はなかなか正常には戻らないのですね…。&lt;/p&gt;&#xA;&lt;p&gt;周りは春めいてきていますが、車に乗って出かけることができません。&lt;br&gt;&#xA;生きがいの写真を撮りに行くこともかなわず、こもるしかないのです。&lt;br&gt;&#xA;神経が弱っているときは、車に乗ると危険ですからね。&lt;br&gt;&#xA;ほかの人たちに迷惑をかけるわけにはいきません故。&lt;/p&gt;</description>
     </item>
     <item>
       <title>暑かったり寒かったり</title>
-      <link>http://localhost:1313/posts/2013-03-22_%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A%E5%AF%92%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A/</link>
+      <link>http://localhost:63371/posts/2013-03-22_%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A%E5%AF%92%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A/</link>
       <pubDate>Fri, 22 Mar 2013 16:04:05 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-03-22_%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A%E5%AF%92%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A/</guid>
+      <guid>http://localhost:63371/posts/2013-03-22_%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A%E5%AF%92%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A/</guid>
       <description>&lt;p&gt;暑かったり寒かったりを繰り返しながら夏になっていくんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;暖かい日は黄砂と大気汚染物質によって、くしゃみや鼻水、目の痛みがでて大変です。&lt;/p&gt;&#xA;&lt;p&gt;花粉症って、花粉だけが原因な訳ではないと思うのですけど。&lt;/p&gt;&#xA;&lt;p&gt;昔のほうが圧倒的に花粉が多かったのはずですが、それでも花粉症は少なかったですし。&lt;/p&gt;&#xA;&lt;p&gt;ここ10年で急増したのは、大陸の大気汚染が原因だと思うんだけどなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wordpressの記事をFacebookに投稿</title>
-      <link>http://localhost:1313/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
+      <link>http://localhost:63371/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
+      <guid>http://localhost:63371/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;テスト投稿を兼ねての記事です。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;WordpressにFacebook公式のPluginをインストールするのは簡単ですが、Facebookアプリの開発用アカウントを取得して、細かな設定が必要です。&lt;/p&gt;&#xA;&lt;p&gt;公式Pluginも更新を何度かしているし、Facebookアプリの登録画面も細々と変更がされています。&lt;/p&gt;&#xA;&lt;p&gt;徐々に使いやすくなっているようですが、わかりにくい表現の英語（Facebook内部の用語とか）が並んでいるので、結構大変かも。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;んで、画像を自動的に登録してくれるのですが、変なアイコン画像を拾ってしまったり…。&lt;/p&gt;&#xA;&lt;p&gt;Pluginの側にもっと自由度というか、わかりやすい設定を追加してほしいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>二年</title>
-      <link>http://localhost:1313/posts/2013-03-11_%E4%BA%8C%E5%B9%B4/</link>
+      <link>http://localhost:63371/posts/2013-03-11_%E4%BA%8C%E5%B9%B4/</link>
       <pubDate>Mon, 11 Mar 2013 16:58:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-03-11_%E4%BA%8C%E5%B9%B4/</guid>
+      <guid>http://localhost:63371/posts/2013-03-11_%E4%BA%8C%E5%B9%B4/</guid>
       <description>&lt;p&gt;まだ二年、もう二年。&lt;/p&gt;&#xA;&lt;p&gt;今日はそのことを考えている時間が多いです。&lt;/p&gt;&#xA;&lt;p&gt;利己的な者がすべてを盗ってしまって、必要とされているところにお金が回らないのは、大罪だとおもうのです。&lt;/p&gt;&#xA;&lt;p&gt;被災地にちゃんとお金が渡って、復興、開発が進めば良いのにといつも思うのですが。&lt;/p&gt;&#xA;&lt;p&gt;亡くなられた方々のご冥福と、被災者の方々の安寧な暮らしが早く訪れるように祈るばかりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Walkman Application in Sony Xperia Tablet S</title>
-      <link>http://localhost:1313/posts/2013-03-05_walkman-application-in-sony-xperia-tablet-s/</link>
+      <link>http://localhost:63371/posts/2013-03-05_walkman-application-in-sony-xperia-tablet-s/</link>
       <pubDate>Tue, 05 Mar 2013 00:13:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-03-05_walkman-application-in-sony-xperia-tablet-s/</guid>
+      <guid>http://localhost:63371/posts/2013-03-05_walkman-application-in-sony-xperia-tablet-s/</guid>
       <description>&lt;p&gt;Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに対応しています。&lt;/p&gt;&#xA;&lt;p&gt;DLNAサーバー（Windows Media SeverやDLNA対応HDDなど）に蓄積された音楽ファイルを再生することができます。&lt;/p&gt;&#xA;&lt;p&gt;WindowsアプリケーションのFoobar2000のUPnPサーバー機能を使って、再生することができます。&lt;br&gt;&#xA;&amp;hellip; ただしストリーム形式はmp3じゃないといけません。&lt;br&gt;&#xA;ほかのDLNAクライアントと併用する場合は、Foobar2000側の設定で、Tablet用のプロファイルを作成します。&lt;br&gt;&#xA;Use profile when に「X-AV-Client-Info」を、containに「av=5.0; cn=&amp;ldquo;Sony&amp;rdquo;; mn=&amp;ldquo;SGPT12&amp;rdquo;; mv=&amp;ldquo;2.0&amp;rdquo;;」を設定します。&lt;br&gt;&#xA;Walkmanアプリは、バグがあるというか、DLNA仕様にそってないのか、Foobar2000とは相性が悪いです。&lt;br&gt;&#xA;プレイリストが表示されなかったり、再生できないプレイリストがあったり・・・。&lt;br&gt;&#xA;Foobar2000のマルチバイト文字列の扱いにバグがあるせいかもしれませんけれど。&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash;Add 2013/03/06&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。&lt;br&gt;&#xA;シングルクォート「&amp;rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。&lt;br&gt;&#xA;B&amp;rsquo;zの楽曲は無理と言うことに…。&lt;br&gt;&#xA;一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと&lt;br&gt;&#xA;データを削除しないと再生できません。&lt;br&gt;&#xA;こんなヘルプを書くぐらいなら、改善をしてほしいモノです。&lt;br&gt;&#xA;&amp;ndash;End&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash;Add 2013/04/22&amp;ndash;&lt;br&gt;&#xA;4/18のアップデートで、Walkmanアプリの「&amp;rsquo;」シングルクォートの問題が改修されています。&lt;br&gt;&#xA;そのほかのバグも改修されています。&lt;br&gt;&#xA;電源落ちる問題、画面がフラッシュする問題など。&lt;br&gt;&#xA;&amp;ndash;End&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;ほかにWalkmanアプリは「Throw」という機能があります。&lt;br&gt;&#xA;DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機器)にデータを送信して再生することができます。&lt;br&gt;&#xA;データは、画像、音楽、動画などです。&lt;br&gt;&#xA;MacでいうところのAirPlayに近いでしょうか。&lt;br&gt;&#xA;このThrowを使うと、Walkmanアプリで再生操作するとWi-FiでつながったAVアンプから音が出ます。&lt;/p&gt;&#xA;&lt;p&gt;私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったのは、購入してから数年たったころでした。&lt;br&gt;&#xA;Windows VISTA認証機器ということは知っていたのですが・・・。&lt;br&gt;&#xA;マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らなかったのです。&lt;br&gt;&#xA;あるときONKYOの製品紹介ページを見ているときに、Windows VISTA/7認証のAVアンプ製品のことが記述されていたので、同じくWindows VISTA/7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生したらできたのです。&lt;/p&gt;&#xA;&lt;p&gt;で、今日、WalkmanアプリからThrowをしてみたら、AVアンプから音が出ました。&lt;/p&gt;&#xA;&lt;p&gt;Android端末でできることが意外に多いです。&lt;br&gt;&#xA;ベースになったのはLinuxだから当たり前か…。&lt;/p&gt;&#xA;&lt;p&gt;しかしDLNAに関しては、知らないことが多すぎます。&lt;/p&gt;&#xA;&lt;p&gt;Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は、Throwを試してみたらどうでしょうか。&lt;/p&gt;</description>
     </item>
   </channel>

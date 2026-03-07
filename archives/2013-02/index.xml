@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2013-02 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2013-02/</link>
+    <link>http://localhost:63371/archives/2013-02/</link>
     <description>Recent content in 2013-02 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Wed, 27 Feb 2013 17:52:17 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2013-02/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2013-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windowsのミキシング機能を誤解しているPCオーディオ雑誌記者</title>
-      <link>http://localhost:1313/posts/2013-02-27_windows%E3%81%AE%E3%83%9F%E3%82%AD%E3%82%B7%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E8%AA%A4%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%82%8Bpc%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E9%9B%91%E8%AA%8C%E8%A8%98%E8%80%85/</link>
+      <link>http://localhost:63371/posts/2013-02-27_windows%E3%81%AE%E3%83%9F%E3%82%AD%E3%82%B7%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E8%AA%A4%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%82%8Bpc%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E9%9B%91%E8%AA%8C%E8%A8%98%E8%80%85/</link>
       <pubDate>Wed, 27 Feb 2013 17:52:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-27_windows%E3%81%AE%E3%83%9F%E3%82%AD%E3%82%B7%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E8%AA%A4%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%82%8Bpc%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E9%9B%91%E8%AA%8C%E8%A8%98%E8%80%85/</guid>
+      <guid>http://localhost:63371/posts/2013-02-27_windows%E3%81%AE%E3%83%9F%E3%82%AD%E3%82%B7%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E8%AA%A4%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%82%8Bpc%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E9%9B%91%E8%AA%8C%E8%A8%98%E8%80%85/</guid>
       <description>&lt;p&gt;Windows PC では、大まかにいうと、各アプリケーションから出力された音声信号を、ミキシングした後、デバイスに音声信号を渡す仕組みになっています。&lt;/p&gt;&#xA;&lt;p&gt;Windows XPまでは、カーネルミキサーがPCM 14bit / 48kHz、&lt;br&gt;&#xA;Windows VISTA / 7 では、Windows Audio Engine がPCM 32bit / 192kHz、&lt;br&gt;&#xA;以上のようにリサンプリングされてミキシングされます。&lt;br&gt;&#xA;ただしWindows 8は7とはかなり改良が加えられているとのことですが、詳細は不明です。&lt;/p&gt;&#xA;&lt;p&gt;Windows VISTA以降、このミキシング処理を回避するためにWASAPI排他モードが用意されました。&lt;br&gt;&#xA;ただしWASAPI対応のドライバが用意されていたとしても、Windows ハードウェア認定をパスしていないものは、ビットパーフェクトであるとは限りません。&lt;/p&gt;&#xA;&lt;p&gt;Windows Media Playerの問題と、Windows Audio Engineを混同している記事を見かけたので、気になりました。&lt;/p&gt;&#xA;&lt;p&gt;雑誌記者なら自分の思い込みで記事を書くのではなく、Microsoftに実装方法や処理方法をインタビューして記事を書けば良いのにと思います。&lt;/p&gt;&#xA;&lt;p&gt;それが記者としての責任でしょうに。&lt;/p&gt;&#xA;&lt;p&gt;ちなみにメトロアプリ（ストアアプリ）とx86/x64デスクトップアプリでは全く実装が異なります。&lt;br&gt;&#xA;このあたりストアアプリ用のランタイム（エミュレーター）の実装になるので、難しい話です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sony Xperia Tablet S を充電しながらPCに接続する方法。</title>
-      <link>http://localhost:1313/posts/2013-02-24_sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:63371/posts/2013-02-24_sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sun, 24 Feb 2013 22:35:38 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-24_sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://localhost:63371/posts/2013-02-24_sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;Sony Xperia Tablet S を購入しました。&lt;/p&gt;&#xA;&lt;p&gt;64GBモデルなので、容量をさほど気にすることなく使えます。&lt;/p&gt;&#xA;&lt;p&gt;使いにくいことが一つあるのは、PCに接続した際に、充電されないことです。&lt;/p&gt;&#xA;&lt;p&gt;USB 1.0/2.0では、1ポートあたり5V / 500mAと決まってますし、ほとんどのマザーボードがそれを超える電力を出力していません。&lt;br&gt;&#xA;過大な電力でUSB機器が壊れるのを防ぐためです。&lt;/p&gt;&#xA;&lt;p&gt;Sony Xperia Tablet Sは、付属のACアダプターの出力を見ると1500mAが必要なようです。&lt;/p&gt;&#xA;&lt;p&gt;付属のACアダプターで給電しつつ、PC接続できないかなと、USB分岐ケーブルを作りました。&lt;/p&gt;&#xA;&lt;p&gt;USBは1～4までのピンがあり、外側の1,4が電力、内側の2,3が信号ピンです。&lt;/p&gt;&#xA;&lt;p&gt;USBの延長ケーブル（コネクタ形状がAオスとAメス）を途中で切断して、そこから電力供給用に1,4番の線だけを分岐（並列）させます。&lt;br&gt;&#xA;分岐させた線の先には当然USBコネクタ Aのオスが必要です。&lt;br&gt;&#xA;普通に売られているUSB HDD用の分岐ケーブルでもかまわないでしょう。&lt;/p&gt;&#xA;&lt;p&gt;しかし、これだけではACアダプターから給電しながらPC接続するには、完璧ではありません。&lt;/p&gt;&#xA;&lt;p&gt;タブレットの充電（給電）情報を表示によれば、「給電されていない」状態です。&lt;/p&gt;&#xA;&lt;p&gt;で、これが給電状態になるためには、2,3ピンをケーブル接続時にショートさせておく必要があります。&lt;/p&gt;&#xA;&lt;p&gt;そのために、USBコネクタ Aメスを用意し、2,3ピンをショートさせたものを作ります。&lt;/p&gt;&#xA;&lt;p&gt;そして接続順序が、&lt;br&gt;&#xA;１．タブレットにマルチコネクタを接続。&lt;br&gt;&#xA;２．分岐ケーブルとマルチコネクタを接続。&lt;br&gt;&#xA;３．PC接続する側のUSB コネクタ Aオスに、2,3をショートさせたAメスを接続。&lt;br&gt;&#xA;４．ACアダプタと電力供給側のUSBコネクタ Aオスを接続。&lt;br&gt;&#xA;５．ACアダプタを100Vコンセントに接続。&lt;br&gt;&#xA;６．タブレットが充電中になっているのを確認。&lt;br&gt;&#xA;７．2,3をショートさせたAメスを取り外す。&lt;br&gt;&#xA;８．PCにAオスを接続。&lt;/p&gt;&#xA;&lt;p&gt;この順序で、充電しながらPC接続が可能になります。&lt;/p&gt;&#xA;&lt;p&gt;2,3のショートのさせ方ですが、わざわざコネクタAメスを手に入れなくても、間にスイッチを入れてショートとオープンを切り替えるようにしてやると、もっと使いやすいかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>私は道具ではない、人間である。</title>
-      <link>http://localhost:1313/posts/2013-02-23_%E7%A7%81%E3%81%AF%E9%81%93%E5%85%B7%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E4%BA%BA%E9%96%93%E3%81%A7%E3%81%82%E3%82%8B/</link>
+      <link>http://localhost:63371/posts/2013-02-23_%E7%A7%81%E3%81%AF%E9%81%93%E5%85%B7%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E4%BA%BA%E9%96%93%E3%81%A7%E3%81%82%E3%82%8B/</link>
       <pubDate>Sat, 23 Feb 2013 10:37:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-23_%E7%A7%81%E3%81%AF%E9%81%93%E5%85%B7%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E4%BA%BA%E9%96%93%E3%81%A7%E3%81%82%E3%82%8B/</guid>
+      <guid>http://localhost:63371/posts/2013-02-23_%E7%A7%81%E3%81%AF%E9%81%93%E5%85%B7%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E4%BA%BA%E9%96%93%E3%81%A7%E3%81%82%E3%82%8B/</guid>
       <description>&lt;p&gt;まだめまいも虚脱感もありますが、体調は徐々に良くなっているようです。&lt;/p&gt;&#xA;&lt;p&gt;精神的な落ち込みのない鬱状態って、薬のおかげで気分が楽なだけかもしれませんけれども。&lt;/p&gt;&#xA;&lt;p&gt;プログラムを組んだり、回路を設計したり、頭を使うことをするととたんに頭痛と吐き気が来るので、まだまだ神経の状態は戻ってはいないのですが。&lt;/p&gt;&#xA;&lt;p&gt;しばらく休養して、リハビリしたら、社会復帰をします。&lt;/p&gt;&#xA;&lt;p&gt;人に道具のように使われるのではない仕事をしていくつもりです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>休暇中</title>
-      <link>http://localhost:1313/posts/2013-02-20_%E4%BC%91%E6%9A%87%E4%B8%AD/</link>
+      <link>http://localhost:63371/posts/2013-02-20_%E4%BC%91%E6%9A%87%E4%B8%AD/</link>
       <pubDate>Wed, 20 Feb 2013 10:25:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-20_%E4%BC%91%E6%9A%87%E4%B8%AD/</guid>
+      <guid>http://localhost:63371/posts/2013-02-20_%E4%BC%91%E6%9A%87%E4%B8%AD/</guid>
       <description>&lt;p&gt;神経の状態が重度の鬱状態と同じになって、睡眠薬や抗鬱剤に頼っていますし、不意に虚脱感で体が弛緩したり、めまいを起こすので、外出もままならず、引きこもっています。&lt;/p&gt;&#xA;&lt;p&gt;気持ちはSAYUNEKOとみおさんに会いに行きたくて、とか外に向いているので、神経の調子さえ回復すれば、と思っています。&lt;/p&gt;&#xA;&lt;p&gt;今年こそは。&lt;/p&gt;</description>
     </item>
     <item>
       <title>辞めることになりました。</title>
-      <link>http://localhost:1313/posts/2013-02-15_%E8%BE%9E%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2013-02-15_%E8%BE%9E%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 15 Feb 2013 23:19:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-15_%E8%BE%9E%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2013-02-15_%E8%BE%9E%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;鬱の原因になっていた仕事を退職することが決まりました。&lt;/p&gt;&#xA;&lt;p&gt;正常な状態なら別にきつい仕事でもなかったのですが、何度も崩壊した防壁はとっても低くなっておりました。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとしたことでも通常の状態に戻ってこれないようです。&lt;/p&gt;&#xA;&lt;p&gt;辞めたらしばらく休んで、次の仕事を探します。&lt;/p&gt;&#xA;&lt;p&gt;鬱はすぐに良くなるとおもいます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>腐ったリンゴを摘み出す腐った人間</title>
-      <link>http://localhost:1313/posts/2013-02-12_%E8%85%90%E3%81%A3%E3%81%9F%E3%83%AA%E3%83%B3%E3%82%B4%E3%82%92%E6%91%98%E3%81%BF%E5%87%BA%E3%81%99%E8%85%90%E3%81%A3%E3%81%9F%E4%BA%BA%E9%96%93/</link>
+      <link>http://localhost:63371/posts/2013-02-12_%E8%85%90%E3%81%A3%E3%81%9F%E3%83%AA%E3%83%B3%E3%82%B4%E3%82%92%E6%91%98%E3%81%BF%E5%87%BA%E3%81%99%E8%85%90%E3%81%A3%E3%81%9F%E4%BA%BA%E9%96%93/</link>
       <pubDate>Tue, 12 Feb 2013 22:03:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-12_%E8%85%90%E3%81%A3%E3%81%9F%E3%83%AA%E3%83%B3%E3%82%B4%E3%82%92%E6%91%98%E3%81%BF%E5%87%BA%E3%81%99%E8%85%90%E3%81%A3%E3%81%9F%E4%BA%BA%E9%96%93/</guid>
+      <guid>http://localhost:63371/posts/2013-02-12_%E8%85%90%E3%81%A3%E3%81%9F%E3%83%AA%E3%83%B3%E3%82%B4%E3%82%92%E6%91%98%E3%81%BF%E5%87%BA%E3%81%99%E8%85%90%E3%81%A3%E3%81%9F%E4%BA%BA%E9%96%93/</guid>
       <description>&lt;p&gt;今の職場は老人保健施設の中にあります。&lt;/p&gt;&#xA;&lt;p&gt;一応、システムエンジニアですが、いろいろとやっております。&lt;/p&gt;&#xA;&lt;p&gt;いろいろと精神的なつらさがあります。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり技術者ですからね、技術を評価してもらいたいのですがね。&lt;/p&gt;&#xA;&lt;p&gt;7年近く通っている心療内科の主治医ともいろいろ話しましたが、今の職場を辞めない限り、鬱状態が治ることがないので、退職を言うつもりです。&lt;/p&gt;&#xA;&lt;p&gt;なかでも一番精神的にきついのは、人の死が身近にあることです。&lt;/p&gt;&#xA;&lt;p&gt;誰か知らない人であっても、人が死んでいくのは悲しいのです。&lt;/p&gt;&#xA;&lt;p&gt;空き床を作らないように、そして亡くなる前から、次に入れる人を決めたり。&lt;/p&gt;&#xA;&lt;p&gt;そんな話をする事務側の人間の性根が信じられず、そんな職場の中にいることが耐えられないのです。&lt;/p&gt;&#xA;&lt;p&gt;大事な人たち、敬うべき人たち、私たちを育んできた人たちを冒涜しているとしか思えないのです。&lt;/p&gt;&#xA;&lt;p&gt;そこで、給与をもらう自分が汚れ腐っていくようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ソースコードが見られない</title>
-      <link>http://localhost:1313/posts/2013-02-12_%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8C%E8%A6%8B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2013-02-12_%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8C%E8%A6%8B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84/</link>
       <pubDate>Tue, 12 Feb 2013 13:58:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-12_%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8C%E8%A6%8B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2013-02-12_%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8C%E8%A6%8B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84/</guid>
       <description>&lt;p&gt;私のメインの仕事、システムエンジニアとしてのプログラミング作業。&lt;/p&gt;&#xA;&lt;p&gt;この作業で、ソースコード見たら激しく気持ち悪くなのです。&lt;/p&gt;&#xA;&lt;p&gt;もう何も出来ないです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>辞めて、休まないと。</title>
-      <link>http://localhost:1313/posts/2013-02-10_%E8%BE%9E%E3%82%81%E3%81%A6%E4%BC%91%E3%81%BE%E3%81%AA%E3%81%84%E3%81%A8/</link>
+      <link>http://localhost:63371/posts/2013-02-10_%E8%BE%9E%E3%82%81%E3%81%A6%E4%BC%91%E3%81%BE%E3%81%AA%E3%81%84%E3%81%A8/</link>
       <pubDate>Sun, 10 Feb 2013 14:00:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-10_%E8%BE%9E%E3%82%81%E3%81%A6%E4%BC%91%E3%81%BE%E3%81%AA%E3%81%84%E3%81%A8/</guid>
+      <guid>http://localhost:63371/posts/2013-02-10_%E8%BE%9E%E3%82%81%E3%81%A6%E4%BC%91%E3%81%BE%E3%81%AA%E3%81%84%E3%81%A8/</guid>
       <description>&lt;p&gt;ついに左半身が弛緩してまいりました。&lt;/p&gt;&#xA;&lt;p&gt;12月の終わりには左手に兆候があったのですが、ついに左足にもきました。&lt;/p&gt;&#xA;&lt;p&gt;今は普通に歩こうとしても、左足が上がらず引きずるように歩いています。&lt;/p&gt;&#xA;&lt;p&gt;気分は抗うつ剤で落ち込みはあまりないのですが、神経伝達に障害がでております。&lt;/p&gt;&#xA;&lt;p&gt;あと1時間もすれば、どーんと体が動かなくなるくらいに沈み込みます。&lt;/p&gt;&#xA;&lt;p&gt;通勤するのは自車なのですが、自車ゆえに操舵できるけど、事故しそうで危険です。&lt;/p&gt;&#xA;&lt;p&gt;人を巻き添えにしてしまう前に辞めたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>むみかんそう</title>
-      <link>http://localhost:1313/posts/2013-02-07_%E3%82%80%E3%81%BF%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2013-02-07_%E3%82%80%E3%81%BF%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</link>
       <pubDate>Thu, 07 Feb 2013 21:54:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-07_%E3%82%80%E3%81%BF%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2013-02-07_%E3%82%80%E3%81%BF%E3%81%8B%E3%82%93%E3%81%9D%E3%81%86/</guid>
       <description>&lt;p&gt;本当は人前では疲れた顔を見せたくないのです。&lt;/p&gt;&#xA;&lt;p&gt;でも、顔の筋肉がいうことを聞かず、引き締まった顔にならないのです。&lt;/p&gt;&#xA;&lt;p&gt;右ほほが引きつったようになってますが、右目が開ききらないのです。&lt;/p&gt;&#xA;&lt;p&gt;左のまぶたがけいれんしています。&lt;/p&gt;&#xA;&lt;p&gt;人に心配される自分が嫌なのです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>すみませぬ。</title>
-      <link>http://localhost:1313/posts/2013-02-04_%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%81%AC/</link>
+      <link>http://localhost:63371/posts/2013-02-04_%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%81%AC/</link>
       <pubDate>Mon, 04 Feb 2013 21:32:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2013-02-04_%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%81%AC/</guid>
+      <guid>http://localhost:63371/posts/2013-02-04_%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%81%AC/</guid>
       <description>&lt;p&gt;すみませぬ。&lt;/p&gt;&#xA;&lt;p&gt;現状、重度の鬱状態になっております。&lt;/p&gt;&#xA;&lt;p&gt;「このまま楽になれるのなら･･･」とはまだ考えておりませぬ。&lt;/p&gt;&#xA;&lt;p&gt;活動限界が一日4時間になってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;それ以上は、栄養ドリンクで無理矢理脳を活性化させて、仕事をしております。&lt;/p&gt;&#xA;&lt;p&gt;まだ死にません。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2023-11 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2023-11/</link>
+    <link>http://localhost:63371/archives/2023-11/</link>
     <description>Recent content in 2023-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 03 Nov 2023 00:38:14 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2023-11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2023-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASUS ROG STRIX X570-F Gaming BIOS 5003</title>
-      <link>http://localhost:1313/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</link>
+      <link>http://localhost:63371/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</link>
       <pubDate>Fri, 03 Nov 2023 00:38:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</guid>
+      <guid>http://localhost:63371/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</guid>
       <description>&lt;p&gt;AGESA ComboV2PI 1.2.0.Bに関するBIOSのアップデートがありました。&lt;/p&gt;&#xA;&lt;p&gt;CPUの脆弱性に関する修正です。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 3000/5000シリーズのfTPMの更新も行われるので、Bitblockerを有効にしている場合には、リカバリーキーをBIOS更新前に必ずバックアップしておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;またfTPMが更新されたことにより、Microsoftアカウントを使っている場合に、Windows11にログオンするときにPINを更新する必要があります。&lt;/p&gt;&#xA;&lt;p&gt;それからMotherboardのLEDのファームウェアが更新されるので、不用意に電源を落としたりしないようにしてください。&lt;/p&gt;</description>
     </item>
   </channel>

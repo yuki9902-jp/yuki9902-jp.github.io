@@ -2,486 +2,486 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019-12 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2019-12/</link>
+    <link>http://localhost:63371/archives/2019-12/</link>
     <description>Recent content in 2019-12 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Tue, 31 Dec 2019 23:47:41 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2019-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2019-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thanks for you</title>
-      <link>http://localhost:1313/posts/2019-12-31_thanks-for-you/</link>
+      <link>http://localhost:63371/posts/2019-12-31_thanks-for-you/</link>
       <pubDate>Tue, 31 Dec 2019 23:47:41 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-31_thanks-for-you/</guid>
+      <guid>http://localhost:63371/posts/2019-12-31_thanks-for-you/</guid>
       <description>&lt;p&gt;2019年もあと15分ほどとなりました。&lt;/p&gt;&#xA;&lt;p&gt;色々とやり残しがあるものだと思いますが、重荷は今年に置いていきます。&lt;/p&gt;&#xA;&lt;p&gt;私に関わる皆様に沢山の有り難うを。&lt;/p&gt;&#xA;&lt;p&gt;来年は良い年となりますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>そば</title>
-      <link>http://localhost:1313/posts/2019-12-31_%E3%81%9D%E3%81%B0/</link>
+      <link>http://localhost:63371/posts/2019-12-31_%E3%81%9D%E3%81%B0/</link>
       <pubDate>Tue, 31 Dec 2019 20:38:39 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-31_%E3%81%9D%E3%81%B0/</guid>
+      <guid>http://localhost:63371/posts/2019-12-31_%E3%81%9D%E3%81%B0/</guid>
       <description>&lt;p&gt;今日は、お昼にオムライス、晩にかけそばを食べました。&lt;/p&gt;&#xA;&lt;p&gt;かけそばはどうも苦手です。&lt;/p&gt;&#xA;&lt;p&gt;ざるそばじゃないと食べられないかな。&lt;/p&gt;&#xA;&lt;p&gt;寒いのでざるそばは体が冷えていけません。&lt;/p&gt;&#xA;&lt;p&gt;今夜も寒いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>24</title>
-      <link>http://localhost:1313/posts/2019-12-31_24/</link>
+      <link>http://localhost:63371/posts/2019-12-31_24/</link>
       <pubDate>Tue, 31 Dec 2019 00:08:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-31_24/</guid>
+      <guid>http://localhost:63371/posts/2019-12-31_24/</guid>
       <description>&lt;p&gt;今年も残り24時間を切りました。&lt;/p&gt;&#xA;&lt;p&gt;事故や事件のないように願います。&lt;/p&gt;&#xA;&lt;p&gt;終わり良ければ全て良しになりますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FTTH 1Gbps</title>
-      <link>http://localhost:1313/posts/2019-12-30_ftth-1gbps/</link>
+      <link>http://localhost:63371/posts/2019-12-30_ftth-1gbps/</link>
       <pubDate>Mon, 30 Dec 2019 22:10:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-30_ftth-1gbps/</guid>
+      <guid>http://localhost:63371/posts/2019-12-30_ftth-1gbps/</guid>
       <description>&lt;p&gt;プロバイダーに1Gbpsサービスへの契約変更を申請していた物が、今日変更が完了しました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12563379306-14687701329.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191230/21/yuki9902/1b/5c/p/o1163103514687701329.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;京都にある比較的空いたサーバーに接続してスピードテストを行ったら、下り上りとも800Mbpsぐらいになっています。&lt;/p&gt;&#xA;&lt;p&gt;変更前だと下り80Mbps、上り4Mbpsぐらいだったので、下りで10倍、上りで200倍の速さになっています。&lt;/p&gt;&#xA;&lt;p&gt;上りの速度が大幅に向上したため、Webブラウザでリンクをクリックしてから表示されるまでの時間が短縮されたように感じます。&lt;/p&gt;&#xA;&lt;p&gt;Youtubeへの動画投稿が、60Mbps程度でているので4K60fpsでのライブ配信も可能です。&lt;/p&gt;&#xA;&lt;p&gt;ネタが出来たらまた投稿してみようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨</title>
-      <link>http://localhost:1313/posts/2019-12-30_%E9%9B%A8/</link>
+      <link>http://localhost:63371/posts/2019-12-30_%E9%9B%A8/</link>
       <pubDate>Mon, 30 Dec 2019 00:25:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-30_%E9%9B%A8/</guid>
+      <guid>http://localhost:63371/posts/2019-12-30_%E9%9B%A8/</guid>
       <description>&lt;p&gt;冷たい雨が降っています。&lt;/p&gt;&#xA;&lt;p&gt;温かくしてお休みください。&lt;/p&gt;&#xA;&lt;p&gt;そして良い夢を。&lt;/p&gt;</description>
     </item>
     <item>
       <title>こめ油</title>
-      <link>http://localhost:1313/posts/2019-12-28_%E3%81%93%E3%82%81%E6%B2%B9/</link>
+      <link>http://localhost:63371/posts/2019-12-28_%E3%81%93%E3%82%81%E6%B2%B9/</link>
       <pubDate>Sat, 28 Dec 2019 19:15:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-28_%E3%81%93%E3%82%81%E6%B2%B9/</guid>
+      <guid>http://localhost:63371/posts/2019-12-28_%E3%81%93%E3%82%81%E6%B2%B9/</guid>
       <description>&lt;p&gt;米油を初めて使いました。&lt;/p&gt;&#xA;&lt;p&gt;コロッケを揚げました。&lt;/p&gt;&#xA;&lt;p&gt;油を熱すると独特の糠臭さがありますが、油はさらっとしてて、切れも良く、揚げ物がべとつきません。&lt;/p&gt;&#xA;&lt;p&gt;太白胡麻油よりも安いので使いやすいですね。&lt;/p&gt;&#xA;&lt;p&gt;それでもキャノーラ油の2倍近い価格です。&lt;/p&gt;&#xA;&lt;p&gt;まあトランス脂肪酸を摂ることだけは控えましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カフェなう</title>
-      <link>http://localhost:1313/posts/2019-12-27_%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AA%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-12-27_%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AA%E3%81%86/</link>
       <pubDate>Fri, 27 Dec 2019 14:43:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-27_%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AA%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-12-27_%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AA%E3%81%86/</guid>
       <description>&lt;p&gt;某チェーン店のアメリカンコーヒーというエスプレッソの苦いだけのコーヒーを顰めっ面で飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;明後日の買い出しまでの食料品がないので買いに出てきただけなんですが、母親がショッピングモールに行きたがったので来ました。&lt;/p&gt;&#xA;&lt;p&gt;頭が痛いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>乾杯</title>
-      <link>http://localhost:1313/posts/2019-12-25_%E4%B9%BE%E6%9D%AF/</link>
+      <link>http://localhost:63371/posts/2019-12-25_%E4%B9%BE%E6%9D%AF/</link>
       <pubDate>Wed, 25 Dec 2019 21:49:37 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-25_%E4%B9%BE%E6%9D%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-12-25_%E4%B9%BE%E6%9D%AF/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12562221894-14684924895.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191225/21/yuki9902/b0/b4/j/o0640096614684924895.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;お酒の代わりに「なっちゃん！しゅわしゅわ白ぶどう」を飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;白のスパークリングワインみたいな気分になれます。&lt;/p&gt;&#xA;&lt;p&gt;微炭酸で甘すぎずちょっとだけ酸味を感じるのが美味しいです。&lt;/p&gt;&#xA;&lt;p&gt;楽しい気分でお過ごしください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Merry Christmas!</title>
-      <link>http://localhost:1313/posts/2019-12-25_merry-christmas/</link>
+      <link>http://localhost:63371/posts/2019-12-25_merry-christmas/</link>
       <pubDate>Wed, 25 Dec 2019 10:36:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-25_merry-christmas/</guid>
+      <guid>http://localhost:63371/posts/2019-12-25_merry-christmas/</guid>
       <description>&lt;p&gt;サンタさんが来ないかと朝方まで起きていました。&lt;/p&gt;&#xA;&lt;p&gt;嘘です。&lt;/p&gt;&#xA;&lt;p&gt;小説を読んでいて寝たのが朝の5時頃だと思います。&lt;/p&gt;&#xA;&lt;p&gt;先程目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;朝は寒かったようですが、今日は太陽の陽射しが暖かいです。&lt;/p&gt;&#xA;&lt;p&gt;今日だけで無く、いつも頑張っている皆様に良いことが沢山ありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>レディー・ディ</title>
-      <link>http://localhost:1313/posts/2019-12-24_%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%87%E3%82%A3/</link>
+      <link>http://localhost:63371/posts/2019-12-24_%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%87%E3%82%A3/</link>
       <pubDate>Tue, 24 Dec 2019 18:55:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-24_%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%87%E3%82%A3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-24_%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%87%E3%82%A3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561956378-14684245102.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191224/18/yuki9902/7d/dc/j/o0966064014684245102.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;レディー・ディという名の苺のショートケーキです。&lt;/p&gt;&#xA;&lt;p&gt;苺の酸味とクリームのバランスがなかなか良いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一服</title>
-      <link>http://localhost:1313/posts/2019-12-24_%E4%B8%80%E6%9C%8D/</link>
+      <link>http://localhost:63371/posts/2019-12-24_%E4%B8%80%E6%9C%8D/</link>
       <pubDate>Tue, 24 Dec 2019 13:28:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-24_%E4%B8%80%E6%9C%8D/</guid>
+      <guid>http://localhost:63371/posts/2019-12-24_%E4%B8%80%E6%9C%8D/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561900045-14684094433.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191224/13/yuki9902/f7/2c/j/o0966064014684094433.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;トラジャのスロトコ農園の珈琲豆を挽いて淹れました。&lt;/p&gt;&#xA;&lt;p&gt;広くなったデスクトップでゆったり珈琲を啜ります。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561900045-14684094477.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191224/13/yuki9902/4d/04/j/o0966064014684094477.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;キーボードの端から左側が広くなった部分です。&lt;/p&gt;&#xA;&lt;p&gt;午後から曇りました。&lt;/p&gt;&#xA;&lt;p&gt;ちょっと寒いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>モンブラン</title>
-      <link>http://localhost:1313/posts/2019-12-23_%E3%83%A2%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3/</link>
+      <link>http://localhost:63371/posts/2019-12-23_%E3%83%A2%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3/</link>
       <pubDate>Mon, 23 Dec 2019 18:27:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-23_%E3%83%A2%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-23_%E3%83%A2%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561736589-14683683774.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191223/18/yuki9902/1a/7e/j/o0640096614683683774.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;モンブランのような山にはなってませんけれど、栗のクリームのお菓子です。&lt;/p&gt;&#xA;&lt;p&gt;四万十栗を使っているそうです。&lt;/p&gt;&#xA;&lt;p&gt;栗の味と薫りがしっかりと出てます。&lt;/p&gt;&#xA;&lt;p&gt;美味しいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>15センチメートル</title>
-      <link>http://localhost:1313/posts/2019-12-23_15%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB/</link>
+      <link>http://localhost:63371/posts/2019-12-23_15%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB/</link>
       <pubDate>Mon, 23 Dec 2019 15:29:21 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-23_15%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB/</guid>
+      <guid>http://localhost:63371/posts/2019-12-23_15%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB/</guid>
       <description>&lt;p&gt;昨日、カルピスをキーボードにぶっかけてしまったので、今日はデスクにしているワイヤーラックの網棚と天板を買いに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;網棚のサイズは幅59.5センチ×奥行き34.5センチから、幅74.5センチ×奥行き34.5センチの物にしました。&lt;/p&gt;&#xA;&lt;p&gt;網棚に乗せる天板が、ホームセンターに置いてある物のサイズが最大でそれしか無かったからです。&lt;/p&gt;&#xA;&lt;p&gt;網棚は奥行き39.5センチの物があり、其方が欲しかったのですが、天板が無いし、補強用に柱部に渡してあるブリッジも39.5センチの物を買わなくちゃいけないので、奥行きは妥協です。&lt;/p&gt;&#xA;&lt;p&gt;15センチの横幅が増えたことで、デスクでの作業性はかなり向上しました。&lt;/p&gt;&#xA;&lt;p&gt;そのまま設置するとAVアンプにぶつかるので、AVアンプを横に10センチずらしました。&lt;/p&gt;&#xA;&lt;p&gt;また油断して飲み物をこぼさないように気をつけないと。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
-      <link>http://localhost:1313/posts/2019-12-22_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2019-12-22_%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
       <pubDate>Sun, 22 Dec 2019 22:02:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-22_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2019-12-22_%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
       <description>&lt;p&gt;今日は朝からずっと曇って寒かったです。&lt;/p&gt;&#xA;&lt;p&gt;天気予報では1日中雨予報でしたが、雨は夜になって降り出しました。&lt;/p&gt;&#xA;&lt;p&gt;雨が降っているので底冷えは無いようですが、それでも寒いです。&lt;/p&gt;&#xA;&lt;p&gt;寒いので晩ご飯は鶏と鴨の団子と豚肉のバラスライスがメインの鍋にしました。&lt;/p&gt;&#xA;&lt;p&gt;白菜が大量にあるのでなかなか消費できません。&lt;/p&gt;&#xA;&lt;p&gt;3キロ以上ある球が5つで700円です。&lt;/p&gt;&#xA;&lt;p&gt;カルピスぶちまけ事件の後、木工の動画を見てました。&lt;/p&gt;&#xA;&lt;p&gt;パソコン周りの机を作ってみたいとは思うものの、作っても家が狭くて運び入れることが出来ません。&lt;/p&gt;&#xA;&lt;p&gt;なので、いまはワイヤーラックですが。&lt;/p&gt;&#xA;&lt;p&gt;せめて机の天面だけでも広げよう…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あっ</title>
-      <link>http://localhost:1313/posts/2019-12-22_%E3%81%82%E3%81%A3/</link>
+      <link>http://localhost:63371/posts/2019-12-22_%E3%81%82%E3%81%A3/</link>
       <pubDate>Sun, 22 Dec 2019 18:18:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-22_%E3%81%82%E3%81%A3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-22_%E3%81%82%E3%81%A3/</guid>
       <description>&lt;p&gt;キーボードの横にホットカルピスを置いてたら、手が当たってキーボードの上に少しこぼしてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;直ぐにキーボードを立てて基板の方に入らないようにしましたが、ちょっと入ったかも。&lt;/p&gt;&#xA;&lt;p&gt;キーキャップを外して、カルピスを拭き取り、エタノールと綿棒でべとつきを拭き取りました。&lt;/p&gt;&#xA;&lt;p&gt;キーを押してみて、とりあえず誤動作はしてないのと押し込み具合に問題が無いのを確認しました。&lt;/p&gt;&#xA;&lt;p&gt;いつかやると思ってましたが、やっぱりやってしまいました。&lt;/p&gt;&#xA;&lt;p&gt;最近は歳のせいか、死角が増えて、不注意が増えているような気がします。&lt;/p&gt;&#xA;&lt;p&gt;カップホルダーを用意するか、転けないカップを探すか…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>帰りました。</title>
-      <link>http://localhost:1313/posts/2019-12-22_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2019-12-22_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sun, 22 Dec 2019 08:10:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-22_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2019-12-22_%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;所用を済ませて帰ってきました。&lt;/p&gt;&#xA;&lt;p&gt;ふー、疲れた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう御座います</title>
-      <link>http://localhost:1313/posts/2019-12-22_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-22_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Sun, 22 Dec 2019 04:19:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-22_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-22_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;今日も所用があって夜明け前から出かけます。&lt;/p&gt;&#xA;&lt;p&gt;でもお昼前には帰ってくると思いますが。&lt;/p&gt;&#xA;&lt;p&gt;今朝は幻聴で目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;翌日のスケジュールを意識して眠りにつくと、だいたい幻聴などで目が覚めます。&lt;/p&gt;&#xA;&lt;p&gt;睡眠薬の効果はあと1時間以上あるはずなんですけどね。&lt;/p&gt;&#xA;&lt;p&gt;今朝も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;外は氷点下でしょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>G.SKILL Trident Z NEO F4-3600C18D-16GTZN (2セット目)</title>
-      <link>http://localhost:1313/posts/2019-12-21_g.skill-trident-z-neo-f4-3600c18d-16gtzn-2%E3%82%BB%E3%83%83%E3%83%88%E7%9B%AE/</link>
+      <link>http://localhost:63371/posts/2019-12-21_g.skill-trident-z-neo-f4-3600c18d-16gtzn-2%E3%82%BB%E3%83%83%E3%83%88%E7%9B%AE/</link>
       <pubDate>Sat, 21 Dec 2019 19:52:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-21_g.skill-trident-z-neo-f4-3600c18d-16gtzn-2%E3%82%BB%E3%83%83%E3%83%88%E7%9B%AE/</guid>
+      <guid>http://localhost:63371/posts/2019-12-21_g.skill-trident-z-neo-f4-3600c18d-16gtzn-2%E3%82%BB%E3%83%83%E3%83%88%E7%9B%AE/</guid>
       <description>&lt;p&gt;32GBに増設しようと、G.SKILL Trident Z NEO F4-3600C18D-16GTZN の2セット目を買いました。&lt;/p&gt;&#xA;&lt;p&gt;12000円ちょっとぐらいです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561327412-14682584821.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191221/19/yuki9902/2e/94/j/o0966064014682584821.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUはAMD RYZEN 7 3700X、M/BはGIGABYTE GA-AX370-Gaming K7（チップセットはAMD X370）です。&lt;/p&gt;&#xA;&lt;p&gt;メモリ1セット目をSlot 3,4に移し、3600MHzCL18で起動できました。&lt;/p&gt;&#xA;&lt;p&gt;メモリ2セット目をSlot 1,2に追加し、3600MHzCL18では起動できませんでした。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561327412-14682584837.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191221/19/yuki9902/1c/a7/j/o0966064014682584837.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;BIOSのメモリ設定がリセットされて2066MHzCL15で起動しました。&lt;/p&gt;&#xA;&lt;p&gt;BIOSのメモリ設定で、XMP2を使う設定で3600MHzCL18に設定しましたが、リセットされます。&lt;/p&gt;&#xA;&lt;p&gt;BIOSのメモリ設定で、Manualで3200MHzCL18で設定するとWindows 10が起動します。&lt;/p&gt;&#xA;&lt;p&gt;AMD RYZEN MASTER でオーバークロック設定でメモリの設定を1800、インフィニティーファブリックを1800に設定して再起動すると、BIOSが転けずにWindows 10が起動します。&lt;/p&gt;&#xA;&lt;p&gt;CPU-Zで確認するとベースクロックもインフィニティーファブリックも1800MHzになっていて、タスクマネージャーを見ると3600MHzで動作しているのが確認できました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561327412-14682594487.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191221/19/yuki9902/b4/d7/p/o0826076414682594487.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;BIOSで設定できないのが些か難儀ですが、AMD RYZEN MASTERが優秀なので、まあ良いか。&lt;/p&gt;&#xA;&lt;p&gt;ちなみに、G.SKILL Trident Z NEO F4-3600C18D-16GTZN は、オーバークロックメモリなので基本設定は2066MHz（1033MHz）の製品です。&lt;/p&gt;&#xA;&lt;p&gt;そしてRYZEN 7 3700Xは定格3200MHzまでのメモリに対応です。&lt;/p&gt;&#xA;&lt;p&gt;オーバークロックだと5000MHzを超える物も使えるらしいですが。&lt;/p&gt;&#xA;&lt;p&gt;メモリスロットを全部埋めたい衝動がない人は、最初から32GBのメモリを買いましょう。&lt;/p&gt;&#xA;&lt;p&gt;お金が無くて徐々に強化したい人は頑張ってください。&lt;/p&gt;&#xA;&lt;p&gt;ゲームしかしない人は16GBで十分です。&lt;/p&gt;&#xA;&lt;p&gt;Google ChromeやFirefoxを常用するなら32GBあっても良いかも、どちらもメモリ馬鹿食いですから(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>在宅中</title>
-      <link>http://localhost:1313/posts/2019-12-21_%E5%9C%A8%E5%AE%85%E4%B8%AD/</link>
+      <link>http://localhost:63371/posts/2019-12-21_%E5%9C%A8%E5%AE%85%E4%B8%AD/</link>
       <pubDate>Sat, 21 Dec 2019 14:26:23 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-21_%E5%9C%A8%E5%AE%85%E4%B8%AD/</guid>
+      <guid>http://localhost:63371/posts/2019-12-21_%E5%9C%A8%E5%AE%85%E4%B8%AD/</guid>
       <description>&lt;p&gt;昼に所用で出かけて、ラーメン食べて帰ってきました。&lt;/p&gt;&#xA;&lt;p&gt;4時前にまた出かけます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>亀王ラーメン昔味</title>
-      <link>http://localhost:1313/posts/2019-12-21_%E4%BA%80%E7%8E%8B%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%98%94%E5%91%B3/</link>
+      <link>http://localhost:63371/posts/2019-12-21_%E4%BA%80%E7%8E%8B%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%98%94%E5%91%B3/</link>
       <pubDate>Sat, 21 Dec 2019 12:20:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-21_%E4%BA%80%E7%8E%8B%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%98%94%E5%91%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-21_%E4%BA%80%E7%8E%8B%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%98%94%E5%91%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12561250146-14682396324.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191221/12/yuki9902/e1/94/j/o1080081014682396324.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;大蒜油、柚子こしょう、胡椒のパンチの効いたとんこつラーメンです。&lt;/p&gt;&#xA;&lt;p&gt;味覚が満足です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ふぃっしゅふらいさんど</title>
-      <link>http://localhost:1313/posts/2019-12-21_%E3%81%B5%E3%81%83%E3%81%A3%E3%81%97%E3%82%85%E3%81%B5%E3%82%89%E3%81%84%E3%81%95%E3%82%93%E3%81%A9/</link>
+      <link>http://localhost:63371/posts/2019-12-21_%E3%81%B5%E3%81%83%E3%81%A3%E3%81%97%E3%82%85%E3%81%B5%E3%82%89%E3%81%84%E3%81%95%E3%82%93%E3%81%A9/</link>
       <pubDate>Sat, 21 Dec 2019 08:37:02 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-21_%E3%81%B5%E3%81%83%E3%81%A3%E3%81%97%E3%82%85%E3%81%B5%E3%82%89%E3%81%84%E3%81%95%E3%82%93%E3%81%A9/</guid>
+      <guid>http://localhost:63371/posts/2019-12-21_%E3%81%B5%E3%81%83%E3%81%A3%E3%81%97%E3%82%85%E3%81%B5%E3%82%89%E3%81%84%E3%81%95%E3%82%93%E3%81%A9/</guid>
       <description>&lt;p&gt;Pascoのイングリッシュマフィンと昨日作った米国産かれいのフライをトースターで炙り、マヨネーズに三温糖少々、和辛子少々、クレイジーソルト少々を混ぜ、炙り終わったマフィンに塗り、その間にフィッシュフライを挟みます。&lt;/p&gt;&#xA;&lt;p&gt;某ハンバーガーショップより美味しいフィッシュフライサンドの完成です。&lt;/p&gt;&#xA;&lt;p&gt;朝、室温が6度ぐらいでした。&lt;/p&gt;&#xA;&lt;p&gt;ヒーター全開で8度ぐらいになりました。&lt;/p&gt;&#xA;&lt;p&gt;家の前に設置してある自動販売機から無糖無香料の缶コーヒーを買ってきて啜ってます。&lt;/p&gt;&#xA;&lt;p&gt;今朝も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;冷えた体を私のマシュマロボディで抱きしめてあげましょう(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>ちょっと聞かせておくれよ、君の話 紅茶を飲んで</title>
-      <link>http://localhost:1313/posts/2019-12-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6%E3%81%8A%E3%81%8F%E3%82%8C%E3%82%88%E5%90%9B%E3%81%AE%E8%A9%B1-%E7%B4%85%E8%8C%B6%E3%82%92%E9%A3%B2%E3%82%93%E3%81%A7/</link>
+      <link>http://localhost:63371/posts/2019-12-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6%E3%81%8A%E3%81%8F%E3%82%8C%E3%82%88%E5%90%9B%E3%81%AE%E8%A9%B1-%E7%B4%85%E8%8C%B6%E3%82%92%E9%A3%B2%E3%82%93%E3%81%A7/</link>
       <pubDate>Sat, 21 Dec 2019 01:15:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6%E3%81%8A%E3%81%8F%E3%82%8C%E3%82%88%E5%90%9B%E3%81%AE%E8%A9%B1-%E7%B4%85%E8%8C%B6%E3%82%92%E9%A3%B2%E3%82%93%E3%81%A7/</guid>
+      <guid>http://localhost:63371/posts/2019-12-21_%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6%E3%81%8A%E3%81%8F%E3%82%8C%E3%82%88%E5%90%9B%E3%81%AE%E8%A9%B1-%E7%B4%85%E8%8C%B6%E3%82%92%E9%A3%B2%E3%82%93%E3%81%A7/</guid>
       <description>&lt;p&gt;心に抱えていること、悩んでること、苦しいこと、なんでも吐き出してしまえば良い。&lt;/p&gt;&#xA;&lt;p&gt;自分が生きてきたこと、貫いてきたこと、そんなものに自信を持って生きれば良い。&lt;/p&gt;&#xA;&lt;p&gt;あなたが願い、やってきたこと、選択してきたこと、そこで得られた物はきっと役に立つ。&lt;/p&gt;&#xA;&lt;p&gt;何も悔やむことはない。&lt;/p&gt;&#xA;&lt;p&gt;顔を上げてまっすぐ自分の道を進めば良い。&lt;/p&gt;&#xA;&lt;p&gt;あなたの人生は輝いている。&lt;/p&gt;&#xA;&lt;p&gt;B&amp;rsquo;zのマジェスティックを聞きながら、こんなことを思いました。&lt;/p&gt;&#xA;&lt;p&gt;楽しい夢を。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お掃除</title>
-      <link>http://localhost:1313/posts/2019-12-20_%E3%81%8A%E6%8E%83%E9%99%A4/</link>
+      <link>http://localhost:63371/posts/2019-12-20_%E3%81%8A%E6%8E%83%E9%99%A4/</link>
       <pubDate>Fri, 20 Dec 2019 20:31:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-20_%E3%81%8A%E6%8E%83%E9%99%A4/</guid>
+      <guid>http://localhost:63371/posts/2019-12-20_%E3%81%8A%E6%8E%83%E9%99%A4/</guid>
       <description>&lt;p&gt;メインパソコンRYZEN 7 3700X &amp;amp; X370のお掃除とCPUファンの交換を行いました。&lt;/p&gt;&#xA;&lt;p&gt;今使っているG.SKILLのDDR4-3600MHzCL18 16GBをもう1セット注文しました。&lt;/p&gt;&#xA;&lt;p&gt;それに合わせて、今使っているCoolerMaster MA610Pが1番目のメモリスロットに干渉するのが分かっていたので、CPUに付属しているWraith Prism with RGB LEDに交換しました。&lt;/p&gt;&#xA;&lt;p&gt;付属品とは言えオーバークロック時の冷却も大丈夫です。&lt;/p&gt;&#xA;&lt;p&gt;9センチのファンなので14センチに比べれば、回転数も増え風切り音が大きくなりますが、通常時にはそれほど気にはなりません。&lt;/p&gt;&#xA;&lt;p&gt;そして、CoolerMaster MA610Pは、サブパソコンRYZEN 7 1700 &amp;amp; B450に取り付けました。&lt;/p&gt;&#xA;&lt;p&gt;M-ATXマザーボードで、ケースはCoolerMaster MASTERBOX Q300Lの小型タワーケースに入れてあるので、クーラーの高さが1ミリほど高くサイドパネルに干渉します。&lt;/p&gt;&#xA;&lt;p&gt;でも透明のプラスチックなので少しだけ膨らみ爪1枚ほどの隙間ができるだけなので、問題ないことにします(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;今後、メインパソコンの冷却をどうするか、再度考えます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カレーと唐揚げと</title>
-      <link>http://localhost:1313/posts/2019-12-19_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92%E3%81%A8/</link>
+      <link>http://localhost:63371/posts/2019-12-19_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92%E3%81%A8/</link>
       <pubDate>Thu, 19 Dec 2019 19:10:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-19_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92%E3%81%A8/</guid>
+      <guid>http://localhost:63371/posts/2019-12-19_%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%A8%E5%94%90%E6%8F%9A%E3%81%92%E3%81%A8/</guid>
       <description>&lt;p&gt;今日の晩は元気が出るようにと、辛いカレーと鶏の唐揚げを作りました。&lt;/p&gt;&#xA;&lt;p&gt;人参を下茹でしたまま火を止めるのを忘れて焦がしてしまいましたが、焦げを取り除いてしまえば焦げの匂いは気になりませんでした。&lt;/p&gt;&#xA;&lt;p&gt;唐揚げが旨すぎて草生えるwww&lt;/p&gt;&#xA;&lt;p&gt;今夜は急激に寒くなってきました。&lt;/p&gt;&#xA;&lt;p&gt;温かくしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>寒いです</title>
-      <link>http://localhost:1313/posts/2019-12-19_%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-19_%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</link>
       <pubDate>Thu, 19 Dec 2019 06:48:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-19_%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-19_%E5%AF%92%E3%81%84%E3%81%A7%E3%81%99/</guid>
       <description>&lt;p&gt;おはようございます。&lt;/p&gt;&#xA;&lt;p&gt;睡眠薬の効果が切れるとパチッと目が覚めます。&lt;/p&gt;&#xA;&lt;p&gt;目覚ましがなくても時間通りです。&lt;/p&gt;&#xA;&lt;p&gt;只今、車の暖気中です。&lt;/p&gt;&#xA;&lt;p&gt;アイドリングして暖気しないと燃焼効率も油圧も安定しないので、車への負担が大きくなります。&lt;/p&gt;&#xA;&lt;p&gt;漸う白けてきました。&lt;/p&gt;&#xA;&lt;p&gt;気をつけて出掛けましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>麺食い</title>
-      <link>http://localhost:1313/posts/2019-12-18_%E9%BA%BA%E9%A3%9F%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-12-18_%E9%BA%BA%E9%A3%9F%E3%81%84/</link>
       <pubDate>Wed, 18 Dec 2019 23:34:15 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-18_%E9%BA%BA%E9%A3%9F%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-12-18_%E9%BA%BA%E9%A3%9F%E3%81%84/</guid>
       <description>&lt;p&gt;朝餉はカップの味噌ラーメン。&lt;/p&gt;&#xA;&lt;p&gt;昼餉はきつねうどん。&lt;/p&gt;&#xA;&lt;p&gt;夕餉はそばと牛丼。&lt;/p&gt;&#xA;&lt;p&gt;麺ばっかりの一日でした。&lt;/p&gt;&#xA;&lt;p&gt;明日は心療内科に行ってきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お早う御座います</title>
-      <link>http://localhost:1313/posts/2019-12-18_%E3%81%8A%E6%97%A9%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-18_%E3%81%8A%E6%97%A9%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Wed, 18 Dec 2019 07:06:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-18_%E3%81%8A%E6%97%A9%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-18_%E3%81%8A%E6%97%A9%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;今朝は濃霧にご注意ください。&lt;/p&gt;&#xA;&lt;p&gt;気をつけてお出かけください。&lt;/p&gt;&#xA;&lt;p&gt;今日が良い日でありますように。&lt;/p&gt;&#xA;&lt;p&gt;忙しいときこそ慌てずに行動致しましょう。&lt;/p&gt;&#xA;&lt;p&gt;やっつけ仕事は来年に響きます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>雨が上がりました</title>
-      <link>http://localhost:1313/posts/2019-12-18_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2019-12-18_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Wed, 18 Dec 2019 02:14:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-18_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2019-12-18_%E9%9B%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;雨が上がって濃霧になっているようです。&lt;/p&gt;&#xA;&lt;p&gt;眠いのでそろそろ寝ます。&lt;/p&gt;&#xA;&lt;p&gt;良い一日でありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>中華三昧</title>
-      <link>http://localhost:1313/posts/2019-12-17_%E4%B8%AD%E8%8F%AF%E4%B8%89%E6%98%A7/</link>
+      <link>http://localhost:63371/posts/2019-12-17_%E4%B8%AD%E8%8F%AF%E4%B8%89%E6%98%A7/</link>
       <pubDate>Tue, 17 Dec 2019 13:06:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-17_%E4%B8%AD%E8%8F%AF%E4%B8%89%E6%98%A7/</guid>
+      <guid>http://localhost:63371/posts/2019-12-17_%E4%B8%AD%E8%8F%AF%E4%B8%89%E6%98%A7/</guid>
       <description>&lt;p&gt;中華三昧、そんな名前のインスタントラーメンがあったような気がします。&lt;/p&gt;&#xA;&lt;p&gt;今日のお昼は、海老と烏賊と白菜の炒め煮、チャーハン、豚萌やし炒め。&lt;/p&gt;&#xA;&lt;p&gt;長ネギの青いところを冷凍ストックしてあるので、それを太白胡麻油で煮ていき、葱油を作ります。&lt;/p&gt;&#xA;&lt;p&gt;ネギが焦げる前に笊で油を濾します。&lt;/p&gt;&#xA;&lt;p&gt;加熱して油の中に残った水分を飛ばしておきます。&lt;/p&gt;&#xA;&lt;p&gt;下処理してある海老と烏賊なので、塩と酒を入れた熱湯に潜らせて湯通しします。&lt;/p&gt;&#xA;&lt;p&gt;葱油を入れて人参を炒め、おおよそ火が通ったら生姜、大蒜、豚肉を入れ炒めていきます。&lt;/p&gt;&#xA;&lt;p&gt;白菜の硬いところ、キクラゲ、白菜の柔らかいところと順に入れては炒めていきます。&lt;/p&gt;&#xA;&lt;p&gt;しんなりしたら酒、お湯を入れ、中華スープの素を入れて煮立て、白菜の硬いところに火が入るまで煮ます。&lt;/p&gt;&#xA;&lt;p&gt;海老と烏賊を加えて熱を通していき、味を調え、水溶き片栗粉を入れてとろみをつけて完成。&lt;/p&gt;&#xA;&lt;p&gt;チャーハンは少し多めの葱油を熱し、溶き卵を入れて、卵が固まる前に温めて置いたご飯を投入して、炒めていきます。&lt;/p&gt;&#xA;&lt;p&gt;具材に葱油で使ったネギを細かく切って投入。&lt;/p&gt;&#xA;&lt;p&gt;中華スープの素で味をつけて、炒め、最後に鍋肌に醤油を回しかけ、香りを立たせて完成。&lt;/p&gt;&#xA;&lt;p&gt;次に葱油を熱し、生姜、大蒜を炒め、豚肉を炒めて、火が入りきる前に萌やしを入れ、炒めます。&lt;/p&gt;&#xA;&lt;p&gt;鍋肌に焼き肉のタレを回し掛け味を決めます。&lt;/p&gt;&#xA;&lt;p&gt;タレに水分が多くて少し失敗でした。&lt;/p&gt;&#xA;&lt;p&gt;今日は気が散漫になりやすかったので、準備を含め2時間も掛かりました。&lt;/p&gt;&#xA;&lt;p&gt;夜は何しようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>新約、あると良いな</title>
-      <link>http://localhost:1313/posts/2019-12-16_%E6%96%B0%E7%B4%84%E3%81%82%E3%82%8B%E3%81%A8%E8%89%AF%E3%81%84%E3%81%AA/</link>
+      <link>http://localhost:63371/posts/2019-12-16_%E6%96%B0%E7%B4%84%E3%81%82%E3%82%8B%E3%81%A8%E8%89%AF%E3%81%84%E3%81%AA/</link>
       <pubDate>Mon, 16 Dec 2019 23:49:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-16_%E6%96%B0%E7%B4%84%E3%81%82%E3%82%8B%E3%81%A8%E8%89%AF%E3%81%84%E3%81%AA/</guid>
+      <guid>http://localhost:63371/posts/2019-12-16_%E6%96%B0%E7%B4%84%E3%81%82%E3%82%8B%E3%81%A8%E8%89%AF%E3%81%84%E3%81%AA/</guid>
       <description>&lt;p&gt;無印のとある魔術の禁書目録の3期のフィアンマ編を見てました。&lt;/p&gt;&#xA;&lt;p&gt;原作読んでないと場面転換が激しくてわけわかめ状態で、予算不足で表現がアレな感じですが、一方通行（アクセラレーター）が天使化するところはちゃんと描かれてました。&lt;/p&gt;&#xA;&lt;p&gt;新約はアニメ化するんでしょうか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>青山混合</title>
-      <link>http://localhost:1313/posts/2019-12-16_%E9%9D%92%E5%B1%B1%E6%B7%B7%E5%90%88/</link>
+      <link>http://localhost:63371/posts/2019-12-16_%E9%9D%92%E5%B1%B1%E6%B7%B7%E5%90%88/</link>
       <pubDate>Mon, 16 Dec 2019 18:32:13 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-16_%E9%9D%92%E5%B1%B1%E6%B7%B7%E5%90%88/</guid>
+      <guid>http://localhost:63371/posts/2019-12-16_%E9%9D%92%E5%B1%B1%E6%B7%B7%E5%90%88/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12560192050-14679960196.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191216/18/yuki9902/49/85/j/o0966064014679960196.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンNo1ブレンドを朝に挽いて珈琲を淹れました。&lt;/p&gt;&#xA;&lt;p&gt;アメリカンと呼ばれるぐらいの薄い方が良いです。&lt;/p&gt;&#xA;&lt;p&gt;濃くて苦いだけの珈琲は好きじゃ無いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはようございます</title>
-      <link>http://localhost:1313/posts/2019-12-16_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-16_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Mon, 16 Dec 2019 07:56:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-16_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-16_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;今日は朝から晴れております。&lt;/p&gt;&#xA;&lt;p&gt;冷え込みは凄いですが、お日様にあたると元気が出ます。&lt;/p&gt;&#xA;&lt;p&gt;寒さで縮こまったままで怪我をしないようにいたしましょう。&lt;/p&gt;&#xA;&lt;p&gt;今日も元気でお過ごしください。&lt;/p&gt;&#xA;&lt;p&gt;惰眠をむさぼろうとしたら、サラリーマン時代の嫌な夢を見たので、寒さを我慢して起きました。&lt;/p&gt;&#xA;&lt;p&gt;楽しいことが私にはなくても、あなたにはありますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>カツアゲアゲ</title>
-      <link>http://localhost:1313/posts/2019-12-15_%E3%82%AB%E3%83%84%E3%82%A2%E3%82%B2%E3%82%A2%E3%82%B2/</link>
+      <link>http://localhost:63371/posts/2019-12-15_%E3%82%AB%E3%83%84%E3%82%A2%E3%82%B2%E3%82%A2%E3%82%B2/</link>
       <pubDate>Sun, 15 Dec 2019 23:48:15 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-15_%E3%82%AB%E3%83%84%E3%82%A2%E3%82%B2%E3%82%A2%E3%82%B2/</guid>
+      <guid>http://localhost:63371/posts/2019-12-15_%E3%82%AB%E3%83%84%E3%82%A2%E3%82%B2%E3%82%A2%E3%82%B2/</guid>
       <description>&lt;p&gt;昨日、今日、明日、変わり行く私♪&lt;/p&gt;&#xA;&lt;p&gt;じゃなくて、昨日の晩、今日の昼と生魚の料理が続いたので、今夜は豚カツを揚げてアゲアゲです。&lt;/p&gt;&#xA;&lt;p&gt;豚のロースのスライス豚カツ用とフィレのブロックを買ってきたので、フィレはスライスして、揚げました。&lt;/p&gt;&#xA;&lt;p&gt;今日はついでに揚げ物用の温度計を買いました。&lt;/p&gt;&#xA;&lt;p&gt;1リットル前後の油の温度を管理するのは意外と難しいです。&lt;/p&gt;&#xA;&lt;p&gt;熱平衡の計算は出来なくも無いですが面倒臭いし、ガス調整機構が大雑把な作りなので、火加減は温度計頼りです。&lt;/p&gt;&#xA;&lt;p&gt;揚げ上がりで衣の水分をしっかり飛ばせば、油切れも良いので、温度管理が大切かな。&lt;/p&gt;&#xA;&lt;p&gt;キャノーラ油は酸化しやすいので、太白胡麻油を買ってきましたが高いです。&lt;/p&gt;&#xA;&lt;p&gt;キャノーラ油で炒め物をすると胸焼けがするので、まあ仕方ないか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>再び、只今</title>
-      <link>http://localhost:1313/posts/2019-12-15_%E5%86%8D%E3%81%B3%E5%8F%AA%E4%BB%8A/</link>
+      <link>http://localhost:63371/posts/2019-12-15_%E5%86%8D%E3%81%B3%E5%8F%AA%E4%BB%8A/</link>
       <pubDate>Sun, 15 Dec 2019 15:19:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-15_%E5%86%8D%E3%81%B3%E5%8F%AA%E4%BB%8A/</guid>
+      <guid>http://localhost:63371/posts/2019-12-15_%E5%86%8D%E3%81%B3%E5%8F%AA%E4%BB%8A/</guid>
       <description>&lt;p&gt;買い物から帰ってきました。&lt;/p&gt;&#xA;&lt;p&gt;タートルネックのセーターを何処に仕舞ったか分からなくなって、ちょっとアンニュイです。&lt;/p&gt;&#xA;&lt;p&gt;セーターを着たい日があるんだよ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>只今</title>
-      <link>http://localhost:1313/posts/2019-12-15_%E5%8F%AA%E4%BB%8A/</link>
+      <link>http://localhost:63371/posts/2019-12-15_%E5%8F%AA%E4%BB%8A/</link>
       <pubDate>Sun, 15 Dec 2019 07:38:35 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-15_%E5%8F%AA%E4%BB%8A/</guid>
+      <guid>http://localhost:63371/posts/2019-12-15_%E5%8F%AA%E4%BB%8A/</guid>
       <description>&lt;p&gt;戻ってきました。&lt;/p&gt;&#xA;&lt;p&gt;高原は夜が明けても寒いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オハ</title>
-      <link>http://localhost:1313/posts/2019-12-15_%E3%82%AA%E3%83%8F/</link>
+      <link>http://localhost:63371/posts/2019-12-15_%E3%82%AA%E3%83%8F/</link>
       <pubDate>Sun, 15 Dec 2019 05:17:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-15_%E3%82%AA%E3%83%8F/</guid>
+      <guid>http://localhost:63371/posts/2019-12-15_%E3%82%AA%E3%83%8F/</guid>
       <description>&lt;p&gt;おはよう御座います。&lt;/p&gt;&#xA;&lt;p&gt;室温10度です。&lt;/p&gt;&#xA;&lt;p&gt;23時に睡眠薬を飲んだので、6時間ほどで効果が切れて5時には目がバッチリ覚めてます。&lt;/p&gt;&#xA;&lt;p&gt;そして寒い。&lt;/p&gt;&#xA;&lt;p&gt;6時前には出かけます。&lt;/p&gt;&#xA;&lt;p&gt;サラリーマン時代は毎日こんな時間に起きて、出勤してました。&lt;/p&gt;&#xA;&lt;p&gt;7時半には就業場所に行って、サーバーのメンテナンスをして、ログをチェックして、業務開始時のロード状況を監視してましたから…。&lt;/p&gt;&#xA;&lt;p&gt;役職がついてからは、報告書をチェックして、朝の会議資料を用意して、朝礼が終わったら会議が昼頃まであって、午後の会議資料を用意して、納品物用意して、会議して、就業時間が終わったら、自分に割り当てられた作成物を作成したり、部下の尻拭いをしたりして、家に帰ってくるのは翌日の2時頃。&lt;/p&gt;&#xA;&lt;p&gt;そして3時半に寝て、6時に起きて30分後には出勤…。&lt;/p&gt;&#xA;&lt;p&gt;そりゃあ、そんなんを何年もしたら、過労と寝不足で倒れるし、人間関係の問題も抱えて鬱にもなるわ。&lt;/p&gt;&#xA;&lt;p&gt;(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;体も神経もぶっ壊れたまま。&lt;/p&gt;&#xA;&lt;p&gt;でも地道に極貧でも生きています。&lt;/p&gt;&#xA;&lt;p&gt;さあ今日ものんびりと生きましょう。&lt;/p&gt;&#xA;&lt;p&gt;無理だけは絶対にしちゃだめよ。&lt;/p&gt;&#xA;&lt;p&gt;会社は自分の面倒を一生見てくれることなんて絶対に無いからね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あっつい風呂</title>
-      <link>http://localhost:1313/posts/2019-12-14_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E9%A2%A8%E5%91%82/</link>
+      <link>http://localhost:63371/posts/2019-12-14_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E9%A2%A8%E5%91%82/</link>
       <pubDate>Sat, 14 Dec 2019 21:27:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-14_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E9%A2%A8%E5%91%82/</guid>
+      <guid>http://localhost:63371/posts/2019-12-14_%E3%81%82%E3%81%A3%E3%81%A4%E3%81%84%E9%A2%A8%E5%91%82/</guid>
       <description>&lt;p&gt;あっつい風呂に入って、体がホットです。&lt;/p&gt;&#xA;&lt;p&gt;長くは浸かっていられませんが、意識も体もクワッとして、出るとフワッと弛緩します。&lt;/p&gt;&#xA;&lt;p&gt;心臓に負担掛かっててヤバいんでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;今夜も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;昼下がりどんよりとした雲に覆われて、雨がポツポツ。&lt;/p&gt;&#xA;&lt;p&gt;もっと寒ければ雪だったんでしょう。&lt;/p&gt;&#xA;&lt;p&gt;明日は5時起きで出かけます。&lt;/p&gt;&#xA;&lt;p&gt;そしてとんぼ返りして、また買い物に出かけます。&lt;/p&gt;&#xA;&lt;p&gt;年末、流行り物の病気を貰わないようにして、元気で一年を終えましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはようございます</title>
-      <link>http://localhost:1313/posts/2019-12-14_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-14_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Sat, 14 Dec 2019 10:16:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-14_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-14_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;って、もうすぐで昼ですけれども。&lt;/p&gt;&#xA;&lt;p&gt;気温は4度くらいでしょうか。&lt;/p&gt;&#xA;&lt;p&gt;室温はヒーター全開で11度です。&lt;/p&gt;&#xA;&lt;p&gt;余りに寒くて、強力な睡眠薬を飲んでますけれど、何度も目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;明け方に電気毛布の設定も最強にしました。&lt;/p&gt;&#xA;&lt;p&gt;掛け布団2枚の上に毛布を掛けて、暖気を逃がさないようにしているんですが、それでも頭、首、肩が冷えると辛いですね。&lt;/p&gt;&#xA;&lt;p&gt;頭の周りにも毛布が必要な時期がやってまいりました。&lt;/p&gt;&#xA;&lt;p&gt;後は、毛布の下に断熱シートを入れようかな。&lt;/p&gt;&#xA;&lt;p&gt;寒いので、お出かけの際はしっかり着込みましょう。&lt;/p&gt;&#xA;&lt;p&gt;ダッフルコート着て、ミトンの手袋をしている女の子が可愛いです(￣∇￣)&lt;/p&gt;</description>
     </item>
     <item>
       <title>っぱないの</title>
-      <link>http://localhost:1313/posts/2019-12-14_%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%84%E3%81%AE/</link>
+      <link>http://localhost:63371/posts/2019-12-14_%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%84%E3%81%AE/</link>
       <pubDate>Sat, 14 Dec 2019 00:34:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-14_%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%84%E3%81%AE/</guid>
+      <guid>http://localhost:63371/posts/2019-12-14_%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%84%E3%81%AE/</guid>
       <description>&lt;p&gt;まあ、そんな事はどうでも良いんです。&lt;/p&gt;&#xA;&lt;p&gt;今夜は一段と冷え込みが厳しくなっています。&lt;/p&gt;&#xA;&lt;p&gt;室温は12度台まで下がっております。&lt;/p&gt;&#xA;&lt;p&gt;ヒーターを点けていても下がっていきます。&lt;/p&gt;&#xA;&lt;p&gt;「っぱないの」と忍野忍（キスショット・アセロラオリオン・ハート・アンダーブレード）CV坂本真綾さんの声がリフレインします。&lt;/p&gt;&#xA;&lt;p&gt;今日は頭の調子が悪いようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>偶に買う</title>
-      <link>http://localhost:1313/posts/2019-12-13_%E5%81%B6%E3%81%AB%E8%B2%B7%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-12-13_%E5%81%B6%E3%81%AB%E8%B2%B7%E3%81%86/</link>
       <pubDate>Fri, 13 Dec 2019 14:05:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-13_%E5%81%B6%E3%81%AB%E8%B2%B7%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-12-13_%E5%81%B6%E3%81%AB%E8%B2%B7%E3%81%86/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12557420086-14672863807.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191213/14/yuki9902/f7/07/j/o1080081014672863807.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;自動販売機で偶に買うのがコーンポタージュ。&lt;/p&gt;&#xA;&lt;p&gt;コーンの粒が中に残って悔しいこともあります。&lt;/p&gt;&#xA;&lt;p&gt;こんど一から自分で作ってみようかな？&lt;/p&gt;</description>
     </item>
     <item>
       <title>FTTH</title>
-      <link>http://localhost:1313/posts/2019-12-13_ftth/</link>
+      <link>http://localhost:63371/posts/2019-12-13_ftth/</link>
       <pubDate>Fri, 13 Dec 2019 10:49:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-13_ftth/</guid>
+      <guid>http://localhost:63371/posts/2019-12-13_ftth/</guid>
       <description>&lt;p&gt;昨日、FTTHになったのですが、CATVの引き込み線の変更だけでした。&lt;/p&gt;&#xA;&lt;p&gt;サービスを100Mbpsプランから1Gbpsプランに変更する手続きを始めました。&lt;/p&gt;&#xA;&lt;p&gt;問題が無ければ来月から1Gbpsに切り替わり、上下とも1Gbpsになる予定です。&lt;/p&gt;&#xA;&lt;p&gt;現在、CATV局から自宅まで光ファーバーで繋がっています。&lt;/p&gt;&#xA;&lt;p&gt;軒先に設置されたV-ONUでデジタルテレビの同軸線を分岐、インターネット接続はそのまま光ファイバーで屋内に引き込みD-ONUでEthernetに変換されています。&lt;/p&gt;&#xA;&lt;p&gt;同軸線は4K、8KのBSデジタルに対応しています。&lt;/p&gt;&#xA;&lt;p&gt;って、言ってもテレビがフルHDまでしか対応してないので、意味ないんですけど。&lt;/p&gt;&#xA;&lt;p&gt;まあ、町の有線放送もCATV網を使っているので、それが停電でも使えるのが大きいかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FTTH</title>
-      <link>http://localhost:1313/posts/2019-12-12_ftth/</link>
+      <link>http://localhost:63371/posts/2019-12-12_ftth/</link>
       <pubDate>Thu, 12 Dec 2019 18:30:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-12_ftth/</guid>
+      <guid>http://localhost:63371/posts/2019-12-12_ftth/</guid>
       <description>&lt;p&gt;ケーブルテレビの引き込み線を光ファイバーに変更しました。&lt;/p&gt;&#xA;&lt;p&gt;インターネット接続が仕様上は上り下りとも1Gbpsになっていますが、各サイトのスピードテストを実施すると、下り90Mbps前後、上り4Mbps前後でした。&lt;/p&gt;&#xA;&lt;p&gt;CATVのxDSL方式で、下り100Mbps、上り4Mbpsの契約だったときは、下り90Mbps前後、上り3Mbps前後でした。&lt;/p&gt;&#xA;&lt;p&gt;つまり変更後、上りが1Mbpsだけ増加したことになります。&lt;/p&gt;&#xA;&lt;p&gt;仕様上は250倍になるのですが、実効は1.33倍にしかなりませんでした。&lt;/p&gt;&#xA;&lt;p&gt;プロバイダーの設備の都合か、上位回線との契約の都合かは分かりませんが、ベストエフォート契約でしかないから、仕方ないのかも知れません。&lt;/p&gt;&#xA;&lt;p&gt;プロバイダーの状況によっては今後増速することもあるでしょう。&lt;/p&gt;&#xA;&lt;p&gt;コンシューマー側の設備としては、当分変更する必要は無いでしょう。&lt;/p&gt;&#xA;&lt;p&gt;ああ、動画配信できるかなと思ったんだけど…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今週は忙しいらしい</title>
-      <link>http://localhost:1313/posts/2019-12-12_%E4%BB%8A%E9%80%B1%E3%81%AF%E5%BF%99%E3%81%97%E3%81%84%E3%82%89%E3%81%97%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-12-12_%E4%BB%8A%E9%80%B1%E3%81%AF%E5%BF%99%E3%81%97%E3%81%84%E3%82%89%E3%81%97%E3%81%84/</link>
       <pubDate>Thu, 12 Dec 2019 01:16:21 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-12_%E4%BB%8A%E9%80%B1%E3%81%AF%E5%BF%99%E3%81%97%E3%81%84%E3%82%89%E3%81%97%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-12-12_%E4%BB%8A%E9%80%B1%E3%81%AF%E5%BF%99%E3%81%97%E3%81%84%E3%82%89%E3%81%97%E3%81%84/</guid>
       <description>&lt;p&gt;4年前のクリスマスイブに「どん兵衛きつねうどん」の10分どん兵衛を試していたやつがいた。&lt;/p&gt;&#xA;&lt;p&gt;俺だった。&lt;/p&gt;&#xA;&lt;p&gt;伸びてぶよぶよでぬるいどん兵衛になった。&lt;/p&gt;&#xA;&lt;p&gt;どん兵衛は5分だけど、4分半前ぐらいに食べるのが個人的な好み。&lt;/p&gt;&#xA;&lt;p&gt;そして揚げは最後に食べるのがオレ流。&lt;/p&gt;&#xA;&lt;p&gt;きつねうどんか肉うどんが好き。&lt;/p&gt;&#xA;&lt;p&gt;最近は麺の揚げ油にあたるので、一度熱湯を注いで油を浮かせお湯を切り、粉末のつゆを入れて新しい熱湯を注ぐ。&lt;/p&gt;&#xA;&lt;p&gt;さて、明日はケーブルテレビの引き込み線を光ファイバーに替える工事。&lt;/p&gt;&#xA;&lt;p&gt;上下とも1Gbpsになる予定。&lt;/p&gt;&#xA;&lt;p&gt;写真や動画のアップロードが速くなれば、色々と便利になるかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ODEN</title>
-      <link>http://localhost:1313/posts/2019-12-11_oden/</link>
+      <link>http://localhost:63371/posts/2019-12-11_oden/</link>
       <pubDate>Wed, 11 Dec 2019 19:57:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-11_oden/</guid>
+      <guid>http://localhost:63371/posts/2019-12-11_oden/</guid>
       <description>&lt;p&gt;今日はXCOINのプレスリリースを見てから、14時頃からおでんの仕込みを始めました。&lt;/p&gt;&#xA;&lt;p&gt;大根が太すぎて、繊維が硬くなっていてかなり煮込みましたが、柔らかくなりません。&lt;/p&gt;&#xA;&lt;p&gt;おでん用の大根は6～8センチぐらいのものを使いましょう。&lt;/p&gt;&#xA;&lt;p&gt;大根と蒟蒻のアク抜きをするのに時間が掛かります。&lt;/p&gt;&#xA;&lt;p&gt;しかし、私はおでんが余り好きじゃないんですよね。&lt;/p&gt;&#xA;&lt;p&gt;まあしょうがない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SAO23巻</title>
-      <link>http://localhost:1313/posts/2019-12-10_sao23%E5%B7%BB/</link>
+      <link>http://localhost:63371/posts/2019-12-10_sao23%E5%B7%BB/</link>
       <pubDate>Tue, 10 Dec 2019 22:16:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-10_sao23%E5%B7%BB/</guid>
+      <guid>http://localhost:63371/posts/2019-12-10_sao23%E5%B7%BB/</guid>
       <description>&lt;p&gt;昨日届くかと思ってましたが、今日でした。&lt;/p&gt;&#xA;&lt;p&gt;まだ読み始めです。&lt;/p&gt;&#xA;&lt;p&gt;本編では久々のネズミのアルゴが登場です。&lt;/p&gt;&#xA;&lt;p&gt;2巻以来かな。&lt;/p&gt;&#xA;&lt;p&gt;プログレッシブではめっちゃ活躍しているので久々な感じは無いんですが。&lt;/p&gt;&#xA;&lt;p&gt;さて、読もう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>あぶら過多あぶら</title>
-      <link>http://localhost:1313/posts/2019-12-09_%E3%81%82%E3%81%B6%E3%82%89%E9%81%8E%E5%A4%9A%E3%81%82%E3%81%B6%E3%82%89/</link>
+      <link>http://localhost:63371/posts/2019-12-09_%E3%81%82%E3%81%B6%E3%82%89%E9%81%8E%E5%A4%9A%E3%81%82%E3%81%B6%E3%82%89/</link>
       <pubDate>Mon, 09 Dec 2019 19:35:08 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-09_%E3%81%82%E3%81%B6%E3%82%89%E9%81%8E%E5%A4%9A%E3%81%82%E3%81%B6%E3%82%89/</guid>
+      <guid>http://localhost:63371/posts/2019-12-09_%E3%81%82%E3%81%B6%E3%82%89%E9%81%8E%E5%A4%9A%E3%81%82%E3%81%B6%E3%82%89/</guid>
       <description>&lt;p&gt;中華料理の技法で、麻婆茄子とキャベツと豚肉の炒め物を作りました。&lt;/p&gt;&#xA;&lt;p&gt;が、油が多くなりました。&lt;/p&gt;&#xA;&lt;p&gt;茄子とキャベツに油通ししたんですが、中華鍋の温度が上がりきらず、油抜けが悪くて油が残って重いです。&lt;/p&gt;&#xA;&lt;p&gt;キャノーラ油というのもまた…。&lt;/p&gt;&#xA;&lt;p&gt;精製胡麻油の方が扱いやすいかなぁ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>午後の珈琲</title>
-      <link>http://localhost:1313/posts/2019-12-09_%E5%8D%88%E5%BE%8C%E3%81%AE%E7%8F%88%E7%90%B2/</link>
+      <link>http://localhost:63371/posts/2019-12-09_%E5%8D%88%E5%BE%8C%E3%81%AE%E7%8F%88%E7%90%B2/</link>
       <pubDate>Mon, 09 Dec 2019 12:53:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-09_%E5%8D%88%E5%BE%8C%E3%81%AE%E7%8F%88%E7%90%B2/</guid>
+      <guid>http://localhost:63371/posts/2019-12-09_%E5%8D%88%E5%BE%8C%E3%81%AE%E7%8F%88%E7%90%B2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12554872319-14666497809.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191209/12/yuki9902/14/13/j/o0966064014666497809.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンNo.1のブレンドです。&lt;/p&gt;&#xA;&lt;p&gt;薫りも味もブルーマウンテンNo.1が一番良いですね。&lt;/p&gt;&#xA;&lt;p&gt;他は個性が強すぎて…。&lt;/p&gt;&#xA;&lt;p&gt;メルティーキッスのラムレーズンと一緒に。&lt;/p&gt;</description>
     </item>
     <item>
       <title>夜アニメ</title>
-      <link>http://localhost:1313/posts/2019-12-08_%E5%A4%9C%E3%82%A2%E3%83%8B%E3%83%A1/</link>
+      <link>http://localhost:63371/posts/2019-12-08_%E5%A4%9C%E3%82%A2%E3%83%8B%E3%83%A1/</link>
       <pubDate>Sun, 08 Dec 2019 23:51:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-08_%E5%A4%9C%E3%82%A2%E3%83%8B%E3%83%A1/</guid>
+      <guid>http://localhost:63371/posts/2019-12-08_%E5%A4%9C%E3%82%A2%E3%83%8B%E3%83%A1/</guid>
       <description>&lt;p&gt;転生したらスライムだった件を公式のYoutubeで見ています。&lt;/p&gt;&#xA;&lt;p&gt;2期はいつなのでしょうかね。&lt;/p&gt;&#xA;&lt;p&gt;今週のSAOアリシゼーション War of underworldは漸くアスナがアンダーワールドに来ました。&lt;/p&gt;&#xA;&lt;p&gt;アスナを見ながら無限の穴に落ちるヴァサゴの反応はSAOサバイバーのもの、さてアインクラッドの何処で暗躍していたんでしょうねぇ。&lt;/p&gt;&#xA;&lt;p&gt;来週はアスナとアリスとモアプラスの正妻戦争かな。&lt;/p&gt;&#xA;&lt;p&gt;明日にはSAOの新巻23巻が届くので、気分的にはそっちにいってしまってますけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>タスマニアサーモン</title>
-      <link>http://localhost:1313/posts/2019-12-08_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</link>
+      <link>http://localhost:63371/posts/2019-12-08_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</link>
       <pubDate>Sun, 08 Dec 2019 17:50:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-08_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-08_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</guid>
       <description>&lt;p&gt;今日はタスマニアサーモンの刺身を買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;トラウトサーモンかと思いましたが、アトランティックサーモンでした。&lt;/p&gt;&#xA;&lt;p&gt;和名ではタイセイヨウサケ、日本でとれるのはタイヘイヨウサケで、属が違います。&lt;/p&gt;&#xA;&lt;p&gt;焼くよりも刺身の方がやっぱり美味しいですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ノコノコ</title>
-      <link>http://localhost:1313/posts/2019-12-08_%E3%83%8E%E3%82%B3%E3%83%8E%E3%82%B3/</link>
+      <link>http://localhost:63371/posts/2019-12-08_%E3%83%8E%E3%82%B3%E3%83%8E%E3%82%B3/</link>
       <pubDate>Sun, 08 Dec 2019 13:44:18 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-08_%E3%83%8E%E3%82%B3%E3%83%8E%E3%82%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-08_%E3%83%8E%E3%82%B3%E3%83%8E%E3%82%B3/</guid>
       <description>&lt;p&gt;母親の要請で、街のしまむらまで運転手です。&lt;/p&gt;&#xA;&lt;p&gt;天気が悪くて気分はどんより、体調はまあ動けるぐらいには悪くないです。&lt;/p&gt;&#xA;&lt;p&gt;アンダーウェアを着込んでぬくぬくです。&lt;/p&gt;&#xA;&lt;p&gt;温かい所でのんびりしたいな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
-      <link>http://localhost:1313/posts/2019-12-08_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2019-12-08_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Sun, 08 Dec 2019 08:33:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-08_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2019-12-08_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
       <description>&lt;p&gt;今朝も寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;室温が5度近くだと布団の外に出るのはきついですが、厠に行くには起きなければ。&lt;/p&gt;&#xA;&lt;p&gt;ほぼ毎日6時間の睡眠をとってます。&lt;/p&gt;&#xA;&lt;p&gt;朝8時には目がパチッと開きます。&lt;/p&gt;&#xA;&lt;p&gt;今朝は、イングリッシュマフィンにソーセージの平たく大きいのを焼いて黒瀬のスパイスを振って挟んで戴きました。&lt;/p&gt;&#xA;&lt;p&gt;これより重い物は胃にもたれて一日中ぐったりします。&lt;/p&gt;&#xA;&lt;p&gt;さて、今朝も寒いのでお気を付けて行ってらっしゃい。&lt;/p&gt;&#xA;&lt;p&gt;温かくして一日楽しくて良い日であることを願います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>鍋三号作戦</title>
-      <link>http://localhost:1313/posts/2019-12-08_%E9%8D%8B%E4%B8%89%E5%8F%B7%E4%BD%9C%E6%88%A6/</link>
+      <link>http://localhost:63371/posts/2019-12-08_%E9%8D%8B%E4%B8%89%E5%8F%B7%E4%BD%9C%E6%88%A6/</link>
       <pubDate>Sun, 08 Dec 2019 01:29:42 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-08_%E9%8D%8B%E4%B8%89%E5%8F%B7%E4%BD%9C%E6%88%A6/</guid>
+      <guid>http://localhost:63371/posts/2019-12-08_%E9%8D%8B%E4%B8%89%E5%8F%B7%E4%BD%9C%E6%88%A6/</guid>
       <description>&lt;p&gt;でっかい白菜が6つもあるので、鍋にしました。&lt;/p&gt;&#xA;&lt;p&gt;鱈、鯛の切り身を買って冷凍していたので、まずは其れを水洗いして臭みをとって、酒、白出汁、水を張った鍋で常温からゆっくり煮ていきます。&lt;/p&gt;&#xA;&lt;p&gt;その間に長ネギ、白菜を切っていきます。&lt;/p&gt;&#xA;&lt;p&gt;ネギを足して煮立つと白菜の分厚い部分などを入れて煮ていきます。&lt;/p&gt;&#xA;&lt;p&gt;椎茸やら入れて、白菜の薄い部分を入れて、熱湯を足して煮立たせていきます。&lt;/p&gt;&#xA;&lt;p&gt;後は、小皿にとって柚ポン酢を掛ければ良い感じです。&lt;/p&gt;&#xA;&lt;p&gt;明日は、肉を使った鍋にしようかな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜も</title>
-      <link>http://localhost:1313/posts/2019-12-07_%E4%BB%8A%E5%A4%9C%E3%82%82/</link>
+      <link>http://localhost:63371/posts/2019-12-07_%E4%BB%8A%E5%A4%9C%E3%82%82/</link>
       <pubDate>Sat, 07 Dec 2019 02:26:03 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-07_%E4%BB%8A%E5%A4%9C%E3%82%82/</guid>
+      <guid>http://localhost:63371/posts/2019-12-07_%E4%BB%8A%E5%A4%9C%E3%82%82/</guid>
       <description>&lt;p&gt;今夜も寒いです。&lt;/p&gt;&#xA;&lt;p&gt;室温13度で足もとがスースーします。&lt;/p&gt;&#xA;&lt;p&gt;音楽ファイルの整理をしていたら深夜です。&lt;/p&gt;&#xA;&lt;p&gt;昼間、明るくて温かいところに出かけて、気分的に少し良くなりました。&lt;/p&gt;&#xA;&lt;p&gt;体は疲れましたけど。&lt;/p&gt;&#xA;&lt;p&gt;では、温かくしてお休みください。&lt;/p&gt;&#xA;&lt;p&gt;良い夢を。&lt;/p&gt;</description>
     </item>
     <item>
       <title>A5</title>
-      <link>http://localhost:1313/posts/2019-12-06_a5/</link>
+      <link>http://localhost:63371/posts/2019-12-06_a5/</link>
       <pubDate>Fri, 06 Dec 2019 18:37:15 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-06_a5/</guid>
+      <guid>http://localhost:63371/posts/2019-12-06_a5/</guid>
       <description>&lt;p&gt;県内産の黒毛和牛A5ランクの肉が6割引で沢山売ってたので一つ買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;県内産の豚肉も半額だったので豚カツ用のロース肉、バラ肉のブロックも買いました。&lt;/p&gt;&#xA;&lt;p&gt;標準価格だと6千円強ぐらいですが、割引で3000円弱でした。&lt;/p&gt;&#xA;&lt;p&gt;今日買った牛肉を鉄板焼き屋で食べると10000円を余裕で超えます。&lt;/p&gt;&#xA;&lt;p&gt;岡山県は、牛肉、豚肉、鶏肉とも有名ではないですが、生産量、品質もかなり優秀なので隣の県で例のブランドで売られているのは、内緒です。&lt;/p&gt;&#xA;&lt;p&gt;今夜は、豚バラ肉を半分に切り、酢豚とチャーシューにしました。&lt;/p&gt;&#xA;&lt;p&gt;酢豚は握りこぶし大に切って、ネギ、生姜、八角、酒、水を入れた鍋に入れて沸騰しないように30分煮ます。&lt;/p&gt;&#xA;&lt;p&gt;肉の中心温度が60度を超えないようにします。&lt;/p&gt;&#xA;&lt;p&gt;肉が膨らんで一番柔らかくなります。&lt;/p&gt;&#xA;&lt;p&gt;それを取り出して、冷まし、一口大に切って、水溶き片栗粉で衣をつけて、油で揚げます。&lt;/p&gt;&#xA;&lt;p&gt;このときも揚げすぎないように気をつけます。&lt;/p&gt;&#xA;&lt;p&gt;野菜類も油通しをして、全て油を切ってから、再度鍋に全部入れて、強火にしてから、酒、酢、砂糖、醤油を入れて、煮立てて酢の酸っぱさを飛ばします。&lt;/p&gt;&#xA;&lt;p&gt;最後に水溶き片栗粉を入れて、焼いて完成です。&lt;/p&gt;&#xA;&lt;p&gt;いや、そこら辺の店で食べるより美味しいものが作れるようになると外食するのが馬鹿らしくなります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>珈琲時間</title>
-      <link>http://localhost:1313/posts/2019-12-06_%E7%8F%88%E7%90%B2%E6%99%82%E9%96%93/</link>
+      <link>http://localhost:63371/posts/2019-12-06_%E7%8F%88%E7%90%B2%E6%99%82%E9%96%93/</link>
       <pubDate>Fri, 06 Dec 2019 13:13:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-06_%E7%8F%88%E7%90%B2%E6%99%82%E9%96%93/</guid>
+      <guid>http://localhost:63371/posts/2019-12-06_%E7%8F%88%E7%90%B2%E6%99%82%E9%96%93/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12553425143-14662478809.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191206/13/yuki9902/f5/a0/j/o1080081014662478809.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12553425143-14662478820.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191206/13/yuki9902/37/0a/j/o1080081014662478820.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;珈琲を頂き！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ふらふらと</title>
-      <link>http://localhost:1313/posts/2019-12-06_%E3%81%B5%E3%82%89%E3%81%B5%E3%82%89%E3%81%A8/</link>
+      <link>http://localhost:63371/posts/2019-12-06_%E3%81%B5%E3%82%89%E3%81%B5%E3%82%89%E3%81%A8/</link>
       <pubDate>Fri, 06 Dec 2019 12:11:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-06_%E3%81%B5%E3%82%89%E3%81%B5%E3%82%89%E3%81%A8/</guid>
+      <guid>http://localhost:63371/posts/2019-12-06_%E3%81%B5%E3%82%89%E3%81%B5%E3%82%89%E3%81%A8/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12553405349-14662431550.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191206/12/yuki9902/ef/3c/j/o1080081014662431550.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12553405349-14662431561.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191206/12/yuki9902/72/8a/j/o1080081014662431561.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;博多とんこつ ばり でお昼を食べて、イオンモール岡山に出てきました。&lt;/p&gt;&#xA;&lt;p&gt;しばらく散歩がてらウロウロします。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう御座います</title>
-      <link>http://localhost:1313/posts/2019-12-06_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2019-12-06_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Fri, 06 Dec 2019 06:55:34 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-06_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2019-12-06_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E5%BE%A1%E5%BA%A7%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;寒すぎて何度か目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;自分で掛け布団を蹴ってて、寒くて…。&lt;/p&gt;&#xA;&lt;p&gt;電気毛布を強めに設定していないと寒くて眠れないけれど、寝入ったら熱くて蹴ってしまう…。&lt;/p&gt;&#xA;&lt;p&gt;さて、まだ薄ぼんやりと明るくなっていますが、陽が昇っていません。&lt;/p&gt;&#xA;&lt;p&gt;お仕事に行かれる方は、路面の凍結にご注意ください。&lt;/p&gt;&#xA;&lt;p&gt;今日も大好きなあなたが元気で笑顔でいられまあすように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>体が痛い</title>
-      <link>http://localhost:1313/posts/2019-12-06_%E4%BD%93%E3%81%8C%E7%97%9B%E3%81%84/</link>
+      <link>http://localhost:63371/posts/2019-12-06_%E4%BD%93%E3%81%8C%E7%97%9B%E3%81%84/</link>
       <pubDate>Fri, 06 Dec 2019 00:17:19 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-06_%E4%BD%93%E3%81%8C%E7%97%9B%E3%81%84/</guid>
+      <guid>http://localhost:63371/posts/2019-12-06_%E4%BD%93%E3%81%8C%E7%97%9B%E3%81%84/</guid>
       <description>&lt;p&gt;同じ体勢を30分ほどしてたら、体が硬直して痛いです。&lt;/p&gt;&#xA;&lt;p&gt;寒いのと老化と相まって心身共に不調です。&lt;/p&gt;&#xA;&lt;p&gt;今の室温は13度。&lt;/p&gt;&#xA;&lt;p&gt;600Wの電気ヒーターでは断熱材無しの木造6畳間は温めきれないです。&lt;/p&gt;&#xA;&lt;p&gt;石油ストーブの排ガスが非常に苦手なのと、一酸化炭素中毒に陥りやすいので電気ヒーターしか使わないです。&lt;/p&gt;&#xA;&lt;p&gt;なんか暖房能力に革新とか起きないですかね。&lt;/p&gt;&#xA;&lt;p&gt;まあ、無理だわな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>1TB</title>
-      <link>http://localhost:1313/posts/2019-12-05_1tb/</link>
+      <link>http://localhost:63371/posts/2019-12-05_1tb/</link>
       <pubDate>Thu, 05 Dec 2019 19:32:06 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-05_1tb/</guid>
+      <guid>http://localhost:63371/posts/2019-12-05_1tb/</guid>
       <description>&lt;p&gt;データ用に使っていた1TBのSSDの容量が不足してきたので、新たに1TBのSSDを買いました。&lt;/p&gt;&#xA;&lt;p&gt;Corsair Obsidian 550DというPCケースを使っていますが、既に2.5インチSSDを2台、3.5インチHDDを3台、Corsair LL120ファンのRGBコントローラーなどが入っているので、裏配線のスペースはギチギチです。&lt;/p&gt;&#xA;&lt;p&gt;隙間を縫うようにSATAケーブルを這わし、タイラップで配線を纏め直してギリギリで新たなSSDを設置できました。&lt;/p&gt;&#xA;&lt;p&gt;写真データは500GBを越えているので、それを新しいSSDに移動しました。&lt;/p&gt;&#xA;&lt;p&gt;今は、写真データとAmazonのクラウド上にあるバックアップと整合中です。&lt;/p&gt;&#xA;&lt;p&gt;CATV回線でアップロード速度が遅いので、50000枚以上あると整合が完了するまで暫く掛かります。&lt;/p&gt;&#xA;&lt;p&gt;動画データは別途料金が掛かるので、写真のみです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Very cold day, today.</title>
-      <link>http://localhost:1313/posts/2019-12-05_very-cold-day-today./</link>
+      <link>http://localhost:63371/posts/2019-12-05_very-cold-day-today./</link>
       <pubDate>Thu, 05 Dec 2019 09:38:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-05_very-cold-day-today./</guid>
+      <guid>http://localhost:63371/posts/2019-12-05_very-cold-day-today./</guid>
       <description>&lt;p&gt;すんげーさみぃ。&lt;/p&gt;&#xA;&lt;p&gt;何枚重ね着しても背筋が冷えます。&lt;/p&gt;&#xA;&lt;p&gt;温かくしてお出かけください。&lt;/p&gt;&#xA;&lt;p&gt;縮こまった体だと怪我をしやすいので気をつけましょう。&lt;/p&gt;&#xA;&lt;p&gt;今日から暫くクリスマス仕様です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>サムイ</title>
-      <link>http://localhost:1313/posts/2019-12-05_%E3%82%B5%E3%83%A0%E3%82%A4/</link>
+      <link>http://localhost:63371/posts/2019-12-05_%E3%82%B5%E3%83%A0%E3%82%A4/</link>
       <pubDate>Thu, 05 Dec 2019 00:49:46 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-05_%E3%82%B5%E3%83%A0%E3%82%A4/</guid>
+      <guid>http://localhost:63371/posts/2019-12-05_%E3%82%B5%E3%83%A0%E3%82%A4/</guid>
       <description>&lt;p&gt;今夜は一段と冷えます。&lt;/p&gt;&#xA;&lt;p&gt;ヒーターつけているのに室温が12度まで下がってます。&lt;/p&gt;&#xA;&lt;p&gt;今日は目眩のしんどさが若干引いたので昼から少し出かけてました。&lt;/p&gt;&#xA;&lt;p&gt;晩ご飯はお総菜の寄せ集めです(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;ホタテの磯辺揚げが美味しかったです。&lt;/p&gt;&#xA;&lt;p&gt;今日初めて知りましたが、世間的には珍しいものでもないのですね。&lt;/p&gt;&#xA;&lt;p&gt;ホタテは美味しいけど高いイメージがあって…。&lt;/p&gt;&#xA;&lt;p&gt;ホタテの炊き込みごはんも良いな。&lt;/p&gt;&#xA;&lt;p&gt;明日は何作ろう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DDON LASTDAY EVE</title>
-      <link>http://localhost:1313/posts/2019-12-04_ddon-lastday-eve/</link>
+      <link>http://localhost:63371/posts/2019-12-04_ddon-lastday-eve/</link>
       <pubDate>Wed, 04 Dec 2019 22:46:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-04_ddon-lastday-eve/</guid>
+      <guid>http://localhost:63371/posts/2019-12-04_ddon-lastday-eve/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12552874858-14660981446.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191204/22/yuki9902/88/e7/j/o1920108014660981446.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12552874858-14660981686.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191204/22/yuki9902/2b/8a/j/o1920108014660981686.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dragon&amp;rsquo;s Dogma Onlineのサービス終了前夜です。&lt;/p&gt;&#xA;&lt;p&gt;明日12月5日21時にサービスが終了します。&lt;/p&gt;&#xA;&lt;p&gt;装備ガチャと冒険パスポートに数万円を貢ぎましたが、僅か4年弱でサービス終了です。&lt;/p&gt;&#xA;&lt;p&gt;操作性とアクション性は結構良いものでしたが、大型敵を揺さぶる戦闘システムは嫌でした。&lt;/p&gt;&#xA;&lt;p&gt;課金した装備は直ぐガラクタになるし、作成装備は気が狂ったかのような周回プレイしないと素材が揃わないし、終盤はソロでは素材が集められないし。&lt;/p&gt;&#xA;&lt;p&gt;レベルを上げても強くは為れないので、スキルツリーを埋めるためのポイント集めが苦痛だし、スキルレベル開放の為の特定モンスターの複数回討伐は苦痛だし。&lt;/p&gt;&#xA;&lt;p&gt;途中でクエスト難易度が異常で、レベル上げも装備強化もスキル獲得も出来ない時期があったし。&lt;/p&gt;&#xA;&lt;p&gt;なんでお金払って苦行をしているのかと、自分が馬鹿なんじゃないかと思いました。&lt;/p&gt;&#xA;&lt;p&gt;漸く心から解放される。&lt;/p&gt;</description>
     </item>
     <item>
       <title>天地無用</title>
-      <link>http://localhost:1313/posts/2019-12-03_%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8/</link>
+      <link>http://localhost:63371/posts/2019-12-03_%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8/</link>
       <pubDate>Tue, 03 Dec 2019 21:20:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-03_%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8/</guid>
+      <guid>http://localhost:63371/posts/2019-12-03_%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8/</guid>
       <description>&lt;p&gt;暫くきつい目眩が続いています。&lt;/p&gt;&#xA;&lt;p&gt;下向いたり上向いたりすると視界が左回転して立てなくなります。&lt;/p&gt;&#xA;&lt;p&gt;頭も頸椎を前に押されて前頭部を締め付けられるようなずんと重い感じが続いています。&lt;/p&gt;&#xA;&lt;p&gt;これになった原因は明らかなので、今さらどうのこうの出来るものでもないし、治るまで待ち続けるだけです。&lt;/p&gt;&#xA;&lt;p&gt;何か楽しいことを見つけましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>BIOSアップデート AMD AGESA 1.0.0.4 B</title>
-      <link>http://localhost:1313/posts/2019-12-03_bios%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-amd-agesa-1.0.0.4-b/</link>
+      <link>http://localhost:63371/posts/2019-12-03_bios%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-amd-agesa-1.0.0.4-b/</link>
       <pubDate>Tue, 03 Dec 2019 15:27:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-03_bios%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-amd-agesa-1.0.0.4-b/</guid>
+      <guid>http://localhost:63371/posts/2019-12-03_bios%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-amd-agesa-1.0.0.4-b/</guid>
       <description>&lt;p&gt;GIGABYTEのGA-AX370 Gaming K7のBIOSのF50aが公開されたので、アップデートしました。&lt;/p&gt;&#xA;&lt;p&gt;メモリのXMP2だけ設定して、後は初期値のままで、Windows 10を起動した後、AMD Ryzen MasterでAuto Overclockを設定して、再起動。&lt;/p&gt;&#xA;&lt;p&gt;Cinebench R15を走らせると、RYZEN 7 3700Xですが、2150cbになりました。&lt;/p&gt;&#xA;&lt;p&gt;F42dのBIOSの時は2112cbだったので、約1.7%の性能向上です。&lt;/p&gt;&#xA;&lt;p&gt;CPU-Zのシングルスレッドの性能は約0.7%、マルチスレッドは約2%の性能向上です。&lt;/p&gt;&#xA;&lt;p&gt;概ねマルチスレッドで2％、シングルスレッドで1％の性能向上を果たしています。&lt;/p&gt;&#xA;&lt;p&gt;BIOSの変更でこんなに性能が上がるなんて、凄いですね。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&amp;lt;追記&amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;私は2年以上前のX370チップセットに、最新世代のCPU AMD RYZEN 7 3700Xを搭載して使っています。&lt;/p&gt;&#xA;&lt;p&gt;BIOSを最新に更新したことで、電源ボタン押下からBIOS画面表示までの時間が10秒以上短縮されました。POSTタイムを越えてからWindows10の起動ロゴが出るまでの時間も短縮されました。起動時間がトータルで20秒ほど短縮されています。&lt;/p&gt;&#xA;&lt;p&gt;起動シーケンスの見直しと最適化で実現されている旨がリリースノートに書かれていました。&lt;/p&gt;&#xA;&lt;p&gt;次にCPUコアへの負荷分配を最適化したことで、各種ベンチマークのスコアが高くなります。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 3700Xのオートオーバークロックを有効にして測定したところ、シングルコア負荷で約1％の向上、全コア負荷（16スレッド）で約2％の向上を果たしています。&lt;/p&gt;&#xA;&lt;p&gt;ただマルチスレッドの最適化が行われている一部のゲームでは、描画性能が4％近く落ちているものがあります。&lt;/p&gt;&#xA;&lt;p&gt;ゲーム動作中にコア毎の負荷状況を表示させている動画を見た感じだと、旧BIOSだと均等にCPUコアに負荷が分散しているのに、新BIOSだと負荷が掛かっていないコアが発生しているのが分かり、BIOS側の負荷分散処理とゲーム側の負荷分散処理がコンフリクトしているのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;今、私がプレイしているDiRT RALLY 2では分かりませんでした。&lt;/p&gt;&#xA;&lt;p&gt;それはリフレッシュレートの垂直同期を有効にしていたので常に60fpsに張り付いていて違いが出なかったからですけど。&lt;/p&gt;&#xA;&lt;p&gt;垂直同期を外すと120fpsから160fpsの間で変化しますが、描画がずれて時々ゲームが引っ掛かり、とても快適にはプレーできないからです。&lt;/p&gt;&#xA;&lt;p&gt;後のBIOSの更新内容は、RYZEN 5 2400G、RYZEN 3 2200GのRaven Ridge(APU)への対応と、概ねバグフィックスらしいです。&lt;/p&gt;&#xA;&lt;p&gt;同時にAMDのページで公開されている最新のチップセットドライバーも更新させておく必要があります。&lt;/p&gt;&#xA;&lt;p&gt;後、私の環境ではAdobe Photoshopの処理と動画変換の処理がどうなっているかが気にはなります。&lt;/p&gt;&#xA;&lt;p&gt;これらは明確なベンチマークがとれないので、体感するしかないですが、例えば10分の動画変換で1～2％の違いと言えば6～12秒ですが、それを感じられるほど時間感覚が正確では無いので分かりません。&lt;/p&gt;&#xA;&lt;p&gt;リズムが正確に刻める人なら分かるかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>トラジャ地区スロトコ農園</title>
-      <link>http://localhost:1313/posts/2019-12-03_%E3%83%88%E3%83%A9%E3%82%B8%E3%83%A3%E5%9C%B0%E5%8C%BA%E3%82%B9%E3%83%AD%E3%83%88%E3%82%B3%E8%BE%B2%E5%9C%92/</link>
+      <link>http://localhost:63371/posts/2019-12-03_%E3%83%88%E3%83%A9%E3%82%B8%E3%83%A3%E5%9C%B0%E5%8C%BA%E3%82%B9%E3%83%AD%E3%83%88%E3%82%B3%E8%BE%B2%E5%9C%92/</link>
       <pubDate>Tue, 03 Dec 2019 13:08:58 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-03_%E3%83%88%E3%83%A9%E3%82%B8%E3%83%A3%E5%9C%B0%E5%8C%BA%E3%82%B9%E3%83%AD%E3%83%88%E3%82%B3%E8%BE%B2%E5%9C%92/</guid>
+      <guid>http://localhost:63371/posts/2019-12-03_%E3%83%88%E3%83%A9%E3%82%B8%E3%83%A3%E5%9C%B0%E5%8C%BA%E3%82%B9%E3%83%AD%E3%83%88%E3%82%B3%E8%BE%B2%E5%9C%92/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12552191443-14659214678.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20191203/13/yuki9902/36/23/j/o1080081014659214678.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;インドネシアのトラジャ地区スロトコ農園で栽培されたティピカ種の珈琲豆を挽いて、95度のお湯でペーパードリップしました。&lt;/p&gt;&#xA;&lt;p&gt;ミディアムローストだと思います。&lt;/p&gt;&#xA;&lt;p&gt;酸味は弱く苦味も弱いですが、コクは強いです。&lt;/p&gt;&#xA;&lt;p&gt;しかしキレも良いです。&lt;/p&gt;&#xA;&lt;p&gt;ブラジルとは違って飲みやすいと思います。&lt;/p&gt;&#xA;&lt;p&gt;慣れない人が飲み始めるのには良いかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>タスマニアサーモン</title>
-      <link>http://localhost:1313/posts/2019-12-03_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</link>
+      <link>http://localhost:63371/posts/2019-12-03_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</link>
       <pubDate>Tue, 03 Dec 2019 01:12:11 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-03_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</guid>
+      <guid>http://localhost:63371/posts/2019-12-03_%E3%82%BF%E3%82%B9%E3%83%9E%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3/</guid>
       <description>&lt;p&gt;～サーモンというと「鮭」かと思いきや、スズキだったりイナダだったりなんか非常にアバウトな分類らしいです。&lt;/p&gt;&#xA;&lt;p&gt;タスマニアサーモンは、たぶんニジマスが原種の人工的に作られたトラウトサーモンをタスマニア島の海域で養殖したものだと思います。&lt;/p&gt;&#xA;&lt;p&gt;しっかり脂の乗った切り身を塩水に昆布出汁を入れた物に1時間ほど浸して、それをガスグリルで焼きました。&lt;/p&gt;&#xA;&lt;p&gt;皮をパリッとさせて身をジューシーかつふっくらと焼き上げました。&lt;/p&gt;&#xA;&lt;p&gt;刺身で食べた方が美味しそうなぐらいの切り身でした。&lt;/p&gt;&#xA;&lt;p&gt;天然の鮭は寄生虫が多いので生食することは出来ませんが、養殖されたサーモンは安心して生食できるので、寿司ネタには欠かせないねぇ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>麻婆豆腐</title>
-      <link>http://localhost:1313/posts/2019-12-02_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</link>
+      <link>http://localhost:63371/posts/2019-12-02_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</link>
       <pubDate>Mon, 02 Dec 2019 21:07:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-02_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</guid>
+      <guid>http://localhost:63371/posts/2019-12-02_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/</guid>
       <description>&lt;p&gt;今夜は麻婆豆腐を作りました。&lt;/p&gt;&#xA;&lt;p&gt;絹ごし豆腐、長ネギの青いところ、韮、豚挽肉、水煮筍、生姜、大蒜、葱油（精製胡麻油でネギを煮出したもの）、胡麻油、甜麺醤、豆鼓醤、オイスターソース、創味シャンタンDX、日本酒、花椒、鷹の爪、水溶き片栗粉。&lt;/p&gt;&#xA;&lt;p&gt;まずは韮、ネギ、筍、生姜、大蒜、鷹の爪を刻みます。&lt;/p&gt;&#xA;&lt;p&gt;花椒を潰します。&lt;/p&gt;&#xA;&lt;p&gt;豆腐を食べやすいサイズに切り、沸き立つ直前のお湯で煮ていきます。&lt;/p&gt;&#xA;&lt;p&gt;中華鍋を加熱して葱油を回して、塩胡椒をした豚挽肉を炒めていきます。&lt;/p&gt;&#xA;&lt;p&gt;肉からしみ出した水分が蒸発すると、白く濁っていた油が透明になります。&lt;/p&gt;&#xA;&lt;p&gt;一旦笊にあげて油を切ります。&lt;/p&gt;&#xA;&lt;p&gt;中華鍋を洗ってから、再度加熱して葱油を回して、鷹の爪、花椒を炒め薫りを引き出します。&lt;/p&gt;&#xA;&lt;p&gt;生姜、大蒜、ネギ、韮と順番に炒めて、水分を飛ばして薫りを引き出します。&lt;/p&gt;&#xA;&lt;p&gt;甜麺醤、豆鼓醤を入れて焦げないように薫りを引き出します。&lt;/p&gt;&#xA;&lt;p&gt;炒めた挽肉を入れて、筍を入れて、醤を絡めて、シャンタンを入れ、水を入れて煮ていきます。&lt;/p&gt;&#xA;&lt;p&gt;豆腐を湯切りして、中華鍋に投入し、崩さないように煮ていきます。&lt;/p&gt;&#xA;&lt;p&gt;オイスターソースを入れて、味を調整して、水溶き片栗粉を入れてとろみをつけて焼いていきます。&lt;/p&gt;&#xA;&lt;p&gt;香り出しに胡麻油を入れて焼いて完成。&lt;/p&gt;&#xA;&lt;p&gt;今日は花椒と鷹の爪のピリッと辛い麻婆豆腐が出来ました。&lt;/p&gt;&#xA;&lt;p&gt;食べるときに四川風辣油を入れて更に辛さと薫りを楽しみます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今夜も</title>
-      <link>http://localhost:1313/posts/2019-12-01_%E4%BB%8A%E5%A4%9C%E3%82%82/</link>
+      <link>http://localhost:63371/posts/2019-12-01_%E4%BB%8A%E5%A4%9C%E3%82%82/</link>
       <pubDate>Sun, 01 Dec 2019 02:04:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2019-12-01_%E4%BB%8A%E5%A4%9C%E3%82%82/</guid>
+      <guid>http://localhost:63371/posts/2019-12-01_%E4%BB%8A%E5%A4%9C%E3%82%82/</guid>
       <description>&lt;p&gt;今夜もめちゃんこ寒いです。&lt;/p&gt;&#xA;&lt;p&gt;さてしっかり布団にくるまって寝よう。&lt;/p&gt;&#xA;&lt;p&gt;SAO見たらちょっとダウナー。&lt;/p&gt;&#xA;&lt;p&gt;原作読んでて知っているけども。&lt;/p&gt;&#xA;&lt;p&gt;正妻戦争までは和みどころが無いし…。&lt;/p&gt;&#xA;&lt;p&gt;その後はヘビーだし。&lt;/p&gt;&#xA;&lt;p&gt;新刊早く来ないかなぁ。&lt;/p&gt;</description>
     </item>
   </channel>

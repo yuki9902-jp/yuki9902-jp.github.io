@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-10 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2007-10/</link>
+    <link>http://localhost:63371/archives/2007-10/</link>
     <description>Recent content in 2007-10 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 19 Oct 2007 10:25:56 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2007-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2007-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GH-GDBF ブレンボ ブレーキパッド交換</title>
-      <link>http://localhost:1313/posts/2007-10-19-gh-gdbf-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%9C-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83/</link>
+      <link>http://localhost:63371/posts/2007-10-19-gh-gdbf-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%9C-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83/</link>
       <pubDate>Fri, 19 Oct 2007 10:25:56 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-10-19-gh-gdbf-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%9C-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83/</guid>
+      <guid>http://localhost:63371/posts/2007-10-19-gh-gdbf-%E3%83%96%E3%83%AC%E3%83%B3%E3%83%9C-%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AD%E3%83%91%E3%83%83/</guid>
       <description>&lt;p&gt;ブレーキの鳴きを通り越して、停車時にガ、ガ、ガ…と音がするようになったので、ブレーキパッドを確認。&lt;/p&gt;&#xA;&lt;p&gt;きれいさっぱり無くなっています。&lt;/p&gt;&#xA;&lt;p&gt;IMPREZA WRX STI(GH-GDBF)の純正品を注文、翌日納品、交換。&lt;/p&gt;&#xA;&lt;p&gt;イタリアのブレンボからの輸入品が届きました。&lt;/p&gt;&#xA;&lt;p&gt;入っている説明書もイタリア語でした。&lt;/p&gt;&#xA;&lt;p&gt;車両購入時からついていたパッドはダストが多く、ものすごくこびり付きやすかったのでカーボンの含有量が結構多いのかと思います。&lt;/p&gt;&#xA;&lt;p&gt;今度も純正ということで、同じくらいダストが出ることでしょう。&lt;/p&gt;&#xA;&lt;p&gt;純正といえど約８万５千円なのでかなり財政的に厳しい。&lt;/p&gt;&#xA;&lt;p&gt;タイヤも減りが早いので、あと５千キロも走行したら交換です。&lt;/p&gt;&#xA;&lt;p&gt;今度は、RE070に戻しましょうかね…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SK-HDMIS</title>
-      <link>http://localhost:1313/posts/2007-10-01-sk-hdmis/</link>
+      <link>http://localhost:63371/posts/2007-10-01-sk-hdmis/</link>
       <pubDate>Mon, 01 Oct 2007 17:18:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-10-01-sk-hdmis/</guid>
+      <guid>http://localhost:63371/posts/2007-10-01-sk-hdmis/</guid>
       <description>&lt;p&gt;ちょっと前までは、某社の10万円近くするようなものしかありませんでしたが、ここに来てHDMIセレクターが各社より発売されています。&lt;/p&gt;&#xA;&lt;p&gt;なので、SK-HDMISをAmazonで注文しました。&lt;/p&gt;&#xA;&lt;p&gt;SK-HDMISは、HDMI Ver.1.3a対応で4ポートの入力のアクティブタイプの切り替え機です。&lt;/p&gt;&#xA;&lt;p&gt;信号増幅機能も搭載しているので、少し長めのケーブルでも良好な信号が送れることでしょう。&lt;/p&gt;&#xA;&lt;p&gt;他の商品で、HDMI信号を整流してくれるものもあり、悩んでみたけどSK-HDMISを注文しました。&lt;/p&gt;&#xA;&lt;p&gt;Hi-Vision HDDレコーダーのHDMIは壊れているから、PS3とPCを接続するだけなんですが。&lt;/p&gt;&#xA;&lt;p&gt;PC、AVアンプ（DENON AVC-4320）、ディスプレイ（I-O DATA LCD-TV241X）の組み合わせは相性が悪く、AVアンプを認識するのですが、ディスプレイを認識せず、AVアンプの最高解像度に引っ張られて、ディスプレイの最高解像度1920*1200を認識できないです。&lt;/p&gt;&#xA;&lt;p&gt;折角、AVアンプにはHDMI Ver1.2が3ポートも付いているのですが、残念。&lt;/p&gt;&#xA;&lt;p&gt;PCのグラフィックボードをHDCP対応またはHDMI Ver1.3a対応にすれば改善されるかもしれませんね。&lt;/p&gt;&#xA;&lt;p&gt;まあ、今度はHDMIの切り替え器なので大丈夫でしょう。&lt;/p&gt;</description>
     </item>
   </channel>

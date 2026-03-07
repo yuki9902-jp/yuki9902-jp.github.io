@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024-11 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2024-11/</link>
+    <link>http://localhost:63371/archives/2024-11/</link>
     <description>Recent content in 2024-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sat, 09 Nov 2024 19:45:57 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2024-11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2024-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AMD RYZEN 7 5800X(8c/16t)から、9 5900XT(16c/32t)へ換装</title>
-      <link>http://localhost:1313/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/</link>
+      <link>http://localhost:63371/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/</link>
       <pubDate>Sat, 09 Nov 2024 19:45:57 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/</guid>
+      <guid>http://localhost:63371/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/</guid>
       <description>&lt;p&gt;RYZEN 7 9800X3Dへの物欲が湧きすぎて我慢きかなくなったので、抑制のためにAMD RYZEN 9 5900XTを買いました。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 9800X3Dを買うためには、マザーボード、メモリと合わせて20万円くらいですが、RYZEN 9 5900XTなら6万円です。&lt;/p&gt;&#xA;&lt;p&gt;シングルスレッド性能比、9800X3D：5900XT ＝ 100：70&lt;/p&gt;&#xA;&lt;p&gt;マルチスレッド性能比、9800X3D：5900XT ＝ 90：100&lt;/p&gt;&#xA;&lt;p&gt;普段使っているWQHDでのゲーム性能では、シングルスレッド性能と3DVcacheの影響よりもグラボの性能の影響が大きいので、今使っている5800Xからの性能向上はどちらも価格に見合うものではありません。&lt;/p&gt;&#xA;&lt;p&gt;5800Xと5900XTのマルチスレッド性能比ですが、1.9倍程度です。&lt;/p&gt;&#xA;&lt;p&gt;シングルスレッド性能はほぼ同じです。&lt;/p&gt;&#xA;&lt;p&gt;5900XT は、5800X + 5800Xみたいな感じです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12874412443-15508044774.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20241109/19/yuki9902/b8/f2/j/o1758131915508044774.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;cinebenchのスコア&#34;&gt;Cinebenchのスコア&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CPU&lt;/th&gt;&#xA;          &lt;th&gt;Clock&lt;/th&gt;&#xA;          &lt;th&gt;Memory&lt;/th&gt;&#xA;          &lt;th&gt;Chip Set&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R20 (MP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R20 (SP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R15 (MP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R15 (SP)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 1700&lt;/td&gt;&#xA;          &lt;td&gt;3.6GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 2993MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X370&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;3526&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 3700X&lt;/td&gt;&#xA;          &lt;td&gt;4.3GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;4977&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;495&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2214&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;206&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 5800X&lt;/td&gt;&#xA;          &lt;td&gt;4.725GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;6180&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;607&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2693&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;258&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;RYZEN 7 5800X&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;PBO (4.3GHz)&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;5618&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;612&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2403&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;256&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;RYZEN 9 5900XT&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;PBO (4.4GHz)&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;10649&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;601&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;4578&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;256&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h4 id=&#34;ff-xivのスコアとfpsavg&#34;&gt;FF XIVのスコアとfps(Avg.)&lt;/h4&gt;&#xA;&lt;p&gt;[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質&lt;/p&gt;</description>
     </item>
     <item>
       <title>ASUS ROG STRIX X570-F Gaming BIOS 5021</title>
-      <link>http://localhost:1313/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</link>
+      <link>http://localhost:63371/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</link>
       <pubDate>Mon, 04 Nov 2024 20:14:59 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</guid>
+      <guid>http://localhost:63371/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</guid>
       <description>&lt;p&gt;ASUS ROG STRIX X570-F GamingのAGESA ComboV2PI 1.2.0.Ccのアップデートの&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/&#34;&gt;BIOS&lt;/a&gt;がリリースされました。&lt;/p&gt;&#xA;&lt;p&gt;CPUの深刻な脆弱性に対する修正がされているので、極力更新しておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;別件ですが、Windows 11はWindows 10より、CPUの分岐予測に違いによりPerformanceが2%ほど低下します。この問題は長い間修正されませんでしたが、Ryzen 9000シリーズが登場したのを機に、AMDからの要請を受けてMicrosoftから修正パッチが出ました。Windows 11 24H2に含まれる予定だった修正ですが、先んじてパッチ公開されました。IntelのCPUでも分岐予測が改善されるようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>いったいボクは</title>
-      <link>http://localhost:1313/posts/2024-11-02_%E3%81%84%E3%81%A3%E3%81%9F%E3%81%84%E3%83%9C%E3%82%AF%E3%81%AF/</link>
+      <link>http://localhost:63371/posts/2024-11-02_%E3%81%84%E3%81%A3%E3%81%9F%E3%81%84%E3%83%9C%E3%82%AF%E3%81%AF/</link>
       <pubDate>Sat, 02 Nov 2024 03:08:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2024-11-02_%E3%81%84%E3%81%A3%E3%81%9F%E3%81%84%E3%83%9C%E3%82%AF%E3%81%AF/</guid>
+      <guid>http://localhost:63371/posts/2024-11-02_%E3%81%84%E3%81%A3%E3%81%9F%E3%81%84%E3%83%9C%E3%82%AF%E3%81%AF/</guid>
       <description>&lt;p&gt;0:00 睡眠薬で就寝&lt;/p&gt;&#xA;&lt;p&gt;zzzz&lt;/p&gt;&#xA;&lt;p&gt;2:50 目が覚める&lt;/p&gt;&#xA;&lt;p&gt;鼻は詰まる&lt;/p&gt;&#xA;&lt;p&gt;ミルクコーヒー砂糖入りでほっとする&lt;/p&gt;&#xA;&lt;p&gt;口の中が酸っぱい&lt;/p&gt;&#xA;&lt;p&gt;リラクゼーションBGMを流す&lt;/p&gt;&#xA;&lt;p&gt;まだ朝まで遠い&lt;/p&gt;</description>
     </item>
   </channel>

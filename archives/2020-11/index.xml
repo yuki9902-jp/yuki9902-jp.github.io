@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020-11 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2020-11/</link>
+    <link>http://localhost:63371/archives/2020-11/</link>
     <description>Recent content in 2020-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Mon, 30 Nov 2020 12:37:53 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2020-11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2020-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブルーマウンテン</title>
-      <link>http://localhost:1313/posts/2020-11-30_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3/</link>
+      <link>http://localhost:63371/posts/2020-11-30_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3/</link>
       <pubDate>Mon, 30 Nov 2020 12:37:53 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-30_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3/</guid>
+      <guid>http://localhost:63371/posts/2020-11-30_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12641142392-14859325287.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201130/12/yuki9902/7f/e8/j/o1080081014859325287.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンブレンドの豆を挽いて、コーヒーを抽出しました。&lt;/p&gt;&#xA;&lt;p&gt;シュークリームを一緒に。&lt;/p&gt;&#xA;&lt;p&gt;甘いクリームをすっきりと流してくれる酸味が良いです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cooler Master MasterAir MA620MとAMD RYZEN 7 5800X</title>
-      <link>http://localhost:1313/posts/2020-11-29_cooler-master-masterair-ma620m%E3%81%A8amd-ryzen-7-5800x/</link>
+      <link>http://localhost:63371/posts/2020-11-29_cooler-master-masterair-ma620m%E3%81%A8amd-ryzen-7-5800x/</link>
       <pubDate>Sun, 29 Nov 2020 01:19:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-29_cooler-master-masterair-ma620m%E3%81%A8amd-ryzen-7-5800x/</guid>
+      <guid>http://localhost:63371/posts/2020-11-29_cooler-master-masterair-ma620m%E3%81%A8amd-ryzen-7-5800x/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/entry-12592101951.html&#34;&gt;『Cooler Master MasterAir MA620M』 Cooler Master MasterAir MA620M CPUクーラー MAM-D6PN-120PA-R1 FN1352Amazon（アマゾン）11,…&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;ameblo.jp&lt;img src=&#34;https://stat.ameba.jp/user_images/20200404/00/yuki9902/36/40/j/o0966064014738248035.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;全コア4.7GHzまでオーバークロックしたRYZEN 7 5800Xを、CPU-Zで全コアに100%のストレス（負荷）をかけて、CPUクーラーCooler Master MasterAir MA620Mでどれだけ冷やせるか確認してみました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640861560-14858587517.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201129/00/yuki9902/ab/c5/p/o1014052314858587517.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ファンの回転制御はASUSのAI Suite 3のFan Xpert 4で行います。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640861560-14858588964.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201129/00/yuki9902/51/9d/p/o0417041914858588964.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;6670から6700前後で推移しますが、大きくはぶれません。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640861560-14858589076.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201129/00/yuki9902/06/ec/p/o0636079314858589076.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;CPUの消費電力は127Wから129Wで推移します。&lt;/p&gt;&#xA;&lt;p&gt;クロックは4699MHzで安定しており、CPU16スレッドのうち1～2つぐらいのスレッドの使用率がたまにぶれますが、概ね安定しています。&lt;/p&gt;&#xA;&lt;p&gt;CPUパッケージの温度は77度ぐらい、CPUコアの温度は65度ぐらいで、CPUファンは1300rpm前後で安定しています。&lt;/p&gt;&#xA;&lt;p&gt;130W近い消費電力ですが、発熱量は意外に少ないのかな。&lt;/p&gt;&#xA;&lt;p&gt;MA620Mのファンは最大2000rpmなので、1300rpmで65度を維持して4.7GHzからクロックが落ちたりはしないので、しっかりと排熱できているようです。&lt;/p&gt;&#xA;&lt;p&gt;ただ、現在の室温が16度ということを考えると、ヘッドルームは20度ぐらい余裕がないと夏場はかなりキツいと思います。&lt;/p&gt;&#xA;&lt;p&gt;AMD RYZEN MASTERでPrecision Boost Overdriveを有効にして負荷テストをすると、クロックが4.525GHzで、AMD RYZEN MASTERの表示値で90度に達するので、いまいち何が正しいCPU温度か分かりません。&lt;/p&gt;&#xA;&lt;p&gt;AMD RYZEN MASTERで4.7GHzにOC設定するとPCが即落ちるので、AMD RYZEN MASTERはアンインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;ASUSのAI suite 3の方が簡単に設定できるので、AGESAの新しいBIOSが配布されるまでは、こちらで行きます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>花火の音が聞こえます</title>
-      <link>http://localhost:1313/posts/2020-11-28_%E8%8A%B1%E7%81%AB%E3%81%AE%E9%9F%B3%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%81%BE%E3%81%99/</link>
+      <link>http://localhost:63371/posts/2020-11-28_%E8%8A%B1%E7%81%AB%E3%81%AE%E9%9F%B3%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%81%BE%E3%81%99/</link>
       <pubDate>Sat, 28 Nov 2020 18:41:47 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-28_%E8%8A%B1%E7%81%AB%E3%81%AE%E9%9F%B3%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%81%BE%E3%81%99/</guid>
+      <guid>http://localhost:63371/posts/2020-11-28_%E8%8A%B1%E7%81%AB%E3%81%AE%E9%9F%B3%E3%81%8C%E8%81%9E%E3%81%93%E3%81%88%E3%81%BE%E3%81%99/</guid>
       <description>&lt;p&gt;疫病退散の祈願でしょうか、花火がたくさん打ち上げられています。&lt;/p&gt;&#xA;&lt;p&gt;地区の神社は夏祭りも秋の例大祭も出来なかったので、今日打ち上げているんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;早くCOVID-19、中共ウィルス性肺炎が治まることを祈っています。&lt;/p&gt;&#xA;&lt;p&gt;ついでにchina共産党が解体されますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD RYZEN 7 5800Xが届きました</title>
-      <link>http://localhost:1313/posts/2020-11-28_amd-ryzen-7-5800x%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <link>http://localhost:63371/posts/2020-11-28_amd-ryzen-7-5800x%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</link>
       <pubDate>Sat, 28 Nov 2020 18:36:05 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-28_amd-ryzen-7-5800x%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <guid>http://localhost:63371/posts/2020-11-28_amd-ryzen-7-5800x%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640784862-14858351768.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201128/17/yuki9902/e6/18/j/o1493064014858351768.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;11/13に注文したAMD RYZEN 7 5800Xが届きました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640784862-14858351758.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201128/17/yuki9902/b6/72/j/o1493064014858351758.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 3700Xの箱と比べるとずいぶん小さくなり軽いです。&lt;/p&gt;&#xA;&lt;p&gt;今回はコストの問題からクーラーは付属できなかったようです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640784862-14858351763.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201128/17/yuki9902/39/0e/j/o1493064014858351763.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640784862-14858351764.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201128/17/yuki9902/a1/fa/j/o1493064014858351764.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;TDPは105Wですが、オーバークロックの負荷テストで全コア4.6GHz付近で125Wを消費していました。&lt;/p&gt;&#xA;&lt;p&gt;プレシジョンブーストでは、各所でいわれているようなベンチマークのスコアが出ないので、手動でオーバークロックしていきます。&lt;/p&gt;&#xA;&lt;h4 id=&#34;cinebenchのスコア&#34;&gt;Cinebenchのスコア&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CPU&lt;/th&gt;&#xA;          &lt;th&gt;Clock&lt;/th&gt;&#xA;          &lt;th&gt;Memory&lt;/th&gt;&#xA;          &lt;th&gt;Chip Set&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R20 (MP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R20 (SP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R15 (MP)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;R15 (SP)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 1700&lt;/td&gt;&#xA;          &lt;td&gt;3.6GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 2993MHz CL16&lt;/td&gt;&#xA;          &lt;td&gt;X370&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;3526&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;-&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 3700X&lt;/td&gt;&#xA;          &lt;td&gt;4.3GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;4977&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;495&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2214&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;206&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RYZEN 7 5800X&lt;/td&gt;&#xA;          &lt;td&gt;4.725GHz&lt;/td&gt;&#xA;          &lt;td&gt;DDR4 3600MHz CL18&lt;/td&gt;&#xA;          &lt;td&gt;X570&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;6180&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;607&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2693&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;258&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h4 id=&#34;ff-xivのスコアとfpsavg&#34;&gt;FF XIVのスコアとfps(Avg.)&lt;/h4&gt;&#xA;&lt;p&gt;[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質&lt;/p&gt;</description>
     </item>
     <item>
       <title>日清焼そばUFO</title>
-      <link>http://localhost:1313/posts/2020-11-28_%E6%97%A5%E6%B8%85%E7%84%BC%E3%81%9D%E3%81%B0ufo/</link>
+      <link>http://localhost:63371/posts/2020-11-28_%E6%97%A5%E6%B8%85%E7%84%BC%E3%81%9D%E3%81%B0ufo/</link>
       <pubDate>Sat, 28 Nov 2020 08:12:24 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-28_%E6%97%A5%E6%B8%85%E7%84%BC%E3%81%9D%E3%81%B0ufo/</guid>
+      <guid>http://localhost:63371/posts/2020-11-28_%E6%97%A5%E6%B8%85%E7%84%BC%E3%81%9D%E3%81%B0ufo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12640682549-14858126594.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201128/08/yuki9902/49/1e/j/o1080081014858126594.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝は、食欲不振でも食べられるUFOを食べました。&lt;/p&gt;&#xA;&lt;p&gt;カップ焼そばというよりUFOというジャンルの食べ物だと思います。&lt;/p&gt;&#xA;&lt;p&gt;スパイスの刺激でシャキッと目が覚めます。&lt;/p&gt;&#xA;&lt;p&gt;さあ、元気に巣ごもりしましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Morning Coffee</title>
-      <link>http://localhost:1313/posts/2020-11-23_morning-coffee/</link>
+      <link>http://localhost:63371/posts/2020-11-23_morning-coffee/</link>
       <pubDate>Mon, 23 Nov 2020 09:18:12 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-23_morning-coffee/</guid>
+      <guid>http://localhost:63371/posts/2020-11-23_morning-coffee/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12639690878-14855550134.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201123/09/yuki9902/ef/65/j/o1080046214855550134.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;自分でドリップするのも良いですが、このダイドーのブラックコーヒーが無香料で原材料がコーヒーのみで、すっきりとしていて良いです。&lt;/p&gt;&#xA;&lt;p&gt;UCC のブラックも同じく良いです。&lt;/p&gt;&#xA;&lt;p&gt;香料が添加された缶コーヒーは苦手です。&lt;/p&gt;&#xA;&lt;p&gt;コーヒー豆を買い出しに行きたい･･･&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD RYZEN 7 5800Xを注文</title>
-      <link>http://localhost:1313/posts/2020-11-23_amd-ryzen-7-5800x%E3%82%92%E6%B3%A8%E6%96%87/</link>
+      <link>http://localhost:63371/posts/2020-11-23_amd-ryzen-7-5800x%E3%82%92%E6%B3%A8%E6%96%87/</link>
       <pubDate>Mon, 23 Nov 2020 01:33:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-23_amd-ryzen-7-5800x%E3%82%92%E6%B3%A8%E6%96%87/</guid>
+      <guid>http://localhost:63371/posts/2020-11-23_amd-ryzen-7-5800x%E3%82%92%E6%B3%A8%E6%96%87/</guid>
       <description>&lt;p&gt;AMD RYZEN 7 5800Xを注文しました。&lt;/p&gt;&#xA;&lt;p&gt;Amazon.co.jpで、1～2ヶ月待ちです。&lt;/p&gt;&#xA;&lt;p&gt;Amazon.co.jpの販売・発送で、59,422円まで下がったときに注文しました。&lt;/p&gt;&#xA;&lt;p&gt;ZEN3になって、L3キャッシュがあるCCXが8コア毎になり、ZEN2までのRYZEN 7と比べRYZEN 7 5800Xは同周波数で19%の性能向上をしているようです。&lt;/p&gt;&#xA;&lt;p&gt;プレシジョンブーストを有効にするとCinebench20のシングルコアのスコアが600を超えます。&lt;/p&gt;&#xA;&lt;p&gt;手持ちのRYZEN 7 3700X(4.375GHzが限界)が500に届かないので20％以上の性能向上が見込めます。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 1700からRYZEN 7 3700X。&lt;/p&gt;&#xA;&lt;p&gt;そしてRYZEN 7 5800Xへ。&lt;/p&gt;&#xA;&lt;p&gt;2000シリーズはZEN+で機能追加のみ、4000シリーズはZEN2とRDNAのGPUの複合のAPUのみなので、スキップしました。&lt;/p&gt;&#xA;&lt;p&gt;メインPCにAPUは買いませんよ。&lt;/p&gt;&#xA;&lt;p&gt;ドライバがコンフリクトすることが多くて、不具合に悩まされるから。&lt;/p&gt;&#xA;&lt;p&gt;さて、入荷されるまでにもっと価格が下がらないでしょうかね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ぐらぐら病</title>
-      <link>http://localhost:1313/posts/2020-11-16_%E3%81%90%E3%82%89%E3%81%90%E3%82%89%E7%97%85/</link>
+      <link>http://localhost:63371/posts/2020-11-16_%E3%81%90%E3%82%89%E3%81%90%E3%82%89%E7%97%85/</link>
       <pubDate>Mon, 16 Nov 2020 21:50:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-16_%E3%81%90%E3%82%89%E3%81%90%E3%82%89%E7%97%85/</guid>
+      <guid>http://localhost:63371/posts/2020-11-16_%E3%81%90%E3%82%89%E3%81%90%E3%82%89%E7%97%85/</guid>
       <description>&lt;p&gt;自車のシフトレバーがどこに入っているのか分からないぐらいぐらぐらになったので、シフトレバーからトランファーミッションのケースに伸びているロッドの結合部のブッシュを交換することにしました。&lt;/p&gt;&#xA;&lt;p&gt;部品が分からないので、部品屋さんに来て貰って型式と整備マニュアルを見て貰い部品を注文しました。&lt;/p&gt;&#xA;&lt;p&gt;届いた部品は1つ1400円もしたようです。&lt;/p&gt;&#xA;&lt;p&gt;参考にした整備工場のネットの情報だと140円で購入したようなことを書いていましたが、時期が違うのか、価格改定されたのか。&lt;/p&gt;&#xA;&lt;p&gt;シフトレバーを外すために、二次触媒のエキゾーストパイプとミッションケースを支えているメンバーを外して、プロペラシャフトを抜いて、作業しました。&lt;/p&gt;&#xA;&lt;p&gt;シフトレバー側のブッシュ2つとミッションケース側4つが必要ですが、ミッションケース側が2つ足りません。&lt;/p&gt;&#xA;&lt;p&gt;再注文して取り寄せ中です。&lt;/p&gt;&#xA;&lt;p&gt;12月に車検なので、タイヤローテーション、エンジンオイルの交換、エアエレメント（フィルター）の交換、ワイパーゴムの交換を行います。&lt;/p&gt;&#xA;&lt;p&gt;スポーツ走行をしなくなったので、タイヤもブレーキパッドはしっかり残っていました。&lt;/p&gt;&#xA;&lt;p&gt;さすがに樹脂部品は経年劣化で加水分解したり摩耗したりしてます。&lt;/p&gt;&#xA;&lt;p&gt;エキゾーストパイプの排気熱でボルトが溶けてナットと融着していたのにはかなり苦戦しましたが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>宇甘渓 - 2020/11/13</title>
-      <link>http://localhost:1313/posts/2020-11-13_%E5%AE%87%E7%94%98%E6%B8%93---2020_11_13/</link>
+      <link>http://localhost:63371/posts/2020-11-13_%E5%AE%87%E7%94%98%E6%B8%93---2020_11_13/</link>
       <pubDate>Fri, 13 Nov 2020 12:25:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-13_%E5%AE%87%E7%94%98%E6%B8%93---2020_11_13/</guid>
+      <guid>http://localhost:63371/posts/2020-11-13_%E5%AE%87%E7%94%98%E6%B8%93---2020_11_13/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348226.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/75/d7/j/o0640096614850348226.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348228.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/ec/af/j/o0966064014850348228.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348229.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/80/37/j/o0640096614850348229.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348231.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/6f/c0/j/o0966064014850348231.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348232.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/4f/57/j/o0640096614850348232.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348236.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/31/9e/j/o0640096614850348236.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727624-14850348239.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/ac/08/j/o0966064014850348239.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ニューサイエンス館跡地 - 2020/11/13</title>
-      <link>http://localhost:1313/posts/2020-11-13_%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E9%A4%A8%E8%B7%A1%E5%9C%B0---2020_11_13/</link>
+      <link>http://localhost:63371/posts/2020-11-13_%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E9%A4%A8%E8%B7%A1%E5%9C%B0---2020_11_13/</link>
       <pubDate>Fri, 13 Nov 2020 12:22:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-13_%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E9%A4%A8%E8%B7%A1%E5%9C%B0---2020_11_13/</guid>
+      <guid>http://localhost:63371/posts/2020-11-13_%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E9%A4%A8%E8%B7%A1%E5%9C%B0---2020_11_13/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348210.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/50/c6/j/o0966064014850348210.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348213.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/a8/e9/j/o0966064014850348213.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348217.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/6a/2d/j/o0966064014850348217.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348218.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/10/5f/j/o0966064014850348218.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348222.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/9d/c2/j/o0966064014850348222.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12637727202-14850348224.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201113/12/yuki9902/00/44/j/o0966064014850348224.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>心療内科</title>
-      <link>http://localhost:1313/posts/2020-11-12_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</link>
+      <link>http://localhost:63371/posts/2020-11-12_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</link>
       <pubDate>Thu, 12 Nov 2020 21:05:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-12_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</guid>
+      <guid>http://localhost:63371/posts/2020-11-12_%E5%BF%83%E7%99%82%E5%86%85%E7%A7%91/</guid>
       <description>&lt;p&gt;毎月の診察と薬をもらいに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;先日、睡眠薬を飲むのを忘れて布団に籠もってたら全く寝られず、疲れや痛みでしんどい思いをしました。&lt;/p&gt;&#xA;&lt;p&gt;きっちり6時間半で目が覚めるので、っていうかそれ以下だと目が覚めないので、薬を飲む時間をコントロールしないといけません。&lt;/p&gt;&#xA;&lt;p&gt;深夜まで働いて、早朝に出勤するような仕事は2度と出来ないです。&lt;/p&gt;&#xA;&lt;p&gt;SE職を探すと求人の「残業なし」は面接時に「残業あり」っていわれるので、もう無理です。&lt;/p&gt;&#xA;&lt;p&gt;SEの残業で家に帰れないのが普通だから・・・。&lt;/p&gt;&#xA;&lt;p&gt;農業で爪に火を灯しながら細々生きていきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>近くの紅葉</title>
-      <link>http://localhost:1313/posts/2020-11-05_%E8%BF%91%E3%81%8F%E3%81%AE%E7%B4%85%E8%91%89/</link>
+      <link>http://localhost:63371/posts/2020-11-05_%E8%BF%91%E3%81%8F%E3%81%AE%E7%B4%85%E8%91%89/</link>
       <pubDate>Thu, 05 Nov 2020 15:43:52 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-05_%E8%BF%91%E3%81%8F%E3%81%AE%E7%B4%85%E8%91%89/</guid>
+      <guid>http://localhost:63371/posts/2020-11-05_%E8%BF%91%E3%81%8F%E3%81%AE%E7%B4%85%E8%91%89/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12636123131-14846320312.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20201105/15/yuki9902/1f/e0/j/o1080081014846320312.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;夕食の買い物ついでに紅葉を撮って来ました。&lt;/p&gt;&#xA;&lt;p&gt;スマホだと逆光は難しいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>些細な言い間違いがイメージを損なう</title>
-      <link>http://localhost:1313/posts/2020-11-04_%E4%BA%9B%E7%B4%B0%E3%81%AA%E8%A8%80%E3%81%84%E9%96%93%E9%81%95%E3%81%84%E3%81%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E6%90%8D%E3%81%AA%E3%81%86/</link>
+      <link>http://localhost:63371/posts/2020-11-04_%E4%BA%9B%E7%B4%B0%E3%81%AA%E8%A8%80%E3%81%84%E9%96%93%E9%81%95%E3%81%84%E3%81%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E6%90%8D%E3%81%AA%E3%81%86/</link>
       <pubDate>Wed, 04 Nov 2020 01:26:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-04_%E4%BA%9B%E7%B4%B0%E3%81%AA%E8%A8%80%E3%81%84%E9%96%93%E9%81%95%E3%81%84%E3%81%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E6%90%8D%E3%81%AA%E3%81%86/</guid>
+      <guid>http://localhost:63371/posts/2020-11-04_%E4%BA%9B%E7%B4%B0%E3%81%AA%E8%A8%80%E3%81%84%E9%96%93%E9%81%95%E3%81%84%E3%81%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E6%90%8D%E3%81%AA%E3%81%86/</guid>
       <description>&lt;p&gt;「原神」Genshin Impactの導入部のある魔法使いの台詞に「相殺（そうさい）」という言葉が出てきますが、これを「そうさつ」と読んでいるので、魔法使いの「200年に一人の天才」という設定が台無しになっています。&lt;/p&gt;&#xA;&lt;p&gt;「固執（こしゅう）」を「こしつ」、「重複（ちょうふく）」を「じゅうふく」、「早急（さっきゅう）」を「そうきゅう」、「代替（だいたい）」を「だいがえ」は漫画や軽い小説でルビまで振って間違っているのをよく見ます。&lt;/p&gt;&#xA;&lt;p&gt;せっかく格式張ったり格好つけて難しい言葉や漢字を使いまくった文章でも、学校で習う程度の読み間違いがあるとすべてが台無しです。&lt;/p&gt;&#xA;&lt;p&gt;PC作業でフロントエンドプロセッサが提示する文章のままに打ち込み、画面だけでチェックするので校正する人が読み落とすことが増えてしまったのが大きな問題ですね。&lt;/p&gt;&#xA;&lt;p&gt;通信教育用の教材を作製するプロジェクトを請け負ったときには、1つの題材に2段階で3度の校正が行われてました。&lt;/p&gt;&#xA;&lt;p&gt;本来、人に見せる文章という物は、それ位の注意が必要なんですよね。&lt;/p&gt;&#xA;&lt;p&gt;とはいえ、私は「てにをは」の使い方、句読点の打ち方がよく分かってないし、このブログでも頻繁に間違っているので、人のことは言えませんが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>特に考えもなく</title>
-      <link>http://localhost:1313/posts/2020-11-03_%E7%89%B9%E3%81%AB%E8%80%83%E3%81%88%E3%82%82%E3%81%AA%E3%81%8F/</link>
+      <link>http://localhost:63371/posts/2020-11-03_%E7%89%B9%E3%81%AB%E8%80%83%E3%81%88%E3%82%82%E3%81%AA%E3%81%8F/</link>
       <pubDate>Tue, 03 Nov 2020 00:32:16 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2020-11-03_%E7%89%B9%E3%81%AB%E8%80%83%E3%81%88%E3%82%82%E3%81%AA%E3%81%8F/</guid>
+      <guid>http://localhost:63371/posts/2020-11-03_%E7%89%B9%E3%81%AB%E8%80%83%E3%81%88%E3%82%82%E3%81%AA%E3%81%8F/</guid>
       <description>&lt;p&gt;ドライブレコーダーを買ったときに、メーカーのホームページでキャンペーンをやっていたので、何も考えずにとりあえず応募しました。&lt;/p&gt;&#xA;&lt;p&gt;すると、当選してしまいました。&lt;/p&gt;&#xA;&lt;p&gt;旅行先で使える2万円分のチケット。&lt;/p&gt;&#xA;&lt;p&gt;さて、どうしたものか。&lt;/p&gt;&#xA;&lt;p&gt;このご時世、当分は旅行に行くつもりがないので・・・。&lt;/p&gt;</description>
     </item>
   </channel>

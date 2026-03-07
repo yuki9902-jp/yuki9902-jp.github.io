@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2007-05 on yuki9902::blog</title>
-    <link>http://localhost:1313/archives/2007-05/</link>
+    <link>http://localhost:63371/archives/2007-05/</link>
     <description>Recent content in 2007-05 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sun, 27 May 2007 23:11:30 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/2007-05/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63371/archives/2007-05/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SNS構築日誌2</title>
-      <link>http://localhost:1313/posts/2007-05-27-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C2/</link>
+      <link>http://localhost:63371/posts/2007-05-27-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C2/</link>
       <pubDate>Sun, 27 May 2007 23:11:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-05-27-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C2/</guid>
+      <guid>http://localhost:63371/posts/2007-05-27-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C2/</guid>
       <description>&lt;p&gt;余ったPCをサーバーにしようと四苦八苦。&lt;/p&gt;&#xA;&lt;p&gt;FedoraCore6をインストールしたものの、FTPサーバーもWWWサーバーもうまく建てられず、断念。&lt;/p&gt;&#xA;&lt;p&gt;初期セットアップで、ApacheもPHPもMySQLもすべてインストールされるのですが、インターネットを参考にしていたのですが、そこからの設定がどうも簡単にはいかず、半日を費やしてしまいました。&lt;/p&gt;&#xA;&lt;p&gt;いかんせん時間がないので自宅サーバーはちょっと諦めてレンタルスペース上にSNSをインストールすることにしました。&lt;/p&gt;&#xA;&lt;p&gt;レンタルスペースのLolipopにOpenPNEをインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;MySQLもPHPも環境がすでに整っていますし、先人もたくさんいるのでそれらのサイトを参考にインストール。&lt;/p&gt;&#xA;&lt;p&gt;今度は非常に簡単にインストールできました。&lt;/p&gt;&#xA;&lt;p&gt;無事に稼働しています。&lt;/p&gt;&#xA;&lt;p&gt;今、勉強会に使っているのでそちらで実績を積んで商品にしたいと思ってます。&lt;/p&gt;&#xA;&lt;p&gt;OpenPNEは、話によると大手SNSで採用されているほぼそのままらしいです。&lt;/p&gt;&#xA;&lt;p&gt;いわゆるMixiですが。&lt;/p&gt;&#xA;&lt;p&gt;ほかにも大手のサイトが採用してるらしいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SNS構築日誌 1</title>
-      <link>http://localhost:1313/posts/2007-05-24-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C-1/</link>
+      <link>http://localhost:63371/posts/2007-05-24-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C-1/</link>
       <pubDate>Thu, 24 May 2007 23:38:07 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-05-24-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C-1/</guid>
+      <guid>http://localhost:63371/posts/2007-05-24-sns%E6%A7%8B%E7%AF%89%E6%97%A5%E8%AA%8C-1/</guid>
       <description>&lt;p&gt;WWW技術の勉強会で、SNSを構築してみようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;まずサーバーを準備しなくてはなりません。&lt;/p&gt;&#xA;&lt;p&gt;サーバーは手元に転がっているスリムPCがあります。&lt;/p&gt;&#xA;&lt;p&gt;CPUはAMD Sempron 3000+ (2GHz)で、メモリは1GB搭載しています。&lt;/p&gt;&#xA;&lt;p&gt;テスト用WWWサーバーには十分なスペックです。&lt;/p&gt;&#xA;&lt;p&gt;OSは、FedoraCore6にしようかと思います。&lt;/p&gt;&#xA;&lt;p&gt;別にLinuxでApacheが動けばなんでもOKなんですが。&lt;/p&gt;&#xA;&lt;p&gt;SNSは、オープンソースのOpenPNEなどが有名ですが、結構なカスタマイズが必要だとか。&lt;/p&gt;&#xA;&lt;p&gt;でも、オープンソースこそ長いものには巻かれろ的な考え方でないと、参考資料が少なくて。&lt;/p&gt;&#xA;&lt;p&gt;この土日あたりに動かしてみようかと思います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jungfrau joch</title>
-      <link>http://localhost:1313/posts/2007-05-13-jungfrau-joch/</link>
+      <link>http://localhost:63371/posts/2007-05-13-jungfrau-joch/</link>
       <pubDate>Sun, 13 May 2007 21:35:54 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2007-05-13-jungfrau-joch/</guid>
+      <guid>http://localhost:63371/posts/2007-05-13-jungfrau-joch/</guid>
       <description>&lt;p&gt;今日のトラベリックスは、スイスでした。&lt;/p&gt;&#xA;&lt;p&gt;Interlaken（インターラーケン）からJungfrau joch（ユングフラウヨッホ）のSphinx（スフィンクス）展望台へと鉄道で上っていきます。&lt;/p&gt;&#xA;&lt;p&gt;ユングフラウヨッホは、Top of Europeと言われる欧州最高地の鉄道駅です。&lt;/p&gt;&#xA;&lt;p&gt;メンヒとユングフラウの尾根にあるこの駅からの眺めは最高です。&lt;/p&gt;&#xA;&lt;p&gt;一度は行ってみたいところです。&lt;/p&gt;&#xA;&lt;p&gt;もう１０年以上昔になりますが「世界の車窓から」で紹介されていたときに、ああ行きたいと思って、いまだに行きたいと思い続けているところではあります。&lt;/p&gt;&#xA;&lt;p&gt;生まれてこの方、一度も海外へ行ったことがないので、是非ともEuropeへ旅行したいと思っています。&lt;/p&gt;&#xA;&lt;p&gt;でもさすがに独りでは。。。&lt;/p&gt;</description>
     </item>
   </channel>
