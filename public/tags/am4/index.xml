@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AM4 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/am4/</link>
+    <description>Recent content in AM4 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 04 Nov 2024 20:14:59 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/am4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 5021</title>
+      <link>https://yuki9902-jp.github.io/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</link>
+      <pubDate>Mon, 04 Nov 2024 20:14:59 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</guid>
+      <description>&lt;p&gt;ASUS ROG STRIX X570-F GamingのAGESA ComboV2PI 1.2.0.Ccのアップデートの&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/&#34;&gt;BIOS&lt;/a&gt;がリリースされました。&lt;/p&gt;&#xA;&lt;p&gt;CPUの深刻な脆弱性に対する修正がされているので、極力更新しておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;別件ですが、Windows 11はWindows 10より、CPUの分岐予測に違いによりPerformanceが2%ほど低下します。この問題は長い間修正されませんでしたが、Ryzen 9000シリーズが登場したのを機に、AMDからの要請を受けてMicrosoftから修正パッチが出ました。Windows 11 24H2に含まれる予定だった修正ですが、先んじてパッチ公開されました。IntelのCPUでも分岐予測が改善されるようです。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

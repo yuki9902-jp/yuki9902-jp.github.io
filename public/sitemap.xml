@@ -3,21 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuki9902-jp.github.io/archives/2026-03/</loc>
-    <lastmod>2026-03-01T08:53:16+09:00</lastmod>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/</loc>
-    <lastmod>2026-03-01T08:53:16+09:00</lastmod>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/categories/</loc>
-    <lastmod>2026-03-01T08:53:16+09:00</lastmod>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/categories/column/</loc>
-    <lastmod>2026-03-01T08:53:16+09:00</lastmod>
+    <loc>https://yuki9902-jp.github.io/categories/computer/</loc>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/</loc>
-    <lastmod>2026-03-01T08:53:16+09:00</lastmod>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-11-refs/</loc>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/refs/</loc>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/</loc>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/</loc>
+    <lastmod>2026-03-11T21:45:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/agesa/</loc>
+    <lastmod>2026-03-11T21:35:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-11-bios_2102/</loc>
+    <lastmod>2026-03-11T21:35:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/1700/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/amd/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/gigabyte/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/multichannel/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/ryzen/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/smb3/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/truenas/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/x370/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-10-truenas_community/</loc>
+    <lastmod>2026-03-10T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/comfyui/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/radeon/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/rocm/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/rx9070xt/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/windows11pro/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</loc>
+    <lastmod>2026-03-03T19:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/bvlog-history/</loc>
     <lastmod>2026-03-01T08:53:16+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-03-01_yuki9902__blog/</loc>
@@ -26,19 +92,22 @@
     <loc>https://yuki9902-jp.github.io/archives/2026-02/</loc>
     <lastmod>2026-02-26T14:06:47+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/categories/computer/</loc>
-    <lastmod>2026-02-26T14:06:47+09:00</lastmod>
-  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</loc>
     <lastmod>2026-02-26T14:06:47+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/garuda-linux/</loc>
+    <lastmod>2026-02-24T13:13:14+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/</loc>
     <lastmod>2026-02-24T13:13:14+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/whea-logger-id18/</loc>
+    <lastmod>2026-02-22T08:19:46+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/</loc>
     <lastmod>2026-02-22T08:19:46+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./</loc>
+    <loc>https://yuki9902-jp.github.io/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/</loc>
     <lastmod>2026-02-19T11:45:13+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/</loc>
@@ -49,6 +118,15 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/</loc>
     <lastmod>2026-02-09T06:49:24+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/%E5%8E%9F%E7%A5%9E/</loc>
+    <lastmod>2026-02-09T06:49:24+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/ai/</loc>
+    <lastmod>2026-02-05T05:59:27+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/copilot/</loc>
+    <lastmod>2026-02-05T05:59:27+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/</loc>
     <lastmod>2026-02-05T05:59:27+09:00</lastmod>
@@ -95,16 +173,25 @@
     <loc>https://yuki9902-jp.github.io/posts/2026-01-24_windows%E7%92%B0%E5%A2%83%E3%81%AEradeon-rx-9070-xt%E3%81%A7comfyui%E3%82%92%E4%BD%BF%E3%81%86-2026_1_24/</loc>
     <lastmod>2026-01-24T06:34:51+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/blog-history/</loc>
+    <lastmod>2026-01-21T18:03:48+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-01-21_%E6%98%94%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E6%8E%98%E3%82%8A%E5%87%BA%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F2005%E5%B9%B42013%E5%B9%B4/</loc>
     <lastmod>2026-01-21T18:03:48+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-01-09_truenas-core%E3%81%8B%E3%82%89trunas-communication%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F/</loc>
     <lastmod>2026-01-09T14:31:27+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/column/</loc>
+    <lastmod>2026-01-01T10:13:57+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-01-01_%E3%81%94%E6%8C%A8%E6%8B%B6/</loc>
     <lastmod>2026-01-01T10:13:57+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/2025-12/</loc>
+    <lastmod>2025-12-11T12:55:46+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/9950x3d/</loc>
     <lastmod>2025-12-11T12:55:46+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/</loc>
@@ -113,7 +200,13 @@
     <loc>https://yuki9902-jp.github.io/archives/2025-11/</loc>
     <lastmod>2025-11-19T23:28:14+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/asus/</loc>
+    <lastmod>2025-11-19T23:28:14+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-11-19_asus-rog-strix-x870e-e-gaming-wifi-bios-1804/</loc>
+    <lastmod>2025-11-19T23:28:14+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/bios/</loc>
     <lastmod>2025-11-19T23:28:14+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-11-18_ddr5%E3%81%AE%E4%BE%A1%E6%A0%BC%E7%88%86%E4%B8%8A%E3%81%92/</loc>
@@ -140,8 +233,14 @@
     <loc>https://yuki9902-jp.github.io/posts/2025-09-30_ryzen-9-9950x3d--x870e--dd5-6000mhz-cl30/</loc>
     <lastmod>2025-09-30T21:04:22+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/x870e-e/</loc>
+    <lastmod>2025-09-30T21:04:22+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-09-29_%E3%81%A6%E3%82%93%E3%81%8B%E3%82%93/</loc>
     <lastmod>2025-09-29T22:47:10+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/9800x3d/</loc>
+    <lastmod>2025-09-25T02:46:44+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-09-25_pc%E5%BC%B7%E5%8C%96%E6%A1%88%E3%82%92%E6%A4%9C%E8%A8%8E/</loc>
     <lastmod>2025-09-25T02:46:44+09:00</lastmod>
@@ -170,10 +269,19 @@
     <loc>https://yuki9902-jp.github.io/posts/2025-04-02_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</loc>
     <lastmod>2025-04-02T08:27:08+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/darjeelingfirstflash/</loc>
+    <lastmod>2025-04-01T09:50:21+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-04-01_%E4%BB%8A%E6%9C%9D%E3%82%82%E7%B4%85%E8%8C%B6%E3%82%92%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%99/</loc>
     <lastmod>2025-04-01T09:50:21+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/2025-03/</loc>
+    <lastmod>2025-03-31T20:58:31+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/nvme/</loc>
+    <lastmod>2025-03-31T20:58:31+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/ssd/</loc>
     <lastmod>2025-03-31T20:58:31+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2025-03-31_wd-black-sn850x-2tb%E3%82%92%E8%B3%BC%E5%85%A5/</loc>
@@ -206,14 +314,26 @@
     <loc>https://yuki9902-jp.github.io/posts/2024-12-31_%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A92024/</loc>
     <lastmod>2024-12-31T23:12:43+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/adrenaline/</loc>
+    <lastmod>2024-12-11T20:24:10+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/</loc>
     <lastmod>2024-12-11T20:24:10+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/2024-11/</loc>
     <lastmod>2024-11-09T19:45:57+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/5800x/</loc>
+    <lastmod>2024-11-09T19:45:57+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/5900xt/</loc>
+    <lastmod>2024-11-09T19:45:57+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/</loc>
     <lastmod>2024-11-09T19:45:57+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/am4/</loc>
+    <lastmod>2024-11-04T20:14:59+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/</loc>
     <lastmod>2024-11-04T20:14:59+09:00</lastmod>
@@ -225,6 +345,12 @@
     <lastmod>2024-10-06T08:24:49+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-10-06_pc%E5%91%A8%E3%82%8A%E3%81%AE%E9%9B%91%E8%A8%98/</loc>
+    <lastmod>2024-10-06T08:24:49+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/rx6750xt/</loc>
+    <lastmod>2024-10-06T08:24:49+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/x570/</loc>
     <lastmod>2024-10-06T08:24:49+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/2024-08/</loc>
@@ -241,6 +367,12 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-06-22_%E5%8E%9F%E7%A5%9E%E3%83%97%E3%83%AC%E3%82%A4%E9%85%8D%E4%BF%A1%E4%B8%AD/</loc>
     <lastmod>2024-06-22T11:44:25+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/gallery/</loc>
+    <lastmod>2024-06-14T22:12:11+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/pentax/</loc>
+    <lastmod>2024-06-14T22:12:11+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-06-14_%E5%A4%A7%E7%80%A7%E5%B1%B1-%E8%A5%BF%E6%B3%95%E9%99%A2---2024_06_14/</loc>
     <lastmod>2024-06-14T22:12:11+09:00</lastmod>
@@ -262,6 +394,9 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-04-26_%E4%B8%80%E3%81%A4%E5%A3%8A%E3%82%8C%E3%81%9F/</loc>
     <lastmod>2024-04-26T20:51:56+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/lexus-is300h-version-l/</loc>
+    <lastmod>2024-04-17T21:58:10+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2024-04-17_%E8%BB%8A%E3%82%92%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2024-04-17T21:58:10+09:00</lastmod>
@@ -338,11 +473,17 @@
     <loc>https://yuki9902-jp.github.io/archives/2023-05/</loc>
     <lastmod>2023-05-27T15:15:48+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/wqhd/</loc>
+    <lastmod>2023-05-27T15:15:48+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2023-05-27_%E4%BA%8C%E5%8F%B0%E7%9B%AE%E3%81%AEasus-tuf-gaming-vg27aql1a/</loc>
     <lastmod>2023-05-27T15:15:48+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2023-05-27_%E3%81%8A%E3%82%84%E3%81%A4/</loc>
     <lastmod>2023-05-27T14:44:52+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/</loc>
+    <lastmod>2023-05-22T22:14:48+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2023-05-22_%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97---%E7%BE%BD-feat.-duran/</loc>
     <lastmod>2023-05-22T22:14:48+09:00</lastmod>
@@ -350,7 +491,13 @@
     <loc>https://yuki9902-jp.github.io/posts/2023-05-22_%E8%B5%B7%E5%8B%95%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%82%92wd-sn750%E3%81%8B%E3%82%89wd-sn850x%E3%81%AB%E5%85%A5%E3%82%8C%E6%9B%BF%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F/</loc>
     <lastmod>2023-05-22T21:50:42+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/elgato/</loc>
+    <lastmod>2023-05-11T09:58:14+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2023-05-11_elgato-wave-link%E3%81%AE%E9%9F%B3%E5%A3%B0%E9%81%85%E5%BB%B6%E5%AF%BE%E7%AD%96usb-dac%E6%8E%A5%E7%B6%9A%E6%99%82%E3%81%AE%E3%83%AC%E3%82%A4%E3%83%86%E3%83%B3%E3%82%B7%E3%82%92%E6%9C%80%E5%B0%8F%E5%8C%96%E3%81%99%E3%82%8B/</loc>
+    <lastmod>2023-05-11T09:58:14+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/wave-link/</loc>
     <lastmod>2023-05-11T09:58:14+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2023-05-06_%E5%8E%9F%E7%A5%9E%E3%83%97%E3%83%AC%E3%82%A4%E9%85%8D%E4%BF%A1%E4%B8%AD-2023_05_06/</loc>
@@ -444,6 +591,9 @@
     <lastmod>2022-10-15T15:56:13+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/archives/2022-09/</loc>
+    <lastmod>2022-09-21T21:12:48+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/dualsense/</loc>
     <lastmod>2022-09-21T21:12:48+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2022-09-21_windows11%E3%81%ABdualsense%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%97%E3%81%A6%E5%8E%9F%E7%A5%9E%E3%82%92%E9%81%8A%E3%81%B6/</loc>
@@ -563,6 +713,9 @@
     <loc>https://yuki9902-jp.github.io/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</loc>
     <lastmod>2022-03-16T02:05:22+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/chipset/</loc>
+    <lastmod>2022-03-16T02:05:22+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2022-03-12_barnesbeg-%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B32021%E5%B9%B4%E6%98%A5%E6%91%98%E3%81%BF/</loc>
     <lastmod>2022-03-12T13:29:49+09:00</lastmod>
   </url><url>
@@ -574,6 +727,9 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2022-03-03_%E6%A1%83%E3%81%AE%E7%AF%80%E5%8F%A5/</loc>
     <lastmod>2022-03-03T21:48:09+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/pbo2/</loc>
+    <lastmod>2022-03-02T10:48:01+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2022-03-02_%E4%BB%8A%E6%97%A5%E3%81%AEryzen-7-5800x%E3%81%AEpbo2%E8%A8%AD%E5%AE%9A/</loc>
     <lastmod>2022-03-02T10:48:01+09:00</lastmod>
@@ -632,6 +788,9 @@
     <loc>https://yuki9902-jp.github.io/posts/2021-12-31_%E3%81%97%E3%82%93%E3%81%97%E3%82%93/</loc>
     <lastmod>2021-12-31T11:38:06+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/global-c-state/</loc>
+    <lastmod>2021-12-29T11:39:39+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</loc>
     <lastmod>2021-12-29T11:39:39+09:00</lastmod>
   </url><url>
@@ -640,6 +799,9 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2021-12-25_%E3%81%AF%E3%81%A3%E3%81%B4%E3%83%BC%E3%82%81%E3%82%8A%E3%81%8F%E3%82%8A/</loc>
     <lastmod>2021-12-25T00:53:36+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/smb-direct/</loc>
+    <lastmod>2021-12-24T00:31:24+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</loc>
     <lastmod>2021-12-24T00:31:24+09:00</lastmod>
@@ -735,6 +897,9 @@
     <lastmod>2021-09-20T19:09:37+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2021-09-20_amd-ryzen-master-%E8%B5%B7%E5%8B%95%E3%82%A8%E3%83%A9%E3%83%BC%E8%A7%A3%E6%B1%BA%E3%82%AC%E3%82%A4%E3%83%89/</loc>
+    <lastmod>2021-09-20T00:08:02+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/tags/ryzen-master/</loc>
     <lastmod>2021-09-20T00:08:02+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2021-09-19_%E7%A8%B2%E5%88%88%E3%82%8A%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</loc>
@@ -1743,6 +1908,9 @@
     <lastmod>2020-05-31T09:04:57+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2020-05-29_hd-pentax-d-fa85mmf1.4ed-sdm-aw/</loc>
+    <lastmod>2020-05-29T21:43:40+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/categories/pentax/</loc>
     <lastmod>2020-05-29T21:43:40+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2020-05-29_%E5%B1%8B%E6%A0%B9%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%90%E3%83%A9---png48bit%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%86%E3%82%B9%E3%83%88/</loc>
@@ -18053,9 +18221,6 @@
     <loc>https://yuki9902-jp.github.io/posts/2013-03-22_%E6%9A%91%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A%E5%AF%92%E3%81%8B%E3%81%A3%E3%81%9F%E3%82%8A/</loc>
     <lastmod>2013-03-22T16:04:05+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/categories/blog-history/</loc>
-    <lastmod>2013-03-20T17:28:39+09:00</lastmod>
-  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</loc>
     <lastmod>2013-03-20T17:28:39+09:00</lastmod>
   </url><url>
@@ -20264,18 +20429,6 @@
     <loc>https://yuki9902-jp.github.io/posts/2010-03-21_%E4%BB%8A%E6%97%A5%E3%81%AE%E6%A2%85/</loc>
     <lastmod>2010-03-21T22:36:34+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/categories/gallery/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>https://yuki9902-jp.github.io/tags/pentax-k-7/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>https://yuki9902-jp.github.io/tags/smcpentax-da-12-24mmf4-ed-alif/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
-    <loc>https://yuki9902-jp.github.io/tags/</loc>
-    <lastmod>2010-03-21T22:36:20+09:00</lastmod>
-  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2010-03-21-%E4%BB%8A%E6%97%A5%E3%81%AE%E6%A2%85/</loc>
     <lastmod>2010-03-21T22:36:20+09:00</lastmod>
   </url><url>
@@ -22148,12 +22301,6 @@
     <loc>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%81%BB%E3%81%8B%E3%81%AB%E7%A7%BB%E8%A8%AD%E3%81%99%E3%82%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%82%82/</loc>
     <lastmod>2009-06-30T22:27:45+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/tags/archived/</loc>
-    <lastmod>2009-06-30T09:18:10+09:00</lastmod>
-  </url><url>
-    <loc>https://yuki9902-jp.github.io/tags/tech/</loc>
-    <lastmod>2009-06-30T09:18:10+09:00</lastmod>
-  </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2009-06-30-%E3%83%81%E3%82%AB%E3%83%83%E3%83%91%E3%82%82%E3%81%A0%E3%82%81%E3%81%8B/</loc>
     <lastmod>2009-06-30T09:18:10+09:00</lastmod>
   </url><url>
@@ -23689,6 +23836,8 @@
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2005-10-20-%E3%81%93%E3%81%A4%E3%81%93%E3%81%A4%E3%81%A8/</loc>
     <lastmod>2005-10-20T21:27:35+09:00</lastmod>
+  </url><url>
+    <loc>https://yuki9902-jp.github.io/chronicle-layout/</loc>
   </url><url>
     <loc>https://yuki9902-jp.github.io/search/</loc>
   </url>

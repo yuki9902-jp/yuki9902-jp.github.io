@@ -5,7 +5,7 @@
     <link>https://yuki9902-jp.github.io/archives/2020-01/</link>
     <description>Recent content in 2020-01 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Fri, 31 Jan 2020 15:25:59 +0900</lastBuildDate>
     <atom:link href="https://yuki9902-jp.github.io/archives/2020-01/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,21 +20,21 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-30_sandisk-sd%E3%82%AB%E3%83%BC%E3%83%89uhs-1%E3%81%AE170mb_s/</link>
       <pubDate>Thu, 30 Jan 2020 19:06:31 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-30_sandisk-sd%E3%82%AB%E3%83%BC%E3%83%89uhs-1%E3%81%AE170mb_s/</guid>
-      <description>&lt;p&gt;デジタル一眼レフカメラ用に使う目的で、SanDiskのSDカード Extream Pro (Read:170MB/s) 64GBを買ってきた。&lt;/p&gt;&#xA;&lt;p&gt;170MB/sは上位のUHS-II (Read:300MB/s)のSDカードリーダーで読み出せるだろうと思い確認せずにSONYのMRW-S1をネットで買った。&lt;/p&gt;&#xA;&lt;p&gt;MRW-S1では98MB/sで頭打ちしてしまっている。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12571303782-14704926053.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200130/18/yuki9902/a8/36/p/o0482034714704926053.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;で、調べてみたら、SDカードの種類の違いにUHS-IとUHS-IIがあるけど、UHS-Iの規格ではあるもののSanDisk独自の技術で読み込み170MB/sというのがあるのが分かった。&lt;/p&gt;&#xA;&lt;p&gt;そしてこの読み取り速度170MB/sはSanDiskのSDカードリーダーでないと発揮できない。&lt;/p&gt;&#xA;&lt;p&gt;で、またネットでSanDiskのSDDR-C531を買った。&lt;/p&gt;&#xA;&lt;p&gt;今度のSDカードリーダーはUHS-I規格までしか対応しないが、ちゃんとExtream Pro 170MB/sの性能が得られた。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12571303782-14704926070.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200130/18/yuki9902/30/cb/p/o0482034714704926070.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;170MB/s以上のSDカードになるとUHS-II規格になるので、SONYのカードリーダーを使うことにしよう。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12571303782-14704925964.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200130/18/yuki9902/33/1b/j/o0966064014704925964.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;UHS-IIのSDカードを持ってないけど・・・。&lt;/p&gt;&#xA;&lt;p&gt;カメラ側はUHS規格ができる前の機種PENTAX K-5IIsではあるけど、SDカードの基本性能が高いおかげで、書き込みがかなり早い。&lt;/p&gt;&#xA;&lt;p&gt;実際のカメラに装着した場合の書き込み速度はTOSHIBAのEXCERIA SDHC Type2 UHS-I 32GB (R:95MB/s W:60MB/s)の3倍以上の速さになっている。&lt;/p&gt;&#xA;&lt;p&gt;シーケンシャルライトよりもランダムライトの速度の違いが如実に出ている。&lt;/p&gt;&#xA;&lt;p&gt;PENTAXのデジタル一眼レフカメラとSanDiskのSDカードの相性はかなり良い。&lt;/p&gt;&#xA;&lt;p&gt;将来的にUHS-IIのSDカードを買うだろうし、SONY MRW-S1はいずれ役立つだろう。&lt;/p&gt;&#xA;&lt;p&gt;当分は、SanDiskのExtream ProとSDカードリーダーに活躍してもらおう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;デジタル一眼レフカメラ用に使う目的で、SanDiskのSDカード Extream Pro (Read:170MB/s) 64GBを買ってきた。&lt;/p&gt;&#xA;&lt;p&gt;170MB/sは上位のUHS-II (Read:300MB/s)のSDカードリーダーで読み出せるだろうと思い確認せずにSONYのMRW-S1をネットで買った。&lt;/p&gt;&#xA;&lt;p&gt;MRW-S1では98MB/sで頭打ちしてしまっている。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0482034714704926053.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0482034714704926053.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;で、調べてみたら、SDカードの種類の違いにUHS-IとUHS-IIがあるけど、UHS-Iの規格ではあるもののSanDisk独自の技術で読み込み170MB/sというのがあるのが分かった。&lt;/p&gt;&#xA;&lt;p&gt;そしてこの読み取り速度170MB/sはSanDiskのSDカードリーダーでないと発揮できない。&lt;/p&gt;&#xA;&lt;p&gt;で、またネットでSanDiskのSDDR-C531を買った。&lt;/p&gt;&#xA;&lt;p&gt;今度のSDカードリーダーはUHS-I規格までしか対応しないが、ちゃんとExtream Pro 170MB/sの性能が得られた。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0482034714704926070.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0482034714704926070.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;170MB/s以上のSDカードになるとUHS-II規格になるので、SONYのカードリーダーを使うことにしよう。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014704925964.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014704925964.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;UHS-IIのSDカードを持ってないけど・・・。&lt;/p&gt;&#xA;&lt;p&gt;カメラ側はUHS規格ができる前の機種PENTAX K-5IIsではあるけど、SDカードの基本性能が高いおかげで、書き込みがかなり早い。&lt;/p&gt;&#xA;&lt;p&gt;実際のカメラに装着した場合の書き込み速度はTOSHIBAのEXCERIA SDHC Type2 UHS-I 32GB (R:95MB/s W:60MB/s)の3倍以上の速さになっている。&lt;/p&gt;&#xA;&lt;p&gt;シーケンシャルライトよりもランダムライトの速度の違いが如実に出ている。&lt;/p&gt;&#xA;&lt;p&gt;PENTAXのデジタル一眼レフカメラとSanDiskのSDカードの相性はかなり良い。&lt;/p&gt;&#xA;&lt;p&gt;将来的にUHS-IIのSDカードを買うだろうし、SONY MRW-S1はいずれ役立つだろう。&lt;/p&gt;&#xA;&lt;p&gt;当分は、SanDiskのExtream ProとSDカードリーダーに活躍してもらおう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お茶の時間です</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-29_%E3%81%8A%E8%8C%B6%E3%81%AE%E6%99%82%E9%96%93%E3%81%A7%E3%81%99/</link>
       <pubDate>Wed, 29 Jan 2020 19:58:00 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-29_%E3%81%8A%E8%8C%B6%E3%81%AE%E6%99%82%E9%96%93%E3%81%A7%E3%81%99/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12571016625-14704419553.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200129/19/yuki9902/d6/0e/j/o0966064014704419553.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;コーヒーを飲んで、胃の調子が悪いので、夜はダージリンのオータムナルのピュグリを飲みます。&lt;/p&gt;&#xA;&lt;p&gt;しっかりとした香りでも柔らかな感じで、甘みとコクが広がります。&lt;/p&gt;&#xA;&lt;p&gt;このピュグリのお茶はかなり良い。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014704419553.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014704419553.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;コーヒーを飲んで、胃の調子が悪いので、夜はダージリンのオータムナルのピュグリを飲みます。&lt;/p&gt;&#xA;&lt;p&gt;しっかりとした香りでも柔らかな感じで、甘みとコクが広がります。&lt;/p&gt;&#xA;&lt;p&gt;このピュグリのお茶はかなり良い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一服</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-29_%E4%B8%80%E6%9C%8D/</link>
       <pubDate>Wed, 29 Jan 2020 13:08:01 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-29_%E4%B8%80%E6%9C%8D/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570894940-14704180408.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200129/13/yuki9902/23/43/j/o0966064014704180408.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;朝起きて、デニッシュブレッドを食べてエンジンスタート。&lt;/p&gt;&#xA;&lt;p&gt;豚バラのブロックを解凍して、圧力鍋を使って角煮にしました。&lt;/p&gt;&#xA;&lt;p&gt;ついでに卵も。&lt;/p&gt;&#xA;&lt;p&gt;それからホタテの貝柱の炊き込みご飯を炊いて、味噌汁を作って、そしたらお昼が来たのでお昼ご飯。&lt;/p&gt;&#xA;&lt;p&gt;今は、エメラルドマウンテンのコーヒー豆を挽いて、一服してます。&lt;/p&gt;&#xA;&lt;p&gt;炊事をしていたらいつの間にか一日が終わっている・・・。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014704180408.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014704180408.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;朝起きて、デニッシュブレッドを食べてエンジンスタート。&lt;/p&gt;&#xA;&lt;p&gt;豚バラのブロックを解凍して、圧力鍋を使って角煮にしました。&lt;/p&gt;&#xA;&lt;p&gt;ついでに卵も。&lt;/p&gt;&#xA;&lt;p&gt;それからホタテの貝柱の炊き込みご飯を炊いて、味噌汁を作って、そしたらお昼が来たのでお昼ご飯。&lt;/p&gt;&#xA;&lt;p&gt;今は、エメラルドマウンテンのコーヒー豆を挽いて、一服してます。&lt;/p&gt;&#xA;&lt;p&gt;炊事をしていたらいつの間にか一日が終わっている・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ヒリヒリします</title>
@@ -48,28 +48,28 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-28_%E6%95%A3%E9%AB%AA/</link>
       <pubDate>Tue, 28 Jan 2020 14:22:37 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-28_%E6%95%A3%E9%AB%AA/</guid>
-      <description>&lt;p&gt;散発的に散髪に行ってきた。&lt;/p&gt;&#xA;&lt;p&gt;お昼は岡山市まで行ってとんこつラーメン。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570614468-14703639108.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200128/14/yuki9902/91/94/j/o1080081014703639108.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570614468-14703639111.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200128/14/yuki9902/a6/d9/j/o1080081014703639111.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;うまかった。&lt;/p&gt;&#xA;&lt;p&gt;そのあと買い物して帰ってきた。&lt;/p&gt;&#xA;&lt;p&gt;今日は雨。&lt;/p&gt;</description>
+      <description>&lt;p&gt;散発的に散髪に行ってきた。&lt;/p&gt;&#xA;&lt;p&gt;お昼は岡山市まで行ってとんこつラーメン。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014703639108.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014703639108.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014703639111.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014703639111.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;うまかった。&lt;/p&gt;&#xA;&lt;p&gt;そのあと買い物して帰ってきた。&lt;/p&gt;&#xA;&lt;p&gt;今日は雨。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一服</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-27_%E4%B8%80%E6%9C%8D/</link>
       <pubDate>Mon, 27 Jan 2020 18:29:49 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-27_%E4%B8%80%E6%9C%8D/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570383318-14703197405.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200127/18/yuki9902/3b/90/j/o0966064014703197405.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンNo.1ブレンドに牛乳を入れたカフェオレです。&lt;/p&gt;&#xA;&lt;p&gt;それにMelty Kissのラムレーズンです。&lt;/p&gt;&#xA;&lt;p&gt;今夜は鶏もも肉で焼き鳥を作りました。&lt;/p&gt;&#xA;&lt;p&gt;鶏もも肉唐揚げ用を細かく切って、水で濡らした竹串を打ち、魚焼きグリルでじっくりと焼いていきました。&lt;/p&gt;&#xA;&lt;p&gt;煮詰めたタレに絡ませながら計12本を焼き上げるのに1時間もかかりました。&lt;/p&gt;&#xA;&lt;p&gt;できあがった焼き鳥はそこらの居酒屋よりは美味しいです(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;まあ、串が熱くて何度も返しをしていると右手の人差し指をやけどしました。&lt;/p&gt;&#xA;&lt;p&gt;原価計算すると1本75円ぐらいですか。&lt;/p&gt;&#xA;&lt;p&gt;人件費計算すると1本420円、利益率3％をかけると430円・・・。&lt;/p&gt;&#xA;&lt;p&gt;買った方が安いのか・・・。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014703197405.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014703197405.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンNo.1ブレンドに牛乳を入れたカフェオレです。&lt;/p&gt;&#xA;&lt;p&gt;それにMelty Kissのラムレーズンです。&lt;/p&gt;&#xA;&lt;p&gt;今夜は鶏もも肉で焼き鳥を作りました。&lt;/p&gt;&#xA;&lt;p&gt;鶏もも肉唐揚げ用を細かく切って、水で濡らした竹串を打ち、魚焼きグリルでじっくりと焼いていきました。&lt;/p&gt;&#xA;&lt;p&gt;煮詰めたタレに絡ませながら計12本を焼き上げるのに1時間もかかりました。&lt;/p&gt;&#xA;&lt;p&gt;できあがった焼き鳥はそこらの居酒屋よりは美味しいです(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;まあ、串が熱くて何度も返しをしていると右手の人差し指をやけどしました。&lt;/p&gt;&#xA;&lt;p&gt;原価計算すると1本75円ぐらいですか。&lt;/p&gt;&#xA;&lt;p&gt;人件費計算すると1本420円、利益率3％をかけると430円・・・。&lt;/p&gt;&#xA;&lt;p&gt;買った方が安いのか・・・。&lt;/p&gt;</description>
     </item>
     <item>
       <title>寒い</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-27_%E5%AF%92%E3%81%84/</link>
       <pubDate>Mon, 27 Jan 2020 07:45:40 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-27_%E5%AF%92%E3%81%84/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570213249-14702898901.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200127/07/yuki9902/f0/72/j/o0810108014702898901.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;寒くて体が痛くて目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;そのまま寝てたら低体温症になるかも。&lt;/p&gt;&#xA;&lt;p&gt;カップヌードルのチリトマトで元気を出します。&lt;/p&gt;&#xA;&lt;p&gt;あなたも寒さに気をつけてお仕事に行ってください。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0810108014702898901.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0810108014702898901.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;寒くて体が痛くて目が覚めました。&lt;/p&gt;&#xA;&lt;p&gt;そのまま寝てたら低体温症になるかも。&lt;/p&gt;&#xA;&lt;p&gt;カップヌードルのチリトマトで元気を出します。&lt;/p&gt;&#xA;&lt;p&gt;あなたも寒さに気をつけてお仕事に行ってください。&lt;/p&gt;</description>
     </item>
     <item>
       <title>甘い話をしましょうか</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-26_%E7%94%98%E3%81%84%E8%A9%B1%E3%82%92%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B/</link>
       <pubDate>Sun, 26 Jan 2020 18:44:34 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-26_%E7%94%98%E3%81%84%E8%A9%B1%E3%82%92%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B/</guid>
-      <description>&lt;p&gt;サツマイモをふかして、砂糖をまぶしたものを冷蔵庫に入れてたので、スイートポテトにしました。&lt;/p&gt;&#xA;&lt;p&gt;最初は金網ざるで裏ごししようとしましたけど、網目に詰まってとれないので、マッシャーで潰しました。&lt;/p&gt;&#xA;&lt;p&gt;容器5つに詰めて、卵黄を塗って、オーブンで250度13分ほど焼きました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12570098068-14702614694.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200126/18/yuki9902/17/ce/j/o0966064014702614694.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;甘いものでも食べて、心穏やかに生きましょう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;サツマイモをふかして、砂糖をまぶしたものを冷蔵庫に入れてたので、スイートポテトにしました。&lt;/p&gt;&#xA;&lt;p&gt;最初は金網ざるで裏ごししようとしましたけど、網目に詰まってとれないので、マッシャーで潰しました。&lt;/p&gt;&#xA;&lt;p&gt;容器5つに詰めて、卵黄を塗って、オーブンで250度13分ほど焼きました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014702614694.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014702614694.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;甘いものでも食べて、心穏やかに生きましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おはよう</title>
@@ -146,14 +146,14 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-17_%E7%A7%8B%E6%91%98%E3%81%BF/</link>
       <pubDate>Fri, 17 Jan 2020 20:27:37 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-17_%E7%A7%8B%E6%91%98%E3%81%BF/</guid>
-      <description>&lt;p&gt;昨日、ダージリンのオータムナルを2つ買いました。&lt;/p&gt;&#xA;&lt;p&gt;SINGELL（シンジェル）とPHUGURI（ピュグリ）です。&lt;/p&gt;&#xA;&lt;p&gt;どちらもFTGFOP1です。&lt;/p&gt;&#xA;&lt;p&gt;ダージリン地方の紅茶が最も味が深くなるシーズンが秋です。&lt;/p&gt;&#xA;&lt;p&gt;今夜はSINGELLを煎れました。&lt;/p&gt;&#xA;&lt;p&gt;蜂蜜に似た風味が残り口の中にほんのり甘さが広がります。&lt;/p&gt;&#xA;&lt;p&gt;寒い時期にはいい感じです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12567769544-14697713106.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200117/19/yuki9902/0b/44/j/o0966064014697713106.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;昨日、ダージリンのオータムナルを2つ買いました。&lt;/p&gt;&#xA;&lt;p&gt;SINGELL（シンジェル）とPHUGURI（ピュグリ）です。&lt;/p&gt;&#xA;&lt;p&gt;どちらもFTGFOP1です。&lt;/p&gt;&#xA;&lt;p&gt;ダージリン地方の紅茶が最も味が深くなるシーズンが秋です。&lt;/p&gt;&#xA;&lt;p&gt;今夜はSINGELLを煎れました。&lt;/p&gt;&#xA;&lt;p&gt;蜂蜜に似た風味が残り口の中にほんのり甘さが広がります。&lt;/p&gt;&#xA;&lt;p&gt;寒い時期にはいい感じです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014697713106.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014697713106.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>みっくちゅ</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-16_%E3%81%BF%E3%81%A3%E3%81%8F%E3%81%A1%E3%82%85/</link>
       <pubDate>Thu, 16 Jan 2020 13:41:16 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-16_%E3%81%BF%E3%81%A3%E3%81%8F%E3%81%A1%E3%82%85/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12567447670-14697019724.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200116/13/yuki9902/05/5d/j/o1080081014697019724.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ミックススムージーを飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;リンゴとキウイとバナナが入っているので、ちょっと喉にアレルギーがでるかも。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014697019724.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014697019724.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ミックススムージーを飲んでます。&lt;/p&gt;&#xA;&lt;p&gt;リンゴとキウイとバナナが入っているので、ちょっと喉にアレルギーがでるかも。&lt;/p&gt;</description>
     </item>
     <item>
       <title>おやすみなんし。</title>
@@ -167,7 +167,7 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-14_%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</link>
       <pubDate>Tue, 14 Jan 2020 21:41:17 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-14_%E7%9C%A0%E3%81%84%E3%82%93%E3%81%A0/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12567070959-14696231295.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200114/21/yuki9902/6a/ce/j/o0966064014696231295.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は寒くて眠かったので、ヒーターの前でずっとうたた寝をしてました。&lt;/p&gt;&#xA;&lt;p&gt;ダウンジャケットのようなものを着ているので重さで肩こります。&lt;/p&gt;&#xA;&lt;p&gt;風呂に入って体を温めてようやくちょっと元気になりました。&lt;/p&gt;&#xA;&lt;p&gt;熱い紅茶を飲んで一服。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014696231295.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014696231295.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は寒くて眠かったので、ヒーターの前でずっとうたた寝をしてました。&lt;/p&gt;&#xA;&lt;p&gt;ダウンジャケットのようなものを着ているので重さで肩こります。&lt;/p&gt;&#xA;&lt;p&gt;風呂に入って体を温めてようやくちょっと元気になりました。&lt;/p&gt;&#xA;&lt;p&gt;熱い紅茶を飲んで一服。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も寒いですが</title>
@@ -202,7 +202,7 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-10_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</link>
       <pubDate>Fri, 10 Jan 2020 07:22:01 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-10_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12565895814-14693501792.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200110/07/yuki9902/e0/d4/j/o0966064014693501792.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨日、珈琲を飲み過ぎたせいで睡眠薬の効果時間よりも早くに目が覚めて仕舞いました。&lt;/p&gt;&#xA;&lt;p&gt;珈琲を飲んでから寝ると惰眠を貪らずに済みますが、疲れが残りそうです。&lt;/p&gt;&#xA;&lt;p&gt;で、朝食は食パンにケチャップ、クレイジーソルトを塗り、チーズを掛けてオーブンで焼いたピザ風トーストです。&lt;/p&gt;&#xA;&lt;p&gt;両面焼きのオーブンなので、下に敷いたアルミホイルを引き抜くタイミングで、パンの焼き目とチーズの焼き目を調整しました。&lt;/p&gt;&#xA;&lt;p&gt;ピザよりもピザ風トーストの方が好きです。&lt;/p&gt;&#xA;&lt;p&gt;では、今週の平日も最後、明日の休みに向けてちょっとだけ頑張りましょう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0966064014693501792.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0966064014693501792.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨日、珈琲を飲み過ぎたせいで睡眠薬の効果時間よりも早くに目が覚めて仕舞いました。&lt;/p&gt;&#xA;&lt;p&gt;珈琲を飲んでから寝ると惰眠を貪らずに済みますが、疲れが残りそうです。&lt;/p&gt;&#xA;&lt;p&gt;で、朝食は食パンにケチャップ、クレイジーソルトを塗り、チーズを掛けてオーブンで焼いたピザ風トーストです。&lt;/p&gt;&#xA;&lt;p&gt;両面焼きのオーブンなので、下に敷いたアルミホイルを引き抜くタイミングで、パンの焼き目とチーズの焼き目を調整しました。&lt;/p&gt;&#xA;&lt;p&gt;ピザよりもピザ風トーストの方が好きです。&lt;/p&gt;&#xA;&lt;p&gt;では、今週の平日も最後、明日の休みに向けてちょっとだけ頑張りましょう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>色々</title>
@@ -216,14 +216,14 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-09_stanley-adventure-bottle-25oz/</link>
       <pubDate>Thu, 09 Jan 2020 15:51:03 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-09_stanley-adventure-bottle-25oz/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12565762370-14693180095.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200109/15/yuki9902/5c/30/j/o0640096614693180095.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;折角淹れた珈琲が冷めてしまうのが嫌で、保温ステンレスボトルを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;米国では28ドルで売っているのに、東急ハンズでは税込みで4950円と結構高いのですが買いました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stanley-pmi.com/shop/adventure-stainless-steel-vacuum-bottle-25-oz-replace&#34;&gt;Stanley Adventure Stainless Steel Vacuum Bottle 25oz&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;で、25オンス（740ml）モデルです。&lt;/p&gt;&#xA;&lt;p&gt;店舗では25オンスと17オンスの2モデルが売ってました。&lt;/p&gt;&#xA;&lt;p&gt;東急ハンズのネット通販では17オンス（500ml）のみ在庫しているようです。&lt;/p&gt;&#xA;&lt;p&gt;タイガーかスタンレーか迷いましたが、保温性と容量でスタンレーを選びました。&lt;/p&gt;&#xA;&lt;p&gt;スタンレーの正規品は販売店が限定されているので、アマゾンで偽物を高く買うよりは、東急ハンズで本物を安く買う方が良いと思います。&lt;/p&gt;&#xA;&lt;p&gt;ま、とりあずこのボトルは珈琲専用に使おう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0640096614693180095.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0640096614693180095.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;折角淹れた珈琲が冷めてしまうのが嫌で、保温ステンレスボトルを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;米国では28ドルで売っているのに、東急ハンズでは税込みで4950円と結構高いのですが買いました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stanley-pmi.com/shop/adventure-stainless-steel-vacuum-bottle-25-oz-replace&#34;&gt;Stanley Adventure Stainless Steel Vacuum Bottle 25oz&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;で、25オンス（740ml）モデルです。&lt;/p&gt;&#xA;&lt;p&gt;店舗では25オンスと17オンスの2モデルが売ってました。&lt;/p&gt;&#xA;&lt;p&gt;東急ハンズのネット通販では17オンス（500ml）のみ在庫しているようです。&lt;/p&gt;&#xA;&lt;p&gt;タイガーかスタンレーか迷いましたが、保温性と容量でスタンレーを選びました。&lt;/p&gt;&#xA;&lt;p&gt;スタンレーの正規品は販売店が限定されているので、アマゾンで偽物を高く買うよりは、東急ハンズで本物を安く買う方が良いと思います。&lt;/p&gt;&#xA;&lt;p&gt;ま、とりあずこのボトルは珈琲専用に使おう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ばり 香りめん</title>
       <link>https://yuki9902-jp.github.io/posts/2020-01-09_%E3%81%B0%E3%82%8A-%E9%A6%99%E3%82%8A%E3%82%81%E3%82%93/</link>
       <pubDate>Thu, 09 Jan 2020 11:31:04 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-09_%E3%81%B0%E3%82%8A-%E9%A6%99%E3%82%8A%E3%82%81%E3%82%93/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12565707665-14693083343.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200109/11/yuki9902/c4/63/j/o1080081014693083343.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日のお昼はばりの香りめんです。&lt;/p&gt;&#xA;&lt;p&gt;焦がし大蒜油と柚子こしょうが良いパンチです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014693083343.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014693083343.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日のお昼はばりの香りめんです。&lt;/p&gt;&#xA;&lt;p&gt;焦がし大蒜油と柚子こしょうが良いパンチです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は</title>
@@ -265,7 +265,7 @@
       <link>https://yuki9902-jp.github.io/posts/2020-01-06_%E6%B0%B7%E7%82%B9%E4%B8%8B2%E5%BA%A6/</link>
       <pubDate>Mon, 06 Jan 2020 08:03:20 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2020-01-06_%E6%B0%B7%E7%82%B9%E4%B8%8B2%E5%BA%A6/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12564952687-14691443230.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20200106/08/yuki9902/f5/71/j/o1080081014691443230.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;父親を眼科につれて行きます。&lt;/p&gt;&#xA;&lt;p&gt;寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;縮こまった体では怪我をし易いし、痛みが鋭くなるのでご注意下さい。&lt;/p&gt;&#xA;&lt;p&gt;元気で楽しい１日にしましょう。&lt;/p&gt;&#xA;&lt;p&gt;綺麗なあなたの笑顔が見られますように。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014691443230.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014691443230.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;父親を眼科につれて行きます。&lt;/p&gt;&#xA;&lt;p&gt;寒いですね。&lt;/p&gt;&#xA;&lt;p&gt;縮こまった体では怪我をし易いし、痛みが鋭くなるのでご注意下さい。&lt;/p&gt;&#xA;&lt;p&gt;元気で楽しい１日にしましょう。&lt;/p&gt;&#xA;&lt;p&gt;綺麗なあなたの笑顔が見られますように。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は一段と寒いです。</title>

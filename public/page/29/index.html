@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta name="generator" content="Hugo 0.157.0">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="Ameblo Archive 2009-2026">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,13 +76,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -66,6 +113,104 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-22_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/" rel="bookmark">
+			おはようございます。
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><img src="https://stat100.ameba.jp/ameblo/entry_designs/v1/sources/assets/natural09_frame_bg.png" alt=""></p>
+<p><a href="/img/o1080082614914066519.jpg"><img src="/img/o1080082614914066519.jpg" alt=""></a></p>
+<p><a href="/img/o1080082614914066520.jpg"><img src="/img/o1080082614914066520.jpg" alt=""></a></p>
+<p><a href="/img/o1080082614914066523.jpg"><img src="/img/o1080082614914066523.jpg" alt=""></a></p>
+<p>朝食はジャンクな日清焼そばUFOの後にコーヒー。</p>
+<p>昨晩、キーボードの清掃をするため分解したら、カルピスをぶっかけた時にエレクトリッククリーナーをスプレーした樹脂部分がかなり劣化してた。</p>
+<p>夏ぐらいには新しいキーボードに乗り換えだな。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-21_smr%E6%96%B9%E5%BC%8F%E3%81%AEhdd/" rel="bookmark">
+			SMR方式のHDD
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Seagate社のBarracuda 8TBはSMR方式なのを知っていて使っていますが、一時的に大量にあるサイズの小さいファイルの保管場所にしたんですが、既に記録された領域に被るとオーバーラップしているトラックを一旦キャッシュに読み込んでから、ファイルを書き込んだ後、そのキャッシュを書き戻すという作業が延々と続きます。</p>
+<p>そうなると5分で20MB程度しか書き込み速度が出ないので、1TB以上ある一時保管したいファイルを書き込むのに半年ほどかかります。</p>
+<p>そんなに待つことはできないので、一旦、SMR方式のHDDからCMR方式のHDDにデータを全部コピーして、SMR方式のHDDを初期化し、フルフォーマットします。</p>
+<p>それが終わるのが13時間、その後、CMR方式のHDDからクリアされたSMR方式のHDDに書き戻すのに12時間。</p>
+<p>作業が終わるのは明日の午前中ぐらいでしょうか。</p>
+<p>SMR方式のHDDは、一度書き込んだら削除しない、変更しない、追記だけする差分バックアップとしての用途にしか向いていないです。</p>
+<p>昔のパンチカードとか磁気テープとかOverWriteが出来る前の光磁気ディスクだな。</p>
+<p>そう考えると税込み1万5千円で8TBのバックアップメディアなら妥当か。</p>
+<p>3TBとか4TBのCMR方式のHDDが2台買えるけどwww</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-19_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99/" rel="bookmark">
+			おはようございます
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>睡眠薬の効果が切れて、完全に覚醒状態です。</p>
+<p>今日は、何度も同じ夢を繰り返し見ました。</p>
+<p>「妹」と一緒に細々としたことを場所を変えながら自作パソコンの作成を続けるというよく分からない夢です。</p>
+<p>昨日は畦つけというトラクターに専用の機械を取り付けて作業を行っていました。</p>
+<p>作業中はマスクをしていましたが、作業後に身体に付いた砂埃をちゃんと落としていなかった為、目の痛みやくしゃみが止まらず困りました。</p>
+<p>お風呂に入って服を着替えたら治まりましたが。</p>
+<p>今日も畦つけをすると思います。</p>
+<p>今日はちゃんと砂埃を落とそう。</p>
+<p>乾燥して埃やら花粉やら大気汚染物質が舞い上がりやすいので、マスク、ゴーグル、帽子、サテンの服を忘れないように。</p>
+<p>外から帰ったら、着替えて手洗いうがい洗顔をしましょう。</p>
+<p>今日も「妹」たちが元気でありますように。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-18_raid10%E3%82%92%E7%B5%84%E3%82%93%E3%81%A0hdd%E3%81%8C%E4%BA%94%E6%9C%88%E8%A0%85%E3%81%84/" rel="bookmark">
+			RAID10を組んだHDDが五月蠅い
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ファイルサーバーでRAID10を組んだHDDが、何もアクセスがないときにはガリガリと音がして五月蠅いです。</p>
+<p>アクセスしているときはガリガリ音がでずに比較的静かです。</p>
+<p>RAIDを組んでいない状態では、逆にアクセスしているときにガリガリと音がして、アクセスしていないときは静かです。</p>
+<p>ということで、せっかく9TBのRAID10の1アレイを組んだんですが、3TBのRAID1の3アレイに変更しようと思います。</p>
+<p>それでも五月蠅いようだったら、普通のAHCIにしようかと思います。</p>
+<p>RAID6が構成できるRAIDカードを買う案もありますが、3万円以上ですからね、難しいです。</p>
+<p>AMDやIntelのCPUとチップセットを使った疑似RAIDは、安価ですが、細かいことが出来ないです。</p>
+<p>とはいえ、RAIDカードが壊れた時にデータをすべて失うリスクを考えると疑似RAIDの方が安心です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-15_%E5%9C%B0%E9%9C%87/" rel="bookmark">
+			地震
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>先ほど紀伊水道で地震がありました。</p>
+<p>この辺は震度2に届かない程度でしょうか。</p>
+<p>地震が来て2分ほどしてスマホに情報が来ました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-03-14_3tb%E3%81%AEhdd6%E5%8F%B0%E3%81%A7raid10%E3%82%92%E6%A7%8B%E7%AF%89%E4%B8%AD/" rel="bookmark">
 			3TBのHDD6台でRAID10を構築中
 			</a>
@@ -79,14 +224,51 @@
 <p>で、すべてマザーボードに搭載されたSATAコネクタに接続しています。</p>
 <p>RAIDコントローラーは、AMD X370チップセットに内包されています。</p>
 <p>3TBを6台なので、そのまま使うと18TBの大容量ですが、HDDのランダムアクセス性能の低さを補う目的とデータの安全性を保つ目的でRAID10を使うことにしました。</p>
-<p>                       HDD 1   HDD 3   HDD 5    HDD 1   HDD 3   HDD 5</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
-<p> DATA [100110] =&gt;      HDD 2   HDD 4   HDD 6    HDD 2   HDD 4   HDD 6</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">DATA</th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center">Stripe1 </th>
+          <th style="text-align: center">Stripe2</th>
+          <th style="text-align: center">Stripe3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"><strong>HDD A</strong></td>
+          <td style="text-align: center"><strong>HDD C</strong> </td>
+          <td style="text-align: center"><strong>HDD E</strong> </td>
+      </tr>
+      <tr>
+          <td style="text-align: center">010</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">0 </td>
+          <td style="text-align: center">1 </td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">↓</td>
+          <td style="text-align: center"> </td>
+          <td style="text-align: center"><strong>HDD B</strong> </td>
+          <td style="text-align: center"><strong>HDD D</strong> </td>
+          <td style="text-align: center"> <strong>HDD F</strong> </td>
+      </tr>
+      <tr>
+          <td style="text-align: center"> 010</td>
+          <td style="text-align: center">→ </td>
+          <td style="text-align: center">0 </td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">0</td>
+      </tr>
+  </tbody>
+</table>
 <p>RAID10を模式図にしたらこんな感じになるんですが、データを先頭から順次ストライピング(RAID0)して、それをミラーリング(RAID1)するという形で記録していきます。</p>
 <p>うまく行けば、最大で500MB/sぐらいの速度が出そうです。</p>
 <p>まあ1GbEなので125MB/s</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12662348892-14910263783.html"><img src="https://stat.ameba.jp/user_images/20210314/18/yuki9902/5a/ca/p/o1364073614910263783.png?caw=800" alt=""></a></p>
+<p><a href="/img/o1364073614910263783.png"><img src="/img/o1364073614910263783.png" alt=""></a></p>
 <p>ホットスワップに対応したHDDケースを持っていないので、PCが稼働中にトラブルが起きた場合は、電源を落としてHDDの交換をする必要があります。</p>
 <p>容量はおよそ8.5TB。</p>
 <p>3TB×6＝18TBですが、RAID10なので半分はミラーとして使われます。</p>
@@ -113,7 +295,7 @@
 <p>今回の更新では、RYZEN 5000シリーズで、AIDA64のメモリキャッシュベンチマークをしたときに、L3キャッシュの速度が大幅に向上します。</p>
 <p>それからRYZEN 3000シリーズでスマートアクセスメモリが使えるようになっています。</p>
 <p>あとはシステムパフォーマンスの改善、互換性の改善、メモリパフォーマンスの改善です。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12662323941-14910204815.html"><img src="https://stat.ameba.jp/user_images/20210314/17/yuki9902/90/8e/p/o0539051814910204815.png?caw=800" alt=""></a></p>
+<p><a href="/img/o0539051814910204815.png"><img src="/img/o0539051814910204815.png" alt=""></a></p>
 <p>PBO2では、3405からパフォーマンスが改善されているので、3602は適用するのがおすすめです。</p>
 	</div>
 </article><article class="list__item post">
@@ -146,10 +328,17 @@
 		<p><strong>1. SMB3 マルチチャネルによる帯域統合（ロードバランシング）</strong></p>
 <p>　Windows 8/Windows Server 2012以降で導入されたSMB 3.0から、**「SMB マルチチャネル」**が利用可能になりました。これにより、複数のネットワークインターフェースカード（NIC）を同時に使用してデータを転送し、スループットを向上させることができます。</p>
 <p><strong>2. Linux/BSD系OSでの注意点：サブネットの分離</strong></p>
-<p>　SMB3に対応したLinux（Samba）やBSD（TrueNAS等）でもマルチチャネルは利用可能です。ただし、Windowsとは異なり、同一サブネット内に複数のNICを接続する構成では正しく動作しない場合があります。 この制限を回避するには、NICごとに異なるサブネットを手動で割り当てるのが有効です。</p>
+<p>　SMB3に対応したLinux（Samba）やBSD（TrueNAS等）でもマルチチャネルは利用可能です。ただし、Windowsとは違い、TCP/IPの規格に沿って同一サブネット内に複数のNICを接続する構成は出来ません。この制約を回避するには、NICごとに異なるサブネットを手動で割り当てます。</p>
 <ul>
-<li><strong>PC A:</strong> <code>192.168.1.10/24</code> と <code>192.168.2.10/24</code></li>
-<li><strong>PC B:</strong> <code>192.168.1.11/24</code> と <code>192.168.2.11/24</code></li>
+<li>
+<p><strong>PC A:</strong> <code>192.168.1.10/24</code> と <code>192.168.2.10/24</code></p>
+</li>
+<li>
+<p><strong>PC B:</strong> <code>192.168.1.11/24</code> と <code>192.168.2.11/24</code></p>
+</li>
+<li>
+<p><strong>Sambaの設定:</strong> smb.conf に server multi channel support = yes と記述する。</p>
+</li>
 </ul>
 <p>このように、対応する各NICを同じサブネット同士で対向させることで、マルチチャネル接続を確実に機能させることができます。</p>
 <p><strong>3. 動作確認の方法</strong></p>
@@ -185,7 +374,7 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p>ファイルサーバーに保存していたファイルを一旦メインPCに退避させて、3TBのHDDを4台使って、RAID10 ミラー・ストライプを構築中です。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12661812278-14908934682.html"><img src="https://stat.ameba.jp/user_images/20210311/23/yuki9902/37/9f/p/o1920108014908934682.png?caw=800" alt=""></a></p>
+<p><a href="/img/o1920108014908934682.png"><img src="/img/o1920108014908934682.png" alt=""></a></p>
 <p>HDDの内訳は、故障率が高くて有名なSeagate 3TB 7200RPMが2台と信頼性の高い東芝の3TB 7200RPMが2台です。</p>
 <p>東芝のHDDは単体でシーケンシャルで200MB/s、SeagateのHDDは160MB/sです。</p>
 <p>RAID10構築中でまだビルドが完了していないので、速度がどれだけ上がるかまだはっきりしませんが、とりあえずは300MB/sぐらいは出ています。</p>
@@ -196,181 +385,37 @@
 <p>RAID10が構築し終わったら、メインPCからファイルサーバーへ退避したデータを書き戻し、速度がどれくらい上昇しているのか見てみます。</p>
 <p>それからHDD2個にクラスターエラーがあるものを使っているので、近いうちに交換しようと思います。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-09_windows-10-pro-20h2%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%A7%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%87%BA%E6%9D%A5%E3%81%AA%E3%81%84/" rel="bookmark">
-			Windows 10 Pro 20H2アップデートで共有フォルダーにアクセス出来ない
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>クライアントをWindows10Proを使い、ファイルサーバーのOSをLinux Mint 20.1 Cinnamonで、Sambaをインストールして使っていましたが、ファイル情報が時々正常に取得できずファイルにアクセス出来なくなる問題にぶつかりました。解決方法がないので、ファイルサーバーのOSをWindows10Proに戻しました。</p>
-<p>　ファイルサーバーには、UEFIでWindows10Pro 64bit 20H2アップデート適用済みをインストールしました。クライアント側も新規でWindows10Pro 64bit 20H2アップデート適用済みをインストールしました。</p>
-<p>　192.168.11.0/24のLANのワークグループで、profileはプライベートネットワークとして接続しました。共有フォルダーの設定をして、Windowsの機能追加でSMB1.1をインストールして、クライアント、サーバーの両方ともMicrosoftアカウントでログオンしています。</p>
-<p>　このとき共有フォルダーにアクセスしようとすると、ネットワーク資格設定でアカウントが間違っていると表示され、共有フォルダーにアクセス出来ません。この問題はWindows10 20H2アップデート適用で、「PIN」を設定してログオンするとネットワーク資格情報にアクセス出来なくなり、共有フォルダーのアクセス権を取得できなくなります。</p>
-<p>　解決するためには、クライアント、サーバーの両方ともWindows Hello認証の「PIN」を削除して、Windowsへのログオンはパスワードを入力するように設定すれば、共有フォルダーにちゃんとアクセスできるようになります。</p>
-<p>　この問題を解決する方法が分からずに、ファイルサーバーのOSを3回、クライアントのOSを2回インストールし直しました。最終的に「PIN」を削除すれば良いと分かるまでにほぼ1日を費やしました。疲れました。</p>
-<p>　現在はクライアント側（メインPC）にApplicationをインストールや設定をしつつ、Youtubeの音楽の動画を見ています。</p>
-<p>　サーバー側は、HDDのファイルシステムをNTFSに戻すに当たって、大量のファイルを別のHDDに移動していたのを元のHDDに書き戻しています。ファイルの書き戻しが終わったら、サーバーのHDDの一部をRAID10（ミラー・ストライプ）に設定してみようかと思います。小さいファイルの読み書きを高速化する為には、RAID10が良いのか、それともクラスターサイズを小さくした方が良いのか、検証してみたいと思います。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-08_%E8%A6%81%E3%82%89%E3%81%AA%E3%81%84%E9%9B%BB%E6%BA%90%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F/" rel="bookmark">
-			要らない電源ユニットを買ってしまった
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>先日、ファイルサーバーの電源スイッチを押して、起動しようとしたら、ウンともスンとも言いませんでした。</p>
-<p>ケースを開けて、マザーボードに搭載されている電源スイッチのLEDが点灯されていないのを確認しました。</p>
-<p>このLEDは電源ユニットが接続され、通電されていると点灯するようになっているもの。</p>
-<p>電源ケーブルの抜き差し、電源ユニットに付いている入切スイッチを押しても、変化がないので細かい切り分けをしてませんが電源ユニットの故障だと思い、急遽、電源ユニットを買いに岡山市内に行ってきました。</p>
-<p>Corsair RM750xを買ってきました。</p>
-<p>発売時期は少し古いですが、故障したと思っているCorsair RM750の後継というか、ちょっとだけ違う系統の電源ユニットを買ってきました。</p>
-<p>新しい電源ユニットからマザーボードにATX24ピンケーブル、CPU8ピンケーブルを挿し、電源を入れようとしましたが、電源ボタンのLEDが点灯せず押しても起動しません。</p>
-<p>「えー、マザーボードの故障かぁ。」と意気消沈しましたが、電源ユニットを外して、とりあえずマザーボードからボタン電池を外して、CMOSクリアをしました。</p>
-<p>で、電源ユニットをつなぎ直すと電源ボタンのLEDが点灯しました。</p>
-<p>「あ、これは前の電源ユニットも壊れてないなぁ」と思い、前の電源ユニットを繋いだら電源ボタンのLEDが点灯しました。</p>
-<p>結局、電源ユニットは故障していないことが判明して、シャットダウン時にマザーボードのBIOSのデータが破損していたようです。</p>
-<p>せっかく新しい電源ユニットを買ったので、ファイルサーバーの電源ユニットを新しい物に交換して、配線をやり直しました。</p>
-<p>ということで、奥行き18センチとかなり大きめの750W ATX電源が1つ余りました。</p>
-<p>また他に自作PCを作るときに使おうかな。</p>
-<p>MainPC・・・Corsair RM850(2019)/80+Gold/ATX12V:ver.2.52/工業用コンデンサー</p>
-<p>FileServer・・・Corsair RM750x/80+Gold/ATX12V:ver.2.4/日本製コンデンサー</p>
-<p>余りもの・・・Corsair RM750(2014)/80+Gold/ATX12V:ver.2.3</p>
-<p>[<img src="https://p.odsyms15.com/ai3v0mzI1iUC1GZR7PMYi5" alt=""></p>
-<p>Corsair RM850-2019- 850W PC電源ユニット 80PLUS GOLD PS863 CP-9020196-JP</p>
-<p>Amazon（アマゾン）</p>
-<p>13,308〜17,325円](<a href="https://d.odsyms15.com/click?aid=2PRcTwJeOF4EPen6NcpP67&amp;mimp=kcRtxMrMXraCVzulZkKEH7&amp;session=09705ac6-d168-4ce5-8b7d-a8396eb5052f&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=2PRcTwJeOF4EPen6NcpP67&amp;mimp=kcRtxMrMXraCVzulZkKEH7&amp;session=09705ac6-d168-4ce5-8b7d-a8396eb5052f&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/2Da5w6LWtNThAEbGd3Blk2" alt=""></p>
-<p>Corsair RM750x -2018-750W PC電源ユニット[80PLUS GOLD] PS794 CP-9020179-JP</p>
-<p>Amazon（アマゾン）</p>
-<p>11,999〜19,250円](<a href="https://d.odsyms15.com/click?aid=wxYoOnVSylKoGkdl37Bwk3&amp;mimp=UIVncWFkzDT3QDphpgSkLj&amp;session=09705ac6-d168-4ce5-8b7d-a8396eb5052f&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=wxYoOnVSylKoGkdl37Bwk3&amp;mimp=UIVncWFkzDT3QDphpgSkLj&amp;session=09705ac6-d168-4ce5-8b7d-a8396eb5052f&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-02-25_%E3%83%86%E3%82%A3%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AA%E3%82%A2/" rel="bookmark">
-			ティンダーリア
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12658872989-14901753878.html"><img src="https://stat.ameba.jp/user_images/20210225/13/yuki9902/e4/c4/j/o1080081014901753878.jpg?caw=800" alt=""></a></p>
-<p>昨年のダージリン ティンダーリアを煎れ温かいお茶を頂きます。</p>
-<p>今日は寒いです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-02-23_%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E4%BD%BF%E3%81%84%E3%81%AB%E3%81%8F%E3%81%8B%E3%81%A3%E3%81%9F/" rel="bookmark">
-			やっぱり使いにくかった
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>Garuda Linuxを使おうといろいろ触りましたが、やっぱり使いにくいですね。</p>
-<p>画面がカラフルで、意識が散乱するので作業に集中できないです。</p>
-<p>インストールしたノートPCがTFT液晶で解像度がHDより一回り大きいだけでなのもあって、全体的に見づらい。</p>
-<p>今、Linux Mint Cinnamon 20.1に戻している最中です。</p>
-<p>Mintの方が利用者が多い分、情報が多いので、トラブルシューティングも比較的楽だし、日本語環境にするのが面倒くさくないので、簡単で良いかな。</p>
-<p>Windowsアプリを動かすための「Wine」があるので、問題になりそうなのはRGB LEDの制御だけなので、近いうちにメインPCもLinux Mint Cinnamonに移行しようかな。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-02-20_garuda-linux-kde-dragonized-edition/" rel="bookmark">
-			Garuda Linux KDE Dragonized Edition
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12657959777-14899410129.html"><img src="https://stat.ameba.jp/user_images/20210220/22/yuki9902/7d/22/p/o1366076814899410129.png?caw=800" alt="Garuda Linux DolphinファイルマネージャーとKonsoleターミナル"></a></p>
-<p><a href="https://garudalinux.org/downloads.html">Garuda Linux KDE Dragonized Edition</a>をノートPCにインストールしました。</p>
-<p>最低要件ギリギリですが、特に重さも感じない程度に動作します。</p>
-<p>USBメモリからライブ起動すると日本語でインストール出来ますが、システムのインストール後にランゲージパッケージを手動でインストールしないと文字化けしてインストールも碌に出来ません。</p>
-<p>なので、まずは英語でインストールします。</p>
-<p>インストールは他のLinuxディストリビューションとあまり変わらないので、すんなりといけると思います。</p>
-<p>インストール後にSystem SettingsからLanguage PackagesとKeyboard Settingsから日本語を設定します。</p>
-<p>パッケージのインストールが終了したら再起動します。</p>
-<p>GUIのデザインに関わる文字列はほとんど英語のままですが、システムメッセージなどは日本語化されます。</p>
-<p>画面の小さいノートPCでは、使いやすくはないですが、Windowsの野暮ったさやmacの無機質さと両方のデザインの不自由さに辟易したら、試してみると良いかもしれません。</p>
-<p>以下、Gemini3 Flashによる2026/01/24現在の検証</p>
-<hr>
-<h3 id="1-検証現在のgaruda-linuxの立ち位置">1. 検証：現在のGaruda Linuxの立ち位置</h3>
-<p>Garuda Linuxは、Arch Linuxをベースにした「ゲーミングと美観」に特化したディストリビューションです。</p>
-<ul>
-<li>
-<p><strong>最大の特徴:</strong> * <strong>パフォーマンス最適化:</strong> <code>zen-kernel</code>を標準採用し、CPUやI/Oのスケジューリングがデスクトップ/ゲーム用途に最適化されています。</p>
-<ul>
-<li><strong>GUIツールの充実:</strong> <code>Garuda Assistant</code>や<code>Garuda Gamer</code>など、Arch系でありながらコマンドを使わずに設定できるツールが豊富です。</li>
-<li><strong>Btrfs + Snapper:</strong> アップデートでシステムが壊れても、起動時のブートメニューから簡単に「壊れる前の状態」に戻せるバックアップ機能が標準装備されています。</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-日本人への推奨度検証結果">2. 日本人への推奨度：検証結果</h3>
-<p>結論から述べると、<strong>「中級者以上のゲーマー」には強く勧められますが、「初心者」には依然としてハードルが高い</strong>と言えます。</p>
-<h4 id="ポジティブな側面勧められる理由">【ポジティブな側面：勧められる理由】</h4>
-<ol>
-<li><strong>日本語設定の簡略化:</strong> 以前はArch系特有の難しさがありましたが、最近のバージョン（Mokkaエディションなど）では、GUI上の「仮想キーボード」設定から<code>Fcitx5</code>を数クリックで選択するだけで日本語入力が整うようになっています。</li>
-<li><strong>最新ハードウェア（Radeon等）との相性:</strong> ブログ記事にあったようなRX 6750 XTなどの比較的新しいGPUを使う場合、最新のドライバがすぐに降ってくるArchベースのGarudaは、性能を最大限引き出すのに適しています。</li>
-<li><strong>ゲーミング環境の自動構築:</strong> <code>Garuda Gamer</code>ツールにより、Steam, Wine, Proton, 各種エミュレータ、Discordなどを一括インストールでき、設定の手間がWindowsに近くなっています。</li>
-</ol>
-<h4 id="ネガティブな側面推奨しにくい理由">【ネガティブな側面：推奨しにくい理由】</h4>
-<ol>
-<li><strong>Wayland環境下の日本語入力問題:</strong> 現在の主流であるKDE Plasma 6やHyprland環境（Wayland）では、ChromeやVSCodeなどのアプリで日本語入力を行うために、依然としてフラグ設定（<code>chrome:flags</code>等）や環境変数の追記が必要なケースがあります。</li>
-<li><strong>リソース消費の激しさ:</strong> 「美観」を重視しているため、アニメーションや透明化エフェクトでメモリを多く消費します。低スペックPCの日本人ユーザーには向きません。</li>
-<li><strong>ローカライズの不完全さ:</strong> 設定ツールの一部が英語のままであったり、日本語フォントのレンダリングを自分で調整（RictyやNoto Sans等への変更）しないと「中華フォント」っぽさが残る場合があります。</li>
-</ol>
-<hr>
-<h3 id="3-追加できる考察garuda-linuxをさらに楽しむために">3. 追加できる考察：Garuda Linuxをさらに楽しむために</h3>
-<p>記事に付け加えるべき「日本人向け」の考察ポイントを提案します。</p>
-<h4 id="-タイムマシンとしての安心感">① 「タイムマシン」としての安心感</h4>
-<p>Linux初心者や日本人がArch系を避ける最大の理由は「アップデートで起動しなくなる不安」です。しかし、Garudaの<strong>Btrfs + Snapper自動スナップショット</strong>は、OS版の「システムの復元」として極めて優秀です。「設定をいじりすぎて日本語入力が壊れた」といった際も、再起動して1分で元に戻せる点は、もっと評価されるべき強みです。</p>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/page/28/">«</a>
-	<span class="pagination__item pagination__item--current">29/764</span>
+	<span class="pagination__item pagination__item--current">29/765</span>
 	<a class="pagination__item pagination__item--next btn" href="/page/30/">»</a>
 </div>
 
 			</div>
 			<aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1745,7 +1790,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1774,15 +1819,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1796,6 +1845,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1803,12 +1854,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1818,7 +1910,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

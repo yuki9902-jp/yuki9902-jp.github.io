@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Posts - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -64,6 +111,167 @@
 	<header class="main__header">
 		<h1 class="main__title">Posts</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2025-01-28_corsair-icue-link-titan-240-rx-rgb/" rel="bookmark">
+			Corsair iCUE LINK TITAN 240 RX RGB
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>水冷ヘッドを壊してしまった。</p>
+<p>Corsair <a href="https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060069-ww/icue-h115i-elite-capellix-xt-liquid-cpu-cooler">iCUE H115i ELITE CAPELLIX XT</a>（280mmAIOクーラー黒）と<a href="https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060056-ww/icue-elite-cpu-cooler-lcd-display-upgrade-kit-cw-9060056-ww">iCUE ELITECPU クーラー LCDディスプレイアップグレードキット</a>をセットにして使用していましたが、クーラーのヘッド部分が熱くなってくるとLCDの下半分の表示が乱れてしまう問題があり、イライラしてました。</p>
+<p>先日、また表示が乱れたので、何度か再起動したりしても直らず、イライラしたので電源が入ったままLCDキットを本体から抜いて差し直したら、クーラーのヘッド部分のファームウェアが壊れてしまいました。</p>
+<p>iCUE制御ソフトウェアからヘッド部分が認識できなくなり、ポンプの制御が出来なくなり一定速度でしか回転しなくなり、LCDの表示が出来なくなり、LEDも消灯してしまいました。</p>
+<p>さすがにCPUの冷却するための物で壊れたままは不味いので、パソコン工房の通販で新しくCorsair <a href="https://www.corsair.com/jp/ja/p/cpu-coolers/CW-9061016-WW/icue-link-titan-240-rx-rgb-aio-liquid-cpu-cooler-cw-9061016-ww">iCUE LINK TITAN 240 RX RGB AIO 水冷式CPUクーラー</a>黒を買いました。</p>
+<p>CorsairのiCUE LINKという新しい接続方式になりファンやクーラーヘッダへの接続が少ないケーブルで済むのでケース内がすっきりします。</p>
+<p><a href="/img/o2014151115537984959.jpg"><img src="/img/o2014151115537984959.jpg" alt=""></a></p>
+<p>ただ、PCI-Eの8pin(6+2pin)電源ケーブルが1本必要になるので、安物の電源ユニットでは採用が難しいです。</p>
+<p>冷却能力は280mmから240mmにグレードダウンしましたが、先のAIOは経年で冷却液が少なくなっていたこと、クーラーとファンの制御の見直しもありよく冷えています。</p>
+<p>CPUは、AMD RYZEN 9 5900XTで、これをPBOでカーブオプティマイズしてやると190W近くまで消費してCinebench R23で30000ぐらいの値になりました。</p>
+<p>ノーマルで使うより10％前後高速になっています。</p>
+<p>急な出費になってしまいましたが、性能的には概ね満足な物でした。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2025-01-01_a-happy-new-year/" rel="bookmark">
+			A Happy New Year!!
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Welcome 2025</p>
+<p>May happiness come to all.</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2024-12-31_%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A92024/" rel="bookmark">
+			サヨナラ2024
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>今年も残すところあと僅かです。</p>
+<p>今年は、尿管結石の診断ミスで腎臓が一つダメになっていたことがわかり、珈琲、紅茶、緑茶、サツマイモを制限せざるを得なくなり、食事にはストレスを抱えています。</p>
+<p>後は体調不良というより神経いや精神の不調が多い年でした。</p>
+<p>徐々に朽ちていく身体となんとか折り合いをつけていくしかないですね。</p>
+<p>他人の都合で命を奪われる状況にないだけ幸せだと思い、鬱々としながらも生きていきます。</p>
+<p>今年の嫌なことは、今年に置いていけたら良いのにな。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/" rel="bookmark">
+			AMD Software Adrenalin Edition 24.12.1
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html">AMD RADEON RX6750XT</a> のドライバーをアップデートしました。</p>
+<p>WSL 2(Windows Subsystem for Linux)でAI開発のAMD ROCmをサポートしたようです。ONNXやTensorFlowなどが動くようです。</p>
+<p>あとはHYPR-Tuneのサポート拡大、Vulkanのサポート拡大、不具合の修正です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/" rel="bookmark">
+			AMD RYZEN 7 5800X(8c/16t)から、9 5900XT(16c/32t)へ換装
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>RYZEN 7 9800X3Dへの物欲が湧きすぎて我慢きかなくなったので、抑制のためにAMD RYZEN 9 5900XTを買いました。</p>
+<p>RYZEN 7 9800X3Dを買うためには、マザーボード、メモリと合わせて20万円くらいですが、RYZEN 9 5900XTなら6万円です。</p>
+<p>シングルスレッド性能比、9800X3D：5900XT ＝ 100：70</p>
+<p>マルチスレッド性能比、9800X3D：5900XT ＝ 90：100</p>
+<p>普段使っているWQHDでのゲーム性能では、シングルスレッド性能と3DVcacheの影響よりもグラボの性能の影響が大きいので、今使っている5800Xからの性能向上はどちらも価格に見合うものではありません。</p>
+<p>5800Xと5900XTのマルチスレッド性能比ですが、1.9倍程度です。</p>
+<p>シングルスレッド性能はほぼ同じです。</p>
+<p>5900XT は、5800X + 5800Xみたいな感じです。</p>
+<p><a href="/img/o1758131915508044774.jpg"><img src="/img/o1758131915508044774.jpg" alt=""></a></p>
+<h4 id="cinebenchのスコア">Cinebenchのスコア</h4>
+<table>
+  <thead>
+      <tr>
+          <th>CPU</th>
+          <th>Clock</th>
+          <th>Memory</th>
+          <th>Chip Set</th>
+          <th style="text-align: right">R20 (MP)</th>
+          <th style="text-align: right">R20 (SP)</th>
+          <th style="text-align: right">R15 (MP)</th>
+          <th style="text-align: right">R15 (SP)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>RYZEN 7 1700</td>
+          <td>3.6GHz</td>
+          <td>DDR4 2993MHz CL16</td>
+          <td>X370</td>
+          <td style="text-align: right">3526</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 3700X</td>
+          <td>4.3GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">4977</td>
+          <td style="text-align: right">495</td>
+          <td style="text-align: right">2214</td>
+          <td style="text-align: right">206</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 5800X</td>
+          <td>4.725GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">6180</td>
+          <td style="text-align: right">607</td>
+          <td style="text-align: right">2693</td>
+          <td style="text-align: right">258</td>
+      </tr>
+      <tr>
+          <td><strong>RYZEN 7 5800X</strong></td>
+          <td>PBO (4.3GHz)</td>
+          <td>DDR4 3600MHz CL16</td>
+          <td>X570</td>
+          <td style="text-align: right">5618</td>
+          <td style="text-align: right">612</td>
+          <td style="text-align: right">2403</td>
+          <td style="text-align: right">256</td>
+      </tr>
+      <tr>
+          <td><strong>RYZEN 9 5900XT</strong></td>
+          <td>PBO (4.4GHz)</td>
+          <td>DDR4 3600MHz CL16</td>
+          <td>X570</td>
+          <td style="text-align: right">10649</td>
+          <td style="text-align: right">601</td>
+          <td style="text-align: right">4578</td>
+          <td style="text-align: right">256</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="ff-xivのスコアとfpsavg">FF XIVのスコアとfps(Avg.)</h4>
+<p>[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質</p>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -199,111 +407,12 @@
 <p>思い描いたとおりの人生を歩むことは出来ませんでしたし、予想外の不運、病気に苛まされていますが、なんとか生きています。</p>
 <p>生きることをとりあえず頑張ってみます。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-06-22_%E5%8E%9F%E7%A5%9E%E3%83%97%E3%83%AC%E3%82%A4%E9%85%8D%E4%BF%A1%E4%B8%AD/" rel="bookmark">
-			原神プレイ配信中
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://www.twitch.tv/yuki9902">tiwtchで原神プレイ配信中</a></p>
-<p>原神プレイをライブ配信しています。</p>
-<p>目的は、twitchで配信し条件を満たすとガチャの原石をもらえるからです。</p>
-<p>なので、ゲーム実況などの声出し、顔出しの配信はしていません。</p>
-<p>ただひたすらプレイの様子を垂れ流しているだけです。</p>
-<p>それからマップを長時間開いているときは、樹脂（スタミナ）が溜まるのを待っている間、他のことをしています。離席しているときもあります。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-06-14_%E5%A4%A7%E7%80%A7%E5%B1%B1-%E8%A5%BF%E6%B3%95%E9%99%A2---2024_06_14/" rel="bookmark">
-			大瀧山 西法院 - 2024/06/14
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12856146562-15451533830.html"><img src="https://stat.ameba.jp/user_images/20240614/22/yuki9902/42/21/j/o0966064015451533830.jpg?caw=800" alt=""></a></p>
-<p><a href="https://ameblo.jp/yuki9902/image-12856146562-15451533828.html"><img src="https://stat.ameba.jp/user_images/20240614/22/yuki9902/74/1c/j/o0966064015451533828.jpg?caw=800" alt=""></a></p>
-<p><a href="https://ameblo.jp/yuki9902/image-12856146562-15451533827.html"><img src="https://stat.ameba.jp/user_images/20240614/22/yuki9902/59/a4/j/o0966064015451533827.jpg?caw=800" alt=""></a></p>
-<p><a href="https://ameblo.jp/yuki9902/image-12856146562-15451533826.html"><img src="https://stat.ameba.jp/user_images/20240614/22/yuki9902/7b/13/j/o0966064015451533826.jpg?caw=800" alt=""></a></p>
-<p>まだ咲き始めですが、咲いていたものも、あまりに暑すぎてしおれていました。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-05-18_%E8%85%8E%E8%87%93%E3%81%AB%E8%B2%A0%E8%8D%B7%E3%81%8C%E6%8E%9B%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%8A%E8%8C%B6/" rel="bookmark">
-			腎臓に負荷が掛からないお茶
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>自分の嗜好品であるブラック珈琲、ストレート紅茶、チョコレートの摂取が難しくなったので、嗜好品の代替になるものを探しています。</p>
-<p>普段の水分補給には、奥大山の天然水をたくさん買ってきて飲んでいます。</p>
-<p>味のある物としてはとりあえず、ルイボスティーを飲んでいます。</p>
-<p>今日、ルピシアで新たにルイボスティーのティーバッグを買ってきました。</p>
-<p>フレーバードも発売されていましたが、フレーバードは苦手なので、ナチュラルにしました。</p>
-<p>サツマイモ、ナッツ類、大豆、葉物野菜は要注意で毎日や過剰な摂取は控えるようにしています。</p>
-<p>珈琲は牛乳を入れるしかなさそうですが、ブラック珈琲の代替は無さそうです。</p>
-<p>何が悪くてこうなったかは、不運が重なったからとしか言いようがなく、かといって、詰まった結石が炎症や痛みを出すでもなく、萎縮した腎臓が癌化しているわけでもなく、偶然にCTで見つかったのはラッキーとも言えるし、まあ、割るしかない状況ですわ。</p>
-<p>定期的にCT撮って、癌化するようなら萎縮した腎臓を摘出します。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-05-16_%E7%94%B0%E6%A4%8D%E3%81%88%E7%B5%82%E4%BA%86/" rel="bookmark">
-			田植え終了
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>今年の田植えが終了しました。</p>
-<p>途中で田植え機のマイコンチェックが点灯し田植え機の動作がおかしくなりました。</p>
-<p>田植えが終わらなくなりそうでしたが、なんとかだましだまし使って田植えを終了させました。</p>
-<p>今年はトラクターのローター二台、田植え機と壊れていきなかなか厳しい年です。</p>
-<p>コンバイン（稲刈り機）のクローラーが耐久限界になっているし、出費がかさみます。</p>
-<p>農業関係の機械および肥料、薬品が軒並み値上がりが続いていて、二割以上上がっています。</p>
-<p>コストプッシュで価格を上げたくても、作物の買い取り価格は変わらないので、零細農家はかなり厳しいです。</p>
-<p>どこの先進国も農業には助成金や補助金を出しますが、日本には中抜き業者や政治家がたくさんいるので、末端には何も届きません。</p>
-<p>食量、エネルギーは安全保障に直結しているのに、理解していない無能ばかりが･･･。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-05-16_%E7%94%B0%E6%A4%8D%E3%81%884%E6%97%A5%E7%9B%AE/" rel="bookmark">
-			田植え4日目
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>田植え4日目です。</p>
-<p>今日は低気圧が日本海にあって、強風と寒さがあります。</p>
-<p>田植え機の寿命が尽きそうで、壊れて動かないようになるまえに田植えを終わらせたいです。</p>
-<p>朝に抗鬱薬の効果が切れてくると途端に情緒不安定になります。</p>
-<p>こちらも寿命が尽きるまえにせめて、結婚してみたかった。</p>
-<p>誰か来てくれないかな。</p>
-<p>無理か。</p>
-<p>はぁ。</p>
-<p>とりあえず、今日中は頑張ろう。</p>
-<p>無理しても。</p>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/posts/page/5/">«</a>
-	<span class="pagination__item pagination__item--current">6/764</span>
+	<span class="pagination__item pagination__item--current">6/765</span>
 	<a class="pagination__item pagination__item--next btn" href="/posts/page/7/">»</a>
 </div>
 
@@ -311,25 +420,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1704,7 +1813,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1733,15 +1842,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1755,6 +1868,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1762,12 +1877,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1777,7 +1933,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

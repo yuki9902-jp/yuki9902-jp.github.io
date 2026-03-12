@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASUS on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/asus/</link>
+    <description>Recent content in ASUS on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 19 Nov 2025 23:28:14 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASUS ROG STRIX X870E-E Gaming WIFI BIOS 1804</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-11-19_asus-rog-strix-x870e-e-gaming-wifi-bios-1804/</link>
+      <pubDate>Wed, 19 Nov 2025 23:28:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-11-19_asus-rog-strix-x870e-e-gaming-wifi-bios-1804/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/&#34;&gt;ASUS ROG STRIX X870E-E Gaming WIFI BIOS 1804&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ASUSのハイエンドマザーボード &lt;strong&gt;ROG STRIX X870E-E GAMING WIFI&lt;/strong&gt; に、最新BIOSバージョン「1804」がリリースされました。&lt;/p&gt;&#xA;&lt;p&gt;今回のアップデート内容は以下の通りです。&lt;/p&gt;&#xA;&lt;h4 id=&#34;1-主な更新内容&#34;&gt;1. 主な更新内容&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AGESA ComboAM5 PI 1.2.7.0への更新&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CPUおよび周辺デバイスとの互換性向上&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;【重要な注意点】&lt;/strong&gt; 本バージョンを適用すると、これより&lt;strong&gt;過去のBIOSバージョンにロールバック（書き戻し）することができなくなります。&lt;/strong&gt; 安定性を重視する方は念頭に置いておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;私の環境（Ryzen 9 9950X3D）では、特に問題なくスムーズに更新作業が完了しました。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;2-追記20260118なぜ今回の更新が必須なのか&#34;&gt;2. 追記（2026.01.18）：なぜ今回の更新が「必須」なのか&lt;/h4&gt;&#xA;&lt;p&gt;最新の &lt;strong&gt;A.G.E.S.A 1.2.7.0&lt;/strong&gt; マイクロコードには、非常に重要な修正が含まれていることが分かりました。&lt;/p&gt;&#xA;&lt;p&gt;以前より話題になっていた、CPUのオーバークロック（OC）やPBO、EXPO/XMPプロファイルの使用時に、&lt;strong&gt;SoC電圧が突発的に安全圏（1.35V）を大きく超え、最悪の場合CPUやソケットが焼損する可能性がある問題&lt;/strong&gt;。今回のアップデートは、このリスクに対処するものだそうです。&lt;/p&gt;&#xA;&lt;p&gt;最新のRyzen 9000シリーズ、特に9950X3Dのような高価なフラッグシップCPUを使用している場合、ハードウェアを物理的な故障から守るためにも、早めに適用しておくべき内容と言えるでしょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RYZEN 9 9950X3D &amp; X870E &amp; DD5 6000MHz CL30</title>
+      <link>https://yuki9902-jp.github.io/posts/2025-09-30_ryzen-9-9950x3d--x870e--dd5-6000mhz-cl30/</link>
+      <pubDate>Tue, 30 Sep 2025 21:04:22 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2025-09-30_ryzen-9-9950x3d--x870e--dd5-6000mhz-cl30/</guid>
+      <description>&lt;p&gt;新規購入&lt;/p&gt;&#xA;&lt;p&gt;CPU / AMD RYZEN 9 9950X3D&lt;/p&gt;&#xA;&lt;p&gt;M/B / ASUS ROG STRIX X870E-E Gaming WIFI&lt;/p&gt;&#xA;&lt;p&gt;RAM / Corsair DDR5 6000MHzCL30 EXPO 64GB(32GBx2)&lt;/p&gt;&#xA;&lt;p&gt;OS / Windows 11 PRO&lt;/p&gt;&#xA;&lt;p&gt;流用&lt;/p&gt;&#xA;&lt;p&gt;GPU / ASUS ROG STRIX RX6750XT 12GB OC&lt;/p&gt;&#xA;&lt;p&gt;M.2 SSD / WD BLACK SN850X 2TBx2 (Gen4x4)&lt;/p&gt;&#xA;&lt;p&gt;M.2 SSD / WD BLACK SN750 2TB(Gen3x4)&lt;/p&gt;&#xA;&lt;p&gt;SATA SSD / WD BLUE (1TB*2)&lt;/p&gt;&#xA;&lt;p&gt;SATA SSD / WD BLUE (2TB*2)&lt;/p&gt;&#xA;&lt;p&gt;PSU / Corsair RM850&lt;/p&gt;&#xA;&lt;p&gt;AM5プラットフォームのPCを構築しました。&lt;/p&gt;&#xA;&lt;p&gt;ストレージとグラボは旧PCから移設。&lt;/p&gt;&#xA;&lt;p&gt;Windows11 Proは新たにライセンスを購入せざるを得ませんでした。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 5003</title>
+      <link>https://yuki9902-jp.github.io/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</link>
+      <pubDate>Fri, 03 Nov 2023 00:38:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2023-11-03_asus-rog-strix-x570-f-gaming-bios-5003/</guid>
+      <description>&lt;p&gt;AGESA ComboV2PI 1.2.0.Bに関するBIOSのアップデートがありました。&lt;/p&gt;&#xA;&lt;p&gt;CPUの脆弱性に関する修正です。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 3000/5000シリーズのfTPMの更新も行われるので、Bitblockerを有効にしている場合には、リカバリーキーをBIOS更新前に必ずバックアップしておきましょう。&lt;/p&gt;&#xA;&lt;p&gt;またfTPMが更新されたことにより、Microsoftアカウントを使っている場合に、Windows11にログオンするときにPINを更新する必要があります。&lt;/p&gt;&#xA;&lt;p&gt;それからMotherboardのLEDのファームウェアが更新されるので、不用意に電源を落としたりしないようにしてください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AMD RADEON RX 6750XT</title>
+      <link>https://yuki9902-jp.github.io/posts/2023-08-21_amd-radeon-rx-6750xt/</link>
+      <pubDate>Mon, 21 Aug 2023 20:48:38 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2023-08-21_amd-radeon-rx-6750xt/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rx6750xt-o12g-gaming-model/&#34;&gt;ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6 | Graphics Card | ASUS GlobalROG Strix Radeon™ RX 6750 XT OC Edition 12GB GDDR6 is a cooling and power-performance juggernaut.!rog.asus.com&lt;img src=&#34;https://dlcdnwebimgs.asus.com/gain/FBB83F06-C7D1-42B5-9690-229B3A4C0A94&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1878140815328184551.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1878140815328184551.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1838137815328184558.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1838137815328184558.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1756131715328184566.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1756131715328184566.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1943145715328184571.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1943145715328184571.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ASUS ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6&lt;/p&gt;&#xA;&lt;p&gt;が、59800円でドスパラの通販に掲載されていたので購入しました。&lt;/p&gt;&#xA;&lt;p&gt;ROG Strix Radeon RX 6700 XT OCは日本で販売されていましたが、6750XTは日本では未発売でした。&lt;/p&gt;&#xA;&lt;p&gt;今週末には7700XTと7800XTが発表される見通しなので、在庫の6000シリーズはかなり安くなって販売されていました。&lt;/p&gt;&#xA;&lt;p&gt;しかし、AI処理に新規参入する中小業者が専用プロセッサを購入できないことから、VRAMの多いGPUがまた値上がりに転じてきました。&lt;/p&gt;&#xA;&lt;p&gt;為替の影響もあり、GPUは引き続き値上がり傾向になるので、また暫く入手困難な状況になります。&lt;/p&gt;&#xA;&lt;p&gt;で、これまでASUS ROG Strix Radeon RX 5700 XT OC 8GBを使ってきましたが、WQHD環境で、「原神」のプレイおよび配信を行うと200Wを消費して温度もホットスポットが100度を超える状況になり60Pを下回ることがあるので、処理能力向上と消費電力低下が課題になりました。&lt;/p&gt;&#xA;&lt;p&gt;PCケースに収まるASUS DUALシリーズをウォッチしてましたが、ROG Strixの在庫が復活したので、PCケースに収まるか微妙でしたが覚悟を決めて購入しました。&lt;/p&gt;&#xA;&lt;p&gt;上の写真の通りぎりぎり前面ファンに干渉せずに収まりました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 4802 Update</title>
+      <link>https://yuki9902-jp.github.io/posts/2023-07-15_asus-rog-strix-x570-f-gaming-bios-4802-update/</link>
+      <pubDate>Sat, 15 Jul 2023 22:55:29 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2023-07-15_asus-rog-strix-x570-f-gaming-bios-4802-update/</guid>
+      <description>&lt;p&gt;ASUS ROG Strix X570-F GamingのBIOS 4802が公開されていたので、更新しました。&lt;/p&gt;&#xA;&lt;p&gt;BIOS 4802の更新内容は、&lt;/p&gt;&#xA;&lt;p&gt;1、AGESA ComboV2PI 1.2.0.Aのアップデート&lt;/p&gt;&#xA;&lt;p&gt;2、AMD Athlon、Ryzenプロセッサーの潜在的なセキュリティー脆弱性の軽減&lt;/p&gt;&#xA;&lt;p&gt;3、システムの安定性の改善&lt;/p&gt;&#xA;&lt;p&gt;です。&lt;/p&gt;&#xA;&lt;p&gt;更新後、UEFIのASUS ROGのロゴの色が赤になったのと、いくつかの項目の整理が行われていました。&lt;/p&gt;&#xA;&lt;p&gt;機能の追加などはないようです。&lt;/p&gt;&#xA;&lt;p&gt;AGESA ComboV2PI 1.2.0.Aの細かい変更内容はわかりません。&lt;/p&gt;&#xA;&lt;p&gt;BIOSのファイル容量が前回の4602に対して4MBも縮小されているので、不要なコードの整理なども行われたのではないでしょうか。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 4602 Update</title>
+      <link>https://yuki9902-jp.github.io/posts/2023-03-15_asus-rog-strix-x570-f-gaming-bios-4602-update/</link>
+      <pubDate>Wed, 15 Mar 2023 23:20:43 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2023-03-15_asus-rog-strix-x570-f-gaming-bios-4602-update/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/&#34;&gt;ASUS ROG STRIX X570-F GamingのBIOS バージョン4602&lt;/a&gt;がリリースされました。&lt;/p&gt;&#xA;&lt;p&gt;更新内容は、AGESA ComboAM4v2PI 1208が適用されました。&lt;/p&gt;&#xA;&lt;p&gt;今回のAGESAの内容は、AMD RYZENシリーズ、Athlonシリーズ、AMD RADEON RXシリーズのプロセッサにおけるセキュリティーの脆弱性の緩和です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1029&#34;&gt;AMD Graphics Driver Vulnerabilities – November 2022&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;リンク先のタイトルでGPUドライバーのセキュリティー問題だと思われやすいですが、ページの中程に、Desktop向けのCPU、APUの中にGPUを搭載していないCPUも対象となっていることが書かれています。&lt;/p&gt;&#xA;&lt;p&gt;2022年11月にCVE-2020-12930など一連の問題が、Radeon RXプロセッサの脆弱性で報告されていますが、CPUも同様の問題を抱えていたようです。&lt;/p&gt;&#xA;&lt;p&gt;脆弱性の深刻度がHighとMediumが改善されているので、BIOS バージョン4602に更新した方が良いでしょう。&lt;/p&gt;&#xA;&lt;p&gt;今回のアップデートでCPUのパフォーマンスにはほぼ影響していないように見えます。&lt;/p&gt;&#xA;&lt;p&gt;極一部のゲームでfpsが向上しているものもあるようですが、パフォーマンスの改善は今回のアップデートでは言及されていません。&lt;/p&gt;&#xA;&lt;p&gt;またAMDのサイトからチップセットドライバーもダウンロードして更新した方が良いです。&lt;/p&gt;&#xA;&lt;p&gt;いくつかのバグフィックスがされていて、USB周りも安定性が向上すると思われます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 4204</title>
+      <link>https://yuki9902-jp.github.io/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</link>
+      <pubDate>Wed, 09 Mar 2022 23:48:20 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2022-03-09_asus-rog-strix-x570-f-gaming-bios-4204/</guid>
+      <description>&lt;p&gt;ASUS ROG STRIX X570-F Gamingの新しいBIOSが3/8付けで公開されました。&lt;/p&gt;&#xA;&lt;p&gt;修正内容は前回の4203ベータと同じです。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の設定をコア毎の電圧制御カーブを-5,-20として、クロックの上昇を350に設定しました。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の設定は二カ所の項目から出来ますが、同意画面の出ない方の設定で350を設定しました。同意画面が出る方では200までしか設定できません。&lt;/p&gt;&#xA;&lt;p&gt;200を設定するとシングルコアでも4.9GHzまでしか上がらないので、350を設定して5.05GHzが出るようになりました。&lt;/p&gt;&#xA;&lt;p&gt;CPU-ZのベンチマークはWindows11にして以来で最高値になりましたが、OCCTのベンチマークやCinebench R23はスコアが奮いません。&lt;/p&gt;&#xA;&lt;p&gt;ゲームはFF14で確認しましたが、Windows10との明確な差はありません。&lt;/p&gt;&#xA;&lt;p&gt;CPU系のベンチマークのアルゴリズムとWindows11のOSのバックグラウンドのプロセスが噛み合っていない印象を受けます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ASUS ROG STRIX X570-F Gaming BIOS 4203 ベータ</title>
+      <link>https://yuki9902-jp.github.io/posts/2022-02-16_asus-rog-strix-x570-f-gaming-bios-4203-%E3%83%99%E3%83%BC%E3%82%BF/</link>
+      <pubDate>Wed, 16 Feb 2022 01:34:47 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2022-02-16_asus-rog-strix-x570-f-gaming-bios-4203-%E3%83%99%E3%83%BC%E3%82%BF/</guid>
+      <description>&lt;p&gt;ASUS ROG STRIX X570-F GamingのベータBIOS 4203が公開されたので、アップデートしました。&lt;/p&gt;&#xA;&lt;p&gt;変更内容は、AMD AM4 AGESA V2 PI 1.2.0.6bへのマイクロコードのアップデートです。&lt;/p&gt;&#xA;&lt;p&gt;噂によると、昨年見つかった「すべてのUEFIでセキュリティーの脆弱性がある」問題を改修したようです。&lt;/p&gt;&#xA;&lt;p&gt;更新後、XMP2とResize BARなどをいつものように設定して、新しく追加されたPBO FmaxをAutoにして起動しました。&lt;/p&gt;&#xA;&lt;p&gt;BIOS更新前のCinebench r23のスコア、CPU-Zのベンチマークスコア、OCCTのベンチマークスコアと比較するとすべてが下がりました。&lt;/p&gt;&#xA;&lt;p&gt;数値的には2%の低下です。&lt;/p&gt;&#xA;&lt;p&gt;次にコア毎に電圧制御カーブを-5,-22とASUSのDIGI+という電力制御を130%にしてみました。&lt;/p&gt;&#xA;&lt;p&gt;PBO Fmaxよりすべてのベンチマークのスコアが改善しましたが、BIOS更新前の1%近く低い数値です。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 5800XのCPUのコアの動作クロックが全コア4.9GHzまで伸びるようになりましたが、RYZEN 7 5800Xは4.8GHzを超えてくるとなぜかベンチマークのスコアが低下してきます。&lt;/p&gt;&#xA;&lt;p&gt;OCCTの負荷テストでは4.9GHzで10分を完走できるんですが、ベンチマークは4.35GHzで動作しているようです。&lt;/p&gt;&#xA;&lt;p&gt;AVXが入っているベンチマークではスコアが伸びないので、SoCの電力制御を細かく見直していく必要がありそうです。&lt;/p&gt;&#xA;&lt;p&gt;もう冷却が間に合う範囲でOCを有効にすると自動的に最大設定で動いて欲しい。&lt;/p&gt;&#xA;&lt;p&gt;毎回細かく設定するのは、面倒くさい。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

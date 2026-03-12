@@ -5,7 +5,7 @@
     <link>https://yuki9902-jp.github.io/archives/2021-11/</link>
     <description>Recent content in 2021-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sun, 28 Nov 2021 21:34:26 +0900</lastBuildDate>
     <atom:link href="https://yuki9902-jp.github.io/archives/2021-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,7 +20,7 @@
       <link>https://yuki9902-jp.github.io/posts/2021-11-28_%E3%82%84%E3%81%B6%E3%81%8D%E3%81%9F/</link>
       <pubDate>Sun, 28 Nov 2021 19:39:03 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2021-11-28_%E3%82%84%E3%81%B6%E3%81%8D%E3%81%9F/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12712789291-15038577969.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211128/19/yuki9902/e4/8a/j/o1080081015038577969.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;緑茶を煎れて一服。&lt;/p&gt;&#xA;&lt;p&gt;すぐに色が変わっていきます。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081015038577969.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081015038577969.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;緑茶を煎れて一服。&lt;/p&gt;&#xA;&lt;p&gt;すぐに色が変わっていきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オンライン</title>
@@ -55,7 +55,7 @@
       <link>https://yuki9902-jp.github.io/posts/2021-11-23_whea-logger-id_18%E3%81%AB%E3%81%AFglobal-c-state%E3%82%92disable%E3%81%8B/</link>
       <pubDate>Tue, 23 Nov 2021 15:01:23 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2021-11-23_whea-logger-id_18%E3%81%AB%E3%81%AFglobal-c-state%E3%82%92disable%E3%81%8B/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/entry-12957494856.html&#34;&gt;『解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』１．解決方法（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。（２）低電力設定をやめる。　・Global C StateをDisableにする。…&lt;img src=&#34;https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg&#34; alt=&#34;リンク&#34;&gt;ameblo.jp&lt;img src=&#34;https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　Ryzen 7 5800XのメインPCにWindows11をインストールしてから、WHEA-Logger ID:18が頻発しています。&lt;/p&gt;&#xA;&lt;p&gt;　PCの電源を入れたまま放置していると、いつの間にか再起動しています。&lt;/p&gt;&#xA;&lt;p&gt;　オーバークロックだろうとオートだろうとCPUがアイドル時から突発的な負荷が掛かると落ちているように見えます。&lt;/p&gt;&#xA;&lt;p&gt;　ということで、CPUの省電力制御を有効にしているGlobal C StateをDisableにしてみました。&lt;/p&gt;&#xA;&lt;p&gt;　PBO2の電圧カーブで、優秀なコア-5、他のコア-20に設定して、OCCTのデータセット大で5分間、Cinebench R23の10分間の負荷テストはクリアしました。&lt;/p&gt;&#xA;&lt;p&gt; 室温20度で、CPUパッケージの温度はアイドル時40度、OCCT負荷時70度、CinebenchR23負荷時78度で安定しています。ちなみに280ミリの簡易水冷です。&lt;/p&gt;&#xA;&lt;p&gt;　しばらくこれで運用してみて、安定するか確かめてみます。&lt;/p&gt;&#xA;&lt;p&gt;　ちなみにLinuxやBSDでは、Ryzen全シリーズでGlobal C StateをDisableにしないと不安定になるようで、この設定は必須です。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ryzen 7 5800XのメインPCにWindows11をインストールしてから、WHEA-Logger ID:18が頻発しています。&lt;/p&gt;&#xA;&lt;p&gt;PCの電源を入れたまま放置していると、いつの間にか再起動しています。&lt;/p&gt;&#xA;&lt;p&gt;オーバークロックだろうとオートだろうとCPUがアイドル時から突発的な負荷が掛かると落ちているように見えます。&lt;/p&gt;&#xA;&lt;p&gt;ということで、CPUの省電力制御を有効にしているGlobal C StateをDisableにしてみました。&lt;/p&gt;&#xA;&lt;p&gt;PBO2の電圧カーブで、優秀なコア-5、他のコア-20に設定して、OCCTのデータセット大で5分間、Cinebench R23の10分間の負荷テストはクリアしました。&lt;/p&gt;&#xA;&lt;p&gt;室温20度で、CPUパッケージの温度はアイドル時40度、OCCT負荷時70度、CinebenchR23負荷時78度で安定しています。ちなみに280ミリの簡易水冷です。&lt;/p&gt;&#xA;&lt;p&gt;しばらくこれで運用してみて、安定するか確かめてみます。&lt;/p&gt;&#xA;&lt;p&gt;ちなみにLinuxやBSDでは、Ryzen全シリーズでGlobal C StateをDisableにしないと不安定になるようで、この設定は必須です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ファイルサーバーをWindows10からTrueNASに変更</title>
@@ -69,14 +69,14 @@
       <link>https://yuki9902-jp.github.io/posts/2021-11-16_fifty-days-later/</link>
       <pubDate>Tue, 16 Nov 2021 01:43:23 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2021-11-16_fifty-days-later/</guid>
-      <description>&lt;p&gt;原神(Genshin Impact)を最初からやり直して50日になりました。&lt;/p&gt;&#xA;&lt;p&gt;　冒険ランク50，世界ランク6、メインパーティーキャラのレベル80、武器レベル80に到達しました。&lt;/p&gt;&#xA;&lt;p&gt;　脆弱樹脂というキャラの育成アイテムとの引き換えポイントが存在していて、160が所持の上限、8分で1ずつ回復していきます。1回の交換に20もしくは40を消費します。これが育成の足枷になっていて時間的余裕があっても一気に育成することが出来ません。&lt;/p&gt;&#xA;&lt;p&gt;　フロントランナーは世界ランク8ぐらいですから、普通の人なら三ヶ月ぐらいあれば今から始めても追いつけるかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;　ハウジングシステム「塵歌壺」で、引きこもり勢には厳しいクエスト「他人の同天壺でアイテムを10回買う」を攻略サイトが提供しているフレンド募集掲示板を使って募集し、フレンド登録を幾人かにしてもらってクエストをクリアして、塵歌壺の構築進捗が一気に進みました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12710449938-15032133316.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211116/01/yuki9902/3a/fb/p/o1920108015032133316.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12710449938-15032132916.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211116/01/yuki9902/93/a0/p/o1920108015032132916.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　稲妻編は沢城しょ・・、ごほん、魔神である雷電将軍の中身「影（えい）」を引き籠もりから解放するのがメインクエストですが、影はめちゃ強です。一回目はともかく二回目も勝てないですが、結局はクリアできます。&lt;/p&gt;&#xA;&lt;p&gt;　影との戦闘の前に「淑女」との戦闘があるので、ドラゴンスパインで習得できる極寒耐性の食料、氷耐性強化、炎耐性強化のアイテム、あとパーティーに回復役が居ないとかなり厳しいです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12710449938-15032136297.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211116/01/yuki9902/f1/c9/p/o1920108015032136297.png?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　既出キャラの中で一番きわどいのが影だと思います。衣装は着物が腰から下はなく、レースの入っているので黒い下着だけのように見えます。戦闘時には長柄武器を胸から上へ引き出すシーンがあり、年齢制限があるプレステでの表現の限界を狙っているようです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;原神(Genshin Impact)を最初からやり直して50日になりました。&lt;/p&gt;&#xA;&lt;p&gt;　冒険ランク50，世界ランク6、メインパーティーキャラのレベル80、武器レベル80に到達しました。&lt;/p&gt;&#xA;&lt;p&gt;　脆弱樹脂というキャラの育成アイテムとの引き換えポイントが存在していて、160が所持の上限、8分で1ずつ回復していきます。1回の交換に20もしくは40を消費します。これが育成の足枷になっていて時間的余裕があっても一気に育成することが出来ません。&lt;/p&gt;&#xA;&lt;p&gt;　フロントランナーは世界ランク8ぐらいですから、普通の人なら三ヶ月ぐらいあれば今から始めても追いつけるかもしれません。&lt;/p&gt;&#xA;&lt;p&gt;　ハウジングシステム「塵歌壺」で、引きこもり勢には厳しいクエスト「他人の同天壺でアイテムを10回買う」を攻略サイトが提供しているフレンド募集掲示板を使って募集し、フレンド登録を幾人かにしてもらってクエストをクリアして、塵歌壺の構築進捗が一気に進みました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1920108015032133316.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1920108015032133316.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1920108015032132916.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1920108015032132916.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　稲妻編は沢城しょ・・、ごほん、魔神である雷電将軍の中身「影（えい）」を引き籠もりから解放するのがメインクエストですが、影はめちゃ強です。一回目はともかく二回目も勝てないですが、結局はクリアできます。&lt;/p&gt;&#xA;&lt;p&gt;　影との戦闘の前に「淑女」との戦闘があるので、ドラゴンスパインで習得できる極寒耐性の食料、氷耐性強化、炎耐性強化のアイテム、あとパーティーに回復役が居ないとかなり厳しいです。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1920108015032136297.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1920108015032136297.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　既出キャラの中で一番きわどいのが影だと思います。衣装は着物が腰から下はなく、レースの入っているので黒い下着だけのように見えます。戦闘時には長柄武器を胸から上へ引き出すシーンがあり、年齢制限があるプレステでの表現の限界を狙っているようです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ふれんちとーすと</title>
       <link>https://yuki9902-jp.github.io/posts/2021-11-14_%E3%81%B5%E3%82%8C%E3%82%93%E3%81%A1%E3%81%A8%E3%83%BC%E3%81%99%E3%81%A8/</link>
       <pubDate>Sun, 14 Nov 2021 14:02:21 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2021-11-14_%E3%81%B5%E3%82%8C%E3%82%93%E3%81%A1%E3%81%A8%E3%83%BC%E3%81%99%E3%81%A8/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12710127614-15031249189.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20211114/14/yuki9902/77/d3/j/o1080081015031249189.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;甘いものを食して、気分転換。&lt;/p&gt;&#xA;&lt;p&gt;簡単なおやつは自分で作るもの。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081015031249189.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081015031249189.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;甘いものを食して、気分転換。&lt;/p&gt;&#xA;&lt;p&gt;簡単なおやつは自分で作るもの。&lt;/p&gt;</description>
     </item>
     <item>
       <title>eleven</title>

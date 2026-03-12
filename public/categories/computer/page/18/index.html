@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>COMPUTER - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -64,6 +111,140 @@
 	<header class="main__header">
 		<h1 class="main__title">COMPUTER</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2019-02-04_gtx1060%E3%81%A7sli%E3%82%92%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%82%E3%82%8B/" rel="bookmark">
+			GTX1060でSLIを有効にする方法がある
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Linus Tech Tipsの「<a href="https://youtu.be/O1nok2VlF1M">Hacking Nvidia&rsquo;s Drivers!</a>」を見てたら、出力端子を持たないマイニング用のビデオカード「GTX 1060」をオンボードグラフィックを持つマザーボードでそのGPUを有効にする方法と、GTX 1060をSLIで動作させる方法を紹介してました。</p>
+<p>海外のSLIに関するforumで、TechPowerUp Forum「<a href="https://www.techpowerup.com/forums/threads/sli-with-different-cards.158907/page-120#post-3983666">SLI with different cards</a>」と言うスレッドがあるのですが、そこに詳細が出てました。</p>
+<p>GTX 1060をSLIで使う場合は、WindowsのSystemフォルダにある「nvlddmkm.sys」をDifferent SLI Autoのフォルダーにコピーしてきて、16進数エディタでアドレス00000000002BB52Fを、75 05 0F BA 6B 24 0EからC7 43 24 00 00 00 00に書き換えるものです。</p>
+<p>ドライバーのバージョンは、417．35と417．71です。</p>
+<p>nvlddmkm.sysを書き換えた後は、セーフモードでWindows10をセーフモードで起動して、Different SLI Autoでディスプレイドライバーを入れ直して、再起動するようです。</p>
+<p>詳しくは、Linus Tech Tipsの動画かSLI with different cardsにあるリンクを参考にしてください。</p>
+<p>GTX 1060を二枚持っていないので試せてはいないですが、RTX 2060がリリースされたので、GTX 1060は値崩れしてくると思いますのでチャンスがあれば試してみたいです。</p>
+<p>Gemini3 Flashによる検証です。</p>
+<hr>
+<p>この内容について、技術的な検証、補完、および推奨されない理由（リスク）を解説します。</p>
+<hr>
+<h3 id="1-技術検証なぜこれが可能なのかまたは不可能なのか">1. 技術検証：なぜこれが可能なのか、または不可能なのか</h3>
+<ul>
+<li><strong>ハードウェアの制限：</strong> GTX 1060には物理的な「SLI端子（ブリッジを接続するコネクタ）」が存在しません。通常、Pascal世代（GTX 10シリーズ）ではGTX 1070以上でなければSLIは物理的に構築できません。</li>
+<li><strong>ソフトウェアによるエミュレーション：</strong> 記事で紹介されている「DifferentSLI Auto」という手法は、ドライバファイル（<code>nvlddmkm.sys</code>）を書き換えることで、<strong>PCI Expressバス経由でデータを転送</strong>させ、物理端子がないカード間でもSLI動作を擬似的に実現しようとするものです。</li>
+<li><strong>再現性：</strong> 2019年当時の特定のドライババージョン（417.xx）では動作報告がありましたが、現在のWindows 10/11や最新のドライバでは、セキュリティ機能（ドライバ署名の強制やカーネル保護）が厳格化されており、この手法をそのまま適用するのは極めて困難です。</li>
+</ul>
+<h3 id="2-内容の補完現在の視点からの補足">2. 内容の補完：現在の視点からの補足</h3>
+<p>この記事の内容を今の環境で理解・実行しようとする場合に欠けている視点は以下の通りです。</p>
+<ul>
+<li><strong>ドライバ署名の強制解除が必要：</strong> Windowsは通常、改造されたドライバ（署名が一致しないファイル）のロードを拒否します。実行には「テストモード」への移行や署名の強制無効化が必要ですが、これはシステムのセキュリティを著しく低下させます。</li>
+<li><strong>マイニング用カード（P106-100等）の活用：</strong> 記事内にある「出力端子がないGTX 1060」とは、マイニング専用のP106-100を指しています。これをゲーム用として使う手法は一時流行しましたが、現在は「IntelのiGPU経由で出力する」というDirectXの標準機能（ハイブリッドグラフィックス）を利用するのが一般的であり、SLI改造とは別の話になります。</li>
+<li><strong>SLI自体の衰退：</strong> 現在、NVIDIA自身がSLI（プロファイル配布）を終了しており、最新のゲームはSLI構成を想定して最適化されていません。2枚に増やしてもパフォーマンスが向上しない、あるいは逆に下がるケースが多いのが現状です。</li>
+</ul>
+<h3 id="3-検証なぜ推奨されないのかリスクとデメリット">3. 検証：なぜ推奨されないのか（リスクとデメリット）</h3>
+<p>この手法を試すことは、以下の理由から<strong>全く推奨されません。</strong></p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2019-01-30_usb3.1%E3%81%A8uasp/" rel="bookmark">
+			USB3.1とUASP
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>USB3.0とUSB3.1gen.1は同じ規格です。</p>
+<p>HDDとSSDを使ってSATA-USB接続の性能を見ていきます。</p>
+<p>左がUASP対応のSATA-USB、右が古い（UASP非対応）SATA-USBです。</p>
+<p>まずHDD(WD5000AAKS)</p>
+<p><a href="/img/o0804036714347334132.jpg"><img src="/img/o0804036714347334132.jpg" alt=""></a></p>
+<p>次がSSD(TS32GMSA370)</p>
+<p><a href="/img/o0804036714347334176.jpg"><img src="/img/o0804036714347334176.jpg" alt=""></a></p>
+<p>こうやって比較してみると、UASPが有効だと</p>
+<p>シーケンシャルリードで15MB/s前後の性能ダウン。</p>
+<p>4KBのランダムリードでHDDの場合、約二倍の性能アップ。</p>
+<p>SSDの場合、約四倍の性能アップです。</p>
+<p>書き込みに関しては明確な差が出ていません。</p>
+<p>最新の大容量HDDを手持ちのUASP対応のSATA-USBブリッジで繋ぐとあからさまにHDDの書き込み動作がおかしかったので、UASP非対応のSATA-USBブリッジで繋いで、データをコピー中です。</p>
+<p>新しいHDDはキャッシュが256MBもあるので、UASPではHDDのコントローラーとうまく噛み合わないのだと思います。</p>
+<p>SATA接続が前提のHDDですから、マザーボードのSATAコネクターに直結するのが一番性能を活かせるのですが。</p>
+<p>とりあえずデータコピーが終わったら、パソコンに搭載しているHDDの構成を変更します。</p>
+<p>たぶんコピーが終わるのは明日の夜だと思いますが。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2019-01-29_%E3%83%8F%E3%83%BC%E3%83%89%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF/" rel="bookmark">
+			ハードディスク
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="/img/o1080081014347135886.jpg"><img src="/img/o1080081014347135886.jpg" alt=""></a></p>
+<p>8TB(テラバイト)のHDDを買ってきました。</p>
+<p>記憶域プールを使っていたら色々とストレスが溜まって嫌気がさしてしまい、大容量のHDDに置き換えることにしました。</p>
+<p>現在、7TBのデータをコピー中です。</p>
+<p>20時間以上掛かる見込みです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2019-01-25_%E8%A8%98%E6%86%B6%E5%9F%9F%E3%83%97%E3%83%BC%E3%83%AB%E4%BD%9C%E6%A5%AD%E4%B8%AD/" rel="bookmark">
+			記憶域プール作業中
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="/img/o1080081014344982006.jpg"><img src="/img/o1080081014344982006.jpg" alt=""></a></p>
+<p>先の長いデータ移行と記憶域プールの構築を行っています。</p>
+<p>右手にあるのが記憶域プールを構成しているHDD6台です。</p>
+<p>ケーブル類を買い足してPC内部を整理しました。</p>
+<p>マザーボード裏にスペースが殆ど無いのでケーブル類の整理がかなり大変です。</p>
+<p>油断するとケースの蓋がパカッと外れます(￣∇￣)</p>
+<p>データ移行は月曜日には終わると良いな…。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2019-01-23_%E8%A8%98%E6%86%B6%E5%9F%9F%E3%83%97%E3%83%BC%E3%83%AB-at-windows-10-pro/" rel="bookmark">
+			記憶域プール at Windows 10 Pro
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>3TBのHDDが6本あります。</p>
+<p>このうち3本にぎりぎり一杯の動画データが入っています。</p>
+<p>1本は1TBぐらいの動画データ。</p>
+<p>1本は2TBぐらいの音楽データ。</p>
+<p>1本は空です。</p>
+<p>これらをデータを残したまま、1つの仮想ドライブとして保存することにしました。</p>
+<p>HDDは電源を入れていなくてもいつの間にか故障していることがあるので、統合して管理しやすくすること、データの復旧可能性を高めること、容量をスケーラブルに拡張できるようにすることなどを目的として、Windowsに搭載されている「記憶域プール」を使うことにしました。</p>
+<p>小容量のSSDや古いHDDに動画データや音楽データを整理、断捨離してバックアップを作成。</p>
+<p>3TBのHDDを3本を空にして確保しました。</p>
+<p>この3本をベースにパリティー方式で記憶域プールで仮想ドライブを作り、15TBの領域を設定しました。</p>
+<p>あとはこの記憶域プールに動画データを移動しては、空になったHDDを初期化して記憶域プールの構成ドライブに追加していきます。</p>
+<p>記憶域プールのパリティーは、書き込み速度が平均して毎秒50MB程度なので、500GBのデータを移動するだけでも三時間以上掛かります。</p>
+<p>3TB1本を移動するのに約1日は必要なので、少なくとも3日はかかることでしょう。</p>
+<p>読み出し速度は毎秒300MB程度なのでSATAのSSDに近い性能が出ます。</p>
+<p>動画や音楽データを保存するのには都合が良いでしょう。</p>
+<p>またパリティー方式なので、構成しているHDDが1台故障したとしてもデータの読み出しが出来ます。</p>
+<p>壊れたHDDを取り外して、新しいHDDを追加すれば復旧も直ぐに出来ます。</p>
+<p>今、3TBのHDDは8千円前後なので、大容量のバックアップを作るよりは、フォルトトレラントな仮想ドライブを作った方がコスト的には良いでしょう。</p>
+<p>数10TBクラスのバックアップを個人で作るのは現実的じゃないのでね。</p>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -194,113 +375,12 @@
 <p>Javaは既に現役を離れて8年になるので、Java EEがどれだけ更新されたかは分からないんですが。</p>
 <p>昨日、MSX-BASICの話が出たので、思い出してみました。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-11-16_%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/" rel="bookmark">
-			ディスクチェック
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>HDD四台のディスクチェック中です。</p>
-<p>不良クラスターを発見して、そこにあるデータを修復して他のクラスターへ書き込むか、不良クラスターにアクセスしないようにマーキングします。</p>
-<p>トータルで8時間ほど掛かりそうなので、寝ている間に実行させておきます。</p>
-<p>HDDが猛烈にスピンしています。</p>
-<p>毎分7200回転および毎分5400回転で金属の円盤が回転するので振動音が結構大きいです。</p>
-<p>表面温度は60度近くにまで達しています。</p>
-<p>下手に触ると火傷します。</p>
-<p>適当な布を座布団にしていくらかは振動を抑制しています。</p>
-<p>さて今は少し音が気になりますが、睡眠薬で寝ると完全に寝入ってしまうので音も気にならないはずです。</p>
-<p>では、お休みなさい。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-11-15_%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%AB%E4%BD%BF%E3%81%A3%E3%81%9Fhdd%E3%82%82/" rel="bookmark">
-			バックアップに使ったHDDも
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>バックアップに使ったHDDもどうやら壊れかけのようです。</p>
-<p>幾つかのデータが読み込めなくなっています。</p>
-<p>まあ壊れたデータに付いては要らないものなので良しとしますが、それ以外のデータを移すのに一苦労です。</p>
-<p>壊れたところにアクセスしないようにその前後のデータを移動するのは面倒臭いです。</p>
-<p>まあ、ぼちぼちとやりましょうか。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-11-15_%E6%97%A9%E3%81%84%E3%81%AA/" rel="bookmark">
-			早いな
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>昨日の午後に注文したSSDが今日の午後に届きました。</p>
-<p>壊れたHDDを搭載していた3.5インチのシャドウベイのマウンターを外して、HDDを取り外し、代わりのSSDをミリネジで固定。</p>
-<p>PCにシャドウベイを差し込んで、SATAケーブルと電源ケーブルを差し込んで、PCの電源をオン。</p>
-<p>Windows10が起動した後、SSDのドライブレターを書き換えて、NTFSでフォーマット。</p>
-<p>現在は、他のHDDに退避していたデータをSSDにコピー中。</p>
-<p>バックアップに使ったのは古いHDDなので読み出し速度は100MB/sが精一杯です。</p>
-<p>書き込み側のSSDは最大530MB/sの書き込みが出来るので、かなり余裕です。</p>
-<p>SSDはHDDと違ってスピンアップやシークが必要ないので、体感速度の向上は著しいです。</p>
-<p>欠点は動作音がしないことでしょうか。</p>
-<p>動作中かどうか分かりません(￣∇￣)</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-11-13_hdd%E3%81%8C%E3%81%94%E6%A9%9F%E5%AB%8C%E6%96%9C%E3%82%81/" rel="bookmark">
-			HDDがご機嫌斜め
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>強制的に電源オフをした影響か、PCに搭載しているHDDがご機嫌斜めです。</p>
-<p>とりあえず中に入っているデータを別のHDDに移動中です。</p>
-<p>HDDの読み出しが非常に遅くなっているのでデータの移動に３日ぐらい掛かりそうです。</p>
-<p>重要なデータであるこれまで撮影してきた写真が入っているのでなんとしてもHDDが壊れる前にデータを移動しなければなりません。</p>
-<p>１テラバイトのSSDが２万円以下になってきたので、其れを購入して写真を保存しようと思います。</p>
-<p>HDDは本当に壊れやすいです。</p>
-<p>民生用は３年ぐらいで壊れます。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-07-16_%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E6%9B%B4%E6%96%B0/" rel="bookmark">
-			デバイスドライバー更新
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>マザーボードのドライバーが6月の中旬に更新されていました。</p>
-<p>見つけたついでにインストールです。</p>
-<p>インストールして一番の違いに驚きました。</p>
-<p>オーディオデバイスが、PCMの32bitと176.4kHzに対応してました。</p>
-<p>これまでオーディオデバイスのチップ（ハードウェア的に）は、32bit/176.4kHzに対応していることは分かっていましたが、Windows 7/8/8.1/10では長らくそれに対応したドライバーが提供されていませんでした。</p>
-<p>で、PCMの再生、つまりメディアプレーヤー（私はFoobar2000）で音楽ファイルを再生すると、通常CDなどからリッピングしたものは16bit/44.1kHzですが、32bit/176.4kHzにアップコンバートして再生することが出来るようになりました。</p>
-<p>音の違い？</p>
-<p>改善されるのは可聴域の外なので何も分かりません。</p>
-<p>ハードウェアのスペックを漸く活かし切ることが出来るようになったので、ただ精神的に満足しただけです(￣∇￣)</p>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/page/17/">«</a>
-	<span class="pagination__item pagination__item--current">18/25</span>
+	<span class="pagination__item pagination__item--current">18/26</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/19/">»</a>
 </div>
 
@@ -308,25 +388,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1701,7 +1781,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1730,15 +1810,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1752,6 +1836,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1759,12 +1845,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1774,7 +1901,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

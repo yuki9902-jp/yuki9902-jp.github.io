@@ -5,7 +5,7 @@
     <link>https://yuki9902-jp.github.io/archives/2019-01/</link>
     <description>Recent content in 2019-01 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Thu, 31 Jan 2019 17:14:47 +0900</lastBuildDate>
     <atom:link href="https://yuki9902-jp.github.io/archives/2019-01/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-31_%E9%9B%AA%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Thu, 31 Jan 2019 17:14:47 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-31_%E9%9B%AA%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12436826400-14348167809.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190131/17/yuki9902/67/b8/j/o1080081014348167809.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は腹痛と頭痛と倦怠感と節々の痛みでぐったりしています。&lt;/p&gt;&#xA;&lt;p&gt;懐炉3つにコートを着込んで、ヒーター全開で、漸く寒気を感じずにいられます。&lt;/p&gt;&#xA;&lt;p&gt;熱は無いのですが風邪のようです。&lt;/p&gt;&#xA;&lt;p&gt;低気圧と相まって頭が痛くて締め付けられるようなのはなかなかしんどいです。&lt;/p&gt;&#xA;&lt;p&gt;ロキソニンSプレミアムでなんとか痛みは抑えてますが･･･。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014348167809.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014348167809.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日は腹痛と頭痛と倦怠感と節々の痛みでぐったりしています。&lt;/p&gt;&#xA;&lt;p&gt;懐炉3つにコートを着込んで、ヒーター全開で、漸く寒気を感じずにいられます。&lt;/p&gt;&#xA;&lt;p&gt;熱は無いのですが風邪のようです。&lt;/p&gt;&#xA;&lt;p&gt;低気圧と相まって頭が痛くて締め付けられるようなのはなかなかしんどいです。&lt;/p&gt;&#xA;&lt;p&gt;ロキソニンSプレミアムでなんとか痛みは抑えてますが･･･。&lt;/p&gt;</description>
     </item>
     <item>
       <title>頭痛い</title>
@@ -41,21 +41,21 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-30_usb3.1%E3%81%A8uasp/</link>
       <pubDate>Wed, 30 Jan 2019 00:29:22 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-30_usb3.1%E3%81%A8uasp/</guid>
-      <description>&lt;p&gt;USB3.0とUSB3.1gen.1は同じ規格です。&lt;/p&gt;&#xA;&lt;p&gt;HDDとSSDを使ってSATA-USB接続の性能を見ていきます。&lt;/p&gt;&#xA;&lt;p&gt;左がUASP対応のSATA-USB、右が古い（UASP非対応）SATA-USBです。&lt;/p&gt;&#xA;&lt;p&gt;まずHDD(WD5000AAKS)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12436463658-14347334132.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190130/00/yuki9902/94/28/j/o0804036714347334132.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;次がSSD(TS32GMSA370)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12436463658-14347334176.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190130/00/yuki9902/9a/c4/j/o0804036714347334176.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;こうやって比較してみると、UASPが有効だと&lt;/p&gt;&#xA;&lt;p&gt;シーケンシャルリードで15MB/s前後の性能ダウン。&lt;/p&gt;&#xA;&lt;p&gt;4KBのランダムリードでHDDの場合、約二倍の性能アップ。&lt;/p&gt;&#xA;&lt;p&gt;SSDの場合、約四倍の性能アップです。&lt;/p&gt;&#xA;&lt;p&gt;書き込みに関しては明確な差が出ていません。&lt;/p&gt;&#xA;&lt;p&gt;最新の大容量HDDを手持ちのUASP対応のSATA-USBブリッジで繋ぐとあからさまにHDDの書き込み動作がおかしかったので、UASP非対応のSATA-USBブリッジで繋いで、データをコピー中です。&lt;/p&gt;&#xA;&lt;p&gt;新しいHDDはキャッシュが256MBもあるので、UASPではHDDのコントローラーとうまく噛み合わないのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;SATA接続が前提のHDDですから、マザーボードのSATAコネクターに直結するのが一番性能を活かせるのですが。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずデータコピーが終わったら、パソコンに搭載しているHDDの構成を変更します。&lt;/p&gt;&#xA;&lt;p&gt;たぶんコピーが終わるのは明日の夜だと思いますが。&lt;/p&gt;</description>
+      <description>&lt;p&gt;USB3.0とUSB3.1gen.1は同じ規格です。&lt;/p&gt;&#xA;&lt;p&gt;HDDとSSDを使ってSATA-USB接続の性能を見ていきます。&lt;/p&gt;&#xA;&lt;p&gt;左がUASP対応のSATA-USB、右が古い（UASP非対応）SATA-USBです。&lt;/p&gt;&#xA;&lt;p&gt;まずHDD(WD5000AAKS)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0804036714347334132.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0804036714347334132.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;次がSSD(TS32GMSA370)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0804036714347334176.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0804036714347334176.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;こうやって比較してみると、UASPが有効だと&lt;/p&gt;&#xA;&lt;p&gt;シーケンシャルリードで15MB/s前後の性能ダウン。&lt;/p&gt;&#xA;&lt;p&gt;4KBのランダムリードでHDDの場合、約二倍の性能アップ。&lt;/p&gt;&#xA;&lt;p&gt;SSDの場合、約四倍の性能アップです。&lt;/p&gt;&#xA;&lt;p&gt;書き込みに関しては明確な差が出ていません。&lt;/p&gt;&#xA;&lt;p&gt;最新の大容量HDDを手持ちのUASP対応のSATA-USBブリッジで繋ぐとあからさまにHDDの書き込み動作がおかしかったので、UASP非対応のSATA-USBブリッジで繋いで、データをコピー中です。&lt;/p&gt;&#xA;&lt;p&gt;新しいHDDはキャッシュが256MBもあるので、UASPではHDDのコントローラーとうまく噛み合わないのだと思います。&lt;/p&gt;&#xA;&lt;p&gt;SATA接続が前提のHDDですから、マザーボードのSATAコネクターに直結するのが一番性能を活かせるのですが。&lt;/p&gt;&#xA;&lt;p&gt;とりあえずデータコピーが終わったら、パソコンに搭載しているHDDの構成を変更します。&lt;/p&gt;&#xA;&lt;p&gt;たぶんコピーが終わるのは明日の夜だと思いますが。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ハードディスク</title>
       <link>https://yuki9902-jp.github.io/posts/2019-01-29_%E3%83%8F%E3%83%BC%E3%83%89%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF/</link>
       <pubDate>Tue, 29 Jan 2019 17:55:32 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-29_%E3%83%8F%E3%83%BC%E3%83%89%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12436377992-14347135886.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190129/18/yuki9902/13/c7/j/o1080081014347135886.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;8TB(テラバイト)のHDDを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;記憶域プールを使っていたら色々とストレスが溜まって嫌気がさしてしまい、大容量のHDDに置き換えることにしました。&lt;/p&gt;&#xA;&lt;p&gt;現在、7TBのデータをコピー中です。&lt;/p&gt;&#xA;&lt;p&gt;20時間以上掛かる見込みです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014347135886.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014347135886.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;8TB(テラバイト)のHDDを買ってきました。&lt;/p&gt;&#xA;&lt;p&gt;記憶域プールを使っていたら色々とストレスが溜まって嫌気がさしてしまい、大容量のHDDに置き換えることにしました。&lt;/p&gt;&#xA;&lt;p&gt;現在、7TBのデータをコピー中です。&lt;/p&gt;&#xA;&lt;p&gt;20時間以上掛かる見込みです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ばりで香りめん</title>
       <link>https://yuki9902-jp.github.io/posts/2019-01-29_%E3%81%B0%E3%82%8A%E3%81%A7%E9%A6%99%E3%82%8A%E3%82%81%E3%82%93/</link>
       <pubDate>Tue, 29 Jan 2019 11:18:30 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-29_%E3%81%B0%E3%82%8A%E3%81%A7%E9%A6%99%E3%82%8A%E3%82%81%E3%82%93/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12436304915-14346963107.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190129/11/yuki9902/04/3c/j/o1080081014346963107.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;旨い！&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014346963107.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014346963107.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;旨い！&lt;/p&gt;</description>
     </item>
     <item>
       <title>どうでも良いこと</title>
@@ -69,21 +69,21 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-26_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</link>
       <pubDate>Sat, 26 Jan 2019 17:49:59 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-26_%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12435679491-14345453062.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190126/17/yuki9902/d8/a2/j/o1080081014345453062.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;気温マイナス1度、体感温度マイナス6度。&lt;/p&gt;&#xA;&lt;p&gt;轟々と吹いていた風がやんで、車が水をはねる音が聞こえてきてました。&lt;/p&gt;&#xA;&lt;p&gt;窓の外が白く明るくなっていると思ったら雪が積もってました。&lt;/p&gt;&#xA;&lt;p&gt;今夜は雑炊の残りを食べて胃がパンパンです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014345453062.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014345453062.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;気温マイナス1度、体感温度マイナス6度。&lt;/p&gt;&#xA;&lt;p&gt;轟々と吹いていた風がやんで、車が水をはねる音が聞こえてきてました。&lt;/p&gt;&#xA;&lt;p&gt;窓の外が白く明るくなっていると思ったら雪が積もってました。&lt;/p&gt;&#xA;&lt;p&gt;今夜は雑炊の残りを食べて胃がパンパンです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>さむい</title>
       <link>https://yuki9902-jp.github.io/posts/2019-01-26_%E3%81%95%E3%82%80%E3%81%84/</link>
       <pubDate>Sat, 26 Jan 2019 12:30:50 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-26_%E3%81%95%E3%82%80%E3%81%84/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12435617781-14345300718.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190126/12/yuki9902/b4/e4/j/o1080081014345300718.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝はうっすらと雪が積もってました。&lt;/p&gt;&#xA;&lt;p&gt;午前中に解けてしまいましたが、外は時折雪が舞ってます。&lt;/p&gt;&#xA;&lt;p&gt;気温はかなり低いです。&lt;/p&gt;&#xA;&lt;p&gt;モカブレンドの大手メーカーのコーヒー豆を挽いて食後の珈琲時間です。&lt;/p&gt;&#xA;&lt;p&gt;お昼は雑炊にしたんです。&lt;/p&gt;&#xA;&lt;p&gt;あまりに寒いので調理器具がまともに持てなかったのです。&lt;/p&gt;&#xA;&lt;p&gt;さて午後もパソコンのデータ移行を行います。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014345300718.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014345300718.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;今朝はうっすらと雪が積もってました。&lt;/p&gt;&#xA;&lt;p&gt;午前中に解けてしまいましたが、外は時折雪が舞ってます。&lt;/p&gt;&#xA;&lt;p&gt;気温はかなり低いです。&lt;/p&gt;&#xA;&lt;p&gt;モカブレンドの大手メーカーのコーヒー豆を挽いて食後の珈琲時間です。&lt;/p&gt;&#xA;&lt;p&gt;お昼は雑炊にしたんです。&lt;/p&gt;&#xA;&lt;p&gt;あまりに寒いので調理器具がまともに持てなかったのです。&lt;/p&gt;&#xA;&lt;p&gt;さて午後もパソコンのデータ移行を行います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>記憶域プール作業中</title>
       <link>https://yuki9902-jp.github.io/posts/2019-01-25_%E8%A8%98%E6%86%B6%E5%9F%9F%E3%83%97%E3%83%BC%E3%83%AB%E4%BD%9C%E6%A5%AD%E4%B8%AD/</link>
       <pubDate>Fri, 25 Jan 2019 19:43:07 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-25_%E8%A8%98%E6%86%B6%E5%9F%9F%E3%83%97%E3%83%BC%E3%83%AB%E4%BD%9C%E6%A5%AD%E4%B8%AD/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12435476704-14344982006.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190125/19/yuki9902/ed/51/j/o1080081014344982006.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;先の長いデータ移行と記憶域プールの構築を行っています。&lt;/p&gt;&#xA;&lt;p&gt;右手にあるのが記憶域プールを構成しているHDD6台です。&lt;/p&gt;&#xA;&lt;p&gt;ケーブル類を買い足してPC内部を整理しました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボード裏にスペースが殆ど無いのでケーブル類の整理がかなり大変です。&lt;/p&gt;&#xA;&lt;p&gt;油断するとケースの蓋がパカッと外れます(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;データ移行は月曜日には終わると良いな…。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014344982006.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014344982006.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;先の長いデータ移行と記憶域プールの構築を行っています。&lt;/p&gt;&#xA;&lt;p&gt;右手にあるのが記憶域プールを構成しているHDD6台です。&lt;/p&gt;&#xA;&lt;p&gt;ケーブル類を買い足してPC内部を整理しました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボード裏にスペースが殆ど無いのでケーブル類の整理がかなり大変です。&lt;/p&gt;&#xA;&lt;p&gt;油断するとケースの蓋がパカッと外れます(￣∇￣)&lt;/p&gt;&#xA;&lt;p&gt;データ移行は月曜日には終わると良いな…。&lt;/p&gt;</description>
     </item>
     <item>
       <title>うーん…</title>
@@ -188,7 +188,7 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-15_%E3%82%82/</link>
       <pubDate>Tue, 15 Jan 2019 22:43:17 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-15_%E3%82%82/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12433235097-14339615813.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190115/22/yuki9902/ff/8c/j/o1080060714339615813.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;光磁気ディスクMOは日本で特に利用されていた記憶媒体です。&lt;/p&gt;&#xA;&lt;p&gt;3.5インチサイズのディスクには最大1.3GBのデータを記憶できました。&lt;/p&gt;&#xA;&lt;p&gt;お役所関係の仕事をしていないと今ではそうそう見かけることはありませんが。&lt;/p&gt;&#xA;&lt;p&gt;家にあるWindows10のPCではかろうじて使えます。&lt;/p&gt;&#xA;&lt;p&gt;USB3.0以上のポートしかない場合は使えません。&lt;/p&gt;&#xA;&lt;p&gt;古いMOディスクの中には1996年に初めて作ったホームページのデータが残ってました。&lt;/p&gt;&#xA;&lt;p&gt;もう23年前なのですね。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080060714339615813.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080060714339615813.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;光磁気ディスクMOは日本で特に利用されていた記憶媒体です。&lt;/p&gt;&#xA;&lt;p&gt;3.5インチサイズのディスクには最大1.3GBのデータを記憶できました。&lt;/p&gt;&#xA;&lt;p&gt;お役所関係の仕事をしていないと今ではそうそう見かけることはありませんが。&lt;/p&gt;&#xA;&lt;p&gt;家にあるWindows10のPCではかろうじて使えます。&lt;/p&gt;&#xA;&lt;p&gt;USB3.0以上のポートしかない場合は使えません。&lt;/p&gt;&#xA;&lt;p&gt;古いMOディスクの中には1996年に初めて作ったホームページのデータが残ってました。&lt;/p&gt;&#xA;&lt;p&gt;もう23年前なのですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>疲れた</title>
@@ -216,14 +216,14 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-13_%E8%B1%9A%E9%AA%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3/</link>
       <pubDate>Sun, 13 Jan 2019 12:05:29 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-13_%E8%B1%9A%E9%AA%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12432624084-14338051368.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190113/12/yuki9902/68/57/j/o1080081014338051368.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;チェーン店のはやたろうでコッテリの黒旨の厚肉です。&lt;/p&gt;&#xA;&lt;p&gt;美味しいです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014338051368.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014338051368.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;チェーン店のはやたろうでコッテリの黒旨の厚肉です。&lt;/p&gt;&#xA;&lt;p&gt;美味しいです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日は晴れ</title>
       <link>https://yuki9902-jp.github.io/posts/2019-01-13_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%99%B4%E3%82%8C/</link>
       <pubDate>Sun, 13 Jan 2019 11:55:02 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-13_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%99%B4%E3%82%8C/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12432622281-14338047447.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190113/11/yuki9902/cd/e5/j/o1080060714338047447.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;スーパーの福引きで26回スカを引いて、ガックリですが、晴れたのでドライブです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080060714338047447.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080060714338047447.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;スーパーの福引きで26回スカを引いて、ガックリですが、晴れたのでドライブです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>寒い</title>
@@ -300,7 +300,7 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-03_2019%E5%B9%B4ameba%E3%81%8A%E3%81%BF%E3%81%8F%E3%81%98/</link>
       <pubDate>Thu, 03 Jan 2019 18:19:57 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-03_2019%E5%B9%B4ameba%E3%81%8A%E3%81%BF%E3%81%8F%E3%81%98/</guid>
-      <description>&lt;p&gt;あなたの運勢は・・・&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://content.ameba.jp/campaigns/omikuji_2019/&#34;&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/img/stamp/cpn/omikuji_2019/1.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/289.png&#34; alt=&#34;ハート&#34;&gt;&lt;a href=&#34;https://content.ameba.jp/campaigns/omikuji_2019/&#34;&gt;2019年Amebaおみくじを引く&lt;/a&gt;&lt;img src=&#34;https://stat100.ameba.jp/blog/ucs/img/char/char3/289.png&#34; alt=&#34;ハート&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;あなたの運勢は・・・&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://content.ameba.jp/campaigns/omikuji_2019/&#34;&gt;&lt;img src=&#34;https://stat100.ameba.jp/img/stamp/cpn/omikuji_2019/1.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://stat100.ameba.jp/ucs/img/char/char3/289.png&#34; alt=&#34;ハート&#34;&gt;&lt;a href=&#34;https://content.ameba.jp/campaigns/omikuji_2019/&#34;&gt;2019年Amebaおみくじを引く&lt;/a&gt;&lt;img src=&#34;https://stat100.ameba.jp/ucs/img/char/char3/289.png&#34; alt=&#34;ハート&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>地震です。</title>
@@ -342,7 +342,7 @@
       <link>https://yuki9902-jp.github.io/posts/2019-01-01_%E4%BB%8A%E5%B9%B4%E3%82%82%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F/</link>
       <pubDate>Tue, 01 Jan 2019 00:06:44 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2019-01-01_%E4%BB%8A%E5%B9%B4%E3%82%82%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-12429812767-14331073128.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20190101/00/yuki9902/3c/9e/j/o1080081014331073128.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;さて、今年もよろしくお願いします。&lt;/p&gt;&#xA;&lt;p&gt;新年早々に一杯いきます。&lt;/p&gt;&#xA;&lt;p&gt;2019年、平成31年に乾杯。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1080081014331073128.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1080081014331073128.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;さて、今年もよろしくお願いします。&lt;/p&gt;&#xA;&lt;p&gt;新年早々に一杯いきます。&lt;/p&gt;&#xA;&lt;p&gt;2019年、平成31年に乾杯。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

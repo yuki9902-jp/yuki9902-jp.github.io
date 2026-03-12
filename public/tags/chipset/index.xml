@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CHIPSET on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/chipset/</link>
+    <description>Recent content in CHIPSET on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 16 Mar 2022 02:05:22 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/chipset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMD チップセットドライバー 4.03.03.431</title>
+      <link>https://yuki9902-jp.github.io/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</link>
+      <pubDate>Wed, 16 Mar 2022 02:05:22 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2022-03-16_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-4.03.03.431/</guid>
+      <description>&lt;p&gt;AMDの&lt;a href=&#34;https://www.amd.com/ja/support/chipsets/amd-socket-am4/x570&#34;&gt;X570チップセットドライバー&lt;/a&gt;が更新されていたので、ダウンロードしてインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;更新内容はリリースノートを見れば分かりますが、CPUのパフォーマンスと電力の改善の為に電力制御設定を更新、PCIデバイスドライバーの安定性の改善、PT GPIO2ドライバーの追加、AMD PSPドライバーの追加、AMD SFHドライバーの問題修正、AMD MicroPEPドライバーのACPI連携の問題修正。&lt;/p&gt;&#xA;&lt;p&gt;先日、マザーボードのBIOS（UEFI）を更新したので、チップセットドライバーも更新すれば良いと思います。&lt;/p&gt;&#xA;&lt;p&gt;CINEBENCH R23のマルチコアのスコアが極僅かに良くなりました。&lt;/p&gt;&#xA;&lt;p&gt;普段は60FPSが上限のゲームをしているので、CPUを100％で使うことはないですけど。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>COMPUTER - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -64,6 +111,125 @@
 	<header class="main__header">
 		<h1 class="main__title">COMPUTER</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-02-03_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%95%B4%E7%90%86/" rel="bookmark">
+			ファイルサーバーの整理
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Linux Mint 20.1 CinnamonをインストールしたミドルタワーPCをファイルサーバーとして使っています。</p>
+<p>Sambaをインストールして、3TBのHDDを6台、8TBのHDDを1台をsmb.confに追加しました。</p>
+<p>空のHDDにすでにファイルが書き込まれているHDDから移し替えながら、ファイルシステムをxfsに換えていっています。</p>
+<p>あと残り1台のファイルシステムを書き換えればNTFSから脱却できます。</p>
+<p>ファイルシステムの変更は、「設定」メニューからGUIの「ディスク」を起動しておこなっています。</p>
+<p>それから、1GbpsのEthernetのRJ45端子が2つあるので、それらをGUIの「高度なネットワーク設定」からボンディング(Bonding)させて、送受信とも負荷分散するモードに設定して、2GbpsのEthernetとして使うようにしました。</p>
+<p>この設定はLayer2スイッチでも何も設定せずに動作させることが出来るし、耐障害性と速度の両方を向上させられるので、複数のEthernetポートがあるなら活用した方が良いでしょう。</p>
+<p>で、今はメインで使っているキューブPCからもデータのバックアップをファイルサーバー上に作成中です。</p>
+<p>Linux Mintに接続したNTFSのHDD群に同時に大量にアクセスするとカーネルパニックを引き起こすようで、何度かデータ移行中にシステムがハングアップしました。</p>
+<p>理研のサイトを参考にしていたら、300TBを超えるような強大なデータ量をxfsに書き込むときにもそのようなことがあるらしいですが、並列で6つの同時アクセスぐらいなら平気のようです。</p>
+<p>それからxfsはメモリーを大量に使うと説明されていましたが、常時、全システムで16GBの20%ほどしか使っていないので問題はないです。</p>
+<p>2GbpsでHDDを7台使ったぐらいでは、Ryzen 7 1700とメモリー16GBでは余裕です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-02-01_%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%81%9C%E6%AD%A2/" rel="bookmark">
+			マイニング停止
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>マイニングしているとシステムが非常に不安定になり、ディスプレイドライバーがクラッシュすることがあり、マイニングを停止しました。</p>
+<p>GPUの温度は54度ぐらいですが、グラフィックメモリの温度が90度を超えて100度に近いので、それがエラーを引き起こしているんではないかと思います。</p>
+<p>ゲームや3Dモデリングやビデオエンコードに使う場合には、グラフィックメモリが連続した高温状態にはならないので気にしてませんでしたが、マイニングに使うにはグラフィックボード全体を液体冷却しないと廃熱が間に合わないようです。</p>
+<p>それなりに高いグラフィックボードなので壊したくはないので、マイニングは終了です。</p>
+<p>1日半ほど動かして0.00017131BTC（600円相当）のビットコインがたまっています。</p>
+<p>しかし換金できる最低金額を超えていないし、たとえ1万円分あったとしても送金手数料と換金手数料でほとんど残らず4000円ほどになり、さらに電気代を引くと赤字です。</p>
+<p>ビットコインの高騰で、マイニングに参入する人が増えた所為で、PCパーツがまた品薄になっていて、そろそろ高騰を始めると思います。</p>
+<p>自作PCを楽しむ人やゲーマーには辛い状況になりそうです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-01-29_%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8%E3%81%AE%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%86%8D%E3%81%B3/" rel="bookmark">
+			仮想通貨のマイニング再び
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ビットコインが1BTCあたり300万円前後で取引されているので、PCの有り余るパワーを使ってマイニングしています。</p>
+<p>計算に必要な電気代と相殺しても１日あたり300円ほどにはなりそうです。</p>
+<p>仮想通貨や証券が爆騰していますが、本来は中共ウィルスにより生活に困窮して苦しんでいる人たちへ配られるはずのお金が、各種団体の特権を持つ人たちに掠め盗られた上に、そのお金は実体経済とは関係ない金融市場でマネーゲームに使われています。</p>
+<p>ならばそのお金の取引に必要な計算に入り込んで回収（マイニング）してやります。</p>
+<p>全世界でバブル崩壊と仮想通貨破綻が起きそうな気配なので、早い内に現物資産に交換したいなぁ。</p>
+<p>24金の相場価格3万円ほどの金貨を、とある元大統領が1枚3000円ほどで記念として販売しているので、それが欲しいけど、システム上の問題で郵便番号が入力できなくて注文できない･･･。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-01-28_pbo2%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/" rel="bookmark">
+			PBO2チューニング
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>RYZEN 7 5800XとX570 BIOS 3402beta でPBO2をチューニングしました。</p>
+<p>Ryzen Masterで見ると高性能コアは「★」「●」で表示されています。</p>
+<p>この２つのコアに熱容量と電力を優先的に回すように設定していきます。</p>
+<p>私の持っているRYZEN 7 5800Xは、C2とC7が高性能コアです。</p>
+<p>UEFIで見るとC0から始まるのでC1とC6が該当するコアになります。</p>
+<p>電力特性カーブのオフセットをすべてマイナス（ネガティブ）にして、C1とC6は5、他のコアは30に設定します。</p>
+<p>この辺は、個体差によるものらしいので、何度かベンチマークを取りながら最速の設定を見つけるしかありません。</p>
+<p>この設定で、後はASUS AiSuite3でVDDCR CPU電圧の最適値を探していきます。</p>
+<p>1.10000Vから1クリック（0.00625V)ずつ基本的にマイナス方向に設定してはベンチマークを走らせます。</p>
+<p>全コアの動作周波数が最も高いのは1.0250Vの時の4.750GHzでした。</p>
+<p>プラス方向も試しましたが、CINEBENCH R20のMPの値が一番高いのは、1.10000Vの時でした。</p>
+<p>MP 6109cb(平均4.65GHz） SP 633cb(5.050GHz)となりました。</p>
+<p>最大消費電力は135W程度で、パッケージ温度79℃になります。</p>
+<p>全コアOCで4.725GHzならMP 6190前後、SP 610前後、4.750GHzだと結構な確率でCINEBENCH R20が落ちますが、完走出来るとMP 6280前後、SP 610超えになります。</p>
+<p>最新のAGESAでカーブ特性が改善されているのは、確かなようで、消費電力が下がっています。</p>
+<p>PBO2が難しいのは、モニタリングし全コアの動作周波数が高くなっているのを確認していてもCINEBENCH R20のMPのスコアが下がるところにあります。</p>
+<p>１ミリ秒単位で電力と周波数を制御しているCPUとWindowsの制約により250ミリ秒でモニタリングしているアプリとの齟齬が発生しています。</p>
+<p>ちなみにCINEBENCH R20で最高スコアがでたPBO2の設定でFF14漆黒のヴィランズのベンチマークを走らせたら、過去最高のスコアが出ました。</p>
+<p>全コア4.750GHzでOCしたときよりもほんの僅かに速いです。</p>
+<p>全コア4.725GHzでOCした時とPBO2でチューニングした時とApplicationの使用感に差は感じません。</p>
+<p>全コア4.750GHzだとCINEBENCHでの高負荷時に落ちる可能性が高いですが、ゲームや動画編集では安定しているように感じます。</p>
+<p>２コア（４スレッド）の瞬発力を必要とするときはPBO2、安定性をとるならECCメモリと4.725GHzOC、ゲームベンチなら4.800GHz+280ミリ簡易水冷でしょうか。</p>
+<p>しばらくPBO2を使ってみようと思います。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-01-17_asus-rog-strix-x570-f-gaming-bios-3402-beta/" rel="bookmark">
+			ASUS ROG STRIX X570-F GAMING BIOS 3402 Beta
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ASUS ROG STRIX X570-F GAMINGのBIOS 3402 Betaが公開されたので適用しました。</p>
+<p>AM4 AGESA V2 PI 1.2.0.0のアップデートです。</p>
+<p>更新内容はまだ分かっていません。</p>
+<p>今後発売されるNVIDIA GeForce RTX 3060Ti 12GBで、AMD SAM(Re-size BAR)が使えるようになり、それ以外のRTX 30シリーズはNVIDIA側でvBIOS更新で対応するようです。</p>
+<p>PBO2の性能は相変わらずで、全く使いどころがないです。</p>
+<p>なんでコア電圧があんなに上がるんでしょうね。</p>
+<p>手動オーバークロックとコア電圧自動の方が、最大負荷時に電圧が低いのはなぜなんでしょうかね。</p>
+<p>追記：</p>
+<p>ClockTuner for Ryzenの開発を手がける<a href="https://twitter.com/1usmus">Yuri Bubly</a>によると</p>
+<p>「I see interesting information that AGESA 1.2.0.0 contains only &ldquo;bug fixes&rdquo;. It does not. SMU 56.44.00 contains a number of improvements to the Curve + improvements for the dLDO injector. Also AGESA 1.2.0.0 has no problems with WHEA on FCLK 1900.</p>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -170,346 +336,33 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p>先月、CPUに6万円という散財をしてローンで支払中ですが、また散財して850WのPSUを買いました。</p>
-<p>[<img src="https://p.odsyms15.com/5GpsTg1acwKoHQg0cfU3F4" alt=""></p>
-<p>Corsair RM850-2019- 850W PC電源ユニット 80PLUS GOLD PS863 CP-9020196-JP</p>
-<p>Amazon（アマゾン）</p>
-<p>11,800〜14,399円](<a href="https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=5DSHQarD157eS2PntCxB05&amp;mimp=LYDGaFTLHlnPUwNIYwVOHp&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>CPU、マザーボード、PSU、PCケース、かなり古いが使えるGPUが手元にあるので、RAMとOS用のM.2 SSDがあればファイルサーバーが組めると思い、RAM DDR4 2666MHz CL16 16GB(8GB*2)とNVMe M.2 SSD 250GBをまた買いました。</p>
-<p>[<img src="https://p.odsyms15.com/0eVjvQDKNsjm39U6NENwma" alt=""></p>
-<p>CORSAIR DDR4-2666MHz デスクトップPC用 メモリモジュール VENGEANCE LPX Series 8GB×2枚キット CMK16GX4M2A2666C16</p>
-<p>Amazon（アマゾン）</p>
-<p>6,427〜14,305円](<a href="https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=TWQLPml5AxF0St3j4FPm53&amp;mimp=ImtdvO8KaKvYsB58Byoi5I&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/5fiHuVGtRpTTYxcTtptnS0" alt=""></p>
-<p>Western Digital WD Black 内蔵SSD M.2-2280 SN750 ゲームPC カスタムPC向け250GB NVMe 5年保証 WDS250G3X0C-EC 【国内正規代理店品】</p>
-<p>Amazon（アマゾン）</p>
-<p>6,334円](<a href="https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=hel7364dxOQZWQcEuGZu83&amp;mimp=5y9ydQvKfXnrqf3hwSiN0N&amp;session=2df31692-06b5-4f8b-8527-f341e2ddd157&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 <p>ファイルサーバーのパーツ構成は</p>
 <p>CPU･･･AMD RYZEN 7 1700</p>
 <p>M/B･･･GIGABYTE GA-AX370 Gaming K7 (AMD X370)</p>
 <p>GPU･･･GIGABYTE GV-N105TOC-4GL (NVIDIA Geforce GTX 1050Ti OC)</p>
 <p>RAM･･･Corsair VENGEANCE LPX 16GB (2*8GB) DDR4 DRAM 2666MHz CL16</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-11_pbo2%E3%81%AF%E9%9B%A3%E3%81%97%E3%81%84%E8%A8%82%E6%AD%A3/" rel="bookmark">
-			PBO2は難しい･･･(訂正)
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>AMD RYZEN 7 5800XとASUS ROG STRIX X580-F GAMING BIOS 3001(AGESA 1.1.8.0)でPrecision Boost OverDrive 2の効果を確認してみました。</p>
-<p>UEFIでPrecision Boost OverDriveを有効にして、高性能コア2つの電圧設定を「-」（Negative）の0～10、それ以外を同じく「-」の20～30、TDPをマニュアルで180に設定して起動して確認しました。</p>
-<p>CINEBENCH R20</p>
-<table>
-  <thead>
-      <tr>
-          <th>PBO2</th>
-          <th>★</th>
-          <th>●</th>
-          <th>他のコア</th>
-          <th>測定</th>
-          <th>Score(cb)</th>
-          <th>Clock(GHz)</th>
-          <th>消費電力(W)</th>
-          <th>電圧(V)</th>
-          <th>温度(℃)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>有効</td>
-          <td>-5</td>
-          <td>-10</td>
-          <td>-30</td>
-          <td>MP</td>
-          <td>5778</td>
-          <td>4.775</td>
-          <td>140</td>
-          <td>1.444</td>
-          <td>77</td>
-      </tr>
-      <tr>
-          <td>SP</td>
-          <td>620</td>
-          <td>5.050</td>
-          <td>64</td>
-          <td>1.475</td>
-          <td>64</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>有効</td>
-          <td>-0</td>
-          <td>-5</td>
-          <td>-20</td>
-          <td>MP</td>
-          <td>5759</td>
-          <td>4.725</td>
-          <td>144</td>
-          <td>1.488</td>
-          <td>79</td>
-      </tr>
-      <tr>
-          <td>SP</td>
-          <td>617</td>
-          <td>5.050</td>
-          <td>65</td>
-          <td>1.488</td>
-          <td>66</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>無効</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>MP</td>
-          <td>6170</td>
-          <td>4.725</td>
-          <td>144</td>
-          <td>1.281</td>
-          <td>85</td>
-      </tr>
-      <tr>
-          <td>SP</td>
-          <td>606</td>
-          <td>4.725</td>
-          <td>65</td>
-          <td>1.294</td>
-          <td>58</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<p>手動オーバークロックだと最大負荷時にコア電圧が下がります。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-09_asus-rog-strix-x570-f-gaming-bios-3001-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 3001 Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>「<a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download/">ASUS ROG STRIX X570-F GamingのBIOS バージョン3001</a>」が公開されました。</p>
-<p>新しいCPUのサポートとAMD SAM(Smart Access Memory)を使用できるようにするための「ReSize BAR」の項目が追加されました。</p>
-<p>他にPrecision Boost Overdrive 2に関連する項目が表示されていたのでAGESA 1.1.8.0が適用されたBIOSだと思います。</p>
-<p>PBO2の項目の設定方法がいまいち分からないですが、使っていないコアの電圧を引き下げて電力と熱容量を確保し、負荷の高いコアに余った電力を供給して性能向上を図るらしいです。</p>
-<p>AMDのスライドを使っただけの概要はAMD HEROSに紹介されていますが、個体によって設定値が異なるので、自分で追い込んでいく必要があるみたいです。</p>
-<p>設定してみましたが、sweet spotを外しているみたいで大幅に性能ダウンしてしまうので、追い込みは難しいです。</p>
-<p>面倒くさいので、全コア4.725GHzにオーバークロックにしました。</p>
-<p>PBO2に関しては、日本語で詳しく設定方法を解説した情報がでるまで待ちます。</p>
-<p>PBOも使わなかったし、結局PBO2も使わないような気がします。</p>
-<p>AMD SAMついでにPCI-Eの設定項目の中に「Above 4G Decoding」があります。</p>
-<p>32bitの限界を超え4GBを超えるデータを一気に読み書きできます。</p>
-<p>64bit OSを使っている場合はONにしておけば、もしかしたら良いパフォーマンスを得られるかもしれません。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-09_amd-ryzen-7%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%80%A7%E8%83%BD%E6%AF%94%E8%BC%83/" rel="bookmark">
-			AMD RYZEN 7シリーズの性能比較
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>RYZEN 7シリーズの比較</p>
-<table>
-  <thead>
-      <tr>
-          <th>CPU</th>
-          <th>Clock</th>
-          <th>Memory</th>
-          <th>Chip Set</th>
-          <th>CINEBENCH R20</th>
-          <th></th>
-          <th>CINEBENCH R15</th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>MP</td>
-          <td>Single</td>
-          <td>MP</td>
-          <td>Single</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 1700</td>
-          <td>3.6GHz</td>
-          <td>2993MHz CL16</td>
-          <td>X370</td>
-          <td>3526</td>
-          <td>331</td>
-          <td>1436</td>
-          <td>151</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 3700X</td>
-          <td>4.3GHz</td>
-          <td>3600MHz CL18</td>
-          <td>X570</td>
-          <td>4977</td>
-          <td>495</td>
-          <td>2214</td>
-          <td>206</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X</td>
-          <td>4.725GHz</td>
-          <td>3600MHz CL18</td>
-          <td>X570</td>
-          <td>6180</td>
-          <td>607</td>
-          <td>2693</td>
-          <td>258</td>
-      </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-      <tr>
-          <th>CPU</th>
-          <th>Clock</th>
-          <th>Memory</th>
-          <th>Chip Set</th>
-          <th>GPU</th>
-          <th>FF XIV 紅蓮のリベレーター</th>
-          <th></th>
-          <th>FF XIV 漆黒のヴィランズ</th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>最高品質</td>
-          <td>FPS (Avg.)</td>
-          <td>最高品質</td>
-          <td>FPS (Avg.)</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 1700</td>
-          <td>3.6GHz</td>
-          <td>2996MHz CL16</td>
-          <td>X370</td>
-          <td>Geforce GTX 1060 6GB</td>
-          <td>12253</td>
-          <td>83.82</td>
-          <td>12183</td>
-          <td>85.8196</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 3700X</td>
-          <td>4.3GHz</td>
-          <td>3600MHz CL18</td>
-          <td>X570</td>
-          <td>Geforce GTX 1060 6GB</td>
-          <td>13081</td>
-          <td>87.73</td>
-          <td>13772</td>
-          <td>93.0694</td>
-      </tr>
-      <tr>
-          <td>RADEON RX 5700XT</td>
-          <td>17712</td>
-          <td>123.412</td>
-          <td>18043</td>
-          <td>132.0101</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X</td>
-          <td>4.725GHz</td>
-          <td>3600MHz CL18</td>
-          <td>X570</td>
-          <td>RADEON RX 5700XT</td>
-          <td>21794</td>
-          <td>146.884</td>
-          <td>22206</td>
-          <td>151.3159</td>
-      </tr>
-  </tbody>
-</table>
-<p><a href="https://ameblo.jp/yuki9902/image-12642945202-14863770273.html"><img src="https://stat.ameba.jp/user_images/20201209/10/yuki9902/3f/cb/p/o0475035914863770273.png?caw=800" alt=""></a></p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-04_xmedia-recode%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E3%81%A0%E3%81%A8/" rel="bookmark">
-			XMedia Recodeが落ちないだと
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>XMedia Recode 3.5.2.3にアップデートしたら落ちなくなりました。</p>
-<p>mp4でちゃんと出力できます。</p>
-<p>AVI（Motion JPEG FHD 25fps / PCM 32kHz Mono）1分30秒（1GB）をMP4（AMD AMF エンコーダー）に変換させてみました。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12642060014-14861530948.html"><img src="https://stat.ameba.jp/user_images/20201204/21/yuki9902/c3/7f/p/o0604045514861530948.png?caw=800" alt=""></a></p>
-<p>20秒で変換できました。</p>
-<p>落ちるときは、エンコード開始1秒で落ちて、中身のないファイルが出来るんですが、ちゃんと再生できるmp4ファイルが出来ていました。</p>
-<p>ということで、XMedia Recodeが落ちる人は、最新版にアップデートしてみましょう。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-01_4.725ghz%E3%81%8B4.7ghz%E3%81%8B/" rel="bookmark">
-			4.725GHzか4.7GHzか
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>AMD RYZEN 7 5800Xのオーバークロックを詰めています。</p>
-<p>BIOSでPBOをAutoで設定して、AMD RYZEN MASTERでPBOのTDPを150Wに設定して、CINEBENCH R15を走らせるとSingleは268になるもののマルチは2500程度になります。</p>
-<p>消費電力も135Wを超えてくるし、CPUパッケージ温度も85度を超えてきます。</p>
-<p>BIOSでCPUを4.725GHzに設定して、SoC電圧設定をオフセットモードにして[-]にします。</p>
-<p>ASUS AI Suite 3での設定だけではCINEBENCH R15が転けるので、BIOSで設定です。</p>
-<p>RYZEN 7 <a href="mailto:5800X@4.725GHz">5800X@4.725GHz</a></p>
-<p>Single 258</p>
-<p>マルチ 2693</p>
-<p>バックグラウンドで動くアプリを終了すれば、他のブログで掲載されているような数値になるでしょう。</p>
-<p>消費電力は139Wで、温度は81度まで上がります。</p>
-<p>アイドル時は43W、42度ぐらいです。</p>
-<p>微妙なところですが、4.7GHzに設定した方が消費電力と温度のバランスが良いように思います。</p>
+<p>SSD･･･WD Black SN750 250GB (NVMe M.2 PCIe Gen.3)</p>
+<p>HDD･･･TOSHIBA DT01ACA300 (3TB SATA600 7200rpm)*2</p>
+<p>       SEAGATE Barracuda ST3000DM001 (3TB SATA600 7200rpm)*2</p>
+<p>       SEAGATE Barracuda ST8000DM004 (8TB SATA600 5400rpm)*1</p>
+<p>PSU･･･Corsair RM 750W (2013年モデル)</p>
+<p>Case･･･Corsair OBSIDIAN 550D (2012年発売)</p>
+<p>さて、それで組み上げて、OSを入れる段でいろいろ試しました。</p>
+<p>ファイルサーバーというよりはNASにしようかと、最初はFreeNASの後継TrueNASを入れましたが、4回やってもインストールできませんでした。</p>
+<p>次にDebianをインストールしましたが、Sambaの構築が出来ず断念。</p>
+<p>次にUbuntuをインストールしましたが、UEFI領域の構築で4度インストールに失敗。</p>
+<p>ブータブルUSBを挿しているUSBポートを変更して5度目にインストールできました。</p>
+<p>UbuntuでSambaを構築して、コンフィグファイルにユーザーを追加して、共有するディレクトリーを設定して再起動したら、ちゃんとファイル共有が出来るようになりました。</p>
+<p>しかし、NTFSで構築されているデータ保存済みのHDD5台をこれに追加するのは面倒です。</p>
+<p>GUIでディレクトリー（フォルダー）の設定が出来ないのは後の運用を考えても面倒でしかないです。</p>
+<p>ということで、ダメ元でWindows 10 Proをインストールしました。</p>
 	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/page/10/">«</a>
-	<span class="pagination__item pagination__item--current">11/25</span>
+	<span class="pagination__item pagination__item--current">11/26</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/12/">»</a>
 </div>
 
@@ -517,25 +370,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1910,7 +1763,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1939,15 +1792,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1961,6 +1818,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1968,12 +1827,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1983,7 +1883,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

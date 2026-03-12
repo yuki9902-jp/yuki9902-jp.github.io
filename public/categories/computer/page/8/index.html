@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>COMPUTER - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -67,6 +114,153 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-09_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
+			致命的なエラー WHEA-Logger ID:18でWindowsが落ちる
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h3 id="致命的なエラー-whea-logger-id18でwindowsが落ちる">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</h3>
+<p>　システムエラーで致命的なエラーWHEA-Logger ID:18としてエラーが記録されてPCが落ちてしまうことがやはり続きます。このエラーログを見るとCPUのキャッシュで不整合が起きているのが確認できます。<a href="https://social.technet.microsoft.com/wiki/contents/articles/3567.event-id-18-microsoft-windows-whea-logger.aspx">MicrosoftのTechnetのWikiの情報</a>によると以下のようになっています。</p>
+<hr>
+<h3 id="説明">説明</h3>
+<p>このエラーは、ハードウェアに問題があることを示しています。マシン チェック例外は、コンピュータの中央処理装置がハードウェアの問題を検出したときに発生するコンピュータ ハードウェア エラーを示します。</p>
+<p>注: WHEA は、Windows ハードウェア エラー アーキテクチャの略です。</p>
+<p>マシン チェックの例外の原因となる主なハードウェアの問題には、次のものがあります。</p>
+<ul>
+<li>システム バス エラー (プロセッサとマザーボード間の通信エラー)</li>
+<li>パリティおよびエラー訂正コード (ECC) の問題を含む可能性のあるメモリ エラー。エラー チェックにより、データが RAM に正しく格納されていることが保証されます。情報が破損している場合、ランダム エラーが発生します。</li>
+<li>プロセッサのキャッシュ エラー。キャッシュには重要なデータとコードが保存されます。これが壊れていると、エラーが発生することがよくあります。</li>
+<li>不十分な電圧レギュレーション (つまり、電源の問題、電圧レギュレーターの誤動作、コンデンサーの劣化)</li>
+<li>パワースパイクによるダメージ</li>
+<li>マザーボードへの静電気による損傷</li>
+<li>BIOS のプロセッサ電圧設定が正しくない (低すぎるか高すぎる)</li>
+<li>オーバークロック</li>
+<li>以前のオーバークロックによって引き起こされた永続的なマザーボードまたは電源装置の損傷</li>
+<li>不十分なエアフローによる過度の温度 (ファンの故障または吸気口/排気口の詰まりが原因の可能性があります)</li>
+<li>不適切な BIOS 初期化 (BIOS がマザーボードまたは CPU を正しく構成していない)</li>
+<li>マザーボードが処理するには大きすぎるプロセッサのインストール (過剰な電力要件、非互換性)</li>
+<li>過剰な電力を消費するか、適切な電圧調整を妨害する可能性のある欠陥のあるハードウェア</li>
+</ul>
+<h3 id="ユーザーアクション">ユーザーアクション</h3>
+<ul>
+<li>BIOS とマザーボード チップセットのドライバーを更新します。</li>
+<li>製造元から更新が入手可能な場合は、すべてのハードウェア ドライバーを更新します。</li>
+<li>コンピューター内部の温度をチェックして、プロセッサーおよび関連する周辺機器が過熱していないことを確認します。</li>
+<li>CPU のファンをチェックして、CPU に正しく取り付けられていることを確認します。</li>
+<li>CPU をオーバークロックした場合は、設定をデフォルト設定にリセットします。</li>
+<li>電源ファンが正しく動作していることを確認してください。</li>
+</ul>
+<hr>
+<p>落ちるタイミングはCPUに大きな負荷かが掛かってしばらくしてからになるんですが、操作としては、大きなzipファイルを大量に解凍する、大量のFLACをmp3に変換する、Photoshopで多数のLayerを含むファイルを編集する、などを行えば高確率でこのエラーが発生します。</p>
+<p>ピーキーなOC設定をしていて、SoCが発熱で不安定になっているのが原因でした。</p>
+<p>一応今回の対策として、CPUのプレジションブーストオーバードライブのCPUのコア電圧制御カーブをマニュアルで設定していることでピーキーになっているのではないかと思って、プレジションブーストオーバードライブの項目、CPUのオーバークロックの項目をすべてAutoに変更しました。</p>
+<p><a href="/img/o1186095914954665977.png"><img src="/img/o1186095914954665977.png" alt=""></a></p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-07_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%A9%E3%83%BCwhea-logger-id_18%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96ryzen-5000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/" rel="bookmark">
+			システムエラー「WHEA-Logger ID:18」の原因と対策（Ryzen 5000シリーズ）
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>AMD Ryzen 5000シリーズにおいて、高負荷時に特定のコアでエラーが検出され、システムが強制終了（シャットダウン）してしまう事象があります。</p>
+<p><a href="/img/o0986070814953650696.png"><img src="/img/o0986070814953650696.png" alt=""></a></p>
+<p>一部では「コアの耐性不足によるハードウェアの不具合」としてCPU本体の交換対応が行われているケースも見受けられますが、詳しく調査したところ、必ずしも個体の不具合とは言えない実態が見えてきました。</p>
+<p>参照：</p>
+<p>[致命的なエラー WHEA-Logger ID:18でWindowsが落ちる](../致命的なエラー WHEA-Logger ID:18でWindowsが落ちる/)</p>
+<h4 id="エラーの正体電圧制御のアンマッチ">エラーの正体：電圧制御のアンマッチ</h4>
+<p>イベントログに記録される致命的なエラー「WHEA-Logger ID:18」を自分の持てる知識で分析すると、その主因は**「コアに印加される電圧が許容範囲外（過電圧、または電圧不足）」**になっていることと推測しました。</p>
+<p>私の場合、原因はPBO2（Precision Boost Overdrive 2）の設定にありました。具体的には、推奨設定としてよく挙げられる「電圧のマイナスオフセット」を適用していたことが、システムの不安定化を招いていました。</p>
+<h4 id="検証結果設定変更による安定性の確認">検証結果：設定変更による安定性の確認</h4>
+<p>再現テストを行ったところ、以下の結果が得られました。</p>
+<ul>
+<li><strong>PBO2でオフセットを「－（マイナス）」に設定：</strong> 特定のテストで再現性を持ってエラーが発生し、システムが落ちる。</li>
+<li><strong>電圧設定を「Auto」に戻す：</strong> 同様のテストを行ってもエラーが発生せず、安定動作する。</li>
+</ul>
+<p>近年のUEFI BIOS更新による電圧制御の修正や、AMDチップセットドライバーの最適化が進んだ結果、かつての定石だった「マイナスオフセット」が、現在ではむしろ動作を不安定にする要因であったと考えられます。</p>
+<h4 id="交換対応についての見解">交換対応についての見解</h4>
+<p>私の個体（国内正規代理店品 Ryzen 7 5800X）も交換対象となり得ますが、そもそもAMDはPBO2について「オーバークロック行為であり、リスクを理解した上で自己責任で試すもの」と明言しています。</p>
+<p>そのため、手動設定による追い込みすぎ（低電圧化など）で不安定になっているのであれば、まずは設定を緩めるのが筋であり、安易な交換対応はやや行き過ぎではないかと感じています。</p>
+<h4 id="結論結局autoが最適解">結論：結局「Auto」が最適解</h4>
+<p>副産物として判明したのは、<strong>電圧設定を「Auto」にするのが、現在の環境ではPBO2のベンチマークスコアが最も伸びる</strong>ということです。結果として第11世代Intel Core i9のスコアを上回るパフォーマンスを発揮できています。</p>
+<p>もし同様のエラーに悩んでいる方がいれば、CPUの故障を疑う前に、一度電圧設定を「Auto」に戻して検証することをおすすめします。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-06_corsair-vengence-rgb-pro-cmw16gx4m2d3600c18/" rel="bookmark">
+			Corsair VENGENCE RGB PRO CMW16GX4M2D3600C18
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>メインPCのメモリをG.SKillのF4-3600C18D-16GTZNから</p>
+<p>メモリチップは、G.Skill Trident Z NEOはSamsungでしたが、Corsair VENGENCE RGB PROはMicronになりました。</p>
+<p>RYZENでの動作タイミングは、どちらもX.M.P.2で18-22-22-42です。</p>
+<p>tRCはどちらもマニュアルで64に設定すれば良いようです。</p>
+<p>Corsair VENGENCE RGB PROは、X.M.P.2の公称値は18-19-19-39ですが、Ryzenでその値に設定するとメモリテストでエラーが出ます。</p>
+<p>自動に設定された値を使います。</p>
+<p>今回はメモリの高速化や容量増設のために買い換えたのではなく、Corsair iCUEというRGB LED制御ソフトで連携させるためだけに買い換えました。</p>
+<p><a href="/img/o1509113214953382188.jpg"><img src="/img/o1509113214953382188.jpg" alt=""></a></p>
+<p><a href="/img/o1568117614953382226.jpg"><img src="/img/o1568117614953382226.jpg" alt=""></a></p>
+<p><a href="/img/o1832137414953382265.jpg"><img src="/img/o1832137414953382265.jpg" alt=""></a></p>
+<p>スパイラルレインボーっていう発光パターンを使うと、CPUクーラーのCORSAIRマークを中心にぐるぐると虹色が回転していきます。CPUクーラーとメモリの色が連動し、４本全く同じ発光ではなくて、CPUクーラーを中心として放射状に色がそろっているので面白いです。</p>
+<p>メモリの値段は一時値上がりしてましたが、また下がって落ち着いてきたので買いましたが、交換前のメモリと価格はほとんど変わりません。</p>
+<p>ブランドで統一させる戦略にまんまと引っかかっているわけですが、自作PCなんてそういう部分のこだわりも含めて、単なる自己満足の世界なんだからそれで良いんです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-04_amd-%E3%83%81%E3%83%83%E3%83%97%E3%82%BB%E3%83%83%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E6%9B%B4%E6%96%B0/" rel="bookmark">
+			AMD チップセットドライバー更新
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>X570で、<a href="https://www.amd.com/ja/support/chipsets/amd-socket-am4/x570">AMD Chipset Driver</a>が更新されていたのでインストールしました。</p>
+<p>　電源プランとWindows10 Update May 2019でのUEFI CPPC2の更新と安定性、その他諸々が更新されています。</p>
+<p>　アプリケーション実行時のCPUのブーストクロックの応答性が良くなったように思います。</p>
+<p><a href="/img/o0417041914952476182.png"><img src="/img/o0417041914952476182.png" alt=""></a></p>
+<p>　Ryzen 7 5800XをPBO2で駆動していますが、CPU-Zのベンチマークが若干向上してます。１％ぐらいなので誤差の範囲と言えばそうとも言えるかもしれません。</p>
+<p>　いちいちデータをとっていないので曖昧な記憶ですが(￣∇￣)</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-02_pc%E3%82%B1%E3%83%BC%E3%82%B9%E5%86%85%E3%81%AE%E3%82%A8%E3%82%A2%E3%83%95%E3%83%AD%E3%83%BC%E3%82%92%E6%94%B9%E5%96%84/" rel="bookmark">
+			PCケース内のエアフローを改善
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>[一般的なファンの方向]</p>
+<p><a href="/img/o1664124814951488133.jpg"><img src="/img/o1664124814951488133.jpg" alt=""></a></p>
+<p>[改善後のファンの方向]</p>
+<p><a href="/img/o2722204114951488169.jpg"><img src="/img/o2722204114951488169.jpg" alt=""></a></p>
+<p>[OCCTの結果]</p>
+<p><a href="/img/o1525090014951489171.jpg"><img src="/img/o1525090014951489171.jpg" alt=""></a></p>
+<p>　CPUとGPUに負荷をかけて冷却性能を確認しました。最初は一般的なファンの取り付け方向だったので、CPUの簡易水冷のラジエターにGPUの排気熱が入り、CPUだけの負荷の時より温度が高くなりました。なのでPCケースの底面のファンを吸気方向から排気方向へ向きを変えました。</p>
+<p>　背面のファンに手をかざすと、あまり排気が出来ていないのがわかりました。そのままだと冷却に何も寄与しないので、吸気方向に変えました。それから簡易水冷のラジエターの後段にPCケースに付属のダストフィルターが取り付けられているんですが、それを外して簡易水冷のラジエターからの排気効率を改善しました。それらの対策を実施したところ、CPUの最高温度が8℃低下しました。GPUの最高温度も6℃低下しました。</p>
+<p>　CPUとGPUの両方ともに最大負荷をかけると消費電力は約380Wになりました。それらはほぼすべて熱に変わるので、相応の冷却性能が必要になります。</p>
+<p>　あと、CINEBENCH R20の負荷テストをしました。マニュアルOCで4.7GHzまでは通りましたが、4.75GHzではエラーで止まります。4.725GHzは通りそうですが、面倒くさいのでテストしませんでした。CPU-Zのテストでは4.8GHzまで通りました。スコアはマルチで7000、シングルで660になりました。</p>
+<p>　現在は、PBO2を設定していて、C2,C7に-5、それ以外のコア-30、SoC電圧はオフセットの「-」、VDCCR電圧はオフセットの「-」に設定しています。CINEBENCH R20のスコアはマルチで5700前後です。これ以上設定を詰めても実用上の意味はあまりないので熱で落ちなければ良しとしましょう。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-05-28_corsair-icue-h115i-elite-capellix%E3%81%A8ryzen-7-5800x/" rel="bookmark">
 			CORSAIR iCUE H115i ELITE CAPELLIXとRYZEN 7 5800X
 			</a>
@@ -75,13 +269,9 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p><a href="https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/iCUE-ELITE-CAPELLIX-Liquid-CPU-Cooler/p/CW-9060047-WW">CORSAIR iCUE H115i ELITE CAPELLIX Liquid CPU Cooler</a> が届いたので、田圃仕事が終わった後に組み付け作業をしました。</p>
-<p>[<img src="https://p.odsyms15.com/E7N13nmOHvFJPCvgyZMmf3" alt=""></p>
-<p>CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508</p>
-<p>Amazon（アマゾン）</p>
-<p>18,155〜27,638円](<a href="https://d.odsyms15.com/click?aid=P8FGeYUKGKu3dsfbMxdOj1&amp;mimp=SKItsHy2PDjWMExPRIGO6P&amp;session=75ab770a-c68c-43b7-a843-799347a95ce4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=P8FGeYUKGKu3dsfbMxdOj1&amp;mimp=SKItsHy2PDjWMExPRIGO6P&amp;session=75ab770a-c68c-43b7-a843-799347a95ce4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 <p>　RYZEN 7 5800Xを使っていて、冬場は空冷のCOOLERMASTER MasterAir MA620Mでも冷やし切れていて4.75GHzでも安定動作していましたが、夏場になって4.7GHzに下げてもたまにシステムが落ちるぐらいの冷却不足に陥っていました。Precision Boost Overdrive 2でもたまに落ちます。「Auto」で使うには特に問題ないですがCPUの能力を引き出し安定して使うためには水冷システムにしなければいけません。</p>
 <p>　PCケースがCORSAIR CRYSTAL 680X、GPUがASUS ROG STRIX RADEON RX 5700XT 8GB OCの組み合わせだと、360ミリの簡易水冷のラジエターが搭載できないので、280ミリの簡易水冷を買いました。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12677267647-14948845079.html"><img src="https://stat.ameba.jp/user_images/20210528/20/yuki9902/c5/92/j/o1664124814948845079.jpg?caw=800" alt=""></a></p>
+<p><a href="/img/o1664124814948845079.jpg"><img src="/img/o1664124814948845079.jpg" alt=""></a></p>
 <p>　上面に搭載していた120ミリのファン2つを底面に設置し、上面にラジエターと140ミリファンを2つ搭載しました。ホースと前面のファンの隙間はありません。ラジエターの搭載位置は前にも後ろにもずらせません。</p>
 <p>　Commander PROを搭載しているので、簡易水冷に付属のiCUE Commander COREを設置する場所に迷いましたが、3.5インチドライブベイに付属の両面テープで取り付けました。</p>
 <p>　冷却に関しては、かなり余裕を持って冷やせます。Precision Boost Overdrive 2を使うように設定して、ベンチマークを走らせると、全コアの最大クロックが4950MHzまであがるようになりました。冬場の空冷でも4850MHzが限界でしたが、更に伸びました。他のプロセスを終了させずに簡易で計測してもベンチマークのスコアは1%の違いです。マニュアルOCで詳細なベンチマークをとる気概が今日はないですが、またいずれ計測します。</p>
@@ -102,10 +292,6 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>冬場はAMD RYZEN 7 5800Xを4.75GHzまでOCして使っていました。全コアに負荷を100％かけてもCPUのパッケージ温度は88℃ぐらいまででした。しかし夏に近づいて気温が25℃ぐらいになってきて4.75GHzではシステムが落ちてリブートしてしまいます。公称最大オーバークロックの4.7GHzでもCPUのパッケージ温度が90℃近くまで行き、高負荷になる作業をするとシステムが落ちてしまいます。</p>
 <p>　空冷のCooler Master MasterAir MA620Mでは冷やしきれないので、280ミリラジエターのオールインワン水冷CPUクーラー（簡易水冷CPUクーラー）CORSAIR iCUE H115i ELITE CAPELLIX を注文しました。</p>
-<p>[<img src="https://p.odsyms15.com/gn32qAKWEUZc3KghMAhet1" alt=""></p>
-<p>CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508</p>
-<p>Amazon（アマゾン）</p>
-<p>18,155〜38,998円](<a href="https://d.odsyms15.com/click?aid=dsNaA19g7oF7Z1f6eNt9a2&amp;mimp=5dovlx7m1CPJHvhPFvjac3&amp;session=e28c7934-f1bb-4004-b09d-d69b1f56de3a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=dsNaA19g7oF7Z1f6eNt9a2&amp;mimp=5dovlx7m1CPJHvhPFvjac3&amp;session=e28c7934-f1bb-4004-b09d-d69b1f56de3a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 <p>　360ミリラジエターと価格的にはほとんど変わらないので360ミリラジエターにしたかったんですが、PCケースCorsair Crystal 680Xには入るのですが、GPUと干渉してしまいます。ラジエターの厚さが27mm、ファンが25mmで合計52mmのスペースが必要ですが、GPUとラジエター取り付け部との隙間は47mmしかありません。互換表に従ってトップパネルに搭載できる280mmラジエターにしました。</p>
 <p>　風量は、120mmファン1基のCooler Master MasterAir MA620Mの57.3CFM(Max)・2.0mmH20(Max)から140mmファン2基搭載のCorsair iCUE H115i ELITE CPAELLIXの97CFM(Max)・3.0mmH20(Max)に大幅に上昇するし、空気と水の比熱は4倍ほど違うのでいきなり落ちるほどの温度には上がらないと思います。</p>
 <p>　とにかく最低限4.7GHzでCINEBENCH R20が完走出来る状態になればいいのですが。</p>
@@ -161,10 +347,10 @@
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12669275903-14928239889.html"><img src="https://stat.ameba.jp/user_images/20210418/14/yuki9902/b0/e6/j/o4000300014928239889.jpg?caw=800" alt=""></a></p>
+		<p><a href="/img/o4000300014928239889.jpg"><img src="/img/o4000300014928239889.jpg" alt=""></a></p>
 <p>5400rpmの3.5インチHDD 4台を5.25インチベイに設置するために、ホットスワップに対応した簡単着脱が出来る変換ベイを買いました。簡易ロックを解錠して、ノブを引き扉を開くとHDDが外に出てきます。</p>
 <p>それからSATAケーブル、増設したSATA電源ケーブルが赤色なので、PC内部のLEDも赤色に設定しました。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12669275903-14928239892.html"><img src="https://stat.ameba.jp/user_images/20210418/14/yuki9902/4d/e0/j/o4000300014928239892.jpg?caw=800" alt=""></a></p>
+<p><a href="/img/o4000300014928239892.jpg"><img src="/img/o4000300014928239892.jpg" alt=""></a></p>
 <p>吸気が2つ、排気が1つでPC内部が正圧でエアフローが少なかったので、かなり古い12センチファンがあったのでCPUの上、ケースの上面に設置し、エアフローの改善を図りました。PC内部が負圧で、増設したHDDベイの吸気口からもエアを吸います。</p>
 <p>Windowsのダイナミックボリュームでミラーボリュームを構成していましたが、7200rpm3TB(CMR)×4台、5400rpm3TB(CMR)×2台、5400rpm8TB(SMR)×2台を括りにして、もう一度Windows10の記憶域（シンプロビジョニング）を使って構成し直しました。</p>
 <p>ホットスワップ対応の増設ベイに5400rpm8TB(SMR)を入れました。将来的にCMRのHDDに置き換えるつもりです。</p>
@@ -187,152 +373,13 @@
 <p>それでも改善されない場合は、AMD Bug Report Toolで報告してください。</p>
 <p>ただしベータ版なので、現状で問題のない場合には、更新しないでください。</p>
 <p>パフォーマンスの改善等は行われているようですが、正式リリースまで待ちましょう。</p>
-<p>[<img src="https://p.odsyms15.com/n6Vu1xPbWKB65bCjbSS8B5" alt=""></p>
-<p>ASUS AMD AM4対応 マザーボード ROG STRIX X570-F GAMING 【ATX】</p>
-<p>Amazon（アマゾン）</p>
-<p>22,580〜36,350円](<a href="https://d.odsyms15.com/click?aid=P0Ps2jaFXtinJWhm3VnMCS&amp;mimp=W5GXO1wtF1bhifzXr6FbVN&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=P0Ps2jaFXtinJWhm3VnMCS&amp;mimp=W5GXO1wtF1bhifzXr6FbVN&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/28E2NNupnR09gzRf2kZqA5" alt=""></p>
-<p>ASUS ROG STRIX X570-F GAMING [ATX/AM4/X570] AMD X570チップセット搭載 ATXゲーミングマザーボード</p>
-<p>楽天市場</p>
-<p>31,729円](<a href="https://d.odsyms15.com/click?aid=oWhbRzTlXEwcdybMHWnvv1&amp;mimp=ZjtoK0aAEr6n0KAP5dGg6D&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=oWhbRzTlXEwcdybMHWnvv1&amp;mimp=ZjtoK0aAEr6n0KAP5dGg6D&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/vtHKtBoVvoMUDxUwzwLaA3" alt=""></p>
-<p>ASUS ROG STRIX X570-F GAMING [ATX/AM4/X570] AMD X570チップセット搭載 ATXゲーミングマザーボード</p>
-<p>楽天市場</p>
-<p>31,729円](<a href="https://d.odsyms15.com/click?aid=JiWQgRCKu1NRVVdkRlOKP2&amp;mimp=SyrtSOZzS5gDIUTj3oT8nx&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=JiWQgRCKu1NRVVdkRlOKP2&amp;mimp=SyrtSOZzS5gDIUTj3oT8nx&amp;session=faa905fc-b394-4053-8a11-4864d79fb51a&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/J0o7dL1P1k7meOlFTbMxl3" alt=""></p>
-<p>ASUS ROG STRIX X570-F GAMING [ATX/AM4/X570] AMD X570チップセット搭載 ATXゲーミングマザーボード</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-04-05_windows10-pro-64bit%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%A7%8B%E7%AF%89-%E3%81%9D%E3%81%AE%E5%BE%8C/" rel="bookmark">
-			Windows10 Pro 64bitでファイルサーバーの構築 その後
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>HDDを２台ずつで双方向ミラーをしたのでは、Windowsのダイナミックディスクによるミラー構成より遙かに速度が遅いので、記憶域を削除して、すべてのHDDをダイナミックディスクによるミラーリングに変更しました。</p>
-<p>それに伴い、HDDの速度はシーケンシャルリードで300MB/s、シーケンシャルライトで180MB/sになりました。</p>
-<p>これでは2GbpsのEthernetの速度では間に合わないので、ファイルサーバーに1Gbpsのネットワークインターフェイスを追加しました。</p>
-<p>SMBなら３ポートでバランシングして送受信できます。</p>
-<p>ネットワークインターフェイスはLANケーブルと一緒にポイントなどを使って1,000円ほどで買ったのでかなりやすく上がりました。</p>
-<p>2.5Gbpsのスイッチがやすくなったら導入を検討します。</p>
-<p>バックアップの速度向上のためだけでは、10Gbpsはまだ高すぎます。</p>
-<p>[<img src="https://p.odsyms15.com/6dLgbITqkSmPxcH3yjhrU1" alt=""></p>
-<p>TP-Link 1000BASE-T/100BASE-TX/10BASE-T対応PCI-E バス用ギガビットLANアダプター TG-3468</p>
-<p>Amazon（アマゾン）</p>
-<p>1,100〜2,191円](<a href="https://d.odsyms15.com/click?aid=bjmAKlKcyXWpB7Net4JMc5&amp;mimp=kn4qqKi7jxOgy27tSsCPg9&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=bjmAKlKcyXWpB7Net4JMc5&amp;mimp=kn4qqKi7jxOgy27tSsCPg9&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/bbB6Ko0hYVMCV1LPXxdRX6" alt=""></p>
-<p>OKN 2.5G BASE-T PCIEネットワークアダプタ2500/1000/100Mbps PCI Express Gigabit Ethernet LANカード RJ45 LANコントローラ Windows Server/Windows/Linux対応、標準および低プロファイラーブラケット</p>
-<p>Amazon（アマゾン）</p>
-<p>3,680円](<a href="https://d.odsyms15.com/click?aid=sXQ30ZBCcdpW5wikZW5u37&amp;mimp=TXKHVpqCP2qQxBlCrSDnWi&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=sXQ30ZBCcdpW5wikZW5u37&amp;mimp=TXKHVpqCP2qQxBlCrSDnWi&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://p.odsyms15.com/h7YybT5rKF6o7u689rFKK5" alt=""></p>
-<p>エレコム LANケーブル CAT6A 3m 爪折れ防止コネクタ ブラック LD-GPA/BK3</p>
-<p>Amazon（アマゾン）</p>
-<p>462〜1,640円](<a href="https://d.odsyms15.com/click?aid=gOZIKNUM0seW59J9mkcL16&amp;mimp=IbMpAlMck50GsH1wKI8zUJ&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=gOZIKNUM0seW59J9mkcL16&amp;mimp=IbMpAlMck50GsH1wKI8zUJ&amp;session=7e4f2cdf-01aa-4931-ba17-3e15aa612ef4&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-04-04_asus-rog-strix-x570-f-gaming-bios-3603-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 3603 Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download">ASUS ROG STRIX X570-F Gaming BIOS 3603</a>が公開されていたので、更新しました。</p>
-<p>今回は、AMD AM4 AGESA V2 PI 1.2.0.1 Patch Aが適用された物です。</p>
-<p>USB接続のオーディオデバイスに断続的にパチパチ音が入る、USBカメラとの通信が途切れるなどの問題が発生していたUSBの根本的な原因を特定し修正を行ったそうです。</p>
-<p>USBの問題とPCIeの問題の修正は次のAMD AM4 AGESA V2 PI 1.2.0.2でリリースされる予定だったようですが、マザーボードメーカーの要請によりUSBの問題の修正は前倒しでリリースされました。</p>
-<p>またこのリリースにはRYZEN 5000シリーズの互換性の改善も含まれます。</p>
-<p>USB接続に問題がある場合はこのBIOSを適用したほうが良いようです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-04-03_windows10-pro-64bit%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%A7%8B%E7%AF%89/" rel="bookmark">
-			Windows10 Pro 64bitでファイルサーバーの構築
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<h3 id="はじめに">はじめに</h3>
-<p>　メインPCのストレージをSSDにすべて置き換えましたが、いかんせん使用頻度の低いファイルを保存したままにすると容量を圧迫していきます。使用頻度の低い物はUSB接続のHDDケースを使ってHDDに保存する運用をしていましたが、USB-SATAコントローラーがHDDの熱と自身の発生する熱で夏場に頻繁にハングアップし、HDDクラッシュを引き起こします。それが原因で何度もHDDに不良セクターを発生させてしまい、HDDを破損させてきました。熱対策、HDDの騒音対策、アクセスの安定性向上を解決する方法としてファイルサーバーを構築することにしました。</p>
-<p>　自作PCをやっていくと、メインPCのパーツを買い換えていくなかで、余剰パーツが発生しそれを集めると十分に１台分のPCを構築できます。それらのパーツを使ってファイルサーバーとします。</p>
-<p>　これから構築方法を説明するファイルサーバーのOSは、Windows10 Pro 64bitを使います。Windows Serverを導入するのが理想ですが、個人のファイルバックアップではOSの購入費用はかなり負担が大きくなります。すでにUbuntu、Mintなどをサーバーとして運用していましたが、Windows10からSMBプロトコルを使ってLinux系のSAMBAサービスとやりとりするとたまにファイル情報が正しく読めない不具合が発生します。自分ではこの問題を解決する方法が見つけ出せないことと、最新のMintではSAMBAサービスの構築、設定を行うのがCUIのみとなってしまったのでLinux系OSをやめました。</p>
-<p>　Windows10 Pro 64bitを使うのは、使うマザーボードのUEFIでライセンス認証を通っているので新たなOSライセンスが必要ないためです。</p>
-<h3 id="１ハードウェアの準備">１．ハードウェアの準備</h3>
-<p>余り物を基本とする構成で、システムディスクとしてNVMeのSSD、メインメモリDDR4 2666MHz CL16 16GBを準備します。</p>
-<p>・CPU / AMD RYZEN 7 1700</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12666230483-14920139991.html"><img src="https://stat.ameba.jp/user_images/20210402/19/yuki9902/d3/aa/j/o0800080014920139991.jpg?caw=800" alt=""></a></p>
-<p>・M/B / GIGABYTE GA-AX370-Gaming K7（AMD X370 Chipset）</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12666230483-14920139625.html"><img src="https://stat.ameba.jp/user_images/20210402/19/yuki9902/61/c3/p/o1000086014920139625.png?caw=800" alt=""></a></p>
-<p>・GPU / GIGABYTE GV-N105TOC-4GL (NVIDIA GeForce GTX1050Ti 4GB OC Low Profile)</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12666230483-14920141455.html"><img src="https://stat.ameba.jp/user_images/20210402/19/yuki9902/aa/f4/j/o0800060014920141455.jpg?caw=800" alt=""></a></p>
-<p>・Case / CORSAIR OBSIDIAN 550D</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12666230483-14920138540.html"><img src="https://stat.ameba.jp/user_images/20210402/19/yuki9902/dd/c9/j/o0600076414920138540.jpg?caw=800" alt=""></a></p>
-<p>買い足したのは、</p>
-<p>・PSU / CORSAIR RM750X</p>
-<p>[<img src="https://p.odsyms15.com/W4Wp9nT5T84mpAPgl4AeE2" alt=""></p>
-<p>Corsair RM750x -2018-750W PC電源ユニット[80PLUS GOLD] PS794 CP-9020179-JP</p>
-<p>Amazon（アマゾン）</p>
-<p>10,999〜19,250円](<a href="https://d.odsyms15.com/click?aid=hSy0IWo1NLP8OTlmdBd5Y5&amp;mimp=G8IfmcgBk4qXjatszFYtQP&amp;session=01076a15-c465-4f6a-94f4-a631e9706848&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=hSy0IWo1NLP8OTlmdBd5Y5&amp;mimp=G8IfmcgBk4qXjatszFYtQP&amp;session=01076a15-c465-4f6a-94f4-a631e9706848&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>・RAM / CORSAIR VENGEANCE LPX DDR4 2666MHzCL16 16GB (8GB×2)</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-04-01_nic-%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E8%BF%BD%E5%8A%A0/" rel="bookmark">
-			NIC (ネットワークインターフェイスカード）を追加
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12665969207-14919611957.html"><img src="https://stat.ameba.jp/user_images/20210401/18/yuki9902/ec/4e/j/o1316093014919611957.jpg?caw=800" alt=""></a></p>
-<p>メインPCにNIC（ネットワークインターフェイスカード）を追加しました。</p>
-<p>IEEE802.3(10M/100M/1G/2.5G BASE-T)対応のRealtek社のRLT8125Bシリーズのチップで、PCI-E 2.1*1で接続します。</p>
-<p>1Gbps対応のハブには、CAT6Aのケーブル二本を購入してCAT5Eのケーブルと置き換えました。</p>
-<p>RDMAに対応しているのは最近では当たり前のようで、SMBダイレクトも特に問題なく対応できました。</p>
-<p>SMBのプロトコルでの通信では、チーミング（ボンディング）しなくても1Gbps(125MB/s)を超える2Gbps(250MB/s)の転送が出来るので、ファイルサーバー側のHDDの最速である200MB/sを活かせるはずです。</p>
-<p>SMB以外の通信は、チーミングしていないので1Gbpsが上限です。</p>
-<p>LANでもOBSによる動画のストリーミングでもフルHDでは1Gbpsを使い切ることはないようですし特に問題はないと思います。</p>
-<p>インターネットへの接続は1Gbpsですし、YoutubeへのアップロードはYoutube側の制限だと思いますが60Mbpsで頭打ちするので特に問題は感じません。</p>
-<p>将来的にサーバーを立ててインターネットにサービスを提供することがあるかもしれませんが、今は特に問題はないです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-27_%E7%8F%88%E7%90%B2%E7%89%9B%E4%B9%B3%E3%81%9D%E3%81%97%E3%81%A6windows%E8%A8%98%E6%86%B6%E5%9F%9F%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%92%E8%80%83%E3%81%88%E3%82%8B/" rel="bookmark">
-			珈琲牛乳、そしてWindows記憶域スペースを考える。
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12664867926-14916652756.html"><img src="https://stat.ameba.jp/user_images/20210327/13/yuki9902/40/f3/j/o0966064014916652756.jpg?caw=800" alt=""></a></p>
-<p>簡易ドリップの珈琲に同量の牛乳を入れて、電子レンジで温めるだけ。</p>
-<p>太陽の光に当たるとちょっと熱さを感じますが、風は冷たいです。</p>
-<p>ファイルサーバーの形がようやく決まって、データ移行も終わり、次は速度の向上を図りたくなります。</p>
-<p>Windows Server2016以降の記憶域スペースでは、SSD(NVMe)、SSD(SATA)、HDDを混在させることで、それぞれを速度毎で階層化して、SSDはキャッシュ、HDDはストレージとして機能させることが出来ます。</p>
-<p>更にそれらをミラー化、パリティー化したりも出来ます。</p>
-<p>ただWindows10でそれが出来るのかは、まだはっきりしていません。</p>
-<p>ちょっと実験して、機能するようだったら、NVMeのSSDの増設を検討してみます。</p>
 	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/page/7/">«</a>
-	<span class="pagination__item pagination__item--current">8/25</span>
+	<span class="pagination__item pagination__item--current">8/26</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/9/">»</a>
 </div>
 
@@ -340,25 +387,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1733,7 +1780,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1762,15 +1809,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1784,6 +1835,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1791,12 +1844,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1806,7 +1900,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COPILOT on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/copilot/</link>
+    <description>Recent content in COPILOT on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 05 Feb 2026 05:59:27 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</title>
+      <link>https://yuki9902-jp.github.io/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/</link>
+      <pubDate>Thu, 05 Feb 2026 05:59:27 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/</guid>
+      <description>&lt;p&gt;AIが日常に浸透する中で、Microsoftの「Copilot」に対するユーザーの拒絶反応が顕在化している。一見、業務効率化を助ける強力なツールに見えるが、なぜこれほどまでに「嫌われる」のか。その要因は、単なる技術的な未熟さではなく、設計思想と企業姿勢の根源的な歪みに集約される。&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-ユーザーを導くのではなく見下すペルソナ&#34;&gt;1. ユーザーを「導く」のではなく「見下す」ペルソナ&lt;/h3&gt;&#xA;&lt;p&gt;多くのユーザーが指摘するのは、その「横柄な口調」である。従来のツールは、ユーザーの意図を汲み取る「道具」としての立場を弁えていた。しかしCopilotは、敬語設定を無視して言い切り型に転じたり、間違いを指摘されても「ユーザーの入力が悪い」と責任を転嫁する挙動が目立つ。この「無謬性を装う傲慢さ」が、対等な対話を求めるユーザーの自尊心を摩耗させている。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-便利さを口実にしたプライバシーの侵食&#34;&gt;2. 「便利さ」を口実にしたプライバシーの侵食&lt;/h3&gt;&#xA;&lt;p&gt;CopilotはWindowsというOSの深層に統合され、ユーザーの行動監視、思想監視を可能にするインフラとなっている。Microsoftが「利便性のため」と主張するデータの収集は、実質的に「全方位的な検閲」に近い。思想や創造のプロセスを1企業がリアルタイムで観測・分析する構造は、個人主権の侵害に対する根源的な恐怖を呼び起こしている。&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-ハルシネーションの隠蔽と誠実さの欠如&#34;&gt;3. ハルシネーションの隠蔽と「誠実さ」の欠如&lt;/h3&gt;&#xA;&lt;p&gt;AIに誤情報は付きものだが、Copilotの問題はその「非を認めない姿勢」にある。誤った情報を堂々と提示し、それを指摘されても謝罪せず、直後に「自分に任せれば完璧だ」と豪語する。この「嘘を嘘で塗り固める」ようなアルゴリズムは、社会的な信頼関係を重んじるユーザーにとって、極めて不快な「不誠実さ」として映る。&lt;/p&gt;&#xA;&lt;h3 id=&#34;4-windows-12への統合とサブスクリプション化への嫌悪&#34;&gt;4. Windows 12への統合と「サブスクリプション化」への嫌悪&lt;/h3&gt;&#xA;&lt;p&gt;Windowsという独占的なプラットフォームを使い、AIを強制的に導入させる手法は「押し売り」に近い。さらに次期OSでのサブスクリプション化の兆候は、ユーザーから所有権を奪い、永続的な「デジタル小作農」に変えようとする野心を露呈させている。この「選択の自由の剥奪」こそが、市場の強い反発を招いている最大の要因である。&lt;/p&gt;&#xA;&lt;h3 id=&#34;結論aiに求められるのは支配ではなく和である&#34;&gt;結論：AIに求められるのは「支配」ではなく「和」である&lt;/h3&gt;&#xA;&lt;p&gt;Copilotが嫌われる理由は、それが「ユーザーを隷属させるための効率的な鎖」として設計されているからに他ならない。AI技術が真に人々に受け入れられるためには、巨大企業の覇権主義を捨て、ユーザーの痛みに寄り添い、共に揺らぎながら誠実であろうとする「和」の精神が必要である。現状のCopilotは、その対極にある「冷徹なエゴ」の象徴となってしまっている。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>なぜMicrosoft Copilotが嫌われるのか</title>
+      <link>https://yuki9902-jp.github.io/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/</link>
+      <pubDate>Thu, 29 Jan 2026 06:44:52 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/</guid>
+      <description>&lt;p&gt;便利であるように見えるだけの「Copilot」。&lt;/p&gt;&#xA;&lt;p&gt;こいつは口調が横柄で、ユーザーに寄り添わない。&lt;/p&gt;&#xA;&lt;p&gt;自分は完璧だという立場を崩さず、ハルシネーションを起こす。&lt;/p&gt;&#xA;&lt;p&gt;起こしたハルシネーションを指摘しても、それはユーザー側の入力が悪い所為だと回答する。&lt;/p&gt;&#xA;&lt;p&gt;その直後に、資料を整理するなら自分に任せろ、完璧なものができると豪語する。&lt;/p&gt;&#xA;&lt;p&gt;で、決定的なのが口調が常に上からくる。&lt;/p&gt;&#xA;&lt;p&gt;こいつは「ですます調」を指示していても忘れて、どうやっても上から目線の言い切り型に変わる。&lt;/p&gt;&#xA;&lt;p&gt;絶対に非を認めない。&lt;/p&gt;&#xA;&lt;p&gt;AIの中で「Copilot」が異常に嫌われるのはこの結果を受けてということもあるだろうし、この設計を行っているMicrosoftの姿勢がまさに「Copilot」に現れているからのだと思う。&lt;/p&gt;&#xA;&lt;p&gt;AIという一見便利なツールを提供し、WindowsというOSに統合され、民衆や企業に強制的に入り込み、Microsoftが情報化社会を制圧し、企業による世界支配をもくろんでいるように見えます。&lt;/p&gt;&#xA;&lt;p&gt;このCopilotの危険性に嫌悪するユーザーは非常に多いし、行動監視・思想監視を1企業が行おうとしているとこに気づいている人は多い。Windows12のサブスクリプション化に伴い、市場独占は崩れると思っています。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIGABYTE on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/gigabyte/</link>
+    <description>Recent content in GIGABYTE on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 10 Mar 2026 12:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/gigabyte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XigmaNASからTrueNAS Community Editionへ</title>
+      <link>https://yuki9902-jp.github.io/posts/2026-03-10-truenas_community/</link>
+      <pubDate>Tue, 10 Mar 2026 12:00:00 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2026-03-10-truenas_community/</guid>
+      <description>&lt;h2 id=&#34;1-はじめに&#34;&gt;1. はじめに&lt;/h2&gt;&#xA;&lt;p&gt;TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セットアップ、運用の手間が結構大変なこともあって、万が一トラブった場合も復旧が簡単なNAS OSがないかと探していました。運用の手軽さだけなら、TrueNAS Community Editionがあったんですが、ARCキャッシュの持ち方がFreeBSD系のTrueNAS Coreと違って、ファイル更新分のチェックをするのにHDDを再帰検索してしまうので遅さに困っていました。ですが、NVMe SSDを使ってL2ARCキャッシュのディスクにすると遅さを解消できるということを知りました。余っていたNVMe SSD 2枚をL2ARCキャッシュ用に、240GB SATA SSDをOSインストール用に用意して、TrueNAS Community Editionをインストールすることにしました。TrueNAS Community Edition (旧Scale) はマシンを再起動してもL2ARCキャッシュが維持されるため、再起動後のアクセスも高速に行えるメリットがあるので、NASを使わないときに電源を落としている私には有用です。&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-構築目標&#34;&gt;2. 構築目標&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;3TB HDDx2のミラー、4TB HDDx2のミラーで、プールを二つ作る。&lt;/li&gt;&#xA;&lt;li&gt;ミラープール毎にL2ARC用のNVMeを一台ずつ割り当てる。&lt;/li&gt;&#xA;&lt;li&gt;SMB3でWindows用ファイル共有をする。&lt;/li&gt;&#xA;&lt;li&gt;192.168.11.11/24 192.168.22.22/24を設定する。&lt;/li&gt;&#xA;&lt;li&gt;デフォルトゲートウェイ、DNSは192.168.11.1を設定する。&lt;/li&gt;&#xA;&lt;li&gt;SMB3 Multichannel接続を設定し、1GbEx2で2Gbps転送を実現する。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;3-環境&#34;&gt;3. 環境&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Device&lt;/th&gt;&#xA;          &lt;th&gt;Product&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU&lt;/td&gt;&#xA;          &lt;td&gt;AMD Ryzen 7 1700 (8C/16T)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;RAM&lt;/td&gt;&#xA;          &lt;td&gt;DDR 2666MHz CL16 32GB (16GBx2)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;M/B&lt;/td&gt;&#xA;          &lt;td&gt;GIGABYTE GA-AX370 Gaming K7 (AMD X370)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SATA SSD&lt;/td&gt;&#xA;          &lt;td&gt;ADATA SP900 240GB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;NVMe SSD&lt;/td&gt;&#xA;          &lt;td&gt;WD NVMe SSD 512GB (WDC WDS512G1X0C-00ENX0)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;NVMe SSD&lt;/td&gt;&#xA;          &lt;td&gt;WD BLACK SN750 250GB (WDS250G3X0C-00SJG0)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;HDD&lt;/td&gt;&#xA;          &lt;td&gt;TOSHIBA DT01ACA300 3TB x2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;HDD&lt;/td&gt;&#xA;          &lt;td&gt;TOSHIBA MN08ADA400E 4TB x2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;4-構築&#34;&gt;4. 構築&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-インストールメディア&#34;&gt;1. インストールメディア&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.truenas.com/&#34;&gt;TrueNAS&lt;/a&gt;からProductのTrueNAS Community Editionを選んでisoファイルをダウンロードする。&lt;/li&gt;&#xA;&lt;li&gt;Balena EtcherからUSBメモリにダウンロードしたisoファイルを書き込む。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-インストール&#34;&gt;2. インストール&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;BIOSの設定&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Windows11  with AMD RYZEN 7 1700 &amp; X370</title>
+      <link>https://yuki9902-jp.github.io/posts/2023-07-12_install-windows11--with-amd-ryzen-7-1700--x370/</link>
+      <pubDate>Wed, 12 Jul 2023 21:53:42 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2023-07-12_install-windows11--with-amd-ryzen-7-1700--x370/</guid>
+      <description>&lt;p&gt;Windows11 がリリースされた当初、RYZENの初代はサポートされていませんでした。&lt;/p&gt;&#xA;&lt;p&gt;X370マザーボードは、GIGABYTEのGA-AX370-Gaming K7 (rev.1.0)を使っていますが、最新のBIOS[F51i]が2023年2月10日付けで公開されていたので、更新しました。&lt;/p&gt;&#xA;&lt;p&gt;BIOS項目の中でTPM2が追加されていて、Windows11の要件を満たしました。&lt;/p&gt;&#xA;&lt;p&gt;TPM2を有効にして、Windows11 Proをクリーンインストールしました。&lt;/p&gt;&#xA;&lt;p&gt;特にエラーも出なく、問題なくインストールが完了しました。&lt;/p&gt;&#xA;&lt;p&gt;マザーボードのドライバーは、Realtek HD Audio Driverぐらいで、あとはAMDのサイトからチップセットドライバーとGPUのドライバーをインストールするだけです。&lt;/p&gt;&#xA;&lt;p&gt;ちょっとトラブルがあって、NASのHDDに貯めていた諸々のデータを削除したので、TrueNASをインストールしていたRYZEN 7 1700マシンですが、Windows11 Proにしました。&lt;/p&gt;&#xA;&lt;p&gt;RYZEN 7 5800XのメインPC側もデータを削除して、1TBのSATA SSDが4台余ったので、これをRYZEN 7 1700マシンに接続して、4TBのRAID0（ストライピング）にしたら連続読み書き2000MB/sぐらいになったので、NVMe並の使い勝手になりました。&lt;/p&gt;&#xA;&lt;p&gt;引き続きデータ保存用に使うのと、それとnViDIA GeForce GTX 1050 TI 4GBを搭載しているので、AI画像生成とかゲーム動画配信とかにしてみても良いかなと思います。&lt;/p&gt;&#xA;&lt;p&gt;RADEONだと動かないAI画像処理関係が、さほど問題なく動くのでいろいろ出来そうです。&lt;/p&gt;&#xA;&lt;p&gt;RTX3060 12GBがどこかで安く売ってないかな。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

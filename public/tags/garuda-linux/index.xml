@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garuda Linux on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/garuda-linux/</link>
+    <description>Recent content in Garuda Linux on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 24 Feb 2026 13:13:14 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/garuda-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garuda Mokkaに移行に挑戦したものの</title>
+      <link>https://yuki9902-jp.github.io/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/</link>
+      <pubDate>Tue, 24 Feb 2026 13:13:14 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/</guid>
+      <description>&lt;p&gt;メインPCのOSをGaruda Mokkaに移行しました。&lt;/p&gt;&#xA;&lt;p&gt;いい加減、Microsoft、Adobeのユーザー指向ではないビジネスモデルにうんざりしてきていたので。&lt;/p&gt;&#xA;&lt;p&gt;Adobe Photoshopはフォトエディションを途中解約したので違約金が9000円ほど盗られました。契約に承諾していないのに違約金が発生する契約を結ばされていたのは完全に商法違反、消費者保護法違反ですが、争うのが面倒なので、勉強料だと思って我慢します。&lt;/p&gt;&#xA;&lt;p&gt;Gemini 3 Flashと相談しながら各種設定作業を進めています。&lt;/p&gt;&#xA;&lt;p&gt;・インストール&lt;/p&gt;&#xA;&lt;p&gt;・Mozc日本語設定&lt;/p&gt;&#xA;&lt;p&gt;・7.1chオーディオ構成&lt;/p&gt;&#xA;&lt;p&gt;・Thunderbirdのバックアップからの復元&lt;/p&gt;&#xA;&lt;p&gt;・RAID0を含むドライブ構成&lt;/p&gt;&#xA;&lt;p&gt;・NIC2つのネットワーク構成&lt;/p&gt;&#xA;&lt;p&gt;・SAMBAとSMB3マルチチャンネル接続設定&lt;br&gt;&#xA;・XigmaNASからのバックアップデータ復元&lt;/p&gt;&#xA;&lt;p&gt;データ復元中なのでしばらく掛かりそうです。&lt;/p&gt;&#xA;&lt;p&gt;このあとは、&lt;/p&gt;&#xA;&lt;p&gt;・ROCmのインストール&lt;br&gt;&#xA;・ComfyUIのインストール&lt;/p&gt;&#xA;&lt;p&gt;・学習済みモデルのバックアップデータからの復元&lt;/p&gt;&#xA;&lt;p&gt;・Corsair iCue Linkの設定&lt;/p&gt;&#xA;&lt;p&gt;・Elgato Stream Deckの設定&lt;/p&gt;&#xA;&lt;p&gt;・Elgato Face Camの設定&lt;/p&gt;&#xA;&lt;p&gt;と作業を進めていく予定です。&lt;/p&gt;&#xA;&lt;p&gt;2026/02/25&lt;br&gt;&#xA;・ROCm7.1.xのインストールを行う。&lt;br&gt;&#xA;・ComfyUIのインストールを行う。&lt;/p&gt;&#xA;&lt;p&gt;ComfyUIを実行中、KSmaplerが動き出す直前で、GPUがハングアップを起こし、Geminiに頼りながら解決策を数時間にわたり模索しましたが、解決には至りませんでした。&lt;/p&gt;&#xA;&lt;p&gt;もろもろの設定の難しさ、最新ハードウェアに対応できないことからGaruda Mokkaをあきらめ、Windows 11 Proに戻しました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

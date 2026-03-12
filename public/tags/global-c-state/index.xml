@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global C State on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/global-c-state/</link>
+    <description>Recent content in Global C State on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 29 Dec 2021 11:39:39 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/global-c-state/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows11で落ちなくなったメインPC</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</link>
+      <pubDate>Wed, 29 Dec 2021 11:39:39 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-29_windows11%E3%81%A7%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%B3pc/</guid>
+      <description>&lt;p&gt;RYZEN 7 5800XでPBO2で、コア毎のカーブで-5,-22を設定していると落ちまくっていた件ですが、一度UEFIの設定をDefaultに戻して再起動し、XMP2とPCI-E 4GBデコーディングの有効化、ResizeBARの有効化、Global C Stateの無効化をして起動すると落ちなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;ずっと落ちることがなくなったので、PBO2で-5,-17を設定して運用していますが、今のところ落ちていません。&lt;/p&gt;&#xA;&lt;p&gt;ここ1週間電源を入れっぱなしですが、落ちません。&lt;/p&gt;&#xA;&lt;p&gt;落ちる原因ですが、CPUの冷却具合によってコア電圧を下げて熱容量を確保してクロックアップするPBOが有効になっている場合、CPUの低負荷時に省電力モードC6に移行する際に閾値よりも電圧が下がりすぎていた場合にほぼエラーを出さずに落ちていたようです。&lt;/p&gt;&#xA;&lt;p&gt;通常のUEFIの実装ならGlobal C StateをDisableにするとC6モードに移行しなくなるので解決することが多いです。&lt;/p&gt;&#xA;&lt;p&gt;電圧を下げてクロックアップを狙うPBO2を無効にしても落ちなくなります。&lt;/p&gt;&#xA;&lt;p&gt;一応、Global C Stateだけ無効にして、PBO2は電圧を下げすぎないように設定している現状では、落ちることはないです。&lt;/p&gt;&#xA;&lt;p&gt;ZEN4コアからダイサイズが大きくなり、OCXも7nmに移行するので熱容量が確保しやすくなりオーバークロックしやすくなりそうです。&lt;/p&gt;&#xA;&lt;p&gt;ZEN4が登場してくるのを楽しみに待つばかりです。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

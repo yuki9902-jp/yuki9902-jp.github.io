@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>COMPUTER - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -64,6 +111,286 @@
 	<header class="main__header">
 		<h1 class="main__title">COMPUTER</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2026-01-27_ryzen-5000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8Bwhea-logger-id_18%E3%81%AE%E7%99%BA%E7%94%9F%E8%A6%81%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%86%8D%E8%80%83/" rel="bookmark">
+			Ryzen 5000シリーズにおける「WHEA-Logger ID:18」の発生要因と対策の再考
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>2021年の記事</p>
+<p><a href="../2021-06-09_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></p>
+<p>2026年の記事</p>
+<p><a href="../2026-01-26_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B-2026%E5%B9%B4%E6%A4%9C%E8%A8%BC/">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)</a></p>
+<h3 id="1-エラー事象">1. エラー事象</h3>
+<p>Ryzen 5000シリーズ（Zen 3）搭載システムにおいて、Windowsシステムログに「WHEA-Logger Event ID:18」が記録され、OSが突然停止（再起動またはハングアップ）する事象。</p>
+<ul>
+<li><strong>発生状況:</strong> 高負荷時よりも、アイドル時、軽負荷時、または負荷の変動が激しい瞬間に発生する傾向が強い。</li>
+<li><strong>ログの内容:</strong> 「致命的なハードウェアエラーが発生しました」「コンポーネント: Processor Core」「エラーソース: Machine Check Exception」「エラーの種類: Cache Hierarchy Error（または Bus/Interconnect Error）」と報告される。</li>
+</ul>
+<h3 id="2-技術考察公表資料に基づく事実">2. 技術考察（公表資料に基づく事実）</h3>
+<p>AMDおよびマザーボードメーカーの技術仕様・資料から明らかな事実は以下の通りである。</p>
+<ul>
+<li><strong>SoCの電力管理:</strong> Zen 3アーキテクチャは、数ナノ秒単位で個別のコアの電圧と周波数を動的に制御する「Precision Boost 2」等のアルゴリズムを搭載している。</li>
+<li><strong>過渡応答（Transient Response）の定義:</strong> VRM（電圧レギュレータ）は、CPUの急激な電流要求に対し、物理的なインダクタンス等の影響で供給電圧が一時的に低下（Vdroop）し、その後安定するまでの応答時間を必要とする。</li>
+<li><strong>AGESAの役割:</strong> AMDはAGESA（AMD Generic Encapsulated Software Architecture）を通じて、プロセッサ内部の電力管理レジスタやブースト挙動のマイクロコードを各マザーボードメーカーへ提供している。</li>
+</ul>
+<h3 id="3-ユーザー検証による推測的な考察">3. ユーザー検証による推測的な考察</h3>
+<p>AMDから詳細な内部挙動（どのレジスタがエラーをトリガーしたか）は公表されていないため、以下の点は膨大なユーザー検証に基づく推測である。</p>
+<ul>
+<li><strong>電圧の過渡応答とブーストの不整合:</strong> プロセッサがブーストを開始するタイミングに対し、マザーボード側のVRMによる電圧供給の回復が数マイクロ秒単位で遅延し、一時的に駆動下限電圧を下回る瞬間が発生していると推測される。</li>
+<li><strong>Curve Optimizer（CO）の影響:</strong> COによる負のオフセット設定は、アイドル時付近の電圧マージンをさらに削るため、上述の瞬時的な電圧降下に対する耐性を著しく低下させ、エラーを誘発しやすくしていると推測される。</li>
+</ul>
+<h3 id="4-現時点における技術的解決方法">4. 現時点における技術的解決方法</h3>
+<p>市場の観測およびファームウェアの変遷から得られた解決策は以下の通り。</p>
+<ul>
+<li><strong>AGESAの更新:</strong> 2021年以降のAGESAアップデート（特に1.2.0.0以降）により、多くの環境で本事象が沈静化した。これはAMD側で電圧の遷移タイミングや、低負荷時のベース電圧の下限値を再定義したものと推測される。</li>
+<li><strong>Global C-state Controlの無効化:</strong> BIOS設定でアイドル時の深い省電力ステートへの遷移を制限することで、急激な電圧変動自体を抑制作業。</li>
+<li><strong>特定コアの電圧補正:</strong> エラーログから特定された特定のコアに対してのみ、正のオフセット（電圧増）を加える。</li>
+</ul>
+<h3 id="5-私がauto設定を選択した理由">5. 私が「Auto」設定を選択した理由</h3>
+<p>以上の考察に基づき、手動による詳細設定ではなく「Auto」を選択した技術的判断は以下の通りである。</p>
+<ol>
+<li><strong>アルゴリズムの複雑性:</strong> 現代のSoCは、温度、電流、負荷を統合的に判断して動的に動作している。ユーザーによる静的な電圧オフセット（CO等）は、この動的なガードバンドを意図せず逸脱させるリスクが高い。</li>
+<li><strong>検証の限界:</strong> ユーザー側ではナノ秒単位の電力挙動を実測・デバッグすることは不可能であり、手動設定はあくまで「特定の負荷パターン」に対する対症療法に留まる。</li>
+<li><strong>信頼性の担保:</strong> メーカーが提供する最新のAGESAによる自律制御（Auto）に委ねることが、設計者が想定したマージンを全動作域で維持するための最も合理的かつ確実な手段であると判断したため。</li>
+</ol>
+<h3 id="6-同じエラーで悩んでいる人に向けて">6. 同じエラーで悩んでいる人に向けて</h3>
+<p>もし、あなたが今まさに「WHEA-Logger ID:18」に翻弄され、原因不明の再起動に絶望しているのなら、数年間にわたる検証を経て得られた以下の知見を、一つの指針として提示します。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2026-01-26_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B-2026%E5%B9%B4%E6%A4%9C%E8%A8%BC/" rel="bookmark">
+			致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>かつてRyzen 5000シリーズ（Zen3）ユーザーに苦悩を強いた「WHEA-Logger ID:18」。 現在は Ryzen 9 9950X3D をメイン機としていますが、手元には予備機として <strong>Ryzen 9 5900XT / RAM 64GB / Radeon RX6750XT</strong> の構成が稼働しています。</p>
+<p>数々の電圧設定、PBOの微調整を経て、最終的に「すべてAuto設定」という安全かつ安定という最適解に辿り着いたこのマシンの挙動から、改めてこのエラーの正体と、Zen3環境における2026年時点の知見を記録しておきます。</p>
+<p>まずは、当時の原因究明の礎となったMicrosoftの公式情報を再掲します。</p>
+<hr>
+<h4 id="イベントビューアーの記録">【イベントビューアーの記録】</h4>
+<p><strong>説明:</strong> 致命的なハードウェア エラーが発生しました。 コンポーネントによる報告: プロセッサ コア エラー ソース: Machine Check Exception エラーの種類: Bus/Interconnect Error プロセッサ APIC ID: 0</p>
+<p><strong>ユーザー アクション:</strong> このイベントの詳細領域には、詳細情報が含まれています。</p>
+<ol>
+<li><strong>Windows Update の確認:</strong> 最新のドライバー、特にチップセットとグラフィックス カードのドライバーがインストールされていることを確認します。</li>
+<li><strong>BIOS/ファームウェアの更新:</strong> マザーボードの製造元の Web サイトで、利用可能な最新の BIOS またはファームウェアの更新プログラムを確認します。</li>
+<li><strong>オーバークロックの停止:</strong> システムがオーバークロックされている場合は、標準設定に戻して問題が解決するかどうかを確認します。</li>
+<li><strong>ハードウェアの診断:</strong> メモリ診断ツールや、製造元が提供するハードウェア診断ユーティリティを実行します。</li>
+<li><strong>電源の確認:</strong> 電源ユニットがすべてのコンポーネントに十分な電力を供給していることを確認します。</li>
+</ol>
+<hr>
+<h4 id="2026年時点のzen3知見なぜautoが正解なのか">【2026年時点のZen3知見：なぜ「Auto」が正解なのか】</h4>
+<p><strong>1. 電圧制御（Vcore/SoC）の成熟</strong> 2021年当時はBIOS（AGESA）が未成熟で、アイドル時や低負荷時の電圧ドロップが原因で「ID:18」が頻発していました。しかし、最終盤のAGESAにアップデートし、設定を「Auto」に委ねることで、現在のRyzen 9 5900XTは、OS（Windows 11 25H2）のスケジューラと完璧に調和して動作しています。</p>
+<p><strong>2. 予備機としての絶対的安定性</strong> RAMを64GB積んでいるこのマシンにおいて、手動でのメモリOCやPBOの攻めた設定はもはや不要です。Auto設定は「遅い」のではなく「プロセッサが自らの限界と安全圏を最も正確に把握している状態」であり、不意の再起動を許さない予備機としての責務を果たしています。</p>
+<p><strong>3. Radeon RX6750XTとの親和性</strong> Smart Access Memory（SAM）を有効にした「Auto」環境では、エラーの原因となりやすいドライバ間の不整合も最小限に抑えられています。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2026-01-24_windows%E7%92%B0%E5%A2%83%E3%81%AEradeon-rx-9070-xt%E3%81%A7comfyui%E3%82%92%E4%BD%BF%E3%81%86-2026_1_24/" rel="bookmark">
+			Windows環境のRadeon RX 9070 XTでComfyUIを使う 2026/1/24
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h3 id="1-はじめに">1. はじめに</h3>
+<p>2025年末から2026年1月にかけて、AMDユーザー待望のAI環境がかなり整いました。<strong>Radeon Software:Adrenaline 25.20.01.17 with ROCm7.1.1 Pytorch</strong> の公開と、さらに2026年1月21日に公開された <strong>AMD Software: Adrenalin 26.1.1 AIbundle</strong> により、Windowsネイティブ環境でのAI生成（ComfyUI）が、かなり簡単になりました。（注意：Ollamaの設定は難しいままです。）</p>
+<p>現時点における「2026年1月の簡単導入手順」を提供します。</p>
+<hr>
+<h3 id="2-構築環境2026年1月時点">2. 構築環境（2026年1月時点）</h3>
+<p>最新のRDNA 4アーキテクチャとROCm 7.xを活かすための構成です。</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>項目</strong></th>
+          <th><strong>要件 / 使用パーツ</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>GPU</strong></td>
+          <td><strong>ASUS TUF-Gaming RX 9070 XT OC 16GB</strong> (RDNA 4)</td>
+      </tr>
+      <tr>
+          <td><strong>CPU</strong></td>
+          <td><strong>AMD Ryzen 9 9950X3D</strong>(CPUの処理も行われるので良いものを)</td>
+      </tr>
+      <tr>
+          <td><strong>RAM</strong></td>
+          <td><strong>DDR5-6000 64GB</strong> (32GB以上を強く推奨)</td>
+      </tr>
+      <tr>
+          <td><strong>OS</strong></td>
+          <td><strong>Windows 11 Pro 25H2</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Driver</strong></td>
+          <td><strong>Adrenalin 26.1.1 (AI Bundle同梱版)</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="重要メモリの最低要件"><strong>【重要】メモリの最低要件</strong></h4>
+<p>メモリ高騰の中、非常に苦しい要件ですが、メインメモリは32GBを用意してください。最新の巨大なAIモデル（FLUX.1等）を扱う場合、16GB環境ではモデルのロード時や高解像度化の際にプロセスが強制終了（クラッシュ）する事例が多発しています。安定運用のための「実用上の最低ライン」として32GB以上を推奨しています。</p>
+<h4 id="重要uefibios設定"><strong>【重要】UEFI（BIOS）設定</strong></h4>
+<p>導入前に必ず以下が「Enable（有効）」であることを確認してください。これらがオフだと、AI処理のパフォーマンスが著しく低下、または起動しません。</p>
+<ul>
+<li><strong>Above 4GB Decoding</strong></li>
+<li><strong>Resizable BAR</strong></li>
+</ul>
+<hr>
+<h3 id="3-インストール手順">3. インストール手順</h3>
+<p><strong>ステップ1：AI Bundle対応ドライバの導入</strong></p>
+<p>[AMD公式サイト]より <strong>Adrenalin 26.1.1</strong> 以降をダウンロードします。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2026-01-09_truenas-core%E3%81%8B%E3%82%89trunas-communication%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F/" rel="bookmark">
+			TrueNAS CoreからTruNAS Communicationに移行した
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunicationとEnterpriseのエディションとなりました。</p>
+<p>FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Communicationにインストールし直しました。</p>
+<p>UIは似ているんですが、設定項目の配置が違うのでそれを探すのが手間取ります。</p>
+<p>SMBのマルチチャネル接続は、チェックボックスに変わったのでこちらは簡単になりました。</p>
+<p>後はWindows側からファイルを書き込むときは、ROBOCOPYのオプションのJ、MT:2を設定することで安定した速度が確保できます。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2025-12-11_ryzen-9-9950x3d--radeon-9070xt--ddr5-6000cl30/" rel="bookmark">
+			RYZEN 9 9950X3D &amp; RADEON 9070XT ＆ DDR5 6000CL30
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>最終的に、以下の構成でPCを組んだら、新PCになりました。手元に資金が出来たときが急騰する直前で、思い切って購入し、今となっては非常に良かったです。しばらくは性能不足に陥ることの無いスペックで組み上げたので安心です。</p>
+<p>昨今のメモリとストレージの急騰と枯渇状態をみると、部品の故障には気をつけてオーバークロック（PBOを含む）を避け、メンテナンス時には電源をちゃんとOFFにして作業をするように心がけます。</p>
+<h4 id="メインpc">メインPC</h4>
+<dl>
+<dt><strong>・CPU</strong></dt>
+<dd>AMD RYZEN 9950X3D</dd>
+<dt><strong>・M/B</strong></dt>
+<dd>ASUS ROG STRIX X870E-E Gaming WIFI</dd>
+<dt><strong>・RAM</strong></dt>
+<dd>CORSAIR VENGENCE DDR5 6000MT CL30 64GB(32GBx2)</dd>
+<dt><strong>・GPU</strong></dt>
+<dd>ASUS TUF-RX9070XTO16G-GAMING</dd>
+<dt><strong>・PSU</strong></dt>
+<dd>CORSAIR RM1000x</dd>
+<dt><strong>・CASE</strong></dt>
+<dd>CORSAIR FRAME 4000D</dd>
+<dt><strong>・STORAGE</strong></dt>
+<dd>WD BLACK SN850X 2TB x2<br>
+WD BLACK SN750 2TB<br>
+WD BLUE SATA SSD 2TB x2<br>
+WD BLUE SATA SSD 1TB x2</dd>
+</dl>
+<p><a href="/img/o0966064015739565139.jpg"><img src="/img/o0966064015739565139.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565142.jpg"><img src="/img/o0966064015739565142.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565143.jpg"><img src="/img/o0966064015739565143.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565147.jpg"><img src="/img/o0966064015739565147.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565149.jpg"><img src="/img/o0966064015739565149.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565152.jpg"><img src="/img/o0966064015739565152.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739565153.jpg"><img src="/img/o0966064015739565153.jpg" alt=""></a></p>
+<p><a href="/img/o0966064015739574724.jpg"><img src="/img/o0966064015739574724.jpg" alt=""></a></p>
+<h4 id="cinebenchのスコア">Cinebenchのスコア</h4>
+<table>
+  <thead>
+      <tr>
+          <th>CPU</th>
+          <th>Clock</th>
+          <th>Memory</th>
+          <th>Chip Set</th>
+          <th style="text-align: right">R20 (MP)</th>
+          <th style="text-align: right">R20 (SP)</th>
+          <th style="text-align: right">R15 (MP)</th>
+          <th style="text-align: right">R15 (SP)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>RYZEN 7 1700</td>
+          <td>3.6GHz</td>
+          <td>DDR4 2993MHz CL16</td>
+          <td>X370</td>
+          <td style="text-align: right">3526</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 3700X</td>
+          <td>4.3GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">4977</td>
+          <td style="text-align: right">495</td>
+          <td style="text-align: right">2214</td>
+          <td style="text-align: right">206</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 5800X</td>
+          <td>4.725GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">6180</td>
+          <td style="text-align: right">607</td>
+          <td style="text-align: right">2693</td>
+          <td style="text-align: right">258</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 5800X</td>
+          <td>PBO (4.3GHz)</td>
+          <td>DDR4 3600MHz CL16</td>
+          <td>X570</td>
+          <td style="text-align: right">5618</td>
+          <td style="text-align: right">612</td>
+          <td style="text-align: right">2403</td>
+          <td style="text-align: right">256</td>
+      </tr>
+      <tr>
+          <td>RYZEN 9 5900XT</td>
+          <td>PBO (4.4GHz)</td>
+          <td>DDR4 3600MHz CL16</td>
+          <td>X570</td>
+          <td style="text-align: right">10649</td>
+          <td style="text-align: right">601</td>
+          <td style="text-align: right">4578</td>
+          <td style="text-align: right">256</td>
+      </tr>
+      <tr>
+          <td>RYZEN 9 9950X3D</td>
+          <td>PBO (4.3GHz)</td>
+          <td>DDR5 6000MHz CL30</td>
+          <td>X870E</td>
+          <td style="text-align: right">17059</td>
+          <td style="text-align: right">874</td>
+          <td style="text-align: right">6867</td>
+          <td style="text-align: right">349</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="ff-xivのスコアとfpsavg">FF XIVのスコアとfps(Avg.)</h4>
+<p>[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質</p>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -166,8 +493,6 @@
 <p>M/Bの欠点として、7.1ch オーディオ出力が背面から出来ないので、HD AUDIO端子を背面に引き出すための製品を探し、Silverstoneのケースのオプションが代用できそうなので注文しました。</p>
 <p>商品は今日の夕方には届きそうです。</p>
 <p>しばらくはBIOS設定をいじってCPUの性能を引き出すための色々を楽しもうと思います。</p>
-<p>[<img src="https://m.media-amazon.com/images/I/31lxYNb6nwL._SL500_.jpg" alt=""></p>
-<p>【Amazon.co.jp限定】 AMD Ryzen 9 9950X3D, without Cooler AM5 4.3GHz 16コア / 32スレッド 144MB 170W 正規代理店品 100-100000719WOF/EW-1Y</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -181,12 +506,6 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p>メインPCのゲーム用NVMe SSD 2TBをSN750からSN850Xに入れ替えました。</p>
-<p>[<img src="https://m.media-amazon.com/images/I/31iqQ7bnRWL._SL500_.jpg" alt=""></p>
-<p>Western Digital ウエスタンデジタル WD BLACK M.2 SSD 内蔵 2TB NVMe PCIe Gen4 x4 (読取り最大 7300MB/s 書込み最大 6600MB/s) ゲーミング PC WDS200T2X0E-EC SN850X 【国内正規取扱代理店】</p>
-<p>Amazon（アマゾン）](<a href="https://d.odsyms15.com/click?aid=L5hfBNUAFW0TbrjMbILLo6&amp;mimp=dgU2e7EF0LALd3nFsIVqxk&amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=L5hfBNUAFW0TbrjMbILLo6&amp;mimp=dgU2e7EF0LALd3nFsIVqxk&amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>[<img src="https://m.media-amazon.com/images/I/31HzjcYMhDL._SL500_.jpg" alt=""></p>
-<p>Western Digital ウエスタンデジタル 内蔵SSD 2TB WD Black SN750 ゲーム向け M.2-2280 NVMe WDS200T3X0C-EC 【国内正規代理店品】</p>
-<p>Amazon（アマゾン）](<a href="https://d.odsyms15.com/click?aid=YDVaPL4q0krFDQs0srdy73&amp;mimp=Jc1Cugigl4OUg2pPQsErPP&amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=YDVaPL4q0krFDQs0srdy73&amp;mimp=Jc1Cugigl4OUg2pPQsErPP&amp;session=d2d4b9ca-1cf2-4d30-9481-68ac4c9b9d75&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 <p>SN750を買ったのが5年前。</p>
 <p>当時の価格で51,800円、いろいろなポイントや割引を使って33,000円で買っています。</p>
 <p>ゲーム用に使っていたので劣化度は0%ですが、「原神」のスタッタリング（かくつき）が気になっていたので改善できるかどうか、期待半分で入替です。</p>
@@ -205,362 +524,12 @@
 <p>ついでにアプリの作業やテンポラリに使うドライブも別にした方がいいです。</p>
 <p>細かいデータを頻繁に書き込みや削除すると劣化が早いです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2025-01-28_corsair-icue-link-titan-240-rx-rgb/" rel="bookmark">
-			Corsair iCUE LINK TITAN 240 RX RGB
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>水冷ヘッドを壊してしまった。</p>
-<p>Corsair <a href="https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060069-ww/icue-h115i-elite-capellix-xt-liquid-cpu-cooler">iCUE H115i ELITE CAPELLIX XT</a>（280mmAIOクーラー黒）と<a href="https://www.corsair.com/jp/ja/p/cpu-coolers/cw-9060056-ww/icue-elite-cpu-cooler-lcd-display-upgrade-kit-cw-9060056-ww">iCUE ELITECPU クーラー LCDディスプレイアップグレードキット</a>をセットにして使用していましたが、クーラーのヘッド部分が熱くなってくるとLCDの下半分の表示が乱れてしまう問題があり、イライラしてました。</p>
-<p>先日、また表示が乱れたので、何度か再起動したりしても直らず、イライラしたので電源が入ったままLCDキットを本体から抜いて差し直したら、クーラーのヘッド部分のファームウェアが壊れてしまいました。</p>
-<p>iCUE制御ソフトウェアからヘッド部分が認識できなくなり、ポンプの制御が出来なくなり一定速度でしか回転しなくなり、LCDの表示が出来なくなり、LEDも消灯してしまいました。</p>
-<p>さすがにCPUの冷却するための物で壊れたままは不味いので、パソコン工房の通販で新しくCorsair <a href="https://www.corsair.com/jp/ja/p/cpu-coolers/CW-9061016-WW/icue-link-titan-240-rx-rgb-aio-liquid-cpu-cooler-cw-9061016-ww">iCUE LINK TITAN 240 RX RGB AIO 水冷式CPUクーラー</a>黒を買いました。</p>
-<p>[CORSAIR iCUE LINK TITAN 240 RX RGB 水冷式 CPU クーラー – RX120 RGB ファン搭載 – Intel® LGA 1851/1700, AMD® AM5/AM4 対応 – iCUE LINK システムハブ同梱 ホワイト CW-9061020-WW</p>
-<p>Amazon（アマゾン）</p>
-<p>20,845〜35,581円</p>
-<p><img src="https://m.media-amazon.com/images/I/31KEHKVUyZL._SL500_.jpg" alt="">](<a href="https://d.odsyms15.com/click?aid=dvWke0f92JFancR5HV8Om7&amp;mimp=zJpC9C67hcDO8rEgx6IAvg&amp;session=82f34427-108d-4839-86b4-c7d944627a05&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=dvWke0f92JFancR5HV8Om7&amp;mimp=zJpC9C67hcDO8rEgx6IAvg&amp;session=82f34427-108d-4839-86b4-c7d944627a05&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>CorsairのiCUE LINKという新しい接続方式になりファンやクーラーヘッダへの接続が少ないケーブルで済むのでケース内がすっきりします。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12884168194-15537984959.html"><img src="https://stat.ameba.jp/user_images/20250128/12/yuki9902/fd/22/j/o2014151115537984959.jpg?caw=800" alt=""></a></p>
-<p>ただ、PCI-Eの8pin(6+2pin)電源ケーブルが1本必要になるので、安物の電源ユニットでは採用が難しいです。</p>
-<p>冷却能力は280mmから240mmにグレードダウンしましたが、先のAIOは経年で冷却液が少なくなっていたこと、クーラーとファンの制御の見直しもありよく冷えています。</p>
-<p>CPUは、AMD RYZEN 9 5900XTで、これをPBOでカーブオプティマイズしてやると190W近くまで消費してCinebench R23で30000ぐらいの値になりました。</p>
-<p>ノーマルで使うより10％前後高速になっています。</p>
-<p>急な出費になってしまいましたが、性能的には概ね満足な物でした。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/" rel="bookmark">
-			AMD Software Adrenalin Edition 24.12.1
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html">AMD RADEON RX6750XT</a> のドライバーをアップデートしました。</p>
-<p>WSL 2(Windows Subsystem for Linux)でAI開発のAMD ROCmをサポートしたようです。ONNXやTensorFlowなどが動くようです。</p>
-<p>あとはHYPR-Tuneのサポート拡大、Vulkanのサポート拡大、不具合の修正です。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-11-09_amd-ryzen-7-5800x8c_16t%E3%81%8B%E3%82%899-5900xt16c_32t%E3%81%B8%E6%8F%9B%E8%A3%85/" rel="bookmark">
-			AMD RYZEN 7 5800X(8c/16t)から、9 5900XT(16c/32t)へ換装
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>RYZEN 7 9800X3Dへの物欲が湧きすぎて我慢きかなくなったので、抑制のためにAMD RYZEN 9 5900XTを買いました。</p>
-<p>RYZEN 7 9800X3Dを買うためには、マザーボード、メモリと合わせて20万円くらいですが、RYZEN 9 5900XTなら6万円です。</p>
-<p>シングルスレッド性能比、9800X3D：5900XT ＝ 100：70</p>
-<p>マルチスレッド性能比、9800X3D：5900XT ＝ 90：100</p>
-<p>普段使っているWQHDでのゲーム性能では、シングルスレッド性能と3DVcacheの影響よりもグラボの性能の影響が大きいので、今使っている5800Xからの性能向上はどちらも価格に見合うものではありません。</p>
-<p>5800Xと5900XTのマルチスレッド性能比ですが、1.9倍程度です。</p>
-<p>シングルスレッド性能はほぼ同じです。</p>
-<p>5900XT は、5800X + 5800Xみたいな感じです。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12874412443-15508044774.html"><img src="https://stat.ameba.jp/user_images/20241109/19/yuki9902/b8/f2/j/o1758131915508044774.jpg?caw=800" alt=""></a></p>
-<table>
-  <thead>
-      <tr>
-          <th>CPU</th>
-          <th>Clock</th>
-          <th>Memory</th>
-          <th>Chip Set</th>
-          <th>CINEBENCH R20</th>
-          <th></th>
-          <th>CINEBENCH R15</th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>MP</td>
-          <td>Single</td>
-          <td>MP</td>
-          <td>Single</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 1700</td>
-          <td>3.6GHz</td>
-          <td>DDR4 2993MHz CL16</td>
-          <td>X370</td>
-          <td>3526</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 3700X</td>
-          <td>4.3GHz</td>
-          <td>DDR4 3600MHz CL18</td>
-          <td>X570</td>
-          <td>4977</td>
-          <td>495</td>
-          <td>2214</td>
-          <td>206</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X</td>
-          <td>4.725GHz</td>
-          <td>DDR4 3600MHz CL18</td>
-          <td>X570</td>
-          <td>6180</td>
-          <td>607</td>
-          <td>2693</td>
-          <td>258</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X</td>
-          <td>PBO (4.3GHz)</td>
-          <td>DDR4 3600MHz CL16</td>
-          <td>X570</td>
-          <td>5618</td>
-          <td>612</td>
-          <td>2403</td>
-          <td>256</td>
-      </tr>
-      <tr>
-          <td>RYZEN 9 5900XT</td>
-          <td>PBO (4.4GHz)</td>
-          <td>DDR4 3600MHz CL16</td>
-          <td>X570</td>
-          <td>10649</td>
-          <td>601</td>
-          <td>4578</td>
-          <td>256</td>
-      </tr>
-      <tr>
-          <td>RYZEN 9 9950X3D</td>
-          <td>PBO (4.3GHz)</td>
-          <td>DDR5 6000MHz CL30</td>
-          <td>X870E</td>
-          <td>17059</td>
-          <td>874</td>
-          <td>6867</td>
-          <td>349</td>
-      </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-      <tr>
-          <th>CPU</th>
-          <th>Clock</th>
-          <th>Memory</th>
-          <th>Chip Set</th>
-          <th>GPU</th>
-          <th>FF XIV 紅蓮のリベレーター</th>
-          <th></th>
-          <th>FF XIV 漆黒のヴィランズ</th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>最高品質</td>
-          <td>FPS (Avg.)</td>
-          <td>最高品質</td>
-          <td>FPS (Avg.)</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 1700 (8C/16T)</td>
-          <td>3.6GHz</td>
-          <td>DDR4 2996MHz CL16</td>
-          <td>X370</td>
-          <td>Geforce GTX 1060 6GB</td>
-          <td>12253</td>
-          <td>83.82</td>
-          <td>12183</td>
-          <td>85.8196</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 3700X (8C/16T)</td>
-          <td>4.3GHz</td>
-          <td>DDR4 3600MHz CL18</td>
-          <td>X570</td>
-          <td>Geforce GTX 1060 6GB</td>
-          <td>13081</td>
-          <td>87.73</td>
-          <td>13772</td>
-          <td>93.0694</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 3700X (8C/16T)</td>
-          <td>4.3GHz</td>
-          <td>DDR4 3600MHz CL18</td>
-          <td>X570</td>
-          <td>RADEON RX 5700XT</td>
-          <td>17712</td>
-          <td>123.412</td>
-          <td>18043</td>
-          <td>132.0101</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X (8C/16T)</td>
-          <td>4.725GHz</td>
-          <td>DDR4 3600MHz CL18</td>
-          <td>X570</td>
-          <td>RADEON RX 5700XT</td>
-          <td>21794</td>
-          <td>146.884</td>
-          <td>22206</td>
-          <td>151.3159</td>
-      </tr>
-      <tr>
-          <td>RYZEN 7 5800X (8C/16T)</td>
-          <td>PBO (4.3GHz)</td>
-          <td>DDR4 3600MHz CL16</td>
-          <td>X570</td>
-          <td>RADEON RX 6750XT</td>
-          <td>22417</td>
-          <td>159.534</td>
-          <td>22532</td>
-          <td>166.2346</td>
-      </tr>
-      <tr>
-          <td>RYZEN 9 5900XT (16C/32T)</td>
-          <td>PBO (4.4GHz)</td>
-          <td>DDR4 3600MHz CL16</td>
-          <td>X570</td>
-          <td>RADEON RX 6750XT</td>
-          <td>23419</td>
-          <td>162.843</td>
-          <td>23035</td>
-          <td>168.6626</td>
-      </tr>
-      <tr>
-          <td>RYZEN 9 9950X3D (16C/32T)</td>
-          <td>PBO (4.3GHz)</td>
-          <td>DDR5 6000MHz CL30</td>
-          <td>X870E</td>
-          <td>RADEON RX 6750XT</td>
-          <td>32999</td>
-          <td>211.578</td>
-          <td>33705</td>
-          <td>216.1779</td>
-      </tr>
-      <tr>
-          <td>RYZEN 9 9950X3D (16C/32T)</td>
-          <td>PBO (4.3GHz)</td>
-          <td>DDR5 6000MHz CL30</td>
-          <td>X870E</td>
-          <td>RADEON RX 9070XT</td>
-          <td>41207</td>
-          <td>273.941</td>
-          <td>41618</td>
-          <td>290.8161</td>
-      </tr>
-  </tbody>
-</table>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-11-04_asus-rog-strix-x570-f-gaming-bios-5021/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 5021
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>ASUS ROG STRIX X570-F GamingのAGESA ComboV2PI 1.2.0.Ccのアップデートの<a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/">BIOS</a>がリリースされました。</p>
-<p>CPUの深刻な脆弱性に対する修正がされているので、極力更新しておきましょう。</p>
-<p>別件ですが、Windows 11はWindows 10より、CPUの分岐予測に違いによりPerformanceが2%ほど低下します。この問題は長い間修正されませんでしたが、Ryzen 9000シリーズが登場したのを機に、AMDからの要請を受けてMicrosoftから修正パッチが出ました。Windows 11 24H2に含まれる予定だった修正ですが、先んじてパッチ公開されました。IntelのCPUでも分岐予測が改善されるようです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2024-10-06_pc%E5%91%A8%E3%82%8A%E3%81%AE%E9%9B%91%E8%A8%98/" rel="bookmark">
-			PC周りの雑記
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<h3 id="1-メインpcシステムソフトウェアの刷新">1. メインPC：システム・ソフトウェアの刷新</h3>
-<p>メインPC（ASUS ROG STRIX X570-F Gaming）において、安定性とセキュリティ向上のための大幅なアップデートを実施しました。</p>
-<ul>
-<li>
-<p><strong>BIOS・チップセットの更新</strong></p>
-<ul>
-<li><strong>BIOS (v5020 Beta):</strong> AGESA ComboV2PI 1.2.0.Cc へ更新。CPUの脆弱性対策および、特定条件下（スリープ・休止・ソフト電源オフ時）のCPU例外エラーを修正。</li>
-<li><strong>チップセットドライバ:</strong> 新たに「AMD Interface Driver」が追加されました。</li>
-</ul>
-</li>
-<li>
-<p><strong>GPU・オーディオドライバ</strong></p>
-<ul>
-<li><strong>GPU (Radeon RX 6750 XT):</strong> 9月版ドライバへ更新。**AFMF 2（AMD Fluid Motion Frames 2）**の搭載により、シーン切り替え時のフレーム補間が改善され、より滑らかな高リフレッシュレートを実現。</li>
-<li><strong>Realtek Audio Driver (v6.0.9700.1):</strong> システムの安定性が向上しました。</li>
-</ul>
-</li>
-<li>
-<p><strong>OS・アプリケーションのアップグレード</strong></p>
-<ul>
-<li><strong>Windows 11 24H2:</strong> インストーラー経由で上書きインストール。非対応のVoiceMeeter仮想ドライバが残存していると更新が阻害されるため、手動で残骸を全削除して対応しました。</li>
-<li><strong>DaVinci Resolve v19:</strong> 最新版へアップグレード完了。</li>
-</ul>
-</li>
-<li>
-<p><strong>トラブルシューティング</strong></p>
-<ul>
-<li><strong>Armoury Crate × iCUE 連携:</strong> 両ソフトの競合トラブルが発生。OSの修復インストールを3回試みましたが解決せず、最終的には各ソフトウェア自体のアップデートにより解消されました。</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-ハードウェアの調整と周辺機器">2. ハードウェアの調整と周辺機器</h3>
-<ul>
-<li>
-<p><strong>メモリの熱対策</strong></p>
-<ul>
-<li>DDR4 OCメモリ（4枚挿し/3600MHz/CL16）が高負荷時に<strong>50°C</strong>を超え、システムダウンが発生。Amazonで購入したJonsbo製クーラーが不良品だったため、手持ちの<strong>80mmファン</strong>で代替。これにより高負荷時も<strong>43°C前後</strong>で安定するようになりました。</li>
-</ul>
-</li>
-<li>
-<p><strong>オーディオ環境の改善</strong></p>
-<ul>
-<li><strong>TASCAM Series 102i</strong>を導入。旧環境（Sony PHA-1A × ASMedia製USBチップ）の相性問題を解決しました。102iは音質・性能ともに優秀ですが、ドライバUIの視認性には課題を感じます。</li>
-<li>なお、PHA-1Aも接続ポートの変更により安定したため、現在は併用しています。</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-サブpcサーバーのos変更">3. サブPC・サーバーのOS変更</h3>
-<ul>
-<li>
-<p><strong>ノートPC（非サポート環境）</strong></p>
-<ul>
-<li>第3世代Core i3機（非対応ハード）にWindows 11 24H2を強制適用しましたが、更新パッチの適用不可という不具合が発生。実用性を重視し、<strong>Linux Mint Cinnamon</strong>へ移行しました。</li>
-</ul>
-</li>
-<li>
-<p><strong>ファイルサーバー（Ryzen 7 1700機）</strong></p>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/">«</a>
-	<span class="pagination__item pagination__item--current">2/25</span>
+	<span class="pagination__item pagination__item--current">2/26</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/3/">»</a>
 </div>
 
@@ -568,25 +537,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1961,7 +1930,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1990,15 +1959,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -2012,6 +1985,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -2019,12 +1994,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -2034,7 +2050,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

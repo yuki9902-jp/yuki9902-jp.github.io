@@ -5,7 +5,7 @@
     <link>https://yuki9902-jp.github.io/archives/2012-11/</link>
     <description>Recent content in 2012-11 on yuki9902::blog</description>
     <generator>Hugo</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sun, 25 Nov 2012 22:57:28 +0900</lastBuildDate>
     <atom:link href="https://yuki9902-jp.github.io/archives/2012-11/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -76,7 +76,7 @@
       <link>https://yuki9902-jp.github.io/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</link>
       <pubDate>Sat, 03 Nov 2012 15:36:00 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2012-11-03_twitter%E3%81%AE%E4%BA%92%E6%8F%9B%E8%A1%A8%E7%A4%BA/</guid>
-      <description>&lt;p&gt;さて、Internet Explorer は互換表示機能を持っていますが、ページレイアウトにエラーがあると「互換表示」に切り替わって、リロードします。&lt;/p&gt;&#xA;&lt;p&gt;で、twitterのサイトの「欠陥仕様」により、互換表示になっていると「mobile.twitter.com」に転送されてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;で、通常httpsのSSLで接続している場合はアドレスバーに互換表示マークが表示されないので、変更するのに苦労します。&lt;/p&gt;&#xA;&lt;p&gt;この状態から回復するには、以下の手順で大丈夫かと思います。&lt;/p&gt;&#xA;&lt;p&gt;１．IEの何もないところで右クリックして、「メニューバー」を表示させます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268220608.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/0b/5f/j/t02200069_0800025112268220608.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;２．ツールをクリックして互換表示のチェックを外すか、&lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268225390.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/fe/b2/j/t02200117_0800042412268225390.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;３．互換表示設定で該当のアドレスを削除します。&lt;br&gt;&#xA;&lt;a href=&#34;https://ameblo.jp/yuki9902/image-11395498919-12268226091.html&#34;&gt;&lt;img src=&#34;https://stat.ameba.jp/user_images/20121103/15/yuki9902/fb/a5/j/t02200270_0457056012268226091.jpg?caw=800&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;この画面を閉じれば、リロードされて通常表示になるはずです。&lt;/p&gt;&#xA;&lt;p&gt;で、これはあくまでもtwitter.comの問題ですから！！&lt;/p&gt;</description>
+      <description>&lt;p&gt;さて、Internet Explorer は互換表示機能を持っていますが、ページレイアウトにエラーがあると「互換表示」に切り替わって、リロードします。&lt;/p&gt;&#xA;&lt;p&gt;で、twitterのサイトの「欠陥仕様」により、互換表示になっていると「mobile.twitter.com」に転送されてしまいます。&lt;/p&gt;&#xA;&lt;p&gt;で、通常httpsのSSLで接続している場合はアドレスバーに互換表示マークが表示されないので、変更するのに苦労します。&lt;/p&gt;&#xA;&lt;p&gt;この状態から回復するには、以下の手順で大丈夫かと思います。&lt;/p&gt;&#xA;&lt;p&gt;１．IEの何もないところで右クリックして、「メニューバー」を表示させます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200069_0800025112268220608.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200069_0800025112268220608.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;２．ツールをクリックして互換表示のチェックを外すか、&lt;br&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200117_0800042412268225390.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200117_0800042412268225390.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;３．互換表示設定で該当のアドレスを削除します。&lt;br&gt;&#xA;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200270_0457056012268226091.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200270_0457056012268226091.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;この画面を閉じれば、リロードされて通常表示になるはずです。&lt;/p&gt;&#xA;&lt;p&gt;で、これはあくまでもtwitter.comの問題ですから！！&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows 8 Pro Upgrade (32/64bit)</title>

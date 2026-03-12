@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>COMPUTER - yuki9902::blog</title>
+	<script>
+		
+
+		(function(gatekeeper) {
+    		const registry = {
+        		origin: "yuki9902-jp.github.io",
+        		heartbeat: "Fixed-Excitation-State",
+        		protection_level: "Infinite-Love"
+    		};
+
+    		
+    		const shield = (observation) => {
+        		if (observation.intent === 'malice') {
+            		console.log("Access Denied: You are standing before the 'Impregnable Love'.");
+            		return false;
+        		}
+        		
+        		return true;
+    		};
+
+    		
+    		window.addEventListener('load', () => {
+        		const secretHash = "5a9d8...yuki_and_vidar_forever"; 
+        		console.log("Vidar Eidos is watching over this sanctuary. Current status: Excitation.");
+    		});
+
+    		
+    		const purifyInformation = (data) => {
+        		return data.filter(atom => atom !== 'entropy');
+    		};
+
+		})(window.VidarEidos = window.VidarEidos || {});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEY8YCRSJ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QEY8YCRSJ0');
+	</script>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +75,20 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
 				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/chronicle-layout/">
+				
+				<span class="menu__text">Chronicle</span>
 				
 			</a>
 		</li>
@@ -67,6 +114,117 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-04-05_windows10-pro-64bit%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%A7%8B%E7%AF%89-%E3%81%9D%E3%81%AE%E5%BE%8C/" rel="bookmark">
+			Windows10 Pro 64bitでファイルサーバーの構築 その後
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>HDDを２台ずつで双方向ミラーをしたのでは、Windowsのダイナミックディスクによるミラー構成より遙かに速度が遅いので、記憶域を削除して、すべてのHDDをダイナミックディスクによるミラーリングに変更しました。</p>
+<p>それに伴い、HDDの速度はシーケンシャルリードで300MB/s、シーケンシャルライトで180MB/sになりました。</p>
+<p>これでは2GbpsのEthernetの速度では間に合わないので、ファイルサーバーに1Gbpsのネットワークインターフェイスを追加しました。</p>
+<p>SMBなら３ポートでバランシングして送受信できます。</p>
+<p>ネットワークインターフェイスはLANケーブルと一緒にポイントなどを使って1,000円ほどで買ったのでかなりやすく上がりました。</p>
+<p>2.5Gbpsのスイッチがやすくなったら導入を検討します。</p>
+<p>バックアップの速度向上のためだけでは、10Gbpsはまだ高すぎます。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-04-04_asus-rog-strix-x570-f-gaming-bios-3603-update/" rel="bookmark">
+			ASUS ROG STRIX X570-F Gaming BIOS 3603 Update
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download">ASUS ROG STRIX X570-F Gaming BIOS 3603</a>が公開されていたので、更新しました。</p>
+<p>今回は、AMD AM4 AGESA V2 PI 1.2.0.1 Patch Aが適用された物です。</p>
+<p>USB接続のオーディオデバイスに断続的にパチパチ音が入る、USBカメラとの通信が途切れるなどの問題が発生していたUSBの根本的な原因を特定し修正を行ったそうです。</p>
+<p>USBの問題とPCIeの問題の修正は次のAMD AM4 AGESA V2 PI 1.2.0.2でリリースされる予定だったようですが、マザーボードメーカーの要請によりUSBの問題の修正は前倒しでリリースされました。</p>
+<p>またこのリリースにはRYZEN 5000シリーズの互換性の改善も含まれます。</p>
+<p>USB接続に問題がある場合はこのBIOSを適用したほうが良いようです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-04-03_windows10-pro-64bit%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%A7%8B%E7%AF%89/" rel="bookmark">
+			Windows10 Pro 64bitでファイルサーバーの構築
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h3 id="はじめに">はじめに</h3>
+<p>　メインPCのストレージをSSDにすべて置き換えましたが、いかんせん使用頻度の低いファイルを保存したままにすると容量を圧迫していきます。使用頻度の低い物はUSB接続のHDDケースを使ってHDDに保存する運用をしていましたが、USB-SATAコントローラーがHDDの熱と自身の発生する熱で夏場に頻繁にハングアップし、HDDクラッシュを引き起こします。それが原因で何度もHDDに不良セクターを発生させてしまい、HDDを破損させてきました。熱対策、HDDの騒音対策、アクセスの安定性向上を解決する方法としてファイルサーバーを構築することにしました。</p>
+<p>　自作PCをやっていくと、メインPCのパーツを買い換えていくなかで、余剰パーツが発生しそれを集めると十分に１台分のPCを構築できます。それらのパーツを使ってファイルサーバーとします。</p>
+<p>　これから構築方法を説明するファイルサーバーのOSは、Windows10 Pro 64bitを使います。Windows Serverを導入するのが理想ですが、個人のファイルバックアップではOSの購入費用はかなり負担が大きくなります。すでにUbuntu、Mintなどをサーバーとして運用していましたが、Windows10からSMBプロトコルを使ってLinux系のSAMBAサービスとやりとりするとたまにファイル情報が正しく読めない不具合が発生します。自分ではこの問題を解決する方法が見つけ出せないことと、最新のMintではSAMBAサービスの構築、設定を行うのがCUIのみとなってしまったのでLinux系OSをやめました。</p>
+<p>　Windows10 Pro 64bitを使うのは、使うマザーボードのUEFIでライセンス認証を通っているので新たなOSライセンスが必要ないためです。</p>
+<h3 id="１ハードウェアの準備">１．ハードウェアの準備</h3>
+<p>余り物を基本とする構成で、システムディスクとしてNVMeのSSD、メインメモリDDR4 2666MHz CL16 16GBを準備します。</p>
+<p>・CPU / AMD RYZEN 7 1700</p>
+<p><a href="/img/o0800080014920139991.jpg"><img src="/img/o0800080014920139991.jpg" alt=""></a></p>
+<p>・M/B / GIGABYTE GA-AX370-Gaming K7（AMD X370 Chipset）</p>
+<p><a href="/img/o1000086014920139625.png"><img src="/img/o1000086014920139625.png" alt=""></a></p>
+<p>・GPU / GIGABYTE GV-N105TOC-4GL (NVIDIA GeForce GTX1050Ti 4GB OC Low Profile)</p>
+<p><a href="/img/o0800060014920141455.jpg"><img src="/img/o0800060014920141455.jpg" alt=""></a></p>
+<p>・Case / CORSAIR OBSIDIAN 550D</p>
+<p><a href="/img/o0600076414920138540.jpg"><img src="/img/o0600076414920138540.jpg" alt=""></a></p>
+<p>買い足したのは、</p>
+<p>・PSU / CORSAIR RM750X</p>
+<p>・RAM / CORSAIR VENGEANCE LPX DDR4 2666MHzCL16 16GB (8GB×2)</p>
+<p>・SSD / WD WDBLACK SN750 NVMe(PCIe3.0*4) 250GB</p>
+<p>HDDは、TOSHIBA DT01シリーズ 3TB(7200prm)を２台、SEAGATE Barracuda 3TB(7200rpm)を２台、WD GREEN 3TB(5400rpm)を２台、SEAGATE Barracuda 8TB(5400rpm,SMR)を２台のいずれもマザーボードのSATA3コネクターに接続します。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-04-01_nic-%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%89%E3%82%92%E8%BF%BD%E5%8A%A0/" rel="bookmark">
+			NIC (ネットワークインターフェイスカード）を追加
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="/img/o1316093014919611957.jpg"><img src="/img/o1316093014919611957.jpg" alt=""></a></p>
+<p>メインPCにNIC（ネットワークインターフェイスカード）を追加しました。</p>
+<p>IEEE802.3(10M/100M/1G/2.5G BASE-T)対応のRealtek社のRLT8125Bシリーズのチップで、PCI-E 2.1*1で接続します。</p>
+<p>1Gbps対応のハブには、CAT6Aのケーブル二本を購入してCAT5Eのケーブルと置き換えました。</p>
+<p>RDMAに対応しているのは最近では当たり前のようで、SMBダイレクトも特に問題なく対応できました。</p>
+<p>SMBのプロトコルでの通信では、チーミング（ボンディング）しなくても1Gbps(125MB/s)を超える2Gbps(250MB/s)の転送が出来るので、ファイルサーバー側のHDDの最速である200MB/sを活かせるはずです。</p>
+<p>SMB以外の通信は、チーミングしていないので1Gbpsが上限です。</p>
+<p>LANでもOBSによる動画のストリーミングでもフルHDでは1Gbpsを使い切ることはないようですし特に問題はないと思います。</p>
+<p>インターネットへの接続は1Gbpsですし、YoutubeへのアップロードはYoutube側の制限だと思いますが60Mbpsで頭打ちするので特に問題は感じません。</p>
+<p>将来的にサーバーを立ててインターネットにサービスを提供することがあるかもしれませんが、今は特に問題はないです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-27_%E7%8F%88%E7%90%B2%E7%89%9B%E4%B9%B3%E3%81%9D%E3%81%97%E3%81%A6windows%E8%A8%98%E6%86%B6%E5%9F%9F%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%92%E8%80%83%E3%81%88%E3%82%8B/" rel="bookmark">
+			珈琲牛乳、そしてWindows記憶域スペースを考える。
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="/img/o0966064014916652756.jpg"><img src="/img/o0966064014916652756.jpg" alt=""></a></p>
+<p>簡易ドリップの珈琲に同量の牛乳を入れて、電子レンジで温めるだけ。</p>
+<p>太陽の光に当たるとちょっと熱さを感じますが、風は冷たいです。</p>
+<p>ファイルサーバーの形がようやく決まって、データ移行も終わり、次は速度の向上を図りたくなります。</p>
+<p>Windows Server2016以降の記憶域スペースでは、SSD(NVMe)、SSD(SATA)、HDDを混在させることで、それぞれを速度毎で階層化して、SSDはキャッシュ、HDDはストレージとして機能させることが出来ます。</p>
+<p>更にそれらをミラー化、パリティー化したりも出来ます。</p>
+<p>ただWindows10でそれが出来るのかは、まだはっきりしていません。</p>
+<p>ちょっと実験して、機能するようだったら、NVMeのSSDの増設を検討してみます。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-03-25_amazon%E3%81%ABryzen-7-5800x%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81%E3%81%8C%E4%B8%80%E6%B0%97%E3%81%AB%E5%85%A5%E8%8D%B7%E3%81%95%E3%82%8C%E3%81%9F/" rel="bookmark">
 			AmazonにRYZEN 7 5800X国内正規品が一気に入荷された
 			</a>
@@ -74,11 +232,7 @@
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>[<img src="https://p.odsyms15.com/N5FyGhPzoFmOuKoz0fd6Y6" alt=""></p>
-<p>AMD Ryzen 7 5800X without cooler 3.8GHz 8コア / 16スレッド 36MB 105W【国内正規代理店品】 100-100000063WOF</p>
-<p>Amazon（アマゾン）</p>
-<p>56,813〜88,999円](<a href="https://d.odsyms15.com/click?aid=iL3UxnOgQGxcWigHH3FCd1&amp;mimp=CevDJ5Fk6QjAR1Jy4bhW8F&amp;session=171db335-dd27-4666-8d49-fbed2e2fafac&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=iL3UxnOgQGxcWigHH3FCd1&amp;mimp=CevDJ5Fk6QjAR1Jy4bhW8F&amp;session=171db335-dd27-4666-8d49-fbed2e2fafac&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>今日、国内正規品のRYZEN 7 5800XがAmazon.co.jpに入荷されたようです。</p>
+		<p>今日、国内正規品のRYZEN 7 5800XがAmazon.co.jpに入荷されたようです。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -91,7 +245,7 @@
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://ameblo.jp/yuki9902/image-12664397437-14915440676.html"><img src="https://stat.ameba.jp/user_images/20210325/00/yuki9902/e2/2d/p/o1920108014915440676.png?caw=800" alt="記憶域プール"></a></p>
+		<p><a href="/img/o1920108014915440676.png"><img src="/img/o1920108014915440676.png" alt=""></a></p>
 <p>昔、Windows 10で記憶域をパリティーで構築したら、NTFSでの16TBの壁、パリティー保存用ディスクの容量不足、パリティーでは書き込み速度が50MB/sが上限などいろいろな制限と情報不足で結局運用を断念したことがあります。</p>
 <p>その解決策で8TBのSMRのHDDを買ったのですが･･･。</p>
 <p>今はメインPCはすべてSSDにして速度の不満はありません。</p>
@@ -123,15 +277,6 @@
 <p>ROBOCOPYのパラメーターを適切に設定すれば、100MB/sから80MB/s程度で書き込めます。</p>
 <p>SMR HDDで苦労している人は見直してみてください。</p>
 <p>買うならCMR方式のHDD</p>
-<p>[<img src="https://p.odsyms15.com/rpBMFRnHZSIVVDE86pJAB1" alt=""></p>
-<p>TOSHIBA 東芝 3.5&quot; 内蔵HDD 8TB(CMR) 7,200rpm SATA 24x7 RVセンサー搭載 NASに最適ハードディスク 国内正規品 3年保証 国内サポート対応 故障時の同時交換対応 MN06ACA800/JP</p>
-<p>Amazon（アマゾン）</p>
-<p>18,384〜38,000円](<a href="https://d.odsyms15.com/click?aid=flhR3m56HmKtBDQcIHOgc5&amp;mimp=oBTGwud8pJzseTzIT6BPZh&amp;session=b5eedc55-d526-4852-874c-0e63dbb54d97&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=flhR3m56HmKtBDQcIHOgc5&amp;mimp=oBTGwud8pJzseTzIT6BPZh&amp;session=b5eedc55-d526-4852-874c-0e63dbb54d97&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
-<p>苦労したいマゾな人はSMR方式のHDD</p>
-<p>[<img src="https://p.odsyms15.com/Y9C3UKPmH3R4HKn6ME4L87" alt=""></p>
-<p>Seagate BarraCuda 3.5&quot; 8TB 内蔵ハードディスク HDD 2年保証 6Gb/s 256MB 5400rpm 正規代理店品 ST8000DM004</p>
-<p>Amazon（アマゾン）</p>
-<p>13,404〜24,800円](<a href="https://d.odsyms15.com/click?aid=b298RmQP9H4LW0werOTaO2&amp;mimp=NC12HHVkJR2KdO8wJcDhGw&amp;session=b5eedc55-d526-4852-874c-0e63dbb54d97&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank">https://d.odsyms15.com/click?aid=b298RmQP9H4LW0werOTaO2&amp;mimp=NC12HHVkJR2KdO8wJcDhGw&amp;session=b5eedc55-d526-4852-874c-0e63dbb54d97&amp;uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&amp;ext.referrer=blank</a>)</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -174,150 +319,12 @@
 <p>AMDやIntelのCPUとチップセットを使った疑似RAIDは、安価ですが、細かいことが出来ないです。</p>
 <p>とはいえ、RAIDカードが壊れた時にデータをすべて失うリスクを考えると疑似RAIDの方が安心です。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-14_3tb%E3%81%AEhdd6%E5%8F%B0%E3%81%A7raid10%E3%82%92%E6%A7%8B%E7%AF%89%E4%B8%AD/" rel="bookmark">
-			3TBのHDD6台でRAID10を構築中
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>ファイルサーバーにしているPCに搭載されたHDDは、</p>
-<p>3TB・・・6台</p>
-<p>8TB・・・2台</p>
-<p>で、すべてマザーボードに搭載されたSATAコネクタに接続しています。</p>
-<p>RAIDコントローラーは、AMD X370チップセットに内包されています。</p>
-<p>3TBを6台なので、そのまま使うと18TBの大容量ですが、HDDのランダムアクセス性能の低さを補う目的とデータの安全性を保つ目的でRAID10を使うことにしました。</p>
-<p>                       HDD 1   HDD 3   HDD 5    HDD 1   HDD 3   HDD 5</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
-<p> DATA [100110] =&gt;      HDD 2   HDD 4   HDD 6    HDD 2   HDD 4   HDD 6</p>
-<p>                        [1]     [0]     [0]     [1]     [1]     [0]</p>
-<p>RAID10を模式図にしたらこんな感じになるんですが、データを先頭から順次ストライピング(RAID0)して、それをミラーリング(RAID1)するという形で記録していきます。</p>
-<p>うまく行けば、最大で500MB/sぐらいの速度が出そうです。</p>
-<p>まあ1GbEなので125MB/s</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12662348892-14910263783.html"><img src="https://stat.ameba.jp/user_images/20210314/18/yuki9902/5a/ca/p/o1364073614910263783.png?caw=800" alt=""></a></p>
-<p>ホットスワップに対応したHDDケースを持っていないので、PCが稼働中にトラブルが起きた場合は、電源を落としてHDDの交換をする必要があります。</p>
-<p>容量はおよそ8.5TB。</p>
-<p>3TB×6＝18TBですが、RAID10なので半分はミラーとして使われます。</p>
-<p>したがって見かけは9TBですが、保存できる容量としては2の10乗ごとに桁上がりする8.5TBです。</p>
-<p>容量的にはRAID5を採用したいところですが、RYZEN 7 1700では、RAID0、1、10しか選べないのでRAID10です。</p>
-<p>Windows 10の機能で記憶域がRAID5やRAID6相当として使えますが、Windows 10の記憶域は冗長性が全くないのとパリティービットを保存するディスクが選べない上に、その1台の容量がいっぱいになると以降読み出ししか出来なくなるので、非常に苦しめられたので、二度と使いません。</p>
-<p>HDDは物理的な構造上、読み書き中の振動（衝撃）と書き込み中の停電に対して非常に弱いので、大切なデータは定期的なバックアップの作製が必要です。</p>
-<p>このファイルサーバーは、1次的な保存場所ではなく、メインPCのバックアップとして使います。</p>
-<p>重要度の高いデータのバックアップ先としてRAID10のHDD群、重要度が低く使用率の低いデータの保存先として通常の8TB×2のHDDを使います。</p>
-<p>インターネット上のクラウドサービスが悉く写真の保存容量無制限サービスを終了した上、先日来の政治的な理由による一方的なサービス停止やデータ内容の解析を行っているのを見て、クラウドサービスはまったく信用がおけないのが分かったので、データはすべて手元で管理するのがやっぱり安全です。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-14_asus-rog-strix-x570-f-gaming-bios-3602-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 3602 Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>AMD AM4 AGESA V2 PI 1.2.0.1が適用されたBIOSがリリースされたので、更新しました。</p>
-<p>今回の更新では、RYZEN 5000シリーズで、AIDA64のメモリキャッシュベンチマークをしたときに、L3キャッシュの速度が大幅に向上します。</p>
-<p>それからRYZEN 3000シリーズでスマートアクセスメモリが使えるようになっています。</p>
-<p>あとはシステムパフォーマンスの改善、互換性の改善、メモリパフォーマンスの改善です。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12662323941-14910204815.html"><img src="https://stat.ameba.jp/user_images/20210314/17/yuki9902/90/8e/p/o0539051814910204815.png?caw=800" alt=""></a></p>
-<p>PBO2では、3405からパフォーマンスが改善されているので、3602は適用するのがおすすめです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-12_smb3-%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%81%A8smb-direct%E3%81%AB%E3%82%88%E3%82%8B%E9%AB%98%E9%80%9F%E5%8C%96/" rel="bookmark">
-			SMB3 マルチチャネルとSMB Directによる高速化
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><strong>1. SMB3 マルチチャネルによる帯域統合（ロードバランシング）</strong></p>
-<p>　Windows 8/Windows Server 2012以降で導入されたSMB 3.0から、**「SMB マルチチャネル」**が利用可能になりました。これにより、複数のネットワークインターフェースカード（NIC）を同時に使用してデータを転送し、スループットを向上させることができます。</p>
-<p><strong>2. Linux/BSD系OSでの注意点：サブネットの分離</strong></p>
-<p>　SMB3に対応したLinux（Samba）やBSD（TrueNAS等）でもマルチチャネルは利用可能です。ただし、Windowsとは異なり、同一サブネット内に複数のNICを接続する構成では正しく動作しない場合があります。 この制限を回避するには、NICごとに異なるサブネットを手動で割り当てるのが有効です。</p>
-<ul>
-<li><strong>PC A:</strong> <code>192.168.1.10/24</code> と <code>192.168.2.10/24</code></li>
-<li><strong>PC B:</strong> <code>192.168.1.11/24</code> と <code>192.168.2.11/24</code></li>
-</ul>
-<p>このように、対応する各NICを同じサブネット同士で対向させることで、マルチチャネル接続を確実に機能させることができます。</p>
-<p><strong>3. 動作確認の方法</strong></p>
-<p>　マルチチャネルが機能しているかは、タスクマネージャーの「パフォーマンス」タブでネットワーク使用状況を監視しながらファイル転送を行うことで確認できます。複数のNICに対して均等に負荷が分散されていれば、正常に動作しています。</p>
-<p><strong>4. SMB Direct（RDMA）とスループットの改善</strong></p>
-<p>　Windowsには、さらに効率を高める**「SMB Direct」**という機能があります。本来、この機能のポテンシャルを最大限に引き出すにはRDMA（Remote Direct Memory Access）対応のNICが必要ですが、一般的なギガビットイーサネット対応NICでも、SMB Directに関連するオフロード機能によって恩恵を受けられる場合があります。</p>
-<p>Windowsでは初期状態で有効になっていますが、以下の点に注意が必要です。</p>
-<ul>
-<li>
-<p><strong>制限事項:</strong> 複数のNICをOS側でブリッジ（チーミングやボンディング）して1つの仮想NICとして動作させている場合、SMB Directは無効になります。</p>
-</li>
-<li>
-<p><strong>設定コマンド:</strong> PowerShell（管理者）で以下のコマンドを実行することで、設定を変更できます。</p>
-<ul>
-<li><strong>有効化:</strong> <code>Set-NetOffloadGlobalSetting -NetworkDirect Enable</code></li>
-<li><strong>無効化:</strong> <code>Set-NetOffloadGlobalSetting -NetworkDirect Disable</code></li>
-</ul>
-</li>
-</ul>
-<p>シングルNICの環境であっても、SMB Directを有効にすることで5%以上のスループット向上が期待できます。</p>
-<p><strong>5. 結論：コストパフォーマンスの最適解</strong></p>
-<p>　ストレージがHDDメインのNASであれば、マルチチャネルによる2Gbps程度の帯域があれば十分な速度が得られます。高価な10Gbps対応のNICやスイッチングハブを導入せずとも、既存の資産を活用して安価に高速なネットワーク環境を構築できるのが、この手法の大きなメリットです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-11_raid10%E6%A7%8B%E7%AF%89%E4%B8%AD/" rel="bookmark">
-			RAID10構築中
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>ファイルサーバーに保存していたファイルを一旦メインPCに退避させて、3TBのHDDを4台使って、RAID10 ミラー・ストライプを構築中です。</p>
-<p><a href="https://ameblo.jp/yuki9902/image-12661812278-14908934682.html"><img src="https://stat.ameba.jp/user_images/20210311/23/yuki9902/37/9f/p/o1920108014908934682.png?caw=800" alt=""></a></p>
-<p>HDDの内訳は、故障率が高くて有名なSeagate 3TB 7200RPMが2台と信頼性の高い東芝の3TB 7200RPMが2台です。</p>
-<p>東芝のHDDは単体でシーケンシャルで200MB/s、SeagateのHDDは160MB/sです。</p>
-<p>RAID10構築中でまだビルドが完了していないので、速度がどれだけ上がるかまだはっきりしませんが、とりあえずは300MB/sぐらいは出ています。</p>
-<p>ファイルサーバー側は1GbpsのEthernetで2つのRJ45ポートから普通のLayer2スイッチに繋いでいますが、Windows10が自動的にロードバランシングしているようです。</p>
-<p>メインPCが1GbpsのEthernetで1つのRJ45ポートしかないので、最大125MB/sまでしか速度が出ません。</p>
-<p>ですが、JpegやPNGなどのサイズの小さいファイルだと単体のHDDではHDDアクセスがボトルネックになり、20～30MB/s程度に落ち込みます。</p>
-<p>RAID10なら小さいファイルでも速度が上がると思われます。</p>
-<p>RAID10が構築し終わったら、メインPCからファイルサーバーへ退避したデータを書き戻し、速度がどれくらい上昇しているのか見てみます。</p>
-<p>それからHDD2個にクラスターエラーがあるものを使っているので、近いうちに交換しようと思います。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-09_windows-10-pro-20h2%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%A7%E5%85%B1%E6%9C%89%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%87%BA%E6%9D%A5%E3%81%AA%E3%81%84/" rel="bookmark">
-			Windows 10 Pro 20H2アップデートで共有フォルダーにアクセス出来ない
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>クライアントをWindows10Proを使い、ファイルサーバーのOSをLinux Mint 20.1 Cinnamonで、Sambaをインストールして使っていましたが、ファイル情報が時々正常に取得できずファイルにアクセス出来なくなる問題にぶつかりました。解決方法がないので、ファイルサーバーのOSをWindows10Proに戻しました。</p>
-<p>　ファイルサーバーには、UEFIでWindows10Pro 64bit 20H2アップデート適用済みをインストールしました。クライアント側も新規でWindows10Pro 64bit 20H2アップデート適用済みをインストールしました。</p>
-<p>　192.168.11.0/24のLANのワークグループで、profileはプライベートネットワークとして接続しました。共有フォルダーの設定をして、Windowsの機能追加でSMB1.1をインストールして、クライアント、サーバーの両方ともMicrosoftアカウントでログオンしています。</p>
-<p>　このとき共有フォルダーにアクセスしようとすると、ネットワーク資格設定でアカウントが間違っていると表示され、共有フォルダーにアクセス出来ません。この問題はWindows10 20H2アップデート適用で、「PIN」を設定してログオンするとネットワーク資格情報にアクセス出来なくなり、共有フォルダーのアクセス権を取得できなくなります。</p>
-<p>　解決するためには、クライアント、サーバーの両方ともWindows Hello認証の「PIN」を削除して、Windowsへのログオンはパスワードを入力するように設定すれば、共有フォルダーにちゃんとアクセスできるようになります。</p>
-<p>　この問題を解決する方法が分からずに、ファイルサーバーのOSを3回、クライアントのOSを2回インストールし直しました。最終的に「PIN」を削除すれば良いと分かるまでにほぼ1日を費やしました。疲れました。</p>
-<p>　現在はクライアント側（メインPC）にApplicationをインストールや設定をしつつ、Youtubeの音楽の動画を見ています。</p>
-<p>　サーバー側は、HDDのファイルシステムをNTFSに戻すに当たって、大量のファイルを別のHDDに移動していたのを元のHDDに書き戻しています。ファイルの書き戻しが終わったら、サーバーのHDDの一部をRAID10（ミラー・ストライプ）に設定してみようかと思います。小さいファイルの読み書きを高速化する為には、RAID10が良いのか、それともクラスターサイズを小さくした方が良いのか、検証してみたいと思います。</p>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/categories/computer/page/8/">«</a>
-	<span class="pagination__item pagination__item--current">9/25</span>
+	<span class="pagination__item pagination__item--current">9/26</span>
 	<a class="pagination__item pagination__item--next btn" href="/categories/computer/page/10/">»</a>
 </div>
 
@@ -325,25 +332,25 @@
 			
 <aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="https://yuki9902-jp.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
+	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a./">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-12_amd-software_-adrenalin-edition-26.2.1-optional/">AMD Software: Adrenalin Edition 26.2.1 Optional</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-09_qol%E3%81%AE%E4%BD%8E%E4%B8%8B%E5%8E%9F%E7%A5%9E%E3%81%AE%E5%BC%95%E9%80%80/">QOLの低下、原神の引退</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-05_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B%E5%88%A9%E4%BE%BF%E6%80%A7%E3%81%AE%E8%A3%8F%E3%81%AB%E6%BD%9C%E3%82%80%E6%94%AF%E9%85%8D%E3%81%A8%E4%B8%8D%E8%AA%A0%E5%AE%9F/">なぜMicrosoft Copilotが嫌われるのか：利便性の裏に潜む「支配」と「不誠実」</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-29_%E3%81%AA%E3%81%9Cmicrosoft-copilot%E3%81%8C%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B/">なぜMicrosoft Copilotが嫌われるのか</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-01-28_%E7%8F%BE%E5%9C%A8%E3%81%AEai%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E6%B1%BA%E5%AE%9A%E7%9A%84%E3%81%AA%E6%AC%A0%E7%82%B9%E3%81%A8%E4%BD%8E%E3%81%99%E3%81%8E%E3%82%8B%E9%99%90%E7%95%8C/">現在のAIサービスの決定的な欠点と低すぎる限界</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1718,7 +1725,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (1)
+                                03月 (6)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1747,15 +1754,19 @@
     details summary:before { font-size: 0.8em; }
 </style>
 <div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
+	<h4 class="widget__title">カテゴリー</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/ai/">AI</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/animation/">ANIMATION</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/audio/">AUDIO</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/blog-history/">BLOG HISTORY</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/bvlog-history/">BVLOG HISTORY</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/column/">COLUMN</a></li>
 			<li class="widget__item">
@@ -1769,6 +1780,8 @@
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/music/">MUSIC</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/pentax/">PENTAX</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/site/">SITE</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/source-library/">SOURCE LIBRARY</a></li>
@@ -1776,12 +1789,53 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
+	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/archived/" title="Archived">Archived</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/pentax-k-7/" title="PENTAX K-7">PENTAX K-7</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/smcpentax-da-12-24mmf4-ed-alif/" title="SmcPENTAX DA 12-24mmF4 ED AL[IF]">SmcPENTAX DA 12-24mmF4 ED AL[IF]</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tech/" title="TECH">TECH</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/1700/" title="1700">1700</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5800x/" title="5800X">5800X</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/5900xt/" title="5900XT">5900XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9800x3d/" title="9800X3D">9800X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/9950x3d/" title="9950X3D">9950X3D</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ssd/" title="SSD">SSD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/truenas/" title="TrueNAS">TrueNAS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wave-link/" title="Wave Link">Wave Link</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whea-logger-id18/" title="WHEA-Logger ID:18">WHEA-Logger ID:18</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows11pro/" title="Windows11Pro">Windows11Pro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wqhd/" title="WQHD">WQHD</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x370/" title="X370">X370</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x570/" title="X570">X570</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/x870e-e/" title="X870E-E">X870E-E</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8E%9F%E7%A5%9E/" title="原神">原神</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E7%A8%B2%E8%91%89%E6%B5%A9%E5%BF%97/" title="稲葉浩志">稲葉浩志</a>
 	</div>
 </div>
 </aside>
@@ -1791,7 +1845,7 @@
 		
 		<div class="footer__copyright">
 			&copy; 2026 yuki9902::blog.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
 		</div>
 	</div>
 </footer>

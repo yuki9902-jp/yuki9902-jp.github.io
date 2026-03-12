@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMB Direct on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/smb-direct/</link>
+    <description>Recent content in SMB Direct on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Dec 2021 00:31:24 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/smb-direct/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrueNASのHDD交換とマルチチャンネル接続</title>
+      <link>https://yuki9902-jp.github.io/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</link>
+      <pubDate>Fri, 24 Dec 2021 00:31:24 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/</guid>
+      <description>&lt;p&gt;TrueNASで構築したファイルサーバーに搭載している2012年製のWesternDigital社のWD GREEN 3.0TBがセクターエラーを吐くようになり使えなくなったので、東芝の4.0TB HDD(CMR)を二台買って交換しました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o1829137215050605545.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o1829137215050605545.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;MN08ASA400E/JPという製品型式です。06シリーズから進化して音が静かになって発熱が少なくなったようです。SMR方式はもう懲り懲りなのでCMR方式と明記されているものを選びました。&lt;/p&gt;&#xA;&lt;p&gt;保存していたデータはメインPCにあるもののバックアップなので、壊れたHDDからはデータ移行はしません。メインPCから新しいHDDにバックアップを作ります。&lt;/p&gt;&#xA;&lt;p&gt;TrueNASのWebUIから、壊れたHDDで構成していたストレージプールを削除して、TrueNASのファイルサーバーをシャットダウンして、HDDを交換します。&lt;/p&gt;&#xA;&lt;p&gt;ケース正面からHDDをクイックイジェクトできる5.25インチベイに搭載していたので交換は簡単です。&lt;/p&gt;&#xA;&lt;p&gt;ファイルサーバーを起動して、同じ名前で新規にストレージプールを作成して、SAMBA共有などの設定をすればすぐに使えるようになりました。&lt;/p&gt;&#xA;&lt;p&gt;前から懸案にしていたmultichannel接続（複数NICによるロードバランサー）をSAMBA3.0以上だとサポートしていることが分かったので設定しました。&lt;/p&gt;&#xA;&lt;p&gt;面倒なのは、TrueNASでは複数のNICを使うとき同じサブネット内に1つのNICしか設定できないようにされていることです。&lt;/p&gt;&#xA;&lt;p&gt;従ってNICの数だけサブネットを作る必要があります。&lt;/p&gt;&#xA;&lt;p&gt;サブネットマスクを30bitにすれば4つのIPアドレスを消費して2つのノードと1つのブロードキャストアドレスを使うことが出来ます。&lt;/p&gt;&#xA;&lt;p&gt;インターネットに接続するNICにはこれまで通りのクラスCの24bitサブネットマスクのネットワークを設定して、メインPCもファイルサーバーもこれに接続しています。&lt;/p&gt;&#xA;&lt;p&gt;次にメインPCにNICを挿して30bitサブネットマスクのネットワークを固定で割り当てます。デフォルトゲートウェイやDNSの設定が空なので、Windows上では「識別されていないネットワーク」になってしまいネットワークが「パブリック」になります。&lt;/p&gt;&#xA;&lt;p&gt;グループポリシーから「ネットワークリストマネージジャーポリシー」の中の「識別されていないネットワーク」の「プライベート」「ユーザーは場所を変更できる」を選択します。&lt;/p&gt;&#xA;&lt;p&gt;次に、TrueNASのWebUIから「ネットワーク」の「インターフェイス」を開き、使っていなかった方のNICの設定をします。先に設定したメインPCと同じサブネットにして残りのIPアドレスを割り当てます。DNSもデフォルトゲートウェイも設定しません。&lt;/p&gt;&#xA;&lt;p&gt;これだけでは機能しないので、TrueNASのWebUIで、「サービス」の「SMB」の「Action」をクリックして、「ADVANCED OPTIONS」をクリックして詳細設定を開きます。「追加パラメーター」に「server multi channel support = yes」を記述して「保存」をクリックします。&lt;/p&gt;&#xA;&lt;p&gt;SMBサービスを再起動するとマルチチャンネル接続が機能し始めます。&lt;/p&gt;&#xA;&lt;p&gt;下図は今日交換した4TB 7200RPM HDDの二台をRAID1で構成したストレージプールへの書き込み試験です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0482035215050620829.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0482035215050620829.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;下図は3.0TB 7200RPM HDDの四台をRAIDZ2で構成したストレージプールへの速度試験です。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/o0482035215050618454.png&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/o0482035215050618454.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;1GbpsのNICの2ポート同士なので230MB/sが上限値となります。&lt;/p&gt;&#xA;&lt;p&gt;TrueNASでメモリキャッシュが効いているので純粋なHDDの速度を計るのは難しいですが、SSDで慣れていても実用上あまり遅くは感じません。&lt;/p&gt;&#xA;&lt;p&gt;4TB、8TBのSSDがコンシューマー向けに登場してきていますが、価格が10倍も違うのでまだまだHDDは現役です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
