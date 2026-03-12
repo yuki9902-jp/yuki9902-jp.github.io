@@ -4,7 +4,7 @@ date: 2012-06-20T03:12:55+09:00
 archives: ["2012-06"]
 draft: false
 categories: ['BLOG HISTORY', 'COMPUTER']
-tags: []
+
 ---
 
 Facebookから公式に、WordPressのプラグインが公開されました。

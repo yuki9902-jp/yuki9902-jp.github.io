@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12186709166.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160802/23/yuki9902/46/c4/j/o0966064013713499945.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12186709166-13713499945.html)
+[![](/img/o0966064013713499945.jpg)](/img/o0966064013713499945.jpg)
 
 墨入れした後、本体の組上げ。
 

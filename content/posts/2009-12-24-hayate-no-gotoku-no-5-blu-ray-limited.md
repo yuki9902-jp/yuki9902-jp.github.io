@@ -4,7 +4,7 @@ date: 2009-12-24T01:00:47+09:00
 archives: ["2009-12"]
 draft: false
 categories: ['ANIMATION']
-tags: []
+
 ---
 
 ハヤテのごとく!! の第５巻が届きました。

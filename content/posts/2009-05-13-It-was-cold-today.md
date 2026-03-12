@@ -2,7 +2,7 @@
 title: "It was cold today."
 date: 2009-05-13T23:09:49+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

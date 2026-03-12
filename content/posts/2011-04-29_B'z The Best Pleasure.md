@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-10875983878.html
 categories: ['COLUMN']
 ---
 
-[![高原の風-B'z The Best Pleasure](https://stat.ameba.jp/user_images/20110429/17/yuki9902/70/68/j/t02200153_0690048011194513629.jpg?caw=800)](https://ameblo.jp/yuki9902/image-10875983878-11194513629.html)
+[![](/img/t02200153_0690048011194513629.jpg)](/img/t02200153_0690048011194513629.jpg)
 
   
 

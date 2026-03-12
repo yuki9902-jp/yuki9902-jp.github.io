@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12639690878.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20201123/09/yuki9902/ef/65/j/o1080046214855550134.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12639690878-14855550134.html)
+[![](/img/o1080046214855550134.jpg)](/img/o1080046214855550134.jpg)
 
 自分でドリップするのも良いですが、このダイドーのブラックコーヒーが無香料で原材料がコーヒーのみで、すっきりとしていて良いです。
 

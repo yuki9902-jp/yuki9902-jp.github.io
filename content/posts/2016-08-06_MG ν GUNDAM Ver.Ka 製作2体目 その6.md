@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12187836402.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160806/16/yuki9902/90/65/j/o0966064013716401424.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12187836402-13716401424.html)
+[![](/img/o0966064013716401424.jpg)](/img/o0966064013716401424.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160806/20/yuki9902/51/fb/j/o0966064013716595269.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12187836402-13716595269.html)
+[![](/img/o0966064013716595269.jpg)](/img/o0966064013716595269.jpg)
 
 2体目の本体のスライドシールを貼り終えたので、写真に撮って背景処理してアップします。
 

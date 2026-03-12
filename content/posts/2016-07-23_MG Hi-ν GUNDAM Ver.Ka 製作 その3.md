@@ -6,6 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12183457853.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160723/19/yuki9902/6e/c1/j/o0640096613704679581.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183457853-13704679581.html)
+[![](/img/o0640096613704679581.jpg)](/img/o0640096613704679581.jpg)
 
 腰部を組み立て。

@@ -4,7 +4,7 @@ date: 2009-07-07T09:11:10+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 Play Station HOME は処理が重いんですね。

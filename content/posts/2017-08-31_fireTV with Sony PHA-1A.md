@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12306254246.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20170831/01/yuki9902/5e/78/j/o0960072014016801504.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12306254246-14016801504.html)
+[![](/img/o0960072014016801504.jpg)](/img/o0960072014016801504.jpg)
 
 ドライバーのインストールなど必要なく、あっさり認識され音が聞こえてきます。
 

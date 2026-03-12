@@ -3,10 +3,10 @@ title: "PENTAX K-7 with D-BG4"
 date: 2010-02-26T17:12:04+09:00
 archives: ["2010-02"]
 original_url: https://ameblo.jp/yuki9902/entry-10468545432.html
-categories: ['COLUMN']
+categories: ['COLUMN','PENTAX']
 ---
 
-[![おやぶんの物欲と苦悩-PENTAX K-7 with D-BG4](https://stat.ameba.jp/user_images/20100226/17/yuki9902/65/27/j/t02200146_0481032010429825456.jpg?caw=800)](https://ameblo.jp/yuki9902/image-10468545432-10429825456.html)
+[![](/img/t02200146_0481032010429825456.jpg)](/img/t02200146_0481032010429825456.jpg)
 
   
 

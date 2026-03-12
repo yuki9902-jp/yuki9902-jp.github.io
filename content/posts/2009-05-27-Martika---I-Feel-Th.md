@@ -2,7 +2,7 @@
 title: "Martika - I Feel The Earth Move"
 date: 2009-05-27T00:07:51+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

@@ -26,4 +26,4 @@ categories: ['COLUMN']
 
   
 
-[![おやぶんの物欲と苦悩](https://stat.ameba.jp/user_images/20100211/00/yuki9902/70/3e/j/t02200147_0600040010409303545.jpg?caw=800)](https://ameblo.jp/yuki9902/image-10455555554-10409303545.html)
+[![](/img/t02200147_0600040010409303545.jpg)](/img/t02200147_0600040010409303545.jpg)

@@ -4,7 +4,7 @@ date: 2009-11-26T01:10:14+09:00
 archives: ["2009-11"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 Windows7になってから、ハードウェアやアプリケーションが、Windows7 Readyのマークを取得するには、32bitだけでなく64bitの動作も保証しなくてはなりません。

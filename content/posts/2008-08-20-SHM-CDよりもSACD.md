@@ -2,7 +2,7 @@
 title: "SHM-CDよりもSACD"
 date: 2008-08-20T16:52:36+09:00
 archives: ["2008-08"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

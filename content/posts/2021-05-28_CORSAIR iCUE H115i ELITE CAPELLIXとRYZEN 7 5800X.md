@@ -8,19 +8,11 @@ categories: ['COMPUTER']
 
 [CORSAIR iCUE H115i ELITE CAPELLIX Liquid CPU Cooler](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/iCUE-ELITE-CAPELLIX-Liquid-CPU-Cooler/p/CW-9060047-WW) が届いたので、田圃仕事が終わった後に組み付け作業をしました。
 
-[![](https://p.odsyms15.com/E7N13nmOHvFJPCvgyZMmf3)
-
-CORSAIR 一体型簡易水冷CPUクーラー 280mm iCUE H115i ELITE CAPELLIX CW-9060047-WW FN1508
-
-Amazon（アマゾン）
-
-18,155〜27,638円](https://d.odsyms15.com/click?aid=P8FGeYUKGKu3dsfbMxdOj1&mimp=SKItsHy2PDjWMExPRIGO6P&session=75ab770a-c68c-43b7-a843-799347a95ce4&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
-
 　RYZEN 7 5800Xを使っていて、冬場は空冷のCOOLERMASTER MasterAir MA620Mでも冷やし切れていて4.75GHzでも安定動作していましたが、夏場になって4.7GHzに下げてもたまにシステムが落ちるぐらいの冷却不足に陥っていました。Precision Boost Overdrive 2でもたまに落ちます。「Auto」で使うには特に問題ないですがCPUの能力を引き出し安定して使うためには水冷システムにしなければいけません。
 
 　PCケースがCORSAIR CRYSTAL 680X、GPUがASUS ROG STRIX RADEON RX 5700XT 8GB OCの組み合わせだと、360ミリの簡易水冷のラジエターが搭載できないので、280ミリの簡易水冷を買いました。
 
-[![](https://stat.ameba.jp/user_images/20210528/20/yuki9902/c5/92/j/o1664124814948845079.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12677267647-14948845079.html)
+[![](/img/o1664124814948845079.jpg)](/img/o1664124814948845079.jpg)
 
 　上面に搭載していた120ミリのファン2つを底面に設置し、上面にラジエターと140ミリファンを2つ搭載しました。ホースと前面のファンの隙間はありません。ラジエターの搭載位置は前にも後ろにもずらせません。
 

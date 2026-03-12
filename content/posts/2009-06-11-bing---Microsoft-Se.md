@@ -2,7 +2,7 @@
 title: "bing - Microsoft Search Engine"
 date: 2009-06-11T08:19:13+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

@@ -2,7 +2,7 @@
 title: "TOSHIBA RD-XD91とPS3とHDMI"
 date: 2007-08-09T13:37:21+09:00
 archives: ["2007-08"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

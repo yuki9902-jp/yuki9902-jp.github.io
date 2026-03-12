@@ -2,7 +2,7 @@
 title: "Test Windows Live Writer"
 date: 2008-01-15T15:50:00+09:00
 archives: ["2008-01"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

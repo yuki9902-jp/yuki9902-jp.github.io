@@ -4,6 +4,7 @@ date: 2026-02-24T13:13:14+09:00
 archives: ["2026-02"]
 original_url: https://ameblo.jp/yuki9902/entry-12957745524.html
 categories: ['COMPUTER']
+tags: ['Garuda Linux','ROCm','RADEON']
 ---
 
 メインPCのOSをGaruda Mokkaに移行しました。

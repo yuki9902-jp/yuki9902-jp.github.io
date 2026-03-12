@@ -4,7 +4,7 @@ date: 2013-04-08T16:52:47+09:00
 archives: ["2013-04"]
 draft: false
 categories: ['AUDIO', 'COMPUTER']
-tags: []
+
 ---
 
 Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに対応しています。

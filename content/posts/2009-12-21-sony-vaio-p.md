@@ -4,7 +4,7 @@ date: 2009-12-21T00:47:03+09:00
 archives: ["2009-12"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 中古のSony VAIO Pを購入しました。Atom 1.33Ghz 2GBRAM HDD60GBという仕様です。

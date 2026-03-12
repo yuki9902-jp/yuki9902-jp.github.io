@@ -4,7 +4,7 @@ date: 2009-07-25T02:31:44+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 伊藤静さんのブログを見るに当たって、Amebaに登録しました。

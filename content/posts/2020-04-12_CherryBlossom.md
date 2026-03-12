@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12589017142.html
 categories: ['COLUMN']
 ---
 
-ベースの桜色を淡く点灯させて、[![](https://stat.ameba.jp/user_images/20200412/12/yuki9902/d8/85/j/o0966064014742398765.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12589017142-14742398765.html)
+ベースの桜色を淡く点灯させて、[![](/img/o0966064014742398765.jpg)](/img/o0966064014742398765.jpg)
 
 PCのファンとキーボードのバックライト、紫色に見えますが、桜色に設定しました。
 

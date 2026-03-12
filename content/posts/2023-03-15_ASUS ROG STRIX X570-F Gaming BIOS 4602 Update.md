@@ -4,6 +4,7 @@ date: 2023-03-15T23:20:43+09:00
 archives: ["2023-03"]
 original_url: https://ameblo.jp/yuki9902/entry-12793894263.html
 categories: ['COMPUTER']
+tags: ['AMD','AGESA','ASUS']
 ---
 
 [ASUS ROG STRIX X570-F GamingのBIOS バージョン4602](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/)がリリースされました。

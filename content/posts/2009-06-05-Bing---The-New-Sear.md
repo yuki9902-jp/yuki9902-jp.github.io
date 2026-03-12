@@ -2,7 +2,7 @@
 title: "Bing - The New Search Engine by Microsoft"
 date: 2009-06-05T09:55:02+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

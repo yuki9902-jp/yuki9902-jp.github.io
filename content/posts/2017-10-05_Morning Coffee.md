@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12316757411.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20171005/06/yuki9902/37/66/j/o0966064014041959878.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12316757411-14041959878.html)
+[![](/img/o0966064014041959878.jpg)](/img/o0966064014041959878.jpg)
 
 昨日、美味しくない珈琲を飲んで、がっかりしてしまったので、久しぶりに自分で珈琲、キリマンジャロを挽いて淹れました。
 

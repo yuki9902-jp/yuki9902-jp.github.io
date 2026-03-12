@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12657959777.html
 categories: ['COMPUTER']
 ---
 
-[![Garuda Linux DolphinファイルマネージャーとKonsoleターミナル](https://stat.ameba.jp/user_images/20210220/22/yuki9902/7d/22/p/o1366076814899410129.png?caw=800)](https://ameblo.jp/yuki9902/image-12657959777-14899410129.html)
+[![](/img/o1366076814899410129.png)](/img/o1366076814899410129.png)
 
 [Garuda Linux KDE Dragonized Edition](https://garudalinux.org/downloads.html)をノートPCにインストールしました。
 

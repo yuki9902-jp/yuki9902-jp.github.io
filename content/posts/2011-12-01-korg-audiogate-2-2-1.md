@@ -4,7 +4,7 @@ date: 2011-12-01T23:41:13+09:00
 archives: ["2011-12"]
 draft: false
 categories: ['AUDIO']
-tags: []
+
 ---
 
 KORG AudioGate が2.2.1にバージョンアップして、Windows7/VISTAにおけるWASAPI共有モードに対応しました。

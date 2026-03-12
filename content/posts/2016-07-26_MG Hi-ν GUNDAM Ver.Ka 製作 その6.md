@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12184325348.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160726/13/yuki9902/2e/c2/j/o0800053013707085795.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184325348-13707085795.html)
+[![](/img/o0800053013707085795.jpg)](/img/o0800053013707085795.jpg)
 
 MG Hi-ν GUNDAM Ver.Kaの最大の難所、フィンファンネルのデカールです。
 

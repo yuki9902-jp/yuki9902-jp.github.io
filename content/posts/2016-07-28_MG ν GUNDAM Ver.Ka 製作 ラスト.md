@@ -6,13 +6,13 @@ original_url: https://ameblo.jp/yuki9902/entry-12184840674.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160728/02/yuki9902/99/b9/j/o0640096613708401541.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184840674-13708401541.html)
+[![](/img/o0640096613708401541.jpg)](/img/o0640096613708401541.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160728/02/yuki9902/b9/9a/j/o0640096613708401547.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184840674-13708401547.html)
+[![](/img/o0640096613708401547.jpg)](/img/o0640096613708401547.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160728/02/yuki9902/30/e8/j/o0640096613708401557.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184840674-13708401557.html)
+[![](/img/o0640096613708401557.jpg)](/img/o0640096613708401557.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160728/02/yuki9902/92/de/j/o0640096613708401564.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184840674-13708401564.html)
+[![](/img/o0640096613708401564.jpg)](/img/o0640096613708401564.jpg)
 
 足かけ一ヶ月、ようやくデカールを貼り終えて完成です。
 

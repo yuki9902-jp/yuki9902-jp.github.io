@@ -2,7 +2,7 @@
 title: "World Rock Live - Celine Dion - NHK BSHi"
 date: 2009-06-08T23:22:57+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

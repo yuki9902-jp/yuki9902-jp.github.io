@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12407623314.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20180926/06/yuki9902/c2/fc/j/o1080081014273010569.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12407623314-14273010569.html)
+[![](/img/o1080081014273010569.jpg)](/img/o1080081014273010569.jpg)
 
 ブラジル豆の浅煎りをミルで挽いて底の平たいペーパーでドリップ。
 

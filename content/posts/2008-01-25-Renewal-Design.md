@@ -2,7 +2,7 @@
 title: "Renewal Design"
 date: 2008-01-25T13:42:24+09:00
 archives: ["2008-01"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

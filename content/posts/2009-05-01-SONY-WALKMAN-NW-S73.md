@@ -2,11 +2,11 @@
 title: "SONY WALKMAN NW-S738F"
 date: 2009-05-01T01:17:11+09:00
 archives: ["2009-05"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 
-[![_IGP2260p.jpg](/blog/img/_IGP2260p.jpg)](/blog/img/_IGP2260p.jpg)
+[![igp2260p.jpg](/img/igp2260p.jpg)](/img/igp2260p.jpg)
 
 SONY WALKMAN Sシリーズ NW-S738Fを購入しました。
 

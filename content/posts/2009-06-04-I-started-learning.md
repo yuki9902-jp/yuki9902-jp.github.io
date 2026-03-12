@@ -2,7 +2,7 @@
 title: "I started learning 'XML DB' & 'One source, Multi use'."
 date: 2009-06-04T10:22:23+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

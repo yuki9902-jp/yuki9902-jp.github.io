@@ -4,7 +4,7 @@ date: 2009-11-10T11:58:25+09:00
 archives: ["2009-11"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 エクスプローラーが、Vistaの時よりも改善されて、初期状態で比較的使いやすくなりました。

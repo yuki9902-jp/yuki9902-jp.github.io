@@ -4,7 +4,7 @@ date: 2012-11-02T12:22:48+09:00
 archives: ["2012-11"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 Windows 8 Pro のアップグレードが、ダウンロード販売で3,300円という安さだったので、発売日に迷わず購入しました。

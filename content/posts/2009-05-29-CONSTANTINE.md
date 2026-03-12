@@ -2,7 +2,7 @@
 title: "CONSTANTINE"
 date: 2009-05-29T11:33:36+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

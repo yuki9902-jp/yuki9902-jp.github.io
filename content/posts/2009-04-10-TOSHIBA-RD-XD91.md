@@ -2,7 +2,7 @@
 title: "TOSHIBA RD-XD91"
 date: 2009-04-10T14:54:21+09:00
 archives: ["2009-04"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

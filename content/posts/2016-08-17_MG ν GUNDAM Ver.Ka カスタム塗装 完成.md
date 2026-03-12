@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12191172220.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160817/15/yuki9902/8e/66/j/o0966064013725545993.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12191172220-13725545993.html)
+[![](/img/o0966064013725545993.jpg)](/img/o0966064013725545993.jpg)
 
 MG νガンダム Ver.Kaのキットから、カスタム塗装を施し、Hi-νガンダムっぽくしました。
 

@@ -4,7 +4,7 @@ date: 2010-07-17T16:36:30+09:00
 archives: ["2010-07"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 OnkyoのSE-200PCI LTD ですが、VIAのEnvy24HTというチップを使っています。

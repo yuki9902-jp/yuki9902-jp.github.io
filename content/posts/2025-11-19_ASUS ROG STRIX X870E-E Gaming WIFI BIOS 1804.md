@@ -4,6 +4,7 @@ date: 2025-11-19T23:28:14+09:00
 archives: ["2025-11"]
 original_url: https://ameblo.jp/yuki9902/entry-12947372437.html
 categories: ['COMPUTER']
+tags: ['AMD','AGESA','ASUS','Ryzen','BIOS']
 ---
 
 [ASUS ROG STRIX X870E-E Gaming WIFI BIOS 1804](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/helpdesk_bios/)

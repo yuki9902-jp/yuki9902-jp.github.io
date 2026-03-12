@@ -2,7 +2,7 @@
 title: "Google Hacks"
 date: 2006-02-03T08:49:14+09:00
 archives: ["2006-02"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

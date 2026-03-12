@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12195435046.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160831/15/yuki9902/9d/02/j/o0640096613736809070.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12195435046-13736809070.html)
+[![](/img/o0640096613736809070.jpg)](/img/o0640096613736809070.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160831/15/yuki9902/f0/4e/j/o0966064013736809089.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12195435046-13736809089.html)
+[![](/img/o0966064013736809089.jpg)](/img/o0966064013736809089.jpg)
 
 午前中に定額小為替を郵便局で購入して、MG SINANJU Ver.Ka チタニウムフィニッシュとMG UNICORN GUNDAM Ver.Kaの部品を注文しました。
 

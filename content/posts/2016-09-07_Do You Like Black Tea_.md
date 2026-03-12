@@ -4,6 +4,7 @@ date: 2016-09-07T00:55:35+09:00
 archives: ["2016-09"]
 original_url: https://ameblo.jp/yuki9902/entry-12197520142.html
 categories: ['COLUMN']
+tags: ['DarjeelingFirstFlash']
 ---
 
 紅茶はダージリン地方の茶葉が好きです。

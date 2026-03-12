@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12565762370.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20200109/15/yuki9902/5c/30/j/o0640096614693180095.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12565762370-14693180095.html)
+[![](/img/o0640096614693180095.jpg)](/img/o0640096614693180095.jpg)
 
 折角淹れた珈琲が冷めてしまうのが嫌で、保温ステンレスボトルを買ってきました。
 

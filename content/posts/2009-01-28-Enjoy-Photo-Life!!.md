@@ -2,7 +2,7 @@
 title: "Enjoy Photo Life!!"
 date: 2009-01-28T17:04:27+09:00
 archives: ["2009-01"]
-tags: ['Archived']
+tags: ['PENTAX']
 categories: ['COLUMN']
 ---
 

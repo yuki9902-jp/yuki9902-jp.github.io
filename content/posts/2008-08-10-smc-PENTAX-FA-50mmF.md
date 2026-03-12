@@ -2,7 +2,7 @@
 title: "smc PENTAX FA 50mmF1.4"
 date: 2008-08-10T00:16:19+09:00
 archives: ["2008-08"]
-tags: ['Archived']
+tags: ['PENTAX']
 categories: ['COLUMN']
 ---
 

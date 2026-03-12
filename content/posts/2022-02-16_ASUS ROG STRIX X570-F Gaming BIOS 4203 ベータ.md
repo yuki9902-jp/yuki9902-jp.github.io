@@ -4,6 +4,7 @@ date: 2022-02-16T01:34:47+09:00
 archives: ["2022-02"]
 original_url: https://ameblo.jp/yuki9902/entry-12727118830.html
 categories: ['COMPUTER']
+tags: ['AMD','ASUS','AGESA','BIOS']
 ---
 
 ASUS ROG STRIX X570-F GamingのベータBIOS 4203が公開されたので、アップデートしました。

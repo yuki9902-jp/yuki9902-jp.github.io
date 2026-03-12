@@ -4,9 +4,8 @@ date: 2021-06-09T10:02:22+09:00
 archives: ["2021-06"]
 original_url: https://ameblo.jp/yuki9902/entry-12679531081.html
 categories: ['COMPUTER']
+tags: ['WHEA-Logger ID:18']
 ---
-
-[『解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』１．解決方法（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。（２）低電力設定をやめる。　・Global C StateをDisableにする。…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![](https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg)](https://ameblo.jp/yuki9902/entry-12957494856.html)
 
 ### 致命的なエラー WHEA-Logger ID:18でWindowsが落ちる
 
@@ -53,7 +52,7 @@ categories: ['COMPUTER']
 
 一応今回の対策として、CPUのプレジションブーストオーバードライブのCPUのコア電圧制御カーブをマニュアルで設定していることでピーキーになっているのではないかと思って、プレジションブーストオーバードライブの項目、CPUのオーバークロックの項目をすべてAutoに変更しました。
 
-[![CPU-ZによるRyzen 7 5800Xベンチマーク](https://stat.ameba.jp/user_images/20210609/09/yuki9902/d0/c6/p/o1186095914954665977.png?caw=800)](https://ameblo.jp/yuki9902/image-12679531081-14954665977.html)
+[![](/img/o1186095914954665977.png)](/img/o1186095914954665977.png)
 
 ちなみにすべての項目をAutoに設定した後、CPU-Zでベンチマークを取りました。
 

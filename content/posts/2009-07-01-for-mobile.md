@@ -4,7 +4,7 @@ date: 2009-07-01T01:13:20+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['BLOG HISTORY']
-tags: []
+
 ---
 
 たいがい欲しい機能はプラグインなりでそろっています。

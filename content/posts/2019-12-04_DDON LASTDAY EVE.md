@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12552874858.html
 categories: ['GAME']
 ---
 
-[![](https://stat.ameba.jp/user_images/20191204/22/yuki9902/88/e7/j/o1920108014660981446.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12552874858-14660981446.html)
+[![](/img/o1920108014660981446.jpg)](/img/o1920108014660981446.jpg)
 
-[![](https://stat.ameba.jp/user_images/20191204/22/yuki9902/2b/8a/j/o1920108014660981686.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12552874858-14660981686.html)
+[![](/img/o1920108014660981686.jpg)](/img/o1920108014660981686.jpg)
 
 Dragon's Dogma Onlineのサービス終了前夜です。
 

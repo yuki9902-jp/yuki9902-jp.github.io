@@ -6,14 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12586647992.html
 categories: ['COMPUTER']
 ---
 
-[![](https://p.odsyms15.com/VTo9sdtxEEnkpXJZKQs581)
-
-Corsair Crystal 680X RGB Tempered Glass -Black- キューブ型PCケース CS7554 CC-9011168-WW
-
-Amazon（アマゾン）
-
-27,836〜56,969円](https://d.odsyms15.com/click?aid=qfSwv5590lkOYuV8Ercudt&mimp=B2yh7rEgTgeSaAOhijIyCV&session=d4c5685c-0cce-4bcb-8d5b-9943ee54451c&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
-
 スーパーの買い物でもらえるブルーチップを集めて、Amazon.co.jpの5000円分の商品券に交換したものが届いたので、前々から更新したかったPCケースを新しくします。
 
 コルセアのCrystal 680X RGBです。

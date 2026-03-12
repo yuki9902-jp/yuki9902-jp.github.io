@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12195212748.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160830/21/yuki9902/ae/b4/j/o0640096613736241177.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12195212748-13736241177.html)
+[![](/img/o0640096613736241177.jpg)](/img/o0640096613736241177.jpg)
 
 部品のはめあわせがキツすぎて、右の股関節部品を破損。
 

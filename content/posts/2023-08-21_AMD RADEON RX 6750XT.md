@@ -4,17 +4,18 @@ date: 2023-08-21T20:48:38+09:00
 archives: ["2023-08"]
 original_url: https://ameblo.jp/yuki9902/entry-12817194767.html
 categories: ['COMPUTER']
+tags: ['AMD','ASUS','RADEON','RX6750XT','Adrenaline','Windows11Pro']
 ---
 
-[ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6 | Graphics Card | ASUS GlobalROG Strix Radeon™ RX 6750 XT OC Edition 12GB GDDR6 is a cooling and power-performance juggernaut.![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)rog.asus.com![](https://dlcdnwebimgs.asus.com/gain/FBB83F06-C7D1-42B5-9690-229B3A4C0A94)](https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rx6750xt-o12g-gaming-model/)
+[ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6 | Graphics Card | ASUS GlobalROG Strix Radeon™ RX 6750 XT OC Edition 12GB GDDR6 is a cooling and power-performance juggernaut.!rog.asus.com![](https://dlcdnwebimgs.asus.com/gain/FBB83F06-C7D1-42B5-9690-229B3A4C0A94)](https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rx6750xt-o12g-gaming-model/)
 
-[![ROG Strix Radeon RX 6750 XT 12GB GPU](https://stat.ameba.jp/user_images/20230821/20/yuki9902/d9/25/j/o1878140815328184551.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184551.html)
+[![](/img/o1878140815328184551.jpg)](/img/o1878140815328184551.jpg)
 
-[![ASUS ROG Strix Radeon RX 6750 XT GPU](https://stat.ameba.jp/user_images/20230821/20/yuki9902/36/55/j/o1838137815328184558.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184558.html)
+[![](/img/o1838137815328184558.jpg)](/img/o1838137815328184558.jpg)
 
-[![ROG Strix RX 6750 XT GPU背面](https://stat.ameba.jp/user_images/20230821/20/yuki9902/b7/92/j/o1756131715328184566.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184566.html)
+[![](/img/o1756131715328184566.jpg)](/img/o1756131715328184566.jpg)
 
-[![ROG Strix RX 6750 XT GPU搭載PC](https://stat.ameba.jp/user_images/20230821/20/yuki9902/da/62/j/o1943145715328184571.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12817194767-15328184571.html)
+[![](/img/o1943145715328184571.jpg)](/img/o1943145715328184571.jpg)
 
 ASUS ROG Strix Radeon RX 6750 XT OC Edition 12GB GDDR6
 

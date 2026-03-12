@@ -4,6 +4,7 @@ date: 2021-11-19T00:31:50+09:00
 archives: ["2021-11"]
 original_url: https://ameblo.jp/yuki9902/entry-12711021388.html
 categories: ['COMPUTER']
+tags: ['TrueNAS']
 ---
 
 CPUがRYZEN 7 1700のPCにWindows 10 Proをインストールして、記憶域（シンプロビジョニング）を使ってファイルサーバーを作っていました。RYZEN 7 1700がWindows 11ではサポートされないので、OSをTrueNASに移行しました。Windows 10よりもインストールが簡単で、シンプロビジョニングの設定も簡単でした。

@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-10820137955.html
 categories: ['COLUMN']
 ---
 
-[![高原の風](https://stat.ameba.jp/user_images/20110304/14/yuki9902/28/65/j/t02200331_0600090311089109970.jpg?caw=800)](https://ameblo.jp/yuki9902/image-10820137955-11089109970.html)
+[![](/img/t02200331_0600090311089109970.jpg)](/img/t02200331_0600090311089109970.jpg)
 
   
 

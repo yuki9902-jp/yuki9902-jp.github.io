@@ -2,7 +2,7 @@
 title: "Reborn My PC"
 date: 2008-03-05T09:13:15+09:00
 archives: ["2008-03"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

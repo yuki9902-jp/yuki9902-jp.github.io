@@ -4,7 +4,7 @@ date: 2009-07-30T12:26:57+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 爆睡

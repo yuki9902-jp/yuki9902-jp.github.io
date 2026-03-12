@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12606745576.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20200625/13/yuki9902/c7/4a/j/o0966064014779466093.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12606745576-14779466093.html)
+[![](/img/o0966064014779466093.jpg)](/img/o0966064014779466093.jpg)
 
 朝から雨が降っている。
 

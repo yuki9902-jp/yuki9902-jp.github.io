@@ -3,7 +3,8 @@ title: "なぜMicrosoft Copilotが嫌われるのか"
 date: 2026-01-29T06:44:52+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12954931618.html
-categories: ['COLUMN']
+categories: ['AI']
+tags: ['COPILOT']
 ---
 
 便利であるように見えるだけの「Copilot」。

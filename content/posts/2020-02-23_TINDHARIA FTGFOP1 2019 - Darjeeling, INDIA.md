@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12577218548.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20200223/15/yuki9902/f5/cb/j/o0966064014717626394.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12577218548-14717626394.html)
+[![](/img/o0966064014717626394.jpg)](/img/o0966064014717626394.jpg)
 
 食料品の買い出しから帰ってきました。
 

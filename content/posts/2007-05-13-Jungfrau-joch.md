@@ -2,7 +2,7 @@
 title: "Jungfrau joch"
 date: 2007-05-13T21:35:54+09:00
 archives: ["2007-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

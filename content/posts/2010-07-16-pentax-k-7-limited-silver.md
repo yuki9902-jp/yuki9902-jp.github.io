@@ -4,10 +4,10 @@ date: 2010-07-16T18:03:18+09:00
 archives: ["2010-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+tags: ['PENTAX']
 ---
 
-[caption id="attachment_1252" align="alignnone" width="461" caption="PENTAX K-7 Limited Silver"][](http://yuki9902.com/wp/wp-content/uploads/2010/07/IGP3330_01.jpg)[/caption]
+[caption id="attachment_1252" align="alignnone" width="461" caption="PENTAX K-7 Limited Silver"][](http://yuki9902.com/wp/wp-content/uploads/2010/07/igp3330_01.jpg)[/caption]
 
 [PENTAX K-7 Limited Silver](http://www.pentax.jp/japan/imaging/digital/slr/k-7/limited/) / [smcPENTAX DA35mmF2.8 Macro Limited](http://www.pentax.jp/japan/imaging/digital/lens/index35_normal.html)
 

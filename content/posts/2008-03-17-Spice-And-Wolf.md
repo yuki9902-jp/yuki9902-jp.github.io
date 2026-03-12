@@ -2,7 +2,7 @@
 title: "Spice And Wolf"
 date: 2008-03-17T15:24:43+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

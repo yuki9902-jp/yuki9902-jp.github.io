@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12230319930.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20161220/15/yuki9902/f6/c8/j/o0966064013825512083.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12230319930-13825512083.html)
+[![](/img/o0966064013825512083.jpg)](/img/o0966064013825512083.jpg)
 
 イタリアのブランド [mila schon](http://milaschon.jp/) と東かがわ市の[ヨークス株式会社](http://yorks.co.jp/)との共同企画の商品です。
 

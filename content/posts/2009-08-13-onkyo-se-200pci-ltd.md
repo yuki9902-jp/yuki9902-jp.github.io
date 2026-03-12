@@ -4,7 +4,7 @@ date: 2009-08-13T13:47:48+09:00
 archives: ["2009-08"]
 draft: false
 categories: ['AUDIO', 'COMPUTER']
-tags: []
+
 ---
 
 サウンドボードを新しくしました。

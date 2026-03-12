@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12286787598.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20170625/12/yuki9902/95/57/j/o0966064013968270220.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12286787598-13968270220.html)
+[![](/img/o0966064013968270220.jpg)](/img/o0966064013968270220.jpg)
 
 母がイナバ化粧品店で勧められるまま購入した美容補助飲料。
 

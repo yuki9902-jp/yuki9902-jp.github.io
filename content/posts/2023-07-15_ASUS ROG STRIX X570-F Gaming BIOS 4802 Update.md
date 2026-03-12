@@ -4,6 +4,7 @@ date: 2023-07-15T22:55:29+09:00
 archives: ["2023-07"]
 original_url: https://ameblo.jp/yuki9902/entry-12812231836.html
 categories: ['COMPUTER']
+tags: ['AMD','ASUS','X570','BIOS','AGESA']
 ---
 
 ASUS ROG Strix X570-F GamingのBIOS 4802が公開されていたので、更新しました。

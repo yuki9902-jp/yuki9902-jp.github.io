@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12194887721.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160829/20/yuki9902/0d/3e/j/o0966064013735383929.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12194887721-13735383929.html)
+[![](/img/o0966064013735383929.jpg)](/img/o0966064013735383929.jpg)
 
 とりあえず上半身完成。
 

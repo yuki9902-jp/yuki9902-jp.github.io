@@ -4,19 +4,18 @@ date: 2021-06-07T08:26:26+09:00
 archives: ["2021-06"]
 original_url: https://ameblo.jp/yuki9902/entry-12679118874.html
 categories: ['COMPUTER']
+tags: ['WHEA-Logger ID:18']
 ---
-
-[『解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』１．解決方法（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。（２）低電力設定をやめる。　・Global C StateをDisableにする。…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![](https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg)](https://ameblo.jp/yuki9902/entry-12957494856.html)
 
 AMD Ryzen 5000シリーズにおいて、高負荷時に特定のコアでエラーが検出され、システムが強制終了（シャットダウン）してしまう事象があります。
 
-[![WHEA-Loggerエラーログ：CPU電圧制御不調](https://stat.ameba.jp/user_images/20210607/08/yuki9902/7d/68/p/o0986070814953650696.png?caw=800)](https://ameblo.jp/yuki9902/image-12679118874-14953650696.html)
+[![](/img/o0986070814953650696.png)](/img/o0986070814953650696.png)
 
 一部では「コアの耐性不足によるハードウェアの不具合」としてCPU本体の交換対応が行われているケースも見受けられますが、詳しく調査したところ、必ずしも個体の不具合とは言えない実態が見えてきました。
 
 参照：
 
-[『致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』　システムエラーで致命的なエラーWHEA-Logger ID:18としてエラーが記録されてPCが落ちてしまうことがやはり続きます。このエラーログを見るとCPU…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![Ryzen 7 5800X CPU-Zバリデーション画面](https://stat.ameba.jp/user_images/20210609/09/yuki9902/d0/c6/p/o1186095914954665977.png?caw=800)](https://ameblo.jp/yuki9902/entry-12679531081.html)
+[致命的なエラー WHEA-Logger ID:18でWindowsが落ちる](../致命的なエラー WHEA-Logger ID:18でWindowsが落ちる/)
 
 #### エラーの正体：電圧制御のアンマッチ
 

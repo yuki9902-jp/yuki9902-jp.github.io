@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12464060163.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20190526/18/yuki9902/67/57/j/o1080081014416722341.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12464060163-14416722341.html)
+[![](/img/o1080081014416722341.jpg)](/img/o1080081014416722341.jpg)
 
 友人から貰って、一度バッテリー交換をした物です。
 

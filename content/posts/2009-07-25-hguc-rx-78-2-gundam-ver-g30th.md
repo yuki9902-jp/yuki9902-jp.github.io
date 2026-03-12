@@ -4,7 +4,7 @@ date: 2009-07-25T20:32:01+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 [caption id="attachment_749" align="alignnone" width="461" caption="ガンプラのおまけ"][/caption]

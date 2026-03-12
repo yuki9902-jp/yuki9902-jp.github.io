@@ -2,7 +2,7 @@
 title: "grand chef KOBE Premium Custard Pudding"
 date: 2008-06-05T11:26:27+09:00
 archives: ["2008-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

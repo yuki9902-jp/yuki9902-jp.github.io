@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12572712853.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20200204/14/yuki9902/ed/9a/j/o0966064014707631452.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12572712853-14707631452.html)
+[![](/img/o0966064014707631452.jpg)](/img/o0966064014707631452.jpg)
 
 ダージリンの2019年オータムナルのシンジェル農園の茶葉で、グレードはFTGFOP1です。
 

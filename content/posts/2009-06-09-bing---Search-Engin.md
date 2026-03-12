@@ -2,7 +2,7 @@
 title: "bing - Search Engine"
 date: 2009-06-09T10:28:58+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

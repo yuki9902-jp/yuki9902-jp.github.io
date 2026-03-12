@@ -2,7 +2,7 @@
 title: "OSAKA Automesse 2008"
 date: 2008-02-12T10:00:38+09:00
 archives: ["2008-02"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

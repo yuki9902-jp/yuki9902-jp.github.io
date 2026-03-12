@@ -2,7 +2,7 @@
 title: "TOSHIBA SD-XDE1"
 date: 2008-12-16T17:07:05+09:00
 archives: ["2008-12"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

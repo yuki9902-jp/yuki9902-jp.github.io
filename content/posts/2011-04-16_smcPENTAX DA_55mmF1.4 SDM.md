@@ -3,7 +3,7 @@ title: "smcPENTAX DA*55mmF1.4 SDM"
 date: 2011-04-16T01:20:25+09:00
 archives: ["2011-04"]
 original_url: https://ameblo.jp/yuki9902/entry-10862878372.html
-categories: ['COLUMN']
+categories: ['COLUMN','PENTAX']
 ---
 
 正月明けぐらいから動作不良で、修理が必要かと思って、乾燥箱の中に保管していたんですが、今日、なんとなしにPENTAX K-7に付けたら、ちゃんと動作してました。

@@ -4,7 +4,7 @@ date: 2010-12-14T15:26:25+09:00
 archives: ["2010-12"]
 draft: false
 categories: ['BLOG HISTORY']
-tags: []
+
 ---
 
 WordPressのLightBox Pluginをインストールし、比較的簡単に対応できる写真に適応させました。

@@ -4,9 +4,10 @@ date: 2010-04-23T14:05:53+09:00
 archives: ["2010-04"]
 original_url: https://ameblo.jp/yuki9902/entry-10515770516.html
 categories: ['COLUMN']
+tags: ['PENTAX']
 ---
 
-[![おやぶんの物欲と苦悩-PENTAX K7 Limited Silver](https://stat.ameba.jp/user_images/20100423/14/yuki9902/c5/d8/j/t02200146_0722048010508133102.jpg?caw=800)](https://ameblo.jp/yuki9902/image-10515770516-10508133102.html)
+[![](/img/t02200146_0722048010508133102.jpg)](/img/t02200146_0722048010508133102.jpg)
 
 PENTAX K20D（デジタルカメラ）とD-BG2（バッテリーグリップ）とSanyo Z3（プロジェクター）を売り、AmazonでPENTAX K7 Limited Silverを購入しました。
 

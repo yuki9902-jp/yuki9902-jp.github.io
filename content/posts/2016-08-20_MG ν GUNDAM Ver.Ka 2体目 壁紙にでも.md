@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12192040534.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160820/01/yuki9902/66/d9/j/o1920108013727601520.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12192040534-13727601520.html)
+[![](/img/o1920108013727601520.jpg)](/img/o1920108013727601520.jpg)
 
 2体目のサイコフレーム展開モードとノーマルモードを合成してみました。
 

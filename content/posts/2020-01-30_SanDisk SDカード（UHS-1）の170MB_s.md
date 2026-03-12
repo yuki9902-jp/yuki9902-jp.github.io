@@ -12,7 +12,7 @@ categories: ['COMPUTER']
 
 MRW-S1では98MB/sで頭打ちしてしまっている。
 
-[![](https://stat.ameba.jp/user_images/20200130/18/yuki9902/a8/36/p/o0482034714704926053.png?caw=800)](https://ameblo.jp/yuki9902/image-12571303782-14704926053.html)
+[![](/img/o0482034714704926053.png)](/img/o0482034714704926053.png)
 
 で、調べてみたら、SDカードの種類の違いにUHS-IとUHS-IIがあるけど、UHS-Iの規格ではあるもののSanDisk独自の技術で読み込み170MB/sというのがあるのが分かった。
 
@@ -22,11 +22,11 @@ MRW-S1では98MB/sで頭打ちしてしまっている。
 
 今度のSDカードリーダーはUHS-I規格までしか対応しないが、ちゃんとExtream Pro 170MB/sの性能が得られた。
 
-[![](https://stat.ameba.jp/user_images/20200130/18/yuki9902/30/cb/p/o0482034714704926070.png?caw=800)](https://ameblo.jp/yuki9902/image-12571303782-14704926070.html)
+[![](/img/o0482034714704926070.png)](/img/o0482034714704926070.png)
 
 170MB/s以上のSDカードになるとUHS-II規格になるので、SONYのカードリーダーを使うことにしよう。
 
-[![](https://stat.ameba.jp/user_images/20200130/18/yuki9902/33/1b/j/o0966064014704925964.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12571303782-14704925964.html)
+[![](/img/o0966064014704925964.jpg)](/img/o0966064014704925964.jpg)
 
 UHS-IIのSDカードを持ってないけど・・・。
 

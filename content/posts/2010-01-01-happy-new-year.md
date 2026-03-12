@@ -4,7 +4,7 @@ date: 2010-01-01T22:53:49+09:00
 archives: ["2010-01"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 あけましておめでとうございます。

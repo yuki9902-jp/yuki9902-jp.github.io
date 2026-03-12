@@ -16,15 +16,15 @@ Amazon（アマゾン）
 
 ASUSのROG STRIX X570-F GAMINGというマザーボードを買いました。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/9e/98/j/o0966064014727630821.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630821.html)
+[![](/img/o0966064014727630821.jpg)](/img/o0966064014727630821.jpg)
 
 これまで使っていたX370チップセットのマザーボードでは、DDR4-3600MHz 8GBの4枚差しの動作が怪しかったので、乗り換えです。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/dd/db/j/o0966064014727630823.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630823.html)
+[![](/img/o0966064014727630823.jpg)](/img/o0966064014727630823.jpg)
 
 上がこれまで使っていたもの。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/e6/02/j/o0966064014727630826.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630826.html)
+[![](/img/o0966064014727630826.jpg)](/img/o0966064014727630826.jpg)
 
 今回買ったROG STRIX X570-F GAMING。
 
@@ -36,47 +36,47 @@ X370チップセットはPCIe 2.0までで、RYZEN 7 3700X側に接続されたP
 
 で、マザーボード以外の部品はすべて流用です。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/7e/c8/j/o0966064014727630829.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630829.html)
+[![](/img/o0966064014727630829.jpg)](/img/o0966064014727630829.jpg)
 
 まずCPU。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/b8/44/j/o0966064014727630828.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630828.html)
+[![](/img/o0966064014727630828.jpg)](/img/o0966064014727630828.jpg)
 
 M.2 SSD(PCIe接続、NVMe）のSSD。
 
 前のマザーボードにヒートシンクが付属していなかったので、AINEXや長尾製作所のものを両側から熱伝導シートで貼り付けていました。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/a1/c5/j/o0966064014727630830.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630830.html)
+[![](/img/o0966064014727630830.jpg)](/img/o0966064014727630830.jpg)
 
 ヒートシンクを剥がした後のM.2 SSD。
 
 WD BLACKの3世代目です。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/37/f1/j/o0966064014727630832.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630832.html)
+[![](/img/o0966064014727630832.jpg)](/img/o0966064014727630832.jpg)
 
 M.2 SDDをボルトオン。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/02/65/j/o0966064014727630833.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630833.html)
+[![](/img/o0966064014727630833.jpg)](/img/o0966064014727630833.jpg)
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/01/75/j/o0966064014727630835.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630835.html)
+[![](/img/o0966064014727630835.jpg)](/img/o0966064014727630835.jpg)
 
 M.2 SSDの上にヒートシンク兼化粧パネルをボルトオン。
 
 メモリーもCPUもSATAも着け終わってますね。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/86/5a/j/o0966064014727630837.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630837.html)
+[![](/img/o0966064014727630837.jpg)](/img/o0966064014727630837.jpg)
 
 GPU GeForce GTX 1060 6GBをスロットイン。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/72/57/j/o0966064014727630838.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630838.html)
+[![](/img/o0966064014727630838.jpg)](/img/o0966064014727630838.jpg)
 
 VRMに着けられたヒートシンクとIOパネルの上にROGのロゴや光るカバーが着けられています。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/3e/27/j/o0966064014727630840.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630840.html)
+[![](/img/o0966064014727630840.jpg)](/img/o0966064014727630840.jpg)
 
 左にCORSAIRのファンが並んでいます。
 
-[![](https://stat.ameba.jp/user_images/20200314/01/yuki9902/95/96/j/o0966064014727630841.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12581981481-14727630841.html)
+[![](/img/o0966064014727630841.jpg)](/img/o0966064014727630841.jpg)
 
 電源オンで、派手に光っています。
 

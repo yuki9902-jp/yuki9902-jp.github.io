@@ -4,7 +4,7 @@ date: 2009-09-04T20:59:22+09:00
 archives: ["2009-09"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 PS3のシステムアップデートが9/1に実施されました。

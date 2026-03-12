@@ -4,7 +4,7 @@ date: 2011-03-04T16:47:57+09:00
 archives: ["2011-03"]
 draft: false
 categories: ['AUDIO']
-tags: []
+
 ---
 
 2ch Stereoの楽曲を、NERO WaveEditorで7.1chと5.1chに変換してみました。

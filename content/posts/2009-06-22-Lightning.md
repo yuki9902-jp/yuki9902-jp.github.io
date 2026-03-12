@@ -2,7 +2,7 @@
 title: "Lightning"
 date: 2009-06-22T10:15:46+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

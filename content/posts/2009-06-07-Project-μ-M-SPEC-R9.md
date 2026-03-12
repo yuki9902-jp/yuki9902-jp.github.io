@@ -2,7 +2,7 @@
 title: "Project μ M-SPEC R906 2nd"
 date: 2009-06-07T22:57:56+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

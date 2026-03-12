@@ -2,7 +2,7 @@
 title: "Flog Surround"
 date: 2009-06-21T00:55:07+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

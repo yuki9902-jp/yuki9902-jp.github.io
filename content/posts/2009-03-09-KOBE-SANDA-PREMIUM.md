@@ -2,7 +2,7 @@
 title: "KOBE SANDA PREMIUM OUTLET MALL"
 date: 2009-03-09T00:29:06+09:00
 archives: ["2009-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

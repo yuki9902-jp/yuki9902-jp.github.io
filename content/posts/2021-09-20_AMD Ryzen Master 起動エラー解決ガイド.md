@@ -4,6 +4,7 @@ date: 2021-09-20T00:08:02+09:00
 archives: ["2021-09"]
 original_url: https://ameblo.jp/yuki9902/entry-12698949552.html
 categories: ['COMPUTER']
+tags: ['Ryzen Master']
 ---
 
 「Ryzen Master Driver not installed Properly」の記事をGemini3Flashを使って、2026/01/24現在の情報で再構成しました。

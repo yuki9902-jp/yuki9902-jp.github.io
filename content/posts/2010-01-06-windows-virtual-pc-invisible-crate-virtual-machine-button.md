@@ -4,7 +4,7 @@ date: 2010-01-06T12:34:03+09:00
 archives: ["2010-01"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 Windows 7 のWindows XP Mode を利用するだけでなく、Windows Virtual PC から他のゲストOSをインストールできるらしい。Linux をインストールしたくて、チャレンジしてみたが、不具合があり、断念している。この不具合で仮想マシンを作成できず、他のOSをインストールできないからだ。

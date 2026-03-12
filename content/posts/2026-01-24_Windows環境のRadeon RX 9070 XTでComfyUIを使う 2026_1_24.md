@@ -4,6 +4,7 @@ date: 2026-01-24T06:34:51+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12954404367.html
 categories: ['COMPUTER']
+tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
 
 ### 1. はじめに

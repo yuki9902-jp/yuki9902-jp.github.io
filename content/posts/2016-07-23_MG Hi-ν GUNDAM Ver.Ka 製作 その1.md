@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12183338850.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160723/11/yuki9902/ab/30/j/o0800053013704373852.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183338850-13704373852.html)
+[![](/img/o0800053013704373852.jpg)](/img/o0800053013704373852.jpg)
 
 キットの成形色のまま（ホワイト、グレー、パープル）のランナーには、墨入れをしました。
 

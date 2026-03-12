@@ -2,7 +2,7 @@
 title: "I drank a 'shiroi natchan'."
 date: 2008-01-30T13:40:01+09:00
 archives: ["2008-01"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

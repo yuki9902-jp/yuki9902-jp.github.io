@@ -4,7 +4,7 @@ date: 2013-03-20T17:28:39+09:00
 archives: ["2013-03"]
 draft: false
 categories: ['BLOG HISTORY', 'COLUMN']
-tags: []
+
 ---
 
 テスト投稿を兼ねての記事です。

@@ -2,7 +2,7 @@
 title: "Final Fantasy XII の 2"
 date: 2006-03-29T11:56:30+09:00
 archives: ["2006-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

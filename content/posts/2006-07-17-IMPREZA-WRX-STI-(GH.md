@@ -2,7 +2,7 @@
 title: "IMPREZA WRX STI (GH-GDBF)"
 date: 2006-07-17T20:17:01+09:00
 archives: ["2006-07"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

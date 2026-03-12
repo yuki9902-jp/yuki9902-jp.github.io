@@ -6,12 +6,12 @@ original_url: https://ameblo.jp/yuki9902/entry-11951037330.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20141111/16/yuki9902/50/d7/j/t02200146_0800053013126057235.jpg?caw=800)](https://ameblo.jp/yuki9902/image-11951037330-13126057235.html)
+[![](/img/t02200146_0800053013126057235.jpg)](/img/t02200146_0800053013126057235.jpg)
 
   
   
 
-[![](https://stat.ameba.jp/user_images/20141111/16/yuki9902/c0/27/j/t02200146_0800053013126057234.jpg?caw=800)](https://ameblo.jp/yuki9902/image-11951037330-13126057234.html)
+[![](/img/t02200146_0800053013126057234.jpg)](/img/t02200146_0800053013126057234.jpg)
 
   
 
@@ -28,7 +28,7 @@ WALKMANで初のメモリカード(micro SDXC(128GBまで))に対応した機種
   
   
 
-[![](https://stat.ameba.jp/user_images/20141111/16/yuki9902/19/33/j/t02200146_0800053013126057233.jpg?caw=800)](https://ameblo.jp/yuki9902/image-11951037330-13126057233.html)
+[![](/img/t02200146_0800053013126057233.jpg)](/img/t02200146_0800053013126057233.jpg)
 
   
 
@@ -108,7 +108,7 @@ A17では、DSEE HXを搭載しています。
   
   
 
-[![](https://stat.ameba.jp/user_images/20141111/16/yuki9902/77/02/j/t02200146_0800053013126057236.jpg?caw=800)](https://ameblo.jp/yuki9902/image-11951037330-13126057236.html)
+[![](/img/t02200146_0800053013126057236.jpg)](/img/t02200146_0800053013126057236.jpg)
 
   
   

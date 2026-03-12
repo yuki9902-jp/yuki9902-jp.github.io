@@ -4,7 +4,7 @@ date: 2009-07-21T17:29:35+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 [DiXiM DigitalTV](http://optmarket.jp/digion/dixim/index.html)

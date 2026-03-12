@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12185113192.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160728/23/yuki9902/e3/90/j/o0966064013709082696.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185113192-13709082696.html)
+[![](/img/o0966064013709082696.jpg)](/img/o0966064013709082696.jpg)
 
 上がHG Hi-ν GUNDAM (1/144)。
 

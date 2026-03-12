@@ -4,7 +4,7 @@ date: 2012-10-18T11:39:00+09:00
 archives: ["2012-10"]
 draft: false
 categories: ['AUDIO', 'COMPUTER']
-tags: []
+
 ---
 
 新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。

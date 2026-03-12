@@ -12,7 +12,7 @@ mp4でちゃんと出力できます。
 
 AVI（Motion JPEG FHD 25fps / PCM 32kHz Mono）1分30秒（1GB）をMP4（AMD AMF エンコーダー）に変換させてみました。
 
-[![](https://stat.ameba.jp/user_images/20201204/21/yuki9902/c3/7f/p/o0604045514861530948.png?caw=800)](https://ameblo.jp/yuki9902/image-12642060014-14861530948.html)
+[![](/img/o0604045514861530948.png)](/img/o0604045514861530948.png)
 
 20秒で変換できました。
 

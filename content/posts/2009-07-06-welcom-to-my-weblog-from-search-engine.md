@@ -4,7 +4,7 @@ date: 2009-07-06T09:18:22+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['BLOG HISTORY']
-tags: []
+
 ---
 
 検索エンジンでこられた方、ご来訪ありがとうございます。

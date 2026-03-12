@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12188498387.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160808/18/yuki9902/d4/f9/j/o0640096613718297974.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188498387-13718297974.html)
+[![](/img/o0640096613718297974.jpg)](/img/o0640096613718297974.jpg)
 
 徐々に作業を進めています。
 

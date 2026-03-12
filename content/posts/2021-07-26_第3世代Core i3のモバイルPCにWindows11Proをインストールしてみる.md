@@ -8,7 +8,7 @@ categories: ['COMPUTER']
 
 追記：2026/01/20 現在はWindows 11のハードウェア条件、TPM2とセキュアブートのチェックが無くなっています。
 
-[『第3世代Intel Core i3 CPU環境へWindows 11をインストールする』第3世代Intel Core i3 CPU環境へWindows 11をインストールする1. はじめに：10年選手を現役へかつて「Windows 11は第8世代…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![](https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg)](https://ameblo.jp/yuki9902/entry-12954754848.html)
+[『第3世代Intel Core i3 CPU環境へWindows 11をインストールする』第3世代Intel Core i3 CPU環境へWindows 11をインストールする1. はじめに：10年選手を現役へかつて「Windows 11は第8世代…!ameblo.jp![](https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg)](https://ameblo.jp/yuki9902/entry-12954754848.html)
 
 　新しいOSは試してみたくなるのが元SEの性です。
 
@@ -24,7 +24,7 @@ categories: ['COMPUTER']
 
 　クリーンインストールしたいので、ブータブルUSBセットアップメディアを作成します。
 
-[UUP dumpDownload UUP files from Windows Update servers with ease. This project is not affiliated with Microsoft Corporation.![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)uupdump.net![](https://uupdump.net/img/cover.png)](https://uupdump.net/)
+[UUP dumpDownload UUP files from Windows Update servers with ease. This project is not affiliated with Microsoft Corporation.!uupdump.net![](https://uupdump.net/img/cover.png)](https://uupdump.net/)
 
  上記のリンクから、Latest Dev Channel Buildのx64のビルドファイルを任意のフォルダーにダウンロードします。
 
@@ -40,7 +40,7 @@ categories: ['COMPUTER']
 
 　レジストリエディタを閉じ、コマンドプロンプトを閉じ、引き続きセットアップを続行します。
 
-[![Windows 11 デバイスマネージャーとCPU情報](https://stat.ameba.jp/user_images/20210726/14/yuki9902/19/73/j/o1920108014977840793.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12688644675-14977840793.html)
+[![](/img/o1920108014977840793.jpg)](/img/o1920108014977840793.jpg)
 
 一部ドライバーがインストールされていませんが、特殊なハードウェアが無ければ大体そのまま使える状態に成っています。
 

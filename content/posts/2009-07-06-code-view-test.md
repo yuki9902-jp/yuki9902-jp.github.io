@@ -4,7 +4,7 @@ date: 2009-07-06T11:49:00+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['SOURCE LIBRARY']
-tags: []
+
 ---
 
 WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。

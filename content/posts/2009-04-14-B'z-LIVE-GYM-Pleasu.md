@@ -2,7 +2,7 @@
 title: "B'z LIVE-GYM Pleasure 2008 GLORY DAYS"
 date: 2009-04-14T23:25:49+09:00
 archives: ["2009-04"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

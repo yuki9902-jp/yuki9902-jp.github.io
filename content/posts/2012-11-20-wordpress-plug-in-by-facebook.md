@@ -4,7 +4,7 @@ date: 2012-11-20T13:06:23+09:00
 archives: ["2012-11"]
 draft: false
 categories: ['BLOG HISTORY', 'SITE']
-tags: []
+
 ---
 
 WordPressのPlug-inをFacebookが公式に提供しています。

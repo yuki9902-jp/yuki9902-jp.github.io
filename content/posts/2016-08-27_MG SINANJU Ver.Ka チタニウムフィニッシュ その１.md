@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12194175506.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160827/13/yuki9902/0d/14/j/o0966064013733428552.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12194175506-13733428552.html)
+[![](/img/o0966064013733428552.jpg)](/img/o0966064013733428552.jpg)
 
 赤い部分は最初からチタニウムフィニッシュ塗装がしてあり、金属調光沢が美しいです。
 

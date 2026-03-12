@@ -3,7 +3,7 @@ title: "HD PENTAX-D FA☆85mmF1.4ED SDM AW"
 date: 2020-05-29T21:43:40+09:00
 archives: ["2020-05"]
 original_url: https://ameblo.jp/yuki9902/entry-12600432852.html
-categories: ['COLUMN']
+categories: ['COLUMN','PENTAX']
 ---
 
 RICHO IMAGINGから[HD PENTAX-D FA☆85mmF1.4ED SDM AW](http://www.ricoh-imaging.co.jp/japan/products/lens/k/telephoto/hdpentax-dfa-85/?goal=0_5a4f88524f-0bce565fb9-55380599&mc_cid=0bce565fb9&mc_eid=fca1781278)が発売になりました。

@@ -2,7 +2,7 @@
 title: "Apple Safari 3.1"
 date: 2008-04-04T14:03:19+09:00
 archives: ["2008-04"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

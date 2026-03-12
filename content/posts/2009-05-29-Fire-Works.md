@@ -2,7 +2,7 @@
 title: "Fire Works"
 date: 2009-05-29T17:29:42+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

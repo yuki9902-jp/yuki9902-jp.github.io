@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12390242022.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20180712/12/yuki9902/3f/53/j/o1080081014227599043.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12390242022-14227599043.html)
+[![](/img/o1080081014227599043.jpg)](/img/o1080081014227599043.jpg)
 
 机の上にはトラジャスロトコのアイスコーヒー。
 

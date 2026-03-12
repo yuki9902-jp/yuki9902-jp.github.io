@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-10469727780.html
 categories: ['COLUMN']
 ---
 
-[![おやぶんの物欲と苦悩-イヤフォン](https://stat.ameba.jp/user_images/20100228/01/yuki9902/8f/c0/p/t02200119_0783042410431734047.png?caw=800)](https://ameblo.jp/yuki9902/image-10469727780-10431734047.html)
+[![](/img/t02200119_0783042410431734047.png)](/img/t02200119_0783042410431734047.png)
 
   
 

@@ -8,15 +8,15 @@ categories: ['COLUMN']
 
 組み立ては完了です。
 
-[![](https://stat.ameba.jp/user_images/20160912/19/yuki9902/fd/d1/j/o0966064013746765828.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199319299-13746765828.html)
+[![](/img/o0966064013746765828.jpg)](/img/o0966064013746765828.jpg)
 
 後はゲート跡をレタッチしていきますが、当分雨なので秋雨前線が遠のいてから。
 
-[![](https://stat.ameba.jp/user_images/20160912/19/yuki9902/8e/46/j/o0640096613746765861.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199319299-13746765861.html)
+[![](/img/o0640096613746765861.jpg)](/img/o0640096613746765861.jpg)
 
 バンシー、ユニコーン、シナンジュを並べてみました。
 
-[![](https://stat.ameba.jp/user_images/20160912/19/yuki9902/d6/55/j/o0966064013746765900.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199319299-13746765900.html)
+[![](/img/o0966064013746765900.jpg)](/img/o0966064013746765900.jpg)
 
 バンシーはディープブルーメタリックですが、黒すぎて潰れてますね。
 

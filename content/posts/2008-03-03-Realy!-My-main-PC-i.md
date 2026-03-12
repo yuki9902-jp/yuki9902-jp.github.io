@@ -2,7 +2,7 @@
 title: "Realy!? My main PC is dead..."
 date: 2008-03-03T08:29:12+09:00
 archives: ["2008-03"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

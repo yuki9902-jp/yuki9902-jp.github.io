@@ -2,7 +2,7 @@
 title: "nVIDIA GeForce"
 date: 2008-02-04T02:32:05+09:00
 archives: ["2008-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

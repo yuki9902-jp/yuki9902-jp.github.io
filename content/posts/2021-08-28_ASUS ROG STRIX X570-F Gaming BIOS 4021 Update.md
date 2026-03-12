@@ -8,7 +8,7 @@ categories: ['COMPUTER']
 
 ASUS ROG STRIX X570-F GamingのBIOS 4021が公開されました。
 
-[ROG Strix X570-F Gaming | ROG Strix | Gaming マザーボード｜ROG - Republic of Gamers｜ROG 日本PCIe 4.0、Aura Sync RGBライティング、Intel Gigabitイーサネット、ヒートシンク付きデュアルM.2、SATA 6Gbps、およびUSB 3.2 Gen 2を搭載したAMD X570 ATXゲーミングマザーボード![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)rog.asus.com](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios)
+[ROG Strix X570-F Gaming | ROG Strix | Gaming マザーボード｜ROG - Republic of Gamers｜ROG 日本PCIe 4.0、Aura Sync RGBライティング、Intel Gigabitイーサネット、ヒートシンク付きデュアルM.2、SATA 6Gbps、およびUSB 3.2 Gen 2を搭載したAMD X570 ATXゲーミングマザーボード!rog.asus.com](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios)
 
 更新内容は、AMD AGESA V2 PI 1.2.0.3 Patch Cとシステムのパフォーマンスの改善です。
 

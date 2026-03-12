@@ -2,7 +2,7 @@
 title: "Self Build Up PC 2008 #01"
 date: 2008-01-10T15:35:48+09:00
 archives: ["2008-01"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

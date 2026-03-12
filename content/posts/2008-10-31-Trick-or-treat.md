@@ -2,7 +2,7 @@
 title: "Trick or treat."
 date: 2008-10-31T09:55:08+09:00
 archives: ["2008-10"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

@@ -2,7 +2,7 @@
 title: "Windows XP Professional x64"
 date: 2006-03-14T01:30:33+09:00
 archives: ["2006-03"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

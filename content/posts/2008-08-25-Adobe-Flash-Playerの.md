@@ -2,7 +2,7 @@
 title: "Adobe Flash Playerの不具合"
 date: 2008-08-25T13:42:34+09:00
 archives: ["2008-08"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

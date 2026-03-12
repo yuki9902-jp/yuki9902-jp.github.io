@@ -2,7 +2,7 @@
 title: "微妙なPENTAX New K"
 date: 2009-05-09T00:11:13+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+tags: ['PENTAX']
 categories: ['COLUMN']
 ---
 

@@ -2,7 +2,7 @@
 title: "Final Fantasy XII"
 date: 2006-03-16T17:34:32+09:00
 archives: ["2006-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

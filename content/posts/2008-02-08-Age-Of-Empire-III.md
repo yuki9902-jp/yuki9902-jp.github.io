@@ -2,7 +2,7 @@
 title: "Age Of Empire III"
 date: 2008-02-08T11:41:55+09:00
 archives: ["2008-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12183686214.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160724/13/yuki9902/d9/5e/j/o0640096613705300935.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183686214-13705300935.html)
+[![](/img/o0640096613705300935.jpg)](/img/o0640096613705300935.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160724/13/yuki9902/4a/6a/j/o0640096613705300956.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183686214-13705300956.html)
+[![](/img/o0640096613705300956.jpg)](/img/o0640096613705300956.jpg)
 
 本体が組み上がりました。
 

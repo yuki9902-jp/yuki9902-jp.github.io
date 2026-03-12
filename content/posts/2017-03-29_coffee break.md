@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12260690625.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20170329/13/yuki9902/94/28/j/o0720096013900977603.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12260690625-13900977603.html)  
+[![](/img/o0720096013900977603.jpg)](/img/o0720096013900977603.jpg)  
   
   
 昼食後のコーヒー。  

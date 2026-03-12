@@ -1,7 +1,16 @@
-baseURL = 'http://localhost:1313/'
-languageCode = 'ja-jp'
+baseURL = 'https://yuki9902-jp.github.io/'
+
 title = 'yuki9902::blog'
 theme = 'mainroad'
+
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+
+[languages]
+  [languages.ja]
+    languageName = '日本語'
+    contentDir = 'content' # または 'content/ja'
+    weight = 1
 
 [params]
   description = "Ameblo Archive 2009-2026"
@@ -22,6 +31,11 @@ theme = 'mainroad'
  [[menu.main]]
     name = "Search"
     url = "/search/"
+    weight = 2
+
+ [[menu.main]]
+    name = "Chronicle"
+    url = "/chronicle-layout/"
     weight = 2
 
 [taxonomies]

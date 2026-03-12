@@ -2,7 +2,7 @@
 title: "ODYSSEY - Halery Westenra"
 date: 2006-04-01T00:18:23+09:00
 archives: ["2006-04"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

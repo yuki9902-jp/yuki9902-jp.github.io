@@ -2,7 +2,7 @@
 title: "I want to use MT4 styles."
 date: 2007-12-25T11:06:59+09:00
 archives: ["2007-12"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

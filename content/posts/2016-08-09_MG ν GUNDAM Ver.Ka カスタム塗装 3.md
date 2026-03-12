@@ -6,15 +6,15 @@ original_url: https://ameblo.jp/yuki9902/entry-12188733855.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160809/13/yuki9902/03/a9/j/o0640096613718922427.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188733855-13718922427.html)
+[![](/img/o0640096613718922427.jpg)](/img/o0640096613718922427.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160809/13/yuki9902/e0/12/j/o0640096613718922444.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188733855-13718922444.html)
+[![](/img/o0640096613718922444.jpg)](/img/o0640096613718922444.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160809/13/yuki9902/77/b9/j/o0640096613718922478.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188733855-13718922478.html)
+[![](/img/o0640096613718922478.jpg)](/img/o0640096613718922478.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160809/13/yuki9902/8c/39/j/o0640096613718922512.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188733855-13718922512.html)
+[![](/img/o0640096613718922512.jpg)](/img/o0640096613718922512.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160809/13/yuki9902/f4/03/j/o0966064013718922535.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12188733855-13718922535.html)
+[![](/img/o0966064013718922535.jpg)](/img/o0966064013718922535.jpg)
 
 夏に併せてさわやかな色合いのνGUNDAMです。
 

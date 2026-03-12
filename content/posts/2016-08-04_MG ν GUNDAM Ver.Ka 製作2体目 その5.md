@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12187278668.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160804/20/yuki9902/eb/39/j/o0640096613714944312.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12187278668-13714944312.html)
+[![](/img/o0640096613714944312.jpg)](/img/o0640096613714944312.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160804/20/yuki9902/e3/7b/j/o0640096613714944333.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12187278668-13714944333.html)
+[![](/img/o0640096613714944333.jpg)](/img/o0640096613714944333.jpg)
 
 とりあえず塗装まで完了です。
 

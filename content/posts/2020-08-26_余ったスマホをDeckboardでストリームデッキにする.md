@@ -14,7 +14,7 @@ PCのサブディスプレイにしてみたり、AMD RADEON SOFTWARE ADRENALINE
 
 ようやく見つけたのが、Deckboardというソフトです。
 
-[![](https://stat.ameba.jp/user_images/20200826/12/yuki9902/3c/fe/j/o2259169414809935916.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12620305818-14809935916.html)
+[![](/img/o2259169414809935916.jpg)](/img/o2259169414809935916.jpg)
 
 Windows10にサーバーアプリを入れて、スマホにランチャーボタンアプリを入れます。
 
@@ -22,13 +22,13 @@ Wi-FiかUSBを通してPCと接続します。
 
 XPERIA Z UltraはUSBケーブルを接続しにくいので、Wi-Fiで接続しました。
 
-[![](https://stat.ameba.jp/user_images/20200826/00/yuki9902/87/fe/p/o0800070014809772211.png?caw=800)](https://ameblo.jp/yuki9902/image-12620305818-14809772211.html)
+[![](/img/o0800070014809772211.png)](/img/o0800070014809772211.png)
 
 PC側のサーバーアプリでボタンにいろいろな割り当てをしていきます。
 
 登録したアプリケーションのアイコンを読み込んで表示したりは出来ないので、ネットでアプリケーションのアイコンを探して登録しないといけません。
 
-[![](https://stat.ameba.jp/user_images/20200826/00/yuki9902/d3/98/p/o0800070014809773144.png?caw=800)](https://ameblo.jp/yuki9902/image-12620305818-14809773144.html)
+[![](/img/o0800070014809773144.png)](/img/o0800070014809773144.png)
 
 Windowsのストアアプリの登録は出来ますが、起動はしません。
 

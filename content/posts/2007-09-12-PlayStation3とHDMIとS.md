@@ -2,7 +2,7 @@
 title: "PlayStation3とHDMIとSACD"
 date: 2007-09-12T00:40:43+09:00
 archives: ["2007-09"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

@@ -2,7 +2,7 @@
 title: "ShockAbsorber"
 date: 2008-03-16T23:52:29+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12642643982.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20201207/20/yuki9902/c9/cd/j/o1920108014863039659.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12642643982-14863039659.html)
+[![](/img/o1920108014863039659.jpg)](/img/o1920108014863039659.jpg)
 
 川の中州に街を建設中です。
 

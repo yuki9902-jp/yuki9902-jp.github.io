@@ -2,7 +2,7 @@
 title: "Forever King of POPS..."
 date: 2009-06-26T17:52:50+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

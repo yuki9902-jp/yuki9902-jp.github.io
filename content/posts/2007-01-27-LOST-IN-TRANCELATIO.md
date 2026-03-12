@@ -2,7 +2,7 @@
 title: "LOST IN TRANCELATION - Bei Xu"
 date: 2007-01-27T16:56:34+09:00
 archives: ["2007-01"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

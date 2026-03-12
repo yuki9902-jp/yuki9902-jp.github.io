@@ -4,6 +4,7 @@ date: 2022-03-09T23:48:20+09:00
 archives: ["2022-03"]
 original_url: https://ameblo.jp/yuki9902/entry-12731056894.html
 categories: ['COMPUTER']
+tags: ['AMD','BIOS','X570','ASUS']
 ---
 
 ASUS ROG STRIX X570-F Gamingの新しいBIOSが3/8付けで公開されました。

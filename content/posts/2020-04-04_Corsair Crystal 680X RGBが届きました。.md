@@ -6,17 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12586969578.html
 categories: ['COMPUTER']
 ---
 
-[![](https://p.odsyms15.com/CmLmGZRvJXvnmXsVsgoXL1)
+[![](/img/o0966064014738248035.jpg)](/img/o0966064014738248035.jpg)
 
-Corsair Crystal 680X RGB Tempered Glass -Black- キューブ型PCケース CS7554 CC-9011168-WW
-
-Amazon（アマゾン）
-
-27,836〜56,969円](https://d.odsyms15.com/click?aid=n9tVBzcmocWiLVFuQ1AUA4&mimp=gMVusCK1eEyg9bpUEgMuTp&session=11d73f2d-4f68-4e6d-a23b-c148b13235f2&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
-
-[![](https://stat.ameba.jp/user_images/20200404/00/yuki9902/36/40/j/o0966064014738248035.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12586969578-14738248035.html)
-
-[![](https://stat.ameba.jp/user_images/20200404/00/yuki9902/e4/04/j/o0966064014738248039.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12586969578-14738248039.html)
+[![](/img/o0966064014738248039.jpg)](/img/o0966064014738248039.jpg)
 
 早速メインPCのCorsair OBSIDIAN 550Dからパーツを取り外して、Corsair Crystal 680 RGBに組み込みました。
 
@@ -40,29 +32,13 @@ PCのケースファンだけではなく、キーボード、マウス、マザ
 
 普段は青の明暗を繰り返すようにしています。
 
-[![](https://stat.ameba.jp/user_images/20210402/19/yuki9902/dd/c9/j/o0600076414920138540.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12586969578-14920138540.html)
+[![](/img/o0600076414920138540.jpg)](/img/o0600076414920138540.jpg)
 
 今まで使っていたOBSIDIAN 550Dは2012年の春に発売され、価格は16000円ぐらいだったようです。
 
 AMD 990FXのマザーボードでシステムを組んだときに買ったと思います。
 
-[![](https://p.odsyms15.com/V3n4JMJXyZa2OxAUJIQGd6)
-
-Corsair Crystal 680X RGB Tempered Glass -Black- キューブ型PCケース CS7554 CC-9011168-WW
-
-Amazon（アマゾン）
-
-27,836〜56,969円](https://d.odsyms15.com/click?aid=BF1sjP2As3WsCuHrtrSqp2&mimp=SjcBLGRSIPAkMxd28uRI8P&session=11d73f2d-4f68-4e6d-a23b-c148b13235f2&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
-
 Crystal 680X RGBになって、3.5インチベイが6台から3台に、5.25インチベイが4台から0台に、2.5インチベイが0台から4台になりました。
-
-[![](https://p.odsyms15.com/loexVhKS85180sSRXKs5u3)
-
-Corsair Crystal 680X RGB Tempered Glass -Black- キューブ型PCケース CS7554 CC-9011168-WW
-
-Amazon（アマゾン）
-
-27,836〜56,969円](https://d.odsyms15.com/click?aid=sOk2GABBGKfSiekgm0MAR2&mimp=Rv0ACWLmzgS0idt9n7u2Dv&session=11d73f2d-4f68-4e6d-a23b-c148b13235f2&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
 
 トップパネルにUSB3.1 Gen.2 Type Cが1つ、USB3.1 Gen.1 Type Aが2つ、4極オーディオミニジャック（ヘッドフォン、マイク）が1つ、パワーLED兼パワースイッチ、リセットスイッチが付いています。
 

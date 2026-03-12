@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12184945394.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160728/13/yuki9902/b6/59/j/o0640096613708643445.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12184945394-13708643445.html)
+[![](/img/o0640096613708643445.jpg)](/img/o0640096613708643445.jpg)
 
 シールドとプロペラントタンクに塗装してみました。
 

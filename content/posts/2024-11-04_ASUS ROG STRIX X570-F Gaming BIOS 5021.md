@@ -4,6 +4,7 @@ date: 2024-11-04T20:14:59+09:00
 archives: ["2024-11"]
 original_url: https://ameblo.jp/yuki9902/entry-12873821099.html
 categories: ['COMPUTER']
+tags: ['AGESA','AMD','AM4','BIOS']
 ---
 
 ASUS ROG STRIX X570-F GamingのAGESA ComboV2PI 1.2.0.Ccのアップデートの[BIOS](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios/)がリリースされました。

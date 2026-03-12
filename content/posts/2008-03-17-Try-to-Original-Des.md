@@ -2,7 +2,7 @@
 title: "Try to Original Design"
 date: 2008-03-17T10:02:26+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

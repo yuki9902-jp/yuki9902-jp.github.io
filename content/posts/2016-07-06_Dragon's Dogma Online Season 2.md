@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12177979963.html
 categories: ['GAME']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160706/21/yuki9902/bc/1d/j/o0800045013691000363.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12177979963-13691000363.html)
+[![](/img/o0800045013691000363.jpg)](/img/o0800045013691000363.jpg)
 
 左から
 

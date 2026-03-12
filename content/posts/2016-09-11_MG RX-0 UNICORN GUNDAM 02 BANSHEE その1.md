@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12198912108.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160911/14/yuki9902/0e/c2/j/o0966064013745664542.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12198912108-13745664542.html)
+[![](/img/o0966064013745664542.jpg)](/img/o0966064013745664542.jpg)
 
 先に作ったMG SINANJU Ver.Ka チタニウムフィニッシュがかっこうよかったので、BANSHEEもチタニウムフィニッシュみたいに、メタリック塗装にしました。
 

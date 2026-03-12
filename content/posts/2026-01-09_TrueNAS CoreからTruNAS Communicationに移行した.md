@@ -4,6 +4,7 @@ date: 2026-01-09T14:31:27+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12952850667.html
 categories: ['COMPUTER']
+tags: ['TrueNAS']
 ---
 
 TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunicationとEnterpriseのエディションとなりました。  

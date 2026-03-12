@@ -4,9 +4,10 @@ date: 2023-05-27T15:15:48+09:00
 archives: ["2023-05"]
 original_url: https://ameblo.jp/yuki9902/entry-12804855621.html
 categories: ['COMPUTER']
+tags: ['WQHD']
 ---
 
-[![](https://stat.ameba.jp/user_images/20230527/14/yuki9902/b7/ad/j/o0966064015290095857.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12804855621-15290095857.html)
+[![](/img/o0966064015290095857.jpg)](/img/o0966064015290095857.jpg)
 
 先月の18日に注文していた27インチWQHDディスプレイ ASUS TUF Gaming VG27AQL1Aが今月の15日に届きました。
 

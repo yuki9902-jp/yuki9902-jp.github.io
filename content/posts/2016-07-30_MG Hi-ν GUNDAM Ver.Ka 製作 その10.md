@@ -6,13 +6,13 @@ original_url: https://ameblo.jp/yuki9902/entry-12185571912.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160730/13/yuki9902/1c/f1/j/o0966064013710244456.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185571912-13710244456.html)
+[![](/img/o0966064013710244456.jpg)](/img/o0966064013710244456.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160730/13/yuki9902/bc/18/j/o0966064013710244470.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185571912-13710244470.html)
+[![](/img/o0966064013710244470.jpg)](/img/o0966064013710244470.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160730/13/yuki9902/03/3a/j/o0966064013710244482.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185571912-13710244482.html)
+[![](/img/o0966064013710244482.jpg)](/img/o0966064013710244482.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160730/13/yuki9902/2c/fd/j/o0966064013710244496.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185571912-13710244496.html)
+[![](/img/o0966064013710244496.jpg)](/img/o0966064013710244496.jpg)
 
 今日、脚部のスライドマークを貼り終えました。
 

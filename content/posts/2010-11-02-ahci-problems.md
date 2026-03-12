@@ -4,7 +4,7 @@ date: 2010-11-02T00:00:55+09:00
 archives: ["2010-11"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 AHCIモードにしてしばらく使っていたんですが、X-APPLICATIONで曲の再生中に途切れることが発生するようになりました。

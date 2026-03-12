@@ -4,6 +4,7 @@ date: 2022-03-19T03:06:00+09:00
 archives: ["2022-03"]
 original_url: https://ameblo.jp/yuki9902/entry-12732662188.html
 categories: ['COMPUTER']
+tags: ['AMD','RADEON','Adrenaline']
 ---
 
 グラボの3/17に公開された最新のMicrosoft認証ドライバーをインストールしたら、重要なDLLが壊れたらしくWindowsが起動するもののシェルが立ち上がってこない状態になり、シャットダウンすら出来なくなった。

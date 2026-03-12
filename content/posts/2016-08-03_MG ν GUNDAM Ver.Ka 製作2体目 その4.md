@@ -6,9 +6,9 @@ original_url: https://ameblo.jp/yuki9902/entry-12186971196.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160803/20/yuki9902/3a/c3/j/o0966064013714169139.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12186971196-13714169139.html)
+[![](/img/o0966064013714169139.jpg)](/img/o0966064013714169139.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160803/20/yuki9902/28/50/j/o0966064013714169163.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12186971196-13714169163.html)
+[![](/img/o0966064013714169163.jpg)](/img/o0966064013714169163.jpg)
 
 向かって左側が2体目です。
 

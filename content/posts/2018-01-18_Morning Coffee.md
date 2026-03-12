@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12345390158.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20180118/07/yuki9902/f4/73/j/o0966064014114063606.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12345390158-14114063606.html)
+[![](/img/o0966064014114063606.jpg)](/img/o0966064014114063606.jpg)
 
 チーズトーストを食べた後に、珈琲を淹れて飲んでます。
 

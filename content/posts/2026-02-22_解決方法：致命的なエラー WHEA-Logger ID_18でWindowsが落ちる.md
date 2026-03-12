@@ -4,6 +4,7 @@ date: 2026-02-22T08:19:46+09:00
 archives: ["2026-02"]
 original_url: https://ameblo.jp/yuki9902/entry-12957494856.html
 categories: ['COMPUTER']
+tags: ['WHEA-Logger ID:18','RYZEN']
 ---
 
 ### １．解決方法

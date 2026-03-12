@@ -6,6 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12287425161.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20170627/14/yuki9902/a4/05/j/o0960072013969858870.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12287425161-13969858870.html)
+[![](/img/o0960072013969858870.jpg)](/img/o0960072013969858870.jpg)
 
 Darjeeling tea "SIGBULLI" with waffle.

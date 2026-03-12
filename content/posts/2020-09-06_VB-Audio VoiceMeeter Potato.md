@@ -8,15 +8,15 @@ categories: ['COMPUTER']
 
 [VB-Audio Software](https://www.vb-audio.com/index.htm)のVoice Meeter Potatoをインストールしました。
 
-[![](https://stat.ameba.jp/user_images/20200905/23/yuki9902/5c/1c/p/o1645077014815168981.png?caw=800)](https://ameblo.jp/yuki9902/image-12622831000-14815168981.html)
+[![](/img/o1645077014815168981.png)](/img/o1645077014815168981.png)
 
 WindowsとMac用のオーディオミキサーです。
 
 Windows 10にインストールしました。
 
-[![](https://stat.ameba.jp/user_images/20200905/23/yuki9902/5a/83/p/o0465051814815170454.png?caw=800)](https://ameblo.jp/yuki9902/image-12622831000-14815170454.html)
+[![](/img/o0465051814815170454.png)](/img/o0465051814815170454.png)
 
-[![](https://stat.ameba.jp/user_images/20200905/23/yuki9902/15/c4/p/o0465051814815172746.png?caw=800)](https://ameblo.jp/yuki9902/image-12622831000-14815172746.html)
+[![](/img/o0465051814815172746.png)](/img/o0465051814815172746.png)
 
 サウンド設定でVoiceMeeter Inputというバーチャルハードウェアを選択して既定値に設定、構成を7.1チャンネル、プロパティの規定の形式を24ビット、192000Hz(スタジオの音質）に設定します。
 

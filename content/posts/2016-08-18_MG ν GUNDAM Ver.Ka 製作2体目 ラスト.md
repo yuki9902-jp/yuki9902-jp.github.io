@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12191588133.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160818/22/yuki9902/43/e1/j/o0966064013726653599.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12191588133-13726653599.html)
+[![](/img/o0966064013726653599.jpg)](/img/o0966064013726653599.jpg)
 
 2体目のνガンダムのフィンファンネルのスライドマークを貼り終えたので、写真を撮り直し。
 

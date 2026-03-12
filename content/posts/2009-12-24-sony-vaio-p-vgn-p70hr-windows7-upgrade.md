@@ -4,7 +4,7 @@ date: 2009-12-24T13:43:31+09:00
 archives: ["2009-12"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 いったんWindows7 Home PremiumへUpgradeしたら、とても快適でした。

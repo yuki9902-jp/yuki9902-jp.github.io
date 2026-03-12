@@ -6,6 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12185922375.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160731/16/yuki9902/a4/a1/j/o0966064013711204755.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185922375-13711204755.html)
+[![](/img/o0966064013711204755.jpg)](/img/o0966064013711204755.jpg)
 
 場所がないから部屋に飾っているものは少ないのです。

@@ -4,6 +4,7 @@ date: 2026-01-26T19:56:10+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12954688883.html
 categories: ['COMPUTER']
+tags: ['WHEA-Logger ID:18','AMD','RYZEN']
 ---
 
 かつてRyzen 5000シリーズ（Zen3）ユーザーに苦悩を強いた「WHEA-Logger ID:18」。 現在は Ryzen 9 9950X3D をメイン機としていますが、手元には予備機として **Ryzen 9 5900XT / RAM 64GB / Radeon RX6750XT** の構成が稼働しています。

@@ -4,15 +4,16 @@ date: 2026-01-27T02:49:04+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12954718138.html
 categories: ['COMPUTER']
+tags: ['WHEA-Logger ID:18','AMD','RYZEN']
 ---
 
 2021年の記事
 
-[『致命的なエラー WHEA-Logger ID:18でWindowsが落ちる』   『致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)』かつてRyzen 5000シ…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![Ryzen 7 5800X CPU-Z検証画面](https://stat.ameba.jp/user_images/20210609/09/yuki9902/d0/c6/p/o1186095914954665977.png?caw=800)](https://ameblo.jp/yuki9902/entry-12679531081.html)
+[致命的なエラー WHEA-Logger ID:18でWindowsが落ちる](../2021-06-09_致命的なエラー-whea-logger-id_18でwindowsが落ちる/)
 
 2026年の記事
 
-[『致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)』かつてRyzen 5000シリーズ（Zen3）ユーザーを恐怖に陥れた「WHEA-Logger ID:18」。 現在は Ryzen 9 9950X3D をメイン…![リンク](https://c.stat100.ameba.jp/ameblo/symbols/v3.20.0/svg/gray/editor_link.svg)ameblo.jp![](https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg)](https://ameblo.jp/yuki9902/entry-12954688883.html)
+[致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)](../2026-01-26_致命的なエラー-whea-logger-id_18でwindowsが落ちる-2026年検証/)
 
 ### 1. エラー事象
 

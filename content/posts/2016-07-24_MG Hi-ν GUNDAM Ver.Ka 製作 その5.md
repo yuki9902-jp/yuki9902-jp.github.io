@@ -6,13 +6,13 @@ original_url: https://ameblo.jp/yuki9902/entry-12183783669.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160724/19/yuki9902/1c/1a/j/o0640096613705623560.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183783669-13705623560.html)
+[![](/img/o0640096613705623560.jpg)](/img/o0640096613705623560.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160724/19/yuki9902/0e/3a/j/o0640096613705623585.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183783669-13705623585.html)
+[![](/img/o0640096613705623585.jpg)](/img/o0640096613705623585.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160724/19/yuki9902/a8/f7/j/o0640096613705623611.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183783669-13705623611.html)
+[![](/img/o0640096613705623611.jpg)](/img/o0640096613705623611.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160724/19/yuki9902/bb/16/j/o0800053013705623638.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183783669-13705623638.html)
+[![](/img/o0800053013705623638.jpg)](/img/o0800053013705623638.jpg)
 
 ようやく組み上げました。
 

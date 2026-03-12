@@ -2,7 +2,7 @@
 title: "WordPressを検討してみようか"
 date: 2009-05-13T16:43:12+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

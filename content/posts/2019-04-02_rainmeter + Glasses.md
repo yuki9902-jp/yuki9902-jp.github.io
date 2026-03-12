@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12451474043.html
 categories: ['COMPUTER']
 ---
 
-[![](https://stat.ameba.jp/user_images/20190402/19/yuki9902/f9/2a/p/o1920108014383647171.png?caw=800)](https://ameblo.jp/yuki9902/image-12451474043-14383647171.html)
+[![](/img/o1920108014383647171.png)](/img/o1920108014383647171.png)
 
 rainmeterというアプリケーションをインストールして、GlassesというSkinファイルをインストールしました。
 

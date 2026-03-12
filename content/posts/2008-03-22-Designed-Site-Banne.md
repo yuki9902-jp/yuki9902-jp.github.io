@@ -2,7 +2,7 @@
 title: "Designed Site Banner at 'Spice And Wolf'"
 date: 2008-03-22T23:50:59+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

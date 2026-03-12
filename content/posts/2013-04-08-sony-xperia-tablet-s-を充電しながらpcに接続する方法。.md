@@ -4,7 +4,7 @@ date: 2013-04-08T16:57:33+09:00
 archives: ["2013-04"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 Sony Xperia Tablet S を購入してもう一ヶ月ほどでしょうか。

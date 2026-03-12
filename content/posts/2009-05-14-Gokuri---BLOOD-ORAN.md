@@ -2,7 +2,7 @@
 title: "Gokuri - BLOOD ORANGE by SUNTORY"
 date: 2009-05-14T09:00:00+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

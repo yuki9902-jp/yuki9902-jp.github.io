@@ -4,7 +4,7 @@ date: 2010-10-12T15:00:03+09:00
 archives: ["2010-10"]
 draft: false
 categories: ['COLUMN', 'COMPUTER']
-tags: []
+
 ---
 
 ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。

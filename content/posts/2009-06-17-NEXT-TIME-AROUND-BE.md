@@ -2,7 +2,7 @@
 title: "NEXT TIME AROUND 'BEST OF MR. BIG' - MR. BIG"
 date: 2009-06-17T08:36:43+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

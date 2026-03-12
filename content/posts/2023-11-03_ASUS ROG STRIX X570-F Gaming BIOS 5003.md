@@ -4,6 +4,7 @@ date: 2023-11-03T00:38:14+09:00
 archives: ["2023-11"]
 original_url: https://ameblo.jp/yuki9902/entry-12827105778.html
 categories: ['COMPUTER']
+tags: ['AMD','ASUS','X570','BIOS','AGESA','Windows11Pro']
 ---
 
 AGESA ComboV2PI 1.2.0.Bに関するBIOSのアップデートがありました。

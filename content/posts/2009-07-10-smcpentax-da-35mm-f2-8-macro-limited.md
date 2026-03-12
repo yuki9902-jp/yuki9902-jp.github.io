@@ -4,7 +4,7 @@ date: 2009-07-10T00:41:04+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+tags: ['PENTAX']
 ---
 
 小さいレンズが欲しくて買いました。

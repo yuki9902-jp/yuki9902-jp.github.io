@@ -2,7 +2,7 @@
 title: "Book Cover"
 date: 2008-03-18T16:47:04+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

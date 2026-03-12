@@ -4,7 +4,7 @@ date: 2009-08-25T15:35:35+09:00
 archives: ["2009-08"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 SUNTORY の [The European Jasmine Tea](http://www.suntory.co.jp/softdrink/jasmine/index.html?gabkey=jasmine) がお気に入りで平日は毎日飲んでいる。

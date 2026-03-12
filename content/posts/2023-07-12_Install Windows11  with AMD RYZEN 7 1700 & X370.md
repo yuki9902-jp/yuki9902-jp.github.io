@@ -4,6 +4,7 @@ date: 2023-07-12T21:53:42+09:00
 archives: ["2023-07"]
 original_url: https://ameblo.jp/yuki9902/entry-12811827940.html
 categories: ['COMPUTER']
+tags: ['AMD','RYZEN','X370','BIOS','1700','GIGABYTE','Windows11Pro']
 ---
 
 Windows11 がリリースされた当初、RYZENの初代はサポートされていませんでした。

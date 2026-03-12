@@ -4,7 +4,7 @@ date: 2009-07-25T02:15:07+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 PG初心者が作ったぐちゃぐちゃSourceのアプリを、また別のPG初心者が改造して、その初心者が退職するにあたり、引き継ぎと最後にせっかくなのでSource reviewをしました。

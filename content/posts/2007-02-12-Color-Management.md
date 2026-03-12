@@ -2,7 +2,7 @@
 title: "Color Management"
 date: 2007-02-12T21:54:07+09:00
 archives: ["2007-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

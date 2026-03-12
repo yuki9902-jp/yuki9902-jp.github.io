@@ -3,7 +3,7 @@ title: "Limited Silver"
 date: 2011-02-15T21:53:03+09:00
 archives: ["2011-02"]
 original_url: https://ameblo.jp/yuki9902/entry-10802497863.html
-categories: ['COLUMN']
+categories: ['COLUMN','PENTAX']
 ---
 
 PENTAXから発表されたばかりのK-5 Limited SilverとsmcPENTAX DA limited Silverレンズのメーカー受注数が予定数に達したようです。

@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12183388953.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160723/14/yuki9902/01/39/j/o0800053013704493268.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12183388953-13704493268.html)
+[![](/img/o0800053013704493268.jpg)](/img/o0800053013704493268.jpg)
 
 頭部、左右腕部を組み上げて、胴体にはめ込む。
 

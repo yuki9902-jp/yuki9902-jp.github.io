@@ -2,7 +2,7 @@
 title: "Cognac Otard XO"
 date: 2009-01-18T02:41:34+09:00
 archives: ["2009-01"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

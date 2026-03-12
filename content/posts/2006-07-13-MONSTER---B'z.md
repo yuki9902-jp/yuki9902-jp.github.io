@@ -2,7 +2,7 @@
 title: "MONSTER - B'z"
 date: 2006-07-13T11:18:30+09:00
 archives: ["2006-07"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

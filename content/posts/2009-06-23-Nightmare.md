@@ -2,7 +2,7 @@
 title: "Nightmare"
 date: 2009-06-23T11:03:31+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12250804850.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20170224/14/yuki9902/15/44/j/o0640096613876055749.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12250804850-13876055749.html)
+[![](/img/o0640096613876055749.jpg)](/img/o0640096613876055749.jpg)
 
 今日はPremium Fridayですね。
 

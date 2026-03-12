@@ -4,7 +4,7 @@ date: 2009-11-05T11:26:04+09:00
 archives: ["2009-11"]
 draft: false
 categories: ['COMPUTER']
-tags: []
+
 ---
 
 Windows Vista Ultimate x64 DSP からのアップグレードとして、Windows 7 Ultimate アップグレードを購入しました。

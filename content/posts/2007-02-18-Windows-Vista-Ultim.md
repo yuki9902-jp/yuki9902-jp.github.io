@@ -2,7 +2,7 @@
 title: "Windows Vista Ultimate x64 (続)"
 date: 2007-02-18T00:56:50+09:00
 archives: ["2007-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

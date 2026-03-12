@@ -12,9 +12,9 @@ AMD RADEON SOFTWARE ADRENALINE 21.9.1 Optional が公開されたのでアップ
 
 今回のADRENALINE 21.9.1の目玉は、RX5000シリーズでSAM(Smart Access Memory)が使用できるようになったことです。
 
-[![](https://stat.ameba.jp/user_images/20210914/09/yuki9902/fc/f3/p/o1440100015000790556.png?caw=800)](https://ameblo.jp/yuki9902/image-12697868334-15000790556.html)
+[![](/img/o1440100015000790556.png)](/img/o1440100015000790556.png)
 
-[![](https://stat.ameba.jp/user_images/20210914/09/yuki9902/a3/b6/p/o0402054615000790376.png?caw=800)](https://ameblo.jp/yuki9902/image-12697868334-15000790376.html)
+[![](/img/o0402054615000790376.png)](/img/o0402054615000790376.png)
 
 FFXIV暁月のフィナーレベンチマーク
 

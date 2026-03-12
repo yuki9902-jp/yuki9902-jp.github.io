@@ -2,7 +2,7 @@
 title: "Cannot I but install Vista?"
 date: 2008-01-16T08:11:11+09:00
 archives: ["2008-01"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

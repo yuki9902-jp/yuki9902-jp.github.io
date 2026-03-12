@@ -4,6 +4,7 @@ date: 2023-05-11T09:58:14+09:00
 archives: ["2023-05"]
 original_url: https://ameblo.jp/yuki9902/entry-12802448961.html
 categories: ['COMPUTER']
+tags: ['Elgato','Wave Link']
 ---
 
 ### Elgato Wave Linkの音声遅延対策

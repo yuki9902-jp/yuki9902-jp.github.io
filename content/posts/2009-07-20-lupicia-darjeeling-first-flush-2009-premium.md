@@ -4,7 +4,7 @@ date: 2009-07-20T00:23:49+09:00
 archives: ["2009-07"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 [caption id="attachment_720" align="alignnone" width="461" caption="LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM"][/caption]

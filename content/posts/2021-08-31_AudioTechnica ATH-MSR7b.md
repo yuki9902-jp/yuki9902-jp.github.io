@@ -6,21 +6,13 @@ original_url: https://ameblo.jp/yuki9902/entry-12695247939.html
 categories: ['AUDIO']
 ---
 
-[![](https://p.odsyms15.com/6oojsoWXbFsJtb8wFyfKy3)
-
-audio-technica SoundReality ポータブルヘッドホン ハイレゾ音源対応 ブラック ATH-MSR7b BK
-
-Amazon（アマゾン）
-
-13,480〜25,000円](https://d.odsyms15.com/click?aid=KhKdcWfzJikHU0IUEXQbR6&mimp=m0aeYO9JBKkNmrt9dhGY2o&session=7d45c8f1-2653-47a0-9d20-c5f3ac1356cc&uid.p=d0c67ab0-a27d-4b12-a318-ce4fc1365a64&ext.referrer=blank)
-
 10年以上使ってきたAudioTechnicaのATH-A900というヘッドフォンのヘッドパッド部分の可動部が壊れてパッド越しに脳天に突き刺さるので、ヘッドフォンを買いました。
 
 同じくAudioTechnicaのATH-MSR7bというヘッドフォンで、定価32868円ですが15000円ちょっとで買いました。
 
-[![](https://stat.ameba.jp/user_images/20210831/12/yuki9902/5d/92/j/o1432107414994367612.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12695247939-14994367612.html)
+[![](/img/o1432107414994367612.jpg)](/img/o1432107414994367612.jpg)
 
-[![](https://stat.ameba.jp/user_images/20210831/12/yuki9902/02/7b/j/o2175163114994367629.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12695247939-14994367629.html)
+[![](/img/o2175163114994367629.jpg)](/img/o2175163114994367629.jpg)
 
 他人より頭が大きいので左右からの圧迫感がありますが、前の脳天に突き刺さるような痛みはありません。
 

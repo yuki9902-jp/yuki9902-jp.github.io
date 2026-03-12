@@ -6,6 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12199217053.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160912/13/yuki9902/1c/df/j/o0966064013746503408.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199217053-13746503408.html)
+[![](/img/o0966064013746503408.jpg)](/img/o0966064013746503408.jpg)
 
 左腕と腰部を組み立てたので、アクションベース黒に接続してみました。

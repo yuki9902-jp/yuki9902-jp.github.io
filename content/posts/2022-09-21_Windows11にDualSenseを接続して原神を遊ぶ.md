@@ -4,11 +4,12 @@ date: 2022-09-21T21:12:48+09:00
 archives: ["2022-09"]
 original_url: https://ameblo.jp/yuki9902/entry-12765527761.html
 categories: ['COMPUTER']
+tags: ['DualSense','原神']
 ---
 
 ### **PS5用コントローラー「DualSense™」をPC版「原神」でフル活用するための導入手順**
 
-[![青いDualSenseコントローラーとPC](https://stat.ameba.jp/user_images/20220921/20/yuki9902/08/8d/j/o2131159915177864352.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12765527761-15177864352.html)
+[![](/img/o2131159915177864352.jpg)](/img/o2131159915177864352.jpg)
 
 長年愛用していたDUALSHOCK 3™のUSBコネクタが故障したため、新たにPS5純正のDualSense™を導入しました。その際の設定手順をまとめます。
 

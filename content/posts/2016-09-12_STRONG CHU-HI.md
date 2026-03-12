@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12199386602.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160912/22/yuki9902/e2/3e/j/o0966064013746943962.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199386602-13746943962.html)
+[![](/img/o0966064013746943962.jpg)](/img/o0966064013746943962.jpg)
 
 ストロングって、確かにアルコール度数が高い。
 

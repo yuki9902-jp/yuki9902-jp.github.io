@@ -2,7 +2,7 @@
 title: "AVRIL LAVIGNE - THE BEST DAMN TOUR  LIVE IN TORONTO"
 date: 2009-04-13T22:43:25+09:00
 archives: ["2009-04"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

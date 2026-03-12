@@ -2,7 +2,7 @@
 title: "Safari 3 パブリック Beta"
 date: 2007-06-14T15:51:21+09:00
 archives: ["2007-06"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

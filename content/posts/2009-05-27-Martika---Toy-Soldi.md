@@ -2,7 +2,7 @@
 title: "Martika - Toy Soldiers"
 date: 2009-05-27T23:59:59+09:00
 archives: ["2009-05"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

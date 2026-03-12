@@ -2,7 +2,7 @@
 title: "Cherie Dolce"
 date: 2009-06-08T10:22:22+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

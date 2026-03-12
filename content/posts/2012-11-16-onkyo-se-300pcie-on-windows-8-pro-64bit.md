@@ -4,7 +4,7 @@ date: 2012-11-16T15:02:17+09:00
 archives: ["2012-11"]
 draft: false
 categories: ['AUDIO', 'COMPUTER']
-tags: []
+
 ---
 
 ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、[ONKYO SE-300PCIE](http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/) に買い換えました。

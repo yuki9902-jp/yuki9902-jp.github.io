@@ -2,7 +2,7 @@
 title: "main PC is dead..."
 date: 2008-02-28T23:49:01+09:00
 archives: ["2008-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

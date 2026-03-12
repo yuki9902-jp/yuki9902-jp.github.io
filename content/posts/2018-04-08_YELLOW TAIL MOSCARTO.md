@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12366838612.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20180408/19/yuki9902/3f/c0/j/o0966064014166660949.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12366838612-14166660949.html)
+[![](/img/o0966064014166660949.jpg)](/img/o0966064014166660949.jpg)
 
 [サッポロワインのイエローテイルモスカート](http://www.sapporobeer.jp/wine/yellowtail/lineup/ms/)を飲んでいます。
 

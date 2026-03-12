@@ -2,7 +2,7 @@
 title: "Stick Omelette Chocolate - Pasco [敷島製パン]"
 date: 2009-06-07T20:34:57+09:00
 archives: ["2009-06"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

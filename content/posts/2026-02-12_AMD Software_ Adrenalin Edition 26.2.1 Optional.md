@@ -4,6 +4,7 @@ date: 2026-02-12T12:32:37+09:00
 archives: ["2026-02"]
 original_url: https://ameblo.jp/yuki9902/entry-12956473768.html
 categories: ['COMPUTER']
+tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
 
 ### [AMD Software: Adrenalin Edition 26.2.1 Optional Update](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-1.html)

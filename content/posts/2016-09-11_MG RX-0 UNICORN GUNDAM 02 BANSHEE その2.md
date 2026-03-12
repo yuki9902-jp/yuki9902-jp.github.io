@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12199042436.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160911/21/yuki9902/cd/e0/j/o0966064013746042894.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12199042436-13746042894.html)
+[![](/img/o0966064013746042894.jpg)](/img/o0966064013746042894.jpg)
 
 胴体、頭部、右腕を組み立てました。
 

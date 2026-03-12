@@ -4,7 +4,7 @@ date: 2012-09-29T23:16:56+09:00
 archives: ["2012-09"]
 draft: false
 categories: ['AUDIO', 'COMPUTER']
-tags: []
+
 ---
 
 Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。

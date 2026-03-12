@@ -2,7 +2,7 @@
 title: "It snowed after a long absence..."
 date: 2008-01-21T09:00:00+09:00
 archives: ["2008-01"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

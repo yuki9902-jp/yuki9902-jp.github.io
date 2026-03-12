@@ -4,6 +4,7 @@ date: 2022-11-28T10:18:35+09:00
 archives: ["2022-11"]
 original_url: https://ameblo.jp/yuki9902/entry-12776700469.html
 categories: ['COMPUTER']
+tags: ['AMD','BIOS']
 ---
 
 AMD RYZEN ZEN3用のAMD X570チップセットを搭載したマザーボード、ASUS ROG STRIX X570-F GamingのBIOS 4408が、2022/11/25付けで公開されたので、早速適用しました。

@@ -2,7 +2,7 @@
 title: "BRIDGESTONE POTENZA RE050"
 date: 2007-03-26T22:17:40+09:00
 archives: ["2007-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

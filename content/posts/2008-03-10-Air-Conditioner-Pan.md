@@ -2,7 +2,7 @@
 title: "Air Conditioner Panel Light"
 date: 2008-03-10T14:42:32+09:00
 archives: ["2008-03"]
-tags: ['Archived']
+
 categories: ['COLUMN']
 ---
 

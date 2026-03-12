@@ -4,6 +4,7 @@ date: 2024-12-11T20:24:10+09:00
 archives: ["2024-12"]
 original_url: https://ameblo.jp/yuki9902/entry-12878294550.html
 categories: ['COMPUTER']
+tags: ['ROCm','Adrenaline','AMD']
 ---
 
 [AMD RADEON RX6750XT](https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html) のドライバーをアップデートしました。

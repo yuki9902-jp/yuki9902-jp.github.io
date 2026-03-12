@@ -6,6 +6,6 @@ original_url: https://ameblo.jp/yuki9902/entry-12185690645.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160731/10/yuki9902/d2/ef/j/o0966064013710965320.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12185690645-13710965320.html)
+[![](/img/o0966064013710965320.jpg)](/img/o0966064013710965320.jpg)
 
 せっかくなのでνガンダムも画像を作ってみました。

@@ -4,7 +4,7 @@ date: 2009-10-20T17:07:52+09:00
 archives: ["2009-10"]
 draft: false
 categories: ['COLUMN']
-tags: []
+
 ---
 
 Sandisk のExtream III 30MB/s 8GBを買いました。

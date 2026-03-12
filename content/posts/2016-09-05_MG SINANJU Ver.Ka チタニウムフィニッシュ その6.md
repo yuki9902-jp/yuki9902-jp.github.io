@@ -6,11 +6,11 @@ original_url: https://ameblo.jp/yuki9902/entry-12197101048.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20160905/19/yuki9902/86/67/j/o0640096613741153154.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12197101048-13741153154.html)
+[![](/img/o0640096613741153154.jpg)](/img/o0640096613741153154.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160905/19/yuki9902/8c/f2/j/o0966064013741153180.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12197101048-13741153180.html)
+[![](/img/o0966064013741153180.jpg)](/img/o0966064013741153180.jpg)
 
-[![](https://stat.ameba.jp/user_images/20160905/19/yuki9902/bc/97/j/o0966064013741153216.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12197101048-13741153216.html)
+[![](/img/o0966064013741153216.jpg)](/img/o0966064013741153216.jpg)
 
 寝ている間に、郵便で股関節の部品が届いていたようです。
 

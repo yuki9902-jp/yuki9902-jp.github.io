@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12670571717.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20210425/07/yuki9902/02/23/j/o1080081014931632401.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12670571717-14931632401.html)
+[![](/img/o1080081014931632401.jpg)](/img/o1080081014931632401.jpg)
 
 今朝は簡単ドリップのコーヒーです。
 

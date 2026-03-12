@@ -2,7 +2,7 @@
 title: "Wheel Alignment"
 date: 2008-02-25T13:48:16+09:00
 archives: ["2008-02"]
-tags: ['Archived', 'TECH']
+
 categories: ['COLUMN']
 ---
 

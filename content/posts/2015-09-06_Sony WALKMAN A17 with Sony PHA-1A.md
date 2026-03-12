@@ -6,7 +6,7 @@ original_url: https://ameblo.jp/yuki9902/entry-12070250942.html
 categories: ['COLUMN']
 ---
 
-[![](https://stat.ameba.jp/user_images/20150906/22/yuki9902/f2/02/j/t02200332_0640096613417796793.jpg?caw=800)](https://ameblo.jp/yuki9902/image-12070250942-13417796793.html)
+[![](/img/t02200332_0640096613417796793.jpg)](/img/t02200332_0640096613417796793.jpg)
 
 Sony WALKMAN A17  
 +  
