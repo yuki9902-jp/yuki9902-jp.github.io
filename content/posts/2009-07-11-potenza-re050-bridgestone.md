@@ -3,7 +3,7 @@ title: "POTENZA RE050 - Bridgestone -"
 date: 2009-07-11T19:32:17+09:00
 archives: ["2009-07"]
 draft: false
-categories: ['ENTHUSIAST']
+categories: ['AUTOMOBILE']
 
 ---
 
