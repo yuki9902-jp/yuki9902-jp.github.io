@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AM5 on yuki9902::blog</title>
+    <link>https://yuki9902-jp.github.io/tags/am5/</link>
+    <description>Recent content in AM5 on yuki9902::blog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 12 Mar 2026 20:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yuki9902-jp.github.io/tags/am5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMD Ryzen Chipset Driver 80.02.18.557 リリース</title>
+      <link>https://yuki9902-jp.github.io/posts/2026-03-12-amd_ryzen_chipset_driver/</link>
+      <pubDate>Thu, 12 Mar 2026 20:00:00 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/posts/2026-03-12-amd_ryzen_chipset_driver/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-02-18-557.html&#34;&gt;AMD Ryzen™ Chipset Driver Release Notes 8.02.18.557&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;amd-ryzen-chipset-driver-800218557-リリース&#34;&gt;AMD Ryzen Chipset Driver 80.02.18.557 リリース&lt;/h3&gt;&#xA;&lt;p&gt;詳しくは上のリリースノートを見てください。主にバグの修正です。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -113,6 +113,44 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2013-02-24_sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" rel="bookmark">
+			Sony Xperia Tablet S を充電しながらPCに接続する方法。
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Sony Xperia Tablet S を購入しました。</p>
+<p>64GBモデルなので、容量をさほど気にすることなく使えます。</p>
+<p>使いにくいことが一つあるのは、PCに接続した際に、充電されないことです。</p>
+<p>USB 1.0/2.0では、1ポートあたり5V / 500mAと決まってますし、ほとんどのマザーボードがそれを超える電力を出力していません。<br>
+過大な電力でUSB機器が壊れるのを防ぐためです。</p>
+<p>Sony Xperia Tablet Sは、付属のACアダプターの出力を見ると1500mAが必要なようです。</p>
+<p>付属のACアダプターで給電しつつ、PC接続できないかなと、USB分岐ケーブルを作りました。</p>
+<p>USBは1～4までのピンがあり、外側の1,4が電力、内側の2,3が信号ピンです。</p>
+<p>USBの延長ケーブル（コネクタ形状がAオスとAメス）を途中で切断して、そこから電力供給用に1,4番の線だけを分岐（並列）させます。<br>
+分岐させた線の先には当然USBコネクタ Aのオスが必要です。<br>
+普通に売られているUSB HDD用の分岐ケーブルでもかまわないでしょう。</p>
+<p>しかし、これだけではACアダプターから給電しながらPC接続するには、完璧ではありません。</p>
+<p>タブレットの充電（給電）情報を表示によれば、「給電されていない」状態です。</p>
+<p>で、これが給電状態になるためには、2,3ピンをケーブル接続時にショートさせておく必要があります。</p>
+<p>そのために、USBコネクタ Aメスを用意し、2,3ピンをショートさせたものを作ります。</p>
+<p>そして接続順序が、<br>
+１．タブレットにマルチコネクタを接続。<br>
+２．分岐ケーブルとマルチコネクタを接続。<br>
+３．PC接続する側のUSB コネクタ Aオスに、2,3をショートさせたAメスを接続。<br>
+４．ACアダプタと電力供給側のUSBコネクタ Aオスを接続。<br>
+５．ACアダプタを100Vコンセントに接続。<br>
+６．タブレットが充電中になっているのを確認。<br>
+７．2,3をショートさせたAメスを取り外す。<br>
+８．PCにAオスを接続。</p>
+<p>この順序で、充電しながらPC接続が可能になります。</p>
+<p>2,3のショートのさせ方ですが、わざわざコネクタAメスを手に入れなくても、間にスイッチを入れてショートとオープンを切り替えるようにしてやると、もっと使いやすいかも。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2013-02-23_%E7%A7%81%E3%81%AF%E9%81%93%E5%85%B7%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E4%BA%BA%E9%96%93%E3%81%A7%E3%81%82%E3%82%8B/" rel="bookmark">
 			私は道具ではない、人間である。
 			</a>
@@ -266,24 +304,6 @@
 <p>常に優しい世界であるように、人々が優しくなれますように、祈り続けております。</p>
 <p>幸多き人生でありますように。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2013-01-20_%E3%81%A0%E3%81%84%E3%81%A3%E3%81%8D%E3%82%89%E3%81%84%E3%81%A0/" rel="bookmark">
-			だいっきらいだ！
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>先週、ますます人間嫌いになるトラブルがあった。</p>
-<p>私がそこにいたばかりに、たちの悪いジジイに捕まって怒鳴りあげられた。</p>
-<p>何もしていないのに、謝らなければならない不条理。</p>
-<p>逃げ場のない状況。</p>
-<p>もう嫌。</p>
-<p>関わりたくない。</p>
-	</div>
 </article>
 </main>
 
@@ -305,6 +325,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
@@ -314,7 +335,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1689,7 +1709,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (6)
+                                03月 (7)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1763,6 +1783,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am5/" title="AM5">AM5</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
@@ -1776,7 +1797,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>

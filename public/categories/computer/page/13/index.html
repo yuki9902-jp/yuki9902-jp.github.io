@@ -114,6 +114,34 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2020-10-03_raspberry-pi-4%E3%81%A8picamera2%E3%81%A8ffmpeg%E3%81%A8ndi/" rel="bookmark">
+			Raspberry pi 4とPiCamera2とFFmpegとNDI
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ラズパイ3B+を壊し、赤外線フィルターレスカメラモジュールを壊し、結局、ラズパイ4Bとカメラモジュールv2の組み合わせになりました。</p>
+<p>カメラモジュールのピントを合わせるのが非常に難しいので、赤外線フィルターレスカメラモジュールを無限遠の向こう側までレンズを回し込んでしまったため、センサーを割ってしまいました。</p>
+<p>レンズ周りの樹脂も削れてつかみ所がなくなってしまい動かせなくなってしまいました。</p>
+<p>レンズ周りの樹脂を剥がしたら、レンズが3枚ぼろっと取れました。</p>
+<p>センサーが割れているのがしっかり確認できました。</p>
+<p>さて、ラズパイ4BはHDMI-1にディスプレーを繋いで起動しないと、VNC経由では最小サイズのデスクトップサイズのみになってしまいます。</p>
+<p>config.txtをいろいろいじったり、調査しましたが、解決方法がありません。</p>
+<p>VNC経由ではなく、SSHで操作すれば良いので、そちらは割り切りましょう。</p>
+<p>ただ動画を撮影する目的なので初期設定やNDI SDKのインストール、FFmpegのビルド、動画配信テストはラズパイ4を直接操作して構築しました。</p>
+<p>shのコマンドファイルを作って、Windows 10のSSHから、shファイルを実行すれば、ラズパイ4で撮影している動画をNDIを使ってLAN内のNDIクライアントのどれでも受信できます。</p>
+<p>ラズパイ4の処理能力では、FFmpegで変換しながらNDI送信するのは、H.264コーデックで1280*720の30Pが限界です。</p>
+<p>ラズパイカメラv2は直接H.264コーデックのRAWデータを流してくるので、無変換でNDIに渡せば良いんですが、FFmpegの仕様上、CPUを使って再変換をして、NDIに渡してしまうようです。</p>
+<p>ラズパイ4は、H.264、H.265のハードウェアエンコードに対応しているはずなんですが、FFmpegとNDI SDKの組み合わせではソフトウェアエンコードの方法しか分かりません。</p>
+<p>NDI送信の設定について参考にしたサイトは「<a href="https://qiita.com/kitazaki/items/eeb710a78c657024f844">ラズパイカメラから NDI 送信してみた。(※ Raspberry Pi 4 に対応！実用的になりました)</a>」です。</p>
+<p>RASPIVIDコマンドについては、「<a href="https://www.raspberrypi.org/documentation/raspbian/applications/camera.md">Raspberry Pi Camera Module</a>」を参考にしました。</p>
+<p>1日に3度もラズパイ4のOSをインストールし直して、2度もFFmpegをビルドするのは疲れました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2020-09-30_%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%EF%BC%94/" rel="bookmark">
 			ラズパイ４
 			</a>
@@ -323,43 +351,6 @@
 <p>もしかしたらFANの端子が復活しているかもしれないですが、今更面倒です。</p>
 <p>とりあえず、XMP2に該当するD.O.C.PをDDR4-3600にして、手動でtRCを64に設定、3700Xのクロック倍率を43にして、電源周りの設定をして、Windows 10を起動させました。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-08-10_asus-rog-strix-x570-f-gaming-bios-2602-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 2602 Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://www.asus.com/jp/Motherboards/ROG-Strix-X570-F-Gaming/HelpDesk_Download/">ASUS ROG STRIX X570-F GAMING BIOS 2602</a></p>
-<p>BIOSが更新されました。</p>
-<hr>
-<p>ROG STRIX X570-F GAMING BIOS 2602</p>
-<p>&ldquo;Improve system performance and stability</p>
-<p>Improve Fan control function</p>
-<p>Improve DRAM stability</p>
-<p>Update AM4 AGESA combo V2 PI 1.0.8.0</p>
-<p>Improve system stability</p>
-<p>Improve DRAM performance</p>
-<p>Before running the USB flashback tool，please rename the BIOS file (SX570FG.CAP) using BIOSRenamer&rdquo;</p>
-<hr>
-<p>更新内容は、</p>
-<p>システムの性能と安定性の改善、</p>
-<p>ファンコントロール項目の改善、</p>
-<p>メモリー安定性の改善、</p>
-<p>AM4 AGESA combo V2 PI 1.0.8.0の更新、</p>
-<p>システムの安定性の改善、</p>
-<p>メモリー性能の改善</p>
-<p>USBフラッシュバックツールを使う前に、BIOSRenamerをつかってBIOSファイル（SX570FG.CAP)にリネームしてください。</p>
-<p>ということです。</p>
-<p>注意：8/13現在、このバージョンのBIOSは取り下げられています。</p>
-<p>詳細は分かりません。</p>
-<p>少し前にメモリーの動作が怪しくなっていたので、今回の更新で安定するようになれば良いですが。</p>
-<p>またしばらく様子見です。</p>
-	</div>
 </article>
 </main>
 
@@ -382,6 +373,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
@@ -391,7 +383,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1766,7 +1757,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (6)
+                                03月 (7)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1840,6 +1831,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am5/" title="AM5">AM5</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
@@ -1853,7 +1845,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>

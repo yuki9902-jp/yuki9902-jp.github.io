@@ -6,8 +6,22 @@
     <description>Recent content in Tags on yuki9902::blog</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Mar 2026 21:45:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 20:00:00 +0900</lastBuildDate>
     <atom:link href="https://yuki9902-jp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AM5</title>
+      <link>https://yuki9902-jp.github.io/tags/am5/</link>
+      <pubDate>Thu, 12 Mar 2026 20:00:00 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/tags/am5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AMD</title>
+      <link>https://yuki9902-jp.github.io/tags/amd/</link>
+      <pubDate>Thu, 12 Mar 2026 20:00:00 +0900</pubDate>
+      <guid>https://yuki9902-jp.github.io/tags/amd/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ReFS</title>
       <link>https://yuki9902-jp.github.io/tags/refs/</link>
@@ -30,13 +44,6 @@
       <description></description>
     </item>
     <item>
-      <title>AMD</title>
-      <link>https://yuki9902-jp.github.io/tags/amd/</link>
-      <pubDate>Tue, 10 Mar 2026 12:00:00 +0900</pubDate>
-      <guid>https://yuki9902-jp.github.io/tags/amd/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>GIGABYTE</title>
       <link>https://yuki9902-jp.github.io/tags/gigabyte/</link>
       <pubDate>Tue, 10 Mar 2026 12:00:00 +0900</pubDate>
@@ -44,7 +51,7 @@
       <description></description>
     </item>
     <item>
-      <title>MULTICHANNEL</title>
+      <title>Multichannel</title>
       <link>https://yuki9902-jp.github.io/tags/multichannel/</link>
       <pubDate>Tue, 10 Mar 2026 12:00:00 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/tags/multichannel/</guid>

@@ -114,6 +114,29 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-02-04_amd-ryzen-7-5800x-%E9%9B%BB%E5%9C%A7%E8%AA%BF%E6%95%B4/" rel="bookmark">
+			AMD RYZEN 7 5800X 電圧調整
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>UEFI(BIOS)でCPUのコアに掛かる電圧を調整しました。</p>
+<p>初期値は1.10000Vです。</p>
+<p>負荷が掛かったときに「-」方向にオフセットするようにして、下げ幅を0.10000Vにしました。</p>
+<p>で、そのときのCPU-Zのベンチマークスコアです。</p>
+<p>MP:6905</p>
+<p>SP:691</p>
+<p><a href="/img/o1230212814891449092.png"><img src="/img/o1230212814891449092.png" alt=""></a></p>
+<p>シングルコアのグラフだと比較データの一番上。</p>
+<p>マルチコアで16コアでも比較データの1番上。</p>
+<p>マルチコアの20コアと比較するとIntel Core i9 10900Fに並びそうです。</p>
+<p>PBO2は高負荷時にコア全体の電圧が下がるように設定するのが、肝心です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-02-03_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AE%E6%95%B4%E7%90%86/" rel="bookmark">
 			ファイルサーバーの整理
 			</a>
@@ -324,39 +347,6 @@
 <p>ランダムライト、ランダムリードともに変わりません。</p>
 <p>ランダム性能はHDDがボトルネックになっているのでSMB Directに影響されることはありません。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-12-30_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/" rel="bookmark">
-			ファイルサーバー
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>先月、CPUに6万円という散財をしてローンで支払中ですが、また散財して850WのPSUを買いました。</p>
-<p>ファイルサーバーのパーツ構成は</p>
-<p>CPU･･･AMD RYZEN 7 1700</p>
-<p>M/B･･･GIGABYTE GA-AX370 Gaming K7 (AMD X370)</p>
-<p>GPU･･･GIGABYTE GV-N105TOC-4GL (NVIDIA Geforce GTX 1050Ti OC)</p>
-<p>RAM･･･Corsair VENGEANCE LPX 16GB (2*8GB) DDR4 DRAM 2666MHz CL16</p>
-<p>SSD･･･WD Black SN750 250GB (NVMe M.2 PCIe Gen.3)</p>
-<p>HDD･･･TOSHIBA DT01ACA300 (3TB SATA600 7200rpm)*2</p>
-<p>       SEAGATE Barracuda ST3000DM001 (3TB SATA600 7200rpm)*2</p>
-<p>       SEAGATE Barracuda ST8000DM004 (8TB SATA600 5400rpm)*1</p>
-<p>PSU･･･Corsair RM 750W (2013年モデル)</p>
-<p>Case･･･Corsair OBSIDIAN 550D (2012年発売)</p>
-<p>さて、それで組み上げて、OSを入れる段でいろいろ試しました。</p>
-<p>ファイルサーバーというよりはNASにしようかと、最初はFreeNASの後継TrueNASを入れましたが、4回やってもインストールできませんでした。</p>
-<p>次にDebianをインストールしましたが、Sambaの構築が出来ず断念。</p>
-<p>次にUbuntuをインストールしましたが、UEFI領域の構築で4度インストールに失敗。</p>
-<p>ブータブルUSBを挿しているUSBポートを変更して5度目にインストールできました。</p>
-<p>UbuntuでSambaを構築して、コンフィグファイルにユーザーを追加して、共有するディレクトリーを設定して再起動したら、ちゃんとファイル共有が出来るようになりました。</p>
-<p>しかし、NTFSで構築されているデータ保存済みのHDD5台をこれに追加するのは面倒です。</p>
-<p>GUIでディレクトリー（フォルダー）の設定が出来ないのは後の運用を考えても面倒でしかないです。</p>
-<p>ということで、ダメ元でWindows 10 Proをインストールしました。</p>
-	</div>
 </article>
 </main>
 
@@ -379,6 +369,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
@@ -388,7 +379,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1763,7 +1753,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (6)
+                                03月 (7)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1837,6 +1827,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am5/" title="AM5">AM5</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
@@ -1850,7 +1841,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>

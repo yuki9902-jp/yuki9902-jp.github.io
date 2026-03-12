@@ -114,6 +114,36 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2025-03-31_wd-black-sn850x-2tb%E3%82%92%E8%B3%BC%E5%85%A5/" rel="bookmark">
+			WD BLACK SN850X 2TBを購入
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>メインPCのゲーム用NVMe SSD 2TBをSN750からSN850Xに入れ替えました。</p>
+<p>SN750を買ったのが5年前。</p>
+<p>当時の価格で51,800円、いろいろなポイントや割引を使って33,000円で買っています。</p>
+<p>ゲーム用に使っていたので劣化度は0%ですが、「原神」のスタッタリング（かくつき）が気になっていたので改善できるかどうか、期待半分で入替です。</p>
+<p>今回のSN850XはNVMe Gen.4x4でシーケンシャル性能でSN750の2倍です。</p>
+<p>価格は、現在、20,000円。</p>
+<p>非常にお得感が高いです。</p>
+<p>WDで提供されているAcronis True Image for WDを使って、ゲーム用のDドライブをクローンしました。</p>
+<p>ついでにCPU直結のM.2スロットに刺さっていたシステム用のCドライブのSN850X  1TBをチップセット経由のM.2スロットに移動させ、クローンしたSN850X 2TBをCPU直結M.2に取り付けました。</p>
+<p>CPU直結のM.2スロットだと、SN850Xの公称値通りの性能が出ます。</p>
+<p>チップセット経由だと1割近く性能が落ちます。</p>
+<p>さて、問題は「原神」のスタッタリングですが、多分改善されています。</p>
+<p>ワープ時のロード時間も短いですし、ロード中のもたつき、ワープ直後のカクつきがなくなっています。</p>
+<p>カクつきが改善されたのは、チップセット経由でなくなったことで、他のデバイスの割り込みが発生しないことが大きな要因だと思います。</p>
+<p>システム用のSSDは2023年に導入しましたが、すでに劣化率1%です。</p>
+<p>SSDでの運用は、ゲーム用、システム用、データ用はそれぞれ別のドライブにしておくのがベターだと思います。</p>
+<p>ついでにアプリの作業やテンポラリに使うドライブも別にした方がいいです。</p>
+<p>細かいデータを頻繁に書き込みや削除すると劣化が早いです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2025-01-28_corsair-icue-link-titan-240-rx-rgb/" rel="bookmark">
 			Corsair iCUE LINK TITAN 240 RX RGB
 			</a>
@@ -417,28 +447,6 @@
 <p>TrueNASのRAID-Z2ではパリティ計算が行われますが、8コア16スレッドのCPUパワーと32GBのメモリキャッシュ（ARC）のおかげで、ほとんどの場面で安定して高速です。メモリ容量を超えるような巨大なファイルを扱う機会はほぼないため、十分な性能が得られています。</p>
 <p>GPUを取り外したことでPCIe Gen3の16レーンが解放されたため、将来的にM.2 NVMe SSDの4枚挿しも可能になりました。現状はバックアップ用のNASなので、そこまでの高速化は必要ありませんが、拡張性に余裕ができたのは嬉しいポイントです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2023-07-15_asus-rog-strix-x570-f-gaming-bios-4802-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming BIOS 4802 Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>ASUS ROG Strix X570-F GamingのBIOS 4802が公開されていたので、更新しました。</p>
-<p>BIOS 4802の更新内容は、</p>
-<p>1、AGESA ComboV2PI 1.2.0.Aのアップデート</p>
-<p>2、AMD Athlon、Ryzenプロセッサーの潜在的なセキュリティー脆弱性の軽減</p>
-<p>3、システムの安定性の改善</p>
-<p>です。</p>
-<p>更新後、UEFIのASUS ROGのロゴの色が赤になったのと、いくつかの項目の整理が行われていました。</p>
-<p>機能の追加などはないようです。</p>
-<p>AGESA ComboV2PI 1.2.0.Aの細かい変更内容はわかりません。</p>
-<p>BIOSのファイル容量が前回の4602に対して4MBも縮小されているので、不要なコードの整理なども行われたのではないでしょうか。</p>
-	</div>
 </article>
 </main>
 
@@ -461,6 +469,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
@@ -470,7 +479,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
 		</ul>
 	</div>
 </div>
@@ -1845,7 +1853,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (6)
+                                03月 (7)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1919,6 +1927,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/adrenaline/" title="Adrenaline">Adrenaline</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/agesa/" title="AGESA">AGESA</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/am4/" title="AM4">AM4</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/am5/" title="AM5">AM5</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/amd/" title="AMD">AMD</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
@@ -1932,7 +1941,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
