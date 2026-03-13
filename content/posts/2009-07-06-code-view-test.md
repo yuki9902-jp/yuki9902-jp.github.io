@@ -18,7 +18,7 @@ Excelのマクロでコード編集を表示して貼り付けてください。
 何か作って置き換えてください。
 
 
-```VB {.copy}
+```vbnet {.copy}
 Option Explicit
 
 '定数
