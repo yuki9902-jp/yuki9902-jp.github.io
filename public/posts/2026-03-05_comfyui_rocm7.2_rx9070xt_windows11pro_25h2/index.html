@@ -231,14 +231,14 @@
 <p><a href="https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/install/installrad/windows/install-pytorch.html#install-pytorch-via-pip">Install PyTorch via PIP</a> に従いPyTorchをインストールします。管理者権限でコマンドプロンプトを起動します。</p>
 <ol>
 <li>ROCm環境を設定するコマンドを入力します。
-<pre tabindex="0"><code> pip install --no-cache-dir ^
+<pre tabindex="0"><code class="language-CMD" data-lang="CMD"> pip install --no-cache-dir ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_core-7.2.0.dev0-py3-none-win_amd64.whl ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_devel-7.2.0.dev0-py3-none-win_amd64.whl ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_libraries_custom-7.2.0.dev0-py3-none-win_amd64.whl ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm-7.2.0.dev0.tar.gz
 </code></pre></li>
 <li>ROCm AMD GPUをサポートしたtorch、torchvision、torchaudioをインストールします。
-<pre tabindex="0"><code> pip install --no-cache-dir ^
+<pre tabindex="0"><code class="language-CMD" data-lang="CMD"> pip install --no-cache-dir ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torch-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchaudio-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
      https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchvision-0.24.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl
@@ -366,7 +366,7 @@
 <li>
 <p><code>D:\ComfyUI\python_embeded\python312._pth</code> をテキストエディタで開き以下のように編集します。</p>
 <h4 id="python312_pth">python312._pth</h4>
-<pre tabindex="0"><code class="language-python312._pth" data-lang="python312._pth">python312.zip
+<pre tabindex="0"><code class="language-CMD" data-lang="CMD">python312.zip
 .
 # 下記を追記（Lib\site-packagesを認識させるため）
 Lib\site-packages

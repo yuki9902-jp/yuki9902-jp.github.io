@@ -83,7 +83,7 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
 1. [Install PyTorch via PIP](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/install/installrad/windows/install-pytorch.html#install-pytorch-via-pip) に従いPyTorchをインストールします。管理者権限でコマンドプロンプトを起動します。
     
     1. ROCm環境を設定するコマンドを入力します。
-       ``` {.copy}
+       ```CMD {.copy}
         pip install --no-cache-dir ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_core-7.2.0.dev0-py3-none-win_amd64.whl ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_devel-7.2.0.dev0-py3-none-win_amd64.whl ^
@@ -91,7 +91,7 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm-7.2.0.dev0.tar.gz
        ```
     2. ROCm AMD GPUをサポートしたtorch、torchvision、torchaudioをインストールします。
-       ``` {.copy}
+       ```CMD {.copy}
         pip install --no-cache-dir ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torch-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchaudio-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
@@ -195,7 +195,7 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 4. `D:\ComfyUI\python_embeded\python312._pth` をテキストエディタで開き以下のように編集します。
 
     #### python312._pth
-    ```python312._pth {.copy}
+    ```CMD {.copy}
     python312.zip
     .
     # 下記を追記（Lib\site-packagesを認識させるため）
