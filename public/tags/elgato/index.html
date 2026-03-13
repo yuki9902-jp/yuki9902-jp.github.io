@@ -121,21 +121,27 @@
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<h3 id="elgato-wave-linkの音声遅延対策">Elgato Wave Linkの音声遅延対策</h3>
-<h4 id="usb-dac接続時のレイテンシを最小化する">USB DAC接続時のレイテンシを最小化する</h4>
+		<h2 id="elgato-wave-linkの音声遅延対策">Elgato Wave Linkの音声遅延対策</h2>
+<h3 id="usb-dac接続時のレイテンシを最小化する">USB DAC接続時のレイテンシを最小化する</h3>
 <p>Elgatoの「Wave:3」や「Wave XLR」を使用する際、専用ミキシングソフトウェアである <strong>Wave Link</strong> のインストールが必須となります。しかし、接続構成によっては音声に無視できない遅延（レイテンシ）が発生することがあります。</p>
-<h4 id="1-接続経路による遅延の比較">1. 接続経路による遅延の比較</h4>
+<h3 id="1-接続経路による遅延の比較">1. 接続経路による遅延の比較</h3>
 <p>検証の結果、音声を出力するデバイスによって遅延の挙動が異なることが分かりました。</p>
 <ul>
-<li><strong>パターンA：外付けUSB DACを使用（遅延あり）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <strong><code>[USB接続]</code></strong> ⇒ <code>[USB DAC]</code> この経路では、USBオーディオドライバの規格上、10ms〜30ms程度の遅延が発生します。</li>
-<li><strong>パターンB：PC内蔵DACを使用（遅延なし）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <code>[マザーボード内蔵出力]</code> OS内部での処理で完結するため、数ミリ秒程度の遅延が発生しますがエコーを感じる程度です。</li>
-<li><strong>パターンC：OBSでの録画・配信（遅延なし）</strong> <code>[Wave Link]</code> ⇒ <code>[OBS]</code> OBSへの入力（Stream出力）に関しては映像との同期が取れており、録画・配信データにズレが生じることはありません。</li>
+<li>
+<p><strong>パターンA：外付けUSB DACを使用（遅延あり）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <strong><code>[USB接続]</code></strong> ⇒ <code>[USB DAC]</code> この経路では、USBオーディオドライバの規格上、10ms〜30ms程度の遅延が発生します。</p>
+</li>
+<li>
+<p><strong>パターンB：PC内蔵DACを使用（遅延なし）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <code>[マザーボード内蔵出力]</code> OS内部での処理で完結するため、数ミリ秒程度の遅延が発生しますがエコーを感じる程度です。</p>
+</li>
+<li>
+<p><strong>パターンC：OBSでの録画・配信（遅延なし）</strong> <code>[Wave Link]</code> ⇒ <code>[OBS]</code> OBSへの入力（Stream出力）に関しては映像との同期が取れており、録画・配信データにズレが生じることはありません。</p>
+</li>
 </ul>
-<h4 id="2-usb-dac接続時の遅延を低減する方法">2. USB DAC接続時の遅延を低減する方法</h4>
+<h3 id="2-usb-dac接続時の遅延を低減する方法">2. USB DAC接続時の遅延を低減する方法</h3>
 <p>USB DACを使用してモニターする際の遅延を小さくするには、ドライバのバッファサイズを極限まで絞り込む必要があります。</p>
 <p>Wave Link自体はWASAPI排他モードやASIOには対応していませんが、設定から<strong>入出力バッファを最小</strong>に設定することが可能です。</p>
 <p>さらに踏み込んだ対策として、ツール「<strong>HIDUSBF</strong>」を使用する方法があります。これでUSBポートのポーリングレートを上げ、信号遅延を1msに固定することで、若干のエコーを感じる程度（PCのヘッドフォン端子直結と同等レベル）まで遅延を抑え込むことができました。</p>
-<h4 id="3-配信録画時の設定について">3. 配信・録画時の設定について</h4>
+<h3 id="3-配信録画時の設定について">3. 配信・録画時の設定について</h3>
 <p>Wave Linkの「Stream出力」は、自分の耳で聞く「Monitor出力」よりも遅延が少なく設計されているようです。そのため、配信視聴者側で音声と映像がズレる心配はほとんどありません。</p>
 <p>もし、それでもミリ秒単位のズレが気になる場合は、OBS側の「オーディオの詳細プロパティ」から<strong>同期オフセット</strong>を調整して、設定を追い込んでみてください。</p>
 	</div>

@@ -194,8 +194,8 @@
 <p>ファイルの権限を確認しようとファイルを右クリックしてプロパティーを表示させたら、「セキュリティ：このファイルは他のコンピューターから取得した物です。このコンピューターを保護するため、このファイルへのアクセスはブロックされる可能性があります。□許可する(K)」と表示されて居るではありませんか。許可するにチェックをするとエラー 50 (0x00000032)は表示されなくなりました。</p>
 <h4 id="一括変更">一括変更</h4>
 <p>元は自分が作成したファイルでWindows11Pro 25H2をクリーンインストールした事で起きた問題なので、所々で同じエラーが出ているファイルを情報を一括で書き換えるコマンドを探しました。するとありました。</p>
-<pre tabindex="0"><code class="language-Windows" data-lang="Windows">Get-ChildItem -Recurse | Unblock-File
-</code></pre><p>一括で書き換えたいフォルダで上のコマンドを実行するだけ、配下のファイル、フォルダの情報を一括で書き換えてくれます。</p>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-Powershell" data-lang="Powershell"><span style="display:flex;"><span>Get-ChildItem -Recurse | Unblock-File
+</span></span></code></pre></div><p>一括で書き換えたいフォルダで上のコマンドを実行するだけ、配下のファイル、フォルダの情報を一括で書き換えてくれます。</p>
 
 		</div>
 		<footer class="post__footer">

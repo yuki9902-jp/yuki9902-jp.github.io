@@ -56,11 +56,17 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 1. [Install PyTorch via PIP](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/install/installrad/windows/install-pytorch.html#install-pytorch-via-pip) に従いPyTorchをインストールします。
 2. [Install ComfyUI](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/advanced/advancedrad/windows/comfyui/installcomfyui.html#install-comfyui) に従いComfyUIをインストールします。  
    ComfyUIをGitから取得してください  
-   `git clone https://github.com/comfyanonymous/ComfyUI.git`  
+   ```bash {.copy}
+   git clone https://github.com/comfyanonymous/ComfyUI.git
+   ```
    カレントフォルダを移動します。  
-   `cd \ComfyUI`  
+   ```bash {.copy}
+   cd \ComfyUI
+   ```
    以下を入力し、インストールしてください。  
-   `pip install -r requirements.txt`
+   ```bash {.copy}
+   pip install -r requirements.txt
+   ```
 
 ---
 

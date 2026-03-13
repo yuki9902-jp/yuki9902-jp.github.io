@@ -231,36 +231,36 @@
 <p><a href="https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/install/installrad/windows/install-pytorch.html#install-pytorch-via-pip">Install PyTorch via PIP</a> に従いPyTorchをインストールします。管理者権限でコマンドプロンプトを起動します。</p>
 <ol>
 <li>ROCm環境を設定するコマンドを入力します。
-<pre tabindex="0"><code class="language-CMD" data-lang="CMD"> pip install --no-cache-dir ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_core-7.2.0.dev0-py3-none-win_amd64.whl ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_devel-7.2.0.dev0-py3-none-win_amd64.whl ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_libraries_custom-7.2.0.dev0-py3-none-win_amd64.whl ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm-7.2.0.dev0.tar.gz
-</code></pre></li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> pip install --no-cache-dir ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_core-7.2.0.dev0-py3-none-win_amd64.whl ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_devel-7.2.0.dev0-py3-none-win_amd64.whl ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_libraries_custom-7.2.0.dev0-py3-none-win_amd64.whl ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm-7.2.0.dev0.tar.gz
+</span></span></code></pre></div></li>
 <li>ROCm AMD GPUをサポートしたtorch、torchvision、torchaudioをインストールします。
-<pre tabindex="0"><code class="language-CMD" data-lang="CMD"> pip install --no-cache-dir ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torch-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchaudio-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
-     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchvision-0.24.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl
-</code></pre></li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> pip install --no-cache-dir ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torch-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchaudio-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
+</span></span><span style="display:flex;"><span>     https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchvision-0.24.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl
+</span></span></code></pre></div></li>
 <li>PyTorchのインストールを確認します。
 <ol>
 <li>
 <p>PyTorchのインストールを確認します。</p>
-<p><code>python -c &quot;import torch&quot; 2&gt;nul &amp;&amp; echo Success || echo Failure</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -c <span style="color:#e6db74">&#34;import torch&#34;</span> 2&gt;nul <span style="color:#f92672">&amp;&amp;</span> echo Success <span style="color:#f92672">||</span> echo Failure
+</span></span></code></pre></div></li>
 <li>
 <p>GPUが利用可能か調べます。</p>
-<p><code>python -c &quot;import torch; print(torch.cuda.is_available())&quot;</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -c <span style="color:#e6db74">&#34;import torch; print(torch.cuda.is_available())&#34;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>インストールされたGPUデバイス名を表示します。</p>
-<p><code>python -c &quot;import torch; print(f'device name [0]:', torch.cuda.get_device_name(0))&quot;</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -c <span style="color:#e6db74">&#34;import torch; print(f&#39;device name [0]:&#39;, torch.cuda.get_device_name(0))&#34;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>現在のPyTorch環境内でコンポーネント情報を表示します。</p>
-<p><code>python -m torch.utils.collect_env</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -m torch.utils.collect_env
+</span></span></code></pre></div></li>
 </ol>
 </li>
 </ol>
@@ -270,24 +270,24 @@
 <ol>
 <li>
 <p>管理者権限でコマンドプロンプトを起動し、カレントフォルダーをインストールしたい一つ上のフォルダに移動します。</p>
-<p><code>D:</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>D:
+</span></span></code></pre></div></li>
 <li>
 <p>ComfyUIをGitから取得してください。</p>
-<p><code>git clone https://github.com/comfyanonymous/ComfyUI.git</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/comfyanonymous/ComfyUI.git
+</span></span></code></pre></div></li>
 <li>
 <p>カレントフォルダを移動します。</p>
-<p><code>cd \ComfyUI</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd <span style="color:#ae81ff">\C</span>omfyUI
+</span></span></code></pre></div></li>
 <li>
 <p>以下を入力し、インストールしてください。</p>
-<p><code>pip install -r requirements.txt</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div></li>
 <li>
 <p>ComfyUIを起動します。</p>
-<p><code>python main.py</code></p>
-</li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python main.py
+</span></span></code></pre></div></li>
 <li>
 <p>起動が確認できたら、<code>Ctrl + C</code>でComfyUIを終了します。</p>
 </li>
@@ -318,7 +318,7 @@
 <li>
 <p>extra_model_paths.yamlの内容を編集します。</p>
 <h4 id="extra_model_pathsyaml">extra_model_paths.yaml</h4>
-<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-extra_model_paths.yaml" data-lang="extra_model_paths.yaml"><span style="display:flex;"><span><span style="color:#f92672">stability_matrix</span>:
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">stability_matrix</span>:
 </span></span><span style="display:flex;"><span><span style="color:#f92672">base_path</span>: <span style="color:#ae81ff">D:\SM\Data\Models\</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">checkpoints</span>: <span style="color:#ae81ff">StableDiffusion</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">diffusers</span>: <span style="color:#ae81ff">Diffusers</span>
@@ -366,18 +366,18 @@
 <li>
 <p><code>D:\ComfyUI\python_embeded\python312._pth</code> をテキストエディタで開き以下のように編集します。</p>
 <h4 id="python312_pth">python312._pth</h4>
-<pre tabindex="0"><code class="language-CMD" data-lang="CMD">python312.zip
-.
-# 下記を追記（Lib\site-packagesを認識させるため）
-Lib\site-packages
-# import site のコメントアウトを外す（重要！）
-import site
-</code></pre></li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>python312.zip
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span># 下記を追記（Lib\site-packagesを認識させるため）
+</span></span><span style="display:flex;"><span>Lib\site-packages
+</span></span><span style="display:flex;"><span># import site のコメントアウトを外す（重要！）
+</span></span><span style="display:flex;"><span>import site
+</span></span></code></pre></div></li>
 </ol>
 <h3 id="起動用バッチファイル">起動用バッチファイル</h3>
 <p>起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。</p>
 <h4 id="startbat">start.bat</h4>
-<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-start.bat" data-lang="start.bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">setlocal</span>
 </span></span><span style="display:flex;"><span>:<span style="color:#75715e">: システムのPythonやライブラリを無視させる</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PYTHONNOUSERSITE=1
@@ -387,7 +387,7 @@ import site
 </span></span><span style="display:flex;"><span>python main.py
 </span></span></code></pre></div><p>実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。</p>
 <h4 id="comfyui_datebat">ComfyUI_Date.bat</h4>
-<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ComfyUI_Date.bat" data-lang="ComfyUI_Date.bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">setlocal</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">rem PowerShellを使って確実に yyyyMMdd を取得（ロケールに左右されません）</span>
