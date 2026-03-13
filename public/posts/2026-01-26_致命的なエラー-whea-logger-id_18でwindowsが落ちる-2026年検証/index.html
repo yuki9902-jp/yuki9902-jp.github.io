@@ -122,7 +122,7 @@
 <p>数々の電圧設定、PBOの微調整を経て、最終的に「すべてAuto設定」という安全かつ安定という最適解に辿り着いたこのマシンの挙動から、改めてこのエラーの正体と、Zen3環境における2026年時点の知見を記録しておきます。</p>
 <p>まずは、当時の原因究明の礎となったMicrosoftの公式情報を再掲します。</p>
 <hr>
-<h4 id="イベントビューアーの記録">【イベントビューアーの記録】</h4>
+<h2 id="イベントビューアーの記録">【イベントビューアーの記録】</h2>
 <p><strong>説明:</strong> 致命的なハードウェア エラーが発生しました。 コンポーネントによる報告: プロセッサ コア エラー ソース: Machine Check Exception エラーの種類: Bus/Interconnect Error プロセッサ APIC ID: 0</p>
 <p><strong>ユーザー アクション:</strong> このイベントの詳細領域には、詳細情報が含まれています。</p>
 <ol>
@@ -133,7 +133,7 @@
 <li><strong>電源の確認:</strong> 電源ユニットがすべてのコンポーネントに十分な電力を供給していることを確認します。</li>
 </ol>
 <hr>
-<h4 id="2026年時点のzen3知見なぜautoが正解なのか">【2026年時点のZen3知見：なぜ「Auto」が正解なのか】</h4>
+<h2 id="2026年時点のzen3知見なぜautoが正解なのか">【2026年時点のZen3知見：なぜ「Auto」が正解なのか】</h2>
 <p><strong>1. 電圧制御（Vcore/SoC）の成熟</strong> 2021年当時はBIOS（AGESA）が未成熟で、アイドル時や低負荷時の電圧ドロップが原因で「ID:18」が頻発していました。しかし、最終盤のAGESAにアップデートし、設定を「Auto」に委ねることで、現在のRyzen 9 5900XTは、OS（Windows 11 25H2）のスケジューラと完璧に調和して動作しています。</p>
 <p><strong>2. 予備機としての絶対的安定性</strong> RAMを64GB積んでいるこのマシンにおいて、手動でのメモリOCやPBOの攻めた設定はもはや不要です。Auto設定は「遅い」のではなく「プロセッサが自らの限界と安全圏を最も正確に把握している状態」であり、不意の再起動を許さない予備機としての責務を果たしています。</p>
 <p><strong>3. Radeon RX6750XTとの親和性</strong> Smart Access Memory（SAM）を有効にした「Auto」環境では、エラーの原因となりやすいドライバ間の不整合も最小限に抑えられています。</p>
@@ -1657,7 +1657,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

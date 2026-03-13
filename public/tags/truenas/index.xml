@@ -20,7 +20,7 @@
       <link>https://yuki9902-jp.github.io/posts/2026-01-09_truenas-core%E3%81%8B%E3%82%89trunas-communication%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F/</link>
       <pubDate>Fri, 09 Jan 2026 14:31:27 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2026-01-09_truenas-core%E3%81%8B%E3%82%89trunas-communication%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F/</guid>
-      <description>&lt;p&gt;TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunicationとEnterpriseのエディションとなりました。&lt;/p&gt;&#xA;&lt;p&gt;FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Communicationにインストールし直しました。&lt;/p&gt;&#xA;&lt;p&gt;UIは似ているんですが、設定項目の配置が違うのでそれを探すのが手間取ります。&lt;/p&gt;&#xA;&lt;p&gt;SMBのマルチチャネル接続は、チェックボックスに変わったのでこちらは簡単になりました。&lt;/p&gt;&#xA;&lt;p&gt;後はWindows側からファイルを書き込むときは、ROBOCOPYのオプションのJ、MT:2を設定することで安定した速度が確保できます。&lt;/p&gt;</description>
+      <description>&lt;p&gt;TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunity EditionとEnterpriseの2つのエディションとなりました。&lt;/p&gt;&#xA;&lt;p&gt;FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Commutnity Editonにインストールし直しました。&lt;/p&gt;&#xA;&lt;p&gt;UIは似ているんですが、設定項目の配置が違うのでそれを探すのが手間取ります。&lt;/p&gt;&#xA;&lt;p&gt;SMBのマルチチャネル接続は、チェックボックスに変わったのでこちらは簡単になりました。&lt;/p&gt;&#xA;&lt;p&gt;後はWindows側からファイルを書き込むときは、ROBOCOPYのオプションのJ、MT:2を設定することで安定した速度が確保できます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>結局、TrueNASに戻りました。</title>

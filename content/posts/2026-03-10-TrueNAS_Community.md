@@ -122,7 +122,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 2. ユーザー認証画面に4-5.で作成したユーザー名とパスワードを入力してログインする。
 3. Data_3TB、Data_4TBが表示され、フォルダにアクセス出来ていれば成功。
 4. マルチチャンネル接続の確認はWindows PowerShellを開いて以下のコマンド入力して確認。
-```
+```PowerShell
 Get-SmbMultichannelConnection
 ```
 

@@ -7,9 +7,9 @@ categories: ['COMPUTER']
 tags: ['TrueNAS']
 ---
 
-TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunicationとEnterpriseのエディションとなりました。  
+TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunity EditionとEnterpriseの2つのエディションとなりました。  
   
-FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Communicationにインストールし直しました。  
+FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Commutnity Editonにインストールし直しました。  
   
 UIは似ているんですが、設定項目の配置が違うのでそれを探すのが手間取ります。  
   

@@ -22,7 +22,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | **項目** | **要件 / 使用パーツ** |
 | --- | --- |
 | **GPU** | **ASUS TUF-Gaming RX 9070 XT OC 16GB** (RDNA 4) |
-| **CPU** | **AMD Ryzen 9 9950X3D**(CPUの処理も行われるので良いものを) |
+| **CPU** | **AMD Ryzen 9 9950X3D** (CPUの処理も行われるので良いものを) |
 | **RAM** | **DDR5-6000 64GB** (32GB以上を強く推奨) |
 | **OS** | **Windows 11 Pro 25H2** |
 | **Driver** | **Adrenalin 26.1.1 (AI Bundle同梱版)** |

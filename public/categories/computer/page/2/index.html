@@ -161,40 +161,40 @@
 <p><a href="../2021-06-09_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></p>
 <p>2026年の記事</p>
 <p><a href="../2026-01-26_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B-2026%E5%B9%B4%E6%A4%9C%E8%A8%BC/">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる (2026年検証)</a></p>
-<h3 id="1-エラー事象">1. エラー事象</h3>
+<h2 id="1-エラー事象">1. エラー事象</h2>
 <p>Ryzen 5000シリーズ（Zen 3）搭載システムにおいて、Windowsシステムログに「WHEA-Logger Event ID:18」が記録され、OSが突然停止（再起動またはハングアップ）する事象。</p>
 <ul>
 <li><strong>発生状況:</strong> 高負荷時よりも、アイドル時、軽負荷時、または負荷の変動が激しい瞬間に発生する傾向が強い。</li>
 <li><strong>ログの内容:</strong> 「致命的なハードウェアエラーが発生しました」「コンポーネント: Processor Core」「エラーソース: Machine Check Exception」「エラーの種類: Cache Hierarchy Error（または Bus/Interconnect Error）」と報告される。</li>
 </ul>
-<h3 id="2-技術考察公表資料に基づく事実">2. 技術考察（公表資料に基づく事実）</h3>
+<h2 id="2-技術考察公表資料に基づく事実">2. 技術考察（公表資料に基づく事実）</h2>
 <p>AMDおよびマザーボードメーカーの技術仕様・資料から明らかな事実は以下の通りである。</p>
 <ul>
 <li><strong>SoCの電力管理:</strong> Zen 3アーキテクチャは、数ナノ秒単位で個別のコアの電圧と周波数を動的に制御する「Precision Boost 2」等のアルゴリズムを搭載している。</li>
 <li><strong>過渡応答（Transient Response）の定義:</strong> VRM（電圧レギュレータ）は、CPUの急激な電流要求に対し、物理的なインダクタンス等の影響で供給電圧が一時的に低下（Vdroop）し、その後安定するまでの応答時間を必要とする。</li>
 <li><strong>AGESAの役割:</strong> AMDはAGESA（AMD Generic Encapsulated Software Architecture）を通じて、プロセッサ内部の電力管理レジスタやブースト挙動のマイクロコードを各マザーボードメーカーへ提供している。</li>
 </ul>
-<h3 id="3-ユーザー検証による推測的な考察">3. ユーザー検証による推測的な考察</h3>
+<h2 id="3-ユーザー検証による推測的な考察">3. ユーザー検証による推測的な考察</h2>
 <p>AMDから詳細な内部挙動（どのレジスタがエラーをトリガーしたか）は公表されていないため、以下の点は膨大なユーザー検証に基づく推測である。</p>
 <ul>
 <li><strong>電圧の過渡応答とブーストの不整合:</strong> プロセッサがブーストを開始するタイミングに対し、マザーボード側のVRMによる電圧供給の回復が数マイクロ秒単位で遅延し、一時的に駆動下限電圧を下回る瞬間が発生していると推測される。</li>
 <li><strong>Curve Optimizer（CO）の影響:</strong> COによる負のオフセット設定は、アイドル時付近の電圧マージンをさらに削るため、上述の瞬時的な電圧降下に対する耐性を著しく低下させ、エラーを誘発しやすくしていると推測される。</li>
 </ul>
-<h3 id="4-現時点における技術的解決方法">4. 現時点における技術的解決方法</h3>
+<h2 id="4-現時点における技術的解決方法">4. 現時点における技術的解決方法</h2>
 <p>市場の観測およびファームウェアの変遷から得られた解決策は以下の通り。</p>
 <ul>
 <li><strong>AGESAの更新:</strong> 2021年以降のAGESAアップデート（特に1.2.0.0以降）により、多くの環境で本事象が沈静化した。これはAMD側で電圧の遷移タイミングや、低負荷時のベース電圧の下限値を再定義したものと推測される。</li>
 <li><strong>Global C-state Controlの無効化:</strong> BIOS設定でアイドル時の深い省電力ステートへの遷移を制限することで、急激な電圧変動自体を抑制作業。</li>
 <li><strong>特定コアの電圧補正:</strong> エラーログから特定された特定のコアに対してのみ、正のオフセット（電圧増）を加える。</li>
 </ul>
-<h3 id="5-私がauto設定を選択した理由">5. 私が「Auto」設定を選択した理由</h3>
+<h2 id="5-私がauto設定を選択した理由">5. 私が「Auto」設定を選択した理由</h2>
 <p>以上の考察に基づき、手動による詳細設定ではなく「Auto」を選択した技術的判断は以下の通りである。</p>
 <ol>
 <li><strong>アルゴリズムの複雑性:</strong> 現代のSoCは、温度、電流、負荷を統合的に判断して動的に動作している。ユーザーによる静的な電圧オフセット（CO等）は、この動的なガードバンドを意図せず逸脱させるリスクが高い。</li>
 <li><strong>検証の限界:</strong> ユーザー側ではナノ秒単位の電力挙動を実測・デバッグすることは不可能であり、手動設定はあくまで「特定の負荷パターン」に対する対症療法に留まる。</li>
 <li><strong>信頼性の担保:</strong> メーカーが提供する最新のAGESAによる自律制御（Auto）に委ねることが、設計者が想定したマージンを全動作域で維持するための最も合理的かつ確実な手段であると判断したため。</li>
 </ol>
-<h3 id="6-同じエラーで悩んでいる人に向けて">6. 同じエラーで悩んでいる人に向けて</h3>
+<h2 id="6-同じエラーで悩んでいる人に向けて">6. 同じエラーで悩んでいる人に向けて</h2>
 <p>もし、あなたが今まさに「WHEA-Logger ID:18」に翻弄され、原因不明の再起動に絶望しているのなら、数年間にわたる検証を経て得られた以下の知見を、一つの指針として提示します。</p>
 	</div>
 </article><article class="list__item post">
@@ -212,7 +212,7 @@
 <p>数々の電圧設定、PBOの微調整を経て、最終的に「すべてAuto設定」という安全かつ安定という最適解に辿り着いたこのマシンの挙動から、改めてこのエラーの正体と、Zen3環境における2026年時点の知見を記録しておきます。</p>
 <p>まずは、当時の原因究明の礎となったMicrosoftの公式情報を再掲します。</p>
 <hr>
-<h4 id="イベントビューアーの記録">【イベントビューアーの記録】</h4>
+<h2 id="イベントビューアーの記録">【イベントビューアーの記録】</h2>
 <p><strong>説明:</strong> 致命的なハードウェア エラーが発生しました。 コンポーネントによる報告: プロセッサ コア エラー ソース: Machine Check Exception エラーの種類: Bus/Interconnect Error プロセッサ APIC ID: 0</p>
 <p><strong>ユーザー アクション:</strong> このイベントの詳細領域には、詳細情報が含まれています。</p>
 <ol>
@@ -223,7 +223,7 @@
 <li><strong>電源の確認:</strong> 電源ユニットがすべてのコンポーネントに十分な電力を供給していることを確認します。</li>
 </ol>
 <hr>
-<h4 id="2026年時点のzen3知見なぜautoが正解なのか">【2026年時点のZen3知見：なぜ「Auto」が正解なのか】</h4>
+<h2 id="2026年時点のzen3知見なぜautoが正解なのか">【2026年時点のZen3知見：なぜ「Auto」が正解なのか】</h2>
 <p><strong>1. 電圧制御（Vcore/SoC）の成熟</strong> 2021年当時はBIOS（AGESA）が未成熟で、アイドル時や低負荷時の電圧ドロップが原因で「ID:18」が頻発していました。しかし、最終盤のAGESAにアップデートし、設定を「Auto」に委ねることで、現在のRyzen 9 5900XTは、OS（Windows 11 25H2）のスケジューラと完璧に調和して動作しています。</p>
 <p><strong>2. 予備機としての絶対的安定性</strong> RAMを64GB積んでいるこのマシンにおいて、手動でのメモリOCやPBOの攻めた設定はもはや不要です。Auto設定は「遅い」のではなく「プロセッサが自らの限界と安全圏を最も正確に把握している状態」であり、不意の再起動を許さない予備機としての責務を果たしています。</p>
 <p><strong>3. Radeon RX6750XTとの親和性</strong> Smart Access Memory（SAM）を有効にした「Auto」環境では、エラーの原因となりやすいドライバ間の不整合も最小限に抑えられています。</p>
@@ -259,7 +259,7 @@
       </tr>
       <tr>
           <td><strong>CPU</strong></td>
-          <td><strong>AMD Ryzen 9 9950X3D</strong>(CPUの処理も行われるので良いものを)</td>
+          <td><strong>AMD Ryzen 9 9950X3D</strong> (CPUの処理も行われるので良いものを)</td>
       </tr>
       <tr>
           <td><strong>RAM</strong></td>
@@ -299,8 +299,8 @@
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<p>TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunicationとEnterpriseのエディションとなりました。</p>
-<p>FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Communicationにインストールし直しました。</p>
+		<p>TrueNAS CoreとTrueNAS Scaleのエディションが廃止され、TrueNAS ScaleがCommunity EditionとEnterpriseの2つのエディションとなりました。</p>
+<p>FreeBSDがベースのTrueNAS Coreの方がWindowsからのデータ書き込みが速かった気がするんですが、もうこのエディションがなくなってしまったので、自宅のNASのOSをTrueNAS Commutnity Editonにインストールし直しました。</p>
 <p>UIは似ているんですが、設定項目の配置が違うのでそれを探すのが手間取ります。</p>
 <p>SMBのマルチチャネル接続は、チェックボックスに変わったのでこちらは簡単になりました。</p>
 <p>後はWindows側からファイルを書き込むときは、ROBOCOPYのオプションのJ、MT:2を設定することで安定した速度が確保できます。</p>
@@ -318,7 +318,7 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>最終的に、以下の構成でPCを組んだら、新PCになりました。手元に資金が出来たときが急騰する直前で、思い切って購入し、今となっては非常に良かったです。しばらくは性能不足に陥ることの無いスペックで組み上げたので安心です。</p>
 <p>昨今のメモリとストレージの急騰と枯渇状態をみると、部品の故障には気をつけてオーバークロック（PBOを含む）を避け、メンテナンス時には電源をちゃんとOFFにして作業をするように心がけます。</p>
-<h4 id="メインpc">メインPC</h4>
+<h2 id="メインpc">メインPC</h2>
 <dl>
 <dt><strong>・CPU</strong></dt>
 <dd>AMD RYZEN 9950X3D</dd>
@@ -346,7 +346,7 @@ WD BLUE SATA SSD 1TB x2</dd>
 <p><a href="/img/o0966064015739565152.jpg"><img src="/img/o0966064015739565152.jpg" alt=""></a></p>
 <p><a href="/img/o0966064015739565153.jpg"><img src="/img/o0966064015739565153.jpg" alt=""></a></p>
 <p><a href="/img/o0966064015739574724.jpg"><img src="/img/o0966064015739574724.jpg" alt=""></a></p>
-<h4 id="cinebenchのスコア">Cinebenchのスコア</h4>
+<h2 id="cinebenchのスコア">Cinebenchのスコア</h2>
 <table>
   <thead>
       <tr>
@@ -423,7 +423,7 @@ WD BLUE SATA SSD 1TB x2</dd>
       </tr>
   </tbody>
 </table>
-<h4 id="ff-xivのスコアとfpsavg">FF XIVのスコアとfps(Avg.)</h4>
+<h2 id="ff-xivのスコアとfpsavg">FF XIVのスコアとfps(Avg.)</h2>
 <p>[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質</p>
 	</div>
 </article><article class="list__item post">
@@ -2001,7 +2001,7 @@ WD BLUE SATA SSD 1TB x2</dd>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
