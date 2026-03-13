@@ -318,38 +318,38 @@
 <li>
 <p>extra_model_paths.yamlの内容を編集します。</p>
 <h4 id="extra_model_pathsyaml">extra_model_paths.yaml</h4>
-<pre tabindex="0"><code>stability_matrix:
-base_path: D:\SM\Data\Models\
-checkpoints: StableDiffusion
-diffusers: Diffusers
-loras: |-
-    Lora
-    LyCORIS
-clip: TextEncoders
-clip_vision: ClipVision
-embeddings: Embeddings
-vae: VAE
-vae_approx: ApproxVAE
-controlnet: |-
-    ControlNet
-    T2IAdapter
-gligen: GLIGEN
-upscale_models: |-
-    ESRGAN
-    RealESRGAN
-    SwinIR
-hypernetworks: Hypernetwork
-ipadapter: |-
-    IpAdapter
-    IpAdapters15
-    IpAdaptersXl
-prompt_expansion: PromptExpansion
-ultralytics: Ultralytics
-ultralytics_bbox: Ultralytics/bbox
-ultralytics_segm: Ultralytics/segm
-sams: Sams
-diffusion_models: DiffusionModels
-</code></pre></li>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-extra_model_paths.yaml" data-lang="extra_model_paths.yaml"><span style="display:flex;"><span><span style="color:#f92672">stability_matrix</span>:
+</span></span><span style="display:flex;"><span><span style="color:#f92672">base_path</span>: <span style="color:#ae81ff">D:\SM\Data\Models\</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">checkpoints</span>: <span style="color:#ae81ff">StableDiffusion</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">diffusers</span>: <span style="color:#ae81ff">Diffusers</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">loras</span>: |-<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Lora
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    LyCORIS</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">clip</span>: <span style="color:#ae81ff">TextEncoders</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">clip_vision</span>: <span style="color:#ae81ff">ClipVision</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">embeddings</span>: <span style="color:#ae81ff">Embeddings</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">vae</span>: <span style="color:#ae81ff">VAE</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">vae_approx</span>: <span style="color:#ae81ff">ApproxVAE</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">controlnet</span>: |-<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    ControlNet
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    T2IAdapter</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">gligen</span>: <span style="color:#ae81ff">GLIGEN</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">upscale_models</span>: |-<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    ESRGAN
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    RealESRGAN
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    SwinIR</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hypernetworks</span>: <span style="color:#ae81ff">Hypernetwork</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ipadapter</span>: |-<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    IpAdapter
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    IpAdapters15
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    IpAdaptersXl</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">prompt_expansion</span>: <span style="color:#ae81ff">PromptExpansion</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ultralytics</span>: <span style="color:#ae81ff">Ultralytics</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ultralytics_bbox</span>: <span style="color:#ae81ff">Ultralytics/bbox</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ultralytics_segm</span>: <span style="color:#ae81ff">Ultralytics/segm</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">sams</span>: <span style="color:#ae81ff">Sams</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">diffusion_models</span>: <span style="color:#ae81ff">DiffusionModels</span>
+</span></span></code></pre></div></li>
 </ol>
 <h3 id="python-31210-windows-embeddable-package-64-bit">Python 3.12.10 Windows embeddable package (64-bit)</h3>
 <p>AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない何かしらの理由があるはずなので、Pythonの実行環境を保護する必要があります。したがってエンベデッド版をComfyUIのフォルダに設置します。</p>
@@ -366,7 +366,7 @@ diffusion_models: DiffusionModels
 <li>
 <p><code>D:\ComfyUI\python_embeded\python312._pth</code> をテキストエディタで開き以下のように編集します。</p>
 <h4 id="python312_pth">python312._pth</h4>
-<pre tabindex="0"><code>python312.zip
+<pre tabindex="0"><code class="language-python312._pth" data-lang="python312._pth">python312.zip
 .
 # 下記を追記（Lib\site-packagesを認識させるため）
 Lib\site-packages
@@ -377,50 +377,50 @@ import site
 <h3 id="起動用バッチファイル">起動用バッチファイル</h3>
 <p>起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。</p>
 <h4 id="startbat">start.bat</h4>
-<pre tabindex="0"><code>@echo off
-setlocal
-:: システムのPythonやライブラリを無視させる
-set PYTHONNOUSERSITE=1
-set PYTHONPATH=
-:: このアプリ専用のPythonとROCmのパスを最優先にする
-set PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
-python main.py
-</code></pre><p>実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。</p>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-start.bat" data-lang="start.bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">setlocal</span>
+</span></span><span style="display:flex;"><span>:<span style="color:#75715e">: システムのPythonやライブラリを無視させる</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PYTHONNOUSERSITE=1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PYTHONPATH=
+</span></span><span style="display:flex;"><span>:<span style="color:#75715e">: このアプリ専用のPythonとROCmのパスを最優先にする</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
+</span></span><span style="display:flex;"><span>python main.py
+</span></span></code></pre></div><p>実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。</p>
 <h4 id="comfyui_datebat">ComfyUI_Date.bat</h4>
-<pre tabindex="0"><code>@echo off
-setlocal
-
-rem PowerShellを使って確実に yyyyMMdd を取得（ロケールに左右されません）
-for /f &#34;usebackq&#34; %%i in (`powershell -NoProfile -Command &#34;Get-Date -Format &#39;yyyyMMdd&#39;&#34;`) do set yyyymmdd=%%i
- 
-rem Get the Output path
-set parentPath=F:\output
-    
-rem Create the folder with the name yyyymmdd
-set outpath=%parentPath%\%yyyymmdd%
-    
-:: システムのPythonやライブラリを無視させる
-set PYTHONNOUSERSITE=1
-set PYTHONPATH=
-:: このアプリ専用のPythonとROCmのパスを最優先にする
-set PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
-    
-rem --- ROCm / PyTorch 最適化設定 ---
-SET PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.6
-SET PYTORCH_HIP_ALLOC_CONF=expandable_segments:True
-SET ROCM_ENABLE_PREFETCH=1
-    
-rem フォルダが存在しない場合のみ作成
-if not exist &#34;%outpath%&#34; mkdir &#34;%outpath%&#34;
-    
-echo Target path: %outpath%
-     
-D:
-cd D:\ComfyUI
-    
-python main.py --output-directory %outpath% --preview-method none --reserve-vram 0.0 --cache-lru 8 --use-pytorch-cross-attention
-endlocal
-</code></pre><h2 id="4確認">4.確認</h2>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ComfyUI_Date.bat" data-lang="ComfyUI_Date.bat"><span style="display:flex;"><span>@<span style="color:#66d9ef">echo</span> off
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">setlocal</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">rem PowerShellを使って確実に yyyyMMdd を取得（ロケールに左右されません）</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#66d9ef">/f</span> <span style="color:#e6db74">&#34;usebackq&#34;</span> <span style="color:#ae81ff">%%</span>i <span style="color:#66d9ef">in</span> (<span style="color:#e6db74">`powershell -NoProfile -Command &#34;Get-Date -Format &#39;yyyyMMdd&#39;&#34;`</span>) <span style="color:#66d9ef">do</span> <span style="color:#66d9ef">set</span> yyyymmdd=<span style="color:#ae81ff">%%</span>i
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span><span style="color:#75715e">rem Get the Output path</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> parentPath=F:\output
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#75715e">rem Create the folder with the name yyyymmdd</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> outpath=%parentPath%\%yyyymmdd%
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>:<span style="color:#75715e">: システムのPythonやライブラリを無視させる</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PYTHONNOUSERSITE=1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PYTHONPATH=
+</span></span><span style="display:flex;"><span>:<span style="color:#75715e">: このアプリ専用のPythonとROCmのパスを最優先にする</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">set</span> PATH=%~dp0python_embeded;%~dp0python_embeded\Scripts;%PATH%
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#75715e">rem --- ROCm / PyTorch 最適化設定 ---</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">SET</span> PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.6
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">SET</span> PYTORCH_HIP_ALLOC_CONF=expandable_segments:True
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">SET</span> ROCM_ENABLE_PREFETCH=1
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#75715e">rem フォルダが存在しない場合のみ作成</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#66d9ef">not</span> <span style="color:#66d9ef">exist</span> <span style="color:#e6db74">&#34;</span>%outpath%<span style="color:#e6db74">&#34;</span> <span style="color:#66d9ef">mkdir</span> <span style="color:#e6db74">&#34;</span>%outpath%<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">echo</span> Target path: %outpath%
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>D:
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">cd</span> D:\ComfyUI
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>python main.py --output-directory %outpath% --preview-method none --reserve-vram 0.0 --cache-lru 8 --use-pytorch-cross-attention
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">endlocal</span>
+</span></span></code></pre></div><h2 id="4確認">4.確認</h2>
 <ol>
 <li>Stability Matrixで使いたい学習済みモデルをダウンロードしてください。</li>
 <li>ComfyUIを起動して、先ほどダウンロードした学習済みモデルが表示されれば成功です。</li>
@@ -1967,7 +1967,7 @@ endlocal
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1976,7 +1976,7 @@ endlocal
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
