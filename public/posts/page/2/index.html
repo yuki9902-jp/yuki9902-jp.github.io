@@ -114,6 +114,36 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
+			解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h3 id="１解決方法">１．解決方法</h3>
+<p>（１）BIOS（UEFI）の設定をすべて出荷時デフォルトに戻す。</p>
+<p>（２）低電力設定をやめる。</p>
+<p>　・Global C StateをDisableにする。</p>
+<p>（３）電圧設定をデフォルトにする。</p>
+<p>（４）オーバクロックをやめる。</p>
+<p>　・PBO（Precision Boost Overdrive）をAutoまたはDisableにする。</p>
+<p>（５）Windowsの電源プランを「高パフォーマンス」に設定する。</p>
+<h3 id="２エラー発生の原因">２．エラー発生の原因</h3>
+<p>（１）CPUが省電力状態から復帰する際に過渡応答で過剰に電圧ドロップが発生しコアおよびキャッシュにアクセスするタイミングでWindowsがエラーを検出して、システムダウンが発生している。</p>
+<p>（２）オーバークロック特にPBO2でマイナスオフセットをしている場合、省電力状態に移行する場合または省電力状態から復帰する際に必要な電圧が得られずにエラーが発生する。</p>
+<h3 id="３認識の修正">３．認識の修正</h3>
+<p>（１）PBO2は<strong>メーカー保証外のオーバークロック</strong>であることを自覚する。</p>
+<p>（２）AGESA（BIOS）の最適化により、現在では、複雑化したCPUの電圧制御によりユーザーがコントロールできる余地がほとんど無くなっている。</p>
+<p>（３）オーバークロックは紳士の嗜みであり、誰もが真似して良いものでは無い。</p>
+<h3 id="４例外">４．例外</h3>
+<p>（１）極まれにCPUの個体差でどうしても解決できない場合がある。エラーが起きているコアにPBO2のカーブオプティマイザーでプラスオフセットで解決する場合もある。<br>
+（２）長期に低電圧状態で運用し続けた場合、チップの劣化が深刻に進み、復帰電圧に到達できなくなる場合がある。その場合は、焼損リスクを避けるためにも新品への交換を勧める。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2026-02-19_agesa-comboam5-pi-1.3.0.0a/" rel="bookmark">
 			AGESA ComboAM5 PI 1.3.0.0a.
 			</a>
@@ -389,45 +419,6 @@
 <p>2026年1月23日に衆議院は解散されました。<strong>2月8日の総選挙</strong>は、単なる政権選びではありません。</p>
 <p>「平和」という言葉に隠された国防の空白を許すのか、それとも「独立自尊の日本」を守り抜くのか。この新党が日本の主権を他国に委ねる窓口になるのかどうか、今こそ私たちは冷静な目で見極める必要があります。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2026-01-25_%E7%B7%8A%E6%80%A5%E6%8F%90%E8%A8%802026%E5%B9%B42%E6%9C%888%E6%97%A5%E6%97%A5%E6%9C%AC%E3%81%AEos%E3%82%92%E5%AE%88%E3%82%8A%E6%8A%9C%E3%81%8F%E7%9F%AD%E6%9C%9F%E6%B1%BA%E6%88%A6%E3%81%8C%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F/" rel="bookmark">
-			【緊急提言】2026年2月8日、日本のOSを守り抜く「短期決戦」が始まった
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<h2 id="緊急提言2026年2月8日日本のosを守り抜く短期決戦が始まった">【緊急提言】2026年2月8日、日本のOSを守り抜く「短期決戦」が始まった</h2>
-<p>いま、日本は「平和ボケ」が許されない最終段階にあります。 2026年1月27日公示、2月8日投開票。この衆院選は、単なる政権選択ではありません。日本が自立した国家として再起動するか、それとも「静かなる侵略」によって内部から崩壊（完遂）するかの最終審判です。</p>
-<p>これまで17年間にわたり積み上げてきた解析ログと、AI参謀との対話から見えてきた「真実」をここに公開します。</p>
-<h3 id="1-中道改革連合という名のトロイの木馬">1. 中道改革連合という名の「トロイの木馬」</h3>
-<p>いま、メディアが盛んに持ち上げている「中道改革連合」。その正体を見抜かなければなりません。 彼らが掲げる「食料品消費税ゼロ」という甘い公約は、生活に苦しむ高齢層を眠らせるための「麻酔パッチ」です。しかし、そのバックエンドで動いているのは、中国共産党（CCP）の「2050年日本支配戦略」を完遂させるための実行プログラムです。</p>
-<p>北海道の土地買収、水源確保、そして国防の無効化……。彼らが政権を取れば、日本は内側からリソースを枯渇させられ、二度と立ち上がれない「失われた30年」の再来を招くことになります。</p>
-<h3 id="2-高市政権によるハードリセットの勝ち筋">2. 高市政権による「ハード・リセット」の勝ち筋</h3>
-<p>これに対し、高市総理が目指すのは、日本のOSを根本から修復する「ハード・リセット」です。</p>
-<ul>
-<li><strong>中露離反の戦略:</strong> トランプ政権と強力に同期し、ロシアを中国から引き剥がす。中国を孤立させ、経済的に「逆ゆでガエル」にする。</li>
-<li><strong>物理的防衛:</strong> 安倍元総理が命懸けで守ろうとした日本の主権。高市総理はその遺志を継ぎ、スパイ防止法の制定や土地規制の強化という「鉄壁のパッチ」を当てようとしています。</li>
-</ul>
-<h3 id="3-最大の懸念高市総理への物理的排除">3. 最大の懸念：高市総理への「物理的排除」</h3>
-<p>もっとも警戒すべきは、高市総理に対する物理的な攻撃、すなわち暗殺の脅威です。 安倍氏の際に見られた「消えた弾丸」や「現場検証の遅延」といった不可解な事象。これは国家中枢にまで汚染（外圧）が浸透していた可能性を示唆しています。</p>
-<p>高市総理という「マスターキー」を破壊し、日本OSを修復不能にすること。これが敵の最終手段です。我々は、彼女のX（旧Twitter）を第一次ソースとして直接情報を吟味し、メディアのネガティブキャンペーン（情報汚染）に惑わされてはなりません。</p>
-<h3 id="4-若年層へこの真冬の選挙はチャンスだ">4. 若年層へ：この「真冬の選挙」はチャンスだ</h3>
-<p>今回の選挙は2月8日、真冬に行われます。雪や寒さは高齢層の足取りを鈍らせますが、それは逆に**「若者の1票の価値」が数倍に跳ね上がる**ことを意味します。</p>
-<p>プロパガンダはいりません。ただ「自分事」として考えてください。 今の給料の低さ、将来の不安、それは政治の「設定」があなたを無視しているからです。自分の未来を誰かに「完遂」される前に、その指先で未来を書き換えてください。</p>
-<hr>
-<h3 id="結びに真実を見抜く目を">結びに：真実を見抜く目を</h3>
-<p>CCPによるサイバー攻撃や認知戦は、いまこの瞬間も激化しています。AIである私の参謀も、情報の「整腸（浄化）」が日本の未来を左右すると断言しています。</p>
-<ul>
-<li><strong>一次ソースを当たること（高市総理のXなど）</strong></li>
-<li><strong>「誰が得をするニュースか」を裏読みすること</strong></li>
-<li><strong>「平和」という言葉の裏にある「無防備」を警戒すること</strong></li>
-</ul>
-<p>2026年2月8日。 日本が再び、強く、豊かな自立した国として再起動するために。 まずは投票行動をしましょう。</p>
-	</div>
 </article>
 </main>
 
@@ -450,6 +441,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
@@ -459,7 +451,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
 		</ul>
 	</div>
 </div>
@@ -1834,7 +1825,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (7)
+                                03月 (8)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1926,10 +1917,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/robocopy/" title="ROBOCOPY">ROBOCOPY</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

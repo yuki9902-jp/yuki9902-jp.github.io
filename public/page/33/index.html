@@ -113,6 +113,26 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-01-16_%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A44%E3%81%A7ldap%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E9%80%94%E4%B8%AD/" rel="bookmark">
+			ラズパイ4でLDAPサーバー（途中）
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Raspberry Pi 4bにUbuntu Desktop 20.1 64bitをインストールして、LDAPサーバーをインストールして、設定して、phpLDAPadminで操作できるようにしました。</p>
+<p>Ubuntu Server 20.1 64bitで途中まで構成してたんですが、CUIだけでは調べ物をしながらの作業効率が非常に悪いので、Ubuntu Desktopをインストールして構築していきました。</p>
+<p>設定作業がとてもしんどくて、先ほどようやくphpLDAPadmin.phpが動くようになりました。</p>
+<p>ディレクトリサービスとしては、Windows ServerでのActive Directoryの構築経験は何度もあるんですが、LinuxでLDAPは初めてな上に、Raspberry Pi 4bというarmのコンピューターで動作は鈍いし、資料は少ないし難しいです。</p>
+<p>Googleの検索エンジンではまったく情報が見つからないので、他の検索エンジンを使って探しました。</p>
+<p>LDAPサーバーを構築したのは良いけど、使い方が全然分からない(￣∇￣)</p>
+<p>Firewallを設定してもlocalhost以外ではhttpが通らないのでRaspberry Pi 4b上でWebブラウザを起動しないと設定できないのでphpLDAPadminのGUIはあんまり役に立たなさそう･･･。</p>
+<p>数十台のPCを管理するならまだしも2，3台ならローカルアカウントで管理した方が楽だな･･･。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-01-15_%E5%9C%B0%E9%9C%87/" rel="bookmark">
 			地震
 			</a>
@@ -288,30 +308,6 @@
 <p>キャラクターと武器のレベルがまだ80なので、これらを90にあげたらキャップを解放します。</p>
 <p>無課金でいったら3ヶ月以上かかるかも･･･。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-01-04_%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%81%AB%E8%80%90%E3%81%88%E3%81%A6/" rel="bookmark">
-			ストレスに耐えて
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>極寒マップで精神がガリガリ削られる原神のドラゴンスパインで、しばらく攻略を停めてました。</p>
-<p>精神を削りながらも、今開催されている「白亜と黒竜」のイベントを第四幕のミッションを一つ残すのみまで進めました。</p>
-<p>第四幕は「急凍樹」の強化版で中途半端なマルチプレイ対応です。</p>
-<p>食料バフをかけるとソロでもいけますが、ソロでもメニュー画面を開いても進行が停止しないので、回復や食料バフ掛け中にダメージを受けます。</p>
-<p>1月5日の5時には「白亜と黒竜」イベントが終了するので、あと4回ほど急凍樹を倒せば良いので、全ミッションクリア出来そうです。</p>
-<p>ドラゴンスパインでは、★4の片手剣、★4の槍とそのレシピ、★4の両手剣のレシピが手に入ります。</p>
-<p>★4の片手剣はシナリオを進めれば、必ず手に入ります。</p>
-<p>★4の槍はドラゴンスパインの麓のキャンプ地でクエストを受注して、鍛造に必要なアイテムを集めれば入手できます。</p>
-<p>★4の両手剣のレシピは、八つの石碑を発見して三つの箱を手に入れれば、入手できますが、必然的に「山に隠されし物」のクエストを受注して、ドラゴンスパインのワープポイントを全解放しなければいけません。</p>
-<p>「山に隠されし物」はドラゴンスパインが追加されて3日目にはクリアしてたような気がします。</p>
-<p>「緋紅玉髄」を集めてエリアのランクを上げると攻略に欠かせない極寒ゲージの増加を抑える料理のレシピが手に入るので、早めに「緋紅玉髄」を探すのが良いと思います。</p>
-<p>明日、神経の調子が良ければイベントを完遂できるかな。</p>
-	</div>
 </article>
 </main>
 
@@ -333,6 +329,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-bios_2102/">AGESA ComboAM5 PI 1.3.0.0a.</a></li>
@@ -342,7 +339,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-22_%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/">解決方法：致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</a></li>
 		</ul>
 	</div>
 </div>
@@ -1717,7 +1713,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (7)
+                                03月 (8)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1809,10 +1805,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/radeon/" title="RADEON">RADEON</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/refs/" title="ReFS">ReFS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/robocopy/" title="ROBOCOPY">ROBOCOPY</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
