@@ -113,6 +113,610 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2009-07-06-code-view-test/" rel="bookmark">
+			Excel VBA セル内の文字列のチェックと変換
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。
+これならいちいちHTMLタグやエスケープシーケンスを入れずに済むのでサンプルを公開しやすくなるかな。</p>
+<p>このコードは実際に動きます。</p>
+<p>Excelのマクロでコード編集を表示して貼り付けてください。
+後はシートにボタンを貼り付けて、先頭の２つのプロシージャーを呼び出せばＯＫです。
+中に&quot;N2S&quot;という関数がありますが、Nullチェックをしています。
+何か作って置き換えてください。</p>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vbnet" data-lang="vbnet"><span style="display:flex;"><span><span style="color:#66d9ef">Option</span> Explicit
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;定数
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CHECKCELL_WIDEALPHABET <span style="color:#f92672">=</span> 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CHECKCELL_WIDENUMBERS <span style="color:#f92672">=</span> 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CHECKCELL_WIDEMARKS <span style="color:#f92672">=</span> 3
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CHECKCELL_WIDECOMMA <span style="color:#f92672">=</span> 4
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CHECKCELL_WITHOUTINCLUDEDCHAR <span style="color:#f92672">=</span> 5
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CONVERT_WIDEALPHABET <span style="color:#f92672">=</span> 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CONVERT_WIDENUMBERS <span style="color:#f92672">=</span> 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CONVERT_WIDEMARKS <span style="color:#f92672">=</span> 3
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COMMAND_CONVERT_WIDECOMMA <span style="color:#f92672">=</span> 4
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;色
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COLOR_PINK <span style="color:#f92672">=</span> 16711935
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Const</span> COLOR_BLUE <span style="color:#f92672">=</span> 16776960
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;セルのフォント情報の保存
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;メンバーは何が入ってくるかわからないのでとりあえず「Variant」
+</span></span></span><span style="display:flex;"><span>Type tyFontInfo
+</span></span><span style="display:flex;"><span>    vBold <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vColor <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vColorIndex <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vFontStyle <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vItalic <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vName <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vShadow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vSize <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vStrikethrough <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vSubscript <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vSuperscript <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span>    vUnderline <span style="color:#f92672">As</span> <span style="color:#66d9ef">Variant</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> Type
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;イベント共通処理
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;チェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">gExecCellCheck</span>(<span style="color:#66d9ef">ByVal</span> lCommand <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lRow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCol <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> objWs <span style="color:#f92672">As</span> Excel.Worksheet
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Set</span> objWs <span style="color:#f92672">=</span> Application.ThisWorkbook.ActiveSheet
+</span></span><span style="display:flex;"><span>    lRow <span style="color:#f92672">=</span> Application.ActiveCell.Row
+</span></span><span style="display:flex;"><span>    lCol <span style="color:#f92672">=</span> Application.ActiveCell.Column
+</span></span><span style="display:flex;"><span>    Application.ScreenUpdating <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lCommand
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WIDEALPHABET, _
+</span></span><span style="display:flex;"><span>             COMMAND_CHECKCELL_WIDENUMBERS, _
+</span></span><span style="display:flex;"><span>             COMMAND_CHECKCELL_WIDEMARKS, _
+</span></span><span style="display:flex;"><span>             COMMAND_CHECKCELL_WIDECOMMA
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">If</span> CheckCell_WideThin(objWs, lRow, lCol, lCommand) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&#39;チェック対象が見つからなかった
+</span></span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WITHOUTINCLUDEDCHAR
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">If</span> CheckCell_WithOutIncludedChar(objWs, lRow, lCol) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    Application.ScreenUpdating <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    MsgBox <span style="color:#e6db74">&#34;チェック終了&#34;</span>, vbOKOnly <span style="color:#f92672">+</span> vbInformation
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;gExecCellCheck&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;イベント共通処理
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;変換
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Public</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">gExecCellConvert</span>(<span style="color:#66d9ef">ByVal</span> lCommand <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lRow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCol <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> objWs <span style="color:#f92672">As</span> Excel.Worksheet
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> vbYes <span style="color:#f92672">=</span> MsgBox(<span style="color:#e6db74">&#34;変換処理をすると元に戻すことができません。&#34;</span> <span style="color:#f92672">&amp;</span> vbCrLf <span style="color:#f92672">&amp;</span> _
+</span></span><span style="display:flex;"><span>                      <span style="color:#e6db74">&#34;事前にバックアップを作ることを推奨します。&#34;</span> <span style="color:#f92672">&amp;</span> vbCrLf <span style="color:#f92672">&amp;</span> vbCrLf <span style="color:#f92672">&amp;</span> _
+</span></span><span style="display:flex;"><span>                      <span style="color:#e6db74">&#34;変換処理を行いますか？&#34;</span>, vbYesNo <span style="color:#f92672">+</span> vbQuestion) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">GoTo</span> ExitProc
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    Application.ScreenUpdating <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Set</span> objWs <span style="color:#f92672">=</span> Application.ThisWorkbook.ActiveSheet
+</span></span><span style="display:flex;"><span>    lRow <span style="color:#f92672">=</span> Application.ActiveCell.Row
+</span></span><span style="display:flex;"><span>    lCol <span style="color:#f92672">=</span> Application.ActiveCell.Column
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> Convert_Letter(objWs, lRow, lCol, lCommand) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>        MsgBox <span style="color:#e6db74">&#34;変換終了&#34;</span>, vbOKOnly <span style="color:#f92672">+</span> vbInformation
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&#39;変換の失敗
+</span></span></span><span style="display:flex;"><span>        MsgBox <span style="color:#e6db74">&#34;変換できませんでした。&#34;</span>, vbOKOnly <span style="color:#f92672">+</span> vbExclamation
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    Application.ScreenUpdating <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;gExecCellConvert&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;選択中のセルの書式を保存した後、変更
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">CheckCell_WithOutIncludedChar</span>(<span style="color:#66d9ef">ByVal</span> objWs <span style="color:#f92672">As</span> Excel.Worksheet, _
+</span></span><span style="display:flex;"><span>                                               <span style="color:#66d9ef">ByVal</span> lRow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                               <span style="color:#66d9ef">ByVal</span> lCol <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    CheckCell_WithOutIncludedChar <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> strCellValue <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> arrErrStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrErrStringIdx(0)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    strCellValue <span style="color:#f92672">=</span> objWs.Cells(lRow, lCol).value
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> CheckLetter_WithOut_OSIncluded(strCellValue, arrErrStringIdx) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrErrStringIdx)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">If</span> objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_PINK <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ElseIf</span> objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_PINK
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>            CheckCell_WithOutIncludedChar <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;CheckCell_WithOutIncludedChar&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;機種依存文字以外のチェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">CheckCell_WideThin</span>(<span style="color:#66d9ef">ByVal</span> objWs <span style="color:#f92672">As</span> Excel.Worksheet, _
+</span></span><span style="display:flex;"><span>                                    <span style="color:#66d9ef">ByVal</span> lRow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                    <span style="color:#66d9ef">ByVal</span> lCol <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                    <span style="color:#66d9ef">ByVal</span> lMode <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    CheckCell_WideThin <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> strCellValue <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> flgCheckOK <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    strCellValue <span style="color:#f92672">=</span> objWs.Cells(lRow, lCol).value
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lMode
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WIDEALPHABET
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Alphabet(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WIDENUMBERS
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Numeric(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WIDEMARKS
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Mark(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CHECKCELL_WIDECOMMA
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Comma(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> flgCheckOK <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">GoTo</span> ExitProc
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;全角チェック
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrWideStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_PINK <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">ElseIf</span> objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_PINK
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;半角チェック
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_BLUE <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">ElseIf</span> objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color <span style="color:#f92672">=</span> COLOR_BLUE
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    CheckCell_WideThin <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;CheckCell_WideThin&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;機種依存文字の判別
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;機種依存文字のインデックスを返す。
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">CheckLetter_WithOut_OSIncluded</span>(<span style="color:#66d9ef">ByVal</span> strCheck <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>, _
+</span></span><span style="display:flex;"><span>                                                <span style="color:#66d9ef">ByRef</span> arrErrStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    CheckLetter_WithOut_OSIncluded <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCheckLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCharacter <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCheckLength <span style="color:#f92672">=</span> Len(strCheck)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0                        <span style="color:#75715e">&#39;カウンターをリセット
+</span></span></span><span style="display:flex;"><span>    lIdx <span style="color:#f92672">=</span> 0                        <span style="color:#75715e">&#39;配列のインデックスをリセット
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrErrStringIdx(lIdx)     <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;   Excelの&#34;Asc&#34;はSignedで正負を含む10進数を返します。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;   1:NEC選定特殊文字   -30823 ～ -30912
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;   2:IBM選定特殊文字   -1472 ～ -949
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 1 <span style="color:#66d9ef">To</span> lCheckLength
+</span></span><span style="display:flex;"><span>        lCharacter <span style="color:#f92672">=</span> Asc(Mid(strCheck, lCnt, 1))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> (lCharacter <span style="color:#f92672">&lt;=</span> <span style="color:#f92672">-</span>30823 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span>30912) <span style="color:#f92672">Or</span> (lCharacter <span style="color:#f92672">&lt;=</span> <span style="color:#f92672">-</span>949 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span>1472) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ReDim</span> Preserve arrErrStringIdx(lIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>            arrErrStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に機種依存文字のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>            lIdx <span style="color:#f92672">=</span> lIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> lIdx <span style="color:#f92672">&gt;</span> 0 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>        CheckLetter_WithOut_OSIncluded <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        CheckLetter_WithOut_OSIncluded <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;CheckLetter_WithOut_OSIncluded&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;アルファベットチェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">Check_WideToThin_Alphabet</span>(<span style="color:#66d9ef">ByVal</span> strCheck <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>, _
+</span></span><span style="display:flex;"><span>                                           <span style="color:#66d9ef">ByRef</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                           <span style="color:#66d9ef">ByRef</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    Check_WideToThin_Alphabet <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCheckLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCharacter <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lWideIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lThinIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCheckLength <span style="color:#f92672">=</span> Len(strCheck)
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lWideIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lThinIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrWideStringIdx(lWideIdx)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrThinStringIdx(lThinIdx)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;A:65～Z:90/a:97～z:122
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;Ａ:-32160～Ｚ:-32135/ａ:-32127～ｚ:-32102
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 1 <span style="color:#66d9ef">To</span> lCheckLength
+</span></span><span style="display:flex;"><span>        lCharacter <span style="color:#f92672">=</span> Asc(Mid(strCheck, lCnt, 1))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> (lCharacter <span style="color:#f92672">&lt;=</span> 90 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> 65) <span style="color:#f92672">Or</span> (lCharacter <span style="color:#f92672">&lt;=</span> 122 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> 97) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ReDim</span> Preserve arrThinStringIdx(lThinIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>            arrThinStringIdx(lThinIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に半角英字のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>            lThinIdx <span style="color:#f92672">=</span> lThinIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>            Check_WideToThin_Alphabet <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> (lCharacter <span style="color:#f92672">&lt;=</span> <span style="color:#f92672">-</span>32135 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span>32160) <span style="color:#f92672">Or</span> (lCharacter <span style="color:#f92672">&lt;=</span> <span style="color:#f92672">-</span>32102 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span>32127) <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ReDim</span> Preserve arrWideStringIdx(lWideIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>            arrWideStringIdx(lWideIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に全角英字のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>            lWideIdx <span style="color:#f92672">=</span> lWideIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>            Check_WideToThin_Alphabet <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;Check_WideToThin_Alphabet&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;数字チェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">Check_WideToThin_Numeric</span>(<span style="color:#66d9ef">ByVal</span> strCheck <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>, _
+</span></span><span style="display:flex;"><span>                                          <span style="color:#66d9ef">ByRef</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                          <span style="color:#66d9ef">ByRef</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    Check_WideToThin_Numeric <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCheckLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCharacter <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lWideIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lThinIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCheckLength <span style="color:#f92672">=</span> Len(strCheck)
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lWideIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lThinIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrWideStringIdx(lWideIdx)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrThinStringIdx(lThinIdx)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;0:48～9:57
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;０:-32177～９:-32168
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 1 <span style="color:#66d9ef">To</span> lCheckLength
+</span></span><span style="display:flex;"><span>        lCharacter <span style="color:#f92672">=</span> Asc(Mid(strCheck, lCnt, 1))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> lCharacter <span style="color:#f92672">&lt;=</span> 57 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> 48 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ReDim</span> Preserve arrThinStringIdx(lThinIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>            arrThinStringIdx(lThinIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に半角数字のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>            lThinIdx <span style="color:#f92672">=</span> lThinIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>            Check_WideToThin_Numeric <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">If</span> lCharacter <span style="color:#f92672">&lt;=</span> <span style="color:#f92672">-</span>32168 <span style="color:#f92672">And</span> lCharacter <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span>32177 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">ReDim</span> Preserve arrWideStringIdx(lWideIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>            arrWideStringIdx(lWideIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に全角数字のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>            lWideIdx <span style="color:#f92672">=</span> lWideIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>            Check_WideToThin_Numeric <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;Check_WideToThin_Numeric&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;記号チェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">Check_WideToThin_Mark</span>(<span style="color:#66d9ef">ByVal</span> strCheck <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>, _
+</span></span><span style="display:flex;"><span>                                       <span style="color:#66d9ef">ByRef</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                       <span style="color:#66d9ef">ByRef</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    Check_WideToThin_Mark <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCheckLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCharacter <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lWideIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lThinIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCheckLength <span style="color:#f92672">=</span> Len(strCheck)
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lWideIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lThinIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrWideStringIdx(lWideIdx)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrThinStringIdx(lThinIdx)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;+,-,*,=
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;＋,－,＊,＝
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 1 <span style="color:#66d9ef">To</span> lCheckLength
+</span></span><span style="display:flex;"><span>        lCharacter <span style="color:#f92672">=</span> Asc(Mid(strCheck, lCnt, 1))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lCharacter
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> 42, 43, 45, 61
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">ReDim</span> Preserve arrThinStringIdx(lThinIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>                arrThinStringIdx(lThinIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に半角記号のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>                lThinIdx <span style="color:#f92672">=</span> lThinIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>                Check_WideToThin_Mark <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> <span style="color:#f92672">-</span>32383, <span style="color:#f92672">-</span>32388, <span style="color:#f92672">-</span>32362, <span style="color:#f92672">-</span>32389
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">ReDim</span> Preserve arrWideStringIdx(lWideIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>                arrWideStringIdx(lWideIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に全角記号のインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>                lWideIdx <span style="color:#f92672">=</span> lWideIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>                Check_WideToThin_Mark <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;Check_WideToThin_Mark&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;カンマチェック
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">Check_WideToThin_Comma</span>(<span style="color:#66d9ef">ByVal</span> strCheck <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>, _
+</span></span><span style="display:flex;"><span>                                        <span style="color:#66d9ef">ByRef</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                        <span style="color:#66d9ef">ByRef</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    Check_WideToThin_Comma <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCheckLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCharacter <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lWideIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lThinIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCheckLength <span style="color:#f92672">=</span> Len(strCheck)
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lWideIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lThinIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrWideStringIdx(lWideIdx)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrThinStringIdx(lThinIdx)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;,
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;、，
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 1 <span style="color:#66d9ef">To</span> lCheckLength
+</span></span><span style="display:flex;"><span>        lCharacter <span style="color:#f92672">=</span> Asc(Mid(strCheck, lCnt, 1))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lCharacter
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> 44
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">ReDim</span> Preserve arrThinStringIdx(lThinIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>                arrThinStringIdx(lThinIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に半角カンマのインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>                lThinIdx <span style="color:#f92672">=</span> lThinIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>                Check_WideToThin_Comma <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> <span style="color:#f92672">-</span>32445, <span style="color:#f92672">-</span>32447
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">ReDim</span> Preserve arrWideStringIdx(lWideIdx)    <span style="color:#75715e">&#39;配列をリセット
+</span></span></span><span style="display:flex;"><span>                arrWideStringIdx(lWideIdx) <span style="color:#f92672">=</span> lCnt            <span style="color:#75715e">&#39;配列に全角カンマのインデックスをセット[～文字目]
+</span></span></span><span style="display:flex;"><span>                lWideIdx <span style="color:#f92672">=</span> lWideIdx <span style="color:#f92672">+</span> 1
+</span></span><span style="display:flex;"><span>                Check_WideToThin_Comma <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;Check_WideToThin_Comma&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&#39;文字列変換
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">Convert_Letter</span>(<span style="color:#66d9ef">ByVal</span> objWs <span style="color:#f92672">As</span> Excel.Worksheet, _
+</span></span><span style="display:flex;"><span>                                <span style="color:#66d9ef">ByVal</span> lRow <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                <span style="color:#66d9ef">ByVal</span> lCol <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, _
+</span></span><span style="display:flex;"><span>                                <span style="color:#66d9ef">ByVal</span> lMode <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>                                
+</span></span><span style="display:flex;"><span>    Convert_Letter <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">On</span> <span style="color:#66d9ef">Error</span> <span style="color:#66d9ef">GoTo</span> ErrProc
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> strCellValue <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCnt <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lIdx <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> arrWideStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> arrThinStringIdx() <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> strBuffer <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> strConvBuffer <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> lCellLength <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> flgCheckOK <span style="color:#f92672">As</span> <span style="color:#66d9ef">Boolean</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    lCnt <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    lIdx <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>    strConvBuffer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    flgCheckOK <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> arrErrStringIdx(0)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Dim</span> objFont() <span style="color:#f92672">As</span> tyFontInfo
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    strCellValue <span style="color:#f92672">=</span> objWs.Cells(lRow, lCol).value
+</span></span><span style="display:flex;"><span>    lCellLength <span style="color:#f92672">=</span> Len(strCellValue)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">ReDim</span> objFont(lCellLength <span style="color:#f92672">-</span> 1)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lMode
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDEALPHABET
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Alphabet(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDENUMBERS
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Numeric(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDEMARKS
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Mark(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDECOMMA
+</span></span><span style="display:flex;"><span>            flgCheckOK <span style="color:#f92672">=</span> Check_WideToThin_Comma(strCellValue, arrWideStringIdx, arrThinStringIdx)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">If</span> flgCheckOK <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&#39;終了する
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">GoTo</span> ExitProc
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> lCellLength <span style="color:#f92672">-</span> 1
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">&#39;書式の保存
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">With</span> objWs.Cells(lRow, lCol).Characters(lCnt <span style="color:#f92672">+</span> 1, 1).Font
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vBold <span style="color:#f92672">=</span> .Bold
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vColor <span style="color:#f92672">=</span> .Color
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vColorIndex <span style="color:#f92672">=</span> .ColorIndex
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vFontStyle <span style="color:#f92672">=</span> .FontStyle
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vItalic <span style="color:#f92672">=</span> .Italic
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vName <span style="color:#f92672">=</span> .Name
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vShadow <span style="color:#f92672">=</span> .Shadow
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vSize <span style="color:#f92672">=</span> .Size
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vStrikethrough <span style="color:#f92672">=</span> .Strikethrough
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vSubscript <span style="color:#f92672">=</span> .Subscript
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vSuperscript <span style="color:#f92672">=</span> .Superscript
+</span></span><span style="display:flex;"><span>            objFont(lCnt).vUnderline <span style="color:#f92672">=</span> .Underline
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">With</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        strConvBuffer <span style="color:#f92672">=</span> Mid(strCellValue, lCnt <span style="color:#f92672">+</span> 1, 1)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">Select</span> <span style="color:#66d9ef">Case</span> lMode
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDEALPHABET
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&#39;アルファベットを全角から半角へ
+</span></span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">For</span> lIdx <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrWideStringIdx)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">If</span> arrWideStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt <span style="color:#f92672">+</span> 1 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                        strConvBuffer <span style="color:#f92672">=</span> StrConv(strConvBuffer, vbNarrow)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDENUMBERS
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&#39;数字を全角から半角へ
+</span></span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">For</span> lIdx <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrWideStringIdx)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">If</span> arrWideStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt <span style="color:#f92672">+</span> 1 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                        strConvBuffer <span style="color:#f92672">=</span> StrConv(strConvBuffer, vbNarrow)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDEMARKS
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&#39;記号を全角から半角へ
+</span></span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">For</span> lIdx <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrWideStringIdx)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">If</span> arrWideStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt <span style="color:#f92672">+</span> 1 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                        strConvBuffer <span style="color:#f92672">=</span> StrConv(strConvBuffer, vbNarrow)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> COMMAND_CONVERT_WIDECOMMA
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">&#39;カンマをすべて全角の「，」へ
+</span></span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">For</span> lIdx <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrWideStringIdx)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">If</span> arrWideStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt <span style="color:#f92672">+</span> 1 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                        strConvBuffer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;，&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">For</span> lIdx <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> UBound(arrThinStringIdx)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">If</span> arrThinStringIdx(lIdx) <span style="color:#f92672">=</span> lCnt <span style="color:#f92672">+</span> 1 <span style="color:#66d9ef">Then</span>
+</span></span><span style="display:flex;"><span>                        strConvBuffer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;，&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">Case</span> <span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Select</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        strBuffer <span style="color:#f92672">=</span> strBuffer <span style="color:#f92672">&amp;</span> strConvBuffer
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;文字列をセルに
+</span></span></span><span style="display:flex;"><span>    objWs.Cells(lRow, lCol).value <span style="color:#f92672">=</span> strBuffer
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&#39;書式を書き戻す
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">For</span> lCnt <span style="color:#f92672">=</span> 0 <span style="color:#66d9ef">To</span> lCellLength <span style="color:#f92672">-</span> 1
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">With</span> objWs.Cells(lRow, lCol).Characters(lCnt <span style="color:#f92672">+</span> 1, 1).Font
+</span></span><span style="display:flex;"><span>            .Bold <span style="color:#f92672">=</span> objFont(lCnt).vBold
+</span></span><span style="display:flex;"><span>            .Color <span style="color:#f92672">=</span> objFont(lCnt).vColor
+</span></span><span style="display:flex;"><span>            .ColorIndex <span style="color:#f92672">=</span> objFont(lCnt).vColorIndex
+</span></span><span style="display:flex;"><span>            .FontStyle <span style="color:#f92672">=</span> objFont(lCnt).vFontStyle
+</span></span><span style="display:flex;"><span>            .Italic <span style="color:#f92672">=</span> objFont(lCnt).vItalic
+</span></span><span style="display:flex;"><span>            .Name <span style="color:#f92672">=</span> objFont(lCnt).vName
+</span></span><span style="display:flex;"><span>            .Shadow <span style="color:#f92672">=</span> objFont(lCnt).vShadow
+</span></span><span style="display:flex;"><span>            .Size <span style="color:#f92672">=</span> objFont(lCnt).vSize
+</span></span><span style="display:flex;"><span>            .Strikethrough <span style="color:#f92672">=</span> objFont(lCnt).vStrikethrough
+</span></span><span style="display:flex;"><span>            .Subscript <span style="color:#f92672">=</span> objFont(lCnt).vSubscript
+</span></span><span style="display:flex;"><span>            .Superscript <span style="color:#f92672">=</span> objFont(lCnt).vSuperscript
+</span></span><span style="display:flex;"><span>            .Underline <span style="color:#f92672">=</span> objFont(lCnt).vUnderline
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">End</span> <span style="color:#66d9ef">With</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Next</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    Convert_Letter <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>ExitProc:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Exit</span> <span style="color:#66d9ef">Function</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ErrProc</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Call</span> ErrFunc(Err, <span style="color:#e6db74">&#34;Convert_Letter&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Resume</span> ExitProc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
+</span></span></code></pre></div>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2009-07-06-welcom-to-my-weblog-from-search-engine/" rel="bookmark">
 			Welcom to My Weblog from Search Engine.
 			</a>
@@ -320,23 +924,6 @@ PSSからのダウンロードで1.5時間。
 Webブラウザやネットラジオプレーヤーとしても使えるし、Webが使えることでWebサービスでPIMは実現できます。
 とくにRSSリーダーとして使えるので、Webシステムに入力してRSSで保存することで、いろいろな使い方が模索できるかな。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2009-07-01_%E5%84%B2%E3%81%8B%E3%82%8C%E3%81%B0%E8%87%AA%E5%88%86%E3%81%A7%E3%81%99%E3%82%8B%E3%81%97/" rel="bookmark">
-			儲かれば自分でするし
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>商品企画も手がけてるんですが、いいアイディアが浮かばない。</p>
-<p>と、いうか市場調査、分析をしないとどこに何を投入しなければならないのかが見えてこないのですけれど。</p>
-<p>商品企画としては当たり前の話。</p>
-<p>うちの会社の体質的に世の中を見通して話ができる人がいなくて、みな自分の興味を中心にアイディアを出してくるのでまったく役に立たないんですね。</p>
-<p>さて、一朝一夕で誤魔化しきれるものではないですが、何かアイディアを見つけないと。。。</p>
-	</div>
 </article>
 </main>
 
@@ -358,6 +945,7 @@ Webブラウザやネットラジオプレーヤーとしても使えるし、We
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -367,7 +955,6 @@ Webブラウザやネットラジオプレーヤーとしても使えるし、We
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1742,7 +2329,7 @@ Webブラウザやネットラジオプレーヤーとしても使えるし、We
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

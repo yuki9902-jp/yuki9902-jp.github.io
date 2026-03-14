@@ -114,6 +114,26 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-03-24_smr%E6%96%B9%E5%BC%8F%E3%81%AEhdd%E3%81%A7robocopy%E3%82%92%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%83%BC/" rel="bookmark">
+			SMR方式のHDDでROBOCOPYを使う場合のパラメーター
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Windowsの堅牢性の高いファイルコピー機能「ROBOCOPY」ですが、コピー先がSeagate社製のSMRのHDDだと、そのままでは非常に書き込みが遅くなります。</p>
+<p>5MB/s程度になります。</p>
+<p>これを回避するには、ROBOCOPYのパラメーター[/B][/Z]を使わないようにし、[/J][/NOOFFLOAD][/MT:1]を使うようにします。</p>
+<p>重要なのは、SMRのHDDに対してです。</p>
+<p>現行のWindows10のI/O制御、キャッシュ機能とSeagate社製SMR HDDの内部キャッシュ制御方式とは相性が悪いです。</p>
+<p>ROBOCOPYのパラメーターを適切に設定すれば、100MB/sから80MB/s程度で書き込めます。</p>
+<p>SMR HDDで苦労している人は見直してみてください。</p>
+<p>買うならCMR方式のHDD</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-03-23_telegram-channel/" rel="bookmark">
 			Telegram Channel
 			</a>
@@ -334,22 +354,6 @@
 <p><a href="/img/o0539051814910204815.png"><img src="/img/o0539051814910204815.png" alt=""></a></p>
 <p>PBO2では、3405からパフォーマンスが改善されているので、3602は適用するのがおすすめです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-13_%E6%95%A3%E9%AB%AA/" rel="bookmark">
-			散髪
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>今日は朝から散髪しに行ってきました。</p>
-<p>半年以上ほったらかしだったので、すっかり頭が軽くなりました。</p>
-<p>そして首筋が寒いです。</p>
-<p>散髪の後に、豚骨ラーメンと唐揚げを食べに岡山市内に行き、それからSeagateの8TBのHDDを買って帰ってきました。</p>
-	</div>
 </article>
 </main>
 
@@ -372,6 +376,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -381,7 +386,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1756,7 +1760,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

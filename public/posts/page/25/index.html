@@ -114,6 +114,22 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-06-08_%E6%9A%91%E3%81%84%E3%81%A7%E3%81%99/" rel="bookmark">
+			暑いです
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>今日は北の高気圧が強くて乾燥していますが非常に暑いです。</p>
+<p>　梅雨前線が消えてしまうほどの熱気です。</p>
+<p>　からっとしているので、こまめに水分をとって脱水症状や熱中症にならないようにしないといけません。</p>
+<p>　ふー、暑いです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-06-07_%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%A9%E3%83%BCwhea-logger-id_18%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96ryzen-5000%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/" rel="bookmark">
 			システムエラー「WHEA-Logger ID:18」の原因と対策（Ryzen 5000シリーズ）
 			</a>
@@ -300,46 +316,6 @@
 <p>　風量は、120mmファン1基のCooler Master MasterAir MA620Mの57.3CFM(Max)・2.0mmH20(Max)から140mmファン2基搭載のCorsair iCUE H115i ELITE CPAELLIXの97CFM(Max)・3.0mmH20(Max)に大幅に上昇するし、空気と水の比熱は4倍ほど違うのでいきなり落ちるほどの温度には上がらないと思います。</p>
 <p>　とにかく最低限4.7GHzでCINEBENCH R20が完走出来る状態になればいいのですが。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming Audio Driver Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_download">Realtek Audio Driver V6.0.9088.1 For Windows 10 64-bit.</a></p>
-<p>ASUS ROG STRIX X570-F Gamingに搭載されているオーディオコーデックチップ「Realtek ALC1220」のドライバーが更新されたため、インストールを行いました。</p>
-<p>今回のアップデートにより、これまで動作が不安定だったSonic Studio 3、Sonic Radar 3、およびUWP版のRealtek Audio Console Appが改善されたようです。ALC1220世代以降は、Intel/AMD共にCPU内のサウンドプロセッサーと密接に連携して動作するため、マザーボードメーカーが最適化した専用ドライバーを使用することが不可欠です。</p>
-<h4 id="ドライバー入手時の注意点">ドライバー入手時の注意点</h4>
-<p>現在、ASUSのオーディオドライバーは「Armoury Crate」経由と「サポートページ」公開分の2種類が存在します。</p>
-<ul>
-<li><strong>Armoury Crate提供版：</strong> 6.0.8899.1</li>
-<li><strong>公式サイトサポートページ提供版：</strong> 6.0.9088.1</li>
-</ul>
-<p>サポートページで公開されている最新版（6.0.9088.1）は非常に安定しています。逆に、これより古いバージョンを中途半端にインストールするとシステムが不安定になり、最悪の場合Windows 10のクリーンインストールを余儀なくされるケースが多いため、常に最新版の使用を強く推奨します。</p>
-<h4 id="インストールされるコンポーネント">インストールされるコンポーネント</h4>
-<p>本パッケージを導入することで、以下のソフトウェア群が一括でインストールされます。</p>
-<ul>
-<li>WDMドライバー / ASIOドライバー</li>
-<li>A-Volute Nh3 Audio（バーチャルミキサー、Sonic Studio 3、Sonic Radar 3 / Nahimic Service）</li>
-<li>Realtek Audio Console App</li>
-</ul>
-<h4 id="音質維持のための設定バーチャルミキサーの無効化">音質維持のための設定：バーチャルミキサーの無効化</h4>
-<p>インストール後、サウンド設定から「Sonic Studio Virtual Mixer」を<strong>無効化</strong>することをおすすめします。 これが有効になっていると、WDM（WASAPI）経由の音声も強制的にバーチャルミキサーへループバックされてしまい、音質が著しく劣化する原因となります。</p>
-<h4 id="充実したアナログデジタル出力の仕様">充実したアナログ・デジタル出力の仕様</h4>
-<p>本ボードのオーディオ回路は非常に優秀です。背面端子は金メッキ仕様となっており、電源ユニットのアースを適切に取れば、公称値通りの高いS/N比と低いノイズフロアを実現できます。ピュアオーディオシステムに接続しても十分に通用するクオリティです。</p>
-<p><strong>1. S/PDIF（光デジタル）出力</strong> アンプと接続し、WASAPI（排他モード）で再生すればビットパーフェクトな転送が可能です。光ファイバーによる電気的絶縁により物理的なノイズ混入も遮断されるため、PCオーディオとしては理想的な環境が構築できます。</p>
-<ul>
-<li><strong>対応サンプリングレート：</strong> 44.1 / 48 / 88.2 / 96 / 192 kHz</li>
-<li><strong>ビット深度：</strong> 16 / 24 bit</li>
-<li>※S/PDIFではASIOは使用不可</li>
-</ul>
-<p><strong>2. アナログ出力</strong> フラットな特性を持っているため、再生ソフトやアンプ側での色付けがしやすいのが特徴です。</p>
-	</div>
 </article>
 </main>
 
@@ -362,6 +338,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -371,7 +348,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1746,7 +1722,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

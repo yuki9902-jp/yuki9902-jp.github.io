@@ -114,6 +114,42 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/" rel="bookmark">
+			TrueNASのHDD交換とマルチチャンネル接続
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>TrueNASで構築したファイルサーバーに搭載している2012年製のWesternDigital社のWD GREEN 3.0TBがセクターエラーを吐くようになり使えなくなったので、東芝の4.0TB HDD(CMR)を二台買って交換しました。</p>
+<p><a href="/img/o1829137215050605545.jpg"><img src="/img/o1829137215050605545.jpg" alt=""></a></p>
+<p>MN08ASA400E/JPという製品型式です。06シリーズから進化して音が静かになって発熱が少なくなったようです。SMR方式はもう懲り懲りなのでCMR方式と明記されているものを選びました。</p>
+<p>保存していたデータはメインPCにあるもののバックアップなので、壊れたHDDからはデータ移行はしません。メインPCから新しいHDDにバックアップを作ります。</p>
+<p>TrueNASのWebUIから、壊れたHDDで構成していたストレージプールを削除して、TrueNASのファイルサーバーをシャットダウンして、HDDを交換します。</p>
+<p>ケース正面からHDDをクイックイジェクトできる5.25インチベイに搭載していたので交換は簡単です。</p>
+<p>ファイルサーバーを起動して、同じ名前で新規にストレージプールを作成して、SAMBA共有などの設定をすればすぐに使えるようになりました。</p>
+<p>前から懸案にしていたmultichannel接続（複数NICによるロードバランサー）をSAMBA3.0以上だとサポートしていることが分かったので設定しました。</p>
+<p>面倒なのは、TrueNASでは複数のNICを使うとき同じサブネット内に1つのNICしか設定できないようにされていることです。</p>
+<p>従ってNICの数だけサブネットを作る必要があります。</p>
+<p>サブネットマスクを30bitにすれば4つのIPアドレスを消費して2つのノードと1つのブロードキャストアドレスを使うことが出来ます。</p>
+<p>インターネットに接続するNICにはこれまで通りのクラスCの24bitサブネットマスクのネットワークを設定して、メインPCもファイルサーバーもこれに接続しています。</p>
+<p>次にメインPCにNICを挿して30bitサブネットマスクのネットワークを固定で割り当てます。デフォルトゲートウェイやDNSの設定が空なので、Windows上では「識別されていないネットワーク」になってしまいネットワークが「パブリック」になります。</p>
+<p>グループポリシーから「ネットワークリストマネージジャーポリシー」の中の「識別されていないネットワーク」の「プライベート」「ユーザーは場所を変更できる」を選択します。</p>
+<p>次に、TrueNASのWebUIから「ネットワーク」の「インターフェイス」を開き、使っていなかった方のNICの設定をします。先に設定したメインPCと同じサブネットにして残りのIPアドレスを割り当てます。DNSもデフォルトゲートウェイも設定しません。</p>
+<p>これだけでは機能しないので、TrueNASのWebUIで、「サービス」の「SMB」の「Action」をクリックして、「ADVANCED OPTIONS」をクリックして詳細設定を開きます。「追加パラメーター」に「server multi channel support = yes」を記述して「保存」をクリックします。</p>
+<p>SMBサービスを再起動するとマルチチャンネル接続が機能し始めます。</p>
+<p>下図は今日交換した4TB 7200RPM HDDの二台をRAID1で構成したストレージプールへの書き込み試験です。</p>
+<p><a href="/img/o0482035215050620829.png"><img src="/img/o0482035215050620829.png" alt=""></a></p>
+<p>下図は3.0TB 7200RPM HDDの四台をRAIDZ2で構成したストレージプールへの速度試験です。</p>
+<p><a href="/img/o0482035215050618454.png"><img src="/img/o0482035215050618454.png" alt=""></a></p>
+<p>1GbpsのNICの2ポート同士なので230MB/sが上限値となります。</p>
+<p>TrueNASでメモリキャッシュが効いているので純粋なHDDの速度を計るのは難しいですが、SSDで慣れていても実用上あまり遅くは感じません。</p>
+<p>4TB、8TBのSSDがコンシューマー向けに登場してきていますが、価格が10倍も違うのでまだまだHDDは現役です。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-12-19_5-dgrees/" rel="bookmark">
 			5 dgrees
 			</a>
@@ -305,21 +341,6 @@
 <p>大吉でやきとり食べたい。</p>
 <p>せせり（ネック）が美味しい。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-11-28_%E3%82%84%E3%81%B6%E3%81%8D%E3%81%9F/" rel="bookmark">
-			やぶきた
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="/img/o1080081015038577969.jpg"><img src="/img/o1080081015038577969.jpg" alt=""></a></p>
-<p>緑茶を煎れて一服。</p>
-<p>すぐに色が変わっていきます。</p>
-	</div>
 </article>
 </main>
 
@@ -342,6 +363,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -351,7 +373,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1726,7 +1747,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

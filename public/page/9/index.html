@@ -113,6 +113,34 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2023-07-16_%E7%B5%90%E5%B1%80truenas%E3%81%AB%E6%88%BB%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F/" rel="bookmark">
+			結局、TrueNASに戻りました。
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Windows 11 ProをインストールしたばかりのRyzen 7 1700搭載PCですが、結局、TrueNAS Coreで再構築することにしました。</p>
+<p><strong>【構成】</strong></p>
+<ul>
+<li><strong>CPU:</strong> AMD Ryzen 7 1700</li>
+<li><strong>M/B:</strong> Gigabyte GA-AX370-Gaming K7 (Rev.1.0)</li>
+<li><strong>RAM:</strong> Corsair Vengeance DDR4-2666 8GB × 4 (計32GB)</li>
+<li><strong>NVMe:</strong> WD BLACK SN750 500GB</li>
+<li><strong>SSD:</strong> WD BLUE 1TB × 4</li>
+<li><strong>HDD:</strong> TOSHIBA 3TB × 2 &amp; Seagate 3TB × 2 (いずれも7200rpm)</li>
+<li><strong>NIC:</strong> オンボード 1GbE × 2</li>
+</ul>
+<p>OSインストール時にはGeForce GTX 1050 Tiを使用しましたが、NICの設定完了後に取り外しています。</p>
+<p>TrueNASのWebUIから、SSD 4台とHDD 4台でそれぞれストレージプールをRAID-Z2で作成しました。各プールの下にデータセットを構築してSMBで共有し、NICのマルチチャンネル設定も行っています。</p>
+<p>Windows 11 Proの記憶域スペースでファイルサーバーを構築していた時よりも、転送速度が明らかに向上しました。1GbE×2本の帯域をフルに使い切ることができています。</p>
+<p>TrueNASのRAID-Z2ではパリティ計算が行われますが、8コア16スレッドのCPUパワーと32GBのメモリキャッシュ（ARC）のおかげで、ほとんどの場面で安定して高速です。メモリ容量を超えるような巨大なファイルを扱う機会はほぼないため、十分な性能が得られています。</p>
+<p>GPUを取り外したことでPCIe Gen3の16レーンが解放されたため、将来的にM.2 NVMe SSDの4枚挿しも可能になりました。現状はバックアップ用のNASなので、そこまでの高速化は必要ありませんが、拡張性に余裕ができたのは嬉しいポイントです。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2023-07-15_asus-rog-strix-x570-f-gaming-bios-4802-update/" rel="bookmark">
 			ASUS ROG STRIX X570-F Gaming BIOS 4802 Update
 			</a>
@@ -338,41 +366,6 @@
 <p>WD DashboardでSSDの状態の確認やファームウェアの更新が出来るので、インストールしておくと良いと思います。</p>
 <p><a href="/img/o1362078215288008538.png"><img src="/img/o1362078215288008538.png" alt=""></a></p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2023-05-11_elgato-wave-link%E3%81%AE%E9%9F%B3%E5%A3%B0%E9%81%85%E5%BB%B6%E5%AF%BE%E7%AD%96usb-dac%E6%8E%A5%E7%B6%9A%E6%99%82%E3%81%AE%E3%83%AC%E3%82%A4%E3%83%86%E3%83%B3%E3%82%B7%E3%82%92%E6%9C%80%E5%B0%8F%E5%8C%96%E3%81%99%E3%82%8B/" rel="bookmark">
-			Elgato Wave Linkの音声遅延対策：USB DAC接続時のレイテンシを最小化する
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<h2 id="elgato-wave-linkの音声遅延対策">Elgato Wave Linkの音声遅延対策</h2>
-<h3 id="usb-dac接続時のレイテンシを最小化する">USB DAC接続時のレイテンシを最小化する</h3>
-<p>Elgatoの「Wave:3」や「Wave XLR」を使用する際、専用ミキシングソフトウェアである <strong>Wave Link</strong> のインストールが必須となります。しかし、接続構成によっては音声に無視できない遅延（レイテンシ）が発生することがあります。</p>
-<h3 id="1-接続経路による遅延の比較">1. 接続経路による遅延の比較</h3>
-<p>検証の結果、音声を出力するデバイスによって遅延の挙動が異なることが分かりました。</p>
-<ul>
-<li>
-<p><strong>パターンA：外付けUSB DACを使用（遅延あり）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <strong><code>[USB接続]</code></strong> ⇒ <code>[USB DAC]</code> この経路では、USBオーディオドライバの規格上、10ms〜30ms程度の遅延が発生します。</p>
-</li>
-<li>
-<p><strong>パターンB：PC内蔵DACを使用（遅延なし）</strong> <code>[Wave XLR]</code> ⇒ <code>[PC(Wave Link)]</code> ⇒ <code>[仮想ドライバー]</code> ⇒ <code>[マザーボード内蔵出力]</code> OS内部での処理で完結するため、数ミリ秒程度の遅延が発生しますがエコーを感じる程度です。</p>
-</li>
-<li>
-<p><strong>パターンC：OBSでの録画・配信（遅延なし）</strong> <code>[Wave Link]</code> ⇒ <code>[OBS]</code> OBSへの入力（Stream出力）に関しては映像との同期が取れており、録画・配信データにズレが生じることはありません。</p>
-</li>
-</ul>
-<h3 id="2-usb-dac接続時の遅延を低減する方法">2. USB DAC接続時の遅延を低減する方法</h3>
-<p>USB DACを使用してモニターする際の遅延を小さくするには、ドライバのバッファサイズを極限まで絞り込む必要があります。</p>
-<p>Wave Link自体はWASAPI排他モードやASIOには対応していませんが、設定から<strong>入出力バッファを最小</strong>に設定することが可能です。</p>
-<p>さらに踏み込んだ対策として、ツール「<strong>HIDUSBF</strong>」を使用する方法があります。これでUSBポートのポーリングレートを上げ、信号遅延を1msに固定することで、若干のエコーを感じる程度（PCのヘッドフォン端子直結と同等レベル）まで遅延を抑え込むことができました。</p>
-<h3 id="3-配信録画時の設定について">3. 配信・録画時の設定について</h3>
-<p>Wave Linkの「Stream出力」は、自分の耳で聞く「Monitor出力」よりも遅延が少なく設計されているようです。そのため、配信視聴者側で音声と映像がズレる心配はほとんどありません。</p>
-<p>もし、それでもミリ秒単位のズレが気になる場合は、OBS側の「オーディオの詳細プロパティ」から<strong>同期オフセット</strong>を調整して、設定を追い込んでみてください。</p>
-	</div>
 </article>
 </main>
 
@@ -394,6 +387,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -403,7 +397,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1778,7 +1771,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

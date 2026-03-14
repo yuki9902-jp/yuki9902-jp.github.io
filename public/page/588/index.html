@@ -113,6 +113,54 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2013-03-05_walkman-application-in-sony-xperia-tablet-s/" rel="bookmark">
+			Walkman Application in Sony Xperia Tablet S
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに対応しています。</p>
+<p>DLNAサーバー（Windows Media SeverやDLNA対応HDDなど）に蓄積された音楽ファイルを再生することができます。</p>
+<p>WindowsアプリケーションのFoobar2000のUPnPサーバー機能を使って、再生することができます。<br>
+&hellip; ただしストリーム形式はmp3じゃないといけません。<br>
+ほかのDLNAクライアントと併用する場合は、Foobar2000側の設定で、Tablet用のプロファイルを作成します。<br>
+Use profile when に「X-AV-Client-Info」を、containに「av=5.0; cn=&ldquo;Sony&rdquo;; mn=&ldquo;SGPT12&rdquo;; mv=&ldquo;2.0&rdquo;;」を設定します。<br>
+Walkmanアプリは、バグがあるというか、DLNA仕様にそってないのか、Foobar2000とは相性が悪いです。<br>
+プレイリストが表示されなかったり、再生できないプレイリストがあったり・・・。<br>
+Foobar2000のマルチバイト文字列の扱いにバグがあるせいかもしれませんけれど。</p>
+<p>&ndash;Add 2013/03/06&ndash;</p>
+<p>ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。<br>
+シングルクォート「&rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。<br>
+B&rsquo;zの楽曲は無理と言うことに…。<br>
+一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと<br>
+データを削除しないと再生できません。<br>
+こんなヘルプを書くぐらいなら、改善をしてほしいモノです。<br>
+&ndash;End&ndash;</p>
+<p>&ndash;Add 2013/04/22&ndash;<br>
+4/18のアップデートで、Walkmanアプリの「&rsquo;」シングルクォートの問題が改修されています。<br>
+そのほかのバグも改修されています。<br>
+電源落ちる問題、画面がフラッシュする問題など。<br>
+&ndash;End&ndash;</p>
+<p>ほかにWalkmanアプリは「Throw」という機能があります。<br>
+DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機器)にデータを送信して再生することができます。<br>
+データは、画像、音楽、動画などです。<br>
+MacでいうところのAirPlayに近いでしょうか。<br>
+このThrowを使うと、Walkmanアプリで再生操作するとWi-FiでつながったAVアンプから音が出ます。</p>
+<p>私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったのは、購入してから数年たったころでした。<br>
+Windows VISTA認証機器ということは知っていたのですが・・・。<br>
+マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らなかったのです。<br>
+あるときONKYOの製品紹介ページを見ているときに、Windows VISTA/7認証のAVアンプ製品のことが記述されていたので、同じくWindows VISTA/7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生したらできたのです。</p>
+<p>で、今日、WalkmanアプリからThrowをしてみたら、AVアンプから音が出ました。</p>
+<p>Android端末でできることが意外に多いです。<br>
+ベースになったのはLinuxだから当たり前か…。</p>
+<p>しかしDLNAに関しては、知らないことが多すぎます。</p>
+<p>Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は、Throwを試してみたらどうでしょうか。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2013-02-27_windows%E3%81%AE%E3%83%9F%E3%82%AD%E3%82%B7%E3%83%B3%E3%82%B0%E6%A9%9F%E8%83%BD%E3%82%92%E8%AA%A4%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%82%8Bpc%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E9%9B%91%E8%AA%8C%E8%A8%98%E8%80%85/" rel="bookmark">
 			Windowsのミキシング機能を誤解しているPCオーディオ雑誌記者
 			</a>
@@ -294,24 +342,6 @@ Windows VISTA / 7 では、Windows Audio Engine がPCM 32bit / 192kHz、<br>
 <p>左のまぶたがけいれんしています。</p>
 <p>人に心配される自分が嫌なのです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2013-02-04_%E3%81%99%E3%81%BF%E3%81%BE%E3%81%9B%E3%81%AC/" rel="bookmark">
-			すみませぬ。
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>すみませぬ。</p>
-<p>現状、重度の鬱状態になっております。</p>
-<p>「このまま楽になれるのなら･･･」とはまだ考えておりませぬ。</p>
-<p>活動限界が一日4時間になってしまいました。</p>
-<p>それ以上は、栄養ドリンクで無理矢理脳を活性化させて、仕事をしております。</p>
-<p>まだ死にません。</p>
-	</div>
 </article>
 </main>
 
@@ -333,6 +363,7 @@ Windows VISTA / 7 では、Windows Audio Engine がPCM 32bit / 192kHz、<br>
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -342,7 +373,6 @@ Windows VISTA / 7 では、Windows Audio Engine がPCM 32bit / 192kHz、<br>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1717,7 +1747,7 @@ Windows VISTA / 7 では、Windows Audio Engine がPCM 32bit / 192kHz、<br>
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">

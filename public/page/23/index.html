@@ -113,6 +113,32 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-07-26_%E7%AC%AC3%E4%B8%96%E4%BB%A3core-i3%E3%81%AE%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABpc%E3%81%ABwindows11pro%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/" rel="bookmark">
+			第3世代Core i3のモバイルPCにWindows11Proをインストールしてみる
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>追記：2026/01/20 現在はWindows 11のハードウェア条件、TPM2とセキュアブートのチェックが無くなっています。</p>
+<p><a href="https://ameblo.jp/yuki9902/entry-12954754848.html">『第3世代Intel Core i3 CPU環境へWindows 11をインストールする』第3世代Intel Core i3 CPU環境へWindows 11をインストールする1. はじめに：10年選手を現役へかつて「Windows 11は第8世代…!ameblo.jp<img src="https://stat.profile.ameba.jp/profile_images/44/yuki9902/1246028974083.jpg" alt=""></a></p>
+<p>　新しいOSは試してみたくなるのが元SEの性です。</p>
+<p>　いずれ否応なく新しいOSに移行しなくてはいけなくなるものですし、Windows XP Professional x64、Windows VISTA Ultimate x64、Windows 7 Ultimate x64に乗り換えてきたときのようにOSを購入してから使えなくなる機器を確認するのではなく、前もって正式リリースの前に把握しておく必要があります。</p>
+<p>　さて今回インストールするのは、Windows 11 Pro Developer Previewです。</p>
+<p>　システム要件を満たすPCにインストールする場合は、Windows Insider Programで開発者アカウントを有効にすれば、Windows Updateから提供されるDeveloper Previewにアップグレード出来るようになります。</p>
+<p>　今回インストールするPCはNEC VERSA Pro(NEC PC-VK24LFWDG)です。CPUはIntel Core i3 3110M(2.4GHz) 2コア4スレッド、メモリは4GB、Storageは2.5インチSSDです。</p>
+<p>　UEFIとセキュアブートに対応しているもののTPM2には対応していません。したがってレジストリをいじってTPM2とセキュアブートのチェックを回避します。</p>
+<p>　クリーンインストールしたいので、ブータブルUSBセットアップメディアを作成します。</p>
+<p><a href="https://uupdump.net/">UUP dumpDownload UUP files from Windows Update servers with ease. This project is not affiliated with Microsoft Corporation.!uupdump.net<img src="https://uupdump.net/img/cover.png" alt=""></a></p>
+<p> 上記のリンクから、Latest Dev Channel Buildのx64のビルドファイルを任意のフォルダーにダウンロードします。</p>
+<p>　zipファイルを解凍して、cmdファイルを管理者権限で実行します。cmdを実行したカレントフォルダーにいくつかのファイルがダウンロードされた後、ISOファイルが作成されます。</p>
+<p>　次にRufusを使って、ISOファイルをUSBメモリに書き込みます。ISOファイルは5GB以上あるので8GB以上のUSBメモリを用意しましょう。</p>
+<p>　書き込み終わったUSBメモリを目的のPCに挿して、BIOSからUEFIを有効にして、USBメモリからブートするように変更して再起動します。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-07-22_%E4%BB%8A%E6%97%A5%E3%81%AF%E6%B5%B7%E3%81%AE%E6%97%A5/" rel="bookmark">
 			今日は海の日
 			</a>
@@ -327,31 +353,6 @@
 <p>　しかし、昼間は4.725GHzで落ちることなく動いてたんですが、夕方にCinebench R20を走らせようとしてから、PCが落ちまくりました。</p>
 <p>　うーん、Cinebench R20はなんだか鬼門だなぁ。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-07-04_windows11%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84pc%E3%82%92%E3%81%A9%E3%81%86%E3%81%99%E3%81%B9%E3%81%8D%E3%81%8B/" rel="bookmark">
-			Windows11に移行できないPCをどうすべきか
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>Windows11がIntel iCoreの第7世代以降でないとサポートしないとのことで、古い第3世代のiCore3を搭載したNote PCのOSをWindowsから他のものに移行しないといけません。</p>
-<p>　メインPCとファイルサーバーはZen3とZenなのでUEFI BIOSだしTMP2の設定をするだけでWindows11に移行できます。</p>
-<p>　Windows10とWindows11のカーネルの違いはあまりないようなので、第6世代以前のCPUをサポートしないのは2017年に問題になったx86に古くから存在していたセキュリティーホール、2015年以降のIntel製SoCに存在するセキュリティーホールなどCPUに存在するセキュリティーホールを完全に回避するためだと思います。</p>
-<p>　とはいえ、取り残されたCPUを搭載したコンピューターのOSがWindows10のままだと2025年にはサポートが終了するので、OS自体がセキュリティーホールになります。</p>
-<p>　AMDのCPUについてはZenコアが登場するまで長く低迷したので、Zen以前のシェアは非常に少ないので問題にはならないでしょうが、第6世代以前のIntel製SoCを搭載するNote PCは非常に多いので影響はかなり大きいでしょう。</p>
-<p>　一昨年にWindows10に移行した父親のNote PCも第3世代iCore7なので、非常に悩ましいです。</p>
-<p>　お役所関係のWebサイトはまだChromiumベースのEdgeに対応していないものが多くて、確定申告にはマイナンバーカードのためにIEを使わざるを得ないのに、Windows10のサポートが切れるとEdgeに対応するアプリを未だに開発していない状況で、日本の行政機関は混乱を来さないのか気になります。</p>
-<p>　文系ばかりの行政や利権団体が絡む技術・規格はガラパゴス状態にしか成らないことが多いので困ります。</p>
-<p>　プライバシーを全く考慮しないGoogle ChromeやAndroidをデフォルトにしても非常に困るので、オープンでセキュアなOSやブラウザを選択して貰いたいものです。</p>
-<p>　で、前置きが長くなりましたが、手持ちのiCore3 代3世代のNote PCのOSをとりあえずLinuxディストリビューションのElementaryOSに換えました。</p>
-<p>　まあ画面の小さいNote PCとしてはWindows10より使いやすいです。メモリも4GBで問題ないですし。</p>
-<p>　半年前にLinuxに移行しようとしてまたWindows10に戻してみましたが、もうサポートされないんならLinuxのままにしとけば良かった。</p>
-<p>　ファイルサーバーはどうしようかな。Windows10の記憶域（シンプロビジョニング）を使っているので簡単にはLinuxに移行できないんだよな。たまに起きるSambaサーバーでのサイズの大きなファイルの内容がWindows10側から読み取れなくなる問題さえ解決できればいいんだけど。</p>
-	</div>
 </article>
 </main>
 
@@ -373,6 +374,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-11-refs/">ReFS</a></li>
@@ -382,7 +384,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-24_garuda-mokka%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%AB%E6%8C%91%E6%88%A6%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE/">Garuda Mokkaに移行に挑戦したものの</a></li>
 		</ul>
 	</div>
 </div>
@@ -1757,7 +1758,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (8)
+                                03月 (9)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
