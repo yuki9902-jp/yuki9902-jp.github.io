@@ -191,11 +191,14 @@
 <h4 id="エラー内容">エラー内容</h4>
 <pre tabindex="0"><code>2026/03/12 20:00:00 エラー 50 (0x00000032) コピー先ディレクトリにアクセスしています \\xxxxxx\xxxxxxxx\xxxxxxx.xxxx この要求はサポートされていません。
 </code></pre><p>最初は何かの権限エラーかと思い、ROBOCOPYの/COPYオプションにDATを設定したのですが、それでも解決できません。エラーになったファイルを手動でドラッグ・アンド・ドロップでコピーすることは出来ます。</p>
+<h4 id="個別変更">個別変更</h4>
 <p>ファイルの権限を確認しようとファイルを右クリックしてプロパティーを表示させたら、「セキュリティ：このファイルは他のコンピューターから取得した物です。このコンピューターを保護するため、このファイルへのアクセスはブロックされる可能性があります。□許可する(K)」と表示されて居るではありませんか。許可するにチェックをするとエラー 50 (0x00000032)は表示されなくなりました。</p>
 <h4 id="一括変更">一括変更</h4>
 <p>元は自分が作成したファイルでWindows11Pro 25H2をクリーンインストールした事で起きた問題なので、所々で同じエラーが出ているファイルを情報を一括で書き換えるコマンドを探しました。するとありました。</p>
 <div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-Powershell" data-lang="Powershell"><span style="display:flex;"><span>Get-ChildItem -Recurse | Unblock-File
 </span></span></code></pre></div><p>一括で書き換えたいフォルダで上のコマンドを実行するだけ、配下のファイル、フォルダの情報を一括で書き換えてくれます。</p>
+<h4 id="しつこく残るエラー-50-0x00000032を回避する">しつこく残るエラー 50 (0x00000032)を回避する</h4>
+<p>上記の個別変更、一括変更でもしつこくエラー 50 (0x00000032)が出る場合があります。その場合は、7z.exeを使って7zファイルに圧縮し、元のファイルを名前変更または削除して、7zファイルを解凍します。7zファイルにしたときに権限情報などは削除されるためらしいです。</p>
 
 		</div>
 		<footer class="post__footer">
@@ -1698,7 +1701,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1708,7 +1711,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
