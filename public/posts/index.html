@@ -114,6 +114,62 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/" rel="bookmark">
+			CUIが好きなようだ
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<h2 id="cuiの方が好きなようだ">CUIの方が好きなようだ</h2>
+<h3 id="1-git版-comfyui-with-rocm72を使う理由">1. Git版 ComfyUI with ROCm7.2を使う理由</h3>
+<p>デスクトップ版のComfyUIも正式にROCm7.2に対応しているのにもかかわらず、敢えてGit版のComfyUIを使っているのは、単にCUIが好きだからっていうのもあるけど、デスクトップ版にはElectronが組み込まれて居るらしいけれどGPUアクセラレーションを無効にできないので、GPUアクセラレーションを使用しないGoogle Chromeと連携できること、ComfyUIの起動オプションや環境変数を細かく設定できること、outputフォルダを日付で作成して分類できることなどが理由です。</p>
+<h3 id="2-設定しているバッチファイル">2. 設定しているバッチファイル</h3>
+<p><strong>1_ComfyUI_update.bat</strong></p>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>D:
+</span></span><span style="display:flex;"><span>cd D:<span style="color:#ae81ff">\C</span>omfyUI
+</span></span><span style="display:flex;"><span>git pull
+</span></span><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div><p><strong>2_ComfyUI_date.bat</strong></p>
+<div class="highlight copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>@echo off
+</span></span><span style="display:flex;"><span>setlocal
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rem PowerShellを使って確実に yyyyMMdd を取得（ロケールに左右されません）
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> /f <span style="color:#e6db74">&#34;usebackq&#34;</span> %%i in <span style="color:#f92672">(</span><span style="color:#e6db74">`</span>powershell -NoProfile -Command <span style="color:#e6db74">&#34;Get-Date -Format &#39;yyyyMMdd&#39;&#34;</span><span style="color:#e6db74">`</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">do</span> set yyyymmdd<span style="color:#f92672">=</span>%%i
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rem Get the Output path
+</span></span><span style="display:flex;"><span>set parentPath<span style="color:#f92672">=</span>H:<span style="color:#ae81ff">\o</span>utput
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rem Create the folder with the name yyyymmdd
+</span></span><span style="display:flex;"><span>set outpath<span style="color:#f92672">=</span>%parentPath%<span style="color:#ae81ff">\%</span>yyyymmdd%
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>:: システムのPythonやライブラリを無視させる
+</span></span><span style="display:flex;"><span>set PYTHONNOUSERSITE<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>set PYTHONPATH<span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>:: このアプリ専用のPythonとROCmのパスを最優先にする
+</span></span><span style="display:flex;"><span>set PATH<span style="color:#f92672">=</span>%~dp0python_embeded;%~dp0python_embeded<span style="color:#ae81ff">\S</span>cripts;%PATH%
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rem --- ROCm / PyTorch 最適化設定 ---
+</span></span><span style="display:flex;"><span>SET PYTORCH_HIP_ALLOC_CONF<span style="color:#f92672">=</span>garbage_collection_threshold:0.6
+</span></span><span style="display:flex;"><span>SET PYTORCH_HIP_ALLOC_CONF<span style="color:#f92672">=</span>expandable_segments:True
+</span></span><span style="display:flex;"><span>SET ROCM_ENABLE_PREFETCH<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rem フォルダが存在しない場合のみ作成
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> not exist <span style="color:#e6db74">&#34;%outpath%&#34;</span> mkdir <span style="color:#e6db74">&#34;%outpath%&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo Target path: %outpath%
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>D:
+</span></span><span style="display:flex;"><span>cd D:<span style="color:#ae81ff">\C</span>omfyUI
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>python main.py --output-directory %outpath% --preview-method none --reserve-vram 0.0 --cache-lru <span style="color:#ae81ff">8</span> --use-pytorch-cross-attention
+</span></span><span style="display:flex;"><span>endlocal
+</span></span></code></pre></div><p><strong>Google Chrome ショートカットファイル</strong></p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/" rel="bookmark">
 			冷却不足
 			</a>
@@ -659,138 +715,6 @@
 <p>ブログの検索性や掲載情報の確度を向上させるためと、他のサイトやハンドルネームとの混同を回避するためです。</p>
 <p>17年間使ってきた「おやぶん」ですが、これで検索する人は居ないのでwww。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/" rel="bookmark">
-			Windows 11 Pro 25H2をクリーンインストール
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>ハードウェアの環境は以下の通りです。</p>
-<table>
-  <thead>
-      <tr>
-          <th><strong>Device</strong></th>
-          <th><strong>Product Name / Driver</strong></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>CPU</strong></td>
-          <td><strong>AMD Ryzen 9 9950X3D</strong></td>
-      </tr>
-      <tr>
-          <td><strong>M/B</strong></td>
-          <td><strong>ASUS ROG STRIX X870E-E GAMING WIFI</strong> (AMD X870E)</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>BIOS 2102 Beta</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>ASUS LEGO IT8857GX V0203 Firmware Update Tool</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>ASM4242：ASMx424X_FWUpdateV40013_u424241022200011AcmAPDV5</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>ASM2074：ASUS_2074FWUpg3003_230830150104_V5</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>USB 10Gbps Hub FW Update Tool</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>AMD Chipset Drivers 8.02.18.557</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>MediaTek Bluetooth Drivers 1.1044.0.556</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>MediaTek Wi-Fi Drivers 5.7.0.4669</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>RealTek Audio Drivers 6.3.9600.2393</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>RealTek LAN Drivers 1126.21.901.2024</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>UCM Drivers 1.3.8.18</td>
-      </tr>
-      <tr>
-          <td><strong>RAM</strong></td>
-          <td><strong>Corsair CMH64GX5M2B6000Z30</strong> (DDR5-6000 64GB)</td>
-      </tr>
-      <tr>
-          <td><strong>GPU</strong></td>
-          <td><strong>ASUS TUF-Gaming RX 9070 XT OC 16GB</strong> (RADEON RX 9070XT)</td>
-      </tr>
-      <tr>
-          <td>-</td>
-          <td>RADEON SOFTWARE:Adrenalin 26.2.2 (AI Bundle) (ROCm7.2)</td>
-      </tr>
-      <tr>
-          <td><strong>NVMe</strong></td>
-          <td><strong>WD BLACK SN850X 2TB</strong></td>
-      </tr>
-      <tr>
-          <td><strong>NVMe</strong></td>
-          <td><strong>WD BLACK SN850X 2TB</strong></td>
-      </tr>
-      <tr>
-          <td><strong>NVMe</strong></td>
-          <td><strong>WD BLACK SN750 2TB</strong></td>
-      </tr>
-      <tr>
-          <td><strong>RAID0</strong></td>
-          <td><strong>WD BLUE 2TB*2</strong></td>
-      </tr>
-      <tr>
-          <td><strong>RAID0</strong></td>
-          <td><strong>WD BLUE 1TB*2</strong></td>
-      </tr>
-      <tr>
-          <td><strong>NIC2</strong></td>
-          <td><strong>RealTek PCIe GbE</strong></td>
-      </tr>
-      <tr>
-          <td><strong>Audio</strong></td>
-          <td><strong>TASCAM SREIES 102i</strong></td>
-      </tr>
-      <tr>
-          <td><strong>Audio</strong></td>
-          <td><strong>ELGATO WAVE XLR</strong></td>
-      </tr>
-      <tr>
-          <td><strong>CAM</strong></td>
-          <td><strong>ELGATO FACE CAM</strong></td>
-      </tr>
-      <tr>
-          <td><strong>DECK</strong></td>
-          <td><strong>ELGATO STREAM DECK Mk.2</strong></td>
-      </tr>
-      <tr>
-          <td><strong>DECK</strong></td>
-          <td><strong>Xencelabs Quick Keys</strong></td>
-      </tr>
-  </tbody>
-</table>
-<p>ソフトウェアは以下のものをインストールしていきました。</p>
-	</div>
 </article>
 </main>
 
@@ -812,6 +736,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
@@ -821,7 +746,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 		</ul>
 	</div>
 </div>
@@ -2196,7 +2120,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (9)
+                                03月 (10)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -2274,6 +2198,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
@@ -2282,7 +2207,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -2292,7 +2217,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

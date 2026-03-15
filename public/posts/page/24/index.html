@@ -114,6 +114,27 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-07-05_pc%E8%90%BD%E3%81%A1%E3%81%BE%E3%81%8F%E3%82%8A/" rel="bookmark">
+			PC落ちまくり
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>RYZEN 7 5800Xを4.725GHzにオーバークロックして使っていましたが、Cinebench R20が落ちる、OCCTでCPUにエクストリームで負荷をかけたらエラーを出す、Webブラウザで動画を見てたらシステムが落ちるという事態になってしまいました。</p>
+<p>　最大ブーストクロックが4.7GHzなので4.7GHzまでクロックを落としましたが、OCCTでCPUに負荷をかけたらシステムがほぼ毎回落ちます。</p>
+<p>　気温30℃、280ミリラジエターの水冷の環境では、CPU内のAVXに処理が入った瞬間に95℃を超えてしまうようで、安全装置が働いて落ちるようです。</p>
+<p>　AVXの処理がないCinebench R15、OCCTの普通の負荷テストでは落ちずに4.725GHz、4.7GHzともベンチマークを完走出来ます。</p>
+<p>　AVXの処理が入っても温度制限に到達しない程度にまで下げるために、固定OCからPBO2に設定を変更しました。</p>
+<p>　それから消費電力を下げ熱容量を確保するために、ASUSのDIGI+というマザーボード側の電力設定を下げました。OCCTのエクストリームの負荷で155Wを消費していましたが、135Wまで下がりました。CPUのパッケージ温度は90℃から81℃まで下がりました。</p>
+<p>　このときのベンチマークスコアは消費電力が下がった方が若干良くなります。熱容量が確保できた分、CPUのクロックが上昇するためです。</p>
+<p>　しかし、昼間は4.725GHzで落ちることなく動いてたんですが、夕方にCinebench R20を走らせようとしてから、PCが落ちまくりました。</p>
+<p>　うーん、Cinebench R20はなんだか鬼門だなぁ。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-07-04_windows11%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84pc%E3%82%92%E3%81%A9%E3%81%86%E3%81%99%E3%81%B9%E3%81%8D%E3%81%8B/" rel="bookmark">
 			Windows11に移行できないPCをどうすべきか
 			</a>
@@ -305,54 +326,6 @@
 <p>　普通のかっこいい靴は足が入りません。25.5センチしかないのに、幅が4Eもあり、甲も高いので28センチとかを買わないといけないので、バランスが余りにおかしいので大体諦めてしまいます。</p>
 <p>　本当に皆そんなに足が細いんでしょうか。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-06-09_%E8%87%B4%E5%91%BD%E7%9A%84%E3%81%AA%E3%82%A8%E3%83%A9%E3%83%BC-whea-logger-id_18%E3%81%A7windows%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
-			致命的なエラー WHEA-Logger ID:18でWindowsが落ちる
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<h3 id="致命的なエラー-whea-logger-id18でwindowsが落ちる">致命的なエラー WHEA-Logger ID:18でWindowsが落ちる</h3>
-<p>　システムエラーで致命的なエラーWHEA-Logger ID:18としてエラーが記録されてPCが落ちてしまうことがやはり続きます。このエラーログを見るとCPUのキャッシュで不整合が起きているのが確認できます。<a href="https://social.technet.microsoft.com/wiki/contents/articles/3567.event-id-18-microsoft-windows-whea-logger.aspx">MicrosoftのTechnetのWikiの情報</a>によると以下のようになっています。</p>
-<hr>
-<h3 id="説明">説明</h3>
-<p>このエラーは、ハードウェアに問題があることを示しています。マシン チェック例外は、コンピュータの中央処理装置がハードウェアの問題を検出したときに発生するコンピュータ ハードウェア エラーを示します。</p>
-<p>注: WHEA は、Windows ハードウェア エラー アーキテクチャの略です。</p>
-<p>マシン チェックの例外の原因となる主なハードウェアの問題には、次のものがあります。</p>
-<ul>
-<li>システム バス エラー (プロセッサとマザーボード間の通信エラー)</li>
-<li>パリティおよびエラー訂正コード (ECC) の問題を含む可能性のあるメモリ エラー。エラー チェックにより、データが RAM に正しく格納されていることが保証されます。情報が破損している場合、ランダム エラーが発生します。</li>
-<li>プロセッサのキャッシュ エラー。キャッシュには重要なデータとコードが保存されます。これが壊れていると、エラーが発生することがよくあります。</li>
-<li>不十分な電圧レギュレーション (つまり、電源の問題、電圧レギュレーターの誤動作、コンデンサーの劣化)</li>
-<li>パワースパイクによるダメージ</li>
-<li>マザーボードへの静電気による損傷</li>
-<li>BIOS のプロセッサ電圧設定が正しくない (低すぎるか高すぎる)</li>
-<li>オーバークロック</li>
-<li>以前のオーバークロックによって引き起こされた永続的なマザーボードまたは電源装置の損傷</li>
-<li>不十分なエアフローによる過度の温度 (ファンの故障または吸気口/排気口の詰まりが原因の可能性があります)</li>
-<li>不適切な BIOS 初期化 (BIOS がマザーボードまたは CPU を正しく構成していない)</li>
-<li>マザーボードが処理するには大きすぎるプロセッサのインストール (過剰な電力要件、非互換性)</li>
-<li>過剰な電力を消費するか、適切な電圧調整を妨害する可能性のある欠陥のあるハードウェア</li>
-</ul>
-<h3 id="ユーザーアクション">ユーザーアクション</h3>
-<ul>
-<li>BIOS とマザーボード チップセットのドライバーを更新します。</li>
-<li>製造元から更新が入手可能な場合は、すべてのハードウェア ドライバーを更新します。</li>
-<li>コンピューター内部の温度をチェックして、プロセッサーおよび関連する周辺機器が過熱していないことを確認します。</li>
-<li>CPU のファンをチェックして、CPU に正しく取り付けられていることを確認します。</li>
-<li>CPU をオーバークロックした場合は、設定をデフォルト設定にリセットします。</li>
-<li>電源ファンが正しく動作していることを確認してください。</li>
-</ul>
-<hr>
-<p>落ちるタイミングはCPUに大きな負荷かが掛かってしばらくしてからになるんですが、操作としては、大きなzipファイルを大量に解凍する、大量のFLACをmp3に変換する、Photoshopで多数のLayerを含むファイルを編集する、などを行えば高確率でこのエラーが発生します。</p>
-<p>ピーキーなOC設定をしていて、SoCが発熱で不安定になっているのが原因でした。</p>
-<p>一応今回の対策として、CPUのプレジションブーストオーバードライブのCPUのコア電圧制御カーブをマニュアルで設定していることでピーキーになっているのではないかと思って、プレジションブーストオーバードライブの項目、CPUのオーバークロックの項目をすべてAutoに変更しました。</p>
-<p><a href="/img/o1186095914954665977.png"><img src="/img/o1186095914954665977.png" alt=""></a></p>
-	</div>
 </article>
 </main>
 
@@ -375,6 +348,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
@@ -384,7 +358,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 		</ul>
 	</div>
 </div>
@@ -1759,7 +1732,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (9)
+                                03月 (10)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1837,6 +1810,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
@@ -1845,7 +1819,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1855,7 +1829,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

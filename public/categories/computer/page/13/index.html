@@ -114,6 +114,76 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2020-11-28_amd-ryzen-7-5800x%E3%81%8C%E5%B1%8A%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F/" rel="bookmark">
+			AMD RYZEN 7 5800Xが届きました
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p><a href="/img/o1493064014858351768.jpg"><img src="/img/o1493064014858351768.jpg" alt=""></a></p>
+<p>11/13に注文したAMD RYZEN 7 5800Xが届きました。</p>
+<p><a href="/img/o1493064014858351758.jpg"><img src="/img/o1493064014858351758.jpg" alt=""></a></p>
+<p>RYZEN 7 3700Xの箱と比べるとずいぶん小さくなり軽いです。</p>
+<p>今回はコストの問題からクーラーは付属できなかったようです。</p>
+<p><a href="/img/o1493064014858351763.jpg"><img src="/img/o1493064014858351763.jpg" alt=""></a></p>
+<p><a href="/img/o1493064014858351764.jpg"><img src="/img/o1493064014858351764.jpg" alt=""></a></p>
+<p>TDPは105Wですが、オーバークロックの負荷テストで全コア4.6GHz付近で125Wを消費していました。</p>
+<p>プレシジョンブーストでは、各所でいわれているようなベンチマークのスコアが出ないので、手動でオーバークロックしていきます。</p>
+<h4 id="cinebenchのスコア">Cinebenchのスコア</h4>
+<table>
+  <thead>
+      <tr>
+          <th>CPU</th>
+          <th>Clock</th>
+          <th>Memory</th>
+          <th>Chip Set</th>
+          <th style="text-align: right">R20 (MP)</th>
+          <th style="text-align: right">R20 (SP)</th>
+          <th style="text-align: right">R15 (MP)</th>
+          <th style="text-align: right">R15 (SP)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>RYZEN 7 1700</td>
+          <td>3.6GHz</td>
+          <td>DDR4 2993MHz CL16</td>
+          <td>X370</td>
+          <td style="text-align: right">3526</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+          <td style="text-align: right">-</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 3700X</td>
+          <td>4.3GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">4977</td>
+          <td style="text-align: right">495</td>
+          <td style="text-align: right">2214</td>
+          <td style="text-align: right">206</td>
+      </tr>
+      <tr>
+          <td>RYZEN 7 5800X</td>
+          <td>4.725GHz</td>
+          <td>DDR4 3600MHz CL18</td>
+          <td>X570</td>
+          <td style="text-align: right">6180</td>
+          <td style="text-align: right">607</td>
+          <td style="text-align: right">2693</td>
+          <td style="text-align: right">258</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="ff-xivのスコアとfpsavg">FF XIVのスコアとfps(Avg.)</h4>
+<p>[A-1] FF XIV 紅蓮のリベレーター 1920x1080 最高品質</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2020-11-23_amd-ryzen-7-5800x%E3%82%92%E6%B3%A8%E6%96%87/" rel="bookmark">
 			AMD RYZEN 7 5800Xを注文
 			</a>
@@ -325,30 +395,6 @@
 <p>マイク入力から音が出るまでには50ms程度の遅延が発生します。</p>
 <p>安価にOBSなどで配信したい場合などは良いかもしれませんが、本格的に使う場合はASIOに対応した外部のハードウェアミキサーを購入した方が良いと思います。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-09-03_xmedia-recode%E3%81%8C%E8%90%BD%E3%81%A1%E3%82%8B/" rel="bookmark">
-			XMedia Recodeが落ちる
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>注）最新版の3.5.2.3にアップデートしたら落ちなくなりました。（2020/12/04）</p>
-<p>GPUにNVIDIA GeForce GTX 1060 6GBを使っていたときは、コーデックのH.264を使ってMP4形式のファイルを作成しても、XMdeia Recodeが落ちることはありませんでした。</p>
-<p>GPUをAMD Radeon RX 5700 XTに換えたら、XMedia RecodeでMP4形式のファイルを作成しようとするとアプリが落ちます。</p>
-<p>Windowsのアプリケーションログを見ると、XMedia Recodeに入っているH264.dllが障害を起こして、Application errorでアプリが終了してしまっています。</p>
-<p>ファイルコンテナーをMKV(Matroska)にして、H.264コーデックをAMF H.264エンコーダーを使うようにすると落ちません。</p>
-<p>ファイル形式がMP4の場合、H264.dllがハードウェアの判定をせずに、AMDのドライバーには実装されていないモノを使おうとしているのでしょう。</p>
-<p>MKVでは、BlackMagic DaVinci Resolve 16に読み込めないので、別の形式を使うことにします。</p>
-<p>変換したいファイルがAVIコンテナーで映像はMotionJpeg形式、音声はPCMなので、これもDaVinci Resolveでは読み込めません。</p>
-<p>mov形式のMotion Jpegは読み込めるので、XMedia RecodeでAVIからmovに変換することにしました。</p>
-<p>この場合、Motion JpegもPCMもデコードしてからエンコードする必要は無く、どちらもコピーすることになります。</p>
-<p>実質、ファイルのコンテナーの情報を書き換えるだけになるので、処理は一瞬で終わります。</p>
-<p>ということで、mp4形式に変換するときにXMedia Recodeが落ちる場合はNVIDIAのGPUに載せ替えるか、XMedia Recodeを諦めてffmpegを使いましょう。</p>
-	</div>
 </article>
 </main>
 
@@ -371,6 +417,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
@@ -380,7 +427,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 		</ul>
 	</div>
 </div>
@@ -1755,7 +1801,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (9)
+                                03月 (10)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1833,6 +1879,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
@@ -1841,7 +1888,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1851,7 +1898,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

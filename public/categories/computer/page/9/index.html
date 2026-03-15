@@ -114,6 +114,23 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-05-24_amd-ryzen-7-5800x4.7ghzoc%E3%81%A7%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F/" rel="bookmark">
+			AMD RYZEN 7 5800X、4.7GHzOCで落ちるようになった
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>冬場はAMD RYZEN 7 5800Xを4.75GHzまでOCして使っていました。全コアに負荷を100％かけてもCPUのパッケージ温度は88℃ぐらいまででした。しかし夏に近づいて気温が25℃ぐらいになってきて4.75GHzではシステムが落ちてリブートしてしまいます。公称最大オーバークロックの4.7GHzでもCPUのパッケージ温度が90℃近くまで行き、高負荷になる作業をするとシステムが落ちてしまいます。</p>
+<p>　空冷のCooler Master MasterAir MA620Mでは冷やしきれないので、280ミリラジエターのオールインワン水冷CPUクーラー（簡易水冷CPUクーラー）CORSAIR iCUE H115i ELITE CAPELLIX を注文しました。</p>
+<p>　360ミリラジエターと価格的にはほとんど変わらないので360ミリラジエターにしたかったんですが、PCケースCorsair Crystal 680Xには入るのですが、GPUと干渉してしまいます。ラジエターの厚さが27mm、ファンが25mmで合計52mmのスペースが必要ですが、GPUとラジエター取り付け部との隙間は47mmしかありません。互換表に従ってトップパネルに搭載できる280mmラジエターにしました。</p>
+<p>　風量は、120mmファン1基のCooler Master MasterAir MA620Mの57.3CFM(Max)・2.0mmH20(Max)から140mmファン2基搭載のCorsair iCUE H115i ELITE CPAELLIXの97CFM(Max)・3.0mmH20(Max)に大幅に上昇するし、空気と水の比熱は4倍ほど違うのでいきなり落ちるほどの温度には上がらないと思います。</p>
+<p>　とにかく最低限4.7GHzでCINEBENCH R20が完走出来る状態になればいいのですが。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-05-22_asus-rog-strix-x570-f-gaming-audio-driver-update/" rel="bookmark">
 			ASUS ROG STRIX X570-F Gaming Audio Driver Update
 			</a>
@@ -312,30 +329,6 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>今日、国内正規品のRYZEN 7 5800XがAmazon.co.jpに入荷されたようです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-03-25_windows-10-pro-%E8%A8%98%E6%86%B6%E5%9F%9F%E3%82%92%E4%BD%BF%E3%81%86/" rel="bookmark">
-			Windows 10 Pro 記憶域を使う
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="/img/o1920108014915440676.png"><img src="/img/o1920108014915440676.png" alt=""></a></p>
-<p>昔、Windows 10で記憶域をパリティーで構築したら、NTFSでの16TBの壁、パリティー保存用ディスクの容量不足、パリティーでは書き込み速度が50MB/sが上限などいろいろな制限と情報不足で結局運用を断念したことがあります。</p>
-<p>その解決策で8TBのSMRのHDDを買ったのですが･･･。</p>
-<p>今はメインPCはすべてSSDにして速度の不満はありません。</p>
-<p>ファイルサーバーに3TBのHDDを6台、8TBのSMRのHDDを2台搭載しています。</p>
-<p>3TBのHDD6台を使って記憶域の双方向ミラーで構築しました。</p>
-<p>半分はミラーに使われるので、保存できるサイズは実サイズで2.7TB×3＝8TBです。</p>
-<p>この記憶域で構築した仮想ディスクには、写真、音楽などのバックアップを保存します。</p>
-<p>8TBのSMRのHDDには無駄に撮りだめたアニメを保存します。</p>
-<p>BIOSの設定をAMD-RAID→AHCI→AMD-RAID→AHCIと操作して、3TBでRAID10を編集した際に、勝手に8TBのHDDのファイルシステムとパーティションを書き換えられてしまって、ファイルが見られなくなったので、現在復旧作業中です。</p>
-<p>SATAの設定をAMD-RAIDにしただけで、ファイルシステムをGPTからMBRに勝手に書き換えるのは勘弁して欲しいです。</p>
-<p>これは重大なバグだと思うんですが。</p>
-	</div>
 </article>
 </main>
 
@@ -358,6 +351,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
@@ -367,7 +361,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 		</ul>
 	</div>
 </div>
@@ -1742,7 +1735,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (9)
+                                03月 (10)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1820,6 +1813,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
@@ -1828,7 +1822,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1838,7 +1832,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

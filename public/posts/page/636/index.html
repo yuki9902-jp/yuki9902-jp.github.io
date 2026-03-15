@@ -114,6 +114,49 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/" rel="bookmark">
+			AHCI at AMD SB600 on Windows7 64bit
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。</p>
+<p>SATA2のHDDを購入したのを機にもうちょっと出来ることがあるんではないのかとBIOSを見ていると、SATAの項目の中にAHCIがありました。
+SATA2対応ディスクの性能を引き出すためには、設定してほうが良いらしいとのことだったので、AHCIに設定して、Windows7を起動させようとしました。</p>
+<p>すると起動時にクラッシュして、復元モードが起動しました。
+しかも復元モードも途中で、「復元できませんでした」と表示されます。</p>
+<p>まあさっぱり勉強していなかったので仕方ないです。</p>
+<p>とりあえずSATA設定をIDEに戻して再起動すると、Windows7が起動できました。
+インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
+それからIDEモードでインストールした後にAHCIモードにする方法がありました。</p>
+<p><a href="http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89">AHCIモード - Windows7移行まとめwiki</a></p>
+<p>先のリンク先の説明はIntelのチップセット。
+私の持っているのはAMDのSB600なので、<a href="http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx">AMDのサイトからAHCI用のドライバー</a>をダウンロードします。
+<em><strong>注</strong></em> Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
+上記のリンクにはSB700以降のドライバがあります。</p>
+<p>次にレジストリを変更。レジストリエディタを起動し、</p>
+<p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。</p>
+<p>「Start」の数値を3から0に変更し保存しまう。
+（数値が4の場合なども有り）</p>
+<p>Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
+Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
+また再起動。
+そしてAMDのAHCIドライバーをインストールして再起動。</p>
+<p>ついでにサウスブリッジのドライバーもインストールしておきます。</p>
+<p>CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
+１％以内の差があるかどうかです。
+random accessでも5%も差が無いようです。
+まあ、最大性能を出したと言うことで良しとしましょう。</p>
+<p>で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
+Windows7については分からないです。
+WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
+IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2010-10-12_%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F%E3%81%95%E3%82%93%E3%81%A8%E4%B8%83%E4%BA%BA%E3%81%AE%E4%BB%B2%E9%96%93%E3%81%9F%E3%81%A1-%E3%82%AA%E3%83%88%E3%82%AE%E3%82%BD%E3%83%B3%E3%82%B0%E3%82%B9/" rel="bookmark">
 			オオカミさんと七人の仲間たち オトギソングス
 			</a>
@@ -303,23 +346,6 @@
 <p>ただし人の大切な物や人を傷つけたりしないようにな。</p>
 <p>倒れるときは前のめりにな。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2010-10-05_%E9%AB%98%E7%9F%A5/" rel="bookmark">
-			高知
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>今日は高知に行って、坂本龍馬像と武市半平太像を見てきました。</p>
-<p>坂本龍馬は桂浜に、武市半平太は横浪黒潮ラインにあります。</p>
-<p>あと有名なのが中岡慎太郎像が室戸にあります。</p>
-<p>さて久礼大正町市場で食べた鰹のたたきはうまかった。</p>
-<p>帰りに食った焼き肉はもっとうまかった・・・。</p>
-	</div>
 </article>
 </main>
 
@@ -342,6 +368,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-12-amd_ryzen_chipset_driver/">AMD Ryzen Chipset Driver 80.02.18.557 リリース</a></li>
@@ -351,7 +378,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05_comfyui_rocm7.2_rx9070xt_windows11pro_25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-02-26_windows-11-pro-25h2%E3%82%92%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Windows 11 Pro 25H2をクリーンインストール</a></li>
 		</ul>
 	</div>
 </div>
@@ -1726,7 +1752,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (9)
+                                03月 (10)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1804,6 +1830,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dualsense/" title="DualSense">DualSense</a>
@@ -1812,7 +1839,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1822,7 +1849,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
