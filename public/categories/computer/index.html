@@ -368,119 +368,110 @@
       </tr>
   </tbody>
 </table>
-<h3 id="3-導入する前">3. 導入する前</h3>
+<h3 id="3-導入前と導入後">3. 導入前と導入後</h3>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center">ドライブ</th>
-          <th style="text-align: left">用途</th>
-          <th style="text-align: center">デバイス</th>
+          <th style="text-align: center">Device</th>
+          <th style="text-align: center">Type</th>
           <th style="text-align: center">Format</th>
-          <th>説明</th>
+          <th style="text-align: center">Drive</th>
+          <th style="text-align: center">→</th>
+          <th style="text-align: center">Type</th>
+          <th style="text-align: center">Format</th>
+          <th style="text-align: center">Drive</th>
+          <th style="text-align: left">Uses</th>
+          <th style="text-align: left">Description</th>
       </tr>
   </thead>
   <tbody>
       <tr>
+          <td style="text-align: center">NVMe  2TB</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">C:</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">C:</td>
           <td style="text-align: left">システム</td>
-          <td style="text-align: center">NVMe  2TB</td>
-          <td style="text-align: center">NTFS</td>
-          <td>Windowsの起動用。</td>
+          <td style="text-align: left">Windowsの起動にはNTFSが必須。</td>
       </tr>
       <tr>
+          <td style="text-align: center">NVMe  2TB</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">D:</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">D:</td>
           <td style="text-align: left">AI作業</td>
-          <td style="text-align: center">NVMe  2TB</td>
-          <td style="text-align: center">NTFS</td>
-          <td>10GB単位のモデルを高速読み出しするためにNVMeに設置。</td>
+          <td style="text-align: left">10GB単位のモデルの「0秒コピー」とビルド加速を享受できる。</td>
       </tr>
       <tr>
+          <td style="text-align: center">NVMe  2TB</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">E:</td>
-          <td style="text-align: left">必須データ</td>
-          <td style="text-align: center">NVMe  2TB</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
           <td style="text-align: center">NTFS</td>
-          <td>写真や音楽等の貴重なデータを故障しにくいNVMeに設置。</td>
+          <td style="text-align: center">E:</td>
+          <td style="text-align: left">超重要データ</td>
+          <td style="text-align: left">写真や音楽等の貴重なデータビット欠損を検知し修復できる。</td>
       </tr>
       <tr>
+          <td style="text-align: center">SATA  2TB</td>
+          <td style="text-align: center">DYNAMIC RAID 0</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">F:</td>
-          <td style="text-align: left">お宝画像  画像生成結果</td>
-          <td style="text-align: center">SATA  2TBx2</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
           <td style="text-align: center">NTFS</td>
-          <td>ダイナミックディスクのストライピング（RAID 0）</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">G:</td>
-          <td style="text-align: left">ゲーム用</td>
-          <td style="text-align: center">SATA  1TBx2</td>
-          <td style="text-align: center">NTFS</td>
-          <td>ダイナミックディスクのストライピング（RAID 0）</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="4-導入した後">4. 導入した後</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">ドライブ</th>
-          <th style="text-align: left">用途</th>
-          <th style="text-align: center">デバイス</th>
-          <th style="text-align: center">Format</th>
-          <th>説明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">C:</td>
-          <td style="text-align: left">システム</td>
-          <td style="text-align: center">NVMe  2TB</td>
-          <td style="text-align: center">NTFS</td>
-          <td>Windowsの起動にはNTFSが必須。</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">D:</td>
-          <td style="text-align: left">AI作業</td>
-          <td style="text-align: center">NVMe  2TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>10GB単位のモデルの「0秒コピー」とビルド加速を享受できる。</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">E:</td>
-          <td style="text-align: left">必須データ</td>
-          <td style="text-align: center">NVMe  2TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>写真や音楽等の貴重なデータビット欠損を検知し修復できる。</td>
-      </tr>
-      <tr>
           <td style="text-align: center">F:</td>
           <td style="text-align: left">お宝画像</td>
-          <td style="text-align: center">SATA  2TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>ダイナミックディスクのストライピングから脱却。  データのビット欠損を回避できる。</td>
+          <td style="text-align: left">故障リスク半減、データのビット欠損を回避できる。</td>
       </tr>
       <tr>
+          <td style="text-align: center">SATA  2TB</td>
+          <td style="text-align: center">DYNAMIC RAID 0</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">F:</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">G:</td>
-          <td style="text-align: left">ゲーム用</td>
-          <td style="text-align: center">SATA  2TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>ダイナミックディスクのストライピングから脱却。  速さが必要なゲームをしなくなったので問題なし。</td>
+          <td style="text-align: left">ゲーム</td>
+          <td style="text-align: left">故障リスク半減、速さが必要なゲームをしなくなったので問題なし。</td>
       </tr>
       <tr>
+          <td style="text-align: center">SATA  1TB</td>
+          <td style="text-align: center">DYNAMIC RAID 0</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">G:</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
           <td style="text-align: center">H:</td>
           <td style="text-align: left">画像生成結果</td>
-          <td style="text-align: center">SATA  1TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>画像生成AIの結果保存用。  特に速度は必要ない。</td>
+          <td style="text-align: left">故障リスク半減、特に速度は必要ない。</td>
       </tr>
       <tr>
-          <td style="text-align: center">I:</td>
-          <td style="text-align: left">作業用</td>
           <td style="text-align: center">SATA  1TB</td>
-          <td style="text-align: center">ReFS</td>
-          <td>特に速度は必要ない。</td>
+          <td style="text-align: center">DYNAMIC RAID 0</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">G:</td>
+          <td style="text-align: center">→</td>
+          <td style="text-align: center">BASIC</td>
+          <td style="text-align: center">NTFS</td>
+          <td style="text-align: center">I:</td>
+          <td style="text-align: left">作業用 (待期)</td>
+          <td style="text-align: left">故障リスク半減、特に速度は必要ない。</td>
       </tr>
   </tbody>
 </table>
-<h3 id="5-設定方法">5. 設定方法</h3>
+<h3 id="4-設定方法">4. 設定方法</h3>
 <ol>
 <li>「設定」 → 「システム」 → 「ストレージ」 → 「ストレージの詳細設定」 → 「ディスクとボリューム」 と開く。</li>
 <li>ReFS に変更したいドライブレターの「プロパティ」を開く。</li>
@@ -2467,7 +2458,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/asus/" title="ASUS">ASUS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bios/" title="BIOS">BIOS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/chipset/" title="CHIPSET">CHIPSET</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="ComfyUI">ComfyUI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/comfyui/" title="COMFYUI">COMFYUI</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/command/" title="COMMAND">COMMAND</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/copilot/" title="COPILOT">COPILOT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darjeelingfirstflash/" title="DarjeelingFirstFlash">DarjeelingFirstFlash</a>
