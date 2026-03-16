@@ -24,7 +24,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 | Device | Product |
 | ----- | ----- |
 | CPU | AMD Ryzen 7 1700 (8C/16T) |
-| RAM | DDR 2666MHz CL16 32GB (16GBx2) |
+| RAM | DDR 2666MHz CL16 32GB (8GBx4) |
 | M/B | GIGABYTE GA-AX370 Gaming K7 (AMD X370) |
 | SATA SSD | ADATA SP900 240GB |
 | NVMe SSD | WD NVMe SSD 512GB (WDC WDS512G1X0C-00ENX0) |
