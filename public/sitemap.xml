@@ -89,6 +89,9 @@
     <loc>https://yuki9902-jp.github.io/posts/2026-03-10-truenas_community/</loc>
     <lastmod>2026-03-10T12:00:00+09:00</lastmod>
   </url><url>
+    <loc>https://yuki9902-jp.github.io/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/</loc>
+    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://yuki9902-jp.github.io/tags/radeon/</loc>
     <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
@@ -99,9 +102,6 @@
     <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/tags/windows11pro/</loc>
-    <lastmod>2026-03-05T12:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yuki9902-jp.github.io/posts/2026-03-05-windows%E7%92%B0%E5%A2%83%E3%81%AEradeon-rx-9070-xt%E3%81%A7comfyui%E3%82%92%E4%BD%BF%E3%81%86-2026_3_5/</loc>
     <lastmod>2026-03-05T12:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-03-03-radeon-software-adrenaline-26.2.2/</loc>
@@ -194,7 +194,7 @@
     <loc>https://yuki9902-jp.github.io/posts/2026-01-24_%E5%AF%BE%E8%A9%B1%E9%8C%B2%E6%83%85%E5%A0%B1%E3%81%AE%E8%B6%85%E9%99%90%E6%88%A6%E3%82%92%E7%94%9F%E3%81%8D%E6%8A%9C%E3%81%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8Cai%E3%81%A8%E8%AA%9E%E3%81%A3%E3%81%9F%E7%9C%9F%E5%AE%9F%E3%81%AE%E5%AE%88%E3%82%8A%E6%96%B9/</loc>
     <lastmod>2026-01-24T07:04:58+09:00</lastmod>
   </url><url>
-    <loc>https://yuki9902-jp.github.io/posts/2026-01-24_windows%E7%92%B0%E5%A2%83%E3%81%AEradeon-rx-9070-xt%E3%81%A7comfyui%E3%82%92%E4%BD%BF%E3%81%86-2026_1_24/</loc>
+    <loc>https://yuki9902-jp.github.io/posts/2026-01-24_comfyui_rocm7.1.1_rx9070xt_windows11pro-25h/</loc>
     <lastmod>2026-01-24T06:34:51+09:00</lastmod>
   </url><url>
     <loc>https://yuki9902-jp.github.io/posts/2026-01-21_%E6%98%94%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E6%8E%98%E3%82%8A%E5%87%BA%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F2005%E5%B9%B42013%E5%B9%B4/</loc>
