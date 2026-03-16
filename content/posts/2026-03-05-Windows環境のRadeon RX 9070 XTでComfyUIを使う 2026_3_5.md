@@ -1,5 +1,5 @@
 ---
-title: "ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2"
+title: "Windows環境のRadeon RX 9070 XTでComfyUIを使う 2026/3/5"
 date: 2026-03-05T12:00:00+09:00
 archives: ["2026-03"]
 categories: ['COMPUTER']
