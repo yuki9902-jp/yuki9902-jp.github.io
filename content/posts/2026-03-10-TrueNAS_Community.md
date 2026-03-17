@@ -8,7 +8,7 @@ tags: ['AMD','Ryzen','1700','GIGABYTE','X370','TrueNAS','SMB3','MULTICHANNEL']
 
 ## 1. はじめに
 
-TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セットアップ、運用の手間が結構大変なこともあって、万が一トラブった場合も復旧が簡単なNAS OSがないかと探していました。運用の手軽さだけなら、TrueNAS Community Editionがあったんですが、ARCキャッシュの持ち方がFreeBSD系のTrueNAS Coreと違って、ファイル更新分のチェックをするのにHDDを再帰検索してしまうので遅さに困っていました。ですが、NVMe SSDを使ってL2ARCキャッシュのディスクにすると遅さを解消できるということを知りました。余っていたNVMe SSD 2枚をL2ARCキャッシュ用に、240GB SATA SSDをOSインストール用に用意して、TrueNAS Community Editionをインストールすることにしました。TrueNAS Community Edition (旧Scale) はマシンを再起動してもL2ARCキャッシュが維持されるため、再起動後のアクセスも高速に行えるメリットがあるので、NASを使わないときに電源を落としている私には有用です。
+TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セットアップ、運用の手間が結構大変なこともあって、万が一トラブった場合も復旧が簡単なNAS OSがないかと探していました。運用の手軽さだけなら、TrueNAS Community Editionがあったんですが、ARCキャッシュの持ち方がFreeBSD系のTrueNAS Coreと違って、ファイル更新分のチェックをするのにHDDを再帰検索してしまうので遅さに困っていました。ですが、NVMe SSDを使ってL2ARCキャッシュのディスクにすると遅さを解消できるということを知りました。システムをインストールしていたNVMe SSD 500GB 1枚、他のマシンでシステムをインストールしていたNVMe SSD250GB 1枚、あわせて2枚をL2ARCキャッシュ用に、余っていた240GB SATA SSDをOSインストール用に用意して、TrueNAS Community Editionをインストールすることにしました。TrueNAS Community Edition (旧Scale) はマシンを再起動してもL2ARCキャッシュが維持されるため、再起動後のアクセスも高速に行えるメリットがあるので、NASを使わないときに電源を落としている私には有用です。ただ予備マシン1台がシステムドライブを抜かれてお不動さんになりました。
 
 ## 2. 構築目標
 
