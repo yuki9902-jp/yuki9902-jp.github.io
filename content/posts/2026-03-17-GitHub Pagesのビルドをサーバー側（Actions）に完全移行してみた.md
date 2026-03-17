@@ -87,7 +87,7 @@ jobs:
 
 ### 3. ルートに.gitignoreを作成
 
-1. 除外するディレクトリ「`public/`」を記述します。以後、`public/`に、htmmlファイルを`push`しないようにします。
+1. 除外するディレクトリ「`public/`」を記述します。以後、`public/`に、htmlファイルを`push`しないようにします。
 
     **.gitignore**
 
