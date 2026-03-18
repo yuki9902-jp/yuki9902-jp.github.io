@@ -3,7 +3,7 @@ baseURL = 'https://yuki9902-jp.github.io/'
 title = 'yuki9902::blog'
 theme = 'mainroad'
 
-summaryLength = 10
+summaryLength = 5
 
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
