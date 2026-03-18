@@ -1,5 +1,5 @@
 ---
-title: "TrueNAS CoreからTruNAS Communicationに移行した"
+title: "TrueNAS CoreからTruNAS Community Editionに移行した"
 date: 2026-01-09T14:31:27+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12952850667.html
