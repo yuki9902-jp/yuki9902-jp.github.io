@@ -1,6 +1,6 @@
 ---
-title: "ComfyUI/ROCm7.1.1/RX9070XT/Windows11Pro 25H2 - 2026/1/24"
-date: 2026-01-24T06:34:51+09:00
+title: "ComfyUI/ROCm7.1.1/RX9070XT/Windows11Pro 25H2 - 2026/1/26"
+date: 2026-01-26T06:34:51+09:00
 archives: ["2026-01"]
 original_url: https://ameblo.jp/yuki9902/entry-12954404367.html
 categories: ['COMPUTER']
