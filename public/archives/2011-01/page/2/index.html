@@ -237,7 +237,6 @@
 <p>まあWASAPI排他モードでなければビットパーフェクトは保証されないわけなんですが。</p>
 <p>DACに無駄な投資をする前に、Windowsを良く知ろうという話です。</p>
 <p>昔はInside Windowsっていう技術書があって、各APIを解説していて、プログラミングに使用していたわけですが、最近はそんな資料ないのかなぁ。</p>
-<p>マイクロソフトのブログに頼るのはどうもねぇ。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -266,145 +265,6 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<p>KMPlayer + ReClockの音質が良いとか書いてあったので試してみた。ReClockでWASAPIを使う設定にして、KMPlayerからReClockにレンダリングして出力する。で、44.1kHzのWAVEファイルを再生したら、なかなか良い感じでした。でもfoobar2000 + SoXResampler + WASAPIコンポーネントと差はない気がする。で、192kHzのファイルを再生したら、音量が揺らぐ。大きくなったり小さくなったり。オートゲイン調整が働いているようだ。だめじゃん、使えない。ベースが動画プレーヤーだからしょうがないのか。さて、要はWindows VISTA以降のWASAPI排他モードでビットパーフェクトで出力できるかどうかだということなので、それならFoobar2000 + WASAPIコンポーネントでOKです。オーバーサンプリングする際のロジックの出来で音質が左右されているから、ここの出来が一番良い物、自分の耳に合うモノが良い訳です。私の場合、Foobar2000 + SoXResampler + WASAPIコンポーネントです。以下、結局のlistening環境というか・・・、</p>
-<table>
-  <thead>
-      <tr>
-          <th>Player</th>
-          <th>Format</th>
-          <th>SoxResampler</th>
-          <th>OUTPUT</th>
-          <th>Sound Device</th>
-          <th>Connector</th>
-          <th>AV AMP</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Foobar2000</td>
-          <td>44.1kHz</td>
-          <td>176.4kHz/24bit Up Convert</td>
-          <td>WASAPI 排他</td>
-          <td>ONKYO SE-300PCIE</td>
-          <td>Analog RCA</td>
-          <td>DENON AVC-4320</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>48kHz</td>
-          <td>192kHz/24bit Up Convert</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>88.2kHz</td>
-          <td>176.4kHz/24bit Up Convert</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>96kHz</td>
-          <td>192kHz/24bit Up Convert</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>176.4kHz</td>
-          <td>Through</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>192kHz</td>
-          <td>Through</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-      <tr>
-          <th>Media</th>
-          <th>Player</th>
-          <th>Convert</th>
-          <th>Connect</th>
-          <th>DAC Mode (DENON AVC-4320)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>CD</td>
-          <td>PC(2ch RCA)</td>
-          <td>192kHz/32bit D/A Convert</td>
-          <td>Analog RCA</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>PC(8ch STEREOミニプラグ*4)</td>
-          <td>96kHz/32bit D/A Convert</td>
-          <td>Analog RCA</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>PS3</td>
-          <td>176.4kHz/24bit</td>
-          <td>HDMI</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>SACD Player</td>
-          <td>128fs Over Sampling D/A Convert</td>
-          <td>Analog RCA</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td>DSD Disc</td>
-          <td>PC</td>
-          <td>192kHz/32bit D/A Convert</td>
-          <td>Analog RCA</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>PS3</td>
-          <td>176.4kHz/24bit</td>
-          <td>HDMI</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td>SACD</td>
-          <td>PS3</td>
-          <td>176.4kHz/24bit</td>
-          <td>HDMI</td>
-          <td>PURE DIRECT</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td>SACD Player</td>
-          <td>DSD to Analog Direct Convert</td>
-          <td>Analog RCA</td>
-          <td>PURE DIRECT</td>
-      </tr>
-  </tbody>
-</table>
-<p>だいたいこんな感じで聞いてます。基本的にCDはFoobar2000でFLAC(44.1kHz/16bit)で取り込みます。そこから必要に応じてWalkman用にX-ApplicationにATRAC3(320kbps)で書き出してます。気に入った曲はFLACファイルを選んでAudio Gateでアップコンバートしたり、DSD Discにしてます。8ch(7.1ch)化を機にPCからの出力を全てアナログにしました。AVアンプ DENON AVC-4320がHDMI 1.1にしか対応しておらず、96kHz/24bit/5.1chまでにしか対応していないためです。それにS/PDIFもマルチチャンネルはDTSまたはDDの圧縮音声でしか対応できないためです。したがって、ONKYO SE-300PCIEからRCAアナログ2chとSTEREOミニプラグアナログ8chをそれぞれでAVアンプ DENON AVC-4320に接続しています。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -442,6 +302,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -451,7 +312,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1826,7 +1686,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1911,9 +1771,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1923,7 +1785,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

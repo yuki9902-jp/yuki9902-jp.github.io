@@ -20,7 +20,7 @@
       <link>https://yuki9902-jp.github.io/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/</link>
       <pubDate>Wed, 11 Dec 2024 20:24:10 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2024-12-11_amd-software-adrenalin-edition-24.12.1/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html&#34;&gt;AMD RADEON RX6750XT&lt;/a&gt; のドライバーをアップデートしました。&lt;/p&gt;&#xA;&lt;p&gt;WSL 2(Windows Subsystem for Linux)でAI開発のAMD ROCmをサポートしたようです。ONNXやTensorFlowなどが動くようです。&lt;/p&gt;&#xA;&lt;p&gt;あとはHYPR-Tuneのサポート拡大、Vulkanのサポート拡大、不具合の修正です。&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amd.com/ja/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6750-xt.html&#34;&gt;AMD RADEON RX6750XT&lt;/a&gt; のドライバーをアップデートしました。&lt;/p&gt;&#xA;&lt;p&gt;WSL 2(Windows Subsystem for Linux)でAI開発のAMD ROCmをサポートしたようです。ONNXやTensorFlowなどが動くようです。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

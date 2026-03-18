@@ -20,7 +20,7 @@
       <link>https://yuki9902-jp.github.io/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</link>
       <pubDate>Tue, 03 Oct 2023 22:07:57 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2023-10-03_lan%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96%E3%81%AE%E6%95%85%E9%9A%9C/</guid>
-      <description>&lt;p&gt;昼にスイカゲームをしていたら、突如オフラインになって、ONUやルーターやらスイッチングハブやPCを再起動しても直らず。&lt;/p&gt;&#xA;&lt;p&gt;ONUのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;スイッチングハブのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターの管理画面にアクセスしようとするも繋がらず、PC側のLANポート2つともからも繋がらない。&lt;/p&gt;&#xA;&lt;p&gt;PCから直接ルーターにLANケーブルを繋ぐと管理画面もインターネットもアクセスできた。&lt;/p&gt;&#xA;&lt;p&gt;ということでスイッチングハブが故障しました。&lt;/p&gt;&#xA;&lt;p&gt;で、急遽、街中に1Gbps 8ポートのスチングハブを買いに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;前は、コレガでしたが、今度はBUFFALOです。&lt;/p&gt;&#xA;&lt;p&gt;TPLINKがかなり安いですが、メーカーが信用できないのでBUFFALOにしました。&lt;/p&gt;&#xA;&lt;p&gt;2.5Gbpsも10Gbpsも店にはなかったので、動画編集する人以外には需要はないんでしょうね。&lt;/p&gt;</description>
+      <description>&lt;p&gt;昼にスイカゲームをしていたら、突如オフラインになって、ONUやルーターやらスイッチングハブやPCを再起動しても直らず。&lt;/p&gt;&#xA;&lt;p&gt;ONUのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;スイッチングハブのランプは正常。&lt;/p&gt;&#xA;&lt;p&gt;ルーターの管理画面にアクセスしようとするも繋がらず、PC側のLANポート2つともからも繋がらない。&lt;/p&gt;&#xA;&lt;p&gt;PCから直接ルーターにLANケーブルを繋ぐと管理画面もインターネットもアクセスできた。&lt;/p&gt;&#xA;&lt;p&gt;ということでスイッチングハブが故障しました。&lt;/p&gt;&#xA;&lt;p&gt;で、急遽、街中に1Gbps 8ポートのスチングハブを買いに行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;前は、コレガでしたが、今度はBUFFALOです。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

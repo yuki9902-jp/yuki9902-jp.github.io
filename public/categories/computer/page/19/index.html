@@ -114,6 +114,23 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2019-01-19_%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%81%AE%E6%95%B4%E7%90%86/" rel="bookmark">
+			ストレージの整理
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>USBフラッシュメモリー、SDカードメモリー、メモリースティックなどのチェックとLinux OSのインストールの試行をやってました。</p>
+<p>セクター情報が壊れてアクセス出来なくなっていた2GB、4GB、64GBのUSBフラッシュメモリーの物理フォーマットをして復活させました。</p>
+<p>64GBのSDカードメモリーは不良セクターが出来ていて16MBしか読めなくなっていましたが、物理フォーマットをしても復活させられず、最終的に完全にアクセス出来なくなりました。</p>
+<p>メモリースティックは、32MB、16GBと所有していますが、全て問題なく使えましたが、今はこれを必要とする機器をなにも持ってないので使い道はありませんね。</p>
+<p>さて、Linux Mint 19.01 cinnamonをUSBフラッシュメモリーにisoイメージで書き込み、Live USB (Linux インストーラー USB）を作って、メインマシンで起動させました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2019-01-18_32gb%E3%81%AEmsata%E3%81%AEssd/" rel="bookmark">
 			32GBのmSATAのSSD
 			</a>
@@ -126,8 +143,6 @@
 <p>これの活用法がないかと考えていますが、SSDとしても既に性能が低くて普段使っているPCに組み込むこともできません。</p>
 <p>mSATAのSSDは大きさが切符ぐらいなので、小さいので、なんとなくリームバブルシステムとして使えないかと思ってます。</p>
 <p>つまりLinux OSを入れてUSBバスから起動してみては、と思ってます。</p>
-<p>さてこれからブータブルUSBデバイスとしてLive Linuxをインストールしてみます。</p>
-<p>今使っているPCがUEFIシステムなので、BIOS/UEFI起動の両方共にいけるようにインストールしてみます。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -166,11 +181,6 @@
 <p>価格は22750円→15129円で7000円安。</p>
 <p>問題は、NVMe SSDを差し込めるコネクタがM.2なんですが、マザーボードに1つしか付いてないこと。</p>
 <p>PCIe 3.0 x4にM.2変換ボードを差し込んで、それにNVMe SSDを差し込んで、ドライブのクローニングをすることになります。</p>
-<p>変換ボードは2000円前後ですので、価格的に問題ではないのですが、NVMe SSD同士でクローニングが出来るかどうかなんですよね。</p>
-<p>こればかりはネットで前例を探そうとしても見つかりません。</p>
-<p>クローニングしても起動出来るか分からないし、Windows 10のライセンスのアクティベーションが通らずに、マイクロソフトに電話してリセットしてもらうしかないかも知れません。</p>
-<p>そうなったらOSのクリーンインストールでしょうけどね。</p>
-<p>いや、まあ、今でも特にSSDの速度が遅いわけじゃないので困ってはないのですが(￣∇￣)</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -188,34 +198,6 @@
 <p>Pascal</p>
 <p>Visual C++ 4.0/6.0</p>
 <p>Visual BASIC 4.0/5.0/6.0</p>
-<p>Access VBA(Visual BASIC for Application)</p>
-<p>Excel VBA</p>
-<p>Word VBA</p>
-<p>JavaScript</p>
-<p>VB Script</p>
-<p>ASP(Active Server Pages) VB Script (IIS)</p>
-<p>ASP.Net (IIS)</p>
-<p>Java</p>
-<p>Java Servelet</p>
-<p>VB.Net</p>
-<p>C++.Net</p>
-<p>C#</p>
-<p>HTML</p>
-<p>XHTML</p>
-<p>XML</p>
-<p>XSL-FO</p>
-<p>CSS</p>
-<p>JSFL</p>
-<p>Action Script</p>
-<p>SQL</p>
-<p>Perl</p>
-<p>PHP</p>
-<p>他にもありますが、仕事や趣味で使ったことのある言語などです。</p>
-<p>世の中から消滅してしまったものもありますね。</p>
-<p>この中ではC#が一番綺麗な言語かな、C++に比べると出来ることは少ないですが。</p>
-<p>Javaはガベージ（メモリ内のゴミ）が残ったり、複製したオブジェクトを操作すると元になったオブジェクトの中身が変わって仕舞ったり、メモリ1GBの制限もあったりしたので好きじゃないです。</p>
-<p>Javaは既に現役を離れて8年になるので、Java EEがどれだけ更新されたかは分からないんですが。</p>
-<p>昨日、MSX-BASICの話が出たので、思い出してみました。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -318,24 +300,6 @@
 <p>改善されるのは可聴域の外なので何も分かりません。</p>
 <p>ハードウェアのスペックを漸く活かし切ることが出来るようになったので、ただ精神的に満足しただけです(￣∇￣)</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2018-05-27_%E5%A4%A7%E5%9E%8B%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88/" rel="bookmark">
-			大型アップデート
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>Windows 10の4月アップデートがゲーム中にバックグラウンドでインストールされてしまいました。</p>
-<p>ユーザーに確認とらずに強制アップデートとか相変わらずマイクロソフトは…。</p>
-<p>機能が細々と増えたみたいです。</p>
-<p>標準のフォトアプリに動画作成機能が追加されたようです。</p>
-<p>Windows自体にタイムライン機能が追加されたのはいったい何に使うのでしょうか。</p>
-<p>追々検証します。</p>
-	</div>
 </article>
 </main>
 
@@ -358,6 +322,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -367,7 +332,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1742,7 +1706,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1827,9 +1791,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1839,7 +1805,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

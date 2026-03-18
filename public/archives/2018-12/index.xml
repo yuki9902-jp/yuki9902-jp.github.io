@@ -90,7 +90,7 @@
       <link>https://yuki9902-jp.github.io/posts/2018-12-21_language/</link>
       <pubDate>Fri, 21 Dec 2018 22:16:32 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2018-12-21_language/</guid>
-      <description>&lt;p&gt;MSX-BASIC&lt;/p&gt;&#xA;&lt;p&gt;N88 BASIC&lt;/p&gt;&#xA;&lt;p&gt;Pascal&lt;/p&gt;&#xA;&lt;p&gt;Visual C++ 4.0/6.0&lt;/p&gt;&#xA;&lt;p&gt;Visual BASIC 4.0/5.0/6.0&lt;/p&gt;&#xA;&lt;p&gt;Access VBA(Visual BASIC for Application)&lt;/p&gt;&#xA;&lt;p&gt;Excel VBA&lt;/p&gt;&#xA;&lt;p&gt;Word VBA&lt;/p&gt;&#xA;&lt;p&gt;JavaScript&lt;/p&gt;&#xA;&lt;p&gt;VB Script&lt;/p&gt;&#xA;&lt;p&gt;ASP(Active Server Pages) VB Script (IIS)&lt;/p&gt;&#xA;&lt;p&gt;ASP.Net (IIS)&lt;/p&gt;&#xA;&lt;p&gt;Java&lt;/p&gt;&#xA;&lt;p&gt;Java Servelet&lt;/p&gt;&#xA;&lt;p&gt;VB.Net&lt;/p&gt;&#xA;&lt;p&gt;C++.Net&lt;/p&gt;&#xA;&lt;p&gt;C#&lt;/p&gt;&#xA;&lt;p&gt;HTML&lt;/p&gt;&#xA;&lt;p&gt;XHTML&lt;/p&gt;&#xA;&lt;p&gt;XML&lt;/p&gt;&#xA;&lt;p&gt;XSL-FO&lt;/p&gt;&#xA;&lt;p&gt;CSS&lt;/p&gt;&#xA;&lt;p&gt;JSFL&lt;/p&gt;&#xA;&lt;p&gt;Action Script&lt;/p&gt;&#xA;&lt;p&gt;SQL&lt;/p&gt;&#xA;&lt;p&gt;Perl&lt;/p&gt;&#xA;&lt;p&gt;PHP&lt;/p&gt;&#xA;&lt;p&gt;他にもありますが、仕事や趣味で使ったことのある言語などです。&lt;/p&gt;&#xA;&lt;p&gt;世の中から消滅してしまったものもありますね。&lt;/p&gt;&#xA;&lt;p&gt;この中ではC#が一番綺麗な言語かな、C++に比べると出来ることは少ないですが。&lt;/p&gt;&#xA;&lt;p&gt;Javaはガベージ（メモリ内のゴミ）が残ったり、複製したオブジェクトを操作すると元になったオブジェクトの中身が変わって仕舞ったり、メモリ1GBの制限もあったりしたので好きじゃないです。&lt;/p&gt;&#xA;&lt;p&gt;Javaは既に現役を離れて8年になるので、Java EEがどれだけ更新されたかは分からないんですが。&lt;/p&gt;&#xA;&lt;p&gt;昨日、MSX-BASICの話が出たので、思い出してみました。&lt;/p&gt;</description>
+      <description>&lt;p&gt;MSX-BASIC&lt;/p&gt;&#xA;&lt;p&gt;N88 BASIC&lt;/p&gt;&#xA;&lt;p&gt;Pascal&lt;/p&gt;&#xA;&lt;p&gt;Visual C++ 4.0/6.0&lt;/p&gt;&#xA;&lt;p&gt;Visual BASIC 4.0/5.0/6.0&lt;/p&gt;</description>
     </item>
     <item>
       <title>ブルマン</title>
@@ -216,7 +216,7 @@
       <link>https://yuki9902-jp.github.io/posts/2018-12-11_%E7%8F%88%E7%90%B2/</link>
       <pubDate>Tue, 11 Dec 2018 01:33:56 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2018-12-11_%E7%8F%88%E7%90%B2/</guid>
-      <description>&lt;p&gt;ペットボトルの水を420ミリリットルのステンレスのマグカップで量り、それを小さな薬罐に移す。&lt;/p&gt;&#xA;&lt;p&gt;カセットガスの焜炉の上に置いて、つまみを捻り、カチンという音と同時に火花が飛び、ガスが燃焼し始める。&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンの珈琲豆の袋をハサミで開封し、二人前用のコーヒーミルにカラカラと珈琲豆を入れる。&lt;/p&gt;&#xA;&lt;p&gt;コーヒーミルのハンドルを回し、ガリガリと珈琲豆を挽く。&lt;/p&gt;&#xA;&lt;p&gt;ステンレスのマグカップの上に透明な樹脂製のドリッパーを載せる。&lt;/p&gt;&#xA;&lt;p&gt;無漂白のドリップペーパーの端を1センチメートル程折り、ドリッパーに入れる。&lt;/p&gt;&#xA;&lt;p&gt;弾き終えた珈琲豆をドリップペーパーに移し、ドリッパーを揺すって表面を均す。&lt;/p&gt;&#xA;&lt;p&gt;お湯が沸騰したところで焜炉の火を消し、お湯の中へ温度計を入れる。&lt;/p&gt;&#xA;&lt;p&gt;93度までお湯の温度が下がったところで温度計を取り出しす。&lt;/p&gt;&#xA;&lt;p&gt;薬罐のお湯を珈琲豆の中心にゆっくりと注ぎ、注いだ箇所が元の嵩に戻るまでお湯を注ぎ続ける。&lt;/p&gt;&#xA;&lt;p&gt;そこでお湯を注ぐのを止め、30秒ほど待つ。&lt;/p&gt;&#xA;&lt;p&gt;またお湯を500円玉ぐらいの大きさで回すようにゆっくり注いでいく。&lt;/p&gt;&#xA;&lt;p&gt;このとき膨らんだ珈琲豆の山を崩さず、そしてペーパーにお湯がかからないようにし、液面が上下しないように注ぎ続ける。&lt;/p&gt;&#xA;&lt;p&gt;抽出された珈琲がマグカップを満たして、溢れる前にドリッパーを別の器に移す。&lt;/p&gt;&#xA;&lt;p&gt;このとき注いだお湯がドリッパーからマグカップへ落ち切らせてはいけない。&lt;/p&gt;&#xA;&lt;p&gt;珈琲の美味しくない苦み成分が最後に全部出てしまう。&lt;/p&gt;&#xA;&lt;p&gt;気のせいかも知れないが、実際に最後の抽出液だけの処を別の器で受けて味見したが不味かった。&lt;/p&gt;&#xA;&lt;p&gt;珈琲の抽出に使った物を片付けた後、自室の椅子に座って珈琲を啜る。&lt;/p&gt;&#xA;&lt;p&gt;昼下がりの陽射しが窓硝子で乱屈折して部屋の中を明るくし暖かくしていた。&lt;/p&gt;</description>
+      <description>&lt;p&gt;ペットボトルの水を420ミリリットルのステンレスのマグカップで量り、それを小さな薬罐に移す。&lt;/p&gt;&#xA;&lt;p&gt;カセットガスの焜炉の上に置いて、つまみを捻り、カチンという音と同時に火花が飛び、ガスが燃焼し始める。&lt;/p&gt;&#xA;&lt;p&gt;ブルーマウンテンの珈琲豆の袋をハサミで開封し、二人前用のコーヒーミルにカラカラと珈琲豆を入れる。&lt;/p&gt;&#xA;&lt;p&gt;コーヒーミルのハンドルを回し、ガリガリと珈琲豆を挽く。&lt;/p&gt;&#xA;&lt;p&gt;ステンレスのマグカップの上に透明な樹脂製のドリッパーを載せる。&lt;/p&gt;&#xA;&lt;p&gt;無漂白のドリップペーパーの端を1センチメートル程折り、ドリッパーに入れる。&lt;/p&gt;&#xA;&lt;p&gt;弾き終えた珈琲豆をドリップペーパーに移し、ドリッパーを揺すって表面を均す。&lt;/p&gt;&#xA;&lt;p&gt;お湯が沸騰したところで焜炉の火を消し、お湯の中へ温度計を入れる。&lt;/p&gt;&#xA;&lt;p&gt;93度までお湯の温度が下がったところで温度計を取り出しす。&lt;/p&gt;&#xA;&lt;p&gt;薬罐のお湯を珈琲豆の中心にゆっくりと注ぎ、注いだ箇所が元の嵩に戻るまでお湯を注ぎ続ける。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今日も</title>
@@ -279,7 +279,7 @@
       <link>https://yuki9902-jp.github.io/posts/2018-12-06_%E3%83%AA%E3%83%95%E3%83%AC%E3%82%A4%E3%83%B3/</link>
       <pubDate>Thu, 06 Dec 2018 23:28:47 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2018-12-06_%E3%83%AA%E3%83%95%E3%83%AC%E3%82%A4%E3%83%B3/</guid>
-      <description>&lt;p&gt;幸せって今すぐに 言えないのはなんでだろう&lt;/p&gt;&#xA;&lt;p&gt;でも どう考えても昔見た夢は so far away 夢のまた夢&lt;/p&gt;&#xA;&lt;p&gt;こんなはずじゃないなんて すねるほどでもないけれど&lt;/p&gt;&#xA;&lt;p&gt;何が足りないの&lt;/p&gt;&#xA;&lt;p&gt;B&amp;rsquo;zの旅☆EVERYDAYが頭の中でリフレインしてます。&lt;/p&gt;&#xA;&lt;p&gt;歌詞の一部がリフレインして、曲名を思い出せなくても、今は検索エンジンで簡単に分かるので楽なもんです。&lt;/p&gt;&#xA;&lt;p&gt;２０数年前の深夜にミュージックビデオで流れていた曲の始めに「トニー リローのキープオンダンシング」と言う台詞が流れて、アフロヘアーの男性が振り付けを説明し、その後曲が流れ始め、ワイプでアフロヘアーの男性が踊り続けるものがあったんですが、その曲名が全く思い出せません。&lt;/p&gt;&#xA;&lt;p&gt;こればかりはWebでいくら検索しても出てこないので、今でも時々モヤモヤします。&lt;/p&gt;</description>
+      <description>&lt;p&gt;幸せって今すぐに 言えないのはなんでだろう&lt;/p&gt;&#xA;&lt;p&gt;でも どう考えても昔見た夢は so far away 夢のまた夢&lt;/p&gt;&#xA;&lt;p&gt;こんなはずじゃないなんて すねるほどでもないけれど&lt;/p&gt;</description>
     </item>
     <item>
       <title>珈琲時間</title>

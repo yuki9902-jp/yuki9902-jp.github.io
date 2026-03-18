@@ -114,6 +114,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-12-24_truenas%E3%81%AEhdd%E4%BA%A4%E6%8F%9B%E3%81%A8%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E6%8E%A5%E7%B6%9A/" rel="bookmark">
+			TrueNASのHDD交換とマルチチャンネル接続
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>TrueNASで構築したファイルサーバーに搭載している2012年製のWesternDigital社のWD GREEN 3.0TBがセクターエラーを吐くようになり使えなくなったので、東芝の4.0TB HDD(CMR)を二台買って交換しました。</p>
+<p><a href="/img/o1829137215050605545.jpg"><img src="/img/o1829137215050605545.jpg" alt=""></a></p>
+<p>MN08ASA400E/JPという製品型式です。06シリーズから進化して音が静かになって発熱が少なくなったようです。SMR方式はもう懲り懲りなのでCMR方式と明記されているものを選びました。</p>
+<p>保存していたデータはメインPCにあるもののバックアップなので、壊れたHDDからはデータ移行はしません。メインPCから新しいHDDにバックアップを作ります。</p>
+<p>TrueNASのWebUIから、壊れたHDDで構成していたストレージプールを削除して、TrueNASのファイルサーバーをシャットダウンして、HDDを交換します。</p>
+<p>ケース正面からHDDをクイックイジェクトできる5.25インチベイに搭載していたので交換は簡単です。</p>
+<p>ファイルサーバーを起動して、同じ名前で新規にストレージプールを作成して、SAMBA共有などの設定をすればすぐに使えるようになりました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-12-13_intel-ac7206%E3%81%AEwifi%E3%82%AB%E3%83%BC%E3%83%89nec-versapro%E3%81%AEbios%E3%81%A7%E3%81%AF%E3%81%98%E3%81%8B%E3%82%8C%E3%82%8B/" rel="bookmark">
 			Intel AC7206のWiFiカード、NEC VersaPROのBIOSではじかれる
 			</a>
@@ -161,7 +180,6 @@
 <p>体感で違いがあるかと言われると「無い」です。</p>
 <p>システムダウンと解決方法の模索に余計な時間をとられる事を考えると寧ろ初期値の自動設定で使った方が遙かにマシです。</p>
 <p>もう既にIntel Core iシリーズ 第12世代の後塵を拝しているので、諦めました。</p>
-<p>価格と規格のPCIe gen5、DDR5、thunderboltを考えるとIntelを受け入れた方が安上がりになりそうです。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -180,9 +198,6 @@
 <p>で、Windows10で使っていた設定値よりもPBO2でのコア電圧カーブを緩めていたんですが、インストール後、高負荷時にブルーバックで落ちまくりました。</p>
 <p>半日で６回も落ちたらさすがにげんなりです。</p>
 <p>ASUSのBIOS配布ページにあるWindows11ではUEFIの値をデフォルトにしろという言葉に従って、工場出荷時の値にリセットして、XMP2とPCIeの4GBデコードとReSizeBARを有効にして起動させました。</p>
-<p>この設定だと今のところ落ちないようです。</p>
-<p>再構築した環境では、必要なアプリケーションがまだインストールできてないですが、ボチボチ構築していきます。</p>
-<p>はあ、新しいOSは毎度毎度厳しい。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -199,9 +214,6 @@
 <p>仕方ないので、Windows11Proをクリーンインストールして、更新プログラムやらドライバーやらを最新にして、普段使いのアプリを入れる前にゲーム「原神」をプレイしてたら、半日で４回もデバイスエラーでブルーバックでWindowsが落ちました。</p>
 <p>オーバークロックはCPUはAuto、グラボはASUS公式のOCモードにしてます。</p>
 <p>Ryzen5000シリーズだけの問題とか思って調べてたら、AMDのハードウェアに関する海外の掲示板でRyzen5000シリーズとRADEON RX5000シリーズとの組み合わせで頻発していることが分かったと報告されてました。</p>
-<p>ブルーバックで落ちて再起動後、AMDのバグレポートツールが起動するので、RADEON ADRENALINEソフトウェア周辺でのエラーを検出しているようです。</p>
-<p>グラボをGeForceに換えるのが良いでしょうが、今は高騰してて買えませんねぇ。</p>
-<p>しかしブルーバックでPCが落ちるのは精神的にキツいので早く解消したいです。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -219,9 +231,6 @@
 <p>オーバークロックだろうとオートだろうとCPUがアイドル時から突発的な負荷が掛かると落ちているように見えます。</p>
 <p>ということで、CPUの省電力制御を有効にしているGlobal C StateをDisableにしてみました。</p>
 <p>PBO2の電圧カーブで、優秀なコア-5、他のコア-20に設定して、OCCTのデータセット大で5分間、Cinebench R23の10分間の負荷テストはクリアしました。</p>
-<p>室温20度で、CPUパッケージの温度はアイドル時40度、OCCT負荷時70度、CinebenchR23負荷時78度で安定しています。ちなみに280ミリの簡易水冷です。</p>
-<p>しばらくこれで運用してみて、安定するか確かめてみます。</p>
-<p>ちなみにLinuxやBSDでは、Ryzen全シリーズでGlobal C StateをDisableにしないと不安定になるようで、この設定は必須です。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -236,13 +245,6 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>CPUがRYZEN 7 1700のPCにWindows 10 Proをインストールして、記憶域（シンプロビジョニング）を使ってファイルサーバーを作っていました。RYZEN 7 1700がWindows 11ではサポートされないので、OSをTrueNASに移行しました。Windows 10よりもインストールが簡単で、シンプロビジョニングの設定も簡単でした。</p>
 <p>　メインPCにあるデータのバックアップは一旦消して、そこにファイルサーバーにしかないデータをコピーして、今度は中身を消したHDDを通常のGPTのNTFSにして、そのファイルをもう一度コピーして、ファイルサーバーから切り離します。</p>
-<p>　USBブートにしてUSBメモリからTrueNASをインストールして、初期設定、ストレージプールを作成して、そこにデータアセットを作り、それをSMBでメインPCからアクセスできるようにします。切り離したHDDをメインPCに接続して、メインPCからTrueNASがインストールされたファイルサーバーにコピーします。</p>
-<p>　TrueNASはFreeBSDをベースに作られているので、SSHでファイルサーバー内でディレクトリコピーすれば良いのですが、Webインターフェイスでは上手くいかず、ついついWindowsからROBOCOPYを使ってしまいました。</p>
-<p>　途中、余計なことをしてNICの速度が100Mbpsに落ちてしまっていたことに気がつかず半日ぐらい無駄にしました。</p>
-<p>　NICの冗長化をしようとしましたが、WindowsのようにIEEEの規格から外れたような機能は搭載されておらず、複数のNICでロードバランサーを機能させようとしたらLACPに対応したスイッチングハブが必要なので、とりあえず1Gbpsで我慢です。ファイルサーバーのストレージの速度が最大で250MB/sですが、今回データを移し替えるHDDはSMR方式のRAID1構成で平均70MB/sぐらいなので、125MB/sで転送できる1Gbpsでも十分です。</p>
-<p>　現在もファイルサーバー上で、3TB 7200rpmのHDD(CMR)4台のRAID-Z2で構成されたストレージプールから8TB 5400rpmのHDD(SMR)2台のRAID1で構成されたストレージプールへデータを移動中です。明日の晩ぐらいには終わりそうです。</p>
-<p>　Windows10とは違って、メインメモリをキャッシュとして目一杯使っていてアクセス速度はある程度平滑化されて、もたつくような挙動がないのでストレスは少ないです。WindowsとLinux MintのSMBの組み合わせで起きていた動画ファイルの破損も今のところ無いようです。</p>
-<p>　いずれにせよファイルサーバーはもうWindowsに戻ることはないです。次は第3世代Core i3を搭載したノートPCをLinux系かFreeBSD系のOSに移行します。コマンドに違いがあるのでFreeBSD系が覚えることが少なそうですが･･･。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -260,11 +262,6 @@
 <p>ただしPBO2で電圧補正カーブが-7,-22の設定値だとWindows11が落ちて再起動することがあります。</p>
 <p>CPUの電圧が原因で落ちているメッセージが出るわけではありませんが、PBO2の設定値を-5,-20にすると安定して動作するようになりました。</p>
 <p>CPUZのベンチマークだとWindows10の頃の-7,-22の設定値とほぼ変わらないスコアになっているので良しとしましょう。</p>
-<p>最近は寒くなってきたので、CPUと簡易水冷の冷媒がよく冷えている状態でベンチマークをするとシングルスレッドの値が690を超えてきます。</p>
-<p>さていくつかオーディオドライバーに不具合が出ています。</p>
-<p>RealtekのALC1220Aが搭載されているのですが、ASUS独自の拡張でインストールされているA-Volute(Nahamic)ドライバーが例外処理で落ちているようです。</p>
-<p>一部のアプリケーションの不正処理で、システムのプロセスの一部が残ったままCPUを7%ぐらい常に使う状態になることもあります。</p>
-<p>ミッションクリティカルな作業に使うPCには、まだWindows11をインストールしてはいけません。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -284,24 +281,6 @@
 <p>これでパフォーマンス低下を理由にWindows11にアップグレードを躊躇する理由は解消されました。</p>
 <p>メインPCのWindows UpdateにWindows11へのアップグレードが配信されるのを待つばかりです。</p>
 <p>ただマザーボードに搭載されているサウンドデバイスのRealtekのALC1220をベースにして組み込まれているNahamicドライバーがWindows11用に用意されるかどうか、それが心配です。</p>
-<p>あとはWindows10でファイルサーバーにしているRYZEN 7 1700のPCのCPUをZEN+またはZEN2に変更することだけですかね。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-10-08_%E6%82%B2%E5%A0%B1windows11%E3%81%AFamd%E3%81%AEcpu%E3%81%A0%E3%81%A8%E6%9C%80%E5%A4%A725%E3%81%AEfps%E3%83%80%E3%82%A6%E3%83%B3/" rel="bookmark">
-			悲報、Windows11はAMDのCPUだと最大25％のFPSダウン･･･
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>Windows11での検証をYoutubeのPC系のニュース動画で報告していたんですが、VBS(Virtualization-based Security)仮想化ベースのセキュリティー機能により、ゲームのパフォーマンス、FPSにして最大25％ダウンすることが分かりました。</p>
-<p>　これはTPM2のサポート以外のCPUに対して制約として、Ryzen1000シリーズ（Zen Core）が非対応になったし、AMDにも詳細に検証して貰ってもWindows11を完全には動かせないことが確認されています。</p>
-<p>　10月5日からWindowsUpdateを通して、Windows11のアップグレードが可能になっていますが、問題が解消されるまで導入は見送ります。</p>
-<p>　正規リリースでは、仮想化とマルチスレッドの予測分岐の方法が完全に見直されているので、Windows10のアップグレードではなく全く別のOSとして検証が必要です。Windows10ベースで最適化してあるアプリケーションでは予期しない性能ダウンを引き起こすと思われるので、開発者にはかなり厳しい更新になります。</p>
-<p>　GUIのカスタマイズ制限も厳しいので、やっぱりこの世代のWindowsはMe、XPx64、VISTA、8、8.1と同じ運命をたどるんでしょうね。</p>
 	</div>
 </article>
 </main>
@@ -325,6 +304,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -334,7 +314,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1709,7 +1688,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1794,9 +1773,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1806,7 +1787,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

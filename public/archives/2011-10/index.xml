@@ -27,7 +27,7 @@
       <link>https://yuki9902-jp.github.io/posts/2011-10-26_sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%9F/</link>
       <pubDate>Wed, 26 Oct 2011 16:52:35 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2011-10-26_sacd%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC%E3%81%8C%E5%A3%8A%E3%82%8C%E3%81%9F/</guid>
-      <description>&lt;p&gt;スーパーオーディオCD（SACD）のドライブが壊れた。&lt;/p&gt;&#xA;&lt;p&gt;ディスクが読み取れなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;読み取りエラーが頻発。&lt;/p&gt;&#xA;&lt;p&gt;暗号化されていないディスクは大丈夫っぽい。&lt;/p&gt;&#xA;&lt;p&gt;MarantzのSA8260という製品ですが、発売が2002年のはじめ頃。&lt;/p&gt;&#xA;&lt;p&gt;もう１０年ぐらいになるんですか。&lt;/p&gt;&#xA;&lt;p&gt;修理に出そうとすると、メーカーが新製品を安くするので買い換えを勧めてくるそうです。&lt;/p&gt;&#xA;&lt;p&gt;しかし現行製品は、ステレオ２チャンネルのみで、マルチチャンネルに対応できません。&lt;/p&gt;&#xA;&lt;p&gt;機能ダウンです。&lt;/p&gt;&#xA;&lt;p&gt;HDMIからのマルチチャンネル対応製品は多くあるのですが、アナログで出力できる製品は非常に少ない。&lt;/p&gt;&#xA;&lt;p&gt;ソニーが生産を終了しているのかな、２製品だけが販売されています。&lt;/p&gt;&#xA;&lt;p&gt;HDMIでDSD信号を受信できるAVアンプとHDMIでDSDを出力できるSACDプレーヤーの両方を買う選択ししか残されていないのか…。&lt;/p&gt;&#xA;&lt;p&gt;SACDマルチチャンネルの時代は、すでに過去のことなのね…。&lt;/p&gt;</description>
+      <description>&lt;p&gt;スーパーオーディオCD（SACD）のドライブが壊れた。&lt;/p&gt;&#xA;&lt;p&gt;ディスクが読み取れなくなりました。&lt;/p&gt;&#xA;&lt;p&gt;読み取りエラーが頻発。&lt;/p&gt;&#xA;&lt;p&gt;暗号化されていないディスクは大丈夫っぽい。&lt;/p&gt;&#xA;&lt;p&gt;MarantzのSA8260という製品ですが、発売が2002年のはじめ頃。&lt;/p&gt;&#xA;&lt;p&gt;もう１０年ぐらいになるんですか。&lt;/p&gt;&#xA;&lt;p&gt;修理に出そうとすると、メーカーが新製品を安くするので買い換えを勧めてくるそうです。&lt;/p&gt;&#xA;&lt;p&gt;しかし現行製品は、ステレオ２チャンネルのみで、マルチチャンネルに対応できません。&lt;/p&gt;&#xA;&lt;p&gt;機能ダウンです。&lt;/p&gt;&#xA;&lt;p&gt;HDMIからのマルチチャンネル対応製品は多くあるのですが、アナログで出力できる製品は非常に少ない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SACD、至宝の持ち腐れ</title>
@@ -48,7 +48,7 @@
       <link>https://yuki9902-jp.github.io/posts/2011-10-23_korg-audiogate/</link>
       <pubDate>Sun, 23 Oct 2011 01:33:27 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2011-10-23_korg-audiogate/</guid>
-      <description>&lt;p&gt;KORG Audio Gate がVersion 2.2.0にアップグレードしています。&lt;/p&gt;&#xA;&lt;p&gt;Windows VISTA / 7 でWASAPIに対応しました。&lt;/p&gt;&#xA;&lt;p&gt;さらに192kHz出力にも対応しました。&lt;/p&gt;&#xA;&lt;p&gt;DIFF(DSD)が、192kHzのPCMで再生できるので良いですよ。&lt;/p&gt;&#xA;&lt;p&gt;Windows 7 x64でもWASAPIでちゃんと出力されています。&lt;/p&gt;&#xA;&lt;p&gt;24bitについては、手持ちの環境では確認のしようがありませんが、Windowsの再生デバイスの設定で24bit 192kHzに設定しているので、たぶん、24bit出力だと思います。&lt;/p&gt;&#xA;&lt;p&gt;KORGさん、すばらしいアプリケーションをありがとう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;KORG Audio Gate がVersion 2.2.0にアップグレードしています。&lt;/p&gt;&#xA;&lt;p&gt;Windows VISTA / 7 でWASAPIに対応しました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WORKING&#39;!! 見てます。</title>
@@ -146,14 +146,14 @@
       <link>https://yuki9902-jp.github.io/posts/2011-10-02_%E8%90%BD%E5%90%88%E3%81%AE%E6%9B%BC%E7%8F%A0%E6%B2%99%E8%8F%AF/</link>
       <pubDate>Sun, 02 Oct 2011 22:53:08 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2011-10-02_%E8%90%BD%E5%90%88%E3%81%AE%E6%9B%BC%E7%8F%A0%E6%B2%99%E8%8F%AF/</guid>
-      <description>&lt;p&gt;落合の川東公園。工場の裏に曼珠沙華が植わっている。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505550.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505550.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 LS / smcPENTAX F*300mmF4.5ED[IF]&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505548.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505548.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX DA*50-135mmF2.8ED[IF]&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505547.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505547.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 LS / smcPENTAX F*300mmF4.5ED[IF]&lt;/p&gt;</description>
+      <description>&lt;p&gt;落合の川東公園。工場の裏に曼珠沙華が植わっている。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505550.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505550.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 LS / smcPENTAX F*300mmF4.5ED[IF]&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505548.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522505548.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX DA*50-135mmF2.8ED[IF]&lt;/p&gt;</description>
     </item>
     <item>
       <title>岡山平野の夕暮れ 2011</title>
       <link>https://yuki9902-jp.github.io/posts/2011-10-02_%E5%B2%A1%E5%B1%B1%E5%B9%B3%E9%87%8E%E3%81%AE%E5%A4%95%E6%9A%AE%E3%82%8C-2011/</link>
       <pubDate>Sun, 02 Oct 2011 22:12:11 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2011-10-02_%E5%B2%A1%E5%B1%B1%E5%B9%B3%E9%87%8E%E3%81%AE%E5%A4%95%E6%9A%AE%E3%82%8C-2011/</guid>
-      <description>&lt;p&gt;金甲山の展望台から、東には笹々川が児島湖に流れ込んでいるのが望めます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522367497.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522367497.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX DA* 50-135mmF2.8&lt;/p&gt;&#xA;&lt;p&gt;F8 / 1/125s / -0.3ev / iso200 / リバーサルフィル&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522417612.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522417612.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 Limmited Silver / smc PENTAX F* 300mmF4.5ED[IF]&lt;/p&gt;&#xA;&lt;p&gt;F10 / 1/3200s / 0ev / iso200 / リバーサルフィルム&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522439284.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522439284.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 Limmited Silver / smc PENTAX F* 300mmF4.5EDIF]&lt;/p&gt;&#xA;&lt;p&gt;F6.3 / 1/200s / -1.0ev / iso200 / リバーサルフィルム&lt;/p&gt;</description>
+      <description>&lt;p&gt;金甲山の展望台から、東には笹々川が児島湖に流れ込んでいるのが望めます。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522367497.jpg&#34;&gt;&lt;img src=&#34;https://yuki9902-jp.github.io/img/t02200146_0722048011522367497.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;PENTAX K-7 / smcPENTAX DA* 50-135mmF2.8&lt;/p&gt;&#xA;&lt;p&gt;F8 / 1/125s / -0.3ev / iso200 / リバーサルフィル&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

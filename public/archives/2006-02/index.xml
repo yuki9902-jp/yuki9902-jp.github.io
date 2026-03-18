@@ -13,14 +13,14 @@
       <link>https://yuki9902-jp.github.io/posts/2006-02-22-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0005/</link>
       <pubDate>Wed, 22 Feb 2006 08:37:34 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2006-02-22-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0005/</guid>
-      <description>&lt;p&gt;マザーボードの入れ替えとか、もうなれたものです。&lt;/p&gt;&#xA;&lt;p&gt;ドライブ類はすべて流用するので、そのまま接続して、電源を投入。&lt;/p&gt;&#xA;&lt;p&gt;システムコマンダーが起動して、再構成。&lt;/p&gt;&#xA;&lt;p&gt;次にOSのブートローダーが起動します。&lt;/p&gt;&#xA;&lt;p&gt;おっ、予想どおりWindows XPはブルーバックで、エラーが出て停止しました。&lt;/p&gt;&#xA;&lt;p&gt;シングルプロセッサからデュアルコアプロセッサ（中に二つのプロセッサが入っている）に変えたので当たり前です。&lt;/p&gt;&#xA;&lt;p&gt;なのでWindowsXPをアップグレードインストール。&lt;/p&gt;&#xA;&lt;p&gt;これでWindowsXPは無事に起動しました。&lt;/p&gt;&#xA;&lt;p&gt;でもサービスパックが未適用状態になっているけど、モジュールが新しいままなのでIEでのWindows Updateに問題が発生。&lt;/p&gt;&#xA;&lt;p&gt;サービスパックのフルセットをダウンロードして、インストールすることでIEの問題も解消。&lt;/p&gt;&#xA;&lt;p&gt;その後は、各種ドライバーをインストールして完了。&lt;/p&gt;&#xA;&lt;p&gt;さて、新しい環境ですが、かなり速いです。&lt;/p&gt;&#xA;&lt;p&gt;あんなに速くなっているとは…。&lt;/p&gt;&#xA;&lt;p&gt;今までのような周波数の競争とは別次元の速さだと感じました。&lt;/p&gt;&#xA;&lt;p&gt;速さを説明しにくいです。&lt;/p&gt;&#xA;&lt;p&gt;数値的な速さはベンチマークテストの結果がどこでも公表されているので割愛。&lt;/p&gt;&#xA;&lt;p&gt;で、感動のついでに Age Of EmpireⅢをフルオプションで実行。&lt;/p&gt;&#xA;&lt;p&gt;世界観が違うぐらい画像の品質が上がります。&lt;/p&gt;&#xA;&lt;p&gt;でも、良いことばかりじゃなく問題も…。&lt;/p&gt;</description>
+      <description>&lt;p&gt;マザーボードの入れ替えとか、もうなれたものです。&lt;/p&gt;&#xA;&lt;p&gt;ドライブ類はすべて流用するので、そのまま接続して、電源を投入。&lt;/p&gt;&#xA;&lt;p&gt;システムコマンダーが起動して、再構成。&lt;/p&gt;&#xA;&lt;p&gt;次にOSのブートローダーが起動します。&lt;/p&gt;&#xA;&lt;p&gt;おっ、予想どおりWindows XPはブルーバックで、エラーが出て停止しました。&lt;/p&gt;&#xA;&lt;p&gt;シングルプロセッサからデュアルコアプロセッサ（中に二つのプロセッサが入っている）に変えたので当たり前です。&lt;/p&gt;&#xA;&lt;p&gt;なのでWindowsXPをアップグレードインストール。&lt;/p&gt;&#xA;&lt;p&gt;これでWindowsXPは無事に起動しました。&lt;/p&gt;&#xA;&lt;p&gt;でもサービスパックが未適用状態になっているけど、モジュールが新しいままなのでIEでのWindows Updateに問題が発生。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自作への道 0004</title>
       <link>https://yuki9902-jp.github.io/posts/2006-02-20-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0004/</link>
       <pubDate>Mon, 20 Feb 2006 12:20:41 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2006-02-20-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0004/</guid>
-      <description>&lt;p&gt;週末にいよいよ自作するためにPCパーツを買いに出かけました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、ストレージ関係はそのまま流用することにして、マザーボード、CPU、メモリ、ビデオカードを購入することにしました。&lt;/p&gt;&#xA;&lt;p&gt;CPUは、もちろんAMD Athlon 64x2。&lt;/p&gt;&#xA;&lt;p&gt;となるとマザーボードは、nFoce4シリーズまたはKT8シリーズのチップセットになります。&lt;/p&gt;&#xA;&lt;p&gt;思い切って SLI に挑戦することにしました。&lt;/p&gt;&#xA;&lt;p&gt;ブランドは、GIGABYTE か ASUS です。すでに老舗ですね。&lt;/p&gt;&#xA;&lt;p&gt;AOPEN を一時期使ったことがありましたが、台湾製コンデンサに泣かされましたし、真空管搭載マザーボードなどという怪しい方向を向かった時代があったので避けます。&lt;/p&gt;&#xA;&lt;p&gt;購入のため、まずはアプライドへ。&lt;/p&gt;&#xA;&lt;p&gt;ここは、高い。&lt;/p&gt;&#xA;&lt;p&gt;しかも、AMD用のマザーボードはわずか3枚。&lt;/p&gt;&#xA;&lt;p&gt;パス。&lt;/p&gt;&#xA;&lt;p&gt;次にパソコン工房へ。&lt;/p&gt;&#xA;&lt;p&gt;ここは市場価格。&lt;/p&gt;&#xA;&lt;p&gt;マザー自体が少ないけど、AMD用はしっかりあります。&lt;/p&gt;&#xA;&lt;p&gt;GIGABYTEの&lt;a href=&#34;http://www.gigabyte.co.jp/nippon/k8n-pro-sli/k8n-pro-m.jpg&#34;&gt;K8N PRO-SLI&lt;/a&gt;がありました。1万6千円ほどです。&lt;/p&gt;&#xA;&lt;p&gt;SLI マザーなのでこれに決定。&lt;/p&gt;&#xA;&lt;p&gt;その勢いで、ビデオカードを物色。&lt;/p&gt;&#xA;&lt;p&gt;隣の陳列棚にGIGABYTE の &lt;a href=&#34;http://www.gigabyte.co.jp/nippon/nvidia-list.html#fa&#34;&gt;GV-NX66T128VP&lt;/a&gt; があったのでこれに決定。&lt;/p&gt;&#xA;&lt;p&gt;で、メモリ1GB*2(SAMSUNG) とCPU AMD Athlon 64x2 3800+を購入。&lt;/p&gt;&#xA;&lt;p&gt;しめて、10万円ほどでした。&lt;/p&gt;&#xA;&lt;p&gt;予想より、遙かに安い。&lt;/p&gt;&#xA;&lt;p&gt;続きは後日。&lt;/p&gt;</description>
+      <description>&lt;p&gt;週末にいよいよ自作するためにPCパーツを買いに出かけました。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず、ストレージ関係はそのまま流用することにして、マザーボード、CPU、メモリ、ビデオカードを購入することにしました。&lt;/p&gt;&#xA;&lt;p&gt;CPUは、もちろんAMD Athlon 64x2。&lt;/p&gt;&#xA;&lt;p&gt;となるとマザーボードは、nFoce4シリーズまたはKT8シリーズのチップセットになります。&lt;/p&gt;&#xA;&lt;p&gt;思い切って SLI に挑戦することにしました。&lt;/p&gt;&#xA;&lt;p&gt;ブランドは、GIGABYTE か ASUS です。すでに老舗ですね。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自作への道 0003</title>
@@ -41,7 +41,7 @@
       <link>https://yuki9902-jp.github.io/posts/2006-02-08-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0001/</link>
       <pubDate>Wed, 08 Feb 2006 08:34:27 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2006-02-08-%E8%87%AA%E4%BD%9C%E3%81%B8%E3%81%AE%E9%81%93-0001/</guid>
-      <description>&lt;p&gt;今年の夏頃には、Windows Vista が発売になるとは思いますが、やはりそれに向けたPCのリニューアルを図らなくてはいけません。&lt;/p&gt;&#xA;&lt;p&gt;すでにハードウェアとしては、64bit化が進んでおり、PCI、ハードディスクのバス周りも大きく変わっています。&lt;/p&gt;&#xA;&lt;p&gt;現状保持しているハードウェアでは、新しいCPUとマザーに持ち越しができません。&lt;/p&gt;&#xA;&lt;p&gt;ほとんどのパーツを買い換える必要があります。&lt;/p&gt;&#xA;&lt;p&gt;まあ、そこでWindows Vistaに合わせて買い換えようと思っているわけです。&lt;/p&gt;&#xA;&lt;p&gt;もちろんAMD Athlon64 を中心に構成するわけですが、それでも如何せん、価格が高い。&lt;/p&gt;&#xA;&lt;p&gt;今の構成も当時30万円相当でくみ上げましたが、今度も納得がいくレベルにするには同じぐらいの投資が必要になりそうです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今年の夏頃には、Windows Vista が発売になるとは思いますが、やはりそれに向けたPCのリニューアルを図らなくてはいけません。&lt;/p&gt;&#xA;&lt;p&gt;すでにハードウェアとしては、64bit化が進んでおり、PCI、ハードディスクのバス周りも大きく変わっています。&lt;/p&gt;&#xA;&lt;p&gt;現状保持しているハードウェアでは、新しいCPUとマザーに持ち越しができません。&lt;/p&gt;&#xA;&lt;p&gt;ほとんどのパーツを買い換える必要があります。&lt;/p&gt;&#xA;&lt;p&gt;まあ、そこでWindows Vistaに合わせて買い換えようと思っているわけです。&lt;/p&gt;&#xA;&lt;p&gt;もちろんAMD Athlon64 を中心に構成するわけですが、それでも如何せん、価格が高い。&lt;/p&gt;</description>
     </item>
     <item>
       <title>スノードリフト</title>
@@ -146,14 +146,14 @@
       <link>https://yuki9902-jp.github.io/posts/2006-02-02-potenza-re-01r/</link>
       <pubDate>Thu, 02 Feb 2006 18:36:44 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2006-02-02-potenza-re-01r/</guid>
-      <description>&lt;p&gt;そろそろ春になろうという感じです。&lt;/p&gt;&#xA;&lt;p&gt;スタッドレスタイヤのブリジストン ブリザック REV01(Bridgestone BLIZZAK REV01)から、夏タイヤに履き替えねばなりません。&lt;/p&gt;&#xA;&lt;p&gt;この間まで、ブリジストン ポテンザ RE-01R (Bridgestone POTENZA RE-01R) を使っていました。&lt;/p&gt;&#xA;&lt;p&gt;すばらしいドライグリップで、ねらい通りのラインをトレースすることができました。&lt;/p&gt;&#xA;&lt;p&gt;アンダーステアに持ち込んでも、破綻したり、突然グリップが回復したりすることがなく、一定のグリップを発揮します。&lt;/p&gt;&#xA;&lt;p&gt;今度はRE050にしてみようかと思いましたが、どんなもんでしょうね。&lt;/p&gt;&#xA;&lt;p&gt;やっぱり、RE-01Rかな…。&lt;/p&gt;</description>
+      <description>&lt;p&gt;そろそろ春になろうという感じです。&lt;/p&gt;&#xA;&lt;p&gt;スタッドレスタイヤのブリジストン ブリザック REV01(Bridgestone BLIZZAK REV01)から、夏タイヤに履き替えねばなりません。&lt;/p&gt;&#xA;&lt;p&gt;この間まで、ブリジストン ポテンザ RE-01R (Bridgestone POTENZA RE-01R) を使っていました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Age Of Empire Ⅲ</title>
       <link>https://yuki9902-jp.github.io/posts/2006-02-01-age-of-empire-/</link>
       <pubDate>Wed, 01 Feb 2006 02:05:17 +0900</pubDate>
       <guid>https://yuki9902-jp.github.io/posts/2006-02-01-age-of-empire-/</guid>
-      <description>&lt;p&gt;久々にPCゲームを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;Microsoft から発売された Age Of Empire Ⅲです。&lt;/p&gt;&#xA;&lt;p&gt;このシリーズは、長く続いていますね。&lt;/p&gt;&#xA;&lt;p&gt;Age Of Empire は、リアルタイム文明育成戦術ゲームです。&lt;/p&gt;&#xA;&lt;p&gt;初代、Age Of Empire では、大学時代の後輩とネットワーク対戦をして遊びました。&lt;/p&gt;&#xA;&lt;p&gt;拡張パック、Rise Of Rome で新たな文明を追加したり、コマンドで卑怯な技を使ったりと非常におもしろかったです。&lt;/p&gt;&#xA;&lt;p&gt;Age Of EmpireⅡ Age Of King もかなりグラフィックが良くなり、マップも広がり、戦術ユニット、住民ユニットが増え、これもかなり楽しかったですね。&lt;/p&gt;&#xA;&lt;p&gt;何よりこのシリーズは、常にユニットがマップ上で動いているところです。&lt;/p&gt;&#xA;&lt;p&gt;木を切ったり、建物を建てたり、戦争では血を吹いて死んだり、小さなユニットの動きがリアルで見ていて全然飽きないのが良いです。&lt;/p&gt;&#xA;&lt;p&gt;今度のAge Of Empire Ⅲもかなりのグラフィックとなり、Age Of Mythologyで使われた技術も取り込まれて良い感じです。&lt;/p&gt;&#xA;&lt;p&gt;文明の時代は、大航海時代以後の近代にわたる辺りから始まります。&lt;/p&gt;&#xA;&lt;p&gt;暇なときにやり込んでみます。&lt;/p&gt;</description>
+      <description>&lt;p&gt;久々にPCゲームを購入しました。&lt;/p&gt;&#xA;&lt;p&gt;Microsoft から発売された Age Of Empire Ⅲです。&lt;/p&gt;&#xA;&lt;p&gt;このシリーズは、長く続いていますね。&lt;/p&gt;&#xA;&lt;p&gt;Age Of Empire は、リアルタイム文明育成戦術ゲームです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>もう２月</title>

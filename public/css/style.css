@@ -741,7 +741,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin: 0 6px 6px 0;
 	margin: 0 .375rem .375rem 0;
 	text-transform: uppercase;
-	background: #2a2a2a;
+	background: #03044149;
 }
 
 .tags__item:hover {
@@ -871,8 +871,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__title {
-	font-size: 20px;
-	font-size: 1.25rem;
+	font-size: 24px;
+	font-size: 1.5rem;
 	border-bottom: 2px solid #cccccc;
 }
 

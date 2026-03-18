@@ -114,6 +114,20 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2021-07-06_amd-ryzen-7-5800x%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF%E6%A4%9C%E8%A8%BCpbo2%E3%81%AE%E6%9C%80%E9%81%A9%E8%A8%AD%E5%AE%9A%E3%82%92%E6%8E%A2%E3%82%8B/" rel="bookmark">
+			AMD Ryzen 7 5800Xのオーバークロック検証：PBO2の最適設定を探る
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>更新日：2026年1月22日</p>
+<p>ASUS ROG STRIX X570-F Gamingにおいて、Ryzen 7 5800Xのパフォーマンスを最大化する設定は、BIOSが更新されるたびに変化してきました。本記事では、BIOSバージョン4002（AGESA V2 PI 1.2.0.3 Patch A）における検証結果をまとめます。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2021-07-05_pc%E8%90%BD%E3%81%A1%E3%81%BE%E3%81%8F%E3%82%8A/" rel="bookmark">
 			PC落ちまくり
 			</a>
@@ -127,9 +141,6 @@
 <p>　AVXの処理がないCinebench R15、OCCTの普通の負荷テストでは落ちずに4.725GHz、4.7GHzともベンチマークを完走出来ます。</p>
 <p>　AVXの処理が入っても温度制限に到達しない程度にまで下げるために、固定OCからPBO2に設定を変更しました。</p>
 <p>　それから消費電力を下げ熱容量を確保するために、ASUSのDIGI+というマザーボード側の電力設定を下げました。OCCTのエクストリームの負荷で155Wを消費していましたが、135Wまで下がりました。CPUのパッケージ温度は90℃から81℃まで下がりました。</p>
-<p>　このときのベンチマークスコアは消費電力が下がった方が若干良くなります。熱容量が確保できた分、CPUのクロックが上昇するためです。</p>
-<p>　しかし、昼間は4.725GHzで落ちることなく動いてたんですが、夕方にCinebench R20を走らせようとしてから、PCが落ちまくりました。</p>
-<p>　うーん、Cinebench R20はなんだか鬼門だなぁ。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -148,13 +159,6 @@
 <p>　とはいえ、取り残されたCPUを搭載したコンピューターのOSがWindows10のままだと2025年にはサポートが終了するので、OS自体がセキュリティーホールになります。</p>
 <p>　AMDのCPUについてはZenコアが登場するまで長く低迷したので、Zen以前のシェアは非常に少ないので問題にはならないでしょうが、第6世代以前のIntel製SoCを搭載するNote PCは非常に多いので影響はかなり大きいでしょう。</p>
 <p>　一昨年にWindows10に移行した父親のNote PCも第3世代iCore7なので、非常に悩ましいです。</p>
-<p>　お役所関係のWebサイトはまだChromiumベースのEdgeに対応していないものが多くて、確定申告にはマイナンバーカードのためにIEを使わざるを得ないのに、Windows10のサポートが切れるとEdgeに対応するアプリを未だに開発していない状況で、日本の行政機関は混乱を来さないのか気になります。</p>
-<p>　文系ばかりの行政や利権団体が絡む技術・規格はガラパゴス状態にしか成らないことが多いので困ります。</p>
-<p>　プライバシーを全く考慮しないGoogle ChromeやAndroidをデフォルトにしても非常に困るので、オープンでセキュアなOSやブラウザを選択して貰いたいものです。</p>
-<p>　で、前置きが長くなりましたが、手持ちのiCore3 代3世代のNote PCのOSをとりあえずLinuxディストリビューションのElementaryOSに換えました。</p>
-<p>　まあ画面の小さいNote PCとしてはWindows10より使いやすいです。メモリも4GBで問題ないですし。</p>
-<p>　半年前にLinuxに移行しようとしてまたWindows10に戻してみましたが、もうサポートされないんならLinuxのままにしとけば良かった。</p>
-<p>　ファイルサーバーはどうしようかな。Windows10の記憶域（シンプロビジョニング）を使っているので簡単にはLinuxに移行できないんだよな。たまに起きるSambaサーバーでのサイズの大きなファイルの内容がWindows10側から読み取れなくなる問題さえ解決できればいいんだけど。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -188,16 +192,6 @@
 <p>Amozonプライムデーで、ASUSの27インチWQHD HDR 170Hz 各色10bit ディスプレーを朦朧とした状態で買ってしまいました。</p>
 <p>縦に設置しています。</p>
 <p>メインディスプレイとして使っているPanasonicの37インチFHD 倍速駆動120Hz(入力60Hz) 各色10bit テレビと比べるとかなり小さいですし、テレビのX.V.colorでコントラスト1000:1の色域に比べるとこのディスプレーのHDR400、sRGB比130%、DCI-P3比95%の色域もどっこいどっこいぐらいの発色です。</p>
-<p>Windows10のカラーキャリブレーションではディスプレーの広色域プロファイルでの調整が出来ないので、厳密な色合わせが難しいです。</p>
-<p>あと27インチのWQHDだと文字が小さすぎて読めませんが、画素密度が182%なのでドットのギザギザが目に付かず、写真などはとても鮮明に見えます。</p>
-<p>DPケーブルとUSB3ケーブルとHDMIケーブルが付属していましたが、ディスプレイとPCの距離が離れていて届かないので、別途買い足しました。</p>
-<p>グラフィックカードのDPに接続したサブディスプレイの方にBIOS画面が表示されてしまうので、TVの方のHDMIケーブルにDP-HDMI変換ケーブルを付け足し、すべてDPに接続しました。</p>
-<p>それはさておき、Amazonプライムデーで安くなっていたと思ってましたが、プライムデーが終わった途端、2000円の値下げです。プライムデーでの特別ポイント還元が1400ポイントなので、プライムデーで買った方が損ですorz。</p>
-<p>しかもASUSの通販サイトでの価格と同じという･･･。</p>
-<p>何のためのプライムデーなのか。</p>
-<p>相変わらずプライムデーで買うと損をします。</p>
-<p>うーん、広色域かつ170Hzという性能の為非常に高価で無理して買ってしまったディスプレイですが、42インチ有機ELの4K TVを買った方が使い勝手も画質も良かったと後悔しています。</p>
-<p>意識が朦朧としているときに通販サイトを見てはいけないですね。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -230,31 +224,6 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>ASUS ROG STRIX X570-F GamingのBIOS 4002が公開されました。</p>
 <p><a href="https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-x570-f-gaming-model/helpdesk_bios">ROG Strix X570-F Gaming | ROG Strix | Gaming マザーボード｜ROG - Republic of Gamers｜ROG 日本PCIe 4.0、Aura Sync RGBライティング、Intel Gigabitイーサネット、ヒートシンク付きデュアルM.2、SATA 6Gbps、およびUSB 3.2 Gen 2を搭載したAMD X570 ATXゲーミングマザーボード!rog.asus.com<img src="https://dlcdnwebimgs.asus.com/gain/" alt=""></a></p>
-<p>今回は、</p>
-<ol>
-<li>
-<p>Update AMD AM4 AGESA V2 PI 1.2.0.3 Patch A</p>
-</li>
-<li>
-<p>Improve system stability</p>
-</li>
-</ol>
-<p>の更新です。</p>
-<p>ベータBIOSの3801よりもマルチコアでの性能が改善されています。</p>
-<p>PBO2のAutoで最適が進んですべてAutoにすると最速のスコアがでます。</p>
-<p>PBO2でのこれまでの最適値とされていた電圧カーブとコア電圧をオフセットで下げる設定をしているとシステムごと落ちます。</p>
-<p>マニュアルでOCして4.75GHzだとCINEBENCH R20が落ちるので、4.725GHz固定でベンチマークを取ってみます。</p>
-<p>4.725GHzまでなら、OCが影響していると思われるメモリやキャッシュ周りのエラーWHEA ID:18が出ることがないようです。</p>
-<p>4.725GHzでのベンチマークスコア</p>
-<p>CINEBENCH R20</p>
-<p>マルチ　：6815</p>
-<p>シングル： 608</p>
-<p><a href="/img/o1646079014961135854.png"><img src="/img/o1646079014961135854.png" alt=""></a></p>
-<p>CPU-Z</p>
-<p>マルチ　：6842</p>
-<p>シングル： 654</p>
-<p><a href="/img/o0417041914961135889.png"><img src="/img/o0417041914961135889.png" alt=""></a></p>
-<p>すべてAutoで設定するとシステム全体の安定性が向上しているので、BIOS更新のリスクを許容できる人は更新をお勧めします。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -274,8 +243,6 @@
 <p>このコースでは、ターマック（舗装路）用のセッティングでフロント、センター、リヤのLSDの効きを強くして、回頭性を下げてます。</p>
 <p>このゲームではPS3コントローラーのスティックがピーキーに反応してスピンしまくるので、ハンドルの切れ角を下げて、更に回頭性を下げないとまっすぐ走るのも難しいです。</p>
 <p>本物の仕様通りならマシンのトルクが53キロあるはずなので、アクセルを入れすぎるとすぐにリヤが流れます。</p>
-<p>同型車種の市販車ベースの方も選べるんですが、そちらはトルクが43キロなのでリヤの流れは穏やかです。LSDの効きもDefaultで回頭性を犠牲にしなくても走れます。</p>
-<p>本物のAWDの車両でドリフトするのは速度域が高くて難しいですが。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -309,23 +276,6 @@
 		<p>梅雨が戻ってきて湿度が高く寝苦しい夜になりました。強い睡眠薬を飲んでても一時間半ごとに目が覚め、喉が渇いて水を飲み、トイレに行くの繰り返しになり、寝ていると疲れが溜まり関節が痛いです。昨日はカフェインを摂っていませんでしたが、このようになるのは自覚以上に体が辛かったんでしょうね。</p>
 <p>　昨晩から雨が降り続いています。梅雨で薄暗く気分もダウナーですが、頑張って今日も生きようと思います。人生の目標が立てられない状態なので、頑張らないと何もかも諦めてしまいそうです。</p>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2021-06-12_%E9%9D%B4%E3%81%AB%E6%82%A9%E3%82%80/" rel="bookmark">
-			靴に悩む
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>一昨日、通院のついでに靴を買いました。撥水防汚加工した普段履きの紐のスニーカーです。岡山市内のイオンモールのイオンスタイルで買ったんですが、色が微妙な紫がかったグレーです。色違いがないか店員に確認しましたが、種類がこれしかないと言われて諦めて、その色を買いました。</p>
-<p>　今日、倉敷のイオンモールに行ってイオンの靴売り場に行くと同じ商品の黒とカーキもありました。めっちゃショックです。黒が良いです。だからといって岡山のイオンモールに返品に行くほど高い値段でもないので、一応諦めます。</p>
-<p>　本当は明るいグレーかブルー系の布地のスニーカーが良いんですが、今持っている物が凄い汚れが目立つんですよね。どうにかして綺麗に洗う方法がないものでしょうか。酸素系漂白剤を買わないといけないかな。</p>
-<p>　普通のかっこいい靴は足が入りません。25.5センチしかないのに、幅が4Eもあり、甲も高いので28センチとかを買わないといけないので、バランスが余りにおかしいので大体諦めてしまいます。</p>
-<p>　本当に皆そんなに足が細いんでしょうか。</p>
-	</div>
 </article>
 </main>
 
@@ -348,6 +298,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -357,7 +308,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1732,7 +1682,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1817,9 +1767,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1829,7 +1781,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

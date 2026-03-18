@@ -114,6 +114,20 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2012-02-26_visual-studio-2010/" rel="bookmark">
+			Visual Studio 2010
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Visual Studio 2010 Expressをフルでインストール中です。</p>
+<p>Visual C#、Visual BASIC、Visual C++、Visual Web DeveroperのExpressエディションを、すべてインストールしています。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2011-10-22_%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E4%BD%9C%E6%88%A6/" rel="bookmark">
 			クリーン作戦
 			</a>
@@ -183,11 +197,6 @@
 <p>DVIを使うなら、デュプリケートの設定にしてください。</p>
 <p>追記</p>
 <p>私の持っているAVアンプDENON AVC-4320では、HDMIでの音声信号は、2chでは192kHz/24bitまで、5.1chでは96kHz/24bitまでのPCMが受信できます。</p>
-<p>Windows7からは、2ch固定で192kHz/24bitの設定ができません。</p>
-<p>Windows7の再生デバイスの設定は、6ch(5.1ch)に固定されています。</p>
-<p>ドライバー関連のソフトに設定画面がないのでお手上げです。</p>
-<p>AVC-4320が認識されている情報がinfファイルに入っているらしいので、それを書き換えて無理矢理2ch/192kHz/24bitとすることが出来るかも知れません。</p>
-<p>AVC-4320がDTS-HDとDD-TrueHDには対応していないので、PowerDVD 8からBlu-rayのDTS-HDとDD-TrueHDを設定しても、AVC-4320側でDTSとDDとしてデコードされます。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -204,7 +213,6 @@
 <p>何度かubuntuのインストーラーが起動せずにVirtualBoxが終了してしまいましたが、無事にインストール完了しました。</p>
 <p>現在はUbuntu10.10からubuntu Studioにアップグレード中です。</p>
 <p>ただ、10.10から Realtime kernel がパッケージで提供されていないので、開発者の一人が公開しているdistributeのパッケージを利用する必要があるそうです。</p>
-<p>でもなんだかうまくrealtimeカーネルがインストールできません。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -246,27 +254,6 @@ SATA2対応ディスクの性能を引き出すためには、設定してほう
 インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
 それからIDEモードでインストールした後にAHCIモードにする方法がありました。</p>
 <p><a href="http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89">AHCIモード - Windows7移行まとめwiki</a></p>
-<p>先のリンク先の説明はIntelのチップセット。
-私の持っているのはAMDのSB600なので、<a href="http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx">AMDのサイトからAHCI用のドライバー</a>をダウンロードします。
-<em><strong>注</strong></em> Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
-上記のリンクにはSB700以降のドライバがあります。</p>
-<p>次にレジストリを変更。レジストリエディタを起動し、</p>
-<p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。</p>
-<p>「Start」の数値を3から0に変更し保存しまう。
-（数値が4の場合なども有り）</p>
-<p>Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
-Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
-また再起動。
-そしてAMDのAHCIドライバーをインストールして再起動。</p>
-<p>ついでにサウスブリッジのドライバーもインストールしておきます。</p>
-<p>CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
-１％以内の差があるかどうかです。
-random accessでも5%も差が無いようです。
-まあ、最大性能を出したと言うことで良しとしましょう。</p>
-<p>で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
-Windows7については分からないです。
-WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
-IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -288,12 +275,6 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 <p>バックアップしてあったファイルを選択し、復元先を指定してやると15分ほどで、リストアが完了。</p>
 <p>再起動すると新しいHDDからちゃんと起動できました。</p>
 <p>パーティションサイズが古い環境のままだったので、ディスク管理から、未使用領域分まで拡張してやります。</p>
-<p>これで完全にあたらしいHDDに移行完了です。</p>
-<p>で、実行の読み取り速度は2.4倍、書き込み速度は1.9倍、4KBrandom accessは2倍となりました。</p>
-<p>さすがにここまで早くなると体感でわかります。</p>
-<p>SSDを使うとさらに早くなるのは分かっているんですが、高いのでパスです。</p>
-<p>今回起動ドライブに1TBで9千円のドライブです。</p>
-<p>このコストパフォーマンスならSSDにするには、なかなか踏ん切りがつきませんね。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -314,36 +295,6 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 アナログ出力に関しては特に制限はありません。</p>
 <p>で、Windows7で出力先をアナログに設定するんですが、このEnvy24HTのS/PDIF出力からPCMにデコードされたデジタル信号が出力されます。
 本来ならデジタル出力はされないはずなんですけどね・・・。</p>
-<p>いったん、プレーヤーソフトでDolbyやらDTSやらをデコードしてPCMにしてサウンドチップに信号を送るので音質はプレーヤーソフトにかかっていますが、まあとりあえずは著作権違反しないように使います。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-03_ax5670-512md5-h/" rel="bookmark">
-			AX5670 512MD5-H
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>グラフィックボードを買い換えました。</p>
-<p>AX5670 512MD5-H</p>
-<p>ATI RADEON HD5670を搭載した製品です。</p>
-<p>これまでnVIDIA GeForce8600GTを使ってましたが、A列車で行こう9をプレイするようになって、性能不足を感じてました。</p>
-<p>AMDのPhenomと780FXを使っているのでnVIDIAよりATIのほうが都合がよいので、ATIのGPUを選びました。</p>
-<p>気になる性能ですが、A列車ではGeForce8600GTに対して約2倍のFPSが出ています。</p>
-<p>プレイ中の動きももたつきが少なくて快適です。</p>
-<p>ハイエンドのカードには及びませんが、これで十分かな。</p>
-<p>追伸</p>
-<p>RADEON HD5670は、HDMIオーディオ出力に対応してます。</p>
-<p>音質はHDMIなのでデジタルオーディオですのでそれなりですが、ジッターの具合は分かりません。</p>
-<p>ただしWindows7 64bitでは、PCMの32kHz、44.1kHz、48kHzの16bitでしか出力できないようです。</p>
-<p>あとCyberlinkのPowerDVD9もしくはPowerDVD for Blue-rayではHDMIからDTSとDolbyのビットストリーム出力が出来るようです。</p>
-<p>PCMも48kHz 16bitまでだし、ビットストリームも必要ないので、これまで通りONKYOのSE-200PCI LTDを使います。</p>
-<p>これならPCMの192kHz 24bit出力が可能ですから。</p>
-<p><a href="http://ameblo.jp/yuki9902/entry-10744871000.html">2011/01/17</a></p>
-<p><a href="http://ameblo.jp/yuki9902/entry-10744871000.html">最新ドライバーでの状況です。</a></p>
 	</div>
 </article>
 </main>
@@ -367,6 +318,7 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -376,7 +328,6 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1751,7 +1702,7 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1836,9 +1787,11 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1848,7 +1801,7 @@ IDEモードでインストールしたあとにAHCIモードに切り替えた�
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

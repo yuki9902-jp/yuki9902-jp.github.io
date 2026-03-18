@@ -114,6 +114,27 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2020-10-03_raspberry-pi-4%E3%81%A8picamera2%E3%81%A8ffmpeg%E3%81%A8ndi/" rel="bookmark">
+			Raspberry pi 4とPiCamera2とFFmpegとNDI
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>ラズパイ3B+を壊し、赤外線フィルターレスカメラモジュールを壊し、結局、ラズパイ4Bとカメラモジュールv2の組み合わせになりました。</p>
+<p>カメラモジュールのピントを合わせるのが非常に難しいので、赤外線フィルターレスカメラモジュールを無限遠の向こう側までレンズを回し込んでしまったため、センサーを割ってしまいました。</p>
+<p>レンズ周りの樹脂も削れてつかみ所がなくなってしまい動かせなくなってしまいました。</p>
+<p>レンズ周りの樹脂を剥がしたら、レンズが3枚ぼろっと取れました。</p>
+<p>センサーが割れているのがしっかり確認できました。</p>
+<p>さて、ラズパイ4BはHDMI-1にディスプレーを繋いで起動しないと、VNC経由では最小サイズのデスクトップサイズのみになってしまいます。</p>
+<p>config.txtをいろいろいじったり、調査しましたが、解決方法がありません。</p>
+<p>VNC経由ではなく、SSHで操作すれば良いので、そちらは割り切りましょう。</p>
+<p>ただ動画を撮影する目的なので初期設定やNDI SDKのインストール、FFmpegのビルド、動画配信テストはラズパイ4を直接操作して構築しました。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2020-09-30_%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%EF%BC%94/" rel="bookmark">
 			ラズパイ４
 			</a>
@@ -158,11 +179,6 @@
 <p>マイナーなスマホなので、バッテリーが手に入りにくいです。</p>
 <p>一応、取り扱っているスマホ部品の通販サイトを見つけましたが、躊躇してます。</p>
 <p>VAIO Phone Aは、NDIアプリを使ってPCにネットワークで接続して動画カメラとして使おうとしていましたが、本格的に使う前にバッテリーがダメになった次第です。</p>
-<p>使い道がなかったRaspberry Pi 3B+にカメラを取り付けを考えてて、NDIを使ってPCに動画を送信できるように現在Raspberry PiにNDI SDKをインストールして、ffmpegをビルド中です。</p>
-<p>Raspberry PiのカメラはSony製の8メガピクセルのセンサーが採用されているので、それを買ってみました。</p>
-<p>先ほど出荷されたようなので、早ければ明日には届くでしょう。</p>
-<p>12.3メガピクセルのCSマウントのハイクォリティーカメラキットも販売されているので、有効活用できそうなら、それを導入しても良いかな。</p>
-<p>ゆくゆくは、CS-CマウントアダプターとC-PKマウントアダプターを介して、PENTAXのレンズをつけてみようかな。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -203,13 +219,6 @@
 <p>で、ドライブレコーダーは、コムテックの2カメラタイプのZDR015が安かったので、買いました。</p>
 <p>配線キット、消費税込みで24000円ぐらいです。</p>
 <p>最新機種じゃないけど、FullHDなら特に困ることはないでしょう。</p>
-<p>取り付けは結構大変でした。</p>
-<p>センターコンソールからナビを外して、グローブボックスを外して、左側のAピラーカバーを外して、左側のドアステップカバーを前後とも外して、リヤシートを外して、左Cピラーカバーを外して、配線しました。</p>
-<p>長さが余ったケーブルをまとめるて仕舞い込むのが意外と大変。</p>
-<p>いろいろなケーブルがすべてグローブボックスの裏側にあるフレームにまとめてくくりつけています。</p>
-<p>もう余裕はないです。</p>
-<p>昼間にお米を発送するのに車に乗って出て、録画映像を見ましたが、問題ないレベルで写ってます。</p>
-<p>ドラレコが活躍することがないように注意して運転しましょう。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -282,24 +291,6 @@
 <p>その後は、エディオン倉敷本店に行き、PCパーツの価格の高さに驚きつつ、多摩電子工業株式会社のUSB タフケーブル A-マイクロB「<a href="https://www.tamadenco.co.jp/products/th181sb20k_th181sb20w.html">TH181SB20K</a>」とエレコムのリストレスト「<a href="https://www.elecom.co.jp/products/MOH-DG01BU.html">MOH-DG01BU</a>」を買いました。</p>
 <p>リストレストは黒色がほしかったんですが、気持ちいい感触とサイズのものがdimp gelシリーズしかありませんでした。</p>
 <p>他の色は、ピンクとホワイトです。</p>
-<p>EXGELという合成ゴムの感触は癖になりそうです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2020-09-16_asus-rog-strix-x570-f-gaming-audio-driver-update/" rel="bookmark">
-			ASUS ROG STRIX X570-F Gaming Audio Driver Update
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p><a href="https://www.asus.com/jp/Motherboards/ROG-Strix-X570-F-Gaming/HelpDesk_Download/">ASUS ROG STRIX X570-F Gamingのオーディオドライバー</a>が更新されました。</p>
-<p>RealｔekのALC1220のカスタムチップが搭載されていますが、A-Valuteの作製したSonicStageIIIやVirtual Mixer関連のドライバの行儀が悪く、いろいろなアプリケーションで不具合を起こしていました。</p>
-<p>Virtual MixerやSonicStageIIIやUWPのドライバーアプリなどは廃止され、ALC1220だけのドライバーになりました。</p>
-<p>エフェクトやバーチャルサラウンドなどの処理もなくなっています。</p>
-<p>必要な場合は、VoiceMeeterなどのアプリケーションを介しましょう。</p>
 	</div>
 </article>
 </main>
@@ -323,6 +314,7 @@
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -332,7 +324,6 @@
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1707,7 +1698,7 @@
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1792,9 +1783,11 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1804,7 +1797,7 @@
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>

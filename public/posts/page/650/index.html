@@ -114,6 +114,28 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/2010-06-16_%E6%AD%BB%E3%81%AB%E9%8A%AD/" rel="bookmark">
+			死に銭
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>いや～。</p>
+<p>町県民税の請求が来ました。</p>
+<p>昨年の控除等差し引いた年収の１０％です。</p>
+<p>２０万円ぐらいの支払いです。</p>
+<p>仕事を辞めてから、６０万円ぐらいの支払いです。</p>
+<p>もろもろの生活費や自動車の修理代とかで、もう預金は０です。</p>
+<p>本当に国に殺されます。</p>
+<p>生活保護を申請しなくちゃいけなくなるのは、国の所為ですよ。</p>
+<p>まったく。</p>
+<p>所得税とあわせると年間１００万円ぐらい払っていることになるでしょうか。</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/2010-06-15_%E3%82%80%E3%81%8F%E3%81%BF%E3%81%8C/" rel="bookmark">
 			むくみが
 			</a>
@@ -178,12 +200,6 @@
 を取得しています。</p>
 <p>LANを通して、リモート再生、メディアサーバーからの再生、Webブラウザコントロールが利用できます。</p>
 <p>これまでメディアサーバー機能、Webブラウザコントロールは使っていましたが、リモート再生は使ったことがなかったです。</p>
-<p>Windows Media Playerで再生可能なオーディオファイルを、Windows上で選んで「リモート再生」をクリックすると、</p>
-<p><a href="/img/t02200300_0348047510586094760.png"><img src="/img/t02200300_0348047510586094760.png" alt=""></a></p>
-<p>こんな画面が出てAVアンプから音が出てきます。</p>
-<p>オーディオファイルをストリーミングとしてAVアンプの送出し、AVアンプ側でデコードして再生するものです。</p>
-<p>AVアンプの性能に頼るので、サウンドカードがしょぼかろうと高音質になります。</p>
-<p>最近ではONKYOのAVアンプも対応しているようです。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -198,31 +214,6 @@
 	<div class="content list__excerpt post__content clearfix">
 		<p>ちまたでは「カーネルミキサーで音が悪い」という話が流れてるんですが、これってKMixer.sysっていうもののことなんですが、Windows 7 / Windows VISTAには「ない」んですよね。</p>
 <p>そもそもSound / Audio device へのアクセス方法が完全に見直されて、XP以前の構造をしていないんです。</p>
-<p>XP以前の環境ではこのKMixer.sysを回避するためにASI4ALLを介して、deviceにアクセスしていたんですが、VISTA/7以降ではこのアクセスを禁止して、代わりに低レイテンシでのアクセスとしてWASAPIを用意したわけです。</p>
-<p>アプリケーションからは、<a href="http://msdn.microsoft.com/en-us/library/dd370784%28VS.85%29.aspx">Windows Core Audio API</a>
-を介してデバイスにアクセスします。</p>
-<p>このAPIの中にWASAPIがあります。</p>
-<p>このCore Audio API は、XP以前には搭載されることはありません。</p>
-<p>実際プログラミングの見地からいうと、</p>
-<p>VISTA / 7でサウンドを鳴らす限りKMixerを使うことはあり得ないということ。</p>
-<p>WASAPIを使ったプログラミングをしたからといって高音質になるとはいえないこと。</p>
-<p>ドライバの品質が音質に与える影響が大きいということ。</p>
-<p>もっとも重要なのはサウンドカードの品質。</p>
-<p>44.1khz/16bit から192khz/24bitにアップコンバートする時の音質は、どういったロジックによりどういった信号補間するかということです。</p>
-<p>リアルタイムにソフトウェアでアップコンバート？</p>
-<p>リアルタイムにハードウェアでアップコンバート？</p>
-<p>事前にソフトウェアでアップコンバート？</p>
-<p>どれでもいいんですよ。</p>
-<p>結局のところアップコーンバーとするときのロジックが重要なんですよね。</p>
-<p>もとの品質を超えた高音質はあり得ないので、どれくらいあり得ないデータを上手に作るかが、プログラマーやコンバーター設計者の腕の見せ所なのでしょう。</p>
-<p>それはフィルターと呼ばれるものですが、単純にハイビットサンプリングしただけではギザギザがたった聞き苦しいデータになるので、ノイズをあえて乗っけて聞きやすい波形データを作るということです。</p>
-<p>「音数が増える」とか「情報量が増える」とか、確かに増えるんですが、虚構です。</p>
-<p>聞く方は「高音質」ではなく、「好き」か「嫌い」でしかないということを前提に考えた方が正しいです。</p>
-<p>さて、事実を知っていればアップコンバート機能付きのDACに数百万円を払うのはばからしい話なのですが。</p>
-<p>私もその虚構に昔踊らされました。</p>
-<p>PS3のアップコンバート機能が流行った頃ですね。</p>
-<p>日本では（海外にはない）技術論よりも感情論、宗教のようなオーディオ趣向があるのでそれが変な思い込みを与えてました。</p>
-<p>日本は高度な技術屋とオカルト信者な消費者がいる不思議な国ですね。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -242,14 +233,6 @@
 <p>ドライバーをインストールして、再起動してもブルーバックにならず、安定。</p>
 <p>そのあとアプリケーションをぼちぼちとインストールして、バックアップデータからメールとブックマークと音楽ファイルとゲームの保存データをリストアして、完全性を確認して、問題なし。</p>
 <p>もともとWindows VISTAからのアップグレードだったので、いらないソフトも結構入っていたし、レジストリやフォルダ権限も新しくしました。</p>
-<p>んで、すこぶる調子よくなりました。</p>
-<p>壁紙をFF13のライトニングに換えたりして、利用環境を整えてます。</p>
-<p>再インストールついでに、久しぶりにAge of Empires 3をしました。</p>
-<p>おもしろいです。</p>
-<p>いいゲームです。</p>
-<p>さて目的のトラブル回避はちゃんとできました。</p>
-<p>グラフィックボードを入れ替えるときはOSを再インストールした方がいいみたいですね。</p>
-<p>かなり高度なOSですから、仕方ないのかな。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -269,22 +252,6 @@
 <p>ダージリンでもシンブーリ茶園が気に入ってます。</p>
 <p><a href="http://www.lupicia.com/html/ja/item/001/006/item5211.html">シンブーリ・スーパーファイン, 2010-DJ20</a></p>
 <p>[1002] SINGBULLI, SFTGFOP1 SUPER FINE 2010-DJ20</p>
-<p>SFTGFOP1ってどんな意味でしょうね。</p>
-<p><a href="http://www.lupicia.com/about/index.html">ルピシアのHP</a>
-に解説されています。</p>
-<p>OP＝Orange Pekoe（オレンジペコ）：枝先から2番目の小さな葉。<br>
-FOP＝Flowery Orange Pekoe（フラワリー・オレンジペコ）：枝先の貴重な新芽。<br>
-TGFOP＝Tippy Golden FOP：金色の新芽、ゴールデンチップスが含まれた上級品。<br>
-FTGFOP＝Finest TGFOP：ゴールデンチップスの多いTGFOPのさらに上級品。<br>
-SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
-<p>1：各グレード名の最後に「1」がつくのは、その農園の同グレードの最上級品。</p>
-<p>Special Finest Tippy Golden Flowery Orange Pekoe 1</p>
-<p>って事ですね。</p>
-<p>淹れ方は85-95度のお湯ですが、私は若干低めに淹れます。</p>
-<p>75-80度ぐらいかな。</p>
-<p>渋みが少なく甘みが増し、香りも乗ります。</p>
-<p>水質や気温、気分に併せて自分なりの淹れ方を研究してみてください。</p>
-<p>タルボ茶園は軽やかでフルーティーな味わいですが、これもいいですよ。</p>
 	</div>
 </article><article class="list__item post">
 	
@@ -322,38 +289,6 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 <p>「親切で礼儀正しい」は見せかけで、本質は「事なかれ主義」なのではないかと言うことなのです。</p>
 <p>隣の誰かを思いやってください。</p>
 <p>家族、知人、そしてどんな他人でも大切に思えば、人に暴力や屈辱を与える事件なと起きないはずです。</p>
-<p>目の前の不穏なことを事件になる前に、被害者が出る前に解決できるはずです。</p>
-<p>無関心は罪だと思います。</p>
-<p>遠くにいる皆さんが事件に遭わないように、被害者にならないように祈ることしか出来ないのが悔しいです。</p>
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2010-06-03_ax5670-512md5-h/" rel="bookmark">
-			AX5670 512MD5-H
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>グラフィックボードを買い換えました。</p>
-<p>AX5670 512MD5-H</p>
-<p>ATI RADEON HD5670を搭載した製品です。</p>
-<p>これまでnVIDIA GeForce8600GTを使ってましたが、A列車で行こう9をプレイするようになって、性能不足を感じてました。</p>
-<p>AMDのPhenomと780FXを使っているのでnVIDIAよりATIのほうが都合がよいので、ATIのGPUを選びました。</p>
-<p>気になる性能ですが、A列車ではGeForce8600GTに対して約2倍のFPSが出ています。</p>
-<p>プレイ中の動きももたつきが少なくて快適です。</p>
-<p>ハイエンドのカードには及びませんが、これで十分かな。</p>
-<p>追伸</p>
-<p>RADEON HD5670は、HDMIオーディオ出力に対応してます。</p>
-<p>音質はHDMIなのでデジタルオーディオですのでそれなりですが、ジッターの具合は分かりません。</p>
-<p>ただしWindows7 64bitでは、PCMの32kHz、44.1kHz、48kHzの16bitでしか出力できないようです。</p>
-<p>あとCyberlinkのPowerDVD9もしくはPowerDVD for Blue-rayではHDMIからDTSとDolbyのビットストリーム出力が出来るようです。</p>
-<p>PCMも48kHz 16bitまでだし、ビットストリームも必要ないので、これまで通りONKYOのSE-200PCI LTDを使います。</p>
-<p>これならPCMの192kHz 24bit出力が可能ですから。</p>
-<p><a href="http://ameblo.jp/yuki9902/entry-10744871000.html">2011/01/17</a></p>
-<p><a href="http://ameblo.jp/yuki9902/entry-10744871000.html">最新ドライバーでの状況です。</a></p>
 	</div>
 </article>
 </main>
@@ -377,6 +312,7 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-17-github-pages%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%82%92%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%81%B4actions%E3%81%AB%E5%AE%8C%E5%85%A8%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">GitHub Pagesのビルドをサーバー側（Actions）に完全移行してみた</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-15-cui%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%88%E3%81%86%E3%81%A0/">CUIが好きなようだ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-14-%E5%86%B7%E5%8D%B4%E4%B8%8D%E8%B6%B3/">冷却不足</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-13-backup%E3%82%92%E3%81%A8%E3%82%8A%E3%81%BE%E3%81%97%E3%82%87%E3%81%86/">バックアップをとりましょう</a></li>
@@ -386,7 +322,6 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-10-truenas_community/">XigmaNASからTrueNAS Community Editionへ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-05-comfyui_rocm7.2_rx9070xt_windows11pro-25h2/">ComfyUI/ROCm7.2/RX9070XT/Windows11Pro 25H2 - 2026/3/5</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-03-radeon-software-adrenaline-26.2.2/">RADEON Software Adrenaline 26.2.2</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/2026-03-01_yuki9902__blog/">yuki9902::blog</a></li>
 		</ul>
 	</div>
 </div>
@@ -1761,7 +1696,7 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
                     <ul style="padding-left: 20px; list-style: none;">
                         <li class="widget__item" style="margin: 5px 0;">
                             <a class="widget__link" href="/archives/2026-03/">
-                                03月 (10)
+                                03月 (11)
                             </a>
                         </li>
                         <li class="widget__item" style="margin: 5px 0;">
@@ -1846,9 +1781,11 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 		<a class="widget-taglist__link widget__link btn" href="/tags/elgato/" title="Elgato">Elgato</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/garuda-linux/" title="Garuda Linux">Garuda Linux</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gigabyte/" title="GIGABYTE">GIGABYTE</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitpage/" title="GITPAGE">GITPAGE</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/global-c-state/" title="Global C State">Global C State</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/lexus-is300h-version-l/" title="LEXUS IS300h Version L">LEXUS IS300h Version L</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="Multichannel">Multichannel</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/multichannel/" title="MULTICHANNEL">MULTICHANNEL</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nvme/" title="NVMe">NVMe</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pbo2/" title="PBO2">PBO2</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pentax/" title="PENTAX">PENTAX</a>
@@ -1858,7 +1795,7 @@ SFTGFOP＝Special FTGFOP：FTGFOPの中でも特例的な最上級品。</p>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rocm/" title="ROCm">ROCm</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx6750xt/" title="RX6750XT">RX6750XT</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rx9070xt/" title="RX9070XT">RX9070XT</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="RYZEN">RYZEN</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen/" title="Ryzen">Ryzen</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/ryzen-master/" title="Ryzen Master">Ryzen Master</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb-direct/" title="SMB Direct">SMB Direct</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/smb3/" title="SMB3">SMB3</a>
