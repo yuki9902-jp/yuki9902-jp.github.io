@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yuki9902-jp.github.io/sitemap.xml
