@@ -3,7 +3,7 @@ title: "GitHub Pagesのビルドをサーバー側（Actions）に完全移行�
 date: 2026-03-17T17:35:00+09:00
 archives: ["2026-03"]
 categories: ['COMPUTER']
-tags: ['HUGO','GITPAGE']
+tags: ['HUGO','GITHUBPAGE']
 ---
 
 ## hugoの使い方を簡潔に出来ないか
