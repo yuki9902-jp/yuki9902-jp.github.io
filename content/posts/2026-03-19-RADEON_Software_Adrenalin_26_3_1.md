@@ -1,9 +1,9 @@
 ---
 title: "RADEON Software Adrenaline 26.3.1"
-date: 2026-03-03T19:00:00+09:00
+date: 2026-03-20T17:00:00+09:00
 archives: ["2026-03"]
 categories: ['COMPUTER']
-tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
+tags: ['RADEON','RX9070XT','Adrenalin','ROCm','Windows11Pro']
 ---
 
 ### [AMD Software: Adrenalin Edition 26.3.1 Release Notes](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-3-1.html)
