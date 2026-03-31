@@ -15,6 +15,7 @@ tags: ['HUGO','GITHUBPAGE']
 時代は変わっていたんですね。ローカルでマークダウンファイルで記事を書いて、サーバーにアップロードしてビルドしてデプロイすれば良いというのが最近の推奨だったなんて。
 
 ## 手順
+
 1. GitHub設定の変更
 2. .github/workflows に hugo.ymlを作成
 3. ルートに.gitignoreを作成
@@ -30,6 +31,7 @@ tags: ['HUGO','GITHUBPAGE']
 すでに別のワークフロー「deploy.yaml」を作っていたのでそれを削除します。
 
 **hugo.yml**
+
 ~~~yaml hugo.yml {.copy}
 name: Deploy Hugo site to Pages
 
@@ -96,7 +98,7 @@ jobs:
     ~~~
 
 2. ルートで変更した内容をGitに送信
-    
+
     ~~~bash {.copy}
     # 1. 管理対象から外す
     git rm -r --cached public
@@ -108,6 +110,7 @@ jobs:
     ~~~
 
 ### 4. サブモジュールの実体化 (テーマフォルダ)
+
 この作業は、Github側で使用していたテーマ「mainroad」のリポジトリを参照しに行って、サーバー側でのビルド時に、テーマの中身（CSS等）がリンク切れで取得できなくなり、手前で変更したlayouts/の中身が反映されなくなったので、外部リポジトリ参照によるビルドエラーを回避するため対策を行いました。
 
 ~~~bash {.copy}
@@ -128,6 +131,7 @@ git push origin main --force
 記事をcontent/posts フォルダに入れたら、以下のコマンドを実行します。
 
 **publish.bat**
+
 ~~~BAT publish.bat {.copy}
 @echo off
 
@@ -148,4 +152,5 @@ pause
 ~~~
 
 ## 最後に
+
 あくまでもローカルにある物が「正」、ネット側にある物が「副」として考えて運用しています。それは他の人とは違うと思うので、参考になるかはわかりません。そもそも最初からGitHub側でbuildしてdeployするのが一般的らしいので、はじめから作成する人はそういう記事を探してみてください。

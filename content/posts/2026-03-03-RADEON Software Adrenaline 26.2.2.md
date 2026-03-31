@@ -5,8 +5,9 @@ archives: ["2026-03"]
 categories: ['COMPUTER']
 tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
+## AMD Software: Adrenaline Edition 26.2.2
 
-### [AMD Software: Adrenalin Edition 26.2.2 Release Notes](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-2.html)
+[AMD Software: Adrenalin Edition 26.2.2 Release Notes](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-2.html)
 
 AMD Software: Adrenaline Edition 26.2.2 が公開されています。
 

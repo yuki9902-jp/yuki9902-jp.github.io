@@ -33,42 +33,46 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 | HDD | TOSHIBA MN08ADA400E 4TB x2 |
 
 ## 4. 構築
+
 ### 1. インストールメディア
+
 - [TrueNAS](https://www.truenas.com/)からProductのTrueNAS Community Editionを選んでisoファイルをダウンロードする。
 - Balena EtcherからUSBメモリにダウンロードしたisoファイルを書き込む。
 
 ### 2. インストール
-- BIOSの設定
-    - Global C State Control : Disable
-    - UEFIブート
-    - HD Audio Device : Disable
 
-- USBメモリを差し込んで起動
-    - TrueNAS Installを選択
-    - インストール先にADATA SP900を選択
+1. BIOSの設定
+    1. Global C State Control : Disable
+    2. UEFIブート
+    3. HD Audio Device : Disable
+
+2. USBメモリを差し込んで起動
+    1. TrueNAS Installを選択
+    2. インストール先にADATA SP900を選択
 
 ### 3. ネットワーク設定
-- `1) Configure network interfaces`を選択
-    - IPv4、IPv6のDHCPをオフにする。
-    - Aliasを選び 192.168.11.11/24と192.168.22.22/24を設定する。
 
-- `2) Configure network settings`を選択
-    - DefaultGatewayに192.168.11.1を設定。
-    - DNSに192.168.11.1を設定。
-    - Host NameにSURVIVEを設定。
-    - Domain NameにYSを設定。
+1. `1) Configure network interfaces`を選択
+    1. IPv4、IPv6のDHCPをオフにする。
+    2. Aliasを選び 192.168.11.11/24と192.168.22.22/24を設定する。
+
+2. `2) Configure network settings`を選択
+    1. DefaultGatewayに192.168.11.1を設定。
+    2. DNSに192.168.11.1を設定。
+    3. Host NameにSURVIVEを設定。
+    4. Domain NameにYSを設定。
 
 ### 4. WebUIからのセットアップ
 
 ### 4-1. 基本設定
 
-- 「システム」の「一般的な設定」の「ローカライゼーション」の「設定」ボタンをクリック
-    - 言語 : Japanese
-    - キーボード : Japanese
-    - Time zone : Asia/Tokyo
+1. 「システム」の「一般的な設定」の「ローカライゼーション」の「設定」ボタンをクリック
+    1. 言語 : Japanese
+    2. キーボード : Japanese
+    3. Time zone : Asia/Tokyo
 
-- 「保存」をクリックする。
-    - 一項目ずつしか保存されない場合があります。再起動を繰り返しながら一項目ずつ設定してください。
+1. 「保存」をクリックする。
+    1. 一項目ずつしか保存されない場合があります。再起動を繰り返しながら一項目ずつ設定してください。
 
 ### 4-2. Poolの作成
 
@@ -96,25 +100,22 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 
 ### 4-4. 共有の設定
 
-- SMB
-    - NetBIOS名 - SURVIVE
-    - WORKGROUP - YS
-    - 詳細をクリックし、Multichannelのチェックボックスをオンにする。
-
-- SMBの設定を保存する。
-
-- 「共有」のSMBサービスに作成したデータセットが含まれているのを確認する。
-
-- 「システム」の「サービス」の「SMB」を開始し、「自動的に起動」をオンにする。
+1. SMB
+    1. NetBIOS名 - SURVIVE
+    2. WORKGROUP - YS
+    3. 詳細をクリックし、Multichannelのチェックボックスをオンにする。
+2. SMBの設定を保存する。
+3. 「共有」のSMBサービスに作成したデータセットが含まれているのを確認する。
+4. 「システム」の「サービス」の「SMB」を開始し、「自動的に起動」をオンにする。
 
 #### 4-5. 認証情報
 
-- 「ユーザー」をクリック
-- 「追加」をクリック 
-    - 「ユーザー名」を入力し
-    - 「SMBアクセス」にチェック
-    - 「パスワード」と「パスワードの確認」に入力
-- 「保存」をクリックする。
+1. 「ユーザー」をクリック
+2. 「追加」をクリック
+    1. 「ユーザー名」を入力し
+    2. 「SMBアクセス」にチェック
+    3. 「パスワード」と「パスワードの確認」に入力
+3. 「保存」をクリックする。
 
 ### 5. 接続確認
 
@@ -122,18 +123,20 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 2. ユーザー認証画面に4-5.で作成したユーザー名とパスワードを入力してログインする。
 3. Data_3TB、Data_4TBが表示され、フォルダにアクセス出来ていれば成功。
 4. マルチチャンネル接続の確認はWindows PowerShellを開いて以下のコマンド入力して確認。
-```PowerShell
-Get-SmbMultichannelConnection
-```
 
-コマンドの結果
-```
-Server Name   Selected Client IP      Server IP     Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable
------------   -------- ---------      ---------     ---------------------- ---------------------- ------------------ -------------------
-192.168.11.11 True     192.168.22.222 192.168.22.22 12                     3                      False              False
-192.168.11.11 True     192.168.11.156 192.168.11.11 7                      2                      False              False
-192.168.22.22 True     192.168.22.222 192.168.22.22 12                     3                      False              False
-192.168.22.22 True     192.168.11.156 192.168.11.11 7                      2                      False              False
-SURVIVE       True     192.168.22.222 192.168.22.22 12                     3                      False              False
-SURVIVE       True     192.168.11.156 192.168.11.11 7                      2                      False              False
-```
+    ```PowerShell
+    Get-SmbMultichannelConnection
+    ```
+
+    コマンドの結果
+
+    ```
+    Server Name   Selected Client IP      Server IP     Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable
+    -----------   -------- ---------      ---------     ---------------------- ---------------------- ------------------ -------------------
+    192.168.11.11 True     192.168.22.222 192.168.22.22 12                     3                      False              False
+    192.168.11.11 True     192.168.11.156 192.168.11.11 7                      2                      False              False
+    192.168.22.22 True     192.168.22.222 192.168.22.22 12                     3                      False              False
+    192.168.22.22 True     192.168.11.156 192.168.11.11 7                      2                      False              False
+    SURVIVE       True     192.168.22.222 192.168.22.22 12                     3                      False              False
+    SURVIVE       True     192.168.11.156 192.168.11.11 7                      2                      False              False
+    ```

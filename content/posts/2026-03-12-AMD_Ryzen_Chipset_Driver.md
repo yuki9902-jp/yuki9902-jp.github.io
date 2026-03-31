@@ -6,12 +6,8 @@ categories: ['COMPUTER']
 tags: ['AMD','AM5']
 ---
 
+## AMD Ryzen Chipset Driver 80.02.18.557 リリース
+
 [AMD Ryzen™ Chipset Driver Release Notes 8.02.18.557](https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-02-18-557.html)
 
-### AMD Ryzen Chipset Driver 80.02.18.557 リリース
-
 詳しくは上のリリースノートを見てください。主にバグの修正です。
-
-
-
-

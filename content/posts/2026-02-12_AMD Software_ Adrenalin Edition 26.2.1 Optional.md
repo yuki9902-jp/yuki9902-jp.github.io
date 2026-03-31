@@ -7,7 +7,9 @@ categories: ['COMPUTER']
 tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
 
-### [AMD Software: Adrenalin Edition 26.2.1 Optional Update](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-1.html)
+## AMD Software: Adrenalin Edition 26.2.1 Optional Update
+
+[AMD Software: Adrenalin Edition 26.2.1 Optional Update](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-2-1.html)
 
 AMD Software: Adrenalin Edition 26.2.1 Optional Updateがリリースされました。
 

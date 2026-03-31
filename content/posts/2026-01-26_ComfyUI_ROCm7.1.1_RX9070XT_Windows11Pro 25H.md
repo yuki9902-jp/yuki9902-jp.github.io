@@ -42,28 +42,33 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ### 3. インストール手順
 
-**ステップ1：AI Bundle対応ドライバの導入**
+#### ステップ1：AI Bundle対応ドライバの導入
 
 [AMD公式サイト]より **Adrenalin 26.1.1** 以降をダウンロードします。
 
 1. インストール時のカスタムオプション、または追加コンポーネント選択で **「AI Bundle」** にチェックを入れます。
 2. これにより、**ROCm 7.1.1、PyTorch、およびComfyUIのベース環境**がシステムと隔離された形で自動インストールされます。
 
-#### **ステップ2：Git版ComfyUIのセットアップ（詳細制御したい場合）**
+#### ステップ2：Git版ComfyUIのセットアップ（詳細制御したい場合）**
 
 [AMD ROCm Software for Radeon and Ryzen](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/index.html) ドライバに同梱されているROCmのバージョンを確認してください。このリンクは7.1.1です。
 
 1. [Install PyTorch via PIP](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/install/installrad/windows/install-pytorch.html#install-pytorch-via-pip) に従いPyTorchをインストールします。
 2. [Install ComfyUI](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/advanced/advancedrad/windows/comfyui/installcomfyui.html#install-comfyui) に従いComfyUIをインストールします。  
    ComfyUIをGitから取得してください  
+
    ```bash {.copy}
    git clone https://github.com/comfyanonymous/ComfyUI.git
    ```
+
    カレントフォルダを移動します。  
+
    ```bash {.copy}
    cd \ComfyUI
    ```
+
    以下を入力し、インストールしてください。  
+
    ```bash {.copy}
    pip install -r requirements.txt
    ```
