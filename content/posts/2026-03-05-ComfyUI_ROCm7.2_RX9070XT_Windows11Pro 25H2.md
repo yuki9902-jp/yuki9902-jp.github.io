@@ -220,9 +220,9 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 3. 解凍したフォルダの中身をすべて、`D:\ComfyUI\python_embeded` にコピーします。
 4. `D:\ComfyUI\python_embeded\python312._pth` をテキストエディタで開き以下のように編集します。
 
-    ****python312._pth****
+    **python312._pth**
 
-    ```text python312._pth {.copy}
+    ```text
     python312.zip
     .
     # 下記を追記（Lib\site-packagesを認識させるため）
@@ -235,9 +235,9 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 
 起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。
 
-#### start.bat
+**start.bat**
 
-```bat start.bat {.copy}
+```bat
 @echo off
 setlocal
 :: システムのPythonやライブラリを無視させる
@@ -250,9 +250,9 @@ python main.py
 
  実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。
 
-#### ComfyUI_Date.bat
+**ComfyUI_Date.bat**
 
-```bat ComfyUI_Date.bat {.copy}
+```bat
 @echo off
 setlocal
 
@@ -295,7 +295,7 @@ endlocal
 
 ## 5.過去の環境との比較
 
-****条件**** SDXL学習済みモデル、1080x1528画像、42ステップ、モデルを使ったアップスケールで4倍（4000x6000）に拡大
+**条件** SDXL学習済みモデル、1080x1528画像、42ステップ、モデルを使ったアップスケールで4倍（4000x6000）に拡大
 
 | GPU | AI | Time (s) |
 | --- | --- | --- |

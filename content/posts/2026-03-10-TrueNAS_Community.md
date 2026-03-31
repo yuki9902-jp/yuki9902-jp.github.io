@@ -36,8 +36,8 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 
 ### 1. インストールメディア
 
-- [TrueNAS](https://www.truenas.com/)からProductのTrueNAS Community Editionを選んでisoファイルをダウンロードする。
-- Balena EtcherからUSBメモリにダウンロードしたisoファイルを書き込む。
+1. [TrueNAS](https://www.truenas.com/)からProductのTrueNAS Community Editionを選んでisoファイルをダウンロードする。
+2. Balena EtcherからUSBメモリにダウンロードしたisoファイルを書き込む。
 
 ### 2. インストール
 
@@ -64,7 +64,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 
 ### 4. WebUIからのセットアップ
 
-### 4-1. 基本設定
+#### 4-1. 基本設定
 
 1. 「システム」の「一般的な設定」の「ローカライゼーション」の「設定」ボタンをクリック
     1. 言語 : Japanese
@@ -74,7 +74,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 1. 「保存」をクリックする。
     1. 一項目ずつしか保存されない場合があります。再起動を繰り返しながら一項目ずつ設定してください。
 
-### 4-2. Poolの作成
+#### 4-2. Poolの作成
 
 1. Pool_3TB (3TBミラー)
     1. ストレージダッシュボードの「プールの作成」ボタンをクリック。
@@ -88,7 +88,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
     3. Mirrorを選択、ストレージは4TB HDDを選択。
     4. 6項目目Cacheにストレージ NVMe 500GBを選択。
 
-### 4-3. DataSetの作成
+#### 4-3. DataSetの作成
 
 1. Pool_3TBを選んで「データセットを追加」をクリックする。
     1. データセット名を「Data_3TB」にし、「データセットのプリセット」を「SMB」にする。
@@ -98,7 +98,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
     1. データセット名を「Data_4TB」にし、「データセットのプリセット」を「SMB」にする。
     2. 「保存」をクリックする。
 
-### 4-4. 共有の設定
+#### 4-4. 共有の設定
 
 1. SMB
     1. NetBIOS名 - SURVIVE
@@ -130,7 +130,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 
     コマンドの結果
 
-    ```
+    ```CMD
     Server Name   Selected Client IP      Server IP     Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable
     -----------   -------- ---------      ---------     ---------------------- ---------------------- ------------------ -------------------
     192.168.11.11 True     192.168.22.222 192.168.22.22 12                     3                      False              False

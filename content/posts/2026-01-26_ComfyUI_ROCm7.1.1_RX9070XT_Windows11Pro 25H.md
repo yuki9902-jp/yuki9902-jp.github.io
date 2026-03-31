@@ -57,19 +57,19 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 2. [Install ComfyUI](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/docs/advanced/advancedrad/windows/comfyui/installcomfyui.html#install-comfyui) に従いComfyUIをインストールします。  
    ComfyUIをGitから取得してください  
 
-   ```bash {.copy}
+   ```cmd
    git clone https://github.com/comfyanonymous/ComfyUI.git
    ```
 
    カレントフォルダを移動します。  
 
-   ```bash {.copy}
+   ```cmd
    cd \ComfyUI
    ```
 
    以下を入力し、インストールしてください。  
 
-   ```bash {.copy}
+   ```cmd
    pip install -r requirements.txt
    ```
 
