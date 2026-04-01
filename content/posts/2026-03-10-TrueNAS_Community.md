@@ -130,7 +130,7 @@ TrueNAS Coreが終了したのでXigmaNASに乗り換えましたが、セット
 
     コマンドの結果
 
-    ```CMD
+    ```PowerShell
     Server Name   Selected Client IP      Server IP     Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable
     -----------   -------- ---------      ---------     ---------------------- ---------------------- ------------------ -------------------
     192.168.11.11 True     192.168.22.222 192.168.22.22 12                     3                      False              False

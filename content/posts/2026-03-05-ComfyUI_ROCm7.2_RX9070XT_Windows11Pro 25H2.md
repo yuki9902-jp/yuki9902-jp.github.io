@@ -87,7 +87,7 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
 
     1. ROCm環境を設定するコマンドを入力します。
 
-       ```bash {.copy}
+       ```shell
         pip install --no-cache-dir ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_core-7.2.0.dev0-py3-none-win_amd64.whl ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/rocm_sdk_devel-7.2.0.dev0-py3-none-win_amd64.whl ^
@@ -97,7 +97,7 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
 
     2. ROCm AMD GPUをサポートしたtorch、torchvision、torchaudioをインストールします。
 
-       ```bash {.copy}
+       ```shell
         pip install --no-cache-dir ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torch-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
             https://repo.radeon.com/rocm/windows/rocm-rel-7.2/torchaudio-2.9.1%2Brocmsdk20260116-cp312-cp312-win_amd64.whl ^
@@ -107,25 +107,25 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
     3. PyTorchのインストールを確認します。
         1. PyTorchのインストールを確認します。
 
-            ```bash {.copy}
+            ```shell
             python -c "import torch" 2>nul && echo Success || echo Failure
             ```
 
         2. GPUが利用可能か調べます。
 
-            ```bash {.copy}
+            ```shell
             python -c "import torch; print(torch.cuda.is_available())"
             ```
 
         3. インストールされたGPUデバイス名を表示します。
 
-            ```bash {.copy}
+            ```shell
             python -c "import torch; print(f'device name [0]:', torch.cuda.get_device_name(0))"
             ```
 
         4. 現在のPyTorch環境内でコンポーネント情報を表示します。
 
-            ```bash {.copy}
+            ```shell
             python -m torch.utils.collect_env
             ```
 
@@ -133,31 +133,31 @@ Adrenaline 26.2.2をインストールするときに一緒にインストール
 
     1. 管理者権限でコマンドプロンプトを起動し、カレントフォルダーをインストールしたい一つ上のフォルダに移動します。
 
-        ```bash {.copy}
+        ```shell
         D:
         ```
 
     2. ComfyUIをGitから取得してください。
 
-        ```bash {.copy}
+        ```bash
         git clone https://github.com/comfyanonymous/ComfyUI.git
         ```
 
     3. カレントフォルダを移動します。  
 
-        ```bash {.copy}
+        ```shell
         cd \ComfyUI
         ```
 
     4. 以下を入力し、インストールしてください。  
 
-        ```bash {.copy}
+        ```shell
         pip install -r requirements.txt
         ```
 
     5. ComfyUIを起動します。
 
-        ```bash {.copy}
+        ```shell
         python main.py
         ```
 
@@ -177,7 +177,7 @@ GUIが優秀で使いやすいため、これで学習済みモデルを一元�
 
    ****extra_model_paths.yaml****
 
-    ```yaml extra_model_paths.yaml {.copy}
+    ```yaml
     stability_matrix:
     base_path: D:\SM\Data\Models\
     checkpoints: StableDiffusion
@@ -222,7 +222,7 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 
     **python312._pth**
 
-    ```text
+    ```ini
     python312.zip
     .
     # 下記を追記（Lib\site-packagesを認識させるため）
