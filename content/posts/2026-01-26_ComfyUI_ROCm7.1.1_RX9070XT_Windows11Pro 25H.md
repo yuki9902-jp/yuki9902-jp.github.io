@@ -7,7 +7,7 @@ categories: ['COMPUTER']
 tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
 
-### 1. はじめに
+## 1. はじめに
 
 2025年末から2026年1月にかけて、AMDユーザー待望のAI環境がかなり整いました。**Radeon Software:Adrenaline 25.20.01.17 with ROCm7.1.1 Pytorch** の公開と、さらに2026年1月21日に公開された **AMD Software: Adrenalin 26.1.1 AIbundle** により、Windowsネイティブ環境でのAI生成（ComfyUI）が、かなり簡単になりました。（注意：Ollamaの設定は難しいままです。）
 
@@ -15,7 +15,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ---
 
-### 2. 構築環境（2026年1月時点）
+## 2. 構築環境（2026年1月時点）
 
 最新のRDNA 4アーキテクチャとROCm 7.xを活かすための構成です。
 
@@ -27,11 +27,11 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | **OS** | **Windows 11 Pro 25H2** |
 | **Driver** | **Adrenalin 26.1.1 (AI Bundle同梱版)** |
 
-#### **【重要】メモリの最低要件**
+### **【重要】メモリの最低要件**
 
 メモリ高騰の中、非常に苦しい要件ですが、メインメモリは32GBを用意してください。最新の巨大なAIモデル（FLUX.1等）を扱う場合、16GB環境ではモデルのロード時や高解像度化の際にプロセスが強制終了（クラッシュ）する事例が多発しています。安定運用のための「実用上の最低ライン」として32GB以上を推奨しています。
 
-#### **【重要】UEFI（BIOS）設定**
+### **【重要】UEFI（BIOS）設定**
 
 導入前に必ず以下が「Enable（有効）」であることを確認してください。これらがオフだと、AI処理のパフォーマンスが著しく低下、または起動しません。
 
@@ -40,16 +40,16 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ---
 
-### 3. インストール手順
+## 3. インストール手順
 
-#### ステップ1：AI Bundle対応ドライバの導入
+### ステップ1：AI Bundle対応ドライバの導入
 
 [AMD公式サイト]より **Adrenalin 26.1.1** 以降をダウンロードします。
 
 1. インストール時のカスタムオプション、または追加コンポーネント選択で **「AI Bundle」** にチェックを入れます。
 2. これにより、**ROCm 7.1.1、PyTorch、およびComfyUIのベース環境**がシステムと隔離された形で自動インストールされます。
 
-#### ステップ2：Git版ComfyUIのセットアップ（詳細制御したい場合）**
+### ステップ2：Git版ComfyUIのセットアップ（詳細制御したい場合）**
 
 [AMD ROCm Software for Radeon and Ryzen](https://rocm.docs.amd.com/projects/radeon-ryzen/en/docs-7.1.1/index.html) ドライバに同梱されているROCmのバージョンを確認してください。このリンクは7.1.1です。
 
@@ -75,7 +75,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ---
 
-### 4. モデル管理の最適化（Stability Matrixとの連携）
+## 4. モデル管理の最適化（Stability Matrixとの連携）
 
 複数のUI（Stable Diffusion web UI / Amuse等）を併用する場合、モデルデータの重複はSSDを圧迫します。
 
@@ -90,14 +90,14 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ---
 
-### 5. 以前の環境との比較
+## 5. 以前の環境との比較
 
 前環境では、RYZEN 9 5900XTおよびRYZEN 7 5800Xとメモリ64GB、RADEON RX6750XTに、ComfyUI-ZLUDAを苦労してインストールして運用していました。SDXLの学習済みモデルを使い42ステップで1080\*1528の元画像作成し、モデルを使ったアップスケーリングで4000\*6000相当の画像を作成するのに300秒強を要していました。  
 現環境のRYZEN 9 9950X3D、メモリ64GB、RADEON RX 9070XTに、ROCm7.1.1とComfyUIの運用では、同じ条件の画像作成で95秒と約3分の1に時間を短縮できています。特にGPUの世代と性能が大きく寄与しています。今後の環境構築の参考にしてください。
 
 ---
 
-### 6. おわりに
+## 6. おわりに
 
 長らくAMD RADEONでAIは敷居が高かったのですが、RX 9070 XTとAdrenaline 26.1.1ドライバの登場で、非常に簡単になりました。手前の環境の**ASUS TUFモデル** や、他社の**Taichiモデル** のような大きなヒートシンクと強力なファンの冷却機構を持つボードでは、長時間の生成でもホットスポット温度が安定しやすく、ComfyUIを安心して長時間使うことができます。
 

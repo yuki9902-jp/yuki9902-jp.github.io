@@ -31,7 +31,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | Chipset Driver | AMD Chipset Drivers 8.01.20.513 |
 | GPU Driver | AMD Software: Adrenalin 26.2.2 (WHQL Recommended) |
 | Interpreter | Python 3.12.10 Windows installer (64-bit) |
-| Interpreter | Python 3.12.10 Windows embeddable package (64-bit)|
+| Interpreter | Python 3.12.10 Windows embeddable package (64-bit) |
 | AI Suite | Stability Matrix |
 | AI Generator | ComfyUI (Git) |
 
@@ -57,7 +57,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ### Chipset Driver
 
-[AMD Ryzen™ Chipset Driver Release Notes 8.01.20.513 ](https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-01-20-513.html)
+[AMD Ryzen™ Chipset Driver Release Notes 8.01.20.513](https://www.amd.com/en/resources/support-articles/release-notes/RN-RYZEN-CHIPSET-8-01-20-513.html)
 
 上記のリンクからダウンロードし、インストールしたらPCを再起動します。
 
@@ -220,7 +220,7 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 3. 解凍したフォルダの中身をすべて、`D:\ComfyUI\python_embeded` にコピーします。
 4. `D:\ComfyUI\python_embeded\python312._pth` をテキストエディタで開き以下のように編集します。
 
-    **python312._pth**
+    python312._pth
 
     ```ini
     python312.zip
@@ -235,7 +235,7 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 
 起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。
 
-**start.bat**
+start.bat
 
 ```bat
 @echo off
@@ -250,7 +250,7 @@ python main.py
 
  実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。
 
-**ComfyUI_Date.bat**
+ComfyUI_Date.bat
 
 ```bat
 @echo off
