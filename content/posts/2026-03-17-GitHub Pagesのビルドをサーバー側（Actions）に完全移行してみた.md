@@ -28,9 +28,9 @@ tags: ['HUGO','GITHUBPAGE']
 
 ### 2. .github/workflowsディレクトリにhugo.ymlを作成
 
-  すでに別のワークフロー「deploy.yaml」を作っていたのでそれを削除します。
+すでに別のワークフロー「deploy.yaml」を作っていたのでそれを削除します。
 
-hugo.yml
+#### hugo.yml
 
 ~~~yaml
 name: Deploy Hugo site to Pages
@@ -91,7 +91,7 @@ jobs:
 
 1. 除外するディレクトリ「`public/`」を記述します。以後、`public/`に、htmlファイルを`push`しないようにします。
 
-    .gitignore
+   #### .gitignore
 
     ~~~ini
     public/
@@ -99,7 +99,7 @@ jobs:
 
 2. ルートで変更した内容をGitに送信
   
-    cmd.exe、もしくはPowerShell
+   #### cmd.exe、もしくはPowerShell
 
     ~~~shell
     # 1. 管理対象から外す
@@ -115,26 +115,26 @@ jobs:
 
 この作業は、Github側で使用していたテーマ「mainroad」のリポジトリを参照しに行って、サーバー側でのビルド時に、テーマの中身（CSS等）がリンク切れで取得できなくなり、手前で変更したlayouts/の中身が反映されなくなったので、外部リポジトリ参照によるビルドエラーを回避するため対策を行いました。
 
-cmd.exe、もしくはPowerShell
+  cmd.exe、もしくはPowerShell
 
-~~~shell
-# 1. 念のため、Gitのインデックス（登録情報）から一旦外す
-git rm -r --cached themes/mainroad
-# 2. 改めて、中身が詰まったフォルダとして追加し直す
-git add themes/mainroad
-# 3. すべての更新を挙げる
-git add .
-# 4. 変更を確定する
-git commit -m "Ensure theme files are tracked as real files"
-# 5. 強制的に送り込む
-git push origin main --force
-~~~
+  ~~~shell
+  # 1. 念のため、Gitのインデックス（登録情報）から一旦外す
+  git rm -r --cached themes/mainroad
+  # 2. 改めて、中身が詰まったフォルダとして追加し直す
+  git add themes/mainroad
+  # 3. すべての更新を挙げる
+  git add .
+  # 4. 変更を確定する
+  git commit -m "Ensure theme files are tracked as real files"
+  # 5. 強制的に送り込む
+  git push origin main --force
+  ~~~
 
 ### 5. 記事投稿時のgitコマンド
 
 記事をcontent/posts フォルダに入れたら、以下のコマンドを実行します。
 
-publish.bat
+#### publish.bat
 
 ~~~bat
 @echo off

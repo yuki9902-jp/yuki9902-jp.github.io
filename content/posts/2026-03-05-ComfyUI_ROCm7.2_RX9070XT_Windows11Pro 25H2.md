@@ -175,7 +175,7 @@ GUIが優秀で使いやすいため、これで学習済みモデルを一元�
 6. StabilityMatrix上のComfyUIは必要ないのでアンインストールします。
 7. extra_model_paths.yamlの内容を編集します。
 
-   ****extra_model_paths.yaml****
+   #### extra_model_paths.yaml
 
     ```yaml
     stability_matrix:
@@ -235,7 +235,7 @@ AMDの公式の手順ではROCm7.xの実行にはvenv仮想環境を使わない
 
 起動用のバッチファイルにエンベデッド版Pythonを読み込むために追記します。
 
-start.bat
+#### start.bat
 
 ```bat
 @echo off
@@ -250,7 +250,7 @@ python main.py
 
  実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。
 
-ComfyUI_Date.bat
+#### ComfyUI_Date.bat
 
 ```bat
 @echo off
