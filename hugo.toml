@@ -31,11 +31,6 @@ defaultContentLanguage = 'ja'
     weight = 1
 
  [[menu.main]]
-    name = "Search"
-    url = "/search/"
-    weight = 2
-
- [[menu.main]]
     name = "Chronicle"
     url = "/chronicle-layout/"
     weight = 2
