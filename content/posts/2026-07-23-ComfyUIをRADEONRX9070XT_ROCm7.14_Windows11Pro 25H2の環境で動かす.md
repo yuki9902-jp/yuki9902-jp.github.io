@@ -40,7 +40,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 以下はメインメモリとVRAMのやりとりをスムーズにするため必須です。
 
 - Avobe 4G Decoding : Enable
-- ReSizable BAR : Enbale
+- ReSizable BAR : Enable
 
 以下はWHEA-Logger ID:18とCPU焼損対策です。 (OCと省電力機能を無効)
 
@@ -152,7 +152,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 GUIが優秀で使いやすいため、これで学習済みモデルを一元管理するためにインストールします。
 
-1. [Stabiolity Matrix](https://lykos.ai/downloads)をダウンロードし任意のフルダーで解凍します。
+1. [Stability Matrix](https://lykos.ai/downloads)をダウンロードし任意のフルダーで解凍します。
 2. DドライブにSMフォルダー（任意ですが、マルチバイト文字や空白が含まれると不整合の対策に悩まされる）を作成し、解凍したStabilityMatrix.exeを入れます。
 3. StabilityMatrix.exeをダブルクリックし起動します。
 4. StabilityMatrix上で、ComfyUI（ComfyUI-ZLUDAじゃないほう）をインストールします。
@@ -216,8 +216,7 @@ rem Create the folder with the name yyyymmdd
 set outpath=%parentPath%\%yyyymmdd%
     
 rem --- ROCm / PyTorch 最適化設定 ---
-SET PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.6
-SET PYTORCH_HIP_ALLOC_CONF=expandable_segments:True
+SET PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.6,expandable_segments:True
 SET ROCM_ENABLE_PREFETCH=1
     
 rem フォルダが存在しない場合のみ作成
