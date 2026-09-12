@@ -28,7 +28,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | Software | Product |
 | --- | --- |
 | OS | Microsoft Windows 11 Pro 25H2 |
-| Chipset Driver | AMD Chipset Drivers 8.01.20.513 |
+| Chipset Driver | AMD Chipset Drivers 8.08.12.551 |
 | GPU Driver | AMD Software: Adrenalin 26.6.4 (WHQL Recommended) |
 | Interpreter | Python 3.12.10 Windows installer (64-bit) |
 | Interpreter | Python 3.12.10 Windows embeddable package (64-bit) |
