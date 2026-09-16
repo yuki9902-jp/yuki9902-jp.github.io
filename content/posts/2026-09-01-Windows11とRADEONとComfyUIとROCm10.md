@@ -29,9 +29,8 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | --- | --- |
 | OS | Microsoft Windows 11 Pro 25H2 |
 | Chipset Driver | AMD Chipset Drivers 8.08.12.551 |
-| GPU Driver | AMD Software: Adrenalin 26.6.4 (WHQL Recommended) |
-| Interpreter | Python 3.12.10 Windows installer (64-bit) |
-| Interpreter | Python 3.12.10 Windows embeddable package (64-bit) |
+| GPU Driver | AMD Software: Adrenalin 26.8.1 (WHQL Recommended) |
+| Interpreter | Python 3.13.15 Windows installer (64-bit) |
 | AI Suite | Stability Matrix |
 | AI Generator | ComfyUI (Git) |
 
@@ -57,9 +56,9 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 上記のリンクからダウンロードし、インストールしたら念のためPCを再起動します。
 
-### Python 3.12.10
+### Python 3.13.15
 
-[Python 3.12.10](https://www.python.org/downloads/release/python-31210/)をダウンロードしてインストールします。
+[Python 3.13.15](https://www.python.org/downloads/release/python-31315/)をダウンロードしてインストールします。
 
 ### ROCm10.0.0
 
@@ -93,7 +92,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
     2. Pythonの仮想環境を設定します。
 
         ```shell
-        py -3.12 -m venv .venv
+        py -3.13 -m venv .venv
         ```
 
     3. .venvを有効化します。
@@ -123,7 +122,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
     2. Pythonの仮想環境を設定します。
 
         ```shell
-        py -3.12 -m venv .venv
+        py -3.13 -m venv .venv
         ```
 
     3. .venvを有効化します。
@@ -289,7 +288,7 @@ endlocal
 | --- | --- | --- |
 | ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm7.2.1 | 15 |
 | ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm7.14 | 15 |
-| ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm10.0.0 | 15 |
+| ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm10.0.0 | 14 |
 
 Windowsネイティブ環境で、かなり良い感じで生成できます。GeForce環境がないので比較はしたことありませんが、そこそこいけるレベルではないでしょうか。
 
