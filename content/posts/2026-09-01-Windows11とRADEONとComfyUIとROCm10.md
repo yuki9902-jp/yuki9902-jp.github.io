@@ -7,7 +7,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 ---
 ## 1.始めに
 
-2026/08/26にAMDからROCm10.0.0がリリースされました。ROCm10.0.0の動作要件は、AMD RadeonのドライバースイートであるAMD Software: Adrenaline Edition 26.6.4 (WHQL Recommended)です。
+2026/08/26にAMDからROCm10.0.0がリリースされました。ROCm10.0.0の動作要件は、AMD RadeonのドライバースイートであるAMD Software: Adrenaline Edition 26.8.1 (WHQL Recommended)です。
 既にROCm7.14とROCm7.2.1での環境を作っていますが、ROCm7.14はアンインストールしてください。
 
 ## 2.環境
@@ -53,7 +53,7 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 
 ### GPU Driver
 
-#### [AMD Software: Adrenalin Edition 26.6.4 Driver Release Notes](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-6-4.html)
+#### [AMD Software: Adrenalin Edition 26.8.1 Driver Release Notes](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-8-1.html)
 
 上記のリンクからダウンロードし、インストールしたら念のためPCを再起動します。
 
