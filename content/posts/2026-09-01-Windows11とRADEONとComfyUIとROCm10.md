@@ -241,7 +241,9 @@ GUIが使いやすいため、これで学習済みモデルを一元管理す�
 
 ### 起動用バッチファイル
 
-実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。
+1. 実用例として起動時の日付で出力先フォルダに日付フォルダを作成します。
+2. 起動オプションとして、「--enable-dynamic-vram」を設定します。ROCm7.14以降で対応しています。
+3. 起動オプションとして、「--enable-manager」を設定します。事前にComfyUI-Managerのインストールが必要です。
 
 #### ComfyUI_Date.bat
 
@@ -271,7 +273,7 @@ D:
 call D:\.venv\Scripts\activate.bat
 cd D:\ComfyUI
     
-python main.py --output-directory %outpath% --preview-method none --reserve-vram 0.0 --cache-lru 8 --use-pytorch-cross-attention
+python main.py --output-directory %outpath% --preview-method none --enable-dynamic-vram --cache-lru 64 --use-pytorch-cross-attention --enable-manager
 endlocal
 ```
 
@@ -280,15 +282,16 @@ endlocal
 1. Stability Matrixで使いたい学習済みモデルをダウンロードしてください。
 2. ComfyUIを起動して、先ほどダウンロードした学習済みモデルが表示されれば成功です。
 
-## 5.過去の環境との比較
+## 5.同環境でのバーションの比較
 
+**環境** AMD RYZEN 9 9950X3D / ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6
 **条件** SDXL学習済みモデル、1080x1528画像、30ステップ
 
-| GPU | AI | Time (s) |
+| AI | Time (s) | 起動オプション |
 | --- | --- | --- |
-| ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm7.2.1 | 15 |
-| ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm7.14 | 15 |
-| ASUS TUF Gaming Radeon RX 9070 XT OC Edition 16GB GDDR6 | ComfyUI + ROCm10.0.0 | 14 |
+| ComfyUI + ROCm7.2.1 | 15 | |
+| ComfyUI + ROCm7.14 | 15 | |
+| ComfyUI + ROCm10.0.0 | 13 | --enable-dynamic-vram |
 
 Windowsネイティブ環境で、かなり良い感じで生成できます。GeForce環境がないので比較はしたことありませんが、そこそこいけるレベルではないでしょうか。
 
