@@ -29,18 +29,14 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 | --- | --- |
 | OS | Microsoft Windows 11 Pro 26H2 |
 | Chipset Driver | AMD Chipset Drivers 8.08.12.551 |
-| GPU Driver | AMD Software: Adrenalin 26.9.2 Optional (WHQL Recommended) |
+| GPU Driver | **AMD Software: Adrenalin 26.9.2 Optional (WHQL Recommended)** |
 | Interpreter | Python 3.13.15 Windows installer (64-bit) |
 | AI Suite | Stability Matrix |
 | AI Generator | ComfyUI (Git) |
 
-#### NOTE
+#### ディスプレイドライバに関する注意点
 
-AMDドライバの入手先に関する注意点
-
-ROCm 10.1.0が要求するAMD Software: Adrenalin Edition 26.10.41.05は、AMDの通常の公式サポート・ドライバダウンロードページからは直接検索・取得できない場合があります。その代わり、ROCm 10.1.0の公式インストールガイド（ドキュメント）内から直接リンクされている専用の配布ページからダウンロードする形になります。通常ページに見当たらない場合は、ROCmのドキュメントに記載されているリンクを確認してください。
-
-本記事ではこのバージョンより新しい Adrenaline Edition 26.9.2 Optionalをインストールしています。
+ROCm 10.1.0の要件、ディスプレイドライバーのバージョンはAMD Software: Adrenalin Edition 26.10.41.05以降ですが、26.10.41.05は、AMDの通常の公式サポート・ドライバダウンロードページからは直接検索・取得できません。AMDが公開しているROCm 10.1.0のインストールガイド（ドキュメント）内から直接リンクされている専用の配布ページからダウンロードする事が出来ます。26.10.41.05を導入する場合は、ROCmのドキュメントに記載されているリンクを確認してください。但し、本記事ではこのバージョンより新しい Adrenaline Edition 26.9.2 Optionalをインストールしています。
 
 ### BIOS (UEFI)
 
