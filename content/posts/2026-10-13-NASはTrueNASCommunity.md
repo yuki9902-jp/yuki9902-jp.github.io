@@ -1,6 +1,6 @@
 ---
 title: "NASはTrueNAS Community"
-date: 2026-10-135T13:00:00+09:00
+date: 2026-10-13T13:00:00+09:00
 archives: ["2026-10"]
 categories: ['COMPUTER']
 tags: ['AMD','RYZEN','TrueNAS Community']
@@ -55,7 +55,7 @@ tags: ['AMD','RYZEN','TrueNAS Community']
 | 堅牢性 | ◎ | ◎ | ◎ |
 | セキュリティー | ◎ | △ | ○ |
 | 運用性 | ◎ | × | ◎ |
-| **FileSystem** | 記憶域プール & NTFS / ReFS | XFS | XFS |
+| **FileSystem** | 記憶域プール & NTFS / ReFS | ZFS | ZFS |
 | 堅牢性 | NTFS:× / ReFS:○ | ◎ | ◎ |
 | 運用性 | △ (PowerShell必須) | △ | ◎ |
 | 速度 | △ | ◎ | ◎ |
