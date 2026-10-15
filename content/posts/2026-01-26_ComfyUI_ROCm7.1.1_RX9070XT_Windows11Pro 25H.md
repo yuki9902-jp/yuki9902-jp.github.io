@@ -38,6 +38,10 @@ tags: ['RADEON','RX9070XT','ComfyUI','ROCm','Windows11Pro']
 * **Above 4GB Decoding**
 * **Resizable BAR**
 
+以下は内蔵GPUとGPUの競合を避ける為の必須です。
+
+* **ノースブリッジ設定 - 統合グラフィックス : Disable**
+
 ---
 
 ## 3. インストール手順

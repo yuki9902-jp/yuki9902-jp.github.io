@@ -45,6 +45,10 @@ ROCm 10.1.0の要件、ディスプレイドライバーのバージョンはAMD
 - Avobe 4G Decoding : Enable
 - ReSizable BAR : Enable
 
+以下は内蔵GPUとGPUの競合を避ける為の必須です。
+
+- ノースブリッジ設定 - 統合グラフィックス : Disable
+
 以下はWHEA-Logger ID:18とCPU焼損対策です。 (OCと省電力機能を無効)
 
 - Global C State : Disable
