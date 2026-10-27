@@ -52,8 +52,8 @@ tags: ['AMD','RYZEN','TrueNAS Community']
 | :--: | :--: | :--: | :--: |
 | **Base OS** | Windows 11 | FreeBSD | Debian |
 | 構築難易度 | ◎ | × | ◎ |
-| 堅牢性 | ◎ | ◎ | ◎ |
-| セキュリティー | ◎ | △ | ○ |
+| 堅牢性 | ◎ | ◎ | ○ |
+| セキュリティー | △ | ◎ | ○ |
 | 運用性 | ◎ | × | ◎ |
 | **FileSystem** | 記憶域プール & NTFS / ReFS | ZFS | ZFS |
 | 堅牢性 | NTFS:× / ReFS:○ | ◎ | ◎ |
