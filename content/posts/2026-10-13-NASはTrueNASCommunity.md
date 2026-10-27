@@ -57,8 +57,8 @@ Windows11の記憶域スペースでライトキャッシュで使っていたSA
 | **OSの堅牢性** | ◎ | ◎ | ○ |
 | **セキュリティー** | △ | ◎ | ○ |
 | **OSの運用性** | ◎ | × | ◎ |
-| **FileSystem** | 記憶域プール<br />NTFS / ReFS | ZFS | ZFS |
-| **FSの堅牢性** | NTFS:×<br />ReFS:○ | ◎ | ◎ |
+| **FileSystem** | 記憶域プール (NTFS / ReFS) | ZFS | ZFS |
+| **FSの堅牢性** | NTFS:× / ReFS:○ | ◎ | ◎ |
 | **FSの運用性** | △ (PowerShell必須) | △ | ◎ |
 | **読み書き速度** | △ | ◎ | ◎ |
 
