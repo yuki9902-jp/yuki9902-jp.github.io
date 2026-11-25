@@ -1,0 +1,26 @@
+<script src="https://giscus.app/client.js"
+        data-repo="yuki9902-jp/yuki9902-jp.github.io"
+        data-repo-id="R_kgDORdEWhA"
+        data-category="General"
+        data-category-id="DIC_kwDORdEWhM4C4vPF"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ja"
+        crossorigin="anonymous"
+        async>
+</script>
+{{- $server := "" }}
+{{- if ge (int (index (split hugo.Version ".") 1)) "120" }}
+	{{- $server = hugo.IsServer }}
+{{- else }}
+	{{- $server = .Site.IsServer }}
+{{- end }}
+{{- if and .Site.Config.Services.Disqus.Shortname (index .Params "comments" | default "true") (not $server) }}
+<section class="comments">
+	{{ template "_internal/disqus.html" . }}
+</section>
+{{- end }}
